@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_hero_lirene"
+      },
+      {
+        "key": "MAX_HP",
+        "value": 5000,
+        "valueStr": null
+      },
+      {
+        "key": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+        "value": 0.01,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

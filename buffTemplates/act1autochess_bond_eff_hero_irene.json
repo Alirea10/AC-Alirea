@@ -1,0 +1,23 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_attributeType": "MAX_HP",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "MAX_HP",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_irene"
+}
