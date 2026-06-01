@@ -5,10 +5,10 @@
   ],
   "isGolden": true,
   "status": {
-    "charLevel": 60,
-    "equipLevel": 1,
+    "charLevel": 90,
+    "equipLevel": 3,
     "evolvePhase": "PHASE_2",
-    "favorPoint": 0,
+    "favorPoint": 200,
     "skillLevel": 7
   },
   "upgradeChessId": null,
