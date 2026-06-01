@@ -1,0 +1,44 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act2autochess_equip_acarm078_global_buff"
+      },
+      {
+        "key": "equip_chess_id",
+        "value": 0,
+        "valueStr": "chess_item_3_07_e"
+      },
+      {
+        "key": "lock_duration",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale",
+        "value": 0.5,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "halfidle_block_fixed_damage"
+      },
+      {
+        "key": "value",
+        "value": 300,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<售出时>进入下个休整期额外获得2资金",
+  "effectType": "SERVER_ONCE_GOLD",
+  "eventType": "SERVER_CHESS_SOLD",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<售出时>进入下个休整期额外获得2资金"
+}

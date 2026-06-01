@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 9,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "equip_destory_deployment_cnt_change"
+  }
+]

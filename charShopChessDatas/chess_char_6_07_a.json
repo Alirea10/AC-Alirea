@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_617_sharp2",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sharp2",
+  "backupTmplId": null,
+  "charId": "char_1019_siege2",
+  "chessId": "chess_char_6_07_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_siege2",
+  "goldenChessId": "chess_char_6_07_b",
+  "isHidden": false,
+  "shopLevelSortId": 7,
+  "tmplId": null
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<@ba.vup>地面干员</>被击倒时，有<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>概率立刻重新部署\n<在场<@ba.vup>3</>名不同【不屈】干员><@ba.vup>地面干员</>被击倒时使场上所有干员技力<@ba.vup>+5</>",
+  "effectId": "bondeffect_indom",
+  "effectName": "不屈",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

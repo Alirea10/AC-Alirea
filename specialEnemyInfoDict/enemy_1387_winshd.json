@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1381_winman_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1381_winman"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1387_winshd",
+  "type": "SPECIAL"
+}

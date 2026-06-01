@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场作战</>添加1只源石虫，但<@ba.vup>不获得</>资金",
+  "effectId": "enemyeffect_5_1",
+  "effectName": "源石虫·特训",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 0
+}

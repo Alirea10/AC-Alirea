@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你获得：休整期结束时若手牌区为空，我方所有干员无视敌人30%的防御力；若存在<@ba.vup>其他队友</>则他们也获得此效果",
+  "effectId": "allybuff_select_19",
+  "effectName": "锐利",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

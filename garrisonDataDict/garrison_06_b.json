@@ -1,0 +1,12 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [],
+  "charLevel": 0,
+  "description": "<进入战斗时>若部署了流形，其会复制战场上最左边靠下干员的部分属性值",
+  "effectType": "NONE",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "<进入战斗时>若部署了流形，其会复制战场上最左边靠下干员的部分属性值"
+}

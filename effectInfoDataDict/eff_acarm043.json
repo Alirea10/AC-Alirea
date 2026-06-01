@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+25%</>；首次受到致命伤害时生命值不低于<@ba.vup>1</>，持续8秒",
+  "effectId": "eff_acarm043",
+  "effectName": "坚固维式重锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

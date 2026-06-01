@@ -1,0 +1,46 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "raidShip",
+  "chessIdList": [
+    "chess_char_1_18_a",
+    "chess_char_2_09_a",
+    "chess_char_3_05_a",
+    "chess_char_3_12_a",
+    "chess_char_4_04_a",
+    "chess_char_4_16_a",
+    "chess_char_5_07_a",
+    "chess_char_6_15_a",
+    "chess_char_6_17_a",
+    "chess_char_1_18_b",
+    "chess_char_2_09_b",
+    "chess_char_3_05_b",
+    "chess_char_3_12_b",
+    "chess_char_4_04_b",
+    "chess_char_4_16_b",
+    "chess_char_5_07_b",
+    "chess_char_6_15_b",
+    "chess_char_6_17_b",
+    "chess_ursus_4_27_a",
+    "chess_ursus_4_27_b"
+  ],
+  "desc": "【突袭】干员<@ba.vup>10</>秒内未进行攻击或技能就绪时，若范围内没有敌人，则保留技力立即<@ba.vup>再部署至一名地面敌人周围</>，期间<@ba.vup>攻击力</>和<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>50</>层>所有干员攻击速度<@ba.vup>+50</>",
+  "descParamBaseList": [
+    "base_atk"
+  ],
+  "descParamPerStackList": [
+    "atk_per_stack"
+  ],
+  "effectId": "bondeffect_raid",
+  "iconId": "icon_raidShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "突袭",
+  "noStack": false,
+  "weight": 10
+}

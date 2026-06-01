@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "携带者获得额外盟约（由另一件携带装备而定）\\n<@ba.acrem>具体对应关系可在模拟中查看本装备天赋栏</>",
+  "effectId": "eff_acgarm073",
+  "effectName": "变形同构体",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

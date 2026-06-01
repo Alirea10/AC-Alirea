@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "give_garrison_to_front",
+  "blackboard": [
+    {
+      "key": "check_bond_id",
+      "value": 0,
+      "valueStr": "siracusaShip"
+    },
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_118_a"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使身前一格【叙拉古】干员获得特质“击倒敌人时使自身已激活的所有盟约层数<@ba.vup>+2</>”",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗开始时>使身前一格【叙拉古】干员获得特质“击倒敌人时使自身已激活的所有盟约层数<@ba.vup>+2</>”"
+}

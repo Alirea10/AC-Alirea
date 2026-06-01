@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "sargonShip"
+      },
+      {
+        "key": "cnt",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "price",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "lvlist",
+        "value": 0,
+        "valueStr": "2,4,6"
+      }
+    ],
+    "countType": "NONE",
+    "key": "up_shop_next_refresh_must_present_bond_char"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1197_sfshu"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1195_sfyin"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1199_sfjin",
+  "type": "TIMES"
+}

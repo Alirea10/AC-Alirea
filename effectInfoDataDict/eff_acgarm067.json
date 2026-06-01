@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+50%</>，自身造成物理和法术伤害时，伤害类型转化为<$ba.weaknessatk>弱点伤害</>",
+  "effectId": "eff_acgarm067",
+  "effectName": "双模机械臂",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

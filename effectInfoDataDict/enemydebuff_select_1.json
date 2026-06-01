@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_enemy_debuff",
+  "effectDesc": "全部敌人获得减益效果：攻击力-5%",
+  "effectId": "enemydebuff_select_1",
+  "effectName": "排斥：乏力",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_171_bldsk",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_bldsk",
+  "backupTmplId": null,
+  "charId": "char_171_bldsk",
+  "chessId": "chess_char_4_26_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_bldsk",
+  "goldenChessId": "chess_char_4_26_b",
+  "isHidden": false,
+  "shopLevelSortId": 26,
+  "tmplId": null
+}

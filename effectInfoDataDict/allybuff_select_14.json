@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你获得：开始作战时若场上至少有一行存在3名干员，所有干员的再部署时间-50%；若存在<@ba.vup>其他队友</>则他们也获得此效果",
+  "effectId": "allybuff_select_14",
+  "effectName": "征召",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

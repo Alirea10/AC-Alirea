@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1288_duskls"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1288_duskls"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1288_duskls_2",
+  "type": "TIMES"
+}

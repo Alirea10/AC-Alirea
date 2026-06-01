@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4042_lumen",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_lumen",
+  "backupTmplId": null,
+  "charId": "char_4042_lumen",
+  "chessId": "chess_char_6_14_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_lumen",
+  "goldenChessId": "chess_char_6_14_b",
+  "isHidden": false,
+  "shopLevelSortId": 14,
+  "tmplId": null
+}

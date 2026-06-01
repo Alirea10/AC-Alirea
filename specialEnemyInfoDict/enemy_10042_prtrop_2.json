@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_10042_prtrop"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10043_sailor"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10042_prtrop_2",
+  "type": "INVISIBLE"
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_601_cguard",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_222_bpipe",
+  "chessId": "chess_char_4_07_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_bpipe",
+  "goldenChessId": "chess_char_4_07_b",
+  "isHidden": false,
+  "shopLevelSortId": 7,
+  "tmplId": null
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_127_estell",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_estell",
+  "backupTmplId": null,
+  "charId": "char_127_estell",
+  "chessId": "chess_char_1_12_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_estell",
+  "goldenChessId": "chess_char_1_12_b",
+  "isHidden": false,
+  "shopLevelSortId": 12,
+  "tmplId": null
+}

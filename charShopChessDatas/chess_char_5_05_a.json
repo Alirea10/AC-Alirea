@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_602_cdfend",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4145_ulpia",
+  "chessId": "chess_char_5_05_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_ulpia",
+  "goldenChessId": "chess_char_5_05_b",
+  "isHidden": false,
+  "shopLevelSortId": 5,
+  "tmplId": null
+}

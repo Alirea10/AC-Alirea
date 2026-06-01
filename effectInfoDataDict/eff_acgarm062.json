@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击时有20%概率对目标施加1.5秒的<$ba.cold>寒冷</>",
+  "effectId": "eff_acgarm062",
+  "effectName": "谢拉格不融冰",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

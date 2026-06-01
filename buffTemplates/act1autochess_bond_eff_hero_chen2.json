@@ -1,0 +1,23 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_applyWayFilter": "NONE",
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "real_ex_damage_scale",
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_filterDamageType": false,
+        "_filterModifierKey": false,
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_modifierKey": "",
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_chen2"
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【命结之秘】战斗中前3个被击倒的干员立刻复活！",
+  "effectId": "aceffect_band_48",
+  "effectName": "命结之秘",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

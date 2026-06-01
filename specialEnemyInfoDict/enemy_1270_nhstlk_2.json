@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1267_nhpbr_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1267_nhpbr"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 8,
+  "specialEnemyKey": "enemy_1270_nhstlk_2",
+  "type": "DOT"
+}

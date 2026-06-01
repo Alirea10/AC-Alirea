@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【优等生】第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于调和盟约：可以使部分盟约人数计数+1",
+  "effectId": "aceffect_band_42",
+  "effectName": "优等生",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

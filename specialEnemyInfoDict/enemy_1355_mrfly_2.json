@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1017_defdrn"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1005_yokai"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 8,
+  "specialEnemyKey": "enemy_1355_mrfly_2",
+  "type": "FLY"
+}

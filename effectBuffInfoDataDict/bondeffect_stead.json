@@ -1,0 +1,58 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_stead"
+      },
+      {
+        "key": "base_max_hp",
+        "value": 0.25,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp_per_stack",
+        "value": 0.012,
+        "valueStr": null
+      },
+      {
+        "key": "damage_resistance",
+        "value": 0.4,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "cd_duration",
+        "value": 0.2,
+        "valueStr": null
+      },
+      {
+        "key": "weak[limit]",
+        "value": 5,
+        "valueStr": null
+      },
+      {
+        "key": "damage_scale",
+        "value": 1.4,
+        "valueStr": null
+      },
+      {
+        "key": "base_damage_value",
+        "value": 850,
+        "valueStr": null
+      },
+      {
+        "key": "damage_value_per_stack",
+        "value": 10,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

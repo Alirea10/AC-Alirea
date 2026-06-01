@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_611_acnipe",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acnipe",
+  "backupTmplId": null,
+  "charId": "char_4193_lemuen",
+  "chessId": "chess_char_6_01_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_lemuen",
+  "goldenChessId": "chess_char_6_01_b",
+  "isHidden": false,
+  "shopLevelSortId": 1,
+  "tmplId": null
+}

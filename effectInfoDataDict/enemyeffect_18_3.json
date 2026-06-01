@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身接下来<@ba.vup>两场作战</>添加1只高能源石虫，将其击倒者获得<@ba.vup>1</>资金",
+  "effectId": "enemyeffect_18_3",
+  "effectName": "悬赏·特异I",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

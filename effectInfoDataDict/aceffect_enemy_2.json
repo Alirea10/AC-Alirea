@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "所有敌人最大生命值<@ba.vup>+8%</>",
+  "effectId": "aceffect_enemy_2",
+  "effectName": "补给线",
+  "effectType": "ENEMY",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，并随机获得<@ba.vup>1~6</>资金",
+  "effectId": "eff_acarm123",
+  "effectName": "骑士储蓄罐",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

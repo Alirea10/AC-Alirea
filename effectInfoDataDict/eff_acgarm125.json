@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "携带者每秒流失<@ba.vdown>60</>点生命值，攻击力<@ba.vup>+60%</>",
+  "effectId": "eff_acgarm125",
+  "effectName": "源石溶剂",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

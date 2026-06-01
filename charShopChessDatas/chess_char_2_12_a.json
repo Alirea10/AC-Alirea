@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_237_gravel",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_gravel",
+  "backupTmplId": null,
+  "charId": "char_237_gravel",
+  "chessId": "chess_char_2_12_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_gravel",
+  "goldenChessId": "chess_char_2_12_b",
+  "isHidden": false,
+  "shopLevelSortId": 12,
+  "tmplId": null
+}

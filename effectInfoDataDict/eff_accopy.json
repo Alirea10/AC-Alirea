@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "拖拽至场上使用后，获得范围内的干员（包括精锐状态和装备！）",
+  "effectId": "eff_accopy",
+  "effectName": "画卷",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 2,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_layer_gain_coin"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "layer1",
+        "value": 80,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "visiShip"
+      },
+      {
+        "key": "discount",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "layer2",
+        "value": 150,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_multi_layer_char_goods_price_bond_discount"
+  }
+]

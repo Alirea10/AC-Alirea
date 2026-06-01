@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1042_frostd"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1005_yokai_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1041_lazerd_2",
+  "type": "FLY"
+}

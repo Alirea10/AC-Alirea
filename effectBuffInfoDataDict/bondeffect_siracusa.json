@@ -1,0 +1,68 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act2autochess_bond_eff_siracusa"
+      },
+      {
+        "key": "base_duration",
+        "value": 32,
+        "valueStr": null
+      },
+      {
+        "key": "duration_per_stack",
+        "value": 0.4,
+        "valueStr": null
+      },
+      {
+        "key": "base_attack_speed",
+        "value": 25,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed_per_stack",
+        "value": 0.8,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "ex_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "end_duration",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.03,
+        "valueStr": null
+      },
+      {
+        "key": "base_damage",
+        "value": 5000,
+        "valueStr": null
+      },
+      {
+        "key": "damage_per_stack",
+        "value": 50,
+        "valueStr": null
+      },
+      {
+        "key": "fear",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

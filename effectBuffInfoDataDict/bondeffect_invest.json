@@ -1,0 +1,44 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "event",
+        "value": 0,
+        "valueStr": "SERVER_GAIN"
+      },
+      {
+        "key": "count",
+        "value": 2,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_layer_char_garrison_bonus"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 100,
+        "valueStr": null
+      },
+      {
+        "key": "event",
+        "value": 0,
+        "valueStr": "SERVER_GAIN"
+      },
+      {
+        "key": "count",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_layer_char_garrison_bonus"
+  }
+]

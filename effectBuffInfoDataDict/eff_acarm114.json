@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "use_equip_reward_char_chess_with_same_bond"
+  }
+]

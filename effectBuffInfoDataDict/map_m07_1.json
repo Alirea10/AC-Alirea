@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "trap_218_fttree#1",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_218_fttree#2",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_218_fttree#3",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_218_fttree#4",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

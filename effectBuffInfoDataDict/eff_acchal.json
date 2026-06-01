@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "choice_event",
+        "value": 0,
+        "valueStr": "hunter_band_1"
+      }
+    ],
+    "countType": "NONE",
+    "key": "trap_create_self_choice"
+  }
+]

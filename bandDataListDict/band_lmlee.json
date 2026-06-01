@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【得闲饮茶】第1、2回合的资金暂存至第3回合发放；第3回合进入休整期时，获得2、4阶随机干员各1名",
+  "bandId": "band_lmlee",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_46",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 8,
+  "totalHp": 27,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

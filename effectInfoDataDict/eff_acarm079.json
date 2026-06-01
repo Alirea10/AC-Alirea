@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击速度<@ba.vup>+35</>；若携带者为【维多利亚】盟约干员，该干员获得当前场上所有维式重锤特殊效果\\n<@ba.acrem>若该【维多利亚】盟约干员同时装备“维式重锤”系列装备，该“维式重锤”装备特殊效果获得强化（效果变为2倍）</>",
+  "effectId": "eff_acarm079",
+  "effectName": "蒸汽之心",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

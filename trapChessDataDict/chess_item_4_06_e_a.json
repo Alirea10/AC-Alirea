@@ -1,0 +1,20 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1065_acarm065",
+  "chessId": "chess_item_4_06_e_a",
+  "effectId": "eff_acarm065",
+  "giveBondId": null,
+  "givePowerId": null,
+  "isGolden": false,
+  "itemType": "EQUIP",
+  "purchasePrice": 2,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 0,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": -1,
+  "upgradeChessId": "chess_item_4_06_e_b",
+  "upgradeNum": 2
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "激活时可以使场上核心盟约的<@ba.vup>激活人数+1</>，【调和】干员<@ba.vup>享受</>已激活的核心盟约的效果",
+  "effectId": "bondeffect_mani",
+  "effectName": "调和",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

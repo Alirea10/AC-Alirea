@@ -1,0 +1,10 @@
+{
+  "bloodPoint": 675000,
+  "bloodPointAbyss": 3950000,
+  "bloodPointHard": 2800000,
+  "bloodPointNormal": 900000,
+  "bossId": "boss_9",
+  "isHidingBoss": true,
+  "sortId": 9,
+  "weight": 40
+}

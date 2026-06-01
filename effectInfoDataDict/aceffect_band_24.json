@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【通关奖励】每使用20资金，获得一名不高于当前调度中心等级的随机干员",
+  "effectId": "aceffect_band_24",
+  "effectName": "通关奖励",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

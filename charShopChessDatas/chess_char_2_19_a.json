@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4151_tinman",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_tinman",
+  "backupTmplId": null,
+  "charId": "char_4151_tinman",
+  "chessId": "chess_char_2_19_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_tinman",
+  "goldenChessId": "chess_char_2_19_b",
+  "isHidden": false,
+  "shopLevelSortId": 19,
+  "tmplId": null
+}

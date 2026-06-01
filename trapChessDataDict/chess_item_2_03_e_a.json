@@ -1,0 +1,20 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1045_acarm045",
+  "chessId": "chess_item_2_03_e_a",
+  "effectId": "eff_acarm045",
+  "giveBondId": "victoriaShip",
+  "givePowerId": null,
+  "isGolden": false,
+  "itemType": "EQUIP",
+  "purchasePrice": 2,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 0,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": -1,
+  "upgradeChessId": "chess_item_2_03_e_b",
+  "upgradeNum": 2
+}

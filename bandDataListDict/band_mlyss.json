@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【至纯凝结】在第1回合开始时获得一个进阶<博士投影>\\n<@ba.acrem>进阶<博士投影>：任意干员可装备，立即使该干员晋升为精锐干员</>",
+  "bandId": "band_mlyss",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_55",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 34,
+  "totalHp": 28,
+  "updateTime": 1774598400,
+  "victorCount": 3
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，之后每回合开始时额外获得<@ba.vup>1</>资金",
+  "effectId": "eff_acarm113",
+  "effectName": "精打细算玩偶",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "trap_1106_achplat#003",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#004",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#103",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#104",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#203",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#204",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#303",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#304",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

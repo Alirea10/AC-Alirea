@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只转译基底·α，将其击倒者获得<@ba.vup>1</>资金",
+  "effectId": "enemyeffect_16_12",
+  "effectName": "悬赏·特异I",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

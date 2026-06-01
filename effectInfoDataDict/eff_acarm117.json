@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+40%</>，若与“天马之盔”一起装备，造成伤害时额外造成<@ba.vup>30%</>的真实伤害",
+  "effectId": "eff_acarm117",
+  "effectName": "天马之枪",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

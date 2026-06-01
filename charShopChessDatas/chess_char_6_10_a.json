@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_617_sharp2",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sharp2",
+  "backupTmplId": null,
+  "charId": "char_4146_nymph",
+  "chessId": "chess_char_6_10_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_nymph",
+  "goldenChessId": "chess_char_6_10_b",
+  "isHidden": true,
+  "shopLevelSortId": 10,
+  "tmplId": null
+}

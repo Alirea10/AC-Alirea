@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4036_forcer",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_forcer",
+  "backupTmplId": null,
+  "charId": "char_4036_forcer",
+  "chessId": "chess_char_3_07_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_forcer",
+  "goldenChessId": "chess_char_3_07_b",
+  "isHidden": true,
+  "shopLevelSortId": 7,
+  "tmplId": null
+}

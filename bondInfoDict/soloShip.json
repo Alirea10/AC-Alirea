@@ -1,0 +1,37 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_downward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1",
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "soloShip",
+  "chessIdList": [
+    "chess_char_1_08_a",
+    "chess_char_3_17_a",
+    "chess_char_4_09_a",
+    "chess_char_4_18_a",
+    "chess_char_5_11_a",
+    "chess_char_1_08_b",
+    "chess_char_3_17_b",
+    "chess_char_4_09_b",
+    "chess_char_4_18_b",
+    "chess_char_5_11_b",
+    "chess_rainbow_6_21_b",
+    "chess_rainbow_6_21_a",
+    "chess_char_5_24_b",
+    "chess_char_5_24_a"
+  ],
+  "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</>（在场2名及以上【独行】干员时失效）",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_solo",
+  "iconId": "icon_soloShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "独行",
+  "noStack": true,
+  "weight": 10
+}

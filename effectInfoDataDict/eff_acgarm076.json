@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+60%</>；若携带者为【拉特兰】盟约干员，该干员每次攻击时，有35%概率额外对攻击范围内一名敌人发射子弹造成<@ba.vup>150%</>攻击力的物理伤害\\n<@ba.acrem>若该【拉特兰】盟约干员同时装备“拉特兰桥夹”，子弹伤害改为<@ba.vup>300%</>攻击力</>",
+  "effectId": "eff_acgarm076",
+  "effectName": "铳骑之威",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

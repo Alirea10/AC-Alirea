@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【九流之缘】偶数回合的休整期开始时，随机获得调度中心的一名干员",
+  "bandId": "band_makiri",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_56",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 35,
+  "totalHp": 24,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

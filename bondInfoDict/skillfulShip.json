@@ -1,0 +1,52 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "skillfulShip",
+  "chessIdList": [
+    "chess_char_1_14_a",
+    "chess_char_2_04_a",
+    "chess_char_2_13_a",
+    "chess_char_3_02_a",
+    "chess_char_3_13_a",
+    "chess_char_3_21_a",
+    "chess_char_4_11_a",
+    "chess_char_4_13_a",
+    "chess_char_4_21_a",
+    "chess_char_5_06_a",
+    "chess_char_5_16_a",
+    "chess_char_6_16_a",
+    "chess_char_1_14_b",
+    "chess_char_2_04_b",
+    "chess_char_2_13_b",
+    "chess_char_3_02_b",
+    "chess_char_3_13_b",
+    "chess_char_3_21_b",
+    "chess_char_4_11_b",
+    "chess_char_4_13_b",
+    "chess_char_4_21_b",
+    "chess_char_5_06_b",
+    "chess_char_5_16_b",
+    "chess_char_6_16_b",
+    "chess_rainbow_3_22_b",
+    "chess_rainbow_3_22_a"
+  ],
+  "desc": "【灵巧】干员及周围4格干员<@ba.vup>攻击速度</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>40</>层>生效范围变为【灵巧】干员周围8格",
+  "descParamBaseList": [
+    "base_attack_speed"
+  ],
+  "descParamPerStackList": [
+    "attack_speed_per_stack"
+  ],
+  "effectId": "bondeffect_skillful",
+  "iconId": "icon_skillfulShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "灵巧",
+  "noStack": false,
+  "weight": 10
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm079_global_buff"
+      },
+      {
+        "key": "hammer_1",
+        "value": 0,
+        "valueStr": "chess_item_4_09_e"
+      },
+      {
+        "key": "hammer_2",
+        "value": 0,
+        "valueStr": "chess_item_3_09_e"
+      },
+      {
+        "key": "hammer_3",
+        "value": 0,
+        "valueStr": "chess_item_3_10_e"
+      },
+      {
+        "key": "hammer_4",
+        "value": 0,
+        "valueStr": "chess_item_2_03_e"
+      },
+      {
+        "key": "damage_scale",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "undeadable_duration",
+        "value": 8,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed",
+        "value": 30,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "disarmed_duration",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "big_hammer",
+        "value": 0,
+        "valueStr": "none"
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "attr_common_global_buff"
+      },
+      {
+        "key": "attack_speed",
+        "value": 55,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

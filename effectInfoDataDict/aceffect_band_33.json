@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【崇高牺牲】<阿戈尔>干员被击倒时，提供等同于该干员等阶的<阿戈尔>盟约层数\\n<@ba.vdown>在<阿戈尔>部分干员缺席时体验可能不完整</>",
+  "effectId": "aceffect_band_33",
+  "effectName": "崇高牺牲",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

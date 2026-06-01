@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，立即特殊刷新一次调度中心，出现三名与该干员有相同盟约的干员，免费获取其中一名！（不高于当前调度中心等级）",
+  "effectId": "eff_acgarm075",
+  "effectName": "寻呼模块",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

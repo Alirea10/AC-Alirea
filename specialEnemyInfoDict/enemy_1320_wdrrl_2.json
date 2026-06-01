@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1010_demon"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1422_lrsldr_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1320_wdrrl_2",
+  "type": "SPECIAL"
+}

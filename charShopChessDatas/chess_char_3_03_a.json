@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_308_swire",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_swire",
+  "backupTmplId": null,
+  "charId": "char_308_swire",
+  "chessId": "chess_char_3_03_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_swire",
+  "goldenChessId": "chess_char_3_03_b",
+  "isHidden": false,
+  "shopLevelSortId": 3,
+  "tmplId": null
+}

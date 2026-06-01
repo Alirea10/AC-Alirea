@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1252_lysytb_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1251_lysyta_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1329_cbshld_2",
+  "type": "SPECIAL"
+}

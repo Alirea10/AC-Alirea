@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "战斗结束后，装备者替换为高一阶的随机干员",
+  "effectId": "eff_acgarm072",
+  "effectName": "突变细胞",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

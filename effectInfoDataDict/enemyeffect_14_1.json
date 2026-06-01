@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只隐形弩手，若各自行动阶段就达成完美作战，获得<@ba.vup>1</>资金",
+  "effectId": "enemyeffect_14_1",
+  "effectName": "战术特训·隐匿I",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

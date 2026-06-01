@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_chess_glady"
+    },
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_same_row"
+    },
+    {
+      "key": "check_count",
+      "value": 3,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>若同一行有3名干员，获得1个斯卡蒂、幽灵鲨或深巡",
+  "effectType": "SERVER_POOL_CHAR",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<进入休整期时>若同一行有3名干员，获得1个斯卡蒂、幽灵鲨或深巡"
+}

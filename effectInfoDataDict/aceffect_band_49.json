@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【“神秘顾客”】从第5回合起，你和队友遭遇的部分敌人可能会替换为<鸭爵><高普尼克><流泪小子><圆仔>，击倒这些敌人者获得1资金奖励（包括联防阶段）",
+  "effectId": "aceffect_band_49",
+  "effectName": "“神秘顾客”",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

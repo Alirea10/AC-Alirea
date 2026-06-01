@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【药枚实验】战斗开始时，使最右边的所有我方单位获得效果：每次攻击时有25%的概率获得1层护盾（最多1层）",
+  "effectId": "aceffect_band_37",
+  "effectName": "药枚实验",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

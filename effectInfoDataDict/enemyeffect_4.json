@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "之后的<@ba.vdown>每场</>作战添加1只山海众头目，将其击倒者获得<@ba.vup>1</>资金",
+  "effectId": "enemyeffect_4",
+  "effectName": "山海众头目·多轮悬赏",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

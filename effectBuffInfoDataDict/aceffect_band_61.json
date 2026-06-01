@@ -1,0 +1,114 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "common_condition",
+        "value": 0,
+        "valueStr": "condition_golden_chess_le"
+      },
+      {
+        "key": "cnt",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#1",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#2_multi_only",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#3",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#4_multi_only",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#1",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#2_multi_only",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#3",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#4_multi_only",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "common_condition",
+        "value": 0,
+        "valueStr": "condition_golden_chess_ge"
+      },
+      {
+        "key": "cnt",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#1",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#2_multi_only",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#3",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_613_acmedc#4_multi_only",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#1",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#2_multi_only",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#3",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "char_605_cmedic#4_multi_only",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

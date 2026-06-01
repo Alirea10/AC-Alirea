@@ -1,0 +1,48 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "kazimierzShip",
+  "chessIdList": [
+    "chess_char_1_19_a",
+    "chess_char_2_12_a",
+    "chess_char_2_18_a",
+    "chess_char_3_12_a",
+    "chess_char_3_17_a",
+    "chess_char_4_19_a",
+    "chess_char_4_20_a",
+    "chess_char_5_19_a",
+    "chess_char_6_17_a",
+    "chess_char_6_19_a",
+    "chess_char_1_19_b",
+    "chess_char_2_12_b",
+    "chess_char_2_18_b",
+    "chess_char_3_12_b",
+    "chess_char_3_17_b",
+    "chess_char_4_19_b",
+    "chess_char_4_20_b",
+    "chess_char_5_19_b",
+    "chess_char_6_17_b",
+    "chess_char_6_19_b",
+    "chess_hero_6_26_b",
+    "chess_hero_6_26_a"
+  ],
+  "desc": "每次有干员部署时，【卡西米尔】干员攻击力<@ba.vup>+20%</>持续至战斗结束<@autochess.gray>（上限受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【卡西米尔】干员>【卡西米尔】干员阻挡敌人时每<@ba.vup>2</>秒对周围敌人造成<@ba.vup>120%</>攻击力真实伤害和<@ba.vup>0.1</>秒晕眩，未阻挡敌人时攻击附带<@ba.vup>30%</>攻击力的真实伤害",
+  "descParamBaseList": [
+    "base_max_atk_when_born"
+  ],
+  "descParamPerStackList": [
+    "max_atk_when_born_per_stack"
+  ],
+  "effectId": "bondeffect_kazimierz",
+  "iconId": "icon_kazimierzShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "卡西米尔",
+  "noStack": false,
+  "weight": 10
+}

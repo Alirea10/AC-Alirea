@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_279_excu",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_excu",
+  "backupTmplId": null,
+  "charId": "char_279_excu",
+  "chessId": "chess_char_2_01_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_excu",
+  "goldenChessId": "chess_char_2_01_b",
+  "isHidden": false,
+  "shopLevelSortId": 1,
+  "tmplId": null
+}

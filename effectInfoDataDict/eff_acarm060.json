@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "阻挡敌人时，受到来自非自身阻挡单位的伤害降低<@ba.vup>40%</>",
+  "effectId": "eff_acarm060",
+  "effectName": "防暴盾",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

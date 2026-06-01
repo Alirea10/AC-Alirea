@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【食腐之蝶】我方干员被击倒时，场上剩余我方单位攻击力+20%（最大200%，持续至该干员被击倒或战斗结束）",
+  "effectId": "aceffect_band_35",
+  "effectName": "食腐之蝶",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

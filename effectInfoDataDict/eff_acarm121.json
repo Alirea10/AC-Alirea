@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击速度<@ba.vup>+15</>，携带者部署方向左右两侧的我方干员攻击速度<@ba.vup>+10</>",
+  "effectId": "eff_acarm121",
+  "effectName": "叙拉古正装",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

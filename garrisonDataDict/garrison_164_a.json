@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_attrByBond"
+    },
+    {
+      "key": "divide_num",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "rainbowShip,swiftShip"
+    },
+    {
+      "key": "atk",
+      "value": 0.01,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "【彩虹小队】【迅捷】每叠加三层，本干员攻击力+1%",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【彩虹小队】【迅捷】每叠加三层，本干员攻击力+1%"
+}

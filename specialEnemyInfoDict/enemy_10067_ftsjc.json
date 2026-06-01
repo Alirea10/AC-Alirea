@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_10067_ftsjc"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10065_ftzlc"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 8,
+  "specialEnemyKey": "enemy_10067_ftsjc",
+  "type": "ELEMENT"
+}

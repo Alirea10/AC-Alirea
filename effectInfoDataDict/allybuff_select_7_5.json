@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_player_buff",
+  "effectDesc": "<@ba.vup>你</>获得1名卡西米尔盟约的随机干员棋子",
+  "effectId": "allybuff_select_7_5",
+  "effectName": "卡西米尔驰援",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

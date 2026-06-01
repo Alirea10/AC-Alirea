@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_612_accast",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_accast",
+  "backupTmplId": null,
+  "charId": "char_391_rosmon",
+  "chessId": "chess_char_6_12_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_rosmon",
+  "goldenChessId": "chess_char_6_12_b",
+  "isHidden": false,
+  "shopLevelSortId": 12,
+  "tmplId": null
+}

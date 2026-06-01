@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "char_attribute_mul",
+  "blackboard": [
+    {
+      "key": "atk",
+      "value": 1.2,
+      "valueStr": null
+    },
+    {
+      "key": "max_hp",
+      "value": 1.2,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "攻击力和生命值+<@ba.vup>20%</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "攻击力和生命值+<@ba.vup>20%</>"
+}

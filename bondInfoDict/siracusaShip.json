@@ -1,0 +1,54 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "siracusaShip",
+  "chessIdList": [
+    "chess_char_1_07_a",
+    "chess_char_2_16_a",
+    "chess_char_3_15_a",
+    "chess_char_3_18_a",
+    "chess_char_3_19_a",
+    "chess_char_4_10_a",
+    "chess_char_4_16_a",
+    "chess_char_5_10_a",
+    "chess_char_5_20_a",
+    "chess_char_6_18_a",
+    "chess_char_1_07_b",
+    "chess_char_2_16_b",
+    "chess_char_3_15_b",
+    "chess_char_3_18_b",
+    "chess_char_3_19_b",
+    "chess_char_4_10_b",
+    "chess_char_4_16_b",
+    "chess_char_5_10_b",
+    "chess_char_5_20_b",
+    "chess_char_6_18_b",
+    "chess_char_1_08_a",
+    "chess_char_1_08_b",
+    "chess_hero_6_24_b",
+    "chess_hero_6_24_a"
+  ],
+  "desc": "【叙拉古】干员部署后<@ba.vup>攻击速度</>提升，持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【叙拉古】干员>【叙拉古】干员部署后进入等时长的隐匿状态，【叙拉古】干员隐匿状态下和脱离隐匿<@ba.vup>10</>秒内对敌人攻击时有<@ba.vup>3%</>的概率造成一定真实伤害<@autochess.gray>（受层数影响）</>并<@ba.vup>恐惧</>3秒",
+  "descParamBaseList": [
+    "base_attack_speed",
+    "base_duration",
+    "base_damage"
+  ],
+  "descParamPerStackList": [
+    "attack_speed_per_stack",
+    "duration_per_stack",
+    "damage_per_stack"
+  ],
+  "effectId": "bondeffect_siracusa",
+  "iconId": "icon_siracusaShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "叙拉古",
+  "noStack": false,
+  "weight": 10
+}

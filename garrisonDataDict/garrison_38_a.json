@@ -1,0 +1,43 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfkillenemy"
+    },
+    {
+      "key": "check_cnt",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "egirShip,steadShip,raidShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 1,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>每击倒2名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>每击倒2名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>"
+}

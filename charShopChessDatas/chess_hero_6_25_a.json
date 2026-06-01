@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_hero_6_25_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_1013_chen2",
+  "chessId": "chess_hero_6_25_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_hero_6_25_b",
+  "isHidden": false,
+  "shopLevelSortId": 25,
+  "tmplId": null
+}

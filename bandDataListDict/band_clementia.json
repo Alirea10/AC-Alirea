@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【崇高牺牲】<阿戈尔>干员被击倒时，提供等同于该干员等阶的<阿戈尔>盟约层数\\n<@ba.vdown>在<阿戈尔>部分干员缺席时体验可能不完整</>",
+  "bandId": "band_clementia",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_33",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 14,
+  "totalHp": 26,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

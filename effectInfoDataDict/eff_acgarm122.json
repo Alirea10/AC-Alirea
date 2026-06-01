@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "技力自然回复速度<@ba.vup>+0.35</>/秒；若携带者为【叙拉古】盟约干员，该干员处于隐匿状态时，攻击力逐渐提升至<@ba.vup>200%</>，持续至隐匿结束后首次造成伤害或干员离场\\n<@ba.acrem>若该【叙拉古】盟约干员同时装备“叙拉古正装”，该叙拉古干员失去隐匿后首次造成伤害时额外造成<@ba.vup>800%</>攻击力的真实伤害</>",
+  "effectId": "eff_acgarm122",
+  "effectName": "家族徽章",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

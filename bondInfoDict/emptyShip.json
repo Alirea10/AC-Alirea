@@ -1,0 +1,39 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "emptyShip",
+  "chessIdList": [
+    "chess_char_1_15_a",
+    "chess_char_2_14_a",
+    "chess_char_3_10_a",
+    "chess_char_4_08_a",
+    "chess_char_4_25_a",
+    "chess_char_5_09_a",
+    "chess_char_5_10_a",
+    "chess_char_6_12_a",
+    "chess_char_1_15_b",
+    "chess_char_2_14_b",
+    "chess_char_3_10_b",
+    "chess_char_4_08_b",
+    "chess_char_4_25_b",
+    "chess_char_5_09_b",
+    "chess_char_5_10_b",
+    "chess_char_6_12_b",
+    "chess_hero_6_24_b"
+  ],
+  "desc": "所有干员受到的物理和法术伤害<@ba.vup>-20%</>，【协防干员】伤害提升至<@ba.vup>120%</>，精锐【协防】干员造成伤害提升至<@ba.vup>140%</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_empty",
+  "iconId": "icon_emptyShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "协防干员",
+  "noStack": true,
+  "weight": 0
+}

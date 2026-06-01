@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_612_accast",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_accast",
+  "backupTmplId": null,
+  "charId": "char_1040_blaze2",
+  "chessId": "chess_char_5_03_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_blaze2",
+  "goldenChessId": "chess_char_5_03_b",
+  "isHidden": false,
+  "shopLevelSortId": 3,
+  "tmplId": null
+}

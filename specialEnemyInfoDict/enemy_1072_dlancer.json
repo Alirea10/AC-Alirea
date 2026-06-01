@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1010_demon_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1071_dftman"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1072_dlancer",
+  "type": "SPECIAL"
+}

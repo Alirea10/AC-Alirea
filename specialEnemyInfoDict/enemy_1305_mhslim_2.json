@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1305_mhslim_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1305_mhslim"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1305_mhslim_2",
+  "type": "ELEMENT"
+}

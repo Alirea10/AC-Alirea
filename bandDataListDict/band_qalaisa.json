@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【食腐之蝶】我方干员被击倒时，场上剩余我方单位攻击力+20%（最大200%，持续至该干员被击倒或战斗结束）",
+  "bandId": "band_qalaisa",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_35",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 23,
+  "totalHp": 26,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

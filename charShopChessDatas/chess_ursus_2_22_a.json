@@ -1,0 +1,17 @@
+{
+  "backupCharId": null,
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4224_turdus",
+  "chessId": "chess_ursus_2_22_a",
+  "chessLevel": 2,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_ursus_2_22_b",
+  "isHidden": false,
+  "shopLevelSortId": 22,
+  "tmplId": null
+}

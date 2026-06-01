@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【文火慢炖】第8回合开始时，若仅激活了1个盟约，使其增加36层；否则使所有已激活盟约增加12层",
+  "bandId": "band_yu",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_50",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 19,
+  "totalHp": 27,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

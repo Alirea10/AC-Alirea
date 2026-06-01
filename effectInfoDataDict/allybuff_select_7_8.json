@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_player_buff",
+  "effectDesc": "<@ba.vup>你</>获得1名阿戈尔盟约的随机干员棋子",
+  "effectId": "allybuff_select_7_8",
+  "effectName": "阿戈尔驰援",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

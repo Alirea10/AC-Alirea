@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只灼藤，将其击倒者获得<@ba.vup>2</>资金",
+  "effectId": "enemyeffect_12_7",
+  "effectName": "悬赏·损伤II",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 2
+}

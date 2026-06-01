@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_602_cdfend",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_311_mudrok",
+  "chessId": "chess_char_4_18_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_mudrok",
+  "goldenChessId": "chess_char_4_18_b",
+  "isHidden": false,
+  "shopLevelSortId": 18,
+  "tmplId": null
+}

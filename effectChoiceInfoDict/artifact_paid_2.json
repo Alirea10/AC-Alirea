@@ -1,0 +1,8 @@
+{
+  "choiceEventId": "artifact_paid_2",
+  "choiceType": "EQUIP_FREE",
+  "desc": "无需消耗资金，获得装备补给。",
+  "effectType": "EQUIP",
+  "name": "机密商店",
+  "typeTxtColor": "#35d8b4"
+}

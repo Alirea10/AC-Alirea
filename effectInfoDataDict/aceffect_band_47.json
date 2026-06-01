@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【私募基金】在第1、4、7、10回合进入休整期时获得1个<骑士储蓄罐>\\n<@ba.acrem><骑士储蓄罐>：装备时随机获得1~6资金并销毁</>",
+  "effectId": "aceffect_band_47",
+  "effectName": "私募基金",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

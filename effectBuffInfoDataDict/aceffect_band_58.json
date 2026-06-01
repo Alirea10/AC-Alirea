@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "kazimierzShip"
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "max_count",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "round_start_gain_coin_by_bond_char_chess_buy"
+  }
+]

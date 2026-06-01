@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【替身娃娃】每回合首次出售初始干员时，改为与调度中心中随机一名干员交换",
+  "bandId": "band_vodfox",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_52",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 31,
+  "totalHp": 22,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

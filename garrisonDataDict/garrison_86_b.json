@@ -1,0 +1,12 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [],
+  "charLevel": 0,
+  "description": "身前一格干员若为“进入休整期时”特质，本干员的特质与其相同",
+  "effectType": "SERVER_FRONT_SAME_EFFECT_PREP_START",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "特异化",
+  "eventTypeIcon": "icon_support",
+  "eventTypeSmallIcon": "s_icon_support",
+  "garrisonDesc": "身前一格干员若为“进入休整期时”特质，本干员的特质与其相同"
+}

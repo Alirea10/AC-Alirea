@@ -1,0 +1,38 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_hero_fartooth"
+      },
+      {
+        "key": "real_ex_damage_scale",
+        "value": 1.5,
+        "valueStr": null
+      },
+      {
+        "key": "power_def_penetrate",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "power_atk_speed",
+        "value": 30,
+        "valueStr": null
+      },
+      {
+        "key": "normal_sp",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "new_key",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

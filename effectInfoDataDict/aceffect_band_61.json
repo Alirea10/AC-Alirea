@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【外勤医疗】所有玩家场地上出现一名<预备干员-医疗>；战斗开始时，若场上至少有两名精锐干员，则替换为<Touch>",
+  "effectId": "aceffect_band_61",
+  "effectName": "外勤医疗",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

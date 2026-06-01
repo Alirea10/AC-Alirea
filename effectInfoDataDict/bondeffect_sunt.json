@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<在场<@ba.vup>2</>名精锐状态的干员>精锐状态的干员攻击力<@ba.vup>+30%</>\n<在场<@ba.vup>5</>名精锐状态的干员>精锐状态的干员技力消耗<@ba.vup>-30%</>\n<@ba.acrem>（所有干员的精锐状态均可激活本盟约）</>",
+  "effectId": "bondeffect_sunt",
+  "effectName": "绝技",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,85 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_bondIds": [
+            "kazimierz"
+          ],
+          "_checkTargetInRangeId": null,
+          "_considerManiShip": true,
+          "_target": "TARGET",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_attributeType": "DEF_PENETRATE",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "power_def_penetrate",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "ATTACK_SPEED",
+            "_formulaType": "MULTIPLIER",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "power_atk_speed",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "COST",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "mid_cost",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_applyWayFilter": "NONE",
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "real_ex_damage_scale",
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_filterDamageType": false,
+        "_filterModifierKey": false,
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_modifierKey": "",
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+      }
+    ],
+    "ON_SKILL_FINISH": [
+      {
+        "_customModifierKey": "",
+        "_dontCheckSpType": false,
+        "_dontShowSpUI": false,
+        "_forceFlag": true,
+        "_isMinis": false,
+        "_modifyByRatio": false,
+        "_modifyByRatioBasedOnCurSP": false,
+        "_modifyBySpCost": false,
+        "_modifyRatio": 0,
+        "_modifyValue": 0,
+        "_spMask": "ALL",
+        "_spString": "normal_sp",
+        "_targetType": "TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+ModifySp, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_fartooth"
+}

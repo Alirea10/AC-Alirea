@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_446_aroma",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_aroma",
+  "backupTmplId": null,
+  "charId": "char_446_aroma",
+  "chessId": "chess_char_4_10_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_aroma",
+  "goldenChessId": "chess_char_4_10_b",
+  "isHidden": false,
+  "shopLevelSortId": 10,
+  "tmplId": null
+}

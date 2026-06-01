@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只萨卡兹枯朽战士组长，若各自行动阶段就达成完美作战，获得<@ba.vup>2</>资金",
+  "effectId": "enemyeffect_13_2",
+  "effectName": "战术特训·持续II",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 2
+}

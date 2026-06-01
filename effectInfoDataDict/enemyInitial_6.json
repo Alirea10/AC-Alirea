@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "后续<@ba.vdown>每场</>作战添加1只假想敌：镜膜（拥有折射），击倒它的你或队友获得1资金",
+  "effectId": "enemyInitial_6",
+  "effectName": "多轮悬赏 · 假想敌：镜膜",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

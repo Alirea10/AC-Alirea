@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_614_acsupo",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acsupo",
+  "backupTmplId": null,
+  "charId": "char_1012_skadi2",
+  "chessId": "chess_char_6_04_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_skadi2",
+  "goldenChessId": "chess_char_6_04_b",
+  "isHidden": false,
+  "shopLevelSortId": 4,
+  "tmplId": null
+}

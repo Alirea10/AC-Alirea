@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4016_kazema",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_kazema",
+  "backupTmplId": null,
+  "charId": "char_4016_kazema",
+  "chessId": "chess_char_2_11_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_kazema",
+  "goldenChessId": "chess_char_2_11_b",
+  "isHidden": false,
+  "shopLevelSortId": 11,
+  "tmplId": null
+}

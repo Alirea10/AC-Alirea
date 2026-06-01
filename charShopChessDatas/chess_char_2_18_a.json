@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_431_ashlok",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_ashlok",
+  "backupTmplId": null,
+  "charId": "char_431_ashlok",
+  "chessId": "chess_char_2_18_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_ashlok",
+  "goldenChessId": "chess_char_2_18_b",
+  "isHidden": false,
+  "shopLevelSortId": 18,
+  "tmplId": null
+}

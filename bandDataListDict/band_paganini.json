@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【定制铳械】累计花费55资金后，获得1名4阶及以上随机的精锐<拉特兰>干员\\n<@ba.vdown>在<拉特兰>部分干员缺席时体验可能不完整</>",
+  "bandId": "band_paganini",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_32",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 13,
+  "totalHp": 24,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

@@ -1,0 +1,50 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "yanShip",
+  "chessIdList": [
+    "chess_char_1_03_a",
+    "chess_char_2_04_a",
+    "chess_char_3_03_a",
+    "chess_char_3_04_a",
+    "chess_char_4_15_a",
+    "chess_char_4_17_a",
+    "chess_char_5_03_a",
+    "chess_char_5_12_a",
+    "chess_char_5_23_a",
+    "chess_char_6_03_a",
+    "chess_char_6_15_a",
+    "chess_char_1_03_b",
+    "chess_char_2_04_b",
+    "chess_char_3_03_b",
+    "chess_char_3_04_b",
+    "chess_char_4_15_b",
+    "chess_char_4_17_b",
+    "chess_char_5_03_b",
+    "chess_char_5_12_b",
+    "chess_char_5_23_b",
+    "chess_char_6_03_b",
+    "chess_char_6_15_b",
+    "chess_hero_6_25_b",
+    "chess_hero_6_25_a"
+  ],
+  "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【炎】干员>战斗开始时召唤可自主行动的<@ba.vup>“炎佑”</>，其攻击力生命值分别为开战时【炎】干员攻击力生命值总和的30%，“炎佑”同时攻击3个目标，可使用<@ba.vup>“祛恶之焰”</>，攻击时附带攻击力一定比例的灼燃损伤且周围敌人受到一定比例的元素脆弱\n<在场<@autochess.dgreen>9</>名不同【炎】干员>改为召唤2只<@ba.vup>“炎佑”</>，攻击力提升至<@ba.vup>1.5</>倍，受到的伤害<@ba.vup>-90%</>",
+  "descParamBaseList": [
+    "base_atk"
+  ],
+  "descParamPerStackList": [
+    "atk_per_stack"
+  ],
+  "effectId": "bondeffect_yan",
+  "iconId": "icon_yanShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "炎",
+  "noStack": false,
+  "weight": 10
+}

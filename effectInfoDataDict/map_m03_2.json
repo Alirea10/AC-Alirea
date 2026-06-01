@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "场地<@ba.vdown>右侧</>的射击台变为可以部署高台干员和地面干员的地面",
+  "effectId": "map_m03_2",
+  "effectName": "模拟战场演变·模式五",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

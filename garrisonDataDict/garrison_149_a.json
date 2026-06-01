@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_char_pinus"
+    },
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>获得1个野鬃或灰毫，小概率获得远牙",
+  "effectType": "SERVER_POOL_CHAR",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<获得时>获得1个野鬃或灰毫，小概率获得远牙"
+}

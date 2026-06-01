@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_491_humus",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_humus",
+  "backupTmplId": null,
+  "charId": "char_491_humus",
+  "chessId": "chess_char_2_09_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_humus",
+  "goldenChessId": "chess_char_2_09_b",
+  "isHidden": false,
+  "shopLevelSortId": 9,
+  "tmplId": null
+}

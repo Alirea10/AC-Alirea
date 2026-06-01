@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_player_buff",
+  "effectDesc": "<@ba.vup>你</>接下来购买的1名干员变为精锐状态",
+  "effectId": "allybuff_select_6",
+  "effectName": "升华",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

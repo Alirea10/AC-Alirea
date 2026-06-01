@@ -1,0 +1,56 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_applyWayFilter": "ALL",
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "real_ex_damage_scale",
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_filterDamageType": false,
+        "_filterModifierKey": false,
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_modifierKey": "",
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+      },
+      {
+        "_applyWay": "NONE",
+        "_attackTypeFilter": "NONE",
+        "_checkHasScource": false,
+        "_damageMask": "MAGICAL",
+        "_filterApplyWay": false,
+        "_filterAttackType": false,
+        "_filterBySourceId": false,
+        "_filterDamageType": true,
+        "_filterModifierCancelled": false,
+        "_filterModifierSource": false,
+        "_filterSharedMask": false,
+        "_isNoSource": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_source": "BUFF_OWNER",
+        "_sourceId": null,
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp"
+      },
+      {
+        "_blackboardKey": "damage_value",
+        "_filterModifierCancelled": true,
+        "$type": "Torappu.Battle.Action.Nodes+AssignModifierValueIntoBlackboard, Assembly-CSharp"
+      },
+      {
+        "_allowNoSourceDamage": false,
+        "_damageScaleKey": "damage_scale",
+        "_damageValueKey": "damage_value",
+        "_elementType": "FIRE",
+        "_isEnvDamage": false,
+        "_sourceType": "MODIFIER_SOURCE",
+        "_targetType": "MODIFIER_TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+ApplyFixedElementDamage, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_goldenglow"
+}

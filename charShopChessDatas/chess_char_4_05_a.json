@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_344_beewax",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_beewax",
+  "backupTmplId": null,
+  "charId": "char_344_beewax",
+  "chessId": "chess_char_4_05_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_beewax",
+  "goldenChessId": "chess_char_4_05_b",
+  "isHidden": true,
+  "shopLevelSortId": 5,
+  "tmplId": null
+}

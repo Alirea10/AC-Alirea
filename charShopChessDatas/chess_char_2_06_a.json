@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4139_papyrs",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_papyrs",
+  "backupTmplId": null,
+  "charId": "char_4139_papyrs",
+  "chessId": "chess_char_2_06_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_papyrs",
+  "goldenChessId": "chess_char_2_06_b",
+  "isHidden": false,
+  "shopLevelSortId": 6,
+  "tmplId": null
+}

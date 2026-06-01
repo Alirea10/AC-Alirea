@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_181_flower",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_flower",
+  "backupTmplId": null,
+  "charId": "char_181_flower",
+  "chessId": "chess_char_2_14_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_flower",
+  "goldenChessId": "chess_char_2_14_b",
+  "isHidden": false,
+  "shopLevelSortId": 14,
+  "tmplId": null
+}

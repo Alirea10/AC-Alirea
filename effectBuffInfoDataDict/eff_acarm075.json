@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "refresh_cnt",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "choice_cnt",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "use_equip_reward_special_goods_char_chess"
+  }
+]

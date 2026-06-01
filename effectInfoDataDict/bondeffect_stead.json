@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "所有干员生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\\n<在场<@ba.vup>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由【坚守】干员平均承担；【坚守】干员受到伤害时，伤害来源受到<@ba.vup>{1:0}</>点法术伤害<@ba.acrem>（受层数影响，每0.2秒至多触发1次）</>和持续5秒的<@ba.vup>40%</>的脆弱效果",
+  "effectId": "bondeffect_stead",
+  "effectName": "坚守",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

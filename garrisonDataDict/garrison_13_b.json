@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "price",
+      "value": 2,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "购买价格为<@ba.vup>1</>",
+  "effectType": "SERVER_CHESS_PRICE",
+  "eventType": "SERVER_PRICE",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "购买价格为<@ba.vup>1</>"
+}

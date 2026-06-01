@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_useskill"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_actived_maxstack"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 3,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>开启技能时，当前已激活且层数最多的盟约层数<@ba.vup>+3</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>开启技能时，当前已激活且层数最多的盟约层数<@ba.vup>+3</>"
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+35%</>；若携带者是地面干员则攻击时有10%概率使目标<$ba.tremble>战栗</>2秒",
+  "effectId": "eff_acgarm045",
+  "effectName": "战栗维式重锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

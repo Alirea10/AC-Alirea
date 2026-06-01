@@ -1,0 +1,21 @@
+{
+  "activeCondition": "BOARD_ALL_CHESS",
+  "activeConditionTemplate": "count_threshold_upward_golden",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "suntShip",
+  "chessIdList": [],
+  "desc": "<在场<@autochess.dgreen>2</>名精锐状态的干员>精锐状态的干员攻击力<@ba.vup>+30%</>\n<在场<@autochess.dgreen>5</>名精锐状态的干员>精锐状态的干员技力消耗<@ba.vup>-30%</>\n<@ba.acrem>（所有干员的精锐状态均可激活本盟约）</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_sunt",
+  "iconId": "icon_suntShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "绝技",
+  "noStack": true,
+  "weight": 0
+}

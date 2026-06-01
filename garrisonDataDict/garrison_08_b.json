@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "attr_common_global_buff"
+    },
+    {
+      "key": "sp_recovery_per_sec",
+      "value": 0.3,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "技力自然恢复速度<@ba.vup>+0.3/秒</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "技力自然恢复速度<@ba.vup>+0.3/秒</>"
+}

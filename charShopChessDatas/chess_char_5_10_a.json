@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_606_csuppo",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_358_lisa",
+  "chessId": "chess_char_5_10_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_lisa",
+  "goldenChessId": "chess_char_5_10_b",
+  "isHidden": false,
+  "shopLevelSortId": 10,
+  "tmplId": null
+}

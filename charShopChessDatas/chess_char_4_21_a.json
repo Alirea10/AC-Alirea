@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_128_plosis",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_plosis",
+  "backupTmplId": null,
+  "charId": "char_128_plosis",
+  "chessId": "chess_char_4_21_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_plosis",
+  "goldenChessId": "chess_char_4_21_b",
+  "isHidden": false,
+  "shopLevelSortId": 21,
+  "tmplId": null
+}

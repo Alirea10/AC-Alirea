@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_id",
+        "value": 0,
+        "valueStr": "enemy_1009_lurker"
+      },
+      {
+        "key": "coin",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "round",
+        "value": 2,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "add_enemy_kill_gain_coin"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【利滚利】每回合剩余的资金可以继承，剩余至少5资金时，每回合额外获得1资金",
+  "bandId": "band_cannot",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_34",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 28,
+  "totalHp": 27,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

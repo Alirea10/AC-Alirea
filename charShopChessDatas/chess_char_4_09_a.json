@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_617_sharp2",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_437_mizuki",
+  "chessId": "chess_char_4_09_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_mizuki",
+  "goldenChessId": "chess_char_4_09_b",
+  "isHidden": false,
+  "shopLevelSortId": 9,
+  "tmplId": null
+}

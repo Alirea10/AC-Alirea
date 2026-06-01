@@ -1,0 +1,53 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfkillenemy"
+    },
+    {
+      "key": "check_cnt",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "miraShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_153_a"
+    }
+  ],
+  "charLevel": 0,
+  "description": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前3次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+2</>、【奇迹】层数<@ba.vup>+1</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前3次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+2</>、【奇迹】层数<@ba.vup>+1</>"
+}

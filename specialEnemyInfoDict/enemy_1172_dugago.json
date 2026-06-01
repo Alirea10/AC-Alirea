@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1169_duphlx_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1166_dusbr_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1172_dugago",
+  "type": "REFLECTION"
+}

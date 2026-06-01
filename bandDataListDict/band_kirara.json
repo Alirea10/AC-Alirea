@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【通关奖励】每使用20资金，获得一名不高于当前调度中心等级的随机干员",
+  "bandId": "band_kirara",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_24",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 9,
+  "totalHp": 26,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

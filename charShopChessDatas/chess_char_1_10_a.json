@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_196_sunbr",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sunbr",
+  "backupTmplId": null,
+  "charId": "char_196_sunbr",
+  "chessId": "chess_char_1_10_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_sunbr",
+  "goldenChessId": "chess_char_1_10_b",
+  "isHidden": false,
+  "shopLevelSortId": 10,
+  "tmplId": null
+}

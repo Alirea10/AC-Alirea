@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "所有敌人攻击力<@ba.vup>-30%</>，最大生命值<@ba.vup>-25%</>",
+  "effectId": "aceffect_enemy_5",
+  "effectName": "攻坚装备III",
+  "effectType": "ENEMY",
+  "enemyPrice": 0
+}

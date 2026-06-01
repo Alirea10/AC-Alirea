@@ -1,0 +1,48 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_kjerag"
+      },
+      {
+        "key": "base_damage_scale",
+        "value": 1.25,
+        "valueStr": null
+      },
+      {
+        "key": "base_ex_damage_scale",
+        "value": 1.35,
+        "valueStr": null
+      },
+      {
+        "key": "ex_damage_scale_per_stack",
+        "value": 0.01,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "bond_eff_kjerag[storm].interval",
+        "value": 25,
+        "valueStr": null
+      },
+      {
+        "key": "bond_eff_kjerag[storm].base_time",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "bond_eff_kjerag[storm].time_per_stack",
+        "value": 0.1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

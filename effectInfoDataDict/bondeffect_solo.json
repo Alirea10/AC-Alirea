@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<在场<@ba.vup>1</>名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</><@ba.acrem>（在场2名及以上【独行】干员时失效）</>",
+  "effectId": "bondeffect_solo",
+  "effectName": "独行",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

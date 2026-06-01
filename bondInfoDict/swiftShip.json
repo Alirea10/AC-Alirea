@@ -1,0 +1,62 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "swiftShip",
+  "chessIdList": [
+    "chess_char_1_01_a",
+    "chess_char_1_16_a",
+    "chess_char_1_19_a",
+    "chess_char_2_13_a",
+    "chess_char_2_19_a",
+    "chess_char_3_10_a",
+    "chess_char_3_18_a",
+    "chess_char_4_14_a",
+    "chess_char_5_14_a",
+    "chess_char_5_15_a",
+    "chess_char_5_22_a",
+    "chess_char_6_05_a",
+    "chess_char_6_10_a",
+    "chess_char_6_19_a",
+    "chess_char_1_01_b",
+    "chess_char_1_16_b",
+    "chess_char_1_19_b",
+    "chess_char_2_13_b",
+    "chess_char_2_19_b",
+    "chess_char_3_10_b",
+    "chess_char_3_18_b",
+    "chess_char_4_14_b",
+    "chess_char_5_14_b",
+    "chess_char_5_15_b",
+    "chess_char_5_22_b",
+    "chess_char_6_05_b",
+    "chess_char_6_10_b",
+    "chess_char_6_19_b",
+    "chess_rainbow_1_22_a",
+    "chess_rainbow_1_22_b",
+    "chess_rainbow_5_24_a",
+    "chess_rainbow_5_24_b",
+    "chess_ursus_6_23_a",
+    "chess_ursus_6_23_b",
+    "chess_ursus_6_22_b",
+    "chess_ursus_6_22_a"
+  ],
+  "desc": "【迅捷】干员技能结束时有概率<@autochess.gray>（受层数影响）</>立刻回复<@ba.vup>12点</>技力\n<达到<@autochess.dgreen>40</>层>所有干员技能结束时有等概率额外回复<@ba.vup>15点</>技力",
+  "descParamBaseList": [
+    "base_prob"
+  ],
+  "descParamPerStackList": [
+    "prob_per_stack"
+  ],
+  "effectId": "bondeffect_swift",
+  "iconId": "icon_swiftShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "迅捷",
+  "noStack": false,
+  "weight": 10
+}

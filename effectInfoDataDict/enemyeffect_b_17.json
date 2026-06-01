@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场作战</>添加1个“墓碑”，将其击倒者获得<@ba.vup>4</>资金",
+  "effectId": "enemyeffect_b_17",
+  "effectName": "“墓碑”·悬赏",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 4
+}

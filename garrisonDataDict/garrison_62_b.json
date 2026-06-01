@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "event",
+      "value": 0,
+      "valueStr": "SERVER_PREP_FIN"
+    },
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>触发身前两格的其他干员的“休整期结束时”类效果",
+  "effectType": "SERVER_TRIGGER_FRONT_COUNT",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "特异化",
+  "eventTypeIcon": "icon_support",
+  "eventTypeSmallIcon": "s_icon_support",
+  "garrisonDesc": "<进入休整期时>触发身前两格的其他干员的“休整期结束时”类效果"
+}

@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1061_zomshd"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1043_zomsbr"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10124_uashld_2",
+  "type": "SPECIAL"
+}

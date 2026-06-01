@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只法术大师A2，将其击倒者获得<@ba.vup>1</>资金",
+  "effectId": "enemyeffect_10_7",
+  "effectName": "悬赏·飞行I",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

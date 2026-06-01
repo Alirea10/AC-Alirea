@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "coin_cnt",
+        "value": 55,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "char"
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_char_later"
+      }
+    ],
+    "countType": "NONE",
+    "key": "band_cost_coin_reach_cnt_gain_chess_from_pool"
+  }
+]

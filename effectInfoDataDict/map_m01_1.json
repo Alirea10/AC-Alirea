@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "移除场地上<@ba.vdown>全部</>阻隔工事",
+  "effectId": "map_m01_1",
+  "effectName": "模拟战场演变·模式一",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

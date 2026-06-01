@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_gain_coin"
+  }
+]

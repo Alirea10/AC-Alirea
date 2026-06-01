@@ -1,0 +1,48 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool1",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "pool2",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "pool3",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "pool4",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "pool5",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "pool6",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    },
+    {
+      "key": "max_pool",
+      "value": 0,
+      "valueStr": "pool_chess_shop_5_reward"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<售出时>进行一次<@ba.vup>V阶</>干员的免费特殊招募",
+  "effectType": "SERVER_SELL_CHESS_GAIN_SPECIAL_GOODS",
+  "eventType": "SERVER_CHESS_SOLD",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<售出时>进行一次<@ba.vup>V阶</>干员的免费特殊招募"
+}

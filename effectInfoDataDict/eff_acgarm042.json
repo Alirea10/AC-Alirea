@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+50%</>；造成法术伤害附带相当于<@ba.vup>10%</>伤害的<$ba.dt.burning2>灼燃损伤</>",
+  "effectId": "eff_acgarm042",
+  "effectName": "灼燃维式重锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

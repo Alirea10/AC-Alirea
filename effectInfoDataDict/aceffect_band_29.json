@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【博学多通】升级调度中心至2、4和6级后，获得1次特殊刷新：此次刷新出现的干员优先为<萨尔贡>干员\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
+  "effectId": "aceffect_band_29",
+  "effectName": "博学多通",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

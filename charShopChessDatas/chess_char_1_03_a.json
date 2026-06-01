@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_306_leizi",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_leizi",
+  "backupTmplId": null,
+  "charId": "char_306_leizi",
+  "chessId": "chess_char_1_03_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_leizi",
+  "goldenChessId": "chess_char_1_03_b",
+  "isHidden": false,
+  "shopLevelSortId": 3,
+  "tmplId": null
+}

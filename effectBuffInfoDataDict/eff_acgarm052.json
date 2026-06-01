@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1vautochess_equip_acarm037_global_buff"
+      },
+      {
+        "key": "attack_speed",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "max_buff_cnt",
+        "value": 60,
+        "valueStr": null
+      },
+      {
+        "key": "atk",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "COUNTING",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

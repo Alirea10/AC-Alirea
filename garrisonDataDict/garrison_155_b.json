@@ -1,0 +1,43 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act2autochess_gar_event_onstart"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_self"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 16,
+      "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 48,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_155_b"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>自身所属的盟约层数<@ba.vup>+16</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+16</>（至多48层）",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<获得时>自身所属的盟约层数<@ba.vup>+16</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+16</>（至多48层）"
+}

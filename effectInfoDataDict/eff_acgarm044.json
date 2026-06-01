@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+45%</>；攻击速度<@ba.vup>+30</>",
+  "effectId": "eff_acgarm044",
+  "effectName": "加速维式重锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【坚不可摧】初始目标生命值为45点",
+  "effectId": "aceffect_band_44",
+  "effectName": "坚不可摧",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

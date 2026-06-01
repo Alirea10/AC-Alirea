@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4163_rosesa",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_rosesa",
+  "backupTmplId": null,
+  "charId": "char_4163_rosesa",
+  "chessId": "chess_char_4_08_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_rosesa",
+  "goldenChessId": "chess_char_4_08_b",
+  "isHidden": true,
+  "shopLevelSortId": 8,
+  "tmplId": null
+}

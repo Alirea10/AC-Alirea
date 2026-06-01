@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "rand_count",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "count",
+      "value": 4,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>使随机一个已激活的盟约层数<@ba.vup>+4</>，重复2次",
+  "effectType": "SERVER_ADD_BOND_ACTIVATED_RANDOM",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<获得时>使随机一个已激活的盟约层数<@ba.vup>+4</>，重复2次"
+}

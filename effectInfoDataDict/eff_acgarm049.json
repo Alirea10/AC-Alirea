@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "生命值<@ba.vup>+45%</>；部署时若身前一格没有其他干员，生命值额外<@ba.vup>+25%</>",
+  "effectId": "eff_acgarm049",
+  "effectName": "歌利亚头盔",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

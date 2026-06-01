@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4134_cetsyr",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_cetsyr",
+  "backupTmplId": null,
+  "charId": "char_4134_cetsyr",
+  "chessId": "chess_char_4_25_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_cetsyr",
+  "goldenChessId": "chess_char_4_25_b",
+  "isHidden": false,
+  "shopLevelSortId": 25,
+  "tmplId": null
+}

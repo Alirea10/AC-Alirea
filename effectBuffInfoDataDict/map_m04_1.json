@@ -1,0 +1,68 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "trap_1105_accrate#001",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#002",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#003",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#101",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#102",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#103",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#201",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#202",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#203",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#301",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#302",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#303",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

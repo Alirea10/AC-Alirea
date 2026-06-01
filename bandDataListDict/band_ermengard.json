@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【命结之秘】战斗中前3个被击倒的干员立刻复活！",
+  "bandId": "band_ermengard",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_48",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 7,
+  "totalHp": 27,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

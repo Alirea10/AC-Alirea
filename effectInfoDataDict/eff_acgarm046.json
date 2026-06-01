@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+60%</>，攻击速度<@ba.vdown>-10</>",
+  "effectId": "eff_acgarm046",
+  "effectName": "阿戈尔重刃",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

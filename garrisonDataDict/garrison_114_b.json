@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>获得2次免费刷新",
+  "effectType": "SERVER_GAIN_FREE_REFRESH_COUNT",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<进入休整期时>获得2次免费刷新"
+}

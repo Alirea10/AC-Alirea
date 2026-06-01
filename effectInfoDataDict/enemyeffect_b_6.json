@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场作战</>添加1个凋零骑士，将其击倒者获得<@ba.vup>3</>资金",
+  "effectId": "enemyeffect_b_6",
+  "effectName": "凋零骑士·悬赏",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 3
+}

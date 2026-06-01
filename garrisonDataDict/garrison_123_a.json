@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "refresh_cnt",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "siracusaShip"
+    },
+    {
+      "key": "layer",
+      "value": 4,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】层数<@ba.vup>+4</>，此干员在整备区时也有效",
+  "effectType": "SERVER_GAIN_BOND_LAYER_BY_REFRESH_CNT",
+  "eventType": "SERVER_REFRESH_SHOP",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】层数<@ba.vup>+4</>，此干员在整备区时也有效"
+}

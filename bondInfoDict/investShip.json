@@ -1,0 +1,32 @@
+{
+  "activeCondition": "BOARD_AND_DECK",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "ALL",
+  "bondId": "investShip",
+  "chessIdList": [
+    "chess_char_1_16_a",
+    "chess_char_2_19_a",
+    "chess_char_3_04_a",
+    "chess_char_5_14_a",
+    "chess_char_5_17_a",
+    "chess_char_1_16_b",
+    "chess_char_2_19_b",
+    "chess_char_3_04_b",
+    "chess_char_5_14_b",
+    "chess_char_5_17_b"
+  ],
+  "desc": "干员的“获得时”类特质每次<@ba.vup>触发2次</>\n<达到<@autochess.dgreen>100</>层>“获得时”类特质每次<@ba.vup>触发3次</>（整备区的【投资人】干员也可用于激活盟约）",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_invest",
+  "iconId": "icon_investShip",
+  "isActiveInDeck": true,
+  "maxInactiveBondCount": -1,
+  "name": "投资人",
+  "noStack": false,
+  "weight": 0
+}

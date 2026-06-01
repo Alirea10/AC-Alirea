@@ -1,0 +1,80 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 5,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_6_09_e_a"
+      }
+    ],
+    "countType": "NONE",
+    "key": "preparation_start_gain_chess_from_round"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_6_09_e_a"
+      }
+    ],
+    "countType": "NONE",
+    "key": "preparation_start_gain_chess_from_round"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 15,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_6_09_e_a"
+      }
+    ],
+    "countType": "NONE",
+    "key": "preparation_start_gain_chess_from_round"
+  }
+]

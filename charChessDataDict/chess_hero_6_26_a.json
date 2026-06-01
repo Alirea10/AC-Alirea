@@ -1,0 +1,16 @@
+{
+  "chessId": "chess_hero_6_26_a",
+  "garrisonIds": [
+    "garrison_hero"
+  ],
+  "isGolden": false,
+  "status": {
+    "charLevel": 55,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": "chess_hero_6_24_b",
+  "upgradeNum": 3
+}

@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【人才盲盒】从第4回合开始每2回合获得1名<维多利亚>干员\\n<@ba.vdown>在<维多利亚>部分干员缺席时体验可能不完整</>",
+  "bandId": "band_harold",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_30",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 11,
+  "totalHp": 23,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

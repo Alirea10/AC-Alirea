@@ -1,0 +1,16 @@
+{
+  "chessId": "chess_rainbow_2_20_a",
+  "garrisonIds": [
+    "garrison_09_a"
+  ],
+  "isGolden": false,
+  "status": {
+    "charLevel": 40,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": "chess_rainbow_2_20_b",
+  "upgradeNum": 3
+}

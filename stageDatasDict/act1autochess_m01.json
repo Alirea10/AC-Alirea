@@ -1,0 +1,11 @@
+{
+  "mode": [
+    "mode_training_1",
+    "mode_single_normal",
+    "mode_single_funny",
+    "mode_multi_normal",
+    "mode_multi_funny"
+  ],
+  "stageId": "act1autochess_m01",
+  "weight": 50
+}

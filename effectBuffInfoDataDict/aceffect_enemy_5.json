@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "atk",
+        "value": 0.7,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp",
+        "value": 0.75,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon"
+      }
+    ],
+    "countType": "NONE",
+    "key": "enemy_attribute_mul"
+  }
+]

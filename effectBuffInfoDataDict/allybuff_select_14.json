@@ -1,0 +1,24 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_prep_finish_same_row_at_least"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "scale",
+        "value": 0.5,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "char_respawntime_mul"
+  }
+]

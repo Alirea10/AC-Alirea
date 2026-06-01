@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，随机获取当前调度中心内的<@ba.vup>1</>名干员 （调度中心中对应干员消失）",
+  "effectId": "eff_acarm115",
+  "effectName": "紧急调度券",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

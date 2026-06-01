@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【团伙行动】主动刷新6次调度中心后获得一名不高于当前调度中心等级的<叙拉古>干员（每回合至多获得2名）\\n<@ba.vdown>在<叙拉古>部分干员缺席时体验可能不完整</>",
+  "effectId": "aceffect_band_59",
+  "effectName": "团伙行动",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

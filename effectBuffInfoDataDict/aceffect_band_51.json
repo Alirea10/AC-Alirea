@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "event_type",
+        "value": 0,
+        "valueStr": "SERVER_GAIN"
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "round_start_activate_char_chess_effect_in_board"
+  }
+]

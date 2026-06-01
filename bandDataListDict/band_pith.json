@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【优等生】第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于调和盟约：可以使部分盟约人数计数+1",
+  "bandId": "band_pith",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_42",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 26,
+  "totalHp": 24,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

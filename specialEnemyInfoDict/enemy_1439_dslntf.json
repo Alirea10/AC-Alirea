@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1148_dssbr_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1148_dssbr"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1439_dslntf",
+  "type": "ELEMENT"
+}

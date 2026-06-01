@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_equip_normal"
+    },
+    {
+      "key": "round_list",
+      "value": 0,
+      "valueStr": "1,3,5,7,9,11,13,15"
+    },
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>若当前为奇数回合，获得1件随机装备",
+  "effectType": "SERVER_GAIN_RANDOM_EQUIP_CHESS_IN_POOL",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<进入休整期时>若当前为奇数回合，获得1件随机装备"
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": null,
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_197_poca",
+  "chessId": "chess_ursus_6_23_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_ursus_6_23_b",
+  "isHidden": false,
+  "shopLevelSortId": 23,
+  "tmplId": null
+}

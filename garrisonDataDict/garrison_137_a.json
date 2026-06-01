@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "char_attribute_mul",
+  "blackboard": [
+    {
+      "key": "atk",
+      "value": 1.25,
+      "valueStr": null
+    },
+    {
+      "key": "max_hp",
+      "value": 1.25,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>攻击力和生命值+<@ba.vup>25%</>，造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "<战斗中>攻击力和生命值+<@ba.vup>25%</>，造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
+}

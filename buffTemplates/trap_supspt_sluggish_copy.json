@@ -1,0 +1,73 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_AFTER_OUTPUT_DAMAGE": [
+      {
+        "_sideMask": "ALLY",
+        "_targetType": "MODIFIER_TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+      },
+      {
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": []
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "sluggish",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "LIMITED",
+          "loadFromDB": true,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": null,
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "DEFAULT",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "empty",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "MODIFIER_TARGET",
+        "_finishDerivedBuffIfParentFinish": false,
+        "_hookEffectKeyFromSourceProjectile": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_isDerivedBuff": false,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_useSpecialBuffSource": false,
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "trap_supspt_sluggish_copy"
+}

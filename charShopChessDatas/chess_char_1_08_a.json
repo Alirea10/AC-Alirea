@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_102_texas",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_texas",
+  "backupTmplId": null,
+  "charId": "char_102_texas",
+  "chessId": "chess_char_1_08_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_texas",
+  "goldenChessId": "chess_char_1_08_b",
+  "isHidden": false,
+  "shopLevelSortId": 8,
+  "tmplId": null
+}

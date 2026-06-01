@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_2021_syfish"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_2021_syfish"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_2025_syufo",
+  "type": "ELEMENT"
+}

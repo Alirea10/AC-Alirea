@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_id",
+        "value": 0,
+        "valueStr": "enemy_1172_dugago_2"
+      },
+      {
+        "key": "coin",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "round",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "add_enemy_kill_gain_coin"
+  }
+]

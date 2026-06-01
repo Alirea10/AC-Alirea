@@ -1,0 +1,16 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_attributeType": "SP_RECOVERY_PER_SEC",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "sp_recovery_per_sec",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_lisa"
+}

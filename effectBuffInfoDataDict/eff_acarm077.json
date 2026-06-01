@@ -1,0 +1,70 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm077_global_buff"
+      },
+      {
+        "key": "equip_chess_id",
+        "value": 0,
+        "valueStr": "chess_item_3_04_e"
+      },
+      {
+        "key": "attack_speed",
+        "value": 25,
+        "valueStr": null
+      },
+      {
+        "key": "max_cnt",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "attr_common_global_buff"
+      },
+      {
+        "key": "max_hp",
+        "value": 0.45,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "other_equip",
+        "value": 0,
+        "valueStr": "chess_item_3_04_e_a,chess_item_3_04_e_b"
+      },
+      {
+        "key": "count",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "yanShip"
+      }
+    ],
+    "countType": "NONE",
+    "key": "equip_with_another_gain_coin_when_gain_char"
+  }
+]

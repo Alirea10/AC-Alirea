@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_258_podego",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_podego",
+  "backupTmplId": null,
+  "charId": "char_258_podego",
+  "chessId": "chess_char_1_13_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_podego",
+  "goldenChessId": "chess_char_1_13_b",
+  "isHidden": false,
+  "shopLevelSortId": 13,
+  "tmplId": null
+}

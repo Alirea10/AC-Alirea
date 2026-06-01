@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "same_bond_diff_lv"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "victoriaShip"
+    },
+    {
+      "key": "multi",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>场上每有1名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<@ba.vup>+2</>",
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>场上每有1名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<@ba.vup>+2</>"
+}

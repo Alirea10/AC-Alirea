@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力<@ba.vup>+25%</>",
+  "effectId": "eff_acgarm041",
+  "effectName": "维式重锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

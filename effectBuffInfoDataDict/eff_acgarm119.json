@@ -1,0 +1,33 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act2autochess_equip_acarm120_global_buff"
+      },
+      {
+        "key": "damage_scale",
+        "value": 1.6,
+        "valueStr": null
+      },
+      {
+        "key": "interval",
+        "value": 15,
+        "valueStr": null
+      },
+      {
+        "key": "ex_interval",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "damage_scale_minus",
+        "value": -0.07,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

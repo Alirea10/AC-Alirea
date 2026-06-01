@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4196_reckpr",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_reckpr",
+  "backupTmplId": null,
+  "charId": "char_4196_reckpr",
+  "chessId": "chess_char_5_23_a",
+  "chessLevel": 5,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_reckpr",
+  "goldenChessId": "chess_char_5_23_b",
+  "isHidden": false,
+  "shopLevelSortId": 23,
+  "tmplId": null
+}

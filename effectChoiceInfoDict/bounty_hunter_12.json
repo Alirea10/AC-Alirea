@@ -1,0 +1,8 @@
+{
+  "choiceEventId": "bounty_hunter_12",
+  "choiceType": "BOUNTY_HUNT",
+  "desc": "选定悬赏目标，获取额外奖励。",
+  "effectType": "ENEMY_GAIN",
+  "name": "悬赏决策",
+  "typeTxtColor": "#35d8b4"
+}

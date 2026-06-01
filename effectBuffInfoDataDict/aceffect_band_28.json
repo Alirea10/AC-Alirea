@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "yanShip"
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "band_first_self_refresh_present_char"
+  }
+]

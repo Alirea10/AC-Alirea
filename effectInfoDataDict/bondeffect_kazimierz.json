@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "每次有干员部署时【卡西米尔】干员攻击力+20%（至多<@ba.vup>+{0:0%}</>）<@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【卡西米尔】干员>【卡西米尔】干员阻挡敌人时每2秒对周围敌人造成<@ba.vup>120%</>攻击力真实伤害和<@ba.vup>0.1</>秒晕眩，未阻挡敌人时攻击附带<@ba.vup>30%</>攻击力的真实伤害",
+  "effectId": "bondeffect_kazimierz",
+  "effectName": "卡西米尔",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

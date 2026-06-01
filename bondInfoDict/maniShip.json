@@ -1,0 +1,26 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "MANI",
+  "bondId": "maniShip",
+  "chessIdList": [
+    "chess_char_1_15_a",
+    "chess_char_6_11_a",
+    "chess_char_1_15_b",
+    "chess_char_6_11_b"
+  ],
+  "desc": "激活时使场上核心盟约的<@ba.vup>激活人数+1</>，【调和】干员享受已激活的核心盟约的效果",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_mani",
+  "iconId": "icon_maniShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "调和",
+  "noStack": true,
+  "weight": 0
+}

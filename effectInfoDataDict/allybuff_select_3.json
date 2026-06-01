@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你获得<@ba.vup>1</>资金，若存在<@ba.vup>其他队友</>则他们也获得",
+  "effectId": "allybuff_select_3",
+  "effectName": "财富",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

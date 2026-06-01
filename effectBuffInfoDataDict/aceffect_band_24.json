@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "coin_cnt",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "band_coin_cost_gain_random_char_by_shop_level"
+  }
+]

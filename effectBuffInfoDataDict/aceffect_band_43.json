@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "trap_1104_aclasert#1",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1104_aclasert#2",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1104_aclasert#3",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1104_aclasert#4",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

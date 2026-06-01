@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1019_jshoot_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1009_lurker"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1404_msnip",
+  "type": "INVISIBLE"
+}

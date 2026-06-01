@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "移除场地<@ba.vdown>左侧</>的阻隔工事",
+  "effectId": "map_m03_1",
+  "effectName": "模拟战场演变·模式四",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

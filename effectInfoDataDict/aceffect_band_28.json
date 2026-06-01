@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【广交豪杰】每回合前2次主动刷新为特殊刷新：优先刷新出1名<炎>干员\\n<@ba.vdown>在<炎>部分干员缺席时体验可能不完整</>",
+  "effectId": "aceffect_band_28",
+  "effectName": "广交豪杰",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "生命值<@ba.vup>+50%</>，若与“天马之枪”一起装备，每秒回复<@ba.vup>8%</>最大生命值。",
+  "effectId": "eff_acarm118",
+  "effectName": "天马之盔",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

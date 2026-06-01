@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【机械援助】所有场地中出现1个<“双眼皮”>\\n<@ba.acrem><“双眼皮”>：可进行远程法术攻击，并使目标敌人受到脆弱效果（可升级！）</>",
+  "effectId": "aceffect_band_43",
+  "effectName": "机械援助",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

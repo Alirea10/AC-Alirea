@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【突袭】干员10秒内未进行攻击或技能就绪时，若范围内没有敌人，则保留技力立即再部署至一名地面敌人周围，期间攻击力和生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n <达到<@ba.vup>50</>层>所有干员攻击速度<@ba.vup>+50</>",
+  "effectId": "bondeffect_raid",
+  "effectName": "突袭",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

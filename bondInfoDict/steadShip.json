@@ -1,0 +1,52 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "steadShip",
+  "chessIdList": [
+    "chess_char_1_02_a",
+    "chess_char_1_10_a",
+    "chess_char_2_08_a",
+    "chess_char_2_17_a",
+    "chess_char_2_18_a",
+    "chess_char_3_05_a",
+    "chess_char_3_16_a",
+    "chess_char_4_01_a",
+    "chess_char_5_11_a",
+    "chess_char_6_03_a",
+    "chess_char_1_02_b",
+    "chess_char_1_10_b",
+    "chess_char_2_08_b",
+    "chess_char_2_17_b",
+    "chess_char_2_18_b",
+    "chess_char_3_05_b",
+    "chess_char_3_16_b",
+    "chess_char_4_01_b",
+    "chess_char_5_11_b",
+    "chess_char_6_03_b",
+    "chess_rainbow_4_27_a",
+    "chess_rainbow_4_27_b",
+    "chess_rainbow_1_21_b",
+    "chess_rainbow_1_21_a"
+  ],
+  "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>。【坚守】干员受到伤害时，伤害来源将受到一定法术伤害<@autochess.gray>（受层数影响，每0.2秒至多触发1次）</>和持续<@ba.vup>5</>秒的<@ba.vup>40%</>脆弱效果",
+  "descParamBaseList": [
+    "base_max_hp",
+    "base_damage_value"
+  ],
+  "descParamPerStackList": [
+    "max_hp_per_stack",
+    "damage_value_per_stack"
+  ],
+  "effectId": "bondeffect_stead",
+  "iconId": "icon_steadShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "坚守",
+  "noStack": false,
+  "weight": 10
+}

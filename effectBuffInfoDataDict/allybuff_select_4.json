@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 2,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_refresh_free"
+  }
+]

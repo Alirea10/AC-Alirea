@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "初始技力<@ba.vup>+30</>；若携带者为【萨尔贡】盟约干员，该干员首次技能结束时立刻回复<@ba.vup>30</>点技力\\n<@ba.acrem>若该【萨尔贡】盟约干员同时装备“萨尔贡浓茶”，每次开启技能时为全部【萨尔贡】干员回复<@ba.vup>3</>点技力</>",
+  "effectId": "eff_acarm103",
+  "effectName": "黄沙罗盘",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

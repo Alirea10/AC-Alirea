@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【谢拉格】干员伤害提升至<@ba.vup>125%</>，对寒冷和冻结敌人额外提升至<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【谢拉格】干员>战场上每25秒吹过一阵寒风使敌人寒冷<@ba.vup>{1:0}</>秒<@ba.acrem>（受层数影响）</>",
+  "effectId": "bondeffect_kjerag",
+  "effectName": "谢拉格",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "yanShip,miraShip"
+    },
+    {
+      "key": "count",
+      "value": 0,
+      "valueStr": "6,3"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>【炎】层数<@ba.vup>+6</>、【奇迹】层数<@ba.vup>+3</>（无需激活盟约）",
+  "effectType": "SERVER_ADD_MULTIPLE_BOND",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<获得时>【炎】层数<@ba.vup>+6</>、【奇迹】层数<@ba.vup>+3</>（无需激活盟约）"
+}

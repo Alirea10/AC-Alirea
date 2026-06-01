@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "生命值大于70%时，免疫<$ba.stun>晕眩</>、<$ba.frozen>冻结</>等特殊状态",
+  "effectId": "eff_acarm059",
+  "effectName": "浓缩嗅盐",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

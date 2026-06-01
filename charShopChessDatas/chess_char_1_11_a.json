@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_183_skgoat",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_skgoat",
+  "backupTmplId": null,
+  "charId": "char_183_skgoat",
+  "chessId": "chess_char_1_11_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_skgoat",
+  "goldenChessId": "chess_char_1_11_b",
+  "isHidden": true,
+  "shopLevelSortId": 11,
+  "tmplId": null
+}

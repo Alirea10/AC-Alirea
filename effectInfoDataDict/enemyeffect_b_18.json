@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场作战</>添加1个迷路的巨像，将其击倒者获得<@ba.vup>5</>资金",
+  "effectId": "enemyeffect_b_18",
+  "effectName": "迷路的巨像·悬赏",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 5
+}

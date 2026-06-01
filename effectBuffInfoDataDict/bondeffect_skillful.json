@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_skillful"
+      },
+      {
+        "key": "base_attack_speed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed_per_stack",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_stack_cnt",
+        "value": 40,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

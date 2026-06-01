@@ -1,0 +1,58 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "preciShip",
+  "chessIdList": [
+    "chess_char_1_09_a",
+    "chess_char_1_17_a",
+    "chess_char_2_01_a",
+    "chess_char_3_11_a",
+    "chess_char_4_06_a",
+    "chess_char_4_14_a",
+    "chess_char_4_20_a",
+    "chess_char_5_02_a",
+    "chess_char_6_01_a",
+    "chess_char_6_05_a",
+    "chess_char_6_08_a",
+    "chess_char_6_12_a",
+    "chess_char_1_09_b",
+    "chess_char_1_17_b",
+    "chess_char_2_01_b",
+    "chess_char_3_11_b",
+    "chess_char_4_06_b",
+    "chess_char_4_14_b",
+    "chess_char_4_20_b",
+    "chess_char_5_02_b",
+    "chess_char_6_01_b",
+    "chess_char_6_05_b",
+    "chess_char_6_08_b",
+    "chess_char_6_12_b",
+    "chess_rainbow_6_21_b",
+    "chess_rainbow_6_21_a",
+    "chess_rainbow_3_23_b",
+    "chess_rainbow_3_23_a",
+    "chess_ursus_2_21_a",
+    "chess_ursus_2_21_b",
+    "chess_ursus_6_23_b",
+    "chess_ursus_6_23_a"
+  ],
+  "desc": "【精准】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【精准】干员>生效范围变为【精准】干员和所有远程干员，且攻击无视一定的<@ba.vup>防御力</>和<@ba.vup>法术抗性</>",
+  "descParamBaseList": [
+    "base_atk"
+  ],
+  "descParamPerStackList": [
+    "atk_per_stack"
+  ],
+  "effectId": "bondeffect_preci",
+  "iconId": "icon_preciShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "精准",
+  "noStack": false,
+  "weight": 10
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【奥术】干员造成法术伤害时使目标受到的法术伤害提升<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>，持续3秒\n<在场<@ba.vup>3</>名不同【奥术】干员>【奥术】干员对生命值低于50%的敌人施加的伤害提升比例为<@ba.vup>{1:0%}</><@ba.acrem>（受层数影响）</>",
+  "effectId": "bondeffect_arcane",
+  "effectName": "奥术",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

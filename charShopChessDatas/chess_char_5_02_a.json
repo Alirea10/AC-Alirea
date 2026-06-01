@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_604_ccast",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4056_titi",
+  "chessId": "chess_char_5_02_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_titi",
+  "goldenChessId": "chess_char_5_02_b",
+  "isHidden": false,
+  "shopLevelSortId": 2,
+  "tmplId": null
+}

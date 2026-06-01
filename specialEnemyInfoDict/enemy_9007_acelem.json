@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1229_darmy_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1229_darmy"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_9007_acelem",
+  "type": "ELEMENT"
+}

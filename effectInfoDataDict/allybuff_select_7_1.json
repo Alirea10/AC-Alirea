@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_player_buff",
+  "effectDesc": "<@ba.vup>你</>获得1名炎盟约的随机干员棋子",
+  "effectId": "allybuff_select_7_1",
+  "effectName": "炎盟约驰援",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

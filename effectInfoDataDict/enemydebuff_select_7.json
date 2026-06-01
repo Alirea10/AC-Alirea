@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_boss_debuff",
+  "effectDesc": "领袖敌人获得减益效果：攻击力-7%",
+  "effectId": "enemydebuff_select_7",
+  "effectName": "裁决：乏力",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

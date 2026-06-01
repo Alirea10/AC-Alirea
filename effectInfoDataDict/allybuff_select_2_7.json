@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你的卡西米尔盟约层数<@ba.vup>+12</>，若存在<@ba.vup>其他队友</>则他们也获得",
+  "effectId": "allybuff_select_2_7",
+  "effectName": "玛恩纳的盟誓",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

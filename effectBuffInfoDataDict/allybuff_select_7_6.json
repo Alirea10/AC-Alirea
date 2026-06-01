@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "lateranoShip"
+      }
+    ],
+    "countType": "NONE",
+    "key": "single_special_choice_gain_bond_chess"
+  }
+]

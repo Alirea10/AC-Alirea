@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "multi",
+      "value": 4,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>当前已激活且层数最多的盟约每有1名不同阶干员在场，层数<@ba.vup>+4</>",
+  "effectType": "SERVER_ADD_ACT_BOND_DIFF_LV_MOST_LAYER",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>当前已激活且层数最多的盟约每有1名不同阶干员在场，层数<@ba.vup>+4</>"
+}

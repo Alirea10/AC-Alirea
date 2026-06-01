@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1402_tgshd_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1043_zomsbr"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1006_shield_3",
+  "type": "SPECIAL"
+}

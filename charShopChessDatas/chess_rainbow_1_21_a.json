@@ -1,0 +1,17 @@
+{
+  "backupCharId": null,
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_457_blitz",
+  "chessId": "chess_rainbow_1_21_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_rainbow_1_21_b",
+  "isHidden": false,
+  "shopLevelSortId": 21,
+  "tmplId": null
+}

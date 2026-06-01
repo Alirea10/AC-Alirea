@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "拖拽至场上使用后，选择一项特殊悬赏任务进行挑战；主动销毁时获得1份资金，并将“神秘顾客”传递给下一名玩家",
+  "effectId": "eff_acdisney",
+  "effectName": "“神秘顾客”",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1vautochess_equip_acarm003_global_buff"
+      },
+      {
+        "key": "prob",
+        "value": 0.12,
+        "valueStr": null
+      },
+      {
+        "key": "cold",
+        "value": 1.5,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

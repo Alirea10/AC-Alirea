@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_600_cpione",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_1032_excu2",
+  "chessId": "chess_char_5_01_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_excu2",
+  "goldenChessId": "chess_char_5_01_b",
+  "isHidden": false,
+  "shopLevelSortId": 1,
+  "tmplId": null
+}

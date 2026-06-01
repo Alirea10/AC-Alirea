@@ -1,0 +1,38 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfdead"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "rainbowShip,skillfulShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 3,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+1、【灵巧】层数+1",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+1、【灵巧】层数+1"
+}

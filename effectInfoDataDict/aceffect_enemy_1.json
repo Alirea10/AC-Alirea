@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "所有敌人移动速度<@ba.vup>+15%</>",
+  "effectId": "aceffect_enemy_1",
+  "effectName": "急行军",
+  "effectType": "ENEMY",
+  "enemyPrice": 0
+}

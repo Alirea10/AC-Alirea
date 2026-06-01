@@ -1,0 +1,39 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_bondIds": [
+            "testBond"
+          ],
+          "_checkTargetInRangeId": "",
+          "_considerManiShip": true,
+          "_target": "TARGET",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_attributeType": "DEF",
+            "_formulaType": "MULTIPLIER",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "atk",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_attributeType": "ATK",
+            "_formulaType": "MULTIPLIER",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "atk",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "ATK+1000"
+}

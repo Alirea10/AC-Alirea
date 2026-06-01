@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "场上的树丛<@ba.vdown>全部</>消失",
+  "effectId": "map_m07_1",
+  "effectName": "模拟战场演变·模式九",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

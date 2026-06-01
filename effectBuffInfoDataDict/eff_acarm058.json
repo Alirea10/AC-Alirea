@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm058_global_buff"
+      },
+      {
+        "key": "prob",
+        "value": 0.03,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

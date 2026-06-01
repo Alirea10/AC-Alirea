@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "give_garrison_to_front",
+  "blackboard": [
+    {
+      "key": "check_bond_id",
+      "value": 0,
+      "valueStr": "kjeragShip"
+    },
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_29_b"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使身前一格【谢拉格】干员获得特质“范围内1名敌人进入冻结时，有60%概率使已激活的【谢拉格】层数<@ba.vup>+2</>”",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗开始时>使身前一格【谢拉格】干员获得特质“范围内1名敌人进入冻结时，有60%概率使已激活的【谢拉格】层数<@ba.vup>+2</>”"
+}

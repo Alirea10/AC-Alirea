@@ -1,0 +1,53 @@
+{
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "at_root",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_consume_ammo"
+    },
+    {
+      "key": "range_id",
+      "value": 0,
+      "valueStr": "1-1"
+    },
+    {
+      "key": "consume_count",
+      "value": 7,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "lateranoShip"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 1,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>身前一格的干员每消耗7发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>身前一格的干员每消耗7发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>"
+}

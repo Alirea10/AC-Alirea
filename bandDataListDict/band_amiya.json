@@ -1,0 +1,15 @@
+{
+  "bandDesc": "【众志合一】场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命值分别+20/30/40%",
+  "bandId": "band_amiya",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_22",
+  "modeTypeList": [
+    "LOCAL",
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 2,
+  "totalHp": 25,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

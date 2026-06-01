@@ -1,0 +1,26 @@
+[
+  {
+    "charLevel": 60,
+    "chessLevel": 0,
+    "chessSoldPrice": 1,
+    "eliteIconId": "char_elite_base_1",
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "isGolden": false,
+    "purchasePrice": 3,
+    "skillLevel": 4
+  },
+  {
+    "charLevel": 55,
+    "chessLevel": 0,
+    "chessSoldPrice": 1,
+    "eliteIconId": "char_elite_gold_2",
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "isGolden": true,
+    "purchasePrice": 3,
+    "skillLevel": 7
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1160_hvyslr"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1158_divman"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1161_tidmag",
+  "type": "ELEMENT"
+}

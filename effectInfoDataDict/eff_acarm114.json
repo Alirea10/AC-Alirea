@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，随机获得<@ba.vup>1</>名与该干员有相同盟约的干员",
+  "effectId": "eff_acarm114",
+  "effectName": "简易通讯机",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

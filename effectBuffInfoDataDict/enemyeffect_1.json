@@ -1,0 +1,49 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 4,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_id",
+        "value": 0,
+        "valueStr": "enemy_1355_mrfly_2"
+      },
+      {
+        "key": "coin",
+        "value": 2,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "next_battle_add_enemy_win_gain_coin"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_id",
+        "value": 0,
+        "valueStr": "enemy_1355_mrfly_2"
+      },
+      {
+        "key": "coin",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "round",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "add_enemy_selfbattle_win_gain_coin"
+  }
+]

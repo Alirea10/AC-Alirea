@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_hero_6_24_a",
+  "backupCharPotRank": 6,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_358_lisa",
+  "chessId": "chess_hero_6_24_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_hero_6_24_b",
+  "isHidden": false,
+  "shopLevelSortId": 24,
+  "tmplId": null
+}

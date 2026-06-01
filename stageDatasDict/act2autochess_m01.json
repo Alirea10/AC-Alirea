@@ -1,0 +1,13 @@
+{
+  "mode": [
+    "mode_single_normal",
+    "mode_multi_normal",
+    "mode_single_hard",
+    "mode_multi_hard",
+    "mode_single_abyss",
+    "mode_multi_abyss",
+    "mode_multi_clone"
+  ],
+  "stageId": "act2autochess_m01",
+  "weight": 50
+}

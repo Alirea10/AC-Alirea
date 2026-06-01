@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击无视目标<@ba.vup>25%</>法术抗性",
+  "effectId": "eff_acarm053",
+  "effectName": "激光发射器",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

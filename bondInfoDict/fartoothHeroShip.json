@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "fartoothHeroShip",
+  "chessIdList": [
+    "chess_hero_6_26_a",
+    "chess_hero_6_26_b"
+  ],
+  "desc": "【卡西米尔】干员造成<@ba.vup>150%</>的伤害，获得<@ba.vup>50%</>防御力穿透，攻击速度+技能结束时立即恢复<@ba.vup>20</>点技力，部署费用减少<@ba.vup>10</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "恭喜牙牙",
+  "noStack": false,
+  "weight": 100
+}

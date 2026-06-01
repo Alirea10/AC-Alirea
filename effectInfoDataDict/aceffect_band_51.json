@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【御守之力】每个回合开始时，触发战场上一名干员的获得时效果一次（优先选择最靠右和最靠下）",
+  "effectId": "aceffect_band_51",
+  "effectName": "御守之力",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "拖拽至场上使用后，选择一项悬赏任务进行挑战",
+  "effectId": "eff_acchal",
+  "effectName": "教鞭",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

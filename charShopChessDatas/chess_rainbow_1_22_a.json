@@ -1,0 +1,17 @@
+{
+  "backupCharId": null,
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4126_fuze",
+  "chessId": "chess_rainbow_1_22_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_rainbow_1_22_b",
+  "isHidden": false,
+  "shopLevelSortId": 22,
+  "tmplId": null
+}

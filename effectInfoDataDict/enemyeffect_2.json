@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "之后的<@ba.vdown>每场</>作战添加2只法术大师A2，若各自行动阶段就达成完美作战，获得2资金",
+  "effectId": "enemyeffect_2",
+  "effectName": "法术大师A2·多轮战术特训",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 2
+}

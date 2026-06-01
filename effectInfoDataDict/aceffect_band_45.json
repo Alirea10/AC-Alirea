@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【墨色真颜】若你的场上存在同名干员，这些干员攻击力+30%\\n【幻画为真】第1回合获得1个特殊法术<画卷>\\n<@ba.acrem><画卷>：使用后可以复制该法术范围内的1名干员（包括精锐状态和携带的装备）</>",
+  "effectId": "aceffect_band_45",
+  "effectName": "墨色真颜",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

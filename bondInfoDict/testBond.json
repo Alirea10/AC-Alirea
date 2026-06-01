@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "testBond",
+  "chessIdList": [
+    "chess_char_1_05_a",
+    "chess_char_1_05_b"
+  ],
+  "desc": "【测试盟约】用于测试自定义盟约是否生效\n",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "ATK+1000",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "测试盟约",
+  "noStack": false,
+  "weight": 100
+}

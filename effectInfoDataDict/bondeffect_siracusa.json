@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【叙拉古】干员部署后攻击速度<@ba.vup>+{0:0}</>，持续<@ba.vup>{1:0}</>秒<@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【叙拉古】干员>【叙拉古】干员部署后还会进入等时长的隐匿状态，【叙拉古】干员在隐匿状态和脱离隐匿10秒内对敌人攻击时有3%概率造成<@ba.vup>{2:0}</><@ba.acrem>（受层数影响）</>点真实伤害并<@ba.vup>恐惧</>目标3秒",
+  "effectId": "bondeffect_siracusa",
+  "effectName": "叙拉古",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击时有3%概率使目标获得一层<$ba.palsy>麻痹</>",
+  "effectId": "eff_acarm058",
+  "effectName": "催泪瓦斯",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

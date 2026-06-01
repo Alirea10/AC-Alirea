@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【回收利用】地面干员技能结束时使周围四格随机1名干员获得3点技力",
+  "effectId": "aceffect_band_38",
+  "effectName": "回收利用",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

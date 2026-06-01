@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_605_cmedic",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_1033_swire2",
+  "chessId": "chess_char_3_04_a",
+  "chessLevel": 3,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_swire2",
+  "goldenChessId": "chess_char_3_04_b",
+  "isHidden": false,
+  "shopLevelSortId": 4,
+  "tmplId": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "atk",
+        "value": 1.1,
+        "valueStr": null
+      },
+      {
+        "key": "def",
+        "value": 1.05,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp",
+        "value": 1.05,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "char_attribute_mul"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "atk",
+        "value": 1.1,
+        "valueStr": null
+      },
+      {
+        "key": "def",
+        "value": 1.05,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp",
+        "value": 1.05,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "acbattle_shop_char_cultivate_effect"
+  }
+]

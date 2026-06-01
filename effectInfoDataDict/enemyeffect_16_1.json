@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只泥岩巨像，将其击倒者获得<@ba.vup>3</>资金",
+  "effectId": "enemyeffect_16_1",
+  "effectName": "悬赏·特异III",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 3
+}

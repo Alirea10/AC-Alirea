@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_494_vendla",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_vendla",
+  "backupTmplId": null,
+  "charId": "char_494_vendla",
+  "chessId": "chess_char_1_06_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_vendla",
+  "goldenChessId": "chess_char_1_06_b",
+  "isHidden": false,
+  "shopLevelSortId": 6,
+  "tmplId": null
+}

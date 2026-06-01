@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，若已拥有至少2名该初始干员，则再获得1名该初始干员；否则随机获得1名同盟约初始干员",
+  "effectId": "eff_acgarm069",
+  "effectName": "拟态物质",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

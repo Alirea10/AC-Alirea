@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "round_start_gain_char_chess_in_shop_every_n_round"
+  }
+]

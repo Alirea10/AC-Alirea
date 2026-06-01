@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_1021_kroos2",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_kroos2",
+  "backupTmplId": null,
+  "charId": "char_1021_kroos2",
+  "chessId": "chess_char_4_06_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_kroos2",
+  "goldenChessId": "chess_char_4_06_b",
+  "isHidden": false,
+  "shopLevelSortId": 6,
+  "tmplId": null
+}

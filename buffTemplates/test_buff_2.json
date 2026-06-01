@@ -1,0 +1,25 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_attributeType": "MAX_HP",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "atk",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "atk",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "test_buff_2"
+}

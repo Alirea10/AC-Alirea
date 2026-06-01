@@ -1,0 +1,48 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "indomShip",
+  "chessIdList": [
+    "chess_char_1_05_a",
+    "chess_char_1_20_a",
+    "chess_char_2_03_a",
+    "chess_char_2_12_a",
+    "chess_char_3_16_a",
+    "chess_char_4_07_a",
+    "chess_char_5_06_a",
+    "chess_char_5_13_a",
+    "chess_char_6_06_a",
+    "chess_char_1_05_b",
+    "chess_char_1_20_b",
+    "chess_char_2_03_b",
+    "chess_char_2_12_b",
+    "chess_char_3_16_b",
+    "chess_char_4_07_b",
+    "chess_char_5_06_b",
+    "chess_char_5_13_b",
+    "chess_char_6_06_b",
+    "chess_rainbow_4_27_b",
+    "chess_rainbow_4_27_a",
+    "chess_ursus_3_25_b",
+    "chess_ursus_3_25_a"
+  ],
+  "desc": "<@ba.vup>地面干员</>被击倒时，有概率立即<@ba.vup>重新部署</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【不屈】干员><@ba.vup>地面干员</>被击倒时使场上所有干员<@ba.vup>技力+5</>",
+  "descParamBaseList": [
+    "base_prob"
+  ],
+  "descParamPerStackList": [
+    "prob_per_stack"
+  ],
+  "effectId": "bondeffect_indom",
+  "iconId": "icon_indomShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "不屈",
+  "noStack": false,
+  "weight": 10
+}

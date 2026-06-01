@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【以己之长】所有干员造成的物理和法术伤害变为弱点伤害（根据敌人的防御力和法术抗性变更伤害类型）",
+  "effectId": "aceffect_band_39",
+  "effectName": "以己之长",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

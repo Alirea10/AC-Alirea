@@ -1,0 +1,186 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "trap_1105_accrate#001",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#002",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#003",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#004",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#101",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#102",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#103",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#104",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "trap_1105_accrate#201",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#202",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#203",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#204",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#301",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#302",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#303",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1105_accrate#304",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "trap_1106_achplat#001",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#002",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#003",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#004",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#101",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#102",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#103",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#104",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "trap_1106_achplat#201",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#202",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#203",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#204",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#301",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#302",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#303",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "trap_1106_achplat#304",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "auto_chess_change_map"
+  }
+]

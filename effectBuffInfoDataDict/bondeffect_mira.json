@@ -1,0 +1,39 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "probk",
+        "value": 0.3,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.003,
+        "valueStr": null
+      },
+      {
+        "key": "baseprob",
+        "value": 0.18,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_refresh_shop_next_free"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 100,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 20,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_layer_gain_coin"
+  }
+]

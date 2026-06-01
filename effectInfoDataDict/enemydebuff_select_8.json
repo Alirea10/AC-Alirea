@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_boss_debuff",
+  "effectDesc": "领袖敌人获得减益效果：防御力-200",
+  "effectId": "enemydebuff_select_8",
+  "effectName": "裁决：脆弱",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

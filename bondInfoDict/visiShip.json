@@ -1,0 +1,42 @@
+{
+  "activeCondition": "BOARD_AND_DECK",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "ALL",
+  "bondId": "visiShip",
+  "chessIdList": [
+    "chess_char_1_11_a",
+    "chess_char_2_02_a",
+    "chess_char_3_03_a",
+    "chess_char_3_14_a",
+    "chess_char_4_04_a",
+    "chess_char_4_07_a",
+    "chess_char_5_01_a",
+    "chess_char_5_21_a",
+    "chess_char_6_12_a",
+    "chess_char_1_11_b",
+    "chess_char_2_02_b",
+    "chess_char_3_03_b",
+    "chess_char_3_14_b",
+    "chess_char_4_04_b",
+    "chess_char_4_07_b",
+    "chess_char_5_01_b",
+    "chess_char_5_21_b",
+    "chess_char_6_12_b",
+    "chess_rainbow_2_20_a",
+    "chess_rainbow_2_20_b"
+  ],
+  "desc": "<每叠加<@autochess.dgreen>10</>层>获得一次<@ba.vup>2</>资金\n<首次达到<@autochess.dgreen>80</>层>所有【远见】干员购买价格<@ba.vup>永久-1</>资金\n<首次达到<@autochess.dgreen>150</>层>以上效果改为调度中心内所有干员的购买价格<@ba.vup>永久-1</>资金（整备区的【远见】干员也可用于激活盟约）",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_visi",
+  "iconId": "icon_visiShip",
+  "isActiveInDeck": true,
+  "maxInactiveBondCount": -1,
+  "name": "远见",
+  "noStack": false,
+  "weight": 10
+}

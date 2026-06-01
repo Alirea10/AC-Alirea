@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【以己之长】所有干员造成的物理和法术伤害变为弱点伤害（根据敌人的防御力和法术抗性变更伤害类型）",
+  "bandId": "band_chen",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_39",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 24,
+  "totalHp": 22,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力、防御力和最大生命值+10%",
+  "effectId": "aceffect_char_4",
+  "effectName": "精英阶段2-60级",
+  "effectType": "CHAR_MAP",
+  "enemyPrice": 0
+}

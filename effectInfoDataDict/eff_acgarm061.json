@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "治疗时有15%概率使目标获得1层<$ba.shield>护盾</>（最多1层）",
+  "effectId": "eff_acgarm061",
+  "effectName": "护盾无人机",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "[芬芳】所有我方单位每次受到伤害时回复50点生命值",
+  "effectId": "aceffect_band_62",
+  "effectName": "调香师",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

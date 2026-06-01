@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<@ba.vup>携带装备</>的【维多利亚】干员伤害提升至<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>\n<每叠加<@ba.vup>25</>层>获得一件带有随机特殊效果的维式重锤\n<在场<@ba.vup>6</>名不同【维多利亚】干员>【维多利亚】干员每携带1件装备攻击力<@ba.vup>+50%</>，携带进阶装备改为<@ba.vup>+80%</>",
+  "effectId": "bondeffect_victoria",
+  "effectName": "维多利亚",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【利滚利】每回合剩余的资金可以继承，剩余至少5资金时，每回合额外获得1资金",
+  "effectId": "aceffect_band_34",
+  "effectName": "利滚利",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

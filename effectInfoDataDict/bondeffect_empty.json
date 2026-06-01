@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "所有干员受到的物理和法术伤害<@ba.vup>-20%</>；【协防干员】伤害提升至<@ba.vup>120%</>，精锐【协防干员】造成伤害提升至<@ba.vup>140%</>",
+  "effectId": "bondeffect_empty",
+  "effectName": "协防干员",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

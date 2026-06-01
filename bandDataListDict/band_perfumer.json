@@ -1,0 +1,14 @@
+{
+  "bandDesc": "<芬芳>所有我方单位每次受到伤害时回复50点生命值",
+  "bandId": "band_perfumer",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_62",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 41,
+  "totalHp": 26,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

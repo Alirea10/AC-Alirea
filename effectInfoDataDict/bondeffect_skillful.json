@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【灵巧】干员及周围4格的干员攻击速度<@ba.vup>+{0:0}</><@ba.acrem>（受层数影响）</>\n <达到<@ba.vup>40</>层>生效范围变为【灵巧】干员周围8格",
+  "effectId": "bondeffect_skillful",
+  "effectName": "灵巧",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

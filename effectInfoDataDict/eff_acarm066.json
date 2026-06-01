@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，并获得<@ba.vup>1</>资金",
+  "effectId": "eff_acarm066",
+  "effectName": "盟约之币",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【定向投放】每次升级调度中心时，在调度中心刷新随机3件装备，可以选择并获得其中1件",
+  "effectId": "aceffect_band_26",
+  "effectName": "定向投放",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_attack_enemy"
+    },
+    {
+      "key": "check_tag",
+      "value": 0,
+      "valueStr": "seamonster"
+    },
+    {
+      "key": "atk",
+      "value": 1.5,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "攻击海怪敌人时攻击力提升至<@ba.vup>150%</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "攻击海怪敌人时攻击力提升至<@ba.vup>150%</>"
+}

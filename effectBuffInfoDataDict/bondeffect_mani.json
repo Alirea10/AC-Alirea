@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "other_bond_add_trigger_cnt"
+  }
+]

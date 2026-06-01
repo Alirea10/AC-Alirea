@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "部署时，获得<@ba.vup>3</>点技力；每有一个同盟约的其他干员，额外获得<@ba.vup>3</>点技力",
+  "effectId": "eff_acarm051",
+  "effectName": "迅捷作战粮",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

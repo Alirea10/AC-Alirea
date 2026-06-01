@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【商业包装】初始获得1个<商业包装方案>\\n<@ba.acrem><商业包装方案>：每出售8名任意干员后，获得1名装备者的同盟约普通干员</>",
+  "effectId": "aceffect_band_27",
+  "effectName": "商业包装",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

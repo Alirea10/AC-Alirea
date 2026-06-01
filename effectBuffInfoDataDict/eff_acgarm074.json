@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 7,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "sell_char_count_gain_equip_owner_bond"
+  }
+]

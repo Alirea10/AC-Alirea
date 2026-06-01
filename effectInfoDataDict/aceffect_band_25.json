@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【加练！】每2个回合获得1个特殊法术<教鞭>\\n<@ba.acrem><教鞭>：使用后为下场战斗添加额外敌人，若自身战斗完美作战可获得资金</>",
+  "effectId": "aceffect_band_25",
+  "effectName": "加练！",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

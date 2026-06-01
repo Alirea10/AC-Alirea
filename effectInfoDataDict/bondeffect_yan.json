@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【炎】干员攻击力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【炎】干员>战斗开始时收集【炎】干员部分属性召唤“炎佑”（其攻击力和生命值为【炎】干员攻击力和生命值总和的30%）；“炎佑”同时攻击3个目标，攻击附带20%<@ba.vup>攻击力</>的<@ba.vup>灼燃损伤</>，周围敌人受到20%的<@ba.vup>元素脆弱</>，周期性使用“祛恶之焰”\n<在场<@ba.vup>9</>名不同【炎】干员>改为召唤2只“炎佑”；“炎佑”攻击力提升至1.5倍，受到的伤害-90%",
+  "effectId": "bondeffect_yan",
+  "effectName": "炎",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

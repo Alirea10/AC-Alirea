@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4137_udflow",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_udflow",
+  "backupTmplId": null,
+  "charId": "char_4137_udflow",
+  "chessId": "chess_char_1_04_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_udflow",
+  "goldenChessId": "chess_char_1_04_b",
+  "isHidden": false,
+  "shopLevelSortId": 4,
+  "tmplId": null
+}

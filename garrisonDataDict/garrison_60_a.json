@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "scope",
+      "value": 0,
+      "valueStr": "front"
+    },
+    {
+      "key": "event",
+      "value": 0,
+      "valueStr": "SERVER_GAIN"
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果",
+  "effectType": "SERVER_TRIGGER_ANOTHER",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "特异化",
+  "eventTypeIcon": "icon_support",
+  "eventTypeSmallIcon": "s_icon_support",
+  "garrisonDesc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果"
+}

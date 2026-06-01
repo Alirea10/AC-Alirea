@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【博学多通】升级调度中心至2、4和6级后，获得1次特殊刷新：此次刷新出现的干员优先为<萨尔贡>干员\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
+  "bandId": "band_pepe",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_29",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 10,
+  "totalHp": 23,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

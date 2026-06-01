@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "部署后<@ba.vup>15</>秒内造成的伤害提升至<@ba.vup>160%</>，随后逐渐衰减",
+  "effectId": "eff_acgarm119",
+  "effectName": "卡西米尔竞技旗",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

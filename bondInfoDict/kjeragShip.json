@@ -1,0 +1,52 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "kjeragShip",
+  "chessIdList": [
+    "chess_char_1_02_a",
+    "chess_char_2_03_a",
+    "chess_char_2_05_a",
+    "chess_char_3_11_a",
+    "chess_char_3_14_a",
+    "chess_char_3_20_a",
+    "chess_char_4_03_a",
+    "chess_char_4_13_a",
+    "chess_char_4_22_a",
+    "chess_char_5_14_a",
+    "chess_char_6_02_a",
+    "chess_char_6_19_a",
+    "chess_char_1_02_b",
+    "chess_char_2_03_b",
+    "chess_char_2_05_b",
+    "chess_char_3_11_b",
+    "chess_char_3_14_b",
+    "chess_char_3_20_b",
+    "chess_char_4_03_b",
+    "chess_char_4_13_b",
+    "chess_char_4_22_b",
+    "chess_char_5_14_b",
+    "chess_char_6_02_b",
+    "chess_char_6_19_b"
+  ],
+  "desc": "【谢拉格】干员造成的<@ba.vup>伤害提升</>，对<@ba.vup>寒冷、冻结</>敌人获得额外提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【谢拉格】干员>战场上每25秒过一阵寒风使场上的敌人寒冷一定时间<@autochess.gray>（受层数影响）</>",
+  "descParamBaseList": [
+    "base_ex_damage_scale",
+    "bond_eff_kjerag[storm].base_time"
+  ],
+  "descParamPerStackList": [
+    "ex_damage_scale_per_stack",
+    "bond_eff_kjerag[storm].time_per_stack"
+  ],
+  "effectId": "bondeffect_kjerag",
+  "iconId": "icon_kjeragShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "谢拉格",
+  "noStack": false,
+  "weight": 10
+}

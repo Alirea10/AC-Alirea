@@ -1,0 +1,48 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_useskill"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "sargonShip,preciShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 4,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_same_row"
+    },
+    {
+      "key": "check_count",
+      "value": 3,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【萨尔贡】【精准】层数<@ba.vup>+4</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【萨尔贡】【精准】层数<@ba.vup>+4</>"
+}

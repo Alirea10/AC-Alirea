@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击距离自身3格及以上的目标时，伤害提高<@ba.vup>30%</>",
+  "effectId": "eff_acarm063",
+  "effectName": "精准狙击镜",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "attr_common_global_buff"
+      },
+      {
+        "key": "atk",
+        "value": 0.45,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm044_global_buff"
+      },
+      {
+        "key": "attack_speed",
+        "value": 30,
+        "valueStr": null
+      },
+      {
+        "key": "big_hammer",
+        "value": 0,
+        "valueStr": "chess_item_6_05_e"
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

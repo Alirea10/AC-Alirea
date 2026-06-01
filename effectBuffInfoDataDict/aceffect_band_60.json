@@ -1,0 +1,38 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_equip_narant"
+      },
+      {
+        "key": "refresh_cnt",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "choice_cnt",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "preparation_start_add_special_goods_every_n_round"
+  }
+]

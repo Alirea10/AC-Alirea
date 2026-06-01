@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值+10%",
+  "bandId": "band_ioleta",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_53",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 32,
+  "totalHp": 29,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

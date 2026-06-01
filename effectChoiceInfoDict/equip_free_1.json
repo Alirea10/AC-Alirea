@@ -1,0 +1,8 @@
+{
+  "choiceEventId": "equip_free_1",
+  "choiceType": "EQUIP_FREE",
+  "desc": "无需消耗资金，获得装备补给。",
+  "effectType": "EQUIP",
+  "name": "道具补给",
+  "typeTxtColor": "#35d8b4"
+}

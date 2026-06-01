@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_equip_pepe"
+    },
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时>获得2件“盟约之币”或“萨尔贡浓茶”，有概率发现“黄沙罗盘”",
+  "effectType": "SERVER_POOL_EQUIP",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<进入休整期时>获得2件“盟约之币”或“萨尔贡浓茶”，有概率发现“黄沙罗盘”"
+}

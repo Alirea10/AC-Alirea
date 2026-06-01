@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1325_cbgpro"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1000_gopro_2"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1325_cbgpro_2",
+  "type": "SPECIAL"
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "为自身接下来<@ba.vup>两场作战</>添加1只控潮术师，将其击倒者获得<@ba.vup>2</>资金",
+  "effectId": "enemyeffect_12_5",
+  "effectName": "悬赏·损伤II",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 2
+}

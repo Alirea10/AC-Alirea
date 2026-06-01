@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【猎头顾问】每次主动刷新均变为特殊刷新：必定刷新2名同名干员，并冻结其中一名；第10回合获得1个<寻呼模块>\\n<@ba.acrem><寻呼模块>：装备时销毁，立即在调度中心中刷新三名与该干员盟约相同的干员，免费获得其中一名!（不超过当前调度中心等级）</>",
+  "bandId": "band_orchid",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_23",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 5,
+  "totalHp": 30,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

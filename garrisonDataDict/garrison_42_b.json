@@ -1,0 +1,48 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_useskill"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "sargonShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 10,
+      "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 10,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_42_b"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>首次开启技能时，使已激活的【萨尔贡】层数<@ba.vup>+10</>",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>首次开启技能时，使已激活的【萨尔贡】层数<@ba.vup>+10</>"
+}

@@ -1,0 +1,10 @@
+{
+  "charChessDiySlotIdList": [
+    "chess_char_6_diy1_a",
+    "chess_char_6_diy2_a"
+  ],
+  "isLevelCharChessEmpty": false,
+  "isLevelTrapChessEmpty": false,
+  "levelTagBgColor": "#5d341e",
+  "shopLevel": 6
+}

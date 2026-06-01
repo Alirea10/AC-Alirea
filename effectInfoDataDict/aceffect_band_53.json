@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值+10%",
+  "effectId": "aceffect_band_53",
+  "effectName": "统御号令",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

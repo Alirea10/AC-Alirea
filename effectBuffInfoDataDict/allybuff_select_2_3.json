@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "bond_list",
+        "value": 0,
+        "valueStr": "victoriaShip,indomShip,visiShip"
+      },
+      {
+        "key": "count",
+        "value": 8,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_bond_addlayer"
+  }
+]

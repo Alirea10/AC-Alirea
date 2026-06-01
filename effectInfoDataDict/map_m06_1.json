@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "场地中的沙尘暴<@ba.vdown>停止</>",
+  "effectId": "map_m06_1",
+  "effectName": "模拟战场演变·模式八",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

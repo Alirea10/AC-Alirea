@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_199_yak",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_yak",
+  "backupTmplId": null,
+  "charId": "char_199_yak",
+  "chessId": "chess_char_1_02_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_yak",
+  "goldenChessId": "chess_char_1_02_b",
+  "isHidden": false,
+  "shopLevelSortId": 2,
+  "tmplId": null
+}

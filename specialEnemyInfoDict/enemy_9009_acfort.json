@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1005_yokai_3"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1005_yokai_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_9009_acfort",
+  "type": "FLY"
+}

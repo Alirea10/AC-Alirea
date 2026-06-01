@@ -1,0 +1,54 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "arcaneShip",
+  "chessIdList": [
+    "chess_char_1_17_a",
+    "chess_char_2_10_a",
+    "chess_char_2_15_a",
+    "chess_char_3_09_a",
+    "chess_char_4_02_a",
+    "chess_char_4_10_a",
+    "chess_char_5_07_a",
+    "chess_char_5_12_a",
+    "chess_char_6_02_a",
+    "chess_char_6_16_a",
+    "chess_char_1_17_b",
+    "chess_char_2_10_b",
+    "chess_char_2_15_b",
+    "chess_char_3_09_b",
+    "chess_char_4_02_b",
+    "chess_char_4_10_b",
+    "chess_char_5_07_b",
+    "chess_char_5_12_b",
+    "chess_char_6_02_b",
+    "chess_char_6_16_b",
+    "chess_ursus_2_21_a",
+    "chess_ursus_2_21_b",
+    "chess_ursus_5_25_a",
+    "chess_ursus_5_25_b",
+    "chess_char_5_24_b",
+    "chess_char_5_24_a"
+  ],
+  "desc": "【奥术】干员造成法术伤害时使目标受到的法术伤害提升<@autochess.gray>（受层数影响）</>，持续3秒\n<在场<@autochess.dgreen>3</>名不同【奥术】干员>【奥术】干员对生命值低于<@ba.vup>50%</>的敌人施加的伤害提升比例提升<@autochess.gray>（受层数影响）</>",
+  "descParamBaseList": [
+    "base_damage_scale_show",
+    "base_damage_scale_show_ex"
+  ],
+  "descParamPerStackList": [
+    "damage_scale_per_stack",
+    "damage_scale_per_stack_show_ex"
+  ],
+  "effectId": "bondeffect_arcane",
+  "iconId": "icon_arcaneShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "奥术",
+  "noStack": false,
+  "weight": 10
+}

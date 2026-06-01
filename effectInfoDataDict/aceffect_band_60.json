@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【见者有份】偶数回合进入休整期时，调度中心特殊刷新两件装备，免费获取其中一件；萨尔贡盟约<在场6名不同【萨尔贡】干员>效果替换为【萨尔贡】干员技能开启后，周围八格干员同时享受该干员携带的不高于V阶的装备效果，持续60秒\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
+  "effectId": "aceffect_band_60",
+  "effectName": "见者有份",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

@@ -1,0 +1,20 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1110_accopy",
+  "chessId": "chess_item_6_02_m",
+  "effectId": "eff_accopy",
+  "giveBondId": null,
+  "givePowerId": null,
+  "isGolden": false,
+  "itemType": "MAGIC",
+  "purchasePrice": 2,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 0,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": 0,
+  "upgradeChessId": null,
+  "upgradeNum": 0
+}

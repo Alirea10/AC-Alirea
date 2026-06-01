@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "yanShip,investShip"
+    },
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>使下个休整期额外获得<@ba.vup>1</>资金（若已激活【炎】/【投资人】此特质在整备区也有效）",
+  "effectType": "SERVER_ONCE_GOLD_WITH_BOND_CONDITION",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<休整期结束时>使下个休整期额外获得<@ba.vup>1</>资金（若已激活【炎】/【投资人】此特质在整备区也有效）"
+}

@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+2</>，此干员在整备区时也有效",
+  "effectType": "SERVER_ADD_BOND_ACTIVATED_MOST_LAYER",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+2</>，此干员在整备区时也有效"
+}

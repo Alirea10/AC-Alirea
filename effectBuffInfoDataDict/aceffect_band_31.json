@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "kjeragShip"
+      },
+      {
+        "key": "price",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "first_buy_in_round_char_price_change"
+  }
+]

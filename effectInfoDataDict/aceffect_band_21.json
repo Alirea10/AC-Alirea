@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【重点监护】开始作战时，使场上每个不同等阶的1个随机我方干员的所属盟约层数+2",
+  "effectId": "aceffect_band_21",
+  "effectName": "重点监护",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

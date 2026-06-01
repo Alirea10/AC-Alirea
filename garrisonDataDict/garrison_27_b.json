@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_recoverhp_enemy_abflag_inrange"
+    },
+    {
+      "key": "check_ab_flag",
+      "value": 16,
+      "valueStr": null
+    },
+    {
+      "key": "hp_ratio",
+      "value": 0.03,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>每当范围内1名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗中>每当范围内1名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值"
+}

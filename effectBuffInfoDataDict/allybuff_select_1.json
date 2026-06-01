@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_equip_shop_1"
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_gain_equip"
+  }
+]

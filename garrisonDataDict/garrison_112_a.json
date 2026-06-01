@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 7,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>自身所属盟约层数<@ba.vup>+7</>（无需激活盟约）",
+  "effectType": "SERVER_ADD_BOND_CHESS_ALL",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<获得时>自身所属盟约层数<@ba.vup>+7</>（无需激活盟约）"
+}

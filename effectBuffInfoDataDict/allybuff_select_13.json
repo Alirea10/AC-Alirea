@@ -1,0 +1,29 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "global_special_choice_prep_finish_bench_at_least"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "halfIdle_magic_resist_penetration"
+      },
+      {
+        "key": "magic_resist_penetrate_fixed",
+        "value": 20,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

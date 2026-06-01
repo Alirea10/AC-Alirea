@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "干员的“获得时”类特质每次触发2次\n<达到<@ba.vup>100</>层>“获得时”类特质每次触发3次\\n整备区的【投资人】干员也可用于激活盟约",
+  "effectId": "bondeffect_invest",
+  "effectName": "投资人",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

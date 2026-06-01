@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【精准】干员攻击力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\\n<在场<@ba.vup>3</>名不同【精准】干员>生效范围变为所有【精准】干员和远程干员，且攻击无视<@ba.vup>30%</>防御力和法术抗性",
+  "effectId": "bondeffect_preci",
+  "effectName": "精准",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

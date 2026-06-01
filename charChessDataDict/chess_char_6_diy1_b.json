@@ -1,0 +1,14 @@
+{
+  "chessId": "chess_char_6_diy1_b",
+  "garrisonIds": null,
+  "isGolden": true,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
+}

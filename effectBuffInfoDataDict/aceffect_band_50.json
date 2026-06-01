@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 8,
+        "valueStr": null
+      },
+      {
+        "key": "factioncount",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "count1",
+        "value": 36,
+        "valueStr": null
+      },
+      {
+        "key": "count2",
+        "value": 12,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "round_start_bond_check_gain_layer"
+  }
+]

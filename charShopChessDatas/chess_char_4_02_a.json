@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_611_acnipe",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_213_mostma",
+  "chessId": "chess_char_4_02_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_mostma",
+  "goldenChessId": "chess_char_4_02_b",
+  "isHidden": false,
+  "shopLevelSortId": 2,
+  "tmplId": null
+}

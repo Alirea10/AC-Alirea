@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_enemy_debuff",
+  "effectDesc": "精英敌人获得减益效果：攻击力-6%",
+  "effectId": "enemydebuff_select_4",
+  "effectName": "责罚：乏力",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

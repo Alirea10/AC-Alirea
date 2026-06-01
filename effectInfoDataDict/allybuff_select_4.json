@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你接下来的<@ba.vup>2</>次刷新变为免费（可叠加），若存在<@ba.vup>其他队友</>则他们也获得",
+  "effectId": "allybuff_select_4",
+  "effectName": "补给",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

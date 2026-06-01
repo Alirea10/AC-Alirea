@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_174_slbell",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_slbell",
+  "backupTmplId": null,
+  "charId": "char_174_slbell",
+  "chessId": "chess_char_3_14_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_slbell",
+  "goldenChessId": "chess_char_3_14_b",
+  "isHidden": false,
+  "shopLevelSortId": 14,
+  "tmplId": null
+}

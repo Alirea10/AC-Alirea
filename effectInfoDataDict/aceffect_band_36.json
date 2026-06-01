@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【加急调派】我方干员每次部署后再部署时间减少50%",
+  "effectId": "aceffect_band_36",
+  "effectName": "加急调派",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

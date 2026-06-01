@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【加急调派】我方干员每次部署后再部署时间减少50%",
+  "bandId": "band_emperor",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_36",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 15,
+  "totalHp": 26,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

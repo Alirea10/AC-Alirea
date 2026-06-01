@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "装备时销毁，并使携带者所属盟约层数<@ba.vup>+6</>（无需激活盟约）",
+  "effectId": "eff_acgarm124",
+  "effectName": "随身身份牌",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

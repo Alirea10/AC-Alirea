@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "更容易受到攻击，生命值<@ba.vup>+60%</>",
+  "effectId": "eff_acgarm054",
+  "effectName": "蜂鸣器",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_stage_buff",
+  "effectDesc": "场地上<@ba.vdown>全部</>阻隔工事变为射击台",
+  "effectId": "map_m02_1",
+  "effectName": "模拟战场演变·模式二",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

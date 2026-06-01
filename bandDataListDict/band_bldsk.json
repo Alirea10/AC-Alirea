@@ -1,0 +1,15 @@
+{
+  "bandDesc": "【重点监护】开始作战时，使场上每个不同等阶的1个随机我方干员的所属盟约层数+2",
+  "bandId": "band_bldsk",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_21",
+  "modeTypeList": [
+    "LOCAL",
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 1,
+  "totalHp": 28,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

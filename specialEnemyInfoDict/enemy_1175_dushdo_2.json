@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1174_duholy_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1165_duhond"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 8,
+  "specialEnemyKey": "enemy_1175_dushdo_2",
+  "type": "REFLECTION"
+}

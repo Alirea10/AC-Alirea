@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "子弹类技能剩余一发子弹时有60%概率恢复60%的子弹（每次部署最多触发3次）",
+  "effectId": "eff_acgarm057",
+  "effectName": "拉特兰桥夹",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

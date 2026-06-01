@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "capital",
+        "value": 5,
+        "valueStr": null
+      },
+      {
+        "key": "interest",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "coin_carry_over"
+  }
+]

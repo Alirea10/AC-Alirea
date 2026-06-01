@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "每次部署后的10秒内，攻击时使目标<$ba.stun>晕眩</>2秒",
+  "effectId": "eff_acarm064",
+  "effectName": "突袭手雷",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

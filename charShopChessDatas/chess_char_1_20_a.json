@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_107_liskam",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_liskam",
+  "backupTmplId": null,
+  "charId": "char_107_liskam",
+  "chessId": "chess_char_1_20_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_liskam",
+  "goldenChessId": "chess_char_1_20_b",
+  "isHidden": false,
+  "shopLevelSortId": 20,
+  "tmplId": null
+}

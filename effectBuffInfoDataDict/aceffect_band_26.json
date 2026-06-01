@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "choice",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_equip_kathe"
+      }
+    ],
+    "countType": "NONE",
+    "key": "up_shop_add_special_goods"
+  }
+]

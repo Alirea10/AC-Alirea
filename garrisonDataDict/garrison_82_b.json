@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "scope",
+      "value": 0,
+      "valueStr": "farright"
+    },
+    {
+      "key": "event",
+      "value": 0,
+      "valueStr": "SERVER_PREP_FIN"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<售出时>触发场上一名拥有“休整期结束时”的干员的特质（优先触发部署位置更靠上的和更靠右的）",
+  "effectType": "SERVER_TRIGGER_ANOTHER",
+  "eventType": "SERVER_CHESS_SOLD",
+  "eventTypeDesc": "特异化",
+  "eventTypeIcon": "icon_support",
+  "eventTypeSmallIcon": "s_icon_support",
+  "garrisonDesc": "<售出时>触发场上一名拥有“休整期结束时”的干员的特质（优先触发部署位置更靠上的和更靠右的）"
+}

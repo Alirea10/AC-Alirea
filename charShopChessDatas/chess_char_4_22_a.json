@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_609_acguad",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_172_svrash",
+  "chessId": "chess_char_4_22_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_svrash",
+  "goldenChessId": "chess_char_4_22_b",
+  "isHidden": false,
+  "shopLevelSortId": 22,
+  "tmplId": null
+}

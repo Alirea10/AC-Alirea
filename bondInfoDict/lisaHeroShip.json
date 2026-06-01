@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "lisaHeroShip",
+  "chessIdList": [
+    "chess_hero_6_24_b",
+    "chess_hero_6_24_a"
+  ],
+  "desc": "【御守】所有干员技力回复速度+<@ba.vup>1</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "heroeffect_lisa",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "御守",
+  "noStack": false,
+  "weight": 10
+}

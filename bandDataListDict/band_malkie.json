@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【商业包装】初始获得1个<商业包装方案>\\n<@ba.acrem><商业包装方案>：每出售8名任意干员后，获得1名装备者的同盟约普通干员</>",
+  "bandId": "band_malkie",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_27",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 22,
+  "totalHp": 28,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

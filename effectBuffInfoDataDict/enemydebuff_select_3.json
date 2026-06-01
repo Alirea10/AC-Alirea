@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [],
+    "countType": "NONE",
+    "key": "global_special_choice_all_activated"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "magic_resistance",
+        "value": -3,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "enemy_attribute_add"
+  }
+]

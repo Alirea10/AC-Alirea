@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_617_sharp2",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sharp2",
+  "backupTmplId": null,
+  "charId": "char_4064_mlynar",
+  "chessId": "chess_char_5_19_a",
+  "chessLevel": 5,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_mlynar",
+  "goldenChessId": "chess_char_5_19_b",
+  "isHidden": false,
+  "shopLevelSortId": 19,
+  "tmplId": null
+}

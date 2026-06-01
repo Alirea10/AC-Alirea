@@ -1,0 +1,16 @@
+{
+  "chessId": "chess_ursus_2_21_a",
+  "garrisonIds": [
+    "garrison_81_a"
+  ],
+  "isGolden": false,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": "chess_ursus_2_21_b",
+  "upgradeNum": 3
+}

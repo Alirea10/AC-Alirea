@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_613_acmedc",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acmedc",
+  "backupTmplId": null,
+  "charId": "char_245_cello",
+  "chessId": "chess_char_6_09_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_cello",
+  "goldenChessId": "chess_char_6_09_b",
+  "isHidden": false,
+  "shopLevelSortId": 9,
+  "tmplId": null
+}

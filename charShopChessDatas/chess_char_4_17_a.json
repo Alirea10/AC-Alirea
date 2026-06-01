@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_610_acfend",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_136_hsguma",
+  "chessId": "chess_char_4_17_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_hsguma",
+  "goldenChessId": "chess_char_4_17_b",
+  "isHidden": false,
+  "shopLevelSortId": 17,
+  "tmplId": null
+}

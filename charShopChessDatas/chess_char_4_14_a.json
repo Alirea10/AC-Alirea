@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_373_lionhd",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_lionhd",
+  "backupTmplId": null,
+  "charId": "char_373_lionhd",
+  "chessId": "chess_char_4_14_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_lionhd",
+  "goldenChessId": "chess_char_4_14_b",
+  "isHidden": false,
+  "shopLevelSortId": 14,
+  "tmplId": null
+}

@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>使下个休整期额外获得<@ba.vup>1</>资金",
+  "effectType": "SERVER_ONCE_GOLD",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<休整期结束时>使下个休整期额外获得<@ba.vup>1</>资金"
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_614_acsupo",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_206_gnosis",
+  "chessId": "chess_char_4_13_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_gnosis",
+  "goldenChessId": "chess_char_4_13_b",
+  "isHidden": false,
+  "shopLevelSortId": 13,
+  "tmplId": null
+}

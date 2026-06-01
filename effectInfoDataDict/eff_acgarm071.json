@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "任意干员可装备，立即使该干员晋升为精锐干员",
+  "effectId": "eff_acgarm071",
+  "effectName": "博士投影",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

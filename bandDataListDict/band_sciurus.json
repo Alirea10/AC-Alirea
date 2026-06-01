@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【雪域礼赠】每回合购买的首名<谢拉格>干员消耗资金为1\\n<@ba.vdown>在<谢拉格>部分干员缺席时体验可能不完整</>",
+  "bandId": "band_sciurus",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_31",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 12,
+  "totalHp": 24,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

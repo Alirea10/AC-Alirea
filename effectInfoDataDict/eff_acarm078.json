@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "获得<@ba.vup>180</>点<$ba.dmgresistance>伤害减免</>；若携带者为【阿戈尔】盟约干员，自身受到伤害时对伤害来源造成自身攻击力<@ba.vup>50%</>的法术伤害（每0.5秒最多触发一次）\\n<@ba.acrem>若该【阿戈尔】盟约干员同时装备“阿戈尔重刃”，则自身受到伤害时额外造成一次<@ba.vup>50%</>攻击力的法术伤害（每0.5秒最多触发一次）</>",
+  "effectId": "eff_acarm078",
+  "effectName": "海沟实验体",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

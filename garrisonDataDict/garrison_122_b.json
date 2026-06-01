@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "siracusaShip,arcaneShip"
+    },
+    {
+      "key": "multiplier",
+      "value": 4,
+      "valueStr": null
+    },
+    {
+      "key": "max_layer",
+      "value": 12,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>本回合每刷新过1次，使已激活的【叙拉古】【奥术】层数<@ba.vup>+4</>（每回合至多12层）",
+  "effectType": "SERVER_ADD_REFRESH_CNT_MULTIPLIER_BOND_LAYER",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>本回合每刷新过1次，使已激活的【叙拉古】【奥术】层数<@ba.vup>+4</>（每回合至多12层）"
+}

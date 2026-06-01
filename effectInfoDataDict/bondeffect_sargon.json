@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员攻击速度+12（至多<@ba.vup>+300</>），持续<@ba.vup>{0:0}</>秒<@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【萨尔贡】干员>开启技能还会使所有【萨尔贡】干员攻击力+12%（至多<@ba.vup>+300%</>）\n<@ba.acrem>选择策略【娜仁图亚】时，<在场6名不同【萨尔贡】干员>的效果会有所改变</>",
+  "effectId": "bondeffect_sargon",
+  "effectName": "萨尔贡",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

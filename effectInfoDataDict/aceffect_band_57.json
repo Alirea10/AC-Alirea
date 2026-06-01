@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【协力共进】第8、10、12、14回合时，获得1个<信标>\\n<@ba.acrem><信标>：装备后销毁携带干员，并在调度中心刷新两名同等阶干员免费获取其中一名；原干员在下回合传递给对应盟约人数最多的队友</>",
+  "effectId": "aceffect_band_57",
+  "effectName": "协力共进",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

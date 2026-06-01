@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_603_csnipe",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_430_fartth",
+  "chessId": "chess_char_4_20_a",
+  "chessLevel": 4,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_fartth",
+  "goldenChessId": "chess_char_4_20_b",
+  "isHidden": false,
+  "shopLevelSortId": 20,
+  "tmplId": null
+}

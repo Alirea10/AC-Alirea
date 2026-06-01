@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1005_yokai_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10083_hlbird"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10084_hlegle",
+  "type": "FLY"
+}

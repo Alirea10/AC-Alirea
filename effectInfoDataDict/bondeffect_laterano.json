@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【拉特兰】干员开启技能时获得的弹药量<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同【拉特兰】干员>任意【拉特兰】干员每消耗1发弹药，全体【拉特兰】干员攻击力+4%，至多<@ba.vup>+200%</>",
+  "effectId": "bondeffect_laterano",
+  "effectName": "拉特兰",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

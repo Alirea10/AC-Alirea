@@ -1,0 +1,13 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 6,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "use_equip_reward_char_chess_bond_layer"
+  }
+]

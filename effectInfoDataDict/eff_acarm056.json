@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "再部署时间<@ba.vup>-30%</>，生命值<@ba.vdown>-30%</>",
+  "effectId": "eff_acarm056",
+  "effectName": "不屈弹射器",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

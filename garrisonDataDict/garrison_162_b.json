@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "give_garrison_to_all",
+  "blackboard": [
+    {
+      "key": "check_bond_id",
+      "value": 0,
+      "valueStr": "rainbowShip"
+    },
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_117_c"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使<@ba.vup>所有</>【彩虹小队】干员获得特质“击倒敌人时，使已激活的【彩虹小队】层数<@ba.vup>+1</>”",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗开始时>使<@ba.vup>所有</>【彩虹小队】干员获得特质“击倒敌人时，使已激活的【彩虹小队】层数<@ba.vup>+1</>”"
+}

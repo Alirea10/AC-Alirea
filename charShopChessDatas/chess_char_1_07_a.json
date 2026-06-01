@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_145_prove",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_prove",
+  "backupTmplId": null,
+  "charId": "char_145_prove",
+  "chessId": "chess_char_1_07_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_prove",
+  "goldenChessId": "chess_char_1_07_b",
+  "isHidden": false,
+  "shopLevelSortId": 7,
+  "tmplId": null
+}

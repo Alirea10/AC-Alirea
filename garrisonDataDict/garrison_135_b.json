@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "chess",
+      "value": 0,
+      "valueStr": "chess_item_4_07_e_a"
+    },
+    {
+      "key": "count",
+      "value": 2,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>获得2件【卡西米尔竞技旗】",
+  "effectType": "SERVER_GAIN_EQUIP",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<获得时>获得2件【卡西米尔竞技旗】"
+}

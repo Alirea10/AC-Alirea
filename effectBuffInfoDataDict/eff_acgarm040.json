@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1vautochess_equip_acarm024_global_buff"
+      },
+      {
+        "key": "prob",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "atk",
+        "value": 0.08,
+        "valueStr": null
+      },
+      {
+        "key": "atk_buff_cnt",
+        "value": 10,
+        "valueStr": null
+      }
+    ],
+    "countType": "COUNTING",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

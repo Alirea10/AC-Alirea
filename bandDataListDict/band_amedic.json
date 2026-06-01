@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【外勤医疗】所有玩家场地上出现一名<预备干员-医疗>；战斗开始时，若场上至少有两名精锐干员，则替换为<Touch>",
+  "bandId": "band_amedic",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_61",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 40,
+  "totalHp": 28,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

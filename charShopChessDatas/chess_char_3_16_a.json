@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_150_snakek",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_snakek",
+  "backupTmplId": null,
+  "charId": "char_150_snakek",
+  "chessId": "chess_char_3_16_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_snakek",
+  "goldenChessId": "chess_char_3_16_b",
+  "isHidden": false,
+  "shopLevelSortId": 16,
+  "tmplId": null
+}

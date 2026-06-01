@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1019_jshoot"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1043_zomsbr"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1299_ymkilr",
+  "type": "INVISIBLE"
+}

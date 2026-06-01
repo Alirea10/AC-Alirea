@@ -1,0 +1,185 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_bondIds": [
+            "rainbowShip"
+          ],
+          "_checkTargetInRangeId": null,
+          "_considerManiShip": true,
+          "_target": "TARGET",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_assignAllPlayerIndex": false,
+            "_assignCurrentMaxBond": false,
+            "_bondBlackboardKey": "none",
+            "_bondId": "rainbowShip",
+            "_byPosition": false,
+            "_checkDiffWithOldStoreCnt": true,
+            "_keyToStoreCnt": "bond_stack_cnt",
+            "_target": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": "base_atk",
+            "_dividedParamKey": null,
+            "_finalAbs": true,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "atk_per_stack",
+            "_outputKey": "real_atk",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": "base_def",
+            "_dividedParamKey": null,
+            "_finalAbs": true,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "def_per_stack",
+            "_outputKey": "real_def",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "ATK",
+            "_formulaType": "MULTIPLIER",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "real_atk",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "DEF",
+            "_formulaType": "MULTIPLIER",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "real_def",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_conditionNode": {
+          "_bondId": "rainbowShip",
+          "_condType": "GE",
+          "_filterAllSides": true,
+          "_filterCount": true,
+          "_keyToCompare": "power_bond_char_cnt",
+          "_keyToStoreCnt": "bond_char_cnt",
+          "_target": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        },
+        "_failNodes": null,
+        "_succeedNodes": [
+          {
+            "_conditionNode": {
+              "_abnormalFlags": [
+                "STUNNED",
+                "UNMOVABLE"
+              ],
+              "_targetType": "MODIFIER_TARGET",
+              "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlags, Assembly-CSharp"
+            },
+            "_failNodes": [
+              {
+                "_conditionNode": {
+                  "_buffKeys": [
+                    "sluggish"
+                  ],
+                  "_buffSourceType": "BUFF_SOURCE",
+                  "_checkBuffSource": false,
+                  "_checkSourceHost": false,
+                  "_loadFromBlackboard": false,
+                  "_targetType": "MODIFIER_TARGET",
+                  "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+                  "isAND": true
+                },
+                "_failNodes": [
+                  {
+                    "_applyWayFilter": "NONE",
+                    "_cachedDeltaValueToBBKey": "",
+                    "_customKey": "base_damage_scale",
+                    "_damageMask": "NONE",
+                    "_filterApplyWay": false,
+                    "_filterDamageType": false,
+                    "_filterModifierKey": false,
+                    "_isOneMinus": false,
+                    "_isStackable": false,
+                    "_isValidStackCnt": false,
+                    "_modifierKey": "",
+                    "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+                  }
+                ],
+                "_succeedNodes": [
+                  {
+                    "_applyWayFilter": "NONE",
+                    "_cachedDeltaValueToBBKey": "",
+                    "_customKey": "real_ex_damage_scale",
+                    "_damageMask": "NONE",
+                    "_filterApplyWay": false,
+                    "_filterDamageType": false,
+                    "_filterModifierKey": false,
+                    "_isOneMinus": false,
+                    "_isStackable": false,
+                    "_isValidStackCnt": false,
+                    "_modifierKey": "",
+                    "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+                  }
+                ],
+                "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+              }
+            ],
+            "_succeedNodes": [
+              {
+                "_applyWayFilter": "NONE",
+                "_cachedDeltaValueToBBKey": "",
+                "_customKey": "real_ex_damage_scale",
+                "_damageMask": "NONE",
+                "_filterApplyWay": false,
+                "_filterDamageType": false,
+                "_filterModifierKey": false,
+                "_isOneMinus": false,
+                "_isStackable": false,
+                "_isValidStackCnt": false,
+                "_modifierKey": "",
+                "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+              }
+            ],
+            "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_rainbow"
+}

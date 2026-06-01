@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你的谢拉格、投资人、迅捷盟约层数<@ba.vup>+8</>，若存在<@ba.vup>其他队友</>则他们也获得",
+  "effectId": "allybuff_select_2_4",
+  "effectName": "银灰的盟誓",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

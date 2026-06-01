@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4040_rockr",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_rockr",
+  "backupTmplId": null,
+  "charId": "char_4040_rockr",
+  "chessId": "chess_char_2_10_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_rockr",
+  "goldenChessId": "chess_char_2_10_b",
+  "isHidden": false,
+  "shopLevelSortId": 10,
+  "tmplId": null
+}

@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【变形同构】每5回合获得1件特殊装备<变形同构体>\\n<@ba.acrem><变形同构体>：与特定装备一同装备时装备者将视为特定盟约成员</>",
+  "bandId": "band_damaztic",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_40",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 25,
+  "totalHp": 29,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

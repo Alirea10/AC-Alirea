@@ -1,0 +1,15 @@
+{
+  "bandDesc": "【坚不可摧】初始目标生命值为45点",
+  "bandId": "band_sarkazb",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_44",
+  "modeTypeList": [
+    "LOCAL",
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 4,
+  "totalHp": 45,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

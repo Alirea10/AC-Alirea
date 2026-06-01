@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "法术抗性<@ba.vup>+30</>；若携带者为【谢拉格】盟约干员，该干员攻击范围内被<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到一次自身攻击力<@ba.vup>30%</>的法术伤害\\n<@ba.acrem>若该【谢拉格】盟约干员同时装备“谢拉格不融冰”，则使自身攻击范围内<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到的法术伤害提升至<@ba.vup>100%</>攻击力</>",
+  "effectId": "eff_acarm102",
+  "effectName": "耶拉冈德之泪",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

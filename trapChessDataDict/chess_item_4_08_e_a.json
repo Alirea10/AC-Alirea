@@ -1,0 +1,20 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1057_acarm057",
+  "chessId": "chess_item_4_08_e_a",
+  "effectId": "eff_acarm057",
+  "giveBondId": "lateranoShip",
+  "givePowerId": null,
+  "isGolden": false,
+  "itemType": "EQUIP",
+  "purchasePrice": 1,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 0,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": -1,
+  "upgradeChessId": "chess_item_4_08_e_b",
+  "upgradeNum": 2
+}

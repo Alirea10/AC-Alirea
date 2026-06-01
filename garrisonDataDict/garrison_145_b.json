@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": "give_garrison_to_front",
+  "blackboard": [
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_144_b"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使<@ba.vup>自身</>和<@ba.vup>身前一格</>干员获得特质“【卡西米尔】每叠加3层，本干员再部署时间<@ba.vup>-3%</>，攻击速度<@ba.vup>+1</>”",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗开始时>使<@ba.vup>自身</>和<@ba.vup>身前一格</>干员获得特质“【卡西米尔】每叠加3层，本干员再部署时间<@ba.vup>-3%</>，攻击速度<@ba.vup>+1</>”"
+}

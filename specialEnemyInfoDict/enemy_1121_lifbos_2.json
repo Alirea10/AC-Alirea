@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1119_vofsd"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1116_liprr_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1121_lifbos_2",
+  "type": "SPECIAL"
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": null,
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_1502_crosly",
+  "chessId": "chess_ursus_4_27_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_ursus_4_27_b",
+  "isHidden": false,
+  "shopLevelSortId": 27,
+  "tmplId": null
+}

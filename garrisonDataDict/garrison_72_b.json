@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": "give_garrison_to_front",
+  "blackboard": [
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_95_b"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+2</>”（每场战斗至多14层）",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+2</>”（每场战斗至多14层）"
+}

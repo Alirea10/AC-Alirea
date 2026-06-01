@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【迅捷】干员技能结束时有<@ba.vup>{0:0%}</>概率<@ba.acrem>（受层数影响）</>立刻回复<@ba.vup>12</>点技力\n<达到<@ba.vup>40</>层>所有干员技能结束时有等概率额外回复<@ba.vup>15</>点技力",
+  "effectId": "bondeffect_swift",
+  "effectName": "迅捷",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你获得：我方单位每次受到伤害时回复50点生命值；若存在<@ba.vup>其他队友</>则他们也获得此效果",
+  "effectId": "allybuff_select_11",
+  "effectName": "自愈",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "每出售7名干员，额外获得一个与此装备携带者的同盟约初始干员（不高于当前调度中心等级）",
+  "effectId": "eff_acgarm074",
+  "effectName": "商业包装方案",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

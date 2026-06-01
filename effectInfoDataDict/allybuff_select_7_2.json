@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_player_buff",
+  "effectDesc": "<@ba.vup>你</>获得1名谢拉格盟约的随机干员棋子",
+  "effectId": "allybuff_select_7_2",
+  "effectName": "谢拉格驰援",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

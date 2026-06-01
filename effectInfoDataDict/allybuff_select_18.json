@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "你获得：干员在生命值为满时，攻击力、防御力+30%；若存在<@ba.vup>其他队友</>则他们也获得此效果",
+  "effectId": "allybuff_select_18",
+  "effectName": "无瑕",
+  "effectType": "BUFF_GAIN",
+  "enemyPrice": 0
+}

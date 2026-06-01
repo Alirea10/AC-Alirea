@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "round_gain_char"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "investShip"
+    },
+    {
+      "key": "multi",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>本回合每获得过1名干员，使已激活的【投资人】层数<@ba.vup>+1</>",
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>本回合每获得过1名干员，使已激活的【投资人】层数<@ba.vup>+1</>"
+}

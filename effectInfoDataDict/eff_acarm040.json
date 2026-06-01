@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "每开启一次技能，获得<@ba.vup>5%</>的攻击力加成（最多叠加10次）",
+  "effectId": "eff_acarm040",
+  "effectName": "炎国短刀",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

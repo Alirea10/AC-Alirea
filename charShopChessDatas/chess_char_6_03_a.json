@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_610_acfend",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acfend",
+  "backupTmplId": null,
+  "charId": "char_2026_yu",
+  "chessId": "chess_char_6_03_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_yu",
+  "goldenChessId": "chess_char_6_03_b",
+  "isHidden": false,
+  "shopLevelSortId": 3,
+  "tmplId": null
+}

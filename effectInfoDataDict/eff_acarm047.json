@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "防御力<@ba.vup>+20%</>",
+  "effectId": "eff_acarm047",
+  "effectName": "坚守盾牌",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

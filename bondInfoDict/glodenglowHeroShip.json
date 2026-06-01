@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "glodenglowHeroShip",
+  "chessIdList": [
+    "chess_hero_6_27_b",
+    "chess_hero_6_27_a"
+  ],
+  "desc": "所有干员造成的伤害提升<@ba.vup>25%</>，造成法术伤害附带相当于<@ba.vup>30%</>伤害的<$ba.dt.burning2>灼燃损伤</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "heroeffect_glodenglow",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "闪耀",
+  "noStack": false,
+  "weight": 100
+}

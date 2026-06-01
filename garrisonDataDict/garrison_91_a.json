@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_equip_rockr"
+    },
+    {
+      "key": "count",
+      "value": 1,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<获得时>随机制造1件洛洛的定制品",
+  "effectType": "SERVER_POOL_EQUIP",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<获得时>随机制造1件洛洛的定制品"
+}

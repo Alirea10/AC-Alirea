@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "战斗阶段被击倒时立刻复活（一场战斗仅<@ba.vup>1</>次）",
+  "effectId": "eff_acarm068",
+  "effectName": "M3茧甲",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

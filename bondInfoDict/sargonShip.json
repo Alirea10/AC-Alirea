@@ -1,0 +1,50 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "sargonShip",
+  "chessIdList": [
+    "chess_char_1_12_a",
+    "chess_char_2_06_a",
+    "chess_char_2_08_a",
+    "chess_char_3_06_a",
+    "chess_char_3_13_a",
+    "chess_char_4_05_a",
+    "chess_char_4_23_a",
+    "chess_char_4_24_a",
+    "chess_char_5_02_a",
+    "chess_char_5_18_a",
+    "chess_char_6_05_a",
+    "chess_char_6_06_a",
+    "chess_char_1_12_b",
+    "chess_char_2_06_b",
+    "chess_char_2_08_b",
+    "chess_char_3_06_b",
+    "chess_char_3_13_b",
+    "chess_char_4_05_b",
+    "chess_char_4_23_b",
+    "chess_char_4_24_b",
+    "chess_char_5_02_b",
+    "chess_char_5_18_b",
+    "chess_char_6_05_b",
+    "chess_char_6_06_b"
+  ],
+  "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响，每层持续时间独立计算）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>开启技能还会为所有【萨尔贡】干员提供等持续时间的<@ba.vup>攻击力</>（有上限）\n<@ba.acrem>选择策略【娜仁图亚】时，<在场6名不同【萨尔贡】干员>的效果会有所改变</>",
+  "descParamBaseList": [
+    "base_time"
+  ],
+  "descParamPerStackList": [
+    "time_per_stack"
+  ],
+  "effectId": "bondeffect_sargon",
+  "iconId": "icon_sargonShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "萨尔贡",
+  "noStack": false,
+  "weight": 10
+}

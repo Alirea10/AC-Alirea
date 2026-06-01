@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "max_hp",
+        "value": 1.08,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon|enemy_1196_msfyin|enemy_1196_msfyin_2|enemy_1198_msfshu|enemy_1198_msfshu_2|enemy_1200_msfjin|enemy_1200_msfjin_2|enemy_1202_msfzhi|enemy_1202_msfzhi_2|enemy_1204_msfhu|enemy_1204_msfhu_2|enemy_1208_msfji|enemy_1208_msfji_2|enemy_1210_msfden|enemy_1210_msfden_2"
+      }
+    ],
+    "countType": "NONE",
+    "key": "enemy_attribute_mul"
+  }
+]

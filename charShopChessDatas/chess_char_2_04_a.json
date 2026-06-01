@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4122_grabds",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_grabds",
+  "backupTmplId": null,
+  "charId": "char_4122_grabds",
+  "chessId": "chess_char_2_04_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_grabds",
+  "goldenChessId": "chess_char_2_04_b",
+  "isHidden": false,
+  "shopLevelSortId": 4,
+  "tmplId": null
+}

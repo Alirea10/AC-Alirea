@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "技力自然回复速度<@ba.vup>+0.25</>/秒",
+  "effectId": "eff_acgarm050",
+  "effectName": "萨尔贡浓茶",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

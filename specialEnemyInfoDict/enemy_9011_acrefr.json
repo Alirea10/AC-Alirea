@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1170_dushld_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1166_dusbr_2"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_9011_acrefr",
+  "type": "REFLECTION"
+}

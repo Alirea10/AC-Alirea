@@ -1,0 +1,43 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act2autochess_gar_eff_ab_damageScaleByBond"
+    },
+    {
+      "key": "divide_num",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "check_ab_flag",
+      "value": 13,
+      "valueStr": null
+    },
+    {
+      "key": "check_sluggish",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "yanShip,raidShip"
+    },
+    {
+      "key": "damage_scale_per_stack",
+      "value": 0.02,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "【炎】【突袭】每叠加3层，本干员攻击束缚和停顿状态的敌人造成的伤害提升<@ba.vup>2%</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【炎】【突袭】每叠加3层，本干员攻击束缚和停顿状态的敌人造成的伤害提升<@ba.vup>2%</>"
+}

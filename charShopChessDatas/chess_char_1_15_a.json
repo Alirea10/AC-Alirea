@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_616_pithst",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_pithst",
+  "backupTmplId": null,
+  "charId": "char_616_pithst",
+  "chessId": "chess_char_1_15_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_pithst",
+  "goldenChessId": "chess_char_1_15_b",
+  "isHidden": true,
+  "shopLevelSortId": 15,
+  "tmplId": null
+}

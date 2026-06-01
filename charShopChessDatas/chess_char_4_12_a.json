@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_474_glady",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_glady",
+  "backupTmplId": null,
+  "charId": "char_474_glady",
+  "chessId": "chess_char_4_12_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_glady",
+  "goldenChessId": "chess_char_4_12_b",
+  "isHidden": false,
+  "shopLevelSortId": 12,
+  "tmplId": null
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击力和防御力+5%",
+  "effectId": "aceffect_char_2",
+  "effectName": "精英阶段1",
+  "effectType": "CHAR_MAP",
+  "enemyPrice": 0
+}

@@ -1,0 +1,28 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "visiShip"
+    },
+    {
+      "key": "count",
+      "value": 4,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<进入休整期时><休整期结束时>使已激活的【远见】层数<@ba.vup>+4</>",
+  "effectType": "SERVER_ADD_BOND",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<进入休整期时><休整期结束时>使已激活的【远见】层数<@ba.vup>+4</>"
+}

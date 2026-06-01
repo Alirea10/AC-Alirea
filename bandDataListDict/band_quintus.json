@@ -1,0 +1,14 @@
+{
+  "bandDesc": "【不稳定要素】第3回合获得1件特殊装备<突变细胞>\\n<@ba.acrem><突变细胞>：战斗结束后使装备者变为高一阶的随机干员（最高6阶）</>",
+  "bandId": "band_quintus",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_41",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 18,
+  "totalHp": 31,
+  "updateTime": 1773475200,
+  "victorCount": 3
+}

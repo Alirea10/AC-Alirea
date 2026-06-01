@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "后续<@ba.vdown>每场</>作战添加1只假想敌：黑云（空中敌人），击倒它的你或队友获得1资金",
+  "effectId": "enemyInitial_4",
+  "effectName": "多轮悬赏 · 假想敌：黑云",
+  "effectType": "ENEMY_GAIN",
+  "enemyPrice": 1
+}

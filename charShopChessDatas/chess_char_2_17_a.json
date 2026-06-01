@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4207_branch",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_branch",
+  "backupTmplId": null,
+  "charId": "char_4207_branch",
+  "chessId": "chess_char_2_17_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_branch",
+  "goldenChessId": "chess_char_2_17_b",
+  "isHidden": false,
+  "shopLevelSortId": 17,
+  "tmplId": null
+}

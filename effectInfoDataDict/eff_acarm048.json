@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "法术抗性<@ba.vup>+20</>，攻击使目标失去特殊能力<@ba.vup>5</>秒",
+  "effectId": "eff_acarm048",
+  "effectName": "奥术法阵",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}

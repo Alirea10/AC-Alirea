@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1116_liprr_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1116_liprr"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1118_lidbox_2",
+  "type": "SPECIAL"
+}

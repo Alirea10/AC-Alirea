@@ -1,0 +1,33 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "hand_count"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "swiftShip"
+    },
+    {
+      "key": "multi",
+      "value": 4,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数<@ba.vup>+4</>",
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数<@ba.vup>+4</>"
+}

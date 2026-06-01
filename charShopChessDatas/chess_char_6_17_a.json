@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_608_acpion",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acpion",
+  "backupTmplId": null,
+  "charId": "char_1014_nearl2",
+  "chessId": "chess_char_6_17_a",
+  "chessLevel": 6,
+  "chessType": "NORMAL",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_nearl2",
+  "goldenChessId": "chess_char_6_17_b",
+  "isHidden": false,
+  "shopLevelSortId": 17,
+  "tmplId": null
+}

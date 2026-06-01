@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "无相关加成",
+  "effectId": "aceffect_char_1",
+  "effectName": "未精英化",
+  "effectType": "CHAR_MAP",
+  "enemyPrice": 0
+}

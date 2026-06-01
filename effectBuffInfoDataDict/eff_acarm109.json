@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "refresh_cnt",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "choice_cnt",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "use_equip_recruit_new_char_and_give_char_to_player_most_bond"
+  }
+]

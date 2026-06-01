@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<每叠加<@ba.vup>10</>层>获得一次<@ba.vup>2</>资金\n<首次到达<@ba.vup>80</>层>所有【远见】干员购买价格永久-1资金\n<首次到达<@ba.vup>150</>层>上述效果改为所有干员购买价格永久-1资金\\n整备区的【远见】干员也可用于激活盟约",
+  "effectId": "bondeffect_visi",
+  "effectName": "远见",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

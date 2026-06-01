@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "测试用",
+  "effectId": "testEffect",
+  "effectName": "测试效果",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

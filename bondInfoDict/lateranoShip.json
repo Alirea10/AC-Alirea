@@ -1,0 +1,48 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "lateranoShip",
+  "chessIdList": [
+    "chess_char_1_01_a",
+    "chess_char_2_01_a",
+    "chess_char_3_01_a",
+    "chess_char_3_07_a",
+    "chess_char_3_21_a",
+    "chess_char_4_01_a",
+    "chess_char_4_02_a",
+    "chess_char_5_01_a",
+    "chess_char_6_01_a",
+    "chess_char_6_09_a",
+    "chess_char_6_13_a",
+    "chess_char_1_01_b",
+    "chess_char_2_01_b",
+    "chess_char_3_01_b",
+    "chess_char_3_07_b",
+    "chess_char_3_21_b",
+    "chess_char_4_01_b",
+    "chess_char_4_02_b",
+    "chess_char_5_01_b",
+    "chess_char_6_01_b",
+    "chess_char_6_09_b",
+    "chess_char_6_13_b"
+  ],
+  "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【拉特兰】干员>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升（有上限）",
+  "descParamBaseList": [
+    "base_ammo_percent"
+  ],
+  "descParamPerStackList": [
+    "ammo_percent_per_stack"
+  ],
+  "effectId": "bondeffect_laterano",
+  "iconId": "icon_lateranoShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "拉特兰",
+  "noStack": false,
+  "weight": 10
+}

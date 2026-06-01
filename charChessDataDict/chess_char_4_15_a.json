@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_15_a",
+  "garrisonIds": [
+    "garrison_156_a",
+    "garrison_157_a"
+  ],
+  "isGolden": false,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_4_15_b",
+  "upgradeNum": 3
+}

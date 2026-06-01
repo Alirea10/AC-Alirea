@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【阿戈尔】干员生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，并叠加等于被吞噬者等阶的盟约层数<@ba.acrem>（【阿戈尔】之间优先更靠左和靠上的干员发起吞噬）</>\n<在场<@ba.vup>5</>名不同【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时<@ba.vup>立刻复活</>",
+  "effectId": "bondeffect_egir",
+  "effectName": "阿戈尔",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}
