@@ -19,6 +19,6 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "御守",
-  "noStack": false,
+  "noStack": true,
   "weight": 10
 }
