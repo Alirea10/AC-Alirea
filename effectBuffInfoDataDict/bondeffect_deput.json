@@ -4,7 +4,7 @@
       {
         "key": "key",
         "value": 0,
-        "valueStr": "act1autochess_bond_eff_deput"
+        "valueStr": "act1autochess_bond_eff_deput_copy"
       },
       {
         "key": "base_def",
@@ -19,6 +19,26 @@
       {
         "key": "respawn_time",
         "value": -0.3,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale",
+        "value": 0.4,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_stack_cnt",
+        "value": 50,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_stack_cnt_2",
+        "value": 100,
+        "valueStr": null
+      },
+      {
+        "key": "atk_speed",
+        "value": 40,
         "valueStr": null
       }
     ],
@@ -44,11 +64,27 @@
       },
       {
         "key": "more_layer",
-        "value": 4,
+        "value": 5,
         "valueStr": null
       }
     ],
     "countType": "NONE",
     "key": "bond_activated_add_layer"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 25,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 10,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "bond_layer_gain_coin"
   }
 ]
