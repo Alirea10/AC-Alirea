@@ -43,7 +43,9 @@
     "chess_ursus_6_23_a",
     "chess_ursus_6_23_b",
     "chess_ursus_6_22_b",
-    "chess_ursus_6_22_a"
+    "chess_ursus_6_22_a",
+    "chess_hero_6_28_a",
+    "chess_hero_6_28_b"
   ],
   "desc": "【迅捷】干员技能结束时有概率<@autochess.gray>（受层数影响）</>立刻回复<@ba.vup>12点</>技力\n<达到<@autochess.dgreen>40</>层>所有干员技能结束时有等概率额外回复<@ba.vup>15点</>技力",
   "descParamBaseList": [

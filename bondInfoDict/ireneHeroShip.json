@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "ireneHeroShip",
+  "chessIdList": [
+    "chess_hero_6_28_b",
+    "chess_hero_6_28_a"
+  ],
+  "desc": "所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。\n",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "heroeffect_irene",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "明灯",
+  "noStack": false,
+  "weight": 100
+}

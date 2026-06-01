@@ -1,5 +1,5 @@
 {
-  "activeCondition": "BOARD",
+  "activeCondition": "BOARD_AND_DECK",
   "activeConditionTemplate": "count_threshold_upward",
   "activeCount": 2,
   "activeParamList": [
