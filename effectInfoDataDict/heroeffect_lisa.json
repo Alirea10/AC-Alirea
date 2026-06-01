@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": "icon_team_buff",
-  "effectDesc": "所有干员技力回复速度+1<@ba.vup>",
+  "effectDesc": "所有干员技力回复速度+<@ba.vup>1</>",
   "effectId": "heroeffect_lisa",
   "effectName": "御守",
   "effectType": "BOND",

@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【卡西米尔】干员造成<@ba.vup>150%</>的伤害，获得<@ba.vup>50%</>防御力穿透，攻击速度+技能结束时立即恢复<@ba.vup>20</>点技力，部署费用减少<@ba.vup>10</>",
+  "effectDesc": "【卡西米尔】干员造成<@ba.vup>150%</>的伤害，获得<@ba.vup>50%</>防御力穿透，攻击速度+30，技能结束时立即恢复<@ba.vup>20</>点技力，部署费用减少<@ba.vup>10</>",
   "effectId": "heroeffect_fartooth",
   "effectName": "恭喜牙牙",
   "effectType": "BOND",

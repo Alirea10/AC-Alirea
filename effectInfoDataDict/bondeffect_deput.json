@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "所有干员防御力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>，再部署时间<@ba.vup>-30%</>\n休整期结束时，使当前所有已激活的盟约层数<@ba.vup>+2</>\n<在场<@ba.vup>3</>名不同【助力】干员>改为层数<@ba.vup>+6</>\n<每叠加<@ba.vup>25</>层>获得一次<@ba.vup>10</>资金\n <达到<@ba.vup>50</>层>所有干员攻击力+40%<@ba.vup>+50</>\n <达到<@ba.vup>100</>层>所有干员攻击速度+40<@ba.vup>+50</>",
+  "effectDesc": "所有干员防御力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>，再部署时间<@ba.vup>-30%</>\n休整期结束时，使当前所有已激活的盟约层数<@ba.vup>+2</>\n<在场<@ba.vup>3</>名不同【助力】干员>改为层数<@ba.vup>+6</>\n<每叠加<@ba.vup>25</>层>获得一次<@ba.vup>10</>资金\n <达到<@ba.vup>50</>层>所有干员攻击力+40%<@ba.vup>+50</>\n <达到<@ba.vup>100</>层>所有干员攻击速度+40<@ba.vup>+50</>\n<@ba.acrem>整备区的干员也可以触发助力</>",
   "effectId": "bondeffect_deput",
   "effectName": "助力",
   "effectType": "BOND",
