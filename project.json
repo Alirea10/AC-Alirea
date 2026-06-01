@@ -139,7 +139,7 @@
     "shopLevelDataDict": {
       "mode_multi_abyss": {
         "1": {
-          "charChessCount": 3,
+          "charChessCount": 4,
           "initialUpgradePrice": 5,
           "itemCount": 1,
           "levelTagBgColor": "#434343",
@@ -148,14 +148,14 @@
         "2": {
           "charChessCount": 4,
           "initialUpgradePrice": 8,
-          "itemCount": 1,
+          "itemCount": 2,
           "levelTagBgColor": "#626654",
           "shopLevel": 2
         },
         "3": {
-          "charChessCount": 4,
+          "charChessCount": 5,
           "initialUpgradePrice": 11,
-          "itemCount": 2,
+          "itemCount": 1,
           "levelTagBgColor": "#445760",
           "shopLevel": 3
         },
@@ -168,7 +168,7 @@
         },
         "5": {
           "charChessCount": 5,
-          "initialUpgradePrice": 13,
+          "initialUpgradePrice": 16,
           "itemCount": 1,
           "levelTagBgColor": "#6C5E41",
           "shopLevel": 5
