@@ -27,8 +27,8 @@
         "valueStr": null
       },
       {
-        "key": "new_key",
-        "value": 0,
+        "key": "mid_cost",
+        "value": -10,
         "valueStr": null
       }
     ],
