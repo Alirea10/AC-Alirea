@@ -4,15 +4,15 @@
       {
         "key": "key",
         "value": 0,
-        "valueStr": "act1autochess_bond_eff_hero_lirene"
+        "valueStr": "act1autochess_bond_eff_hero_irene"
       },
       {
-        "key": "MAX_HP",
+        "key": "max_hp",
         "value": 5000,
         "valueStr": null
       },
       {
-        "key": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+        "key": "hp_rec",
         "value": 0.01,
         "valueStr": null
       }

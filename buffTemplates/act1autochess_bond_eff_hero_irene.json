@@ -6,14 +6,14 @@
         "_attributeType": "MAX_HP",
         "_formulaType": "ADDITION",
         "_targetType": "BUFF_OWNER",
-        "_valueKey": "MAX_HP",
+        "_valueKey": "max_hp",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       },
       {
         "_attributeType": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
         "_formulaType": "MULTIPLIER",
         "_targetType": "BUFF_OWNER",
-        "_valueKey": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+        "_valueKey": "hp_rec",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       }
     ]
