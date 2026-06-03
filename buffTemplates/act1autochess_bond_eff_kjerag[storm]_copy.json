@@ -1,0 +1,126 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_defaultSettings": [
+          {
+            "key": "cold",
+            "overrideIfExists": false,
+            "val": 0,
+            "valStr": null
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+EnsureBlackboardDefaultValue, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "_assignAllPlayerIndex": true,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "none",
+        "_bondId": "kjeragShip",
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": false,
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_effectKey": "map_snow_left_2_right",
+        "_screenheightRatio": 0.5,
+        "_screenWidthRatio": 0.5,
+        "$type": "Torappu.Battle.Action.Nodes+CreateEffectAtScreenPos, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "base_time",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": "",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "time_per_stack",
+        "_outputKey": "cold",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": null,
+            "abnormalComboImmunes": null,
+            "abnormalCombos": null,
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "attributeModifiers": null
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "c2e_cold",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "LIMITED",
+          "loadFromDB": true,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": null,
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "DEFAULT",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "empty",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_source": "BUFF_OWNER",
+        "_targetOptions": {
+          "abnormalCombo": "SLEEPING",
+          "abnormalFlag": "STUNNED",
+          "checkUnitType": false,
+          "enableAdvancedOptions": false,
+          "excludeAbnormalFlag": "STUNNED",
+          "excludeSomeAbnormalFlags": false,
+          "ignoreAllyTargetFree": false,
+          "ignoreHealFree": false,
+          "ignoreTargetFree": false,
+          "ignoreTargetSide": false,
+          "onlyIgnoreSomeOfTargetFreeCase": false,
+          "professionMask": "NONE",
+          "purposeMask": "NONE",
+          "targetCategory": "DEFAULT",
+          "targetMotion": "ALL",
+          "targetSide": "ENEMY",
+          "unitTypeMask": "NONE"
+        },
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffToUnitInCurrentMapLayer, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_kjerag[storm]_copy"
+}
