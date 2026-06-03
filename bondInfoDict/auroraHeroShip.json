@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "auroraHeroShip",
+  "chessIdList": [
+    "chess_hero_6_29_b",
+    "chess_hero_6_29_a"
+  ],
+  "desc": "所有干员攻击时有<@ba.vup>3%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "heroeffect_aurora",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "“极光”",
+  "noStack": false,
+  "weight": 100
+}

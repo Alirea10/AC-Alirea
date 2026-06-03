@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_hero_aurora"
+      },
+      {
+        "key": "prob",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "cold",
+        "value": 10,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

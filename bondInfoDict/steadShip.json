@@ -31,7 +31,9 @@
     "chess_rainbow_4_27_a",
     "chess_rainbow_4_27_b",
     "chess_rainbow_1_21_b",
-    "chess_rainbow_1_21_a"
+    "chess_rainbow_1_21_a",
+    "chess_hero_6_29_a",
+    "chess_hero_6_29_b"
   ],
   "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>。【坚守】干员受到伤害时，伤害来源将受到一定法术伤害<@autochess.gray>（受层数影响，每0.2秒至多触发1次）</>和持续<@ba.vup>5</>秒的<@ba.vup>40%</>脆弱效果",
   "descParamBaseList": [
