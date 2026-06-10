@@ -15,6 +15,21 @@
         "_targetType": "BUFF_OWNER",
         "_valueKey": "hp_rec",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      },
+      {
+        "_condType": "GE",
+        "_hpRatioEachTime": 80,
+        "_minHpKey": null,
+        "_targetType": "BUFF_OWNER",
+        "_useMinHpRatio": false,
+        "$type": "Torappu.Battle.Action.Nodes+HpRatioTrigger, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "atk",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       }
     ]
   },

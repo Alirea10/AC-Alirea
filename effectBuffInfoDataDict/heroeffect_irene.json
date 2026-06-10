@@ -15,6 +15,11 @@
         "key": "hp_rec",
         "value": 0.01,
         "valueStr": null
+      },
+      {
+        "key": "atk",
+        "value": 0.5,
+        "valueStr": null
       }
     ],
     "countType": "NONE",

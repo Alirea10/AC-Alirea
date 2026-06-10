@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。\n",
+  "effectDesc": "所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。当前生命值大于80%时，攻击力+50%\n",
   "effectId": "heroeffect_irene",
   "effectName": "明灯",
   "effectType": "BOND",
