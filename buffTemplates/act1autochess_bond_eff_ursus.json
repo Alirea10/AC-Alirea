@@ -131,7 +131,7 @@
               "buffKey": "act1autochess_acarm045_buff[disarmed_combat]",
               "clearAllStackCntWhenTimeUp": false,
               "disableOverride": false,
-              "durationKey": "disarmed_combat",
+              "durationKey": "disarmed_duration",
               "enableInitDirectionFromSource": false,
               "firstTriggerInterval": -1,
               "independentCharacterSource": false,
