@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "所有干员攻击时有<@ba.vup>0%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
+  "effectDesc": "所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
   "effectId": "heroeffect_aurora",
   "effectName": "“极光”",
   "effectType": "BOND",

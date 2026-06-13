@@ -11,7 +11,7 @@
     "chess_hero_6_29_b",
     "chess_hero_6_29_a"
   ],
-  "desc": "所有干员攻击时有<@ba.vup>3%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
+  "desc": "所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "heroeffect_aurora",
