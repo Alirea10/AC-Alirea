@@ -11,7 +11,7 @@
       },
       {
         "_attributeType": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
-        "_formulaType": "MULTIPLIER",
+        "_formulaType": "ADDITION",
         "_targetType": "BUFF_OWNER",
         "_valueKey": "hp_rec",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
