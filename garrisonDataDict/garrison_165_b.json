@@ -18,16 +18,16 @@
     },
     {
       "key": "atk",
-      "value": 0.04,
+      "value": 0.02,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "【乌萨斯】【不屈】每叠加3层，本干员攻击力<@ba.vup>+4%</>",
+  "description": "【乌萨斯】【不屈】每叠加1层，本干员攻击力<@ba.vup>+4%</>",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【乌萨斯】【不屈】每叠加3层，本干员攻击力<@ba.vup>+4%</>"
+  "garrisonDesc": "【乌萨斯】【不屈】每叠加1层，本干员攻击力<@ba.vup>+4%</>"
 }

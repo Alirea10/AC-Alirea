@@ -14,7 +14,7 @@
     {
       "key": "bond_id",
       "value": 0,
-      "valueStr": "ursusShip"
+      "valueStr": "ursusShip,preciShip"
     },
     {
       "key": "bond_add_type",
@@ -28,11 +28,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>开启技能时，使已激活的【乌萨斯】层数<@ba.vup>+18</>",
+  "description": "<战斗中>开启技能时，使已激活的【乌萨斯】【精准】层数<@ba.vup>+18</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>开启技能时，使已激活的【乌萨斯】层数<@ba.vup>+18</>"
+  "garrisonDesc": "<战斗中>开启技能时，使已激活的【乌萨斯】【精准】层数<@ba.vup>+18</>"
 }
