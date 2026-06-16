@@ -7,12 +7,12 @@
         "valueStr": "test_buff_2"
       },
       {
-        "key": "atk",
-        "value": 1000,
+        "key": "weak[limit]",
+        "value": 2,
         "valueStr": null
       },
       {
-        "key": "atk_per_stack",
+        "key": "damage_scale",
         "value": 10,
         "valueStr": null
       }

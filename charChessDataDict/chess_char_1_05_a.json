@@ -1,7 +1,7 @@
 {
   "chessId": "chess_char_1_05_a",
   "garrisonIds": [
-    "garrison_04_a"
+    "garrison_test_a"
   ],
   "isGolden": false,
   "status": {

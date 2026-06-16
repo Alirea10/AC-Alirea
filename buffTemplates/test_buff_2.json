@@ -1,22 +1,14 @@
 {
   "effectKey": "",
   "eventToActions": {
-    "ON_BUFF_START": [
+    "ON_OUTPUT_DAMAGE": [
       {
-        "_attributeType": "MAX_HP",
-        "_formulaType": "ADDITION",
-        "_targetType": "BUFF_OWNER",
-        "_valueKey": "atk",
-        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
-      }
-    ],
-    "ON_BUFF_TRIGGER": [
-      {
-        "_attributeType": "ATK",
-        "_formulaType": "ADDITION",
-        "_targetType": "BUFF_OWNER",
-        "_valueKey": "atk",
-        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+        "_buffKey": "weak[limit]",
+        "_buffOwner": "MODIFIER_TARGET",
+        "_finishDerivedBuffIfParentFinish": false,
+        "_isDerivedBuff": false,
+        "_loadFromBlackboard": false,
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffById, Assembly-CSharp"
       }
     ]
   },

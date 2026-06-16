@@ -8,7 +8,6 @@
   "activeType": "BATTLE",
   "bondId": "testBond",
   "chessIdList": [
-    "chess_char_1_05_a",
     "chess_char_1_05_b"
   ],
   "desc": "【测试盟约】用于测试自定义盟约是否生效\n",
