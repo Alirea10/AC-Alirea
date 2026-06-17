@@ -100,80 +100,30 @@
         "_failNodes": null,
         "_succeedNodes": [
           {
-            "_conditionNode": {
-              "_abnormalFlags": [
-                "STUNNED",
-                "UNMOVABLE"
-              ],
-              "_targetType": "MODIFIER_TARGET",
-              "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlags, Assembly-CSharp"
-            },
-            "_failNodes": [
-              {
-                "_conditionNode": {
-                  "_buffKeys": [
-                    "sluggish"
-                  ],
-                  "_buffSourceType": "BUFF_SOURCE",
-                  "_checkBuffSource": false,
-                  "_checkSourceHost": false,
-                  "_loadFromBlackboard": false,
-                  "_targetType": "MODIFIER_TARGET",
-                  "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
-                  "isAND": true
-                },
-                "_failNodes": [
-                  {
-                    "_applyWayFilter": "NONE",
-                    "_cachedDeltaValueToBBKey": "",
-                    "_customKey": "base_damage_scale",
-                    "_damageMask": "NONE",
-                    "_filterApplyWay": false,
-                    "_filterDamageType": false,
-                    "_filterModifierKey": false,
-                    "_isOneMinus": false,
-                    "_isStackable": false,
-                    "_isValidStackCnt": false,
-                    "_modifierKey": "",
-                    "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
-                  }
-                ],
-                "_succeedNodes": [
-                  {
-                    "_applyWayFilter": "NONE",
-                    "_cachedDeltaValueToBBKey": "",
-                    "_customKey": "real_ex_damage_scale",
-                    "_damageMask": "NONE",
-                    "_filterApplyWay": false,
-                    "_filterDamageType": false,
-                    "_filterModifierKey": false,
-                    "_isOneMinus": false,
-                    "_isStackable": false,
-                    "_isValidStackCnt": false,
-                    "_modifierKey": "",
-                    "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
-                  }
-                ],
-                "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
-              }
-            ],
-            "_succeedNodes": [
-              {
-                "_applyWayFilter": "NONE",
-                "_cachedDeltaValueToBBKey": "",
-                "_customKey": "real_ex_damage_scale",
-                "_damageMask": "NONE",
-                "_filterApplyWay": false,
-                "_filterDamageType": false,
-                "_filterModifierKey": false,
-                "_isOneMinus": false,
-                "_isStackable": false,
-                "_isValidStackCnt": false,
-                "_modifierKey": "",
-                "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
-              }
-            ],
-            "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+            "_abilityName": "",
+            "_addParamKey": "base_damage_scale",
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "damage_scale_per_stack",
+            "_outputKey": "damage_scale",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_buffKey": "weak[limit]",
+            "_buffOwner": "MODIFIER_TARGET",
+            "_finishDerivedBuffIfParentFinish": false,
+            "_isDerivedBuff": false,
+            "_loadFromBlackboard": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuffById, Assembly-CSharp"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

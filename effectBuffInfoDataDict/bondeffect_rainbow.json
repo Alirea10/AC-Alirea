@@ -8,17 +8,12 @@
       },
       {
         "key": "base_damage_scale",
-        "value": 1,
+        "value": 0.1,
         "valueStr": null
       },
       {
-        "key": "base_ex_damage_scale",
-        "value": 1.35,
-        "valueStr": null
-      },
-      {
-        "key": "ex_damage_scale_per_stack",
-        "value": 0.015,
+        "key": "damage_scale_per_stack",
+        "value": 0.001,
         "valueStr": null
       },
       {
@@ -44,6 +39,11 @@
       {
         "key": "def_per_stack",
         "value": 0.002,
+        "valueStr": null
+      },
+      {
+        "key": "weak[limit]",
+        "value": 2,
         "valueStr": null
       }
     ],

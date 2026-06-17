@@ -25,16 +25,16 @@
     "chess_rainbow_3_22_b",
     "chess_rainbow_3_22_a"
   ],
-  "desc": "【彩虹小队】干员的<@ba.vup>攻击力</>>提升，<@ba.vup>防御力</>提升。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>对<@ba.vup>眩晕和束缚</>敌人获得额外提升<@autochess.gray>（受层数影响）</>",
+  "desc": "【彩虹小队】干员的<@ba.vup>攻击力</>>提升，<@ba.vup>防御力</>提升。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>攻击时附带2秒<@ba.vup>{2:0%}</>脆弱<@autochess.gray>（受层数影响）</>",
   "descParamBaseList": [
     "base_atk",
     "base_def",
-    "base_ex_damage_scale"
+    "base_damage_scale"
   ],
   "descParamPerStackList": [
     "atk_per_stack",
     "def_per_stack",
-    "ex_damage_scale_per_stack"
+    "damage_scale_per_stack"
   ],
   "effectId": "bondeffect_rainbow",
   "iconId": "",
