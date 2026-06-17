@@ -3,7 +3,7 @@
   "activeConditionTemplate": "count_threshold_upward",
   "activeCount": 1,
   "activeParamList": [
-    "2"
+    "1"
   ],
   "activeType": "BATTLE",
   "bondId": "auroraHeroShip",
