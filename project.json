@@ -3234,6 +3234,31 @@
       "trstageBossId": "boss_7",
       "trStageId": "act1autochess_m01",
       "webBusType": "ak_act2autochess"
+    },
+    "banConfig": {
+      "coreBondBanCount": 4,
+      "coreBondIds": [
+        "yanShip",
+        "sargonShip",
+        "victoriaShip",
+        "kjeragShip",
+        "lateranoShip",
+        "egirShip",
+        "kazimierzShip",
+        "siracusaShip",
+        "ursusShip",
+        "rainbowShip"
+      ],
+      "minorBondBanCount": 4,
+      "minorBondIds": [
+        "deputShip",
+        "indomShip",
+        "preciShip",
+        "raidShip",
+        "skillfulShip",
+        "steadShip",
+        "swiftShip"
+      ]
     }
   }
 }
