@@ -8,7 +8,7 @@
       },
       {
         "key": "base_prob",
-        "value": 0.1,
+        "value": 0.2,
         "valueStr": null
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0.01,
+        "value": 0,
         "valueStr": null
       },
       {
