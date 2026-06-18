@@ -23,7 +23,7 @@
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0,
+        "value": 0.02,
         "valueStr": null
       },
       {
