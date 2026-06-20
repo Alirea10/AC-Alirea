@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "不断流失生命值，每流失1%生命值获得0.5%攻击力加成",
+  "effectId": "bondeffect_kazdel",
+  "effectName": "卡兹戴尔",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

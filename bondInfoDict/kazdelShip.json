@@ -3,21 +3,22 @@
   "activeConditionTemplate": "count_threshold_upward",
   "activeCount": 1,
   "activeParamList": [
-    "2"
+    "1"
   ],
   "activeType": "BATTLE",
-  "bondId": "testBond",
+  "bondId": "kazdelShip",
   "chessIdList": [
-    "chess_char_1_05_b"
+    "chess_char_1_11_a",
+    "chess_char_1_11_b"
   ],
-  "desc": "生命值不低于50%时，每秒失去1%最大生命值；以此法每损失1点生命值，攻击力+0.5。每累计损失100点生命值获得1层，生命值低于50%时，每层获得30%伤害减免。\n",
+  "desc": "试试看先",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "testBond",
   "iconId": "",
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
-  "name": "测试盟约",
+  "name": "卡兹戴尔",
   "noStack": false,
   "weight": 100
 }

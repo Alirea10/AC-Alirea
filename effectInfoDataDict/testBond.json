@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "生命值不低于50%时，每秒失去1%最大生命值；以此法每损失1点生命值，攻击力+0.5。每累计损失100点生命值获得1层，生命值低于50%时，每层获得30%伤害减免。",
+  "effectId": "testBond",
+  "effectName": "测试盟约",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -1,0 +1,26 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+BleedingDamageIncreasingReset, Assembly-CSharp"
+      },
+      {
+        "_attackType": "NORMAL",
+        "_baseDamageKey": null,
+        "_damageKey": "hp_ratio",
+        "_damageType": "PURE",
+        "_durationToIncreaseKey": "duration",
+        "_elementDamageType": "NONE",
+        "_ignoreForSp": true,
+        "_isEnvDamage": false,
+        "_isIncreasingToCap": true,
+        "_isRatioToMaxHp": true,
+        "_skipModifierEvent": true,
+        "$type": "Torappu.Battle.Action.Nodes+BleedingDamagePerSec, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "surtr_s_3[bleeding]_copy"
+}

@@ -1,0 +1,121 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_blackboardPrefix": null,
+        "_condType": "GT",
+        "_sourceType": "SOURCE",
+        "_targetType": "BUFF_OWNER",
+        "_useSourceHpRatio": false,
+        "_value": 0.5,
+        "$type": "Torappu.Battle.Action.Nodes+FilterByTargetHpRatio, Assembly-CSharp"
+      },
+      {
+        "_addBasedOriginValue": false,
+        "_blackboardKeys": "total_hp_lost",
+        "_checkFromBlackboardValue": false,
+        "_fromBlackboardKeys": null,
+        "_value": 0,
+        "$type": "Torappu.Battle.Action.Nodes+ModifyBlackboard, Assembly-CSharp"
+      },
+      {
+        "_addBasedOriginValue": false,
+        "_blackboardKeys": "tick_cnt",
+        "_checkFromBlackboardValue": false,
+        "_fromBlackboardKeys": null,
+        "_value": 0,
+        "$type": "Torappu.Battle.Action.Nodes+ModifyBlackboard, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "_conditionsNode": [
+          {
+            "_blackboardPrefix": null,
+            "_condType": "GT",
+            "_sourceType": "SOURCE",
+            "_targetType": "BUFF_OWNER",
+            "_useSourceHpRatio": false,
+            "_value": 0.5,
+            "$type": "Torappu.Battle.Action.Nodes+FilterByTargetHpRatio, Assembly-CSharp"
+          }
+        ],
+        "_failNodes": [],
+        "_isAnd": true,
+        "_succeedNodes": [
+          {
+            "_attackType": "NORMAL",
+            "_baseDamageKey": null,
+            "_damageKey": "hp_ratio",
+            "_damageType": "PURE",
+            "_durationToIncreaseKey": "duration",
+            "_elementDamageType": "NONE",
+            "_ignoreForSp": true,
+            "_isEnvDamage": false,
+            "_isIncreasingToCap": false,
+            "_isRatioToMaxHp": false,
+            "_skipModifierEvent": false,
+            "$type": "Torappu.Battle.Action.Nodes+BleedingDamagePerSec, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+          },
+          {
+            "_addition": 1,
+            "_additionKey": null,
+            "_blackboardKey": "tick_cnt",
+            "_isFloat": false,
+            "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "tick_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "hp_ratio",
+            "_outputKey": "total_hp_lost",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "total_hp_lost",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "atk_convert_ratio",
+            "_outputKey": "atk_bonus",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "ATK",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "atk_bonus",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_kazdel"
+}

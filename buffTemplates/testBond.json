@@ -1,0 +1,207 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_bondIds": [
+            "kazdelShip"
+          ],
+          "_checkTargetInRangeId": null,
+          "_considerManiShip": true,
+          "_target": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "total_hp_lost",
+            "_copyFromKey": null,
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_assignString": false,
+            "_blackboardKey": "stack_cnt",
+            "_copyFromKey": null,
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_assignString": false,
+            "_blackboardKey": "damage_resistance",
+            "_copyFromKey": null,
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "BLOCK_CNT",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "trigger_interval",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "hp_drain_ratio",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "_conditionNode": {
+          "_blackboardPrefix": null,
+          "_condType": "GE",
+          "_sourceType": "SOURCE",
+          "_targetType": "BUFF_OWNER",
+          "_useSourceHpRatio": false,
+          "_value": 0.5,
+          "$type": "Torappu.Battle.Action.Nodes+FilterByTargetHpRatio, Assembly-CSharp"
+        },
+        "_failNodes": [],
+        "_succeedNodes": [
+          {
+            "_attributeType": "MAX_HP",
+            "_blackboardKey": "max_hp",
+            "_scaleVar": "",
+            "_targetType": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AssignAttributeToBB, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "max_hp",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "hp_ratio",
+            "_outputKey": "hp_lost_this_tick",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_addBasedOriginValue": true,
+            "_blackboardKeys": "total_hp_lost",
+            "_checkFromBlackboardValue": false,
+            "_fromBlackboardKeys": "hp_lost_this_tick",
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+ModifyBlackboard, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "total_hp_lost",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "atk_convert_ratio",
+            "_outputKey": "atk_bonus",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "ATK",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "atk_bonus",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": "hp_per_stack",
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": true,
+            "_finalRound": false,
+            "_inputKey": "total_hp_lost",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": null,
+            "_outputKey": "stack_cnt",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": null,
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "stack_cnt",
+            "_maxValueKey": "damage_resistance_cap",
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "damage_resistance_per_stack",
+            "_outputKey": "damage_resistance",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_TAKE_DAMAGE": [
+      {
+        "_conditionNode": {
+          "_blackboardPrefix": null,
+          "_condType": "LT",
+          "_sourceType": "SOURCE",
+          "_targetType": "BUFF_OWNER",
+          "_useSourceHpRatio": false,
+          "_value": 0.5,
+          "$type": "Torappu.Battle.Action.Nodes+FilterByTargetHpRatio, Assembly-CSharp"
+        },
+        "_failNodes": [],
+        "_succeedNodes": [
+          {
+            "_applyWayFilter": "NONE",
+            "_cachedDeltaValueToBBKey": "",
+            "_customKey": "damage_resistance",
+            "_damageMask": "ANY_ATTACK",
+            "_filterApplyWay": false,
+            "_filterDamageType": true,
+            "_filterModifierKey": false,
+            "_isOneMinus": true,
+            "_isStackable": false,
+            "_isValidStackCnt": false,
+            "_modifierKey": "",
+            "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "testBond"
+}
