@@ -13,7 +13,7 @@
       },
       {
         "key": "prob_per_stack",
-        "value": 0.003,
+        "value": 0.002,
         "valueStr": null
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0.02,
+        "value": 0.01,
         "valueStr": null
       },
       {
