@@ -1,0 +1,49 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "none",
+        "_bondId": "mujicaShip",
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": true,
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "base_cnt",
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "cnt_per_stack",
+        "_outputKey": "cnt",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_feverKey": "env_033_fever",
+        "_sourceType": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AddFeverBySourceIfNotFull, Assembly-CSharp"
+      },
+      {
+        "_feverKey": "env_033_fever",
+        "$type": "Torappu.Battle.Action.Nodes+IsInFever, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_mujica"
+}

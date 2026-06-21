@@ -1,0 +1,14 @@
+{
+  "chessId": "chess_mujica_3_25_a",
+  "garrisonIds": null,
+  "isGolden": false,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": "chess_mujica_3_25_b",
+  "upgradeNum": 3
+}

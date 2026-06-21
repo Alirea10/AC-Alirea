@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "对敌人造成伤害时使Fever+{1:0%}",
+  "effectId": "bondeffect_mujica",
+  "effectName": "Mujica",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

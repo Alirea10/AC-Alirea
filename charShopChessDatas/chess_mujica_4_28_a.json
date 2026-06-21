@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_mujica_4_28_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4184_dolris",
+  "chessId": "chess_mujica_4_28_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_mujica_4_28_b",
+  "isHidden": false,
+  "shopLevelSortId": 28,
+  "tmplId": null
+}

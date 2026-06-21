@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_mujica_1_23_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4185_amoris",
+  "chessId": "chess_mujica_1_23_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_mujica_1_23_b",
+  "isHidden": false,
+  "shopLevelSortId": 23,
+  "tmplId": null
+}

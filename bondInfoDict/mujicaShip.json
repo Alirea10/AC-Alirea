@@ -1,0 +1,36 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
+  "activeParamList": [
+    "3"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "mujicaShip",
+  "chessIdList": [
+    "chess_mujica_3_25_b",
+    "chess_mujica_3_25_a",
+    "chess_mujica_5_26_b",
+    "chess_mujica_5_26_a",
+    "chess_mujica_2_23_b",
+    "chess_mujica_2_23_a",
+    "chess_mujica_4_28_b",
+    "chess_mujica_4_28_a",
+    "chess_mujica_1_23_b",
+    "chess_mujica_1_23_a"
+  ],
+  "desc": "攻击时ferver+30",
+  "descParamBaseList": [
+    "base_cnt"
+  ],
+  "descParamPerStackList": [
+    "cnt_per_stack"
+  ],
+  "effectId": "bondeffect_mujica",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "Mujica",
+  "noStack": false,
+  "weight": 100
+}

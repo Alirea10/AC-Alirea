@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_mujica_3_25_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4186_tmoris",
+  "chessId": "chess_mujica_3_25_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_mujica_3_25_b",
+  "isHidden": false,
+  "shopLevelSortId": 25,
+  "tmplId": null
+}
