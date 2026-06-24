@@ -1,0 +1,52 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_LATE_ENABLE": [
+      {
+        "_attributeType": "ATK",
+        "_blackBoardKey": "raw_atk",
+        "_targetType": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AssignAttributeRawDataIntoBlackboard, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "MAX_HP",
+        "_blackBoardKey": "raw_hp",
+        "_targetType": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AssignAttributeRawDataIntoBlackboard, Assembly-CSharp"
+      },
+      {
+        "_addString": false,
+        "_blackboardKey": "global_sacrifice_atk",
+        "_channel": "AUTOCHESS",
+        "_overwrite": true,
+        "_value": 0,
+        "_valueBlackboardKey": "raw_atk",
+        "_valueStr": null,
+        "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp"
+      },
+      {
+        "_addString": false,
+        "_blackboardKey": "global_sacrifice_hp",
+        "_channel": "AUTOCHESS",
+        "_overwrite": true,
+        "_value": 0,
+        "_valueBlackboardKey": "raw_hp",
+        "_valueStr": null,
+        "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "_killSource": false,
+        "_noSource": true,
+        "_resultIfInRallyPointMode": false,
+        "_targetType": "BUFF_OWNER",
+        "_withdrawIfRallyPoint": false,
+        "$type": "Torappu.Battle.Action.Nodes+InstantKill, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_mujica_sacrifice[sacrifice]"
+}

@@ -1,0 +1,377 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_AUTO_CHESS_MODE_CHANGED": [
+      {
+        "_conditionNode": {
+          "_bondId": "mujicaShip",
+          "_condType": "GE",
+          "_filterAllSides": true,
+          "_filterCount": true,
+          "_keyToCompare": "power_bond_char_cnt",
+          "_keyToStoreCnt": "bond_char_cnt",
+          "_target": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_coordinator",
+            "_copyFromKey": null,
+            "_value": 1,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_blackboardKey": "is_coordinator",
+            "_copyToSharedBlackboard": true,
+            "_target": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+CopyCharacterSharedBlackboard, Assembly-CSharp"
+          },
+          {
+            "_blackboardKey": "is_coordinator",
+            "_condType": "EQUALS",
+            "_target": "BUFF_OWNER",
+            "_valueToCompare": 1,
+            "_valueToCompareKey": "none",
+            "$type": "Torappu.Battle.Action.Nodes+FilterByCharacterSharedBlackboard, Assembly-CSharp"
+          },
+          {
+            "_allowedBuildableType": "NONE",
+            "_alwaysIncludeSourceBlocker": false,
+            "_alwaysIncudeCurAtkTarget": false,
+            "_buffs": [
+              {
+                "attributes": {
+                  "abnormalAntis": [],
+                  "abnormalComboImmunes": [],
+                  "abnormalCombos": [],
+                  "abnormalFlags": [],
+                  "abnormalImmunes": [],
+                  "attributeModifiers": []
+                },
+                "audioSignal": null,
+                "blackboard": [],
+                "buffKey": "act1autochess_bond_eff_mujica_sacrifice[sacrifice]",
+                "clearAllStackCntWhenTimeUp": false,
+                "disableOverride": true,
+                "durationKey": null,
+                "enableInitDirectionFromSource": false,
+                "firstTriggerInterval": -1,
+                "independentCharacterSource": false,
+                "isDamageMissable": false,
+                "isDurableBuff": false,
+                "isFreezable": false,
+                "isLevitatable": false,
+                "isSilenceable": false,
+                "isStunnable": false,
+                "lifeTime": 0,
+                "lifeTimeType": "INFINITY",
+                "loadFromDB": false,
+                "maxStackCnt": 1,
+                "maxValidStackCnt": -1,
+                "onEventPriority": "DEFAULT",
+                "overrideEffectKey": null,
+                "overrideKey": null,
+                "overrideOnEventPriority": false,
+                "overrideType": "UNIQUE",
+                "priority": -1,
+                "priorityBBKeys": [],
+                "refreshRemainingTimeWhenStackMax": false,
+                "statusResistable": "AUTOMATIC",
+                "stripBlackboardParamsWithBuffKey": false,
+                "takeSnapshotWhenExtend": false,
+                "templateKey": "act1autochess_bond_eff_mujica_sacrifice[sacrifice]",
+                "triggerCnt": 1,
+                "triggerInterval": -1,
+                "triggerLifeType": "IMMEDIATELY",
+                "waitFirstTriggerInterval": true
+              }
+            ],
+            "_checkGiantTrapAllLocateTiles": false,
+            "_excludeCurAtkTarget": false,
+            "_excludeTarget": false,
+            "_filterByBuildableType": false,
+            "_filterTargets": false,
+            "_filterType": "ALL",
+            "_finishDerivedBuffIfParentFinish": false,
+            "_isDerivedBuff": false,
+            "_limitMaxTarget": true,
+            "_maxTargetKey": "max_target",
+            "_radius": 0,
+            "_randomTarget": true,
+            "_rangeId": "",
+            "_rangeModeIndex": -1,
+            "_rangeTargetSideType": "ALLY",
+            "_removeExcludeTargetBeforeShrink": false,
+            "_sourceType": "BUFF_OWNER",
+            "_targetOptions": {
+              "abnormalCombo": "SLEEPING",
+              "abnormalFlag": "STUNNED",
+              "checkUnitType": false,
+              "enableAdvancedOptions": true,
+              "excludeAbnormalFlag": "STUNNED",
+              "excludeSomeAbnormalFlags": false,
+              "ignoreAllyTargetFree": false,
+              "ignoreHealFree": false,
+              "ignoreTargetFree": false,
+              "ignoreTargetSide": false,
+              "onlyIgnoreSomeOfTargetFreeCase": false,
+              "professionMask": "NONE",
+              "purposeMask": "NONE",
+              "targetCategory": "DEFAULT",
+              "targetMotion": "ALL",
+              "targetSide": "ALLY",
+              "unitTypeMask": "NONE"
+            },
+            "_targetType": "BUFF_OWNER",
+            "_useAttackRange": false,
+            "_useCurrentModeRange": false,
+            "_useGlobalRange": true,
+            "_useRadius": false,
+            "_useRangeToShow": false,
+            "_useTargetRangeInsteadOfSource": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+          },
+          {
+            "_allowedBuildableType": "NONE",
+            "_alwaysIncludeSourceBlocker": false,
+            "_alwaysIncudeCurAtkTarget": false,
+            "_buffs": [
+              {
+                "attributes": {
+                  "abnormalAntis": [],
+                  "abnormalComboImmunes": [],
+                  "abnormalCombos": [],
+                  "abnormalFlags": [],
+                  "abnormalImmunes": [],
+                  "attributeModifiers": []
+                },
+                "audioSignal": null,
+                "blackboard": [],
+                "buffKey": "act1autochess_bond_eff_mujica_sacrifice[apply_attr]",
+                "clearAllStackCntWhenTimeUp": false,
+                "disableOverride": true,
+                "durationKey": null,
+                "enableInitDirectionFromSource": false,
+                "firstTriggerInterval": -1,
+                "independentCharacterSource": false,
+                "isDamageMissable": false,
+                "isDurableBuff": false,
+                "isFreezable": false,
+                "isLevitatable": false,
+                "isSilenceable": false,
+                "isStunnable": false,
+                "lifeTime": 0,
+                "lifeTimeType": "INFINITY",
+                "loadFromDB": false,
+                "maxStackCnt": 1,
+                "maxValidStackCnt": -1,
+                "onEventPriority": "DEFAULT",
+                "overrideEffectKey": null,
+                "overrideKey": null,
+                "overrideOnEventPriority": false,
+                "overrideType": "UNIQUE",
+                "priority": -1,
+                "priorityBBKeys": [],
+                "refreshRemainingTimeWhenStackMax": false,
+                "statusResistable": "AUTOMATIC",
+                "stripBlackboardParamsWithBuffKey": false,
+                "takeSnapshotWhenExtend": false,
+                "templateKey": "act1autochess_bond_eff_mujica_sacrifice[apply_attr]",
+                "triggerCnt": 1,
+                "triggerInterval": -1,
+                "triggerLifeType": "IMMEDIATELY",
+                "waitFirstTriggerInterval": true
+              }
+            ],
+            "_checkGiantTrapAllLocateTiles": false,
+            "_excludeCurAtkTarget": false,
+            "_excludeTarget": false,
+            "_filterByBuildableType": false,
+            "_filterTargets": false,
+            "_filterType": "ALL",
+            "_finishDerivedBuffIfParentFinish": false,
+            "_isDerivedBuff": false,
+            "_limitMaxTarget": false,
+            "_maxTargetKey": "max_target",
+            "_radius": 0,
+            "_randomTarget": false,
+            "_rangeId": "",
+            "_rangeModeIndex": -1,
+            "_rangeTargetSideType": "ALLY",
+            "_removeExcludeTargetBeforeShrink": false,
+            "_sourceType": "BUFF_OWNER",
+            "_targetOptions": {
+              "abnormalCombo": "SLEEPING",
+              "abnormalFlag": "STUNNED",
+              "checkUnitType": false,
+              "enableAdvancedOptions": true,
+              "excludeAbnormalFlag": "STUNNED",
+              "excludeSomeAbnormalFlags": false,
+              "ignoreAllyTargetFree": false,
+              "ignoreHealFree": false,
+              "ignoreTargetFree": false,
+              "ignoreTargetSide": false,
+              "onlyIgnoreSomeOfTargetFreeCase": false,
+              "professionMask": "NONE",
+              "purposeMask": "NONE",
+              "targetCategory": "DEFAULT",
+              "targetMotion": "ALL",
+              "targetSide": "ALLY",
+              "unitTypeMask": "NONE"
+            },
+            "_targetType": "BUFF_OWNER",
+            "_useAttackRange": false,
+            "_useCurrentModeRange": false,
+            "_useGlobalRange": true,
+            "_useRadius": false,
+            "_useRangeToShow": false,
+            "_useTargetRangeInsteadOfSource": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_bondIds": [
+            "mujicaShip"
+          ],
+          "_checkTargetInRangeId": null,
+          "_considerManiShip": true,
+          "_target": "TARGET",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_assignAllPlayerIndex": false,
+            "_assignCurrentMaxBond": false,
+            "_bondBlackboardKey": "none",
+            "_bondId": "mujicaShip",
+            "_byPosition": false,
+            "_checkDiffWithOldStoreCnt": true,
+            "_keyToStoreCnt": "bond_stack_cnt",
+            "_target": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": "base_def_penetrate_fixed",
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "def_penetrate_fixed_per_stack",
+            "_outputKey": "real_def_penetrate_fixed",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": "base_magic_resist_penetrate",
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "magic_resist_penetrate_per_stack",
+            "_outputKey": "real_magic_resist_penetrate",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "DEF_PENETRATE_FIXED",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "real_def_penetrate_fixed",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          },
+          {
+            "_attributeType": "MAGIC_RESIST_PENETRATE",
+            "_formulaType": "ADDITION",
+            "_targetType": "BUFF_OWNER",
+            "_valueKey": "real_magic_resist_penetrate",
+            "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_conditionNode": {
+          "_bondId": "mujicaShip",
+          "_condType": "GE",
+          "_filterAllSides": true,
+          "_filterCount": true,
+          "_keyToCompare": "power_bond_char_cnt",
+          "_keyToStoreCnt": "bond_char_cnt",
+          "_target": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true,
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_abilityName": "",
+            "_addParamKey": "",
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "base_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "cnt_per_stack",
+            "_outputKey": "cnt",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "_feverKey": "env_033_fever",
+            "_sourceType": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AddFeverBySourceIfNotFull, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_mujica_sacrifice"
+}

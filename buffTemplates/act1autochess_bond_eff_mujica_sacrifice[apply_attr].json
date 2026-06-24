@@ -1,0 +1,37 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_LATE_ENABLE": [
+      {
+        "_assignString": false,
+        "_blackboardKey": "sacrifice_atk",
+        "_channel": "AUTOCHESS",
+        "_globalblackboardKey": "global_sacrifice_atk",
+        "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_assignString": false,
+        "_blackboardKey": "sacrifice_hp",
+        "_channel": "AUTOCHESS",
+        "_globalblackboardKey": "global_sacrifice_hp",
+        "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "FINAL_ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "sacrifice_atk",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "MAX_HP",
+        "_formulaType": "FINAL_ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "sacrifice_hp",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_mujica_sacrifice[apply_attr]"
+}
