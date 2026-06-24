@@ -13,7 +13,7 @@
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0.001,
+        "value": 0.003,
         "valueStr": null
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "key": "atk_per_stack",
-        "value": 0.004,
+        "value": 0.006,
         "valueStr": null
       },
       {
@@ -38,7 +38,7 @@
       },
       {
         "key": "def_per_stack",
-        "value": 0.002,
+        "value": 0.003,
         "valueStr": null
       },
       {
