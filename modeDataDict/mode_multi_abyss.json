@@ -24,7 +24,14 @@
     "soloShip",
     "suntShip",
     "rainbowShip",
-    "ursusShip"
+    "ursusShip",
+    "chen2HeroShip",
+    "auroraHeroShip",
+    "glodenglowHeroShip",
+    "fartoothHeroShip",
+    "ireneHeroShip",
+    "lisaHeroShip",
+    "mujicaShip"
   ],
   "backgroundId": "background_abyss",
   "code": "AC-4",

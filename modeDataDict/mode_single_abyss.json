@@ -4,7 +4,6 @@
     "sargonShip",
     "victoriaShip",
     "kjeragShip",
-    "lateranoShip",
     "egirShip",
     "siracusaShip",
     "kazimierzShip",
@@ -24,13 +23,22 @@
     "soloShip",
     "suntShip",
     "rainbowShip",
-    "ursusShip"
+    "ursusShip",
+    "lateranoShip",
+    "lisaHeroShip",
+    "mujicaShip",
+    "kazdelShip",
+    "glodenglowHeroShip",
+    "fartoothHeroShip",
+    "ireneHeroShip",
+    "chen2HeroShip",
+    "auroraHeroShip"
   ],
   "backgroundId": "background_abyss",
   "code": "AC-4",
   "desc": "敌方攻击强度到达极限的模拟训练",
   "effectDescList": [
-    "推荐游玩多人模式，哪怕是只有一人",
+    "推荐游玩多人模式，橘卫哪怕是只有一人也能开多人模式",
     "该模式为纯原版只加了干员且未做任何多干员优化，可能导致你很难抽到心仪的干员"
   ],
   "inactiveBondIdList": [],
