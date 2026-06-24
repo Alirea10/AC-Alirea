@@ -22,7 +22,9 @@
     "chess_rainbow_6_21_b",
     "chess_rainbow_6_21_a",
     "chess_char_5_24_b",
-    "chess_char_5_24_a"
+    "chess_char_5_24_a",
+    "chess_mujica_3_25_a",
+    "chess_mujica_3_25_b"
   ],
   "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</>（在场2名及以上【独行】干员时失效）",
   "descParamBaseList": [],

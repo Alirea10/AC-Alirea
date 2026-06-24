@@ -1,0 +1,17 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_feverKey": "env_033_fever",
+        "$type": "Torappu.Battle.Action.Nodes+IsInFever, Assembly-CSharp"
+      },
+      {
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_gar_event_infever"
+}
