@@ -7,13 +7,48 @@
         "valueStr": "act1autochess_bond_eff_mujica"
       },
       {
+        "key": "base_def_penetrate_fixed",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "def_penetrate_fixed_per_stack",
+        "value": 0.003,
+        "valueStr": null
+      },
+      {
+        "key": "magic_resist_penetrate",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "magic_resist_penetrate_per_stack",
+        "value": 0.003,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 5,
+        "valueStr": null
+      },
+      {
         "key": "base_cnt",
         "value": 1,
         "valueStr": null
       },
       {
         "key": "cnt_per_stack",
-        "value": 0,
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "base_damage_scale",
+        "value": 1.6,
+        "valueStr": null
+      },
+      {
+        "key": "damage_scale_per_stack",
+        "value": 0.02,
         "valueStr": null
       }
     ],
