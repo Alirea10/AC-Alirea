@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "获得<@ba.vup>{0:0%}</>物理穿透和<@ba.vup>{1:0%}</>法术穿透 \n<dang<@ba.vup>全部Mujica成员</>上场时>攻击会使Fever值提高<@ba.vup>{2:0}</>，且Fever状态下造成的伤害提高到{2:0}",
+  "effectDesc": "获得<@ba.vup>{0:0%}</>物理穿透和<@ba.vup>{1:0%}</>法术穿透 \n<当<@ba.vup>全部Mujica成员</>上场时>攻击会使Fever值提高<@ba.vup>{2:0}</>，且Fever状态下造成的伤害提高到{2:0}",
   "effectId": "bondeffect_mujica",
   "effectName": "Mujica",
   "effectType": "BOND",

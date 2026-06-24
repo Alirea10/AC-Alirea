@@ -17,7 +17,7 @@
         "valueStr": null
       },
       {
-        "key": "magic_resist_penetrate",
+        "key": "base_dmagic_resist_penetrate",
         "value": 0.1,
         "valueStr": null
       },
@@ -43,7 +43,7 @@
       },
       {
         "key": "base_damage_scale",
-        "value": 1.6,
+        "value": 1.4,
         "valueStr": null
       },
       {
