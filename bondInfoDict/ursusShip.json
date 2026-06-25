@@ -41,7 +41,7 @@
   "effectId": "bondeffect_ursus",
   "iconId": "",
   "isActiveInDeck": false,
-  "maxInactiveBondCount": 0,
+  "maxInactiveBondCount": -1,
   "name": "乌萨斯",
   "noStack": false,
   "weight": 100
