@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "攻击有<@ba.vup>20%</>的概率造成<@ba.vup>200%</>伤害并使其战栗<@ba.vup>3</>秒",
+  "effectId": "eff_ursusItemPlus",
+  "effectName": "乌萨斯战锤",
+  "effectType": "EQUIP",
+  "enemyPrice": 0
+}
