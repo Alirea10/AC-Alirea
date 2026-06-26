@@ -1,0 +1,38 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_useskill"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "mujicaShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 27,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>27</>\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>5</>%",
+  "effectType": "ADD_BOND",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "开启技能时，使已激活的【Mujica】层数+27\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+5%"
+}
