@@ -25,7 +25,7 @@
     "chess_rainbow_3_22_b",
     "chess_rainbow_3_22_a"
   ],
-  "desc": "【彩虹小队】干员的<@ba.vup>攻击力</>>提升，<@ba.vup>防御力</>提升。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>攻击时附带2秒<@ba.vup>{2:0%}</>脆弱<@autochess.gray>（受层数影响）</>",
+  "desc": "【彩虹小队】干员的<@ba.vup>攻击力</>>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>攻击时附带2秒<@ba.vup>{2:0%}</>脆弱<@autochess.gray>（受层数影响）</>。",
   "descParamBaseList": [
     "base_atk",
     "base_def",

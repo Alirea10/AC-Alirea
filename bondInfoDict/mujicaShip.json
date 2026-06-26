@@ -19,7 +19,7 @@
     "chess_mujica_1_23_b",
     "chess_mujica_1_23_a"
   ],
-  "desc": "获得<@ba.vup>{0:0%}</>物理穿透和<@ba.vup>{1:0%}</>法术穿透 \n<当<@ba.vup>全部Mujica成员</>上场时>攻击会使Fever值提高<@ba.vup>{2:0}</>，且Fever状态下造成的伤害提高到{3:0%}",
+  "desc": "获得<@ba.vup>一定</><@autochess.gray>（受层数影响）</>物理穿透和<@ba.vup>一定</><@autochess.gray>（受层数影响）</>法术穿透 \n<当<@ba.vup>全部Mujica成员</>上场时>攻击会使Fever值<@ba.vup>提高</><@autochess.gray>（受层数影响）</>，且Fever状态下造成的伤害<@ba.vup>提高</><@autochess.gray>（受层数影响）</>",
   "descParamBaseList": [
     "base_def_penetrate_fixed",
     "base_magic_resist_penetrate",
