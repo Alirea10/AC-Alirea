@@ -147,22 +147,28 @@
             "$type": "Torappu.Battle.Action.Nodes+AddFeverBySourceIfNotFull, Assembly-CSharp"
           },
           {
-            "_feverKey": "env_033_fever",
-            "$type": "Torappu.Battle.Action.Nodes+IsInFever, Assembly-CSharp"
-          },
-          {
-            "_applyWayFilter": "ALL",
-            "_cachedDeltaValueToBBKey": "",
-            "_customKey": "real_damage_scale",
-            "_damageMask": "ANY_ATTACK_EXCEPT_ELEMENT",
-            "_filterApplyWay": false,
-            "_filterDamageType": false,
-            "_filterModifierKey": false,
-            "_isOneMinus": true,
-            "_isStackable": false,
-            "_isValidStackCnt": false,
-            "_modifierKey": "",
-            "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+            "_conditionNode": {
+              "_feverKey": "env_033_fever",
+              "$type": "Torappu.Battle.Action.Nodes+IsInFever, Assembly-CSharp"
+            },
+            "_failNodes": null,
+            "_succeedNodes": [
+              {
+                "_applyWayFilter": "ALL",
+                "_cachedDeltaValueToBBKey": "",
+                "_customKey": "real_damage_scale",
+                "_damageMask": "ANY_ATTACK_EXCEPT_ELEMENT",
+                "_filterApplyWay": false,
+                "_filterDamageType": false,
+                "_filterModifierKey": false,
+                "_isOneMinus": false,
+                "_isStackable": false,
+                "_isValidStackCnt": false,
+                "_modifierKey": "",
+                "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+              }
+            ],
+            "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
