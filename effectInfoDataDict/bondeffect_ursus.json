@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【乌萨斯】干员有<@ba.vup>{0.0%}</>概率<@autochess.gray>（受层数影响）</>造成<@ba.vup>{1.0%}</>伤害 <@autochess.gray>（受层数影响）</>\n<在场6名不同【乌萨斯】干员>【乌萨斯】干员触发暴击时额外使目标战栗<@ba.vup>3</>秒",
+  "effectDesc": "【乌萨斯】干员有<@ba.vup>{0:0%}</>概率<@autochess.gray>（受层数影响）</>造成<@ba.vup>{1:0%}</>伤害 <@autochess.gray>（受层数影响）</>\n<在场6名不同【乌萨斯】干员>【乌萨斯】干员触发暴击时额外使目标战栗<@ba.vup>3</>秒",
   "effectId": "bondeffect_ursus",
   "effectName": "乌萨斯",
   "effectType": "BOND",
