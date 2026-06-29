@@ -33,7 +33,7 @@
     }
   ],
   "charLevel": 0,
-  "description": "进入Fever状态时，使已激活的【Mujica】层数+9（每回合最高叠加27层）",
+  "description": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>9</>（每回合最高叠加<@ba.vup>27</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
