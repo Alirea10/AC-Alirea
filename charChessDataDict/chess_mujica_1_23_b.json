@@ -1,7 +1,8 @@
 {
   "chessId": "chess_mujica_1_23_b",
   "garrisonIds": [
-    "garrison_83_b"
+    "garrison_83_b",
+    "garrison_150_a"
   ],
   "isGolden": true,
   "status": {
