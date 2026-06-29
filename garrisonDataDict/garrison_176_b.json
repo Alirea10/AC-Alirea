@@ -25,14 +25,19 @@
       "key": "bond_add_count",
       "value": 27,
       "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 81,
+      "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>27</>\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>5</>%",
+  "description": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>27</>（最多叠加<@ba.vup>81</>层），\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>5%</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "开启技能时，使已激活的【Mujica】层数+27\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+5%"
+  "garrisonDesc": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>27</>（最多叠加<@ba.vup>81</>层），\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>5%</>"
 }
