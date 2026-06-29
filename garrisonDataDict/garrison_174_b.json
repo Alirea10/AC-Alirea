@@ -23,21 +23,21 @@
     },
     {
       "key": "bond_add_count",
-      "value": 9,
+      "value": 15,
       "valueStr": null
     },
     {
       "key": "max_add_count_per_battle",
-      "value": 27,
+      "value": 45,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "进入Fever状态时，使已激活的【Mujica】层数+9（每回合最高叠加27层）",
+  "description": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>15</>（每回合最高叠加<@ba.vup>45</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>9</>（每回合最高叠加<@ba.vup>27</>层）"
+  "garrisonDesc": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>15</>（每回合最高叠加<@ba.vup>45</>层）"
 }
