@@ -28,7 +28,7 @@
     },
     {
       "key": "bond_add_count",
-      "value": 6,
+      "value": 4,
       "valueStr": null
     },
     {
@@ -43,11 +43,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "前3次击倒敌人时，使已激活的【Mujica】层数+6",
+  "description": "前3次击倒敌人时，使已激活的【Mujica】层数+4",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "前3次击倒敌人时，使已激活的【Mujica】层数+6"
+  "garrisonDesc": "前3次击倒敌人时，使已激活的【Mujica】层数+4"
 }

@@ -18,7 +18,7 @@
     },
     {
       "key": "atk",
-      "value": 0.05,
+      "value": 0.02,
       "valueStr": null
     },
     {
@@ -28,11 +28,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+5%",
+  "description": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+2%",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+5%"
+  "garrisonDesc": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+2%"
 }
