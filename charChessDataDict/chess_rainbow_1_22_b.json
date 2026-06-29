@@ -1,6 +1,8 @@
 {
   "chessId": "chess_rainbow_1_22_b",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_01_a"
+  ],
   "isGolden": true,
   "status": {
     "charLevel": 50,
