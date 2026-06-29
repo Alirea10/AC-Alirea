@@ -38,7 +38,7 @@
       },
       {
         "key": "cnt_per_stack",
-        "value": 1,
+        "value": 0.5,
         "valueStr": null
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0.02,
+        "value": 0.01,
         "valueStr": null
       }
     ],
