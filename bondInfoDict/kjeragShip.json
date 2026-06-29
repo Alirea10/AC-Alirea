@@ -31,7 +31,9 @@
     "chess_char_4_22_b",
     "chess_char_5_14_b",
     "chess_char_6_02_b",
-    "chess_char_6_19_b"
+    "chess_char_6_19_b",
+    "chess_hero_6_29_a",
+    "chess_hero_6_29_b"
   ],
   "desc": "【谢拉格】干员造成的<@ba.vup>伤害提升</>，对<@ba.vup>寒冷、冻结</>敌人获得额外提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【谢拉格】干员>战场上每25秒过一阵寒风使场上的敌人寒冷一定时间<@autochess.gray>（受层数影响）</>",
   "descParamBaseList": [
