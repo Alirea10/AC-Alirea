@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【彩虹小队】干员的攻击力+<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，防御力提升<@ba.vup>{1:0%}</><@autochess.gray>（受层数影响）</>。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>攻击时附带2秒<@ba.vup>{2:0%}</>脆弱<@autochess.gray>（受层数影响）</>",
+  "effectDesc": "【彩虹小队】干员的攻击力+<@ba.vup>{0:0}</><@autochess.gray>（受层数影响）</>，防御力提升<@ba.vup>{1:0%}</><@autochess.gray>（受层数影响）</>。\n<在场<@autochess.dgreen>5</>名不同【彩虹小队】干员>攻击时附带2秒<@ba.vup>{2:0%}</>脆弱<@autochess.gray>（受层数影响）</>",
   "effectId": "bondeffect_rainbow",
   "effectName": "彩虹小队",
   "effectType": "BOND",

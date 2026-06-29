@@ -23,16 +23,16 @@
     },
     {
       "key": "bond_add_count",
-      "value": 2,
+      "value": 3,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+2、【灵巧】层数+2",
+  "description": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+3、【灵巧】层数+3",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+5、【灵巧】层数+5"
+  "garrisonDesc": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数+<@ba.vup>3</>、【灵巧】层数+<@ba.vup>3</>"
 }

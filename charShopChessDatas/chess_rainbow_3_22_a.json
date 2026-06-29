@@ -6,12 +6,12 @@
   "backupTmplId": null,
   "charId": "char_4124_iana",
   "chessId": "chess_rainbow_3_22_a",
-  "chessLevel": 3,
+  "chessLevel": 4,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_rainbow_3_22_b",
   "isHidden": false,
-  "shopLevelSortId": 22,
+  "shopLevelSortId": 27,
   "tmplId": null
 }

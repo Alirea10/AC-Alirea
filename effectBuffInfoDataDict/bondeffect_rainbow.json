@@ -23,12 +23,12 @@
       },
       {
         "key": "base_atk",
-        "value": 0.15,
+        "value": 400,
         "valueStr": null
       },
       {
         "key": "atk_per_stack",
-        "value": 0.006,
+        "value": 3,
         "valueStr": null
       },
       {
