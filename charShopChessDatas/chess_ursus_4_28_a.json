@@ -5,13 +5,13 @@
   "backupCharUniEquipId": null,
   "backupTmplId": null,
   "charId": "char_197_poca",
-  "chessId": "chess_ursus_6_23_a",
+  "chessId": "chess_ursus_4_28_a",
   "chessLevel": 4,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
   "defaultUniEquipId": null,
-  "goldenChessId": "chess_ursus_6_23_b",
+  "goldenChessId": "chess_ursus_4_28_b",
   "isHidden": false,
-  "shopLevelSortId": 23,
+  "shopLevelSortId": 28,
   "tmplId": null
 }

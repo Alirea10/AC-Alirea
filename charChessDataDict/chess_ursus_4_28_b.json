@@ -1,12 +1,12 @@
 {
-  "chessId": "chess_rainbow_3_22_b",
+  "chessId": "chess_ursus_4_28_b",
   "garrisonIds": [
-    "garrison_161_b"
+    "garrison_171_b"
   ],
   "isGolden": true,
   "status": {
     "charLevel": 60,
-    "equipLevel": 1,
+    "equipLevel": 3,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
     "skillLevel": 7

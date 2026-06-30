@@ -1,7 +1,7 @@
 {
-  "chessId": "chess_rainbow_3_22_a",
+  "chessId": "chess_ursus_4_28_a",
   "garrisonIds": [
-    "garrison_161_a"
+    "garrison_171_a"
   ],
   "isGolden": false,
   "status": {
@@ -11,6 +11,6 @@
     "favorPoint": 0,
     "skillLevel": 7
   },
-  "upgradeChessId": "chess_rainbow_3_22_b",
+  "upgradeChessId": "chess_ursus_4_28_b",
   "upgradeNum": 3
 }
