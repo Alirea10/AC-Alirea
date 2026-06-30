@@ -5,9 +5,9 @@
   ],
   "isGolden": false,
   "status": {
-    "charLevel": 1,
+    "charLevel": 60,
     "equipLevel": 0,
-    "evolvePhase": "PHASE_2",
+    "evolvePhase": "PHASE_1",
     "favorPoint": 0,
     "skillLevel": 7
   },
