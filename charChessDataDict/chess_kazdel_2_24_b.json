@@ -1,11 +1,11 @@
 {
-  "chessId": "chess_char_4_18_b",
+  "chessId": "chess_kazdel_2_24_b",
   "garrisonIds": [
-    "garrison_97_b"
+    "garrison_110_a"
   ],
   "isGolden": true,
   "status": {
-    "charLevel": 60,
+    "charLevel": 55,
     "equipLevel": 1,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,

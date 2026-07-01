@@ -32,8 +32,8 @@
     "chess_char_5_06_b",
     "chess_char_5_16_b",
     "chess_char_6_16_b",
-    "chess_rainbow_3_22_b",
-    "chess_rainbow_3_22_a"
+    "chess_rainbow_4_28_b",
+    "chess_rainbow_4_28_a"
   ],
   "desc": "【灵巧】干员及周围4格干员<@ba.vup>攻击速度</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>40</>层>生效范围变为【灵巧】干员周围8格",
   "descParamBaseList": [

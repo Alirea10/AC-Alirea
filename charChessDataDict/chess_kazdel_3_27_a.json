@@ -1,7 +1,7 @@
 {
-  "chessId": "chess_char_4_18_a",
+  "chessId": "chess_kazdel_3_27_a",
   "garrisonIds": [
-    "garrison_97_a"
+    "garrison_47_a"
   ],
   "isGolden": false,
   "status": {
@@ -9,8 +9,8 @@
     "equipLevel": 0,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
-    "skillLevel": 4
+    "skillLevel": 7
   },
-  "upgradeChessId": "chess_char_4_18_b",
+  "upgradeChessId": "chess_kazdel_3_27_b",
   "upgradeNum": 3
 }

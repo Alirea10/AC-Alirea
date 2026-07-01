@@ -27,7 +27,9 @@
     "chess_char_6_15_b",
     "chess_char_6_17_b",
     "chess_ursus_4_27_a",
-    "chess_ursus_4_27_b"
+    "chess_ursus_4_27_b",
+    "chess_char_5_27_a",
+    "chess_char_5_27_b"
   ],
   "desc": "【突袭】干员<@ba.vup>10</>秒内未进行攻击或技能就绪时，若范围内没有敌人，则保留技力立即<@ba.vup>再部署至一名地面敌人周围</>，期间<@ba.vup>攻击力</>和<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>50</>层>所有干员攻击速度<@ba.vup>+50</>",
   "descParamBaseList": [

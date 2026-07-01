@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_kazdel_2_24_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_131_flameb",
+  "chessId": "chess_kazdel_2_24_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_kazdel_2_24_b",
+  "isHidden": false,
+  "shopLevelSortId": 24,
+  "tmplId": null
+}

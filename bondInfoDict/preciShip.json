@@ -38,8 +38,12 @@
     "chess_rainbow_3_23_a",
     "chess_ursus_2_21_a",
     "chess_ursus_2_21_b",
-    "chess_ursus_6_23_b",
-    "chess_ursus_6_23_a"
+    "chess_ursus_4_28_b",
+    "chess_ursus_4_28_a",
+    "chess_kazdel_3_27_a",
+    "chess_kazdel_3_27_b",
+    "chess_kazdel_6_32_a",
+    "chess_kazdel_6_32_b"
   ],
   "desc": "【精准】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【精准】干员>生效范围变为【精准】干员和所有远程干员，且攻击无视一定的<@ba.vup>防御力</>和<@ba.vup>法术抗性</>",
   "descParamBaseList": [

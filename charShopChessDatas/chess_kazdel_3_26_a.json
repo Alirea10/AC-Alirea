@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_kazdel_3_26_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_179_cgbird",
+  "chessId": "chess_kazdel_3_26_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_kazdel_3_26_b",
+  "isHidden": false,
+  "shopLevelSortId": 26,
+  "tmplId": null
+}

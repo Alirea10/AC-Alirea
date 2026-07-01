@@ -9,7 +9,7 @@
     {
       "key": "bond",
       "value": 0,
-      "valueStr": "swiftShip"
+      "valueStr": "swiftShip,kazdelShip"
     },
     {
       "key": "multi",
@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数<@ba.vup>+2</>",
+  "description": "<休整期结束时>整备区每有1个干员，使已激活的【卡兹戴尔】【迅捷】层数<@ba.vup>+2</>",
   "effectType": "SERVER_ADD_BOND_METHOD",
   "eventType": "SERVER_PREP_FIN",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>整备区每有1个干员，使已激活的【迅捷】层数<@ba.vup>+2</>"
+  "garrisonDesc": "<休整期结束时>整备区每有1个干员，使已激活的【卡兹戴尔】【迅捷】层数<@ba.vup>+2</>"
 }

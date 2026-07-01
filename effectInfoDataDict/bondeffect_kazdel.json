@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": "icon_team_buff",
-  "effectDesc": "不断流失生命值，每流失1%生命值获得0.5%攻击力加成",
+  "effectDesc": "【卡兹戴尔】干员造成的物理伤害附带<@ba.vup>{0:0%}</>伤害的凋亡损伤\n<在场6名不同【卡兹戴尔】干员> 【卡兹戴尔】干员对处于凋亡损伤的di'fang造成的伤害比例提高<@ba.vup>{1:0%}</>",
   "effectId": "bondeffect_kazdel",
   "effectName": "卡兹戴尔",
   "effectType": "BOND",

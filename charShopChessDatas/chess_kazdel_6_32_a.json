@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_kazdel_6_32_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_1035_wisdel",
+  "chessId": "chess_kazdel_6_32_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_kazdel_6_32_b",
+  "isHidden": false,
+  "shopLevelSortId": 32,
+  "tmplId": null
+}

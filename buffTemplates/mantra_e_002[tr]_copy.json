@@ -1,0 +1,35 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_conditionNode": {
+          "_checkRecoveryType": false,
+          "_elementType": "NONE",
+          "_target": "MODIFIER_TARGET",
+          "$type": "Torappu.Battle.Action.Nodes+IsTargetInEPBreakRecovery, Assembly-CSharp"
+        },
+        "_failNodes": null,
+        "_succeedNodes": [
+          {
+            "_applyWayFilter": "NONE",
+            "_cachedDeltaValueToBBKey": "",
+            "_customKey": "",
+            "_damageMask": "NONE",
+            "_filterApplyWay": false,
+            "_filterDamageType": false,
+            "_filterModifierKey": false,
+            "_isOneMinus": false,
+            "_isStackable": false,
+            "_isValidStackCnt": false,
+            "_modifierKey": "",
+            "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "mantra_e_002[tr]_copy"
+}

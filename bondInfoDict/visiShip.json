@@ -27,7 +27,9 @@
     "chess_char_5_21_b",
     "chess_char_6_12_b",
     "chess_rainbow_2_20_a",
-    "chess_rainbow_2_20_b"
+    "chess_rainbow_2_20_b",
+    "chess_char_4_25_a",
+    "chess_char_4_25_b"
   ],
   "desc": "<每叠加<@autochess.dgreen>10</>层>获得一次<@ba.vup>2</>资金\n<首次达到<@autochess.dgreen>80</>层>所有【远见】干员购买价格<@ba.vup>永久-1</>资金\n<首次达到<@autochess.dgreen>150</>层>以上效果改为调度中心内所有干员的购买价格<@ba.vup>永久-1</>资金（整备区的【远见】干员也可用于激活盟约）",
   "descParamBaseList": [],

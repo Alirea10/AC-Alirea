@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_liskam",
   "goldenChessId": "chess_char_1_20_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 20,
   "tmplId": null
 }

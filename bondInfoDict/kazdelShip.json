@@ -1,20 +1,44 @@
 {
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
-  "activeCount": 1,
+  "activeCount": 3,
   "activeParamList": [
-    "1"
+    "3"
   ],
   "activeType": "BATTLE",
   "bondId": "kazdelShip",
   "chessIdList": [
-    "chess_char_1_11_a",
-    "chess_char_1_11_b"
+    "chess_kazdel_1_24_b",
+    "chess_kazdel_1_24_a",
+    "chess_kazdel_2_24_b",
+    "chess_kazdel_2_24_a",
+    "chess_kazdel_3_26_b",
+    "chess_kazdel_3_26_a",
+    "chess_char_4_04_b",
+    "chess_char_4_04_a",
+    "chess_char_4_25_a",
+    "chess_char_4_25_b",
+    "chess_char_5_22_b",
+    "chess_char_5_22_a",
+    "chess_char_5_06_a",
+    "chess_char_5_06_b",
+    "chess_kazdel_3_27_a",
+    "chess_kazdel_3_27_b",
+    "chess_kazdel_6_32_a",
+    "chess_kazdel_6_32_b",
+    "chess_char_4_18_a",
+    "chess_char_4_18_b"
   ],
-  "desc": "试试看先",
-  "descParamBaseList": [],
-  "descParamPerStackList": [],
-  "effectId": "testBond",
+  "desc": "【卡兹戴尔】干员造成物理伤害时会施加一定比例的凋亡损伤（基于层数）\n<在场6名不同【卡兹戴尔】干员> 【卡兹戴尔】干员对处于凋亡损伤的敌方造成的伤害提高（基于层数）",
+  "descParamBaseList": [
+    "base_damage_scale",
+    "base_ex_damage_scale"
+  ],
+  "descParamPerStackList": [
+    "damage_scale_per_stack",
+    "ex_damage_scale_per_stack"
+  ],
+  "effectId": "bondeffect_kazdel",
   "iconId": "",
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
