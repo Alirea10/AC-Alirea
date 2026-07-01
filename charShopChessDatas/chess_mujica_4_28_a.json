@@ -8,7 +8,7 @@
   "chessId": "chess_mujica_4_28_a",
   "chessLevel": 4,
   "chessType": "PRESET",
-  "defaultSkillIndex": 0,
+  "defaultSkillIndex": 1,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_mujica_4_28_b",
   "isHidden": false,
