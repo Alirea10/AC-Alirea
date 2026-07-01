@@ -30,6 +30,11 @@
       "key": "max_add_count_per_battle",
       "value": 24,
       "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_176_a"
     }
   ],
   "charLevel": 0,
