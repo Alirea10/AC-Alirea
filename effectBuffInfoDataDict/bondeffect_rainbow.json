@@ -8,12 +8,12 @@
       },
       {
         "key": "base_damage_scale",
-        "value": 0.1,
+        "value": 0.4,
         "valueStr": null
       },
       {
         "key": "damage_scale_per_stack",
-        "value": 0.003,
+        "value": 0.005,
         "valueStr": null
       },
       {
