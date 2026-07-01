@@ -29,7 +29,9 @@
     "chess_char_5_15_b",
     "chess_char_5_20_b",
     "chess_char_5_23_b",
-    "chess_char_6_07_b"
+    "chess_char_6_07_b",
+    "chess_kazdel_3_26_a",
+    "chess_kazdel_3_26_b"
   ],
   "desc": "刷新调度中心时，有概率使下次刷新<@ba.vup>不消耗资金</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>100</>层>获得<@ba.vup>20</>资金（整备区的【奇迹】干员也可用于激活盟约）",
   "descParamBaseList": [
