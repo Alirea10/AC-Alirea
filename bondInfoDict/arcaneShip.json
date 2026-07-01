@@ -33,7 +33,11 @@
     "chess_ursus_5_25_a",
     "chess_ursus_5_25_b",
     "chess_char_5_24_b",
-    "chess_char_5_24_a"
+    "chess_char_5_24_a",
+    "chess_kazdel_2_24_a",
+    "chess_kazdel_2_24_b",
+    "chess_char_5_27_a",
+    "chess_char_5_27_b"
   ],
   "desc": "【奥术】干员造成法术伤害时使目标受到的法术伤害提升<@autochess.gray>（受层数影响）</>，持续3秒\n<在场<@autochess.dgreen>3</>名不同【奥术】干员>【奥术】干员对生命值低于<@ba.vup>50%</>的敌人施加的伤害提升比例提升<@autochess.gray>（受层数影响）</>",
   "descParamBaseList": [
