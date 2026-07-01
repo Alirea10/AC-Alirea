@@ -26,12 +26,18 @@
     "chess_char_5_06_b",
     "chess_char_5_13_b",
     "chess_char_6_06_b",
-    "chess_rainbow_4_27_b",
-    "chess_rainbow_4_27_a",
-    "chess_ursus_3_25_b",
-    "chess_ursus_3_25_a",
+    "chess_rainbow_3_24_b",
+    "chess_rainbow_3_24_a",
+    "chess_ursus_6_24_b",
+    "chess_ursus_6_24_a",
     "chess_mujica_2_23_b",
-    "chess_mujica_2_23_a"
+    "chess_mujica_2_23_a",
+    "chess_kazdel_1_24_a",
+    "chess_kazdel_1_24_b",
+    "chess_kazdel_3_27_a",
+    "chess_kazdel_3_27_b",
+    "chess_char_4_18_a",
+    "chess_char_4_18_b"
   ],
   "desc": "<@ba.vup>地面干员</>被击倒时，有概率立即<@ba.vup>重新部署</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【不屈】干员><@ba.vup>地面干员</>被击倒时使场上所有干员<@ba.vup>技力+5</>",
   "descParamBaseList": [
