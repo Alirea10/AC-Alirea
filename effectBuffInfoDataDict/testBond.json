@@ -4,46 +4,11 @@
       {
         "key": "key",
         "value": 0,
-        "valueStr": "surtr_s_3[bleeding]_copy"
+        "valueStr": "testBond"
       },
       {
-        "key": "hp_ratio",
+        "key": "damage_scale",
         "value": 0.2,
-        "valueStr": null
-      },
-      {
-        "key": "duration",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "hp_drain_ratio",
-        "value": -0.01,
-        "valueStr": null
-      },
-      {
-        "key": "atk_convert_ratio",
-        "value": 0.5,
-        "valueStr": null
-      },
-      {
-        "key": "hp_per_stack",
-        "value": 100,
-        "valueStr": null
-      },
-      {
-        "key": "damage_resistance_per_stack",
-        "value": 0.3,
-        "valueStr": null
-      },
-      {
-        "key": "damage_resistance_cap",
-        "value": 1,
-        "valueStr": null
-      },
-      {
-        "key": "trigger_interval",
-        "value": 1,
         "valueStr": null
       }
     ],
