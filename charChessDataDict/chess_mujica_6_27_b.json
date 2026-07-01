@@ -1,5 +1,5 @@
 {
-  "chessId": "chess_mujica_5_26_b",
+  "chessId": "chess_mujica_6_27_b",
   "garrisonIds": [
     "garrison_176_b",
     "garrison_177_b"
@@ -7,7 +7,7 @@
   "isGolden": true,
   "status": {
     "charLevel": 60,
-    "equipLevel": 2,
+    "equipLevel": 3,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
     "skillLevel": 7

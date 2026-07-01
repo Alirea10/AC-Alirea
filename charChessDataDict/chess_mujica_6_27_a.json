@@ -1,5 +1,5 @@
 {
-  "chessId": "chess_mujica_5_26_a",
+  "chessId": "chess_mujica_6_27_a",
   "garrisonIds": [
     "garrison_176_a",
     "garrison_177_a"
@@ -12,6 +12,6 @@
     "favorPoint": 0,
     "skillLevel": 7
   },
-  "upgradeChessId": "chess_mujica_5_26_b",
+  "upgradeChessId": "chess_mujica_6_27_b",
   "upgradeNum": 3
 }

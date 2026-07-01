@@ -1,17 +1,17 @@
 {
-  "backupCharId": "chess_mujica_5_26_a",
+  "backupCharId": "chess_mujica_6_27_a",
   "backupCharPotRank": 0,
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
   "backupTmplId": null,
   "charId": "char_4182_oblvns",
-  "chessId": "chess_mujica_5_26_a",
-  "chessLevel": 5,
+  "chessId": "chess_mujica_6_27_a",
+  "chessLevel": 6,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
   "defaultUniEquipId": null,
-  "goldenChessId": "chess_mujica_5_26_b",
+  "goldenChessId": "chess_mujica_6_27_b",
   "isHidden": false,
-  "shopLevelSortId": 26,
+  "shopLevelSortId": 27,
   "tmplId": null
 }
