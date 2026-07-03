@@ -1,17 +1,17 @@
 {
-  "backupCharId": "chess_char_5_27_a",
+  "backupCharId": "chess_char_5_28_a",
   "backupCharPotRank": 0,
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
   "backupTmplId": null,
-  "charId": "char_180_amgoat",
-  "chessId": "chess_char_5_27_a",
+  "charId": "char_002_amiya",
+  "chessId": "chess_char_5_28_a",
   "chessLevel": 5,
   "chessType": "PRESET",
-  "defaultSkillIndex": 2,
+  "defaultSkillIndex": 1,
   "defaultUniEquipId": null,
-  "goldenChessId": "chess_char_5_27_b",
+  "goldenChessId": "chess_char_5_28_b",
   "isHidden": true,
-  "shopLevelSortId": 27,
+  "shopLevelSortId": 28,
   "tmplId": null
 }
