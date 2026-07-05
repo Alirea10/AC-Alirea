@@ -11,7 +11,7 @@
     "chess_hero_6_24_b",
     "chess_hero_6_24_a"
   ],
-  "desc": "【御守】所有干员技力回复速度+<@ba.vup>1</>",
+  "desc": "【御守】所有干员技力回复速度+<@ba.vup>1</>\n<@ba.acrem>铃兰小姐是我们的光——</>",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "heroeffect_lisa",
