@@ -119,12 +119,6 @@
           {
             "_conditionsNode": [
               {
-                "_checkRecoveryType": false,
-                "_elementType": "NONE",
-                "_target": "MODIFIER_TARGET",
-                "$type": "Torappu.Battle.Action.Nodes+IsTargetInEPBreakRecovery, Assembly-CSharp"
-              },
-              {
                 "_bondId": "kazdelShip",
                 "_condType": "GE",
                 "_filterAllSides": true,
