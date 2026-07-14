@@ -68,6 +68,24 @@
             "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
           },
           {
+            "_abilityName": "",
+            "_addParamKey": "base_prob",
+            "_dividedParamKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "prob_per_stack",
+            "_outputKey": "real_prob",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
             "_attributeType": "DEF_PENETRATE_FIXED",
             "_formulaType": "ADDITION",
             "_targetType": "BUFF_OWNER",
@@ -87,23 +105,24 @@
     ],
     "ON_OUTPUT_DAMAGE": [
       {
-        "_conditionNode": {
-          "_bondId": "mujicaShip",
-          "_condType": "GE",
-          "_filterAllSides": true,
-          "_filterCount": true,
-          "_keyToCompare": "power_bond_char_cnt",
-          "_keyToStoreCnt": "bond_char_cnt",
-          "_target": "BUFF_OWNER",
-          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
-        },
-        "_failNodes": [
+        "_conditionsNode": [
           {
-            "_decCntIfStack": false,
-            "_updateOverrideMap": true,
-            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+            "_bondId": "mujicaShip",
+            "_condType": "GE",
+            "_filterAllSides": true,
+            "_filterCount": true,
+            "_keyToCompare": "power_bond_char_cnt",
+            "_keyToStoreCnt": "bond_char_cnt",
+            "_target": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+          },
+          {
+            "_probKey": "real_prob",
+            "$type": "Torappu.Battle.Action.Nodes+Dice, Assembly-CSharp"
           }
         ],
+        "_failNodes": null,
+        "_isAnd": false,
         "_succeedNodes": [
           {
             "_abilityName": "",
@@ -171,7 +190,7 @@
             "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
           }
         ],
-        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
       }
     ]
   },

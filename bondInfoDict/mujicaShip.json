@@ -24,13 +24,15 @@
     "base_def_penetrate_fixed",
     "base_magic_resist_penetrate",
     "base_cnt",
-    "base_damage_scale"
+    "base_damage_scale",
+    "base_prob"
   ],
   "descParamPerStackList": [
     "def_penetrate_fixed_per_stack",
     "magic_resist_penetrate_per_stack",
     "cnt_per_stack",
-    "damage_scale_per_stack"
+    "damage_scale_per_stack",
+    "prob_per_stack"
   ],
   "effectId": "bondeffect_mujica",
   "iconId": "",

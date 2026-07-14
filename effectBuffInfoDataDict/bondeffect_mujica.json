@@ -50,6 +50,16 @@
         "key": "damage_scale_per_stack",
         "value": 0.01,
         "valueStr": null
+      },
+      {
+        "key": "base_prob",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "prob_per_stack",
+        "value": 0.002,
+        "valueStr": null
       }
     ],
     "countType": "NONE",
