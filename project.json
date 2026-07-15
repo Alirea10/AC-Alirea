@@ -3281,16 +3281,7 @@
         "mujicaShip",
         "kazdelShip"
       ],
-      "minorBondBanCount": 6,
-      "minorBondIds": [
-        "deputShip",
-        "indomShip",
-        "preciShip",
-        "raidShip",
-        "skillfulShip",
-        "steadShip",
-        "swiftShip"
-      ]
+      "minorBondBanCount": 6
     }
   }
 }
