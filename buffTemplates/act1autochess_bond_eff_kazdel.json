@@ -108,7 +108,7 @@
           },
           {
             "_allowNoSourceDamage": false,
-            "_damageScaleKey": "damage_scale",
+            "_damageScaleKey": "real_damage_scale",
             "_damageValueKey": "damage_value",
             "_elementType": "DARK",
             "_isEnvDamage": false,

@@ -30,6 +30,11 @@
         "key": "one",
         "value": 1,
         "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
       }
     ],
     "countType": "NONE",
