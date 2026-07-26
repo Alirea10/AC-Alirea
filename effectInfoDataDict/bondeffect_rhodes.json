@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<在场3名不同【罗德岛】干员> 每有一个已激活盟约，所有干员的攻击力和生命值提升<@ba\n.vup>{0:0%}</><@autochess.gray>（受层数影响）</>",
+  "effectId": "bondeffect_rhodes",
+  "effectName": "罗德岛",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}
