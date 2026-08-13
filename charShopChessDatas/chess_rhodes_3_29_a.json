@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhodes_3_29_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_017_huang",
+  "chessId": "chess_rhodes_3_29_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_rhodes_3_29_b",
+  "isHidden": false,
+  "shopLevelSortId": 999,
+  "tmplId": null
+}

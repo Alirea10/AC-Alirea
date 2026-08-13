@@ -1,0 +1,177 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_blackboardKey": "bond_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignActiveGarrisonBondCntToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_conditionNode": {
+          "_anotherBuff": false,
+          "_anotherKeyToCompare": "value_3",
+          "_blackboardKey": "bond_cnt",
+          "_buffKey": null,
+          "_condType": "GE",
+          "_targetType": "BUFF_OWNER",
+          "_valueToCompare": 5,
+          "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_conditionNode": {
+              "_anotherBuff": false,
+              "_anotherKeyToCompare": "value_2",
+              "_blackboardKey": "bond_cnt",
+              "_buffKey": null,
+              "_condType": "EQUALS",
+              "_targetType": "BUFF_OWNER",
+              "_valueToCompare": 4,
+              "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+            },
+            "_failNodes": [
+              {
+                "_conditionNode": {
+                  "_anotherBuff": false,
+                  "_anotherKeyToCompare": "value_1",
+                  "_blackboardKey": "bond_cnt",
+                  "_buffKey": null,
+                  "_condType": "EQUALS",
+                  "_targetType": "BUFF_OWNER",
+                  "_valueToCompare": 3,
+                  "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+                },
+                "_failNodes": null,
+                "_succeedNodes": [
+                  {
+                    "_assignString": false,
+                    "_blackboardKey": "atk",
+                    "_copyFromKey": "atk_1",
+                    "_value": 0,
+                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                  },
+                  {
+                    "_assignString": false,
+                    "_blackboardKey": "max_hp",
+                    "_copyFromKey": "max_hp_1",
+                    "_value": 0,
+                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                  }
+                ],
+                "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+              }
+            ],
+            "_succeedNodes": [
+              {
+                "_assignString": false,
+                "_blackboardKey": "atk",
+                "_copyFromKey": "atk_2",
+                "_value": 0,
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+              },
+              {
+                "_assignString": false,
+                "_blackboardKey": "max_hp",
+                "_copyFromKey": "max_hp_2",
+                "_value": 0,
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+              }
+            ],
+            "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "atk",
+            "_copyFromKey": "atk_3",
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_assignString": false,
+            "_blackboardKey": "max_hp",
+            "_copyFromKey": "max_hp_3",
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      },
+      {
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "fetchBaseValueFromSourceEntity": false,
+                "formulaItem": "MULTIPLIER",
+                "loadFromBlackboard": true,
+                "value": 0
+              },
+              {
+                "attributeType": "MAX_HP",
+                "fetchBaseValueFromSourceEntity": false,
+                "formulaItem": "MULTIPLIER",
+                "loadFromBlackboard": true,
+                "value": 0
+              }
+            ]
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "act1autochess_band2_buff[attr]",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "INFINITY",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": null,
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "DEFAULT",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "empty",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_finishDerivedBuffIfParentFinish": false,
+        "_hookEffectKeyFromSourceProjectile": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_isDerivedBuff": false,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_useSpecialBuffSource": false,
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_band2_buff_copy"
+}

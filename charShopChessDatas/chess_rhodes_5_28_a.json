@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhodes_5_28_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4204_mantra",
+  "chessId": "chess_rhodes_5_28_a",
+  "chessLevel": 5,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_rhodes_5_28_b",
+  "isHidden": false,
+  "shopLevelSortId": 28,
+  "tmplId": null
+}

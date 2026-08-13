@@ -28,7 +28,11 @@
     "chess_rhodes_4_32_a",
     "chess_char_5_28_b",
     "chess_char_6_33_a",
-    "chess_char_6_33_b"
+    "chess_char_6_33_b",
+    "chess_rhodes_3_28_a",
+    "chess_rhodes_3_28_b",
+    "chess_rhodes_3_29_a",
+    "chess_rhodes_3_29_b"
   ],
   "desc": "所有干员受到的物理和法术伤害<@ba.vup>-20%</>，【协防干员】伤害提升至<@ba.vup>120%</>，精锐【协防】干员造成伤害提升至<@ba.vup>140%</>",
   "descParamBaseList": [],

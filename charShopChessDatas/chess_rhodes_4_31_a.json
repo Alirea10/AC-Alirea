@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhodes_4_31_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4179_monstr",
+  "chessId": "chess_rhodes_4_31_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_rhodes_4_31_b",
+  "isHidden": false,
+  "shopLevelSortId": 31,
+  "tmplId": null
+}
