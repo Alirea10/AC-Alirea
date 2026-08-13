@@ -1,20 +1,195 @@
 {
   "effectKey": "",
   "eventToActions": {
-    "ON_OUTPUT_DAMAGE": [
+    "ON_BUFF_START": [
       {
-        "_applyWayFilter": "NONE",
-        "_cachedDeltaValueToBBKey": "",
-        "_customKey": "real_ex_damage_scale",
-        "_damageMask": "NONE",
-        "_filterApplyWay": false,
-        "_filterDamageType": false,
-        "_filterModifierKey": false,
-        "_isOneMinus": false,
-        "_isStackable": false,
-        "_isValidStackCnt": false,
-        "_modifierKey": "",
-        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+        "_blackboardKey": "bond_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignActiveGarrisonBondCntToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "none",
+        "_bondId": "rhodesShip",
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": true,
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_conditionNode": {
+          "_anotherBuff": false,
+          "_anotherKeyToCompare": "ex_bond_char_cnt",
+          "_blackboardKey": "bond_char_cnt",
+          "_buffKey": null,
+          "_condType": "GE",
+          "_targetType": "BUFF_OWNER",
+          "_valueToCompare": 9,
+          "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_conditionsNode": [
+              {
+                "_anotherBuff": false,
+                "_anotherKeyToCompare": "",
+                "_blackboardKey": "bond_cnt",
+                "_buffKey": null,
+                "_condType": "GE",
+                "_targetType": "BUFF_OWNER",
+                "_valueToCompare": 4,
+                "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+              }
+            ],
+            "_failNodes": [
+              {
+                "_abilityName": "",
+                "_addParamKey": "real_bond_cnt",
+                "_dividedParamKey": "",
+                "_finalAbs": false,
+                "_finalCeil": false,
+                "_finalFloor": false,
+                "_finalRound": false,
+                "_inputKey": "bond_cnt",
+                "_maxValueKey": "ex_max_bond_cnt",
+                "_minusParamKey": null,
+                "_minValueKey": null,
+                "_multiplyParamKey": null,
+                "_outputKey": "real_bond_cnt",
+                "_useAbilityBlackboard": false,
+                "_useRemainder": false,
+                "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+              }
+            ],
+            "_isAnd": false,
+            "_succeedNodes": [
+              {
+                "_abilityName": "",
+                "_addParamKey": "real_bond_cnt",
+                "_dividedParamKey": "",
+                "_finalAbs": false,
+                "_finalCeil": false,
+                "_finalFloor": false,
+                "_finalRound": false,
+                "_inputKey": "bond_cnt",
+                "_maxValueKey": "max_bond_cnt",
+                "_minusParamKey": null,
+                "_minValueKey": null,
+                "_multiplyParamKey": null,
+                "_outputKey": "real_bond_cnt",
+                "_useAbilityBlackboard": false,
+                "_useRemainder": false,
+                "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+              }
+            ],
+            "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_addition": 4,
+            "_additionKey": "",
+            "_blackboardKey": "bond_cnt",
+            "_isFloat": false,
+            "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "base_atk",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "atk_per_stack",
+        "_outputKey": "real_atk",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "base_hp",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "hp_per_stack",
+        "_outputKey": "real_hp",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "real_atk",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "real_bond_cnt",
+        "_outputKey": "real_atk2",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "real_hp",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "real_bond_cnt",
+        "_outputKey": "real_hp2",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "MAX_HP",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "real_hp2",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "real_atk2",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "BLOCK_CNT",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "real_bond_cnt",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       }
     ]
   },
