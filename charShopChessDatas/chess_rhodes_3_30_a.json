@@ -8,10 +8,10 @@
   "chessId": "chess_rhodes_3_30_a",
   "chessLevel": 3,
   "chessType": "PRESET",
-  "defaultSkillIndex": 0,
+  "defaultSkillIndex": 2,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_rhodes_3_30_b",
   "isHidden": false,
-  "shopLevelSortId": 999,
+  "shopLevelSortId": 30,
   "tmplId": null
 }

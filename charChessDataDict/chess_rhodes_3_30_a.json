@@ -1,6 +1,9 @@
 {
   "chessId": "chess_rhodes_3_30_a",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_182_a",
+    "garrison_172_b"
+  ],
   "isGolden": false,
   "status": {
     "charLevel": 1,
@@ -10,5 +13,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": "chess_rhodes_3_30_b",
-  "upgradeNum": 3
+  "upgradeNum": 1
 }
