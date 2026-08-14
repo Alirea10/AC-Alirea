@@ -13,7 +13,7 @@
     "chess_char_1_15_b",
     "chess_char_6_11_b",
     "chess_rhodes_4_32_a",
-    "chess_char_5_28_b"
+    "chess_rhodes_4_32_b"
   ],
   "desc": "激活时使场上核心盟约的<@ba.vup>激活人数+1</>，【调和】干员享受已激活的核心盟约的效果",
   "descParamBaseList": [],
