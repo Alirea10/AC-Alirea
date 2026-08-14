@@ -1,6 +1,9 @@
 {
   "chessId": "chess_rhodes_5_30_b",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_137_a",
+    "garrison_01_a"
+  ],
   "isGolden": true,
   "status": {
     "charLevel": 60,

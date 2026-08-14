@@ -136,7 +136,7 @@
       },
       {
         "_abilityName": "",
-        "_addParamKey": "",
+        "_addParamKey": "real_atk",
         "_dividedParamKey": null,
         "_finalAbs": true,
         "_finalCeil": false,
@@ -154,7 +154,7 @@
       },
       {
         "_abilityName": "",
-        "_addParamKey": "",
+        "_addParamKey": "real_hp",
         "_dividedParamKey": null,
         "_finalAbs": true,
         "_finalCeil": false,
