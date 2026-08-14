@@ -8,7 +8,7 @@
   "chessId": "chess_rhodes_4_31_a",
   "chessLevel": 4,
   "chessType": "PRESET",
-  "defaultSkillIndex": 0,
+  "defaultSkillIndex": 1,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_rhodes_4_31_b",
   "isHidden": false,
