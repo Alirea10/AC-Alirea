@@ -19,5 +19,5 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗开始时>使身前一格【罗德岛】干员获得特质“击倒敌人时使自身已激活的所有盟约层数<@ba.vup>+3</>”"
+  "garrisonDesc": "<战斗开始时>使身前一格【罗德岛】干员获得特质“击倒敌人时使自身已激活的【罗德岛】盟约<@ba.vup>+3</>”"
 }

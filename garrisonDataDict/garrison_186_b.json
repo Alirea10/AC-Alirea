@@ -1,23 +1,43 @@
 {
-  "battleRuneKey": null,
+  "battleRuneKey": "env_gbuff_new_with_verify",
   "blackboard": [
     {
-      "key": "count",
-      "value": 3,
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfkillenemy"
+    },
+    {
+      "key": "check_cnt",
+      "value": 1,
       "valueStr": null
     },
     {
-      "key": "conditionkey",
+      "key": "bond_type",
       "value": 0,
-      "valueStr": "character_target_inboard"
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "rhodesShip"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 3,
+      "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>击倒敌人时使自身已激活的盟约+3</>",
-  "effectType": "SERVER_ADD_BOND_CHESS_ALL",
+  "description": "<战斗中>击倒敌人时使自身已激活的【罗德岛】盟约+3</>",
+  "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>击倒敌人时使自身已激活的盟约+3</>"
+  "garrisonDesc": "<战斗中>击倒敌人时使自身已激活的【罗德岛】盟约+3</>"
 }
