@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_leithanien_3_31_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4098_vvana",
+  "chessId": "chess_leithanien_3_31_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_leithanien_3_31_b",
+  "isHidden": true,
+  "shopLevelSortId": 31,
+  "tmplId": null
+}

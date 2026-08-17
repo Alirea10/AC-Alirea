@@ -1,0 +1,28 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "leithanienShip",
+  "chessIdList": [
+    "chess_char_6_20_a",
+    "chess_char_6_20_b",
+    "chess_char_2_15_a",
+    "chess_char_2_15_b",
+    "chess_leithanien_3_31_a",
+    "chess_leithanien_3_31_b"
+  ],
+  "desc": "场上出现\"奏乐\"，再不同的时间内产生不同的效果",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_leithanien",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "莱塔尼亚",
+  "noStack": false,
+  "weight": 100
+}

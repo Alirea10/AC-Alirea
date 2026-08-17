@@ -1,0 +1,38 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "env_008_act29side_audio_type_switcher"
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "extra_load_bgm",
+        "value": 0,
+        "valueStr": "battle.ON_CUSTOM_TRIGGER.bat_witchking_p2_normal"
+      },
+      {
+        "key": "ui_plugin_name",
+        "value": 0,
+        "valueStr": "act29side_battle_ui_plugin"
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_system_new"
+  }
+]

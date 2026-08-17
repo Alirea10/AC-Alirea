@@ -11,7 +11,7 @@
   "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_agoat2",
   "goldenChessId": "chess_char_6_20_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 20,
   "tmplId": null
 }

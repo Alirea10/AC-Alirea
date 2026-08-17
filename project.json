@@ -2070,6 +2070,7 @@
       "chess_kazdel_3_26_a": "chess_kazdel_3_26_a",
       "chess_kazdel_3_27_a": "chess_kazdel_3_27_a",
       "chess_kazdel_6_32_a": "chess_kazdel_6_32_a",
+      "chess_leithanien_3_31_a": "chess_leithanien_3_31_a",
       "chess_mujica_1_23_a": "chess_mujica_1_23_a",
       "chess_mujica_2_23_a": "chess_mujica_2_23_a",
       "chess_mujica_3_25_a": "chess_mujica_3_25_a",
@@ -2303,6 +2304,7 @@
       "chess_kazdel_3_26_b": "chess_kazdel_3_26_a",
       "chess_kazdel_3_27_b": "chess_kazdel_3_27_a",
       "chess_kazdel_6_32_b": "chess_kazdel_6_32_a",
+      "chess_leithanien_3_31_b": "chess_leithanien_3_31_a",
       "chess_mujica_1_23_b": "chess_mujica_1_23_a",
       "chess_mujica_2_23_b": "chess_mujica_2_23_a",
       "chess_mujica_3_25_b": "chess_mujica_3_25_a",
@@ -3199,7 +3201,7 @@
       "comment_1": {
         "id": "comment_1",
         "picId": "comment_icon_1",
-        "txt": "卫戍之星"
+        "txt": "！？区区？！"
       },
       "comment_2": {
         "id": "comment_2",
@@ -3236,7 +3238,7 @@
       "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
       "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
       "fallbackBondId": "emptyShip",
-      "maxBattleChessCnt": 8,
+      "maxBattleChessCnt": 9,
       "maxDeckChessCnt": 15,
       "milestoneId": "act2autochess_token_chess",
       "milestoneTrackId": "act2autochess_milestone_expand",
