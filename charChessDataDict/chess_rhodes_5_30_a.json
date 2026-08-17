@@ -1,11 +1,12 @@
 {
   "chessId": "chess_rhodes_5_30_a",
   "garrisonIds": [
-    "garrison_01_a"
+    "garrison_189_a",
+    "garrison_02_a"
   ],
   "isGolden": false,
   "status": {
-    "charLevel": 55,
+    "charLevel": 1,
     "equipLevel": 0,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
