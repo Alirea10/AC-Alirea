@@ -4,7 +4,7 @@
     "ON_ABNORMAL_FLAG_DIRTY": [
       {
         "_conditionNode": {
-          "_abnormalFlag": "PALSY",
+          "_abnormalFlag": "PALSYING",
           "_abnormalFlagKey": "",
           "_isUnset": false,
           "_targetType": "BUFF_OWNER",
@@ -106,7 +106,7 @@
     "ON_BUFF_START": [
       {
         "_conditionNode": {
-          "_abnormalFlag": "PALSY",
+          "_abnormalFlag": "PALSYING",
           "_abnormalFlagKey": "",
           "_isUnset": false,
           "_targetType": "BUFF_OWNER",

@@ -4,7 +4,17 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act2autochess_gar_event_allyenemy_palsy_inrange"
+      "valueStr": "act1autochess_gar_event_enemy_abflag_inrange"
+    },
+    {
+      "key": "check_ab_flag",
+      "value": 18,
+      "valueStr": null
+    },
+    {
+      "key": "bond_add_count",
+      "value": 2,
+      "valueStr": null
     },
     {
       "key": "bond_type",
@@ -22,8 +32,8 @@
       "valueStr": "by_count"
     },
     {
-      "key": "bond_add_count",
-      "value": 2,
+      "key": "prob",
+      "value": 1,
       "valueStr": null
     },
     {
@@ -34,15 +44,15 @@
     {
       "key": "garrison_key",
       "value": 0,
-      "valueStr": "garrison_125_b"
+      "valueStr": "garrison_188_b"
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>麻痹</>时，使已激活的【罗德岛】层数<@ba.vup>+2</>（每场战斗至多48层）",
+  "description": "<战斗中>每当范围内1名敌人进入麻痹时，使已激活的【罗德岛】层数<@ba.vup>+2</>（每场战斗至多48层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>麻痹</>时，使已激活的【罗德岛】层数<@ba.vup>+2</>（每场战斗至多48层）"
+  "garrisonDesc": "<战斗中>每当范围内1名敌人进入麻痹时，使已激活的【罗德岛】层数<@ba.vup>+2</>（每场战斗至多48层）"
 }
