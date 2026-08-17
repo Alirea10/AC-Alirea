@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "<在场3名不同【罗德岛】干员> 每有一个已激活盟约<@autochess.gray>（包含自己，至多4个）</>，<@ba.vup>所有干员</>的攻击力和生命值提升<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，回合结束时，所有盟约层数提升<@ba.vup>1</>\n<在场6名不同【罗德岛】干员> 所有盟约层数提升数提升到<@ba.vup>5</>,且已激活盟约上限提高到8个\n<在场9名不同【罗德岛】干员>额外视为激活了4个盟约（不计入上限)<@ba.vup>5</>",
+  "effectDesc": "<在场3名不同【罗德岛】干员> 每有一个已激活盟约<@autochess.gray>（包含自己，至多4个）</>，<@ba.vup>所有干员</>的攻击力和生命值提升<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，回合结束时，所有盟约层数提升<@ba.vup>1</>\n<在场6名不同【罗德岛】干员> 所有盟约层数提升数提升到<@ba.vup>5</>,且已激活盟约上限提高到8个\n<在场9名不同【罗德岛】干员>额外视为激活了4个盟约（不计入上限)",
   "effectId": "bondeffect_rhodes",
   "effectName": "罗德岛",
   "effectType": "BOND",
