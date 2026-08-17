@@ -3,6 +3,9 @@
   "eventToActions": {
     "ON_BUFF_START": [
       {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
         "_feverKey": "env_033_fever",
         "$type": "Torappu.Battle.Action.Nodes+IsInFever, Assembly-CSharp"
       },
