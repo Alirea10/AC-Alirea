@@ -23,7 +23,8 @@
     "emptyShip",
     "soloShip",
     "suntShip",
-    "rainbowShip"
+    "rainbowShip",
+    "rhodesShip"
   ],
   "backgroundId": "background_training",
   "code": "AC-TR-1",
