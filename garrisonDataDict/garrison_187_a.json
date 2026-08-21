@@ -1,33 +1,23 @@
 {
-  "battleRuneKey": "env_gbuff_new_with_verify",
+  "battleRuneKey": null,
   "blackboard": [
     {
-      "key": "key",
+      "key": "chess",
       "value": 0,
-      "valueStr": "act1autochess_gar_eff_attrByBond"
+      "valueStr": "chess_item_4_12_e_a"
     },
     {
-      "key": "divide_num",
-      "value": 3,
-      "valueStr": null
-    },
-    {
-      "key": "bond_id",
-      "value": 0,
-      "valueStr": "skillfulShip"
-    },
-    {
-      "key": "atk",
-      "value": 0.01,
+      "key": "count",
+      "value": 1,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "【灵巧】每叠加3层，本干员攻击力<@ba.vup>+1%</>",
-  "effectType": "GAIN_BUFF",
-  "eventType": "IN_BATTLE",
-  "eventTypeDesc": "作战能力",
-  "eventTypeIcon": "icon_battle",
-  "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【灵巧】每叠加3层，本干员攻击力<@ba.vup>+1%</>"
+  "description": "<获得时>获得1个“M3茧甲”\n精锐后变为【灵巧】每叠加3层，本干员攻击力<@ba.vup>+2%</>",
+  "effectType": "SERVER_GAIN_EQUIP",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "garrisonDesc": "<获得时>获得1个“M3茧甲”\n精锐后变为【灵巧】每叠加3层，本干员攻击力<@ba.vup>+2%</>"
 }
