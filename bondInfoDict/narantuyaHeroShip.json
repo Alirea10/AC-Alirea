@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "narantuyaHeroShip",
+  "chessIdList": [
+    "chess_hero_6_34_a",
+    "chess_hero_6_34_b"
+  ],
+  "desc": "<@ba.vup>所有</>【萨尔贡】【精准】【迅捷】干员击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "天途",
+  "noStack": false,
+  "weight": 100
+}

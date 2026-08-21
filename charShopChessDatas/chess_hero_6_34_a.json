@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_hero_6_34_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4138_narant",
+  "chessId": "chess_hero_6_34_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_hero_6_34_b",
+  "isHidden": false,
+  "shopLevelSortId": 34,
+  "tmplId": null
+}
