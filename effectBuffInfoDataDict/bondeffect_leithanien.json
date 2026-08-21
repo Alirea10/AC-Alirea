@@ -22,6 +22,101 @@
         "valueStr": null
       },
       {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "none",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "enthusiastic",
+        "value": 240,
+        "valueStr": null
+      },
+      {
         "key": "extra_load_bgm",
         "value": 0,
         "valueStr": "battle.ON_CUSTOM_TRIGGER.bat_witchking_p2_normal"
