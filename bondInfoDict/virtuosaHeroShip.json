@@ -1,0 +1,24 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "virtuosaHeroShip",
+  "chessIdList": [
+    "chess_char_6_09_a",
+    "chess_char_6_09_b"
+  ],
+  "desc": "所有干员造成的元素损伤提高，且攻击会造成30%的元素脆弱\n（还没做完5.0.1）",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "颂歌",
+  "noStack": false,
+  "weight": 100
+}
