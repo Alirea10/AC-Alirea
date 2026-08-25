@@ -39,7 +39,7 @@
   "desc": "敌方攻击强度到达极限的模拟训练",
   "effectDescList": [
     "Alirea Fun Make",
-    "新盟约：乌萨斯 彩虹小队 英雄系列",
+    "新盟约：乌萨斯 彩虹小队 Mujica 卡兹戴尔 罗德岛 莱塔尼亚",
     "来测，改动开源于https://github.com/Alirea10/AC-Alirea"
   ],
   "inactiveBondIdList": [],
@@ -50,7 +50,7 @@
   "modeIconId": "mode_abyss_icon",
   "modeId": "mode_multi_abyss",
   "modeType": "MULTI",
-  "name": "终极模拟",
+  "name": "Alirea版-终极模拟",
   "preposedMode": "mode_single_hard;mode_multi_hard",
   "sortId": 7,
   "specialPhaseTime": 16,
