@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "所有干员每消耗一颗子弹，攻击力+<@ba.vup>5</>（无上限）\n仅一次，当任意干员子弹数剩余<@ba.vup>低于20%</>时，<@ba.vup>回复所有子弹</>",
+  "effectId": "heroeffect_virtuosa",
+  "effectName": "颂歌",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

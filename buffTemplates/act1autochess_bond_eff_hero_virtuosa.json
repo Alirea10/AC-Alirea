@@ -1,0 +1,274 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignTargetPlayerSideToBlackboard, Assembly-CSharp",
+        "_actionTargetType": "BUFF_OWNER",
+        "_blackboardKey": "player_side"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "consumed_cache",
+        "_value": 0,
+        "_copyFromKey": null,
+        "_assignString": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "triggered",
+        "_value": 0,
+        "_copyFromKey": null,
+        "_assignString": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "triggered_cnt",
+        "_value": 0,
+        "_copyFromKey": null,
+        "_assignString": false
+      }
+    ],
+    "ON_ABILITY_FINISH": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckCharSkillAffecting, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_checkTargetHost": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignAmmoSkillConsumedCountToBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_blackboardKey": "consumed_cnt"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "consumed_cnt",
+        "_outputKey": "real_consumed_cnt",
+        "_multiplyParamKey": "",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "",
+        "_minusParamKey": "consumed_cache",
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "consumed_cache",
+        "_value": 0,
+        "_copyFromKey": "consumed_cnt",
+        "_assignString": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp",
+        "_conditionNode": {
+          "$type": "Torappu.Battle.Action.Nodes+IsBlackboardEqualWithString, Assembly-CSharp",
+          "_var": "player_side",
+          "_compareValue": "SIDE_A",
+          "_compareBBKey": null,
+          "_useBuffBlackboard": false,
+          "_buffKey": ""
+        },
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+            "_blackboardKey": "auto_chess_virtuosa_ammo_a",
+            "_channel": "AUTOCHESS",
+            "_value": 0,
+            "_valueBlackboardKey": "real_consumed_cnt",
+            "_addString": false,
+            "_valueStr": null,
+            "_overwrite": false
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+            "_blackboardKey": "auto_chess_virtuosa_ammo_b",
+            "_channel": "AUTOCHESS",
+            "_value": 0,
+            "_valueBlackboardKey": "real_consumed_cnt",
+            "_addString": false,
+            "_valueStr": null,
+            "_overwrite": false
+          }
+        ]
+      }
+    ],
+    "ON_SKILL_FINISH": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "consumed_cache",
+        "_value": 0,
+        "_copyFromKey": null,
+        "_assignString": false
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp",
+        "_conditionNode": {
+          "$type": "Torappu.Battle.Action.Nodes+IsBlackboardEqualWithString, Assembly-CSharp",
+          "_var": "player_side",
+          "_compareValue": "SIDE_A",
+          "_compareBBKey": null,
+          "_useBuffBlackboard": false,
+          "_buffKey": ""
+        },
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
+            "_globalblackboardKey": "auto_chess_virtuosa_ammo_a",
+            "_blackboardKey": "total_ammo",
+            "_channel": "AUTOCHESS",
+            "_assignString": false
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
+            "_globalblackboardKey": "auto_chess_virtuosa_ammo_b",
+            "_blackboardKey": "total_ammo",
+            "_channel": "AUTOCHESS",
+            "_assignString": false
+          }
+        ]
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "total_ammo",
+        "_outputKey": "real_atk",
+        "_multiplyParamKey": "atk_per_consume",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "ATK",
+        "_valueKey": "real_atk",
+        "_formulaType": "ADDITION"
+      }
+    ],
+    "ON_AFTER_ATTACK": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckCharSkillAffecting, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_checkTargetHost": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp",
+        "_var": "triggered",
+        "_noVarShowWarning": true
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignAmmoSkillMaxCountToBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_blackboardKey": "max_ammo_cnt",
+        "originalMaxCount": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignAmmoSkillRemainingCountToBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_blackboardKey": "remaining_cnt"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "remaining_cnt",
+        "_outputKey": "ammo_ratio",
+        "_multiplyParamKey": null,
+        "_dividedParamKey": "max_ammo_cnt",
+        "_useRemainder": false,
+        "_addParamKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_anotherBuff": false,
+        "_buffKey": null,
+        "_blackboardKey": "ammo_ratio",
+        "_valueToCompare": 0,
+        "_anotherKeyToCompare": "ammo_ratio_threshold",
+        "_condType": "LT"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "triggered",
+        "_value": 1,
+        "_copyFromKey": null,
+        "_assignString": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp",
+        "_blackboardKey": "triggered_cnt",
+        "_addition": 1,
+        "_additionKey": null,
+        "_isFloat": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_anotherBuff": false,
+        "_buffKey": null,
+        "_blackboardKey": "triggered_cnt",
+        "_valueToCompare": 0,
+        "_anotherKeyToCompare": "max_trigger_cnt",
+        "_condType": "LE"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AmmoSkillCountModifier, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_modifyMaxCount": false,
+        "_restoreMaxCount": false,
+        "_addCountBBKey": null,
+        "_addCount": 0,
+        "_addCountUsePercent": true,
+        "_recoverEventCount": true,
+        "_recoverCountBBKey": "ammo_percent",
+        "_recoverCount": 0,
+        "_recoverCountUsePercent": true,
+        "_recoverSkipLimitCheck": false,
+        "_consumeEventCount": false,
+        "_consumeCountBBKey": null,
+        "_consumeCount": 0,
+        "_discardRemainingCount": false,
+        "_discardSoft": false,
+        "_triggerConsumeEvent": false,
+        "_useEvtRetAsReturnValue": false
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_hero_virtuosa"
+}

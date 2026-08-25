@@ -1,0 +1,33 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_hero_virtuosa"
+      },
+      {
+        "key": "atk_per_consume",
+        "value": 5,
+        "valueStr": null
+      },
+      {
+        "key": "ammo_ratio_threshold",
+        "value": 0.2,
+        "valueStr": null
+      },
+      {
+        "key": "ammo_percent",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "max_trigger_cnt",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

@@ -11,10 +11,10 @@
     "chess_char_6_09_a",
     "chess_char_6_09_b"
   ],
-  "desc": "所有干员造成的元素损伤提高，且攻击会造成30%的元素脆弱\n（还没做完5.0.1）",
+  "desc": "所有干员每消耗一颗子弹，攻击力+5（无上限）\n仅一次，当任意干员子弹数剩余低于20%时，回复所有子弹",
   "descParamBaseList": [],
   "descParamPerStackList": [],
-  "effectId": "",
+  "effectId": "heroeffect_virtuosa",
   "iconId": "",
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
