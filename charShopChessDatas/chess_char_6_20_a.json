@@ -4,14 +4,14 @@
   "backupCharSkillIndex": 2,
   "backupCharUniEquipId": "uniequip_002_acmedc",
   "backupTmplId": null,
-  "charId": "char_1016_agoat2",
+  "charId": "char_180_amgoat",
   "chessId": "chess_char_6_20_a",
   "chessLevel": 6,
   "chessType": "NORMAL",
-  "defaultSkillIndex": 2,
+  "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_agoat2",
   "goldenChessId": "chess_char_6_20_b",
-  "isHidden": true,
+  "isHidden": false,
   "shopLevelSortId": 20,
   "tmplId": null
 }

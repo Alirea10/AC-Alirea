@@ -4,14 +4,14 @@
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
   "backupTmplId": null,
-  "charId": "char_180_amgoat",
+  "charId": "char_1016_agoat2",
   "chessId": "chess_char_5_27_a",
   "chessLevel": 5,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_char_5_27_b",
-  "isHidden": true,
+  "isHidden": false,
   "shopLevelSortId": 27,
   "tmplId": null
 }

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_hero_6_35_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4046_ebnhlz",
+  "chessId": "chess_hero_6_35_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_hero_6_35_b",
+  "isHidden": false,
+  "shopLevelSortId": 35,
+  "tmplId": null
+}

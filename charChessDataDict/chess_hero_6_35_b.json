@@ -1,12 +1,12 @@
 {
-  "chessId": "chess_char_5_27_b",
+  "chessId": "chess_hero_6_35_b",
   "garrisonIds": [
-    "garrison_140_b"
+    "garrison_196_b"
   ],
   "isGolden": true,
   "status": {
     "charLevel": 60,
-    "equipLevel": 1,
+    "equipLevel": 3,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
     "skillLevel": 7
