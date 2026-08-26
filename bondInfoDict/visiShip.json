@@ -8,7 +8,6 @@
   "activeType": "ALL",
   "bondId": "visiShip",
   "chessIdList": [
-    "chess_char_1_11_a",
     "chess_char_2_02_a",
     "chess_char_3_03_a",
     "chess_char_3_14_a",
@@ -17,7 +16,6 @@
     "chess_char_5_01_a",
     "chess_char_5_21_a",
     "chess_char_6_12_a",
-    "chess_char_1_11_b",
     "chess_char_2_02_b",
     "chess_char_3_03_b",
     "chess_char_3_14_b",

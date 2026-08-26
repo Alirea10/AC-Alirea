@@ -7,10 +7,8 @@
   ],
   "activeType": "BATTLE",
   "bondId": "testBond",
-  "chessIdList": [
-    "chess_char_1_05_b"
-  ],
-  "desc": "测试",
+  "chessIdList": [],
+  "desc": "测试1",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "testBond",

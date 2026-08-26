@@ -20,7 +20,6 @@
     "chess_char_4_24_a",
     "chess_char_5_16_a",
     "chess_char_6_14_a",
-    "chess_char_6_20_a",
     "chess_char_1_06_b",
     "chess_char_1_13_b",
     "chess_char_2_14_b",
@@ -33,7 +32,6 @@
     "chess_char_4_24_b",
     "chess_char_5_16_b",
     "chess_char_6_14_b",
-    "chess_char_6_20_b",
     "chess_rainbow_2_20_b",
     "chess_rainbow_2_20_a",
     "chess_ursus_3_24_a",
@@ -43,7 +41,9 @@
     "chess_char_5_29_a",
     "chess_char_5_29_b",
     "chess_rhodes_3_30_a",
-    "chess_rhodes_3_30_b"
+    "chess_rhodes_3_30_b",
+    "chess_char_5_27_a",
+    "chess_char_5_27_b"
   ],
   "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>名不同【助力】干员>改为层数<@ba.vup>+4</>",
   "descParamBaseList": [
