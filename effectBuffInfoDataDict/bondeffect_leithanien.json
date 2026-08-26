@@ -4,6 +4,67 @@
       {
         "key": "key",
         "value": 0,
+        "valueStr": "act1autochess_bond_eff_leithanien_v2"
+      },
+      {
+        "key": "base_attack_speed",
+        "value": 30,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed_per_stack",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "base_damage_scale",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "damage_scale_per_stack",
+        "value": 0.02,
+        "valueStr": null
+      },
+      {
+        "key": "arcane_damage_scale",
+        "value": 0.2,
+        "valueStr": null
+      },
+      {
+        "key": "arcane_damage_scale_per_stack",
+        "value": 0.002,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "arcane_power_bond_char_cnt",
+        "value": 4,
+        "valueStr": null
+      },
+      {
+        "key": "arcane_ex_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "hp_regen_ratio",
+        "value": 0.005,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  },
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
         "valueStr": "env_008_act29side_audio_type_switcher"
       },
       {
@@ -22,7 +83,12 @@
         "valueStr": null
       },
       {
-        "key": "none",
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
         "value": 10,
         "valueStr": null
       },
@@ -37,7 +103,12 @@
         "valueStr": null
       },
       {
-        "key": "none",
+        "key": "enthusiastic",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "depressed",
         "value": 10,
         "valueStr": null
       },
@@ -52,52 +123,12 @@
         "valueStr": null
       },
       {
-        "key": "none",
-        "value": 10,
-        "valueStr": null
-      },
-      {
         "key": "enthusiastic",
         "value": 10,
         "valueStr": null
       },
       {
         "key": "depressed",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "none",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "enthusiastic",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "depressed",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "none",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "enthusiastic",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "depressed",
-        "value": 10,
-        "valueStr": null
-      },
-      {
-        "key": "none",
         "value": 10,
         "valueStr": null
       },

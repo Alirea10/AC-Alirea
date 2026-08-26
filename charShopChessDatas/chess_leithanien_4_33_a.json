@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_leithanien_4_33_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4047_pianst",
+  "chessId": "chess_leithanien_4_33_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_leithanien_4_33_b",
+  "isHidden": false,
+  "shopLevelSortId": 33,
+  "tmplId": null
+}

@@ -1,8 +1,6 @@
 {
-  "chessId": "chess_leithanien_3_31_a",
-  "garrisonIds": [
-    "garrison_193_a"
-  ],
+  "chessId": "chess_leithanien_3_33_a",
+  "garrisonIds": null,
   "isGolden": false,
   "status": {
     "charLevel": 1,
@@ -11,6 +9,6 @@
     "favorPoint": 0,
     "skillLevel": 7
   },
-  "upgradeChessId": "chess_leithanien_3_31_b",
+  "upgradeChessId": "chess_leithanien_3_33_b",
   "upgradeNum": 3
 }

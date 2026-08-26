@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_leithanien_3_32_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4109_baslin",
+  "chessId": "chess_leithanien_3_32_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_leithanien_3_32_b",
+  "isHidden": false,
+  "shopLevelSortId": 32,
+  "tmplId": null
+}

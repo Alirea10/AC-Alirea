@@ -1,12 +1,10 @@
 {
-  "chessId": "chess_leithanien_3_31_b",
-  "garrisonIds": [
-    "garrison_193_b"
-  ],
+  "chessId": "chess_leithanien_3_33_b",
+  "garrisonIds": null,
   "isGolden": true,
   "status": {
     "charLevel": 60,
-    "equipLevel": 3,
+    "equipLevel": 1,
     "evolvePhase": "PHASE_2",
     "favorPoint": 0,
     "skillLevel": 7
