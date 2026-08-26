@@ -1,17 +1,17 @@
 {
-  "backupCharId": "chess_rhodes_2_25_a",
+  "backupCharId": "chess_rhodes_3_31_a",
   "backupCharPotRank": 0,
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
   "backupTmplId": null,
   "charId": "char_1036_fang2",
-  "chessId": "chess_rhodes_2_25_a",
-  "chessLevel": 2,
+  "chessId": "chess_rhodes_3_31_a",
+  "chessLevel": 3,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
   "defaultUniEquipId": null,
-  "goldenChessId": "chess_rhodes_2_25_b",
+  "goldenChessId": "chess_rhodes_3_31_b",
   "isHidden": false,
-  "shopLevelSortId": 25,
+  "shopLevelSortId": 31,
   "tmplId": null
 }
