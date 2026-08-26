@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "leithanienShip,steadShip"
+    },
+    {
+      "key": "count",
+      "value": 0,
+      "valueStr": "6,3"
+    }
+  ],
+  "charLevel": 0,
+  "description": "",
+  "effectType": "SERVER_ADD_MULTIPLE_BOND",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "<获得时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）"
+}

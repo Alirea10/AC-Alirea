@@ -1,0 +1,71 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "bond_id",
+        "_bondId": "leithanienShip",
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": false,
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "atk",
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "atk_per_stack",
+        "_outputKey": "real_atk",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_audioType": "Depressed",
+        "_evnSysKey": "env_008_act29side_audio_type_switcher",
+        "$type": "Torappu.Battle.Action.Nodes+Act29SideCheckCurrentAudioType, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "real_atk",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ],
+    "ON_SKILL_CAST_SUCCEED": [
+      {
+        "_audioType": "Enthusiastic",
+        "_evnSysKey": "env_008_act29side_audio_type_switcher",
+        "$type": "Torappu.Battle.Action.Nodes+Act29SideCheckCurrentAudioType, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+      },
+      {
+        "_evnSysKey": "env_008_act29side_audio_type_switcher",
+        "_isFirstTime": false,
+        "_isTriggeredByBoss": false,
+        "_muteAudio": false,
+        "_switchToOposite": true,
+        "_typeKey": "type",
+        "$type": "Torappu.Battle.Action.Nodes+Act29SideSwitchCurretnAudioType, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_gar_eff_depressed"
+}
