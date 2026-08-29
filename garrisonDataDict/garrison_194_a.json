@@ -13,7 +13,7 @@
     }
   ],
   "charLevel": 0,
-  "description": "",
+  "description": "<获得时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）",
   "effectType": "SERVER_ADD_MULTIPLE_BOND",
   "eventType": "SERVER_GAIN",
   "eventTypeDesc": "单次叠加",
