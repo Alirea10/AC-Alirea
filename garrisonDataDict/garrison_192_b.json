@@ -23,16 +23,16 @@
     },
     {
       "key": "bond_add_count",
-      "value": 1,
+      "value": 3,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "",
+  "description": "<战斗中>开启技能时，使已激活的【莱塔尼亚】层数<@ba.vup>+3</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>开启技能时，使已激活的【莱塔尼亚】层数<@ba.vup>+1</>"
+  "garrisonDesc": "<战斗中>开启技能时，使已激活的【莱塔尼亚】层数<@ba.vup>+3</>"
 }
