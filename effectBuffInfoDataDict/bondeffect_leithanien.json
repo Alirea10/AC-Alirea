@@ -8,7 +8,7 @@
       },
       {
         "key": "base_attack_speed",
-        "value": 30,
+        "value": 80,
         "valueStr": null
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "key": "base_damage_scale",
-        "value": 1,
+        "value": 1.5,
         "valueStr": null
       },
       {
