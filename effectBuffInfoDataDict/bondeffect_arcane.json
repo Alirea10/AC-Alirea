@@ -50,6 +50,21 @@
         "key": "damage_scale_per_stack_show_ex",
         "value": 0.014,
         "valueStr": null
+      },
+      {
+        "key": "base_atk",
+        "value": 0.4,
+        "valueStr": null
+      },
+      {
+        "key": "atk_per_stack",
+        "value": 0.03,
+        "valueStr": null
+      },
+      {
+        "key": "base_damage_scale_pure",
+        "value": 0.4,
+        "valueStr": null
       }
     ],
     "countType": "NONE",
