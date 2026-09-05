@@ -1,8 +1,8 @@
 {
   "chessId": "chess_rhodes_3_30_a",
   "garrisonIds": [
-    "garrison_182_a",
-    "garrison_172_b"
+    "garrison_172_b",
+    "garrison_182_a"
   ],
   "isGolden": false,
   "status": {

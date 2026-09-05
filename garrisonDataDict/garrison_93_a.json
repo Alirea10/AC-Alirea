@@ -2,7 +2,7 @@
   "battleRuneKey": null,
   "blackboard": [],
   "charLevel": 0,
-  "description": "只需2个相同的本干员即可合成精锐",
+  "description": "只需2个相同的本干员即可合成精锐\n<@autochess.gray>阿米娅精锐后可获得两个“变形同构体” </>",
   "effectType": "NONE",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
