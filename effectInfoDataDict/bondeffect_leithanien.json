@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "<@ba.vup>女皇之声</>：\n处于<@ba.vup>激昂</>时，所有【莱塔尼亚】干员的攻击速度提升<@ba.vup>{0:0}</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>低沉</>时，所有【莱塔尼亚】干员造成的法术伤害提升<@ba.vup>{1:0%}</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>沉寂</>时，所有【莱塔尼亚】干员每秒回复自身<@ba.vup>{2:0%}</>最大生命值\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员> 使奥术盟约得到强化：\n<在场<@autochess.dgreen>4</>名不同【奥术】干员> 造成的伤害提升20%<@autochess.gray>（受奥术和莱塔尼亚层数影响）</>且会使敌方失去特殊能力2秒\n<在场<@autochess.dgreen>6</>名不同【奥术】干员> 造成法术伤害时额外造成本次伤害40%的真实伤害<@autochess.gray>（受奥术层数影响）</>\n<@ba.acrem>莱塔尼亚可以使用 源石溶剂 进行转职</>",
+  "effectDesc": "<@ba.vup>女皇之声</>：\n处于<@ba.vup>激昂</>时，所有【莱塔尼亚】干员的攻击速度提升<@ba.vup>{0:0}</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>低沉</>时，所有【莱塔尼亚】干员造成的法术伤害提升<@ba.vup>{1:0%}</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>沉寂</>时，所有【莱塔尼亚】干员每秒回复自身<@ba.vup>{2:0%}</>技力\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员> 每对敌人造成法术伤害，其受到的法术伤害提高10%<@autochess.gray>（受层数影响）</>，叠加至<@ba.vup>15</>层时，使其移动速度减少<@ba.vup>40%</>至多提升至可叠加<@ba.vup>30</>层",
   "effectId": "bondeffect_leithanien",
   "effectName": "莱塔尼亚",
   "effectType": "BOND",

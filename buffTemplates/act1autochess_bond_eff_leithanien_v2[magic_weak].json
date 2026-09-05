@@ -1,0 +1,186 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_TRIGGER": [
+      {
+        "_buffKey": "act1autochess_bond_eff_leithanien_v2[magic_weak]",
+        "_checkBuffSource": false,
+        "_getStackCountFromFirstBuff": true,
+        "_showOverrideWarning": true,
+        "_sourceType": "BUFF_OWNER",
+        "_stackCountKey": "buff_cnt",
+        "_stackCountPeeling": 0,
+        "_targetType": "BUFF_OWNER",
+        "_useValidStackCount": false,
+        "$type": "Torappu.Battle.Action.Nodes+AssignBuffCountIntoBlackboard, Assembly-CSharp"
+      },
+        {
+          "_abilityName": "",
+          "_addParamKey": null,
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+          "_multiplyParamKey": "base_damage_scale_6_per_stack",
+          "_outputKey": "real_bond_scale",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+        },
+        {
+          "_abilityName": "",
+          "_addParamKey": "base_damage_scale_6",
+          "_dividedParamKey": null,
+          "_finalAbs": false,
+          "_finalCeil": false,
+          "_finalFloor": false,
+          "_finalRound": false,
+          "_inputKey": "real_bond_scale",
+          "_maxValueKey": null,
+          "_minusParamKey": null,
+          "_minValueKey": null,
+          "_multiplyParamKey": null,
+          "_outputKey": "real_per_stack_scale",
+          "_useAbilityBlackboard": false,
+          "_useRemainder": false,
+          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+        },
+        {
+          "_abilityName": "",
+          "_addParamKey": "damage_scale_base",
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "buff_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+          "_multiplyParamKey": "real_per_stack_scale",
+          "_outputKey": "real_damage_scale",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+        },
+      {
+        "_conditionNode": {
+          "_buffKey": "act1autochess_bond_eff_leithanien_v2[magic_weak]",
+          "_checkBuffSource": false,
+          "_checkFromUnoverridableBuffCount": false,
+          "_checkSnapshotBuff": false,
+          "_checkTargetHost": false,
+          "_condType": "GE",
+          "_sourceType": "BUFF_OWNER",
+          "_stackCount": 15,
+          "_stackCountKey": null,
+          "_stackCountPeeling": 0,
+          "_targetType": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+FilterByBuffStackCount, Assembly-CSharp"
+        },
+        "_failNodes": null,
+        "_succeedNodes": [
+          {
+            "_buffKeys": [
+              "act1autochess_bond_eff_leithanien_v2[magic_weak_slow]"
+            ],
+            "_buffSourceType": "BUFF_SOURCE",
+            "_checkBuffSource": false,
+            "_checkSourceHost": false,
+            "_loadFromBlackboard": false,
+            "_targetType": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+            "isAND": true
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+          },
+          {
+            "_buff": {
+              "attributes": {
+                "abnormalAntis": [],
+                "abnormalComboImmunes": [],
+                "abnormalCombos": [],
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "attributeModifiers": [
+                  {
+                    "attributeType": "MOVE_SPEED",
+                    "fetchBaseValueFromSourceEntity": false,
+                    "formulaItem": "MULTIPLIER",
+                    "loadFromBlackboard": false,
+                    "value": -0.4
+                  }
+                ]
+              },
+              "audioSignal": null,
+              "blackboard": [],
+              "buffKey": "act1autochess_bond_eff_leithanien_v2[magic_weak_slow]",
+              "clearAllStackCntWhenTimeUp": false,
+              "disableOverride": false,
+              "durationKey": null,
+              "enableInitDirectionFromSource": false,
+              "firstTriggerInterval": -1,
+              "independentCharacterSource": false,
+              "isDamageMissable": false,
+              "isDurableBuff": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "lifeTime": 0,
+              "lifeTimeType": "INFINITY",
+              "loadFromDB": false,
+              "maxStackCnt": 1,
+              "maxValidStackCnt": -1,
+              "onEventPriority": "DEFAULT",
+              "overrideEffectKey": null,
+              "overrideKey": null,
+              "overrideOnEventPriority": false,
+              "overrideType": "UNIQUE",
+              "priority": -1,
+              "priorityBBKeys": [],
+              "refreshRemainingTimeWhenStackMax": false,
+              "statusResistable": "AUTOMATIC",
+              "stripBlackboardParamsWithBuffKey": false,
+              "takeSnapshotWhenExtend": false,
+              "templateKey": "empty",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "triggerLifeType": "IMMEDIATELY",
+              "waitFirstTriggerInterval": true
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_finishDerivedBuffIfParentFinish": true,
+            "_isDerivedBuff": true,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_TAKE_DAMAGE": [
+      {
+        "_applyWayFilter": "NONE",
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "real_damage_scale",
+        "_damageMask": "MAGICAL",
+        "_filterApplyWay": false,
+        "_filterDamageType": true,
+        "_filterModifierKey": false,
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_modifierKey": "",
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_leithanien_v2[magic_weak]"
+}
