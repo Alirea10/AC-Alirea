@@ -40,7 +40,7 @@
             "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
           },
           {
-            "_target": "BUFF_SOURCE",
+            "_target": "BUFF_OWNER",
             "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
           },
           {

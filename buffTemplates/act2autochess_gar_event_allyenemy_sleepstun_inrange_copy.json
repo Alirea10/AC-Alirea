@@ -1,0 +1,255 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_ABNORMAL_FLAG_DIRTY": [
+      {
+        "_conditionNode": {
+          "_abnormalCombo": "SLEEPING",
+          "_isUnset": false,
+          "_targetType": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalCombo, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_sleeping",
+            "_copyFromKey": null,
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_noVarShowWarning": true,
+            "_var": "is_sleeping",
+            "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp"
+          },
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_sleeping",
+            "_copyFromKey": null,
+            "_value": 1,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_derviedBuffKey": "act2autochess_gar_event_enemy_abflag_inrange[invalid]",
+            "$type": "Torappu.Battle.Action.Nodes+CheckContainsDerviedBuff, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+          },
+          {
+            "_target": "BUFF_SOURCE",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+          },
+          {
+            "_buff": {
+              "attributes": {
+                "abnormalAntis": [],
+                "abnormalComboImmunes": [],
+                "abnormalCombos": [],
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "attributeModifiers": []
+              },
+              "audioSignal": null,
+              "blackboard": [],
+              "buffKey": "act2autochess_gar_event_enemy_abflag_inrange[invalid]",
+              "clearAllStackCntWhenTimeUp": false,
+              "disableOverride": false,
+              "durationKey": "invalid_duration",
+              "enableInitDirectionFromSource": false,
+              "firstTriggerInterval": -1,
+              "independentCharacterSource": false,
+              "isDamageMissable": false,
+              "isDurableBuff": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "lifeTime": 0.05000000074505806,
+              "lifeTimeType": "LIMITED",
+              "loadFromDB": false,
+              "maxStackCnt": 1,
+              "maxValidStackCnt": -1,
+              "onEventPriority": "DEFAULT",
+              "overrideEffectKey": null,
+              "overrideKey": null,
+              "overrideOnEventPriority": false,
+              "overrideType": "DEFAULT",
+              "priority": -1,
+              "priorityBBKeys": [],
+              "refreshRemainingTimeWhenStackMax": false,
+              "statusResistable": "AUTOMATIC",
+              "stripBlackboardParamsWithBuffKey": false,
+              "takeSnapshotWhenExtend": false,
+              "templateKey": "empty",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "triggerLifeType": "IMMEDIATELY",
+              "waitFirstTriggerInterval": true
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_finishDerivedBuffIfParentFinish": true,
+            "_hookEffectKeyFromSourceProjectile": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_isDerivedBuff": true,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_useSpecialBuffSource": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "_conditionNode": {
+          "_abnormalFlag": "STUNNED",
+          "_abnormalFlagKey": "",
+          "_isUnset": false,
+          "_targetType": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlag, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_stun",
+            "_copyFromKey": null,
+            "_value": 0,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_noVarShowWarning": true,
+            "_var": "is_stun",
+            "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp"
+          },
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_stun",
+            "_copyFromKey": null,
+            "_value": 1,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "_derviedBuffKey": "act2autochess_gar_event_enemy_abflag_inrange[invalid]",
+            "$type": "Torappu.Battle.Action.Nodes+CheckContainsDerviedBuff, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+          },
+          {
+            "_target": "BUFF_SOURCE",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+          },
+          {
+            "_buff": {
+              "attributes": {
+                "abnormalAntis": [],
+                "abnormalComboImmunes": [],
+                "abnormalCombos": [],
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "attributeModifiers": []
+              },
+              "audioSignal": null,
+              "blackboard": [],
+              "buffKey": "act2autochess_gar_event_enemy_abflag_inrange[invalid]",
+              "clearAllStackCntWhenTimeUp": false,
+              "disableOverride": false,
+              "durationKey": "invalid_duration",
+              "enableInitDirectionFromSource": false,
+              "firstTriggerInterval": -1,
+              "independentCharacterSource": false,
+              "isDamageMissable": false,
+              "isDurableBuff": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "lifeTime": 0.05000000074505806,
+              "lifeTimeType": "LIMITED",
+              "loadFromDB": false,
+              "maxStackCnt": 1,
+              "maxValidStackCnt": -1,
+              "onEventPriority": "DEFAULT",
+              "overrideEffectKey": null,
+              "overrideKey": null,
+              "overrideOnEventPriority": false,
+              "overrideType": "DEFAULT",
+              "priority": -1,
+              "priorityBBKeys": [],
+              "refreshRemainingTimeWhenStackMax": false,
+              "statusResistable": "AUTOMATIC",
+              "stripBlackboardParamsWithBuffKey": false,
+              "takeSnapshotWhenExtend": false,
+              "templateKey": "empty",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "triggerLifeType": "IMMEDIATELY",
+              "waitFirstTriggerInterval": true
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_finishDerivedBuffIfParentFinish": true,
+            "_hookEffectKeyFromSourceProjectile": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_isDerivedBuff": true,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_useSpecialBuffSource": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_abnormalCombo": "SLEEPING",
+          "_isUnset": false,
+          "_targetType": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalCombo, Assembly-CSharp"
+        },
+        "_failNodes": null,
+        "_succeedNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_sleeping",
+            "_copyFromKey": null,
+            "_value": 1,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "_conditionNode": {
+          "_abnormalFlag": "STUNNED",
+          "_abnormalFlagKey": "",
+          "_isUnset": false,
+          "_targetType": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlag, Assembly-CSharp"
+        },
+        "_failNodes": null,
+        "_succeedNodes": [
+          {
+            "_assignString": false,
+            "_blackboardKey": "is_stun",
+            "_copyFromKey": null,
+            "_value": 1,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act2autochess_gar_event_allyenemy_sleepstun_inrange_copy"
+}
