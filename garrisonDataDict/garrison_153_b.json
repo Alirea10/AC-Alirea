@@ -43,11 +43,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前3次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+4</>、【奇迹】层数<@ba.vup>+2</>",
+  "description": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前<@autochess.dgreen>3</>次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+4</>、【奇迹】层数<@ba.vup>+2</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前3次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+4</>、【奇迹】层数<@ba.vup>+2</>"
+  "garrisonDesc": "【152】<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害），前<@autochess.dgreen>3</>次击倒敌人时使已激活的【叙拉古】层数<@ba.vup>+4</>、【奇迹】层数<@ba.vup>+2</>"
 }

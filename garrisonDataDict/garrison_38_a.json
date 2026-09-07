@@ -33,11 +33,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>每击倒2名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>",
+  "description": "<战斗中>每击倒<@autochess.dgreen>2</>名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>每击倒2名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>"
+  "garrisonDesc": "<战斗中>每击倒<@autochess.dgreen>2</>名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>"
 }

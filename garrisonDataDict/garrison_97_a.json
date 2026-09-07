@@ -33,11 +33,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多10层）",
+  "description": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>10</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多10层）"
+  "garrisonDesc": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>10</>层）"
 }

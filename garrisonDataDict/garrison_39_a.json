@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<进入休整期时>若同一行有3名干员，获得1个斯卡蒂、幽灵鲨或深巡",
+  "description": "<进入休整期时>若同一行有<@ba.vup>3</>名干员，获得<@ba.vup>1</>个斯卡蒂、幽灵鲨或深巡",
   "effectType": "SERVER_POOL_CHAR",
   "eventType": "SERVER_PREP_START",
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<进入休整期时>若同一行有3名干员，获得1个斯卡蒂、幽灵鲨或深巡"
+  "garrisonDesc": "<进入休整期时>若同一行有<@ba.vup>3</>名干员，获得<@ba.vup>1</>个斯卡蒂、幽灵鲨或深巡"
 }

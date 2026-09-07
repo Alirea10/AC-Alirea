@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<获得时>获得2次免费刷新",
+  "description": "<获得时>获得<@ba.vup>2</>次免费刷新",
   "effectType": "SERVER_GAIN_FREE_REFRESH_COUNT",
   "eventType": "SERVER_GAIN",
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<获得时>获得2次免费刷新"
+  "garrisonDesc": "<获得时>获得<@ba.vup>2</>次免费刷新"
 }

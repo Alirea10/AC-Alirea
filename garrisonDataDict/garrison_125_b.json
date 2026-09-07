@@ -38,11 +38,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）",
+  "description": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多<@ba.vup>48</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多48层）"
+  "garrisonDesc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+2</>（每场战斗至多<@ba.vup>48</>层）"
 }

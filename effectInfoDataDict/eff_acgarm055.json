@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "首次受到伤害后获得<$ba.invisible>隐匿</>，持续25秒",
+  "effectDesc": "首次受到伤害后获得<$ba.invisible>隐匿</>，持续<@ba.vup>25</>秒",
   "effectId": "eff_acgarm055",
   "effectName": "伪装服",
   "effectType": "EQUIP",

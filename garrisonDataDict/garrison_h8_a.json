@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "【颂歌】所有干员每消耗一颗子弹，攻击力+5（无上限）\n仅一次，当任意干员子弹数剩余低于20%时，回复所有子弹",
+  "description": "【颂歌】所有干员每消耗一颗子弹，攻击力<@ba.vup>+5</>（无上限）\n仅一次，当任意干员子弹数剩余低于<@ba.vup>20%</>时，回复所有子弹",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【颂歌】所有干员每消耗一颗子弹，攻击力+5（无上限）\n仅一次，当任意干员子弹数剩余低于20%时，回复所有子弹"
+  "garrisonDesc": "【颂歌】所有干员每消耗一颗子弹，攻击力<@ba.vup>+5</>（无上限）\n仅一次，当任意干员子弹数剩余低于<@ba.vup>20%</>时，回复所有子弹"
 }

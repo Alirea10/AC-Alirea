@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【变形同构】每5回合获得1件特殊装备<变形同构体>\\n<@ba.acrem><变形同构体>：与特定装备一同装备时装备者将视为特定盟约成员</>",
+  "effectDesc": "【变形同构】每<@ba.vup>5</>回合获得<@ba.vup>1</>件特殊装备<变形同构体>\\n<@ba.acrem><变形同构体>：与特定装备一同装备时装备者将视为特定盟约成员</>",
   "effectId": "aceffect_band_40",
   "effectName": "变形同构",
   "effectType": "BAND_INITIAL",

@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多10层）",
+  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>10</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多10层）"
+  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>10</>层）"
 }

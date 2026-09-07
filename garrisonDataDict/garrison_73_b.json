@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多20层）",
+  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多<@ba.vup>20</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多20层）"
+  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多<@ba.vup>20</>层）"
 }

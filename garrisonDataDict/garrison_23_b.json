@@ -53,11 +53,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>自身每消耗7发子弹，使已激活的【拉特兰】层数<@ba.vup>+14</>、【远见】层数<@ba.vup>+6</>（每场战斗至多触发7次）",
+  "description": "<战斗中>自身每消耗<@ba.vup>7</>发子弹，使已激活的【拉特兰】层数<@ba.vup>+14</>、【远见】层数<@ba.vup>+6</>（每场战斗至多触发<@ba.vup>7</>次）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>自身每消耗7发子弹，使已激活的【拉特兰】层数<@ba.vup>+14</>、【远见】层数<@ba.vup>+6</>（每场战斗至多触发7次）"
+  "garrisonDesc": "<战斗中>自身每消耗<@ba.vup>7</>发子弹，使已激活的【拉特兰】层数<@ba.vup>+14</>、【远见】层数<@ba.vup>+6</>（每场战斗至多触发<@ba.vup>7</>次）"
 }

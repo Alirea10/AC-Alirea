@@ -26,7 +26,7 @@
     "chess_kazdel_6_32_a",
     "chess_kazdel_6_32_b"
   ],
-  "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</>（在场2名及以上【独行】干员时失效）",
+  "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</>（在场<@autochess.dgreen>2</>名及以上【独行】干员时失效）",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "bondeffect_solo",

@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "每攻击1个目标，回复自身<@ba.vup>4%</>最大生命值",
+  "effectDesc": "每攻击<@ba.vup>1</>个目标，回复自身<@ba.vup>4%</>最大生命值",
   "effectId": "eff_acgarm065",
   "effectName": "休眠子裔",
   "effectType": "EQUIP",

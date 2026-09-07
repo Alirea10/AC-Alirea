@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "【罗德岛】【奥术】每叠加3层，本干员攻击力<@ba.vup>+5%</>",
+  "description": "【罗德岛】【奥术】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+5%</>",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【罗德岛】【奥术】每叠加3层，本干员攻击力<@ba.vup>+5%</>"
+  "garrisonDesc": "【罗德岛】【奥术】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+5%</>"
 }

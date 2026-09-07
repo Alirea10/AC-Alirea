@@ -33,11 +33,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "【卡西米尔】每叠加5层，本干员部署后100秒内<@ba.vup>基础攻击力</>+20、<@ba.vup>基础生命值</>+100",
+  "description": "【卡西米尔】每叠加<@autochess.dgreen>5</>层，本干员部署后<@ba.vup>100</>秒内<@ba.vup>基础攻击力</><@ba.vup>+20</>、<@ba.vup>基础生命值</><@ba.vup>+100</>",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【卡西米尔】每叠加5层，本干员部署后100秒内<@ba.vup>基础攻击力</>+20、<@ba.vup>基础生命值</>+100"
+  "garrisonDesc": "【卡西米尔】每叠加<@autochess.dgreen>5</>层，本干员部署后<@ba.vup>100</>秒内<@ba.vup>基础攻击力</><@ba.vup>+20</>、<@ba.vup>基础生命值</><@ba.vup>+100</>"
 }

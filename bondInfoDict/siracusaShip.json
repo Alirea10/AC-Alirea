@@ -35,7 +35,7 @@
     "chess_ursus_4_27_a",
     "chess_ursus_4_27_b"
   ],
-  "desc": "【叙拉古】干员部署后<@ba.vup>攻击速度</>提升，持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【叙拉古】干员>【叙拉古】干员部署后进入等时长的隐匿状态，【叙拉古】干员隐匿状态下和脱离隐匿<@ba.vup>10</>秒内对敌人攻击时有<@ba.vup>3%</>的概率造成一定真实伤害<@autochess.gray>（受层数影响）</>并<@ba.vup>恐惧</>3秒",
+  "desc": "【叙拉古】干员部署后<@ba.vup>攻击速度</>提升，持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【叙拉古】干员>【叙拉古】干员部署后进入等时长的隐匿状态，【叙拉古】干员隐匿状态下和脱离隐匿<@ba.vup>10</>秒内对敌人攻击时有<@ba.vup>3%</>的概率造成一定真实伤害<@autochess.gray>（受层数影响）</>并<@ba.vup>恐惧</><@ba.vup>3</>秒",
   "descParamBaseList": [
     "base_attack_speed",
     "base_duration",

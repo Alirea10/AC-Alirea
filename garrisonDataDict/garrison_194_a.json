@@ -15,9 +15,9 @@
   "charLevel": 0,
   "description": "<获得时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）",
   "effectType": "SERVER_ADD_MULTIPLE_BOND",
-  "eventType": "SERVER_GAIN",
+  "eventType": "SERVER_PREP_FIN",
   "eventTypeDesc": "单次叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<获得时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）"
+  "garrisonDesc": "<休整期结束时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）"
 }

@@ -31,7 +31,7 @@
     "chess_char_6_09_b",
     "chess_char_6_13_b"
   ],
-  "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【拉特兰】干员>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升（有上限）",
+  "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【拉特兰】干员>【拉特兰】干员每消耗<@ba.vup>1</>发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升（有上限）",
   "descParamBaseList": [
     "base_ammo_percent"
   ],

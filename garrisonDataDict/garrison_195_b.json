@@ -18,11 +18,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得2%法术穿透",
+  "description": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得<@ba.vup>2%</>法术穿透",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得2%法术穿透"
+  "garrisonDesc": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得<@ba.vup>2%</>法术穿透"
 }

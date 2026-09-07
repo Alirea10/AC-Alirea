@@ -12,8 +12,6 @@
     "chess_char_6_20_b",
     "chess_char_2_15_a",
     "chess_char_2_15_b",
-    "chess_leithanien_3_31_a",
-    "chess_leithanien_3_31_b",
     "chess_leithanien_4_33_b",
     "chess_leithanien_4_33_a",
     "chess_leithanien_3_32_b",
@@ -27,9 +25,11 @@
     "chess_char_5_27_a",
     "chess_char_5_27_b",
     "chess_char_1_11_a",
-    "chess_char_1_11_b"
+    "chess_char_1_11_b",
+    "chess_leithanien_3_31_a",
+    "chess_leithanien_3_31_b"
   ],
-  "desc": "<@ba.vup>女皇之声</>：\n处于<@ba.vup>激昂</>时，所有【莱塔尼亚】干员的攻击速度提升<@ba.vup>40%</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>低沉</>时，所有【莱塔尼亚】干员造成的法术伤害提升<@ba.vup>20%</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>沉寂</>时，所有【莱塔尼亚】干员每秒回复自身<@ba.vup>1</>技力\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员> 每对敌人造成法术伤害，其受到的法术伤害提高<@autochess.gray>（受层数影响）</>，叠加至<@ba.vup>15</>层时，使其移动速度减少<@ba.vup>40%</>至多提升至可叠加<@ba.vup>30</>层",
+  "desc": "<@ba.vup>女皇之声</>：\n处于<@ba.vup>激昂</>时，所有【莱塔尼亚】干员的攻击速度提升<@ba.vup>40%</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>低沉</>时，所有【莱塔尼亚】干员造成的法术伤害提升<@ba.vup>20%</><@autochess.gray>（受层数影响）</>\n激昂与低沉切换后，上一种效果额外持续<@ba.vup>5秒</>\n处于<@ba.vup>沉寂</>时，所有【莱塔尼亚】干员每秒回复自身<@ba.vup>1</>技力\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员> 每对敌人造成法术伤害，其受到的法术伤害提高<@autochess.gray>（受层数影响）</>，叠加至<@ba.vup>15</>层时，使其移动速度减少<@ba.vup>40%</>至多提升至可叠加<@ba.vup>30</>层",
   "descParamBaseList": [
     "base_attack_speed",
     "base_damage_scale",

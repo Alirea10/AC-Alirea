@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "每次攻击或治疗后，本场战斗中攻击速度<@ba.vup>+1</>，最高60层",
+  "effectDesc": "每次攻击或治疗后，本场战斗中攻击速度<@ba.vup>+1</>，最高<@ba.vup>60</>层",
   "effectId": "eff_acarm052",
   "effectName": "有限加速器",
   "effectType": "EQUIP",

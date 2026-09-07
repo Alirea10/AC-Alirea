@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使同一行最右边一名干员获得特质“<部署时>使已激活的【卡西米尔】【精准】层数<@ba.vup>+4</>（每场作战至多24层）”",
+  "description": "<战斗开始时>使同一行最右边一名干员获得特质“<部署时>使已激活的【卡西米尔】【精准】层数<@ba.vup>+4</>（每场作战至多<@ba.vup>24</>层）”",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗开始时>使同一行最右边一名干员获得特质“<部署时>使已激活的【卡西米尔】【精准】层数<@ba.vup>+4</>（每场作战至多24层）”"
+  "garrisonDesc": "<战斗开始时>使同一行最右边一名干员获得特质“<部署时>使已激活的【卡西米尔】【精准】层数<@ba.vup>+4</>（每场作战至多<@ba.vup>24</>层）”"
 }

@@ -29,7 +29,7 @@
     "chess_char_4_06_a",
     "chess_char_4_06_b"
   ],
-  "desc": "<在场<@autochess.dgreen>3</>名不同【罗德岛】干员> 每有一个已激活盟约<@autochess.gray>（包含自己，至多4个）</>，<@ba.vup>所有干员</>的攻击力和生命值提升<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，回合结束时，所有盟约层数提升<@ba.vup>1</>\n<在场<@autochess.dgreen>6</>名不同【罗德岛】干员> 所有盟约层数提升数提升到<@ba.vup>5</>,且已激活盟约上限提高到8个\n<在场<@autochess.dgreen>9</>名不同【罗德岛】干员>额外视为激活了<@ba.vup>4</>个盟约（不计入上限）<@ba.vup>5</>",
+  "desc": "<在场<@autochess.dgreen>3</>名不同【罗德岛】干员> 每有一个已激活盟约<@autochess.gray>（包含自己，至多4个）</>，<@ba.vup>所有干员</>的攻击力和生命值提升<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，回合结束时，所有盟约层数提升<@ba.vup>1</>\n<在场<@autochess.dgreen>6</>名不同【罗德岛】干员> 所有盟约层数提升到<@ba.vup>5</>,且已激活盟约上限提高到<@ba.vup>8</>个\n<在场<@autochess.dgreen>9</>名不同【罗德岛】干员>额外视为激活了<@ba.vup>4</>个盟约（不计入上限）<@ba.vup>5</>",
   "descParamBaseList": [
     "base_atk"
   ],

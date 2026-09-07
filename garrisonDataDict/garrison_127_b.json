@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<进入休整期时>若当前为奇数回合，获得2件随机装备",
+  "description": "<进入休整期时>若当前为奇数回合，获得<@ba.vup>2</>件随机装备",
   "effectType": "SERVER_GAIN_RANDOM_EQUIP_CHESS_IN_POOL",
   "eventType": "SERVER_PREP_START",
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<进入休整期时>若当前为奇数回合，获得2件随机装备"
+  "garrisonDesc": "<进入休整期时>若当前为奇数回合，获得<@ba.vup>2</>件随机装备"
 }

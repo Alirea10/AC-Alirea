@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "攻击力+1000",
+  "effectDesc": "攻击力<@ba.vup>+1000</>",
   "effectId": "ATK+1000",
   "effectName": "攻击力+1000",
   "effectType": "BOND",

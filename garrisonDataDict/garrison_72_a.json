@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多7层）",
+  "description": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>7</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多7层）"
+  "garrisonDesc": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>7</>层）"
 }

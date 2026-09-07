@@ -38,11 +38,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【莱塔尼亚】层数<@ba.vup>+2</>",
+  "description": "<战斗中>开启技能时，若同一行有<@ba.vup>3</>名干员，使已激活的【莱塔尼亚】层数<@ba.vup>+2</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>开启技能时，若同一行有3名干员，使已激活的【莱塔尼亚】层数<@ba.vup>+2</>\n进阶后不再需要同一行限制"
+  "garrisonDesc": "<战斗中>开启技能时，若同一行有<@ba.vup>3</>名干员，使已激活的【莱塔尼亚】层数<@ba.vup>+2</>\n进阶后不再需要同一行限制"
 }

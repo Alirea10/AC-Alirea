@@ -33,11 +33,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多24层）",
+  "description": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多<@ba.vup>24</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多24层）"
+  "garrisonDesc": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多<@ba.vup>24</>层）"
 }

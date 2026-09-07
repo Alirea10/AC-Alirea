@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "装备时销毁，最大可部署人数变为9",
+  "effectDesc": "装备时销毁，最大可部署人数变为<@ba.vup>9</>",
   "effectId": "eff_acgarm070",
   "effectName": "人事部文档",
   "effectType": "EQUIP",

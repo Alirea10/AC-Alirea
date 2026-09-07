@@ -13,11 +13,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<获得时>获得1个“M3茧甲”\n精锐后变为【灵巧】每叠加3层，本干员攻击力<@ba.vup>+2%</>",
+  "description": "<获得时>获得<@ba.vup>1</>个“M<@ba.vup>3</>茧甲”\n精锐后变为【灵巧】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+2%</>",
   "effectType": "SERVER_GAIN_EQUIP",
   "eventType": "SERVER_GAIN",
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<获得时>获得1个“M3茧甲”\n精锐后变为【灵巧】每叠加3层，本干员攻击力<@ba.vup>+2%</>"
+  "garrisonDesc": "<获得时>获得<@ba.vup>1</>个“M<@ba.vup>3</>茧甲”\n精锐后变为【灵巧】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+2%</>"
 }

@@ -8,7 +8,7 @@
   "activeType": "BATTLE",
   "bondId": "testBond",
   "chessIdList": [],
-  "desc": "测试1",
+  "desc": "测试<@ba.vup>1</>",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "testBond",

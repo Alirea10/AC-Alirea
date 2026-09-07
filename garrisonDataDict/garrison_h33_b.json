@@ -1,0 +1,23 @@
+{
+  "battleRuneKey": "give_garrison_to_all",
+  "blackboard": [
+    {
+      "key": "check_bond_id",
+      "value": 0,
+      "valueStr": "kazimierzShip"
+    },
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_h3_a"
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗开始时>使<@ba.vup>所有</>【卡西米尔】干员获得特质“【卡西米尔】干员造成<@ba.vup>150%</>的伤害，获得<@ba.vup>50%</>防御力穿透，攻击速度<@ba.vup>+30</>，技能结束时立即恢复<@ba.vup>20</>点技力，部署费用减少<@ba.vup>10</>”",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【gxyy】<战斗开始时>使<@ba.vup>所有</>【卡西米尔】干员获得特质“【卡西米尔】干员造成<@ba.vup>150%</>的伤害，获得<@ba.vup>50%</>防御力穿透，攻击速度<@ba.vup>+30</>，技能结束时立即恢复<@ba.vup>20</>点技力，部署费用减少<@ba.vup>10</>”"
+}

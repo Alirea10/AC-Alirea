@@ -18,11 +18,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>每当范围内1名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值",
+  "description": "<战斗中>每当范围内<@ba.vup>1</>名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>每当范围内1名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值"
+  "garrisonDesc": "<战斗中>每当范围内<@ba.vup>1</>名敌人进入冻结时，回复数次<@ba.vup>3%</>最大生命值"
 }

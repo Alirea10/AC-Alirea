@@ -28,7 +28,7 @@
     }
   ],
   "charLevel": 0,
-  "description": "",
+  "description": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数<@ba.vup>+1</>、【灵巧】层数<@ba.vup>+1</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",

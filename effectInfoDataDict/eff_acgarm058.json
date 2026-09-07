@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "攻击时有5%概率使目标获得一层<$ba.palsy>麻痹</>",
+  "effectDesc": "攻击时有<@ba.vup>5%</>概率使目标获得一层<$ba.palsy>麻痹</>",
   "effectId": "eff_acgarm058",
   "effectName": "催泪瓦斯",
   "effectType": "EQUIP",

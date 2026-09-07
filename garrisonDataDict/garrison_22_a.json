@@ -43,11 +43,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>自身<@ba.vup>周围4格</>的干员每消耗6发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>",
+  "description": "<战斗中>自身<@ba.vup>周围4格</>的干员每消耗<@ba.vup>6</>发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>自身<@ba.vup>周围4格</>的干员每消耗6发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>"
+  "garrisonDesc": "<战斗中>自身<@ba.vup>周围4格</>的干员每消耗<@ba.vup>6</>发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>"
 }

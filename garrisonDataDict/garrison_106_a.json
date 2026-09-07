@@ -33,11 +33,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多12层）",
+  "description": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多<@ba.vup>12</>层）",
   "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多12层）"
+  "garrisonDesc": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多<@ba.vup>12</>层）"
 }
