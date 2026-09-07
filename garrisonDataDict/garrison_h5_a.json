@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_bond_eff_hero_irene"
+    }
+  ],
+  "charLevel": 0,
+  "description": "【明灯】所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【明灯】所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。"
+}

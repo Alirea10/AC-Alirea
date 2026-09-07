@@ -1,0 +1,38 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "1"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "starCrownShip",
+  "chessIdList": [
+    "chess_hero_6_29_a",
+    "chess_hero_6_29_b",
+    "chess_hero_6_25_a",
+    "chess_hero_6_25_b",
+    "chess_hero_6_26_a",
+    "chess_hero_6_26_b",
+    "chess_hero_6_27_a",
+    "chess_hero_6_27_b",
+    "chess_hero_6_28_a",
+    "chess_hero_6_28_b",
+    "chess_hero_6_24_a",
+    "chess_hero_6_24_b",
+    "chess_hero_6_34_a",
+    "chess_hero_6_34_b",
+    "chess_char_6_09_a",
+    "chess_char_6_09_b"
+  ],
+  "desc": "群星垂冠于其身，凡俗的尺度已不足以丈量他们所执掌的<@ba.vup>力量</>。",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "星冕",
+  "noStack": true,
+  "weight": 100
+}

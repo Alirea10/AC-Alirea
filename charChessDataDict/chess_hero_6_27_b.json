@@ -1,6 +1,7 @@
 {
   "chessId": "chess_hero_6_27_b",
   "garrisonIds": [
+    "garrison_h4_a",
     "garrison_172_a"
   ],
   "isGolden": true,

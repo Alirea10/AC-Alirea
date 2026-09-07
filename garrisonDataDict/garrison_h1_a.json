@@ -1,0 +1,18 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_bond_eff_hero_aurora"
+    }
+  ],
+  "charLevel": 0,
+  "description": "所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【极光】所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷"
+}

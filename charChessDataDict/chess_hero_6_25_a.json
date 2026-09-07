@@ -1,6 +1,7 @@
 {
   "chessId": "chess_hero_6_25_a",
   "garrisonIds": [
+    "garrison_h2_a",
     "garrison_172_a",
     "garrison_01_a"
   ],
