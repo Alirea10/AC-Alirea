@@ -14,9 +14,9 @@
         "_useValidStackCount": false,
         "$type": "Torappu.Battle.Action.Nodes+AssignBuffCountIntoBlackboard, Assembly-CSharp"
       },
-        {
-          "_abilityName": "",
-          "_addParamKey": null,
+      {
+        "_abilityName": "",
+        "_addParamKey": null,
         "_dividedParamKey": null,
         "_finalAbs": false,
         "_finalCeil": false,
@@ -26,33 +26,33 @@
         "_maxValueKey": null,
         "_minusParamKey": null,
         "_minValueKey": null,
-          "_multiplyParamKey": "base_damage_scale_6_per_stack",
-          "_outputKey": "real_bond_scale",
+        "_multiplyParamKey": "base_damage_scale_6_per_stack",
+        "_outputKey": "real_bond_scale",
         "_useAbilityBlackboard": false,
         "_useRemainder": false,
-          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
-        },
-        {
-          "_abilityName": "",
-          "_addParamKey": "base_damage_scale_6",
-          "_dividedParamKey": null,
-          "_finalAbs": false,
-          "_finalCeil": false,
-          "_finalFloor": false,
-          "_finalRound": false,
-          "_inputKey": "real_bond_scale",
-          "_maxValueKey": null,
-          "_minusParamKey": null,
-          "_minValueKey": null,
-          "_multiplyParamKey": null,
-          "_outputKey": "real_per_stack_scale",
-          "_useAbilityBlackboard": false,
-          "_useRemainder": false,
-          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
-        },
-        {
-          "_abilityName": "",
-          "_addParamKey": "damage_scale_base",
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "base_damage_scale_6",
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "real_bond_scale",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": null,
+        "_outputKey": "real_per_stack_scale",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "damage_scale_base",
         "_dividedParamKey": null,
         "_finalAbs": false,
         "_finalCeil": false,
@@ -62,12 +62,12 @@
         "_maxValueKey": null,
         "_minusParamKey": null,
         "_minValueKey": null,
-          "_multiplyParamKey": "real_per_stack_scale",
-          "_outputKey": "real_damage_scale",
+        "_multiplyParamKey": "real_per_stack_scale",
+        "_outputKey": "real_damage_scale",
         "_useAbilityBlackboard": false,
         "_useRemainder": false,
-          "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
-        },
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
       {
         "_conditionNode": {
           "_buffKey": "act1autochess_bond_eff_leithanien_v2[magic_weak]",
