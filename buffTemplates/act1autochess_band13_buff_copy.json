@@ -1,0 +1,27 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_OWNER_KILLED": [
+      {
+        "_bondIds": [
+          "egirShip"
+        ],
+        "_checkTargetInRangeId": null,
+        "_considerManiShip": true,
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+      },
+      {
+        "_blackboardKey": "add_count",
+        "_targetType": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignChessLevelToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_band13_buff_copy"
+}

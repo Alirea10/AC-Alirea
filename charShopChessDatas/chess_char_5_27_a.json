@@ -8,7 +8,7 @@
   "chessId": "chess_char_5_27_a",
   "chessLevel": 5,
   "chessType": "PRESET",
-  "defaultSkillIndex": 2,
+  "defaultSkillIndex": 1,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_char_5_27_b",
   "isHidden": false,
