@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_sami_6_36_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_2012_typhon",
+  "chessId": "chess_sami_6_36_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_sami_6_36_b",
+  "isHidden": false,
+  "shopLevelSortId": 36,
+  "tmplId": null
+}

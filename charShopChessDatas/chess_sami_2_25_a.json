@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_sami_2_25_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_466_qanik",
+  "chessId": "chess_sami_2_25_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_sami_2_25_b",
+  "isHidden": false,
+  "shopLevelSortId": 25,
+  "tmplId": null
+}

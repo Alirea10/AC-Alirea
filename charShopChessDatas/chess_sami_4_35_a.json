@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_sami_4_35_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4102_threye",
+  "chessId": "chess_sami_4_35_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_sami_4_35_b",
+  "isHidden": false,
+  "shopLevelSortId": 35,
+  "tmplId": null
+}

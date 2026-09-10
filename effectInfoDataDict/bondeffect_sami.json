@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "休整期结束后，所有【萨米】干员有{0:0%}的概率使已拥有盟约层数提升-10~30层",
+  "effectId": "bondeffect_sami",
+  "effectName": "萨米",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

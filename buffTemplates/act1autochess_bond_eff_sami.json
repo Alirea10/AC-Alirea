@@ -1,0 +1,64 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_bondId": "samiShip",
+        "_condType": "GE",
+        "_filterAllSides": false,
+        "_filterCount": true,
+        "_keyToCompare": "power_bond_char_cnt",
+        "_keyToStoreCnt": "bond_char_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+      },
+      {
+        "_convertToInt": true,
+        "_targetKey": "bond_add",
+        "$type": "Torappu.Battle.Action.Nodes+RandomSetter, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_char_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "bond_char_cnt_per_stack",
+        "_outputKey": "real_bond_char_cnt",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": "bond_add",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "atk_per_stack",
+        "_outputKey": "real_atk",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_sami"
+}

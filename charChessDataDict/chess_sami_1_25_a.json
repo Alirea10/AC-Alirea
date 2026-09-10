@@ -1,0 +1,14 @@
+{
+  "chessId": "chess_sami_1_25_a",
+  "garrisonIds": null,
+  "isGolden": false,
+  "status": {
+    "charLevel": 55,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": "chess_sami_1_25_b",
+  "upgradeNum": 3
+}

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_sami_3_34_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_252_bibeak",
+  "chessId": "chess_sami_3_34_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "goldenChessId": "chess_sami_3_34_b",
+  "isHidden": false,
+  "shopLevelSortId": 34,
+  "tmplId": null
+}
