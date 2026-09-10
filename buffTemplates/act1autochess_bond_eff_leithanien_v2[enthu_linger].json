@@ -1,0 +1,23 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_assignString": false,
+        "_blackboardKey": "real_attack_speed",
+        "_channel": "AUTOCHESS",
+        "_globalblackboardKey": "global_leithanien_v2_attack_speed",
+        "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATTACK_SPEED",
+        "_formulaType": "ADDITION",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "real_attack_speed",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_leithanien_v2[enthu_linger]"
+}

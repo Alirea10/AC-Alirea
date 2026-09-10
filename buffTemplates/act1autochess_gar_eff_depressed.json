@@ -45,25 +45,6 @@
         "_valueKey": "real_atk",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       }
-    ],
-    "ON_SKILL_CAST_SUCCEED": [
-      {
-        "_audioType": "Enthusiastic",
-        "_evnSysKey": "env_008_act29side_audio_type_switcher",
-        "$type": "Torappu.Battle.Action.Nodes+Act29SideCheckCurrentAudioType, Assembly-CSharp"
-      },
-      {
-        "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
-      },
-      {
-        "_evnSysKey": "env_008_act29side_audio_type_switcher",
-        "_isFirstTime": false,
-        "_isTriggeredByBoss": false,
-        "_muteAudio": false,
-        "_switchToOposite": true,
-        "_typeKey": "type",
-        "$type": "Torappu.Battle.Action.Nodes+Act29SideSwitchCurretnAudioType, Assembly-CSharp"
-      }
     ]
   },
   "onEventPriority": "DEFAULT",

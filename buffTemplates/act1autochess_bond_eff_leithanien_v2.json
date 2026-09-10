@@ -339,7 +339,7 @@
             "_succeedNodes": [
               {
                 "_alsoClearNullSource": false,
-                "_buffKey": "act1autochess_bond_eff_leithanien_v2[enthu]",
+                "_buffKey": "act1autochess_bond_eff_leithanien_v2[depressed_linger]",
                 "_checkBuffSource": false,
                 "_decCnt": 1,
                 "_decCntIfStack": false,
@@ -442,7 +442,7 @@
         "_succeedNodes": [
           {
             "_alsoClearNullSource": false,
-            "_buffKey": "act1autochess_bond_eff_leithanien_v2[depressed]",
+            "_buffKey": "act1autochess_bond_eff_leithanien_v2[enthu_linger]",
             "_checkBuffSource": false,
             "_decCnt": 1,
             "_decCntIfStack": false,
@@ -559,9 +559,37 @@
       },
       {
         "_alsoClearNullSource": false,
+        "_buffKey": "act1autochess_bond_eff_leithanien_v2[enthu_linger]",
+        "_checkBuffSource": false,
+        "_decCnt": 1,
+        "_decCntIfStack": false,
+        "_decCntKey": null,
+        "_finishHostBuff": false,
+        "_loadFromBlackboard": false,
+        "_sourceType": "BUFF_SOURCE",
+        "_targetType": "BUFF_OWNER",
+        "_updateOverrideMap": true,
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuffsById, Assembly-CSharp"
+      },
+      {
+        "_alsoClearNullSource": false,
         "_buffKey": "act1autochess_bond_eff_leithanien_v2[depressed]",
         "_checkBuffSource": false,
         "_decCnt": null,
+        "_decCntIfStack": false,
+        "_decCntKey": null,
+        "_finishHostBuff": false,
+        "_loadFromBlackboard": false,
+        "_sourceType": "BUFF_SOURCE",
+        "_targetType": "BUFF_OWNER",
+        "_updateOverrideMap": true,
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuffsById, Assembly-CSharp"
+      },
+      {
+        "_alsoClearNullSource": false,
+        "_buffKey": "act1autochess_bond_eff_leithanien_v2[depressed_linger]",
+        "_checkBuffSource": false,
+        "_decCnt": 1,
         "_decCntIfStack": false,
         "_decCntKey": null,
         "_finishHostBuff": false,
