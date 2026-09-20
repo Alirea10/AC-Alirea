@@ -5,11 +5,11 @@
   ],
   "isGolden": false,
   "status": {
-    "charLevel": 55,
+    "charLevel": 60,
     "equipLevel": 0,
     "evolvePhase": "PHASE_1",
     "favorPoint": 0,
-    "skillLevel": 7
+    "skillLevel": 4
   },
   "upgradeChessId": "chess_sami_2_25_b",
   "upgradeNum": 3
