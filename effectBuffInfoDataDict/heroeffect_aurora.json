@@ -8,12 +8,12 @@
       },
       {
         "key": "prob",
-        "value": 0.1,
+        "value": 0.4,
         "valueStr": null
       },
       {
         "key": "cold",
-        "value": 10,
+        "value": 1,
         "valueStr": null
       }
     ],

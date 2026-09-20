@@ -1,0 +1,38 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_bond_eff_sami_growth"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "samiShip,preciShip"
+    },
+    {
+      "key": "divide_num",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "zero",
+      "value": 0,
+      "valueStr": null
+    },
+    {
+      "key": "atk_per_stack",
+      "value": 0.04,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": ""
+}

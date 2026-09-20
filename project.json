@@ -2,6 +2,25 @@
   "label": "AC-Alirea",
   "version": 1,
   "constFields": {
+    "banConfig": {
+      "coreBondBanCount": 5,
+      "coreBondIds": [
+        "yanShip",
+        "sargonShip",
+        "victoriaShip",
+        "kjeragShip",
+        "lateranoShip",
+        "egirShip",
+        "kazimierzShip",
+        "siracusaShip",
+        "rainbowShip",
+        "mujicaShip",
+        "kazdelShip",
+        "ursusShip",
+        "samiShip"
+      ],
+      "minorBondBanCount": 6
+    },
     "baseRewardDataList": [
       {
         "dailyMissionPoint": 10,
@@ -130,454 +149,6 @@
         "round": 14
       }
     ],
-    "diyChessDict": {
-      "chess_char_5_diy1_a": "TIER_6",
-      "chess_char_5_diy2_a": "TIER_6",
-      "chess_char_6_diy1_a": "TIER_6",
-      "chess_char_6_diy2_a": "TIER_6"
-    },
-    "shopLevelDataDict": {
-      "mode_multi_abyss": {
-        "1": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 2,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 16,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_clone": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_funny": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 10,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_hard": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_normal": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_single_abyss": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 2,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_single_funny": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 1,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 1,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 10,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_single_hard": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_single_normal": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_training_1": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 4,
-          "itemCount": 0,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 4,
-          "itemCount": 0,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 6,
-          "itemCount": 0,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 9,
-          "itemCount": 0,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      }
-    },
     "battleDataDict": {
       "mode_multi_abyss": {
         "1": [
@@ -2361,6 +1932,68 @@
       "chess_item_6_02_m": "chess_item_6_02_m",
       "chess_item_6_03_m": "chess_item_6_03_m"
     },
+    "constData": {
+      "borrowCount": 20,
+      "costPlayerHpLimit": 10,
+      "dailyMissionName": "每日防卫目标",
+      "dailyMissionParam": 200,
+      "dailyMissionRule": "Alirea Fun Make",
+      "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
+      "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
+      "fallbackBondId": "emptyShip",
+      "maxBattleChessCnt": 9,
+      "maxDeckChessCnt": 15,
+      "milestoneId": "act2autochess_token_chess",
+      "milestoneTrackId": "act2autochess_milestone_expand",
+      "shopRefreshPrice": 1,
+      "storeCntMax": 6,
+      "trainingModeId": "mode_training_1",
+      "trBannedBondIds": [
+        "kjeragShip",
+        "steadShip",
+        "indomShip",
+        "swiftShip",
+        "visiShip"
+      ],
+      "trBondIds": [
+        "yanShip",
+        "sargonShip",
+        "victoriaShip",
+        "lateranoShip",
+        "egirShip",
+        "raidShip",
+        "emptyShip",
+        "preciShip",
+        "deputShip",
+        "kjeragShip",
+        "steadShip",
+        "indomShip",
+        "swiftShip",
+        "visiShip",
+        "rainbowShip"
+      ],
+      "trSpecialEnemyTypes": [
+        "FLY",
+        "TIMES",
+        "ELEMENT"
+      ],
+      "trstageBandId": "band_sarkazb",
+      "trstageBossId": "boss_7",
+      "trStageId": "act1autochess_m01",
+      "webBusType": "ak_act2autochess"
+    },
+    "difficultyFactorInfo": {
+      "ABYSS": 1.7,
+      "FUNNY": 1,
+      "HARD": 1.7,
+      "NORMAL": 1.6
+    },
+    "diyChessDict": {
+      "chess_char_5_diy1_a": "TIER_6",
+      "chess_char_5_diy2_a": "TIER_6",
+      "chess_char_6_diy1_a": "TIER_6",
+      "chess_char_6_diy2_a": "TIER_6"
+    },
     "enemyInfoDict": {
       "DOT": [
         "enemy_1234_dsubrl",
@@ -2496,59 +2129,6 @@
         "enemy_1197_sfshu_2"
       ]
     },
-    "specialEnemyRandomTypeDict": {
-      "DOT": {
-        "count": 3,
-        "weight": 3
-      },
-      "ELEMENT": {
-        "count": 3,
-        "weight": 3
-      },
-      "FLY": {
-        "count": 3,
-        "weight": 3
-      },
-      "INVISIBLE": {
-        "count": 3,
-        "weight": 3
-      },
-      "REFLECTION": {
-        "count": 3,
-        "weight": 3
-      },
-      "SPECIAL": {
-        "count": -1,
-        "weight": -1
-      },
-      "TIMES": {
-        "count": 3,
-        "weight": 3
-      }
-    },
-    "trainingNpcList": [
-      {
-        "bandId": "band_bldsk",
-        "charId": "char_171_bldsk",
-        "medalCount": 120,
-        "nameCardSkinId": "nc_sports_1",
-        "npcId": "npc_1"
-      },
-      {
-        "bandId": "band_amiya",
-        "charId": "char_002_amiya",
-        "medalCount": 120,
-        "nameCardSkinId": "nc_arc_1",
-        "npcId": "npc_2"
-      },
-      {
-        "bandId": "band_duyaoy",
-        "charId": "char_306_leizi",
-        "medalCount": 120,
-        "nameCardSkinId": "nc_as2024_novafive",
-        "npcId": "npc_3"
-      }
-    ],
     "milestoneList": [
       {
         "availableTime": 1773475200,
@@ -3215,12 +2795,6 @@
       "MULTI": 1.25,
       "SINGLE": 1
     },
-    "difficultyFactorInfo": {
-      "ABYSS": 1.7,
-      "FUNNY": 1,
-      "HARD": 1.7,
-      "NORMAL": 1.6
-    },
     "playerTitleDataDict": {
       "comment_1": {
         "id": "comment_1",
@@ -3253,73 +2827,555 @@
         "txt": "挥金如土"
       }
     },
-    "constData": {
-      "borrowCount": 20,
-      "costPlayerHpLimit": 10,
-      "dailyMissionName": "每日防卫目标",
-      "dailyMissionParam": 200,
-      "dailyMissionRule": "Alirea Fun Make",
-      "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
-      "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
-      "fallbackBondId": "emptyShip",
-      "maxBattleChessCnt": 9,
-      "maxDeckChessCnt": 15,
-      "milestoneId": "act2autochess_token_chess",
-      "milestoneTrackId": "act2autochess_milestone_expand",
-      "shopRefreshPrice": 1,
-      "storeCntMax": 6,
-      "trainingModeId": "mode_training_1",
-      "trBannedBondIds": [
-        "kjeragShip",
-        "steadShip",
-        "indomShip",
-        "swiftShip",
-        "visiShip"
-      ],
-      "trBondIds": [
-        "yanShip",
-        "sargonShip",
-        "victoriaShip",
-        "lateranoShip",
-        "egirShip",
-        "raidShip",
-        "emptyShip",
-        "preciShip",
-        "deputShip",
-        "kjeragShip",
-        "steadShip",
-        "indomShip",
-        "swiftShip",
-        "visiShip",
-        "rainbowShip"
-      ],
-      "trSpecialEnemyTypes": [
-        "FLY",
-        "TIMES",
-        "ELEMENT"
-      ],
-      "trstageBandId": "band_sarkazb",
-      "trstageBossId": "boss_7",
-      "trStageId": "act1autochess_m01",
-      "webBusType": "ak_act2autochess"
+    "runtimeConfig": {
+      "shop": {
+        "charRates": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0.5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0.3,
+            0.35,
+            0.35,
+            0,
+            0,
+            0
+          ],
+          [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0,
+            0
+          ],
+          [
+            0.1,
+            0.2,
+            0.25,
+            0.3,
+            0.15,
+            0
+          ],
+          [
+            0.02,
+            0.18,
+            0.3,
+            0.3,
+            0.13,
+            0.07
+          ]
+        ]
+      },
+      "version": 1
     },
-    "banConfig": {
-      "coreBondBanCount": 5,
-      "coreBondIds": [
-        "yanShip",
-        "sargonShip",
-        "victoriaShip",
-        "kjeragShip",
-        "lateranoShip",
-        "egirShip",
-        "kazimierzShip",
-        "siracusaShip",
-        "ursusShip",
-        "rainbowShip",
-        "mujicaShip",
-        "kazdelShip"
-      ],
-      "minorBondBanCount": 6
-    }
+    "shopLevelDataDict": {
+      "mode_multi_abyss": {
+        "1": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 2,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 16,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_multi_clone": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_multi_funny": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 10,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_multi_hard": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_multi_normal": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_single_abyss": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 2,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_single_funny": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 1,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 1,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 10,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_single_hard": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_single_normal": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 8,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 4,
+          "initialUpgradePrice": 11,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 13,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 5,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      },
+      "mode_training_1": {
+        "1": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 4,
+          "itemCount": 0,
+          "levelTagBgColor": "#434343",
+          "shopLevel": 1
+        },
+        "2": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 4,
+          "itemCount": 0,
+          "levelTagBgColor": "#626654",
+          "shopLevel": 2
+        },
+        "3": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 6,
+          "itemCount": 0,
+          "levelTagBgColor": "#445760",
+          "shopLevel": 3
+        },
+        "4": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 9,
+          "itemCount": 0,
+          "levelTagBgColor": "#615B74",
+          "shopLevel": 4
+        },
+        "5": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 12,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41",
+          "shopLevel": 5
+        },
+        "6": {
+          "charChessCount": 3,
+          "initialUpgradePrice": 99,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e",
+          "shopLevel": 6
+        }
+      }
+    },
+    "specialEnemyRandomTypeDict": {
+      "DOT": {
+        "count": 3,
+        "weight": 3
+      },
+      "ELEMENT": {
+        "count": 3,
+        "weight": 3
+      },
+      "FLY": {
+        "count": 3,
+        "weight": 3
+      },
+      "INVISIBLE": {
+        "count": 3,
+        "weight": 3
+      },
+      "REFLECTION": {
+        "count": 3,
+        "weight": 3
+      },
+      "SPECIAL": {
+        "count": -1,
+        "weight": -1
+      },
+      "TIMES": {
+        "count": 3,
+        "weight": 3
+      }
+    },
+    "trainingNpcList": [
+      {
+        "bandId": "band_bldsk",
+        "charId": "char_171_bldsk",
+        "medalCount": 120,
+        "nameCardSkinId": "nc_sports_1",
+        "npcId": "npc_1"
+      },
+      {
+        "bandId": "band_amiya",
+        "charId": "char_002_amiya",
+        "medalCount": 120,
+        "nameCardSkinId": "nc_arc_1",
+        "npcId": "npc_2"
+      },
+      {
+        "bandId": "band_duyaoy",
+        "charId": "char_306_leizi",
+        "medalCount": 120,
+        "nameCardSkinId": "nc_as2024_novafive",
+        "npcId": "npc_3"
+      }
+    ]
   }
 }

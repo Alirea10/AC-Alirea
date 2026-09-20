@@ -1,0 +1,48 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_bond_eff_sami_trait"
+    },
+    {
+      "key": "sami_event",
+      "value": 0,
+      "valueStr": "trait"
+    },
+    {
+      "key": "sami_trait",
+      "value": 0,
+      "valueStr": "bibeak"
+    },
+    {
+      "key": "skill_interval",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "max_draws",
+      "value": 6,
+      "valueStr": null
+    },
+    {
+      "key": "draw_min",
+      "value": -8,
+      "valueStr": null
+    },
+    {
+      "key": "draw_max",
+      "value": 16,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "<战斗中>本干员每开启<@autochess.dgreen>3</>次技能，使已激活的【萨米】【灵巧】层数各随机变化<@ba.vdown>-8</>～<@ba.vup>16</>层\n<@autochess.gray>（两盟约共用同一次抽取结果，每场战斗最多触发<@ba.vup>6</>次，复活不重置次数）</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "<战斗中>本干员每开启<@autochess.dgreen>3</>次技能，使已激活的【萨米】【灵巧】层数各随机变化<@ba.vdown>-8</>～<@ba.vup>16</>层\n<@autochess.gray>（两盟约共用同一次抽取结果，每场战斗最多触发<@ba.vup>6</>次，复活不重置次数）</>"
+}

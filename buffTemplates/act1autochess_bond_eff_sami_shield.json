@@ -1,0 +1,34 @@
+{
+  "templateKey": "act1autochess_bond_eff_sami_shield",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_TAKE_DAMAGE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+BlockDamage, Assembly-CSharp",
+        "_filterDamageType": false,
+        "_damageMask": "PHYSICAL",
+        "_useDynamicVar": true,
+        "_allowNegativeDynamicVar": false,
+        "_useFixedValue": false,
+        "_showDamageNumber": false,
+        "_specifyBlockEffect": null,
+        "_useSource": false,
+        "_sourceType": "SOURCE",
+        "_filterApplyWay": false,
+        "_applyWayFilter": "NONE",
+        "_showShieldUI": true
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp",
+        "_var": "dynamic",
+        "_noVarShowWarning": true
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true
+      }
+    ]
+  }
+}

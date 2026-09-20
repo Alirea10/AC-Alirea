@@ -1,0 +1,23 @@
+{
+  "templateKey": "act1autochess_bond_eff_sami_jackpot",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_applyWayFilter": "NONE",
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "damage_scale",
+        "_damageMask": "PHYSICAL",
+        "_filterApplyWay": false,
+        "_filterDamageType": true,
+        "_filterModifierKey": false,
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_modifierKey": "",
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp"
+      }
+    ]
+  }
+}

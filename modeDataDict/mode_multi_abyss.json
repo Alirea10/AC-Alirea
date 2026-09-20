@@ -27,14 +27,17 @@
     "ursusShip",
     "starCrownShip",
     "mujicaShip",
-    "rhodesShip"
+    "rhodesShip",
+    "leithanienShip",
+    "kazdelShip",
+    "samiShip"
   ],
   "backgroundId": "background_abyss",
   "code": "AC-4",
   "desc": "敌方攻击强度到达极限的模拟训练",
   "effectDescList": [
     "Alirea Fun Make",
-    "新盟约：乌萨斯 彩虹小队 Mujica 卡兹戴尔 罗德岛 莱塔尼亚",
+    "新盟约：乌萨斯 彩虹小队 Mujica 卡兹戴尔 罗德岛 莱塔尼亚 萨米",
     "来测，改动开源于https://github.com/Alirea10/AC-Alirea"
   ],
   "inactiveBondIdList": [],

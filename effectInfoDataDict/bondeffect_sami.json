@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "休整期结束后，所有【萨米】干员有{0:0%}的概率使已拥有盟约层数提升-10~30层",
+  "effectDesc": "<在场<@autochess.dgreen>2</>名不同【萨米】干员>作战开始时，每名【萨米】干员分别使自身所属的所有盟约层数随机变化<@ba.vup>-30~20</>层；场上每有1名【萨米】干员，随机变化的上下限均<@ba.vup>+5</><@autochess.gray>（2名时为-30~20层，6名时为0~50层）</>",
   "effectId": "bondeffect_sami",
   "effectName": "萨米",
   "effectType": "BOND",

@@ -12,9 +12,34 @@
         "valueStr": "bond_self"
       },
       {
-        "key": "bond_",
+        "key": "bond_add_type",
         "value": 0,
+        "valueStr": "by_count"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 2,
         "valueStr": null
+      },
+      {
+        "key": "bond_char_cnt_per_stack",
+        "value": 5,
+        "valueStr": null
+      },
+      {
+        "key": "base_bond_add_count_min",
+        "value": -30,
+        "valueStr": null
+      },
+      {
+        "key": "base_bond_add_count_max",
+        "value": 21,
+        "valueStr": null
+      },
+      {
+        "key": "sami_event",
+        "value": 0,
+        "valueStr": "opening"
       }
     ],
     "countType": "NONE",

@@ -14,5 +14,5 @@
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【极光】<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷”"
+  "garrisonDesc": "【极光】<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷”"
 }

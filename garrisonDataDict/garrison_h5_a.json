@@ -5,6 +5,16 @@
       "key": "key",
       "value": 0,
       "valueStr": "act1autochess_bond_eff_hero_irene"
+    },
+    {
+      "key": "max_hp",
+      "value": 5000,
+      "valueStr": null
+    },
+    {
+      "key": "hp_rec",
+      "value": 0.01,
+      "valueStr": null
     }
   ],
   "charLevel": 0,

@@ -1,0 +1,13 @@
+{
+  "templateKey": "act1autochess_bond_eff_sami_trait",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp",
+        "_target": "BUFF_OWNER"
+      }
+    ]
+  }
+}

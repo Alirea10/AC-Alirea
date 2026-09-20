@@ -1,0 +1,38 @@
+{
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_bond_eff_sami_trait"
+    },
+    {
+      "key": "sami_event",
+      "value": 0,
+      "valueStr": "trait"
+    },
+    {
+      "key": "sami_trait",
+      "value": 0,
+      "valueStr": "typhon"
+    },
+    {
+      "key": "jackpot_threshold",
+      "value": 40,
+      "valueStr": null
+    },
+    {
+      "key": "damage_scale",
+      "value": 1.8,
+      "valueStr": null
+    }
+  ],
+  "charLevel": 0,
+  "description": "【萨米】【精准】层数合计每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+4%</>\n<战斗开始时>本干员在【萨米】盟约结算中的最终抽取结果达到<@autochess.dgreen>40</>层时，本场战斗造成的物理伤害提升<@ba.vup>80%</>",
+  "effectType": "GAIN_BUFF",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "garrisonDesc": "【萨米】【精准】层数合计每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+4%</>\n<战斗开始时>本干员在【萨米】盟约结算中的最终抽取结果达到<@autochess.dgreen>40</>层时，本场战斗造成的物理伤害提升<@ba.vup>80%</>"
+}

@@ -4,15 +4,20 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_hero_aurora"
+      "valueStr": "act1autochess_bond_eff_sami_skill"
+    },
+    {
+      "key": "sami_event",
+      "value": 0,
+      "valueStr": "skill"
     }
   ],
   "charLevel": 0,
-  "description": "【极光】所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷",
+  "description": "",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【极光】所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷"
+  "garrisonDesc": ""
 }

@@ -26,13 +26,14 @@
     "rainbowShip",
     "ursusShip",
     "starCrownShip",
-    "rhodesShip"
+    "rhodesShip",
+    "samiShip"
   ],
   "backgroundId": "background_hard",
   "code": "AC-3",
   "desc": "敌方攻击强度极高的模拟训练",
   "effectDescList": [
-    "·新盟约：乌萨斯/彩虹六号/特殊的个人盟约",
+    "·新盟约：乌萨斯/彩虹六号/萨米/特殊的个人盟约",
     "·绝境难度"
   ],
   "inactiveBondIdList": [],

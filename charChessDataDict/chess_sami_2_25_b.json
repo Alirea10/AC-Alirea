@@ -1,6 +1,8 @@
 {
   "chessId": "chess_sami_2_25_b",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_198_b"
+  ],
   "isGolden": true,
   "status": {
     "charLevel": 60,

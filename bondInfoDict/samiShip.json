@@ -1,0 +1,34 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "samiShip",
+  "chessIdList": [
+    "chess_sami_1_25_a",
+    "chess_sami_1_25_b",
+    "chess_sami_2_25_a",
+    "chess_sami_2_25_b",
+    "chess_sami_3_34_a",
+    "chess_sami_3_34_b",
+    "chess_sami_4_35_a",
+    "chess_sami_4_35_b",
+    "chess_sami_6_36_a",
+    "chess_sami_6_36_b",
+    "chess_char_5_21_a",
+    "chess_char_5_21_b"
+  ],
+  "desc": "<在场<@autochess.dgreen>2</>名不同【萨米】干员>作战开始时，每名【萨米】干员分别使自身所属的所有盟约层数随机变化<@ba.vup>-30~20</>层；场上每有1名【萨米】干员，随机变化的上下限均<@ba.vup>+5</><@autochess.gray>（2名时为-20~30层，6名时为0~50层）</>",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_sami",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "萨米",
+  "noStack": false,
+  "weight": 100
+}
