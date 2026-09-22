@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "",
+  "effectId": "bondeffect_rhine",
+  "effectName": "莱茵生命",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

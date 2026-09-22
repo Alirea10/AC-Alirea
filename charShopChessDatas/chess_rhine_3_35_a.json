@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhine_3_35_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4212_nasti",
+  "chessId": "chess_rhine_3_35_a",
+  "chessLevel": 3,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_001_nasti",
+  "goldenChessId": "chess_rhine_3_35_b",
+  "isHidden": false,
+  "shopLevelSortId": 35,
+  "tmplId": null
+}

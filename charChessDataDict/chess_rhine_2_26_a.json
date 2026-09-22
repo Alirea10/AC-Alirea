@@ -1,0 +1,14 @@
+{
+  "chessId": "chess_rhine_2_26_a",
+  "garrisonIds": null,
+  "isGolden": false,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_rhine_2_26_b",
+  "upgradeNum": 3
+}

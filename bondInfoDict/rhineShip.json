@@ -1,0 +1,42 @@
+{
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 1,
+  "activeParamList": [
+    "2"
+  ],
+  "activeType": "BATTLE",
+  "bondId": "rhineShip",
+  "chessIdList": [
+    "chess_rhine_1_26_a",
+    "chess_rhine_1_26_b",
+    "chess_rhine_2_26_a",
+    "chess_rhine_2_26_b",
+    "chess_rhine_3_35_a",
+    "chess_rhine_3_35_b",
+    "chess_rhine_3_36_a",
+    "chess_rhine_3_36_b",
+    "chess_rhine_4_36_a",
+    "chess_rhine_4_36_b",
+    "chess_char_2_02_a",
+    "chess_char_2_02_b",
+    "chess_char_4_21_a",
+    "chess_char_4_21_b",
+    "chess_char_5_11_a",
+    "chess_char_5_11_b",
+    "chess_char_6_16_a",
+    "chess_char_6_16_b",
+    "chess_char_6_11_a",
+    "chess_char_6_11_b"
+  ],
+  "desc": "",
+  "descParamBaseList": [],
+  "descParamPerStackList": [],
+  "effectId": "bondeffect_rhine",
+  "iconId": "",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": 0,
+  "name": "莱茵生命",
+  "noStack": false,
+  "weight": 100
+}

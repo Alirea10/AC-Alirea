@@ -19,7 +19,8 @@
         "ursusShip",
         "samiShip"
       ],
-      "minorBondBanCount": 6
+      "minorBondBanCount": 0,
+      "mode": "banCore"
     },
     "baseRewardDataList": [
       {
@@ -1661,6 +1662,11 @@
       "chess_rainbow_4_28_a": "chess_rainbow_4_28_a",
       "chess_rainbow_5_24_a": "chess_rainbow_5_24_a",
       "chess_rainbow_6_21_a": "chess_rainbow_6_21_a",
+      "chess_rhine_1_26_a": "chess_rhine_1_26_a",
+      "chess_rhine_2_26_a": "chess_rhine_2_26_a",
+      "chess_rhine_3_35_a": "chess_rhine_3_35_a",
+      "chess_rhine_3_36_a": "chess_rhine_3_36_a",
+      "chess_rhine_4_36_a": "chess_rhine_4_36_a",
       "chess_rhodes_3_28_a": "chess_rhodes_3_28_a",
       "chess_rhodes_3_29_a": "chess_rhodes_3_29_a",
       "chess_rhodes_3_30_a": "chess_rhodes_3_30_a",
@@ -1907,6 +1913,11 @@
       "chess_rainbow_4_28_b": "chess_rainbow_4_28_a",
       "chess_rainbow_5_24_b": "chess_rainbow_5_24_a",
       "chess_rainbow_6_21_b": "chess_rainbow_6_21_a",
+      "chess_rhine_1_26_b": "chess_rhine_1_26_a",
+      "chess_rhine_2_26_b": "chess_rhine_2_26_a",
+      "chess_rhine_3_35_b": "chess_rhine_3_35_a",
+      "chess_rhine_3_36_b": "chess_rhine_3_36_a",
+      "chess_rhine_4_36_b": "chess_rhine_4_36_a",
       "chess_rhodes_3_28_b": "chess_rhodes_3_28_a",
       "chess_rhodes_3_29_b": "chess_rhodes_3_29_a",
       "chess_rhodes_3_30_b": "chess_rhodes_3_30_a",
@@ -1941,7 +1952,7 @@
       "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
       "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
       "fallbackBondId": "emptyShip",
-      "maxBattleChessCnt": 9,
+      "maxBattleChessCnt": 8,
       "maxDeckChessCnt": 15,
       "milestoneId": "act2autochess_token_chess",
       "milestoneTrackId": "act2autochess_milestone_expand",

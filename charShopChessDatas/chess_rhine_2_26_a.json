@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhine_2_26_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_248_mgllan",
+  "chessId": "chess_rhine_2_26_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_001_mgllan",
+  "goldenChessId": "chess_rhine_2_26_b",
+  "isHidden": false,
+  "shopLevelSortId": 26,
+  "tmplId": null
+}

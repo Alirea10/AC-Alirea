@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_rhine_4_36_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_134_ifrit",
+  "chessId": "chess_rhine_4_36_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_001_ifrit",
+  "goldenChessId": "chess_rhine_4_36_b",
+  "isHidden": false,
+  "shopLevelSortId": 36,
+  "tmplId": null
+}
