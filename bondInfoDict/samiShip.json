@@ -21,7 +21,7 @@
     "chess_char_5_21_a",
     "chess_char_5_21_b"
   ],
-  "desc": "<在场<@autochess.dgreen>2</>名不同【萨米】干员>作战开始时，每名【萨米】干员分别使自身所属的所有盟约层数随机变化<@ba.vup>-30~20</>层；场上每有1名【萨米】干员，随机变化的上下限均<@ba.vup>+5</><@autochess.gray>（2名时为-20~30层，6名时为0~50层）</>",
+  "desc": "<在场<@autochess.dgreen>2</>名不同【萨米】干员>作战开始时，每名【萨米】干员分别使自身所属的所有盟约层数随机变化<@ba.vdown>-30</>~<@ba.vup>20</>层；场上每有1名【萨米】干员，随机变化的上限<@ba.vup>+5</><@autochess.gray>（2名时为-30~30层，3名时为-30~35层）</>",
   "descParamBaseList": [],
   "descParamPerStackList": [],
   "effectId": "bondeffect_sami",

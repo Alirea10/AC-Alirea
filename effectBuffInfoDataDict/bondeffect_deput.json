@@ -75,12 +75,12 @@
     "blackboard": [
       {
         "key": "layer",
-        "value": 25,
+        "value": 20,
         "valueStr": null
       },
       {
         "key": "count",
-        "value": 10,
+        "value": 2,
         "valueStr": null
       }
     ],

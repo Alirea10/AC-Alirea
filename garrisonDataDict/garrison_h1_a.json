@@ -5,6 +5,16 @@
       "key": "key",
       "value": 0,
       "valueStr": "act1autochess_bond_eff_hero_aurora"
+    },
+    {
+      "key": "prob",
+      "value": 0.4,
+      "valueStr": null
+    },
+    {
+      "key": "cold",
+      "value": 1,
+      "valueStr": null
     }
   ],
   "charLevel": 0,

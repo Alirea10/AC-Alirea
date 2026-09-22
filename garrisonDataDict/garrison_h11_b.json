@@ -8,7 +8,7 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>10%</>的概率对敌人施加<@ba.vup>10</>秒的寒冷”",
+  "description": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷”",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",

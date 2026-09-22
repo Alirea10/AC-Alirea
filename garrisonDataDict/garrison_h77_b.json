@@ -8,11 +8,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“<@ba.vup>所有</>【萨尔贡】【精准】【迅捷】干员击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”",
-  "effectType": "GAIN_BUFF",
+  "description": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”",
+  "effectType": "ADD_BOND",
   "eventType": "IN_BATTLE",
-  "eventTypeDesc": "作战能力",
-  "eventTypeIcon": "icon_battle",
-  "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【天途】<战斗开始时>使<@ba.vup>所有</>干员获得特质“<@ba.vup>所有</>【萨尔贡】【精准】【迅捷】干员击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”"
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "garrisonDesc": "【天途】<战斗开始时>使<@ba.vup>所有</>干员获得特质“击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”"
 }

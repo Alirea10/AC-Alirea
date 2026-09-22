@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<战斗开始时>本干员参与【萨米】盟约结算时，随机抽取<@ba.vup>2</>次层数变化，取绝对值最大的一次\n<@autochess.gray>（绝对值相同时取正值）</>",
+  "description": "<战斗开始时>本干员参与【萨米】盟约结算时，随机抽取<@ba.vup>2</>次层数变化，取绝对值最大的一次\n<@autochess.gray>（绝对值相同时取正值）</>\n精锐后获得远见盟约",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "<战斗开始时>本干员参与【萨米】盟约结算时，随机抽取<@ba.vup>2</>次层数变化，取绝对值最大的一次\n<@autochess.gray>（绝对值相同时取正值）</>"
+  "garrisonDesc": "<战斗开始时>本干员参与【萨米】盟约结算时，随机抽取<@ba.vup>2</>次层数变化，取绝对值最大的一次\n<@autochess.gray>（绝对值相同时取正值）</>\n精锐后获得远见盟约"
 }
