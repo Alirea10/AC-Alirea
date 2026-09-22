@@ -3,7 +3,7 @@
   "charId": "trap_1055_acarm055",
   "chessId": "chess_item_4_04_e_a",
   "effectId": "eff_acarm055",
-  "giveBondId": null,
+  "giveBondId": "samiShip",
   "givePowerId": null,
   "isGolden": false,
   "itemType": "EQUIP",
