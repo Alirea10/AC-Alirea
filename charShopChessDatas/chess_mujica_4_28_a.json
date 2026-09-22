@@ -9,7 +9,7 @@
   "chessLevel": 4,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_dolris",
   "goldenChessId": "chess_mujica_4_28_b",
   "isHidden": false,
   "shopLevelSortId": 28,

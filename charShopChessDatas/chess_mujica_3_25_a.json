@@ -9,7 +9,7 @@
   "chessLevel": 3,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_tmoris",
   "goldenChessId": "chess_mujica_3_25_b",
   "isHidden": false,
   "shopLevelSortId": 25,

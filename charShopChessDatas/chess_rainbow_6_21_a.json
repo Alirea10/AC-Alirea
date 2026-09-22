@@ -9,7 +9,7 @@
   "chessLevel": 6,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_ela",
   "goldenChessId": "chess_rainbow_6_21_b",
   "isHidden": false,
   "shopLevelSortId": 21,

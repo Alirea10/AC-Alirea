@@ -9,7 +9,7 @@
   "chessLevel": 1,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_odda",
   "goldenChessId": "chess_kazdel_1_24_b",
   "isHidden": false,
   "shopLevelSortId": 24,

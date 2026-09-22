@@ -9,7 +9,7 @@
   "chessLevel": 6,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_003_fartth",
   "goldenChessId": "chess_hero_6_26_b",
   "isHidden": false,
   "shopLevelSortId": 26,

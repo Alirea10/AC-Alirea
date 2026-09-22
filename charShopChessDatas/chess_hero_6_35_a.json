@@ -9,7 +9,7 @@
   "chessLevel": 6,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_003_ebnhlz",
   "goldenChessId": "chess_hero_6_35_b",
   "isHidden": false,
   "shopLevelSortId": 35,

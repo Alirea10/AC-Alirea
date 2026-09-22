@@ -9,7 +9,7 @@
   "chessLevel": 4,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_003_crosly",
   "goldenChessId": "chess_ursus_4_27_b",
   "isHidden": false,
   "shopLevelSortId": 27,

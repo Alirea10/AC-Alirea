@@ -9,7 +9,7 @@
   "chessLevel": 3,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_003_hodrer",
   "goldenChessId": "chess_kazdel_3_27_b",
   "isHidden": false,
   "shopLevelSortId": 27,

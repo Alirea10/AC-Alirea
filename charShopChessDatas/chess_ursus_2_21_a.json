@@ -9,7 +9,7 @@
   "chessLevel": 2,
   "chessType": "NORMAL",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_absin",
   "goldenChessId": "chess_ursus_2_21_b",
   "isHidden": false,
   "shopLevelSortId": 21,

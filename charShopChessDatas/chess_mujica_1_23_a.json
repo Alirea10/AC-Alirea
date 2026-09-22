@@ -9,7 +9,7 @@
   "chessLevel": 1,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_amoris",
   "goldenChessId": "chess_mujica_1_23_b",
   "isHidden": false,
   "shopLevelSortId": 23,

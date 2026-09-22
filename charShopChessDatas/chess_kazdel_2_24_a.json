@@ -9,7 +9,7 @@
   "chessLevel": 2,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_mitm",
   "goldenChessId": "chess_kazdel_2_24_b",
   "isHidden": false,
   "shopLevelSortId": 24,

@@ -9,7 +9,7 @@
   "chessLevel": 3,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_kaitou",
   "goldenChessId": "chess_leithanien_3_33_b",
   "isHidden": false,
   "shopLevelSortId": 33,

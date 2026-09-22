@@ -9,7 +9,7 @@
   "chessLevel": 2,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_rfrost",
   "goldenChessId": "chess_rainbow_2_20_b",
   "isHidden": false,
   "shopLevelSortId": 20,

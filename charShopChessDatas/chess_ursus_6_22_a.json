@@ -9,7 +9,7 @@
   "chessLevel": 6,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_headb2",
   "goldenChessId": "chess_ursus_6_22_b",
   "isHidden": false,
   "shopLevelSortId": 22,

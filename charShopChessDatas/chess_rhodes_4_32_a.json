@@ -9,7 +9,7 @@
   "chessLevel": 4,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_amiya",
   "goldenChessId": "chess_rhodes_4_32_b",
   "isHidden": false,
   "shopLevelSortId": 32,

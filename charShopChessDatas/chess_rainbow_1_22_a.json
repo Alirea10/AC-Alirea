@@ -9,7 +9,7 @@
   "chessLevel": 1,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_fuze",
   "goldenChessId": "chess_rainbow_1_22_b",
   "isHidden": false,
   "shopLevelSortId": 22,

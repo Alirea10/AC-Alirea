@@ -9,7 +9,7 @@
   "chessLevel": 5,
   "chessType": "PRESET",
   "defaultSkillIndex": 2,
-  "defaultUniEquipId": null,
+  "defaultUniEquipId": "uniequip_002_mantra",
   "goldenChessId": "chess_rhodes_5_28_b",
   "isHidden": false,
   "shopLevelSortId": 28,
