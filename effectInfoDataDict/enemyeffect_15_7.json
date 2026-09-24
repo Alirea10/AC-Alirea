@@ -2,9 +2,9 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "为自身<@ba.vup>下场战斗</>添加<@ba.vup>1</>只深池重甲卫士队长，将其击倒者获得<@ba.vup>2</>资金",
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只剧场组装体，将其击倒者获得<@ba.vup>3</>资金",
   "effectId": "enemyeffect_15_7",
-  "effectName": "悬赏·折射II",
+  "effectName": "悬赏·特异IIII",
   "effectType": "ENEMY_GAIN",
   "enemyPrice": 2
 }

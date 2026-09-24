@@ -2,9 +2,9 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "为自身接下来<@ba.vup>两场作战</>添加<@ba.vup>1</>只萨卡兹枯朽战车，将其击倒者获得<@ba.vup>3</>资金",
+  "effectDesc": "为自身接下来<@ba.vup>两场作战</>添加1只“锈铜”奥尔默·英格拉，将其击倒者获得<@ba.vup>3</>资金",
   "effectId": "enemyeffect_13_6",
-  "effectName": "悬赏·持续III",
+  "effectName": "悬赏·骑士II",
   "effectType": "ENEMY_GAIN",
   "enemyPrice": 3
 }

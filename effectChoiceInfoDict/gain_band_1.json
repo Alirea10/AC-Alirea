@@ -1,0 +1,8 @@
+{
+  "choiceEventId": "gain_band_1",
+  "choiceType": "PERSONAL_CHOOSE",
+  "desc": "无需消耗资金，获得装备补给。",
+  "effectType": "EQUIP",
+  "name": "战术决策",
+  "typeTxtColor": "#35d8b4"
+}

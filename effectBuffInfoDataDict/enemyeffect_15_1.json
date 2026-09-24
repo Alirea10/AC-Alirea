@@ -3,17 +3,17 @@
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 3,
         "valueStr": null
       },
       {
         "key": "enemy_id",
         "value": 0,
-        "valueStr": "enemy_1169_duphlx"
+        "valueStr": "enemy_1173_duspfr"
       },
       {
         "key": "coin",
-        "value": 1,
+        "value": 2,
         "valueStr": null
       },
       {
