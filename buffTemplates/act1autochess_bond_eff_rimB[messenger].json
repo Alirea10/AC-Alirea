@@ -1,0 +1,49 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignTargetPlayerSideToBlackboard, Assembly-CSharp",
+        "_actionTargetType": "BUFF_SOURCE",
+        "_blackboardKey": "player_side"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp",
+        "_conditionNode": {
+          "$type": "Torappu.Battle.Action.Nodes+IsBlackboardEqualWithString, Assembly-CSharp",
+          "_var": "player_side",
+          "_compareValue": "SIDE_A",
+          "_compareBBKey": null,
+          "_useBuffBlackboard": false,
+          "_buffKey": ""
+        },
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+            "_blackboardKey": "side_a_rimB_messenger",
+            "_channel": "AUTOCHESS",
+            "_value": 1,
+            "_valueBlackboardKey": "",
+            "_addString": false,
+            "_valueStr": null,
+            "_overwrite": true
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+            "_blackboardKey": "side_b_rimB_messenger",
+            "_channel": "AUTOCHESS",
+            "_value": 1,
+            "_valueBlackboardKey": "",
+            "_addString": false,
+            "_valueStr": null,
+            "_overwrite": true
+          }
+        ]
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_rimB[messenger]"
+}
