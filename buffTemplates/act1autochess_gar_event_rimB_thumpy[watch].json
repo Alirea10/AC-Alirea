@@ -1,0 +1,85 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_conditionNode": {
+          "_abnormalFlag": "LEVITATE",
+          "_targetType": "BUFF_OWNER",
+          "_isUnset": false,
+          "_abnormalFlagKey": "",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlag, Assembly-CSharp"
+        },
+        "_succeedNodes": [
+          {
+            "_blackboardKey": "was_levitating",
+            "_value": 1,
+            "_copyFromKey": null,
+            "_assignString": false,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "_failNodes": [
+          {
+            "_blackboardKey": "was_levitating",
+            "_value": 0,
+            "_copyFromKey": null,
+            "_assignString": false,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
+    "ON_ABNORMAL_FLAG_DIRTY": [
+      {
+        "_conditionNode": {
+          "_abnormalFlag": "LEVITATE",
+          "_targetType": "BUFF_OWNER",
+          "_isUnset": false,
+          "_abnormalFlagKey": "",
+          "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlag, Assembly-CSharp"
+        },
+        "_succeedNodes": [
+          {
+            "_var": "was_levitating",
+            "_noVarShowWarning": true,
+            "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp"
+          },
+          {
+            "_blackboardKey": "was_levitating",
+            "_value": 1,
+            "_copyFromKey": null,
+            "_assignString": false,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CheckTargetInRange, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_soureceType": "BUFF_SOURCE",
+            "_rangeId": "x-4",
+            "_autoRange": false,
+            "_checkRadius": false,
+            "_rangeRadius": 0.0
+          },
+          {
+            "_target": "BUFF_SOURCE",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+          }
+        ],
+        "_failNodes": [
+          {
+            "_blackboardKey": "was_levitating",
+            "_value": 0,
+            "_copyFromKey": null,
+            "_assignString": false,
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_gar_event_rimB_thumpy[watch]"
+}

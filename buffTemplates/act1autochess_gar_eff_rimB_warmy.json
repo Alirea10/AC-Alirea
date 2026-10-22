@@ -1,0 +1,94 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_AFTER_OUTPUT_DAMAGE": [
+      {
+        "_customKey": "rimB_generated_damage",
+        "$type": "Torappu.Battle.Action.Nodes+CheckModifierContainsKey, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+      },
+      {
+        "_filterAttackType": false,
+        "_attackTypeFilter": "NONE",
+        "_filterDamageType": true,
+        "_damageMask": "MAGICAL",
+        "_filterSharedMask": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_filterModifierSource": true,
+        "_source": "BUFF_OWNER",
+        "_filterBySourceId": false,
+        "_sourceId": null,
+        "_checkHasScource": false,
+        "_isNoSource": false,
+        "_filterModifierCancelled": true,
+        "_filterApplyWay": false,
+        "_applyWay": "NONE",
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp"
+      },
+      {
+        "_conditionsNode": [
+          {
+            "_filterAttackType": true,
+            "_attackTypeFilter": "NORMAL",
+            "_filterDamageType": false,
+            "_damageMask": "NONE",
+            "_filterSharedMask": false,
+            "_sharedFlag": "IS_CONTINUOUS",
+            "_filterModifierSource": true,
+            "_source": "BUFF_OWNER",
+            "_filterBySourceId": false,
+            "_sourceId": null,
+            "_checkHasScource": false,
+            "_isNoSource": false,
+            "_filterModifierCancelled": true,
+            "_filterApplyWay": false,
+            "_applyWay": "NONE",
+            "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp"
+          },
+          {
+            "_filterAttackType": true,
+            "_attackTypeFilter": "SPLASH",
+            "_filterDamageType": false,
+            "_damageMask": "NONE",
+            "_filterSharedMask": false,
+            "_sharedFlag": "IS_CONTINUOUS",
+            "_filterModifierSource": true,
+            "_source": "BUFF_OWNER",
+            "_filterBySourceId": false,
+            "_sourceId": null,
+            "_checkHasScource": false,
+            "_isNoSource": false,
+            "_filterModifierCancelled": true,
+            "_filterApplyWay": false,
+            "_applyWay": "NONE",
+            "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp"
+          }
+        ],
+        "_isAnd": false,
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignModifierValueIntoBlackboard, Assembly-CSharp",
+            "_blackboardKey": "damage_value",
+            "_filterModifierCancelled": true
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+ApplyFixedElementDamage, Assembly-CSharp",
+            "_elementType": "FIRE",
+            "_sourceType": "MODIFIER_SOURCE",
+            "_targetType": "MODIFIER_TARGET",
+            "_damageValueKey": "damage_value",
+            "_damageScaleKey": "damage_scale",
+            "_allowNoSourceDamage": false,
+            "_isEnvDamage": false
+          }
+        ],
+        "_failNodes": [],
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_gar_eff_rimB_warmy"
+}
