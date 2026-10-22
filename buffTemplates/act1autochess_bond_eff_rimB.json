@@ -414,7 +414,23 @@
                   "attributeModifiers": []
                 },
                 "audioSignal": null,
-                "blackboard": [],
+                "blackboard": [
+                  {
+                    "key": "base_float_damage",
+                    "value": 750,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "float_damage_per_layer",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "rimB_messenger_watch_window",
+                    "value": 16,
+                    "valueStr": null
+                  }
+                ],
                 "buffKey": "rimB_messenger_mark",
                 "clearAllStackCntWhenTimeUp": false,
                 "disableOverride": false,
@@ -497,7 +513,23 @@
                   "attributeModifiers": []
                 },
                 "audioSignal": null,
-                "blackboard": [],
+                "blackboard": [
+                  {
+                    "key": "base_float_damage",
+                    "value": 750,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "float_damage_per_layer",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "rimB_messenger_watch_window",
+                    "value": 16,
+                    "valueStr": null
+                  }
+                ],
                 "buffKey": "rimB_messenger_mark",
                 "clearAllStackCntWhenTimeUp": false,
                 "disableOverride": false,

@@ -1,0 +1,253 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_buffKeys": [
+          "aglina_s4[levitate]"
+        ],
+        "isAND": true,
+        "_loadFromBlackboard": false,
+        "_checkBuffSource": false,
+        "_buffSourceType": "BUFF_SOURCE",
+        "_checkSourceHost": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlags, Assembly-CSharp",
+        "_abnormalFlags": [
+          "LEVITATE"
+        ],
+        "_targetType": "BUFF_OWNER"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": []
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "rimB_messenger_native_levitate",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "INFINITY",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": "",
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "UNIQUE",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "act1autochess_bond_eff_rimB[messenger_levitate]",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_useSpecialBuffSource": true,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_isDerivedBuff": false,
+        "_finishDerivedBuffIfParentFinish": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_hookEffectKeyFromSourceProjectile": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true
+      }
+    ],
+    "ON_ENTER_LEVITATE_STATE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_buffKeys": [
+          "aglina_s4[levitate]"
+        ],
+        "isAND": true,
+        "_loadFromBlackboard": false,
+        "_checkBuffSource": false,
+        "_buffSourceType": "BUFF_SOURCE",
+        "_checkSourceHost": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlags, Assembly-CSharp",
+        "_abnormalFlags": [
+          "LEVITATE"
+        ],
+        "_targetType": "BUFF_OWNER"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": []
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "rimB_messenger_native_levitate",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "INFINITY",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": "",
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "UNIQUE",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "act1autochess_bond_eff_rimB[messenger_levitate]",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_useSpecialBuffSource": true,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_isDerivedBuff": false,
+        "_finishDerivedBuffIfParentFinish": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_hookEffectKeyFromSourceProjectile": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_buffKeys": [
+          "aglina_s4[levitate]"
+        ],
+        "isAND": true,
+        "_loadFromBlackboard": false,
+        "_checkBuffSource": false,
+        "_buffSourceType": "BUFF_SOURCE",
+        "_checkSourceHost": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckAbnormalFlags, Assembly-CSharp",
+        "_abnormalFlags": [
+          "LEVITATE"
+        ],
+        "_targetType": "BUFF_OWNER"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": []
+          },
+          "audioSignal": null,
+          "blackboard": [],
+          "buffKey": "rimB_messenger_native_levitate",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "INFINITY",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": "",
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "UNIQUE",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "act1autochess_bond_eff_rimB[messenger_levitate]",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_useSpecialBuffSource": true,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_isDerivedBuff": false,
+        "_finishDerivedBuffIfParentFinish": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_hookEffectKeyFromSourceProjectile": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_rimB[messenger_watch]"
+}

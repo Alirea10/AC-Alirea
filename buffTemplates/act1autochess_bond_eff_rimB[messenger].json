@@ -42,6 +42,112 @@
           }
         ]
       }
+    ],
+    "ON_ABILITY_CAST_ON_TARGET": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterAbilityName, Assembly-CSharp",
+            "_abilityName": "S4Ability",
+            "_useSearchName": true
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterAbilityName, Assembly-CSharp",
+            "_abilityName": "S2Ability",
+            "_useSearchName": true
+          }
+        ],
+        "_isAnd": false,
+        "_succeedNodes": [
+          {
+            "_assignAllPlayerIndex": false,
+            "_assignCurrentMaxBond": false,
+            "_bondBlackboardKey": "none",
+            "_bondId": "rimBShip",
+            "_byPosition": false,
+            "_checkDiffWithOldStoreCnt": false,
+            "_keyToStoreCnt": "bond_stack_cnt",
+            "_target": "BUFF_SOURCE",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+          },
+          {
+            "_abilityName": "",
+            "_addParamKey": "base_float_damage",
+            "_dividedParamKey": null,
+            "_finalAbs": true,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_inputKey": "bond_stack_cnt",
+            "_maxValueKey": null,
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_multiplyParamKey": "float_damage_per_layer",
+            "_outputKey": "real_float_damage",
+            "_useAbilityBlackboard": false,
+            "_useRemainder": false,
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+            "_buff": {
+              "attributes": {
+                "abnormalAntis": [],
+                "abnormalComboImmunes": [],
+                "abnormalCombos": [],
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "attributeModifiers": []
+              },
+              "audioSignal": null,
+              "blackboard": [],
+              "buffKey": "rimB_messenger_native_levitate_watch",
+              "clearAllStackCntWhenTimeUp": false,
+              "disableOverride": false,
+              "durationKey": "rimB_messenger_watch_window",
+              "enableInitDirectionFromSource": false,
+              "firstTriggerInterval": -1,
+              "independentCharacterSource": false,
+              "isDamageMissable": false,
+              "isDurableBuff": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "lifeTime": 0,
+              "lifeTimeType": "LIMITED",
+              "loadFromDB": false,
+              "maxStackCnt": 1,
+              "maxValidStackCnt": -1,
+              "onEventPriority": "DEFAULT",
+              "overrideEffectKey": "",
+              "overrideKey": null,
+              "overrideOnEventPriority": false,
+              "overrideType": "UNIQUE",
+              "priority": -1,
+              "priorityBBKeys": [],
+              "refreshRemainingTimeWhenStackMax": false,
+              "statusResistable": "AUTOMATIC",
+              "stripBlackboardParamsWithBuffKey": false,
+              "takeSnapshotWhenExtend": false,
+              "templateKey": "act1autochess_bond_eff_rimB[messenger_watch]",
+              "triggerCnt": 0,
+              "triggerInterval": 0.1,
+              "triggerLifeType": "INFINITY",
+              "waitFirstTriggerInterval": false
+            },
+            "_buffOwner": "TARGET",
+            "_useSpecialBuffSource": true,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_isDerivedBuff": false,
+            "_finishDerivedBuffIfParentFinish": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_hookEffectKeyFromSourceProjectile": false
+          }
+        ],
+        "_failNodes": []
+      }
     ]
   },
   "onEventPriority": "DEFAULT",
