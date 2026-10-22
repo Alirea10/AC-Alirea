@@ -2868,6 +2868,7 @@
           "enemy_1019_jshoot",
           "enemy_10200_ubglmf",
           "enemy_1021_bslime",
+          "enemy_10232_aglina",
           "enemy_1023_jmage",
           "enemy_1025_reveng",
           "enemy_1026_aghost",
@@ -2969,7 +2970,13 @@
           "enemy_9009_acfort",
           "enemy_9010_acpupp",
           "enemy_9011_acrefr"
-        ]
+        ],
+        "enemyResources": {
+          "enemy_10232_aglina": {
+            "level": 0,
+            "isFlyEnemy": true
+          }
+        }
       },
       "shop": {
         "charRates": [
