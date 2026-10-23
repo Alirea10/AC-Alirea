@@ -1,7 +1,8 @@
 {
   "chessId": "chess_ursus_3_24_a",
   "garrisonIds": [
-    "garrison_220_a"
+    "garrison_220_a",
+    "garrison_221_a"
   ],
   "isGolden": false,
   "status": {
