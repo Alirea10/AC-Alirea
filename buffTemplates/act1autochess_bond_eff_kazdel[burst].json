@@ -1,0 +1,22 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_EP_BREAK_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterEPBreakRecoveryType, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_recoveryType": "DARK",
+        "_skipInEPBreakRecoveryCheck": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+HealViaMaxHpRatio, Assembly-CSharp",
+        "_healTarget": "BUFF_SOURCE",
+        "_getMaxHpFromTarget": false,
+        "_ignoreHealFree": true,
+        "_skipModifierEvent": true
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_kazdel[burst]"
+}

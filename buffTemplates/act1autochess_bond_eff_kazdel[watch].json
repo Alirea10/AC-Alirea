@@ -1,0 +1,112 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_sourceType": "BUFF_SOURCE",
+        "_targetType": "BUFF_OWNER",
+        "_targetOptions": {
+          "targetSide": "BOTH_ALLY_AND_ENEMY",
+          "targetMotion": "ALL",
+          "targetCategory": "DEFAULT",
+          "enableAdvancedOptions": true,
+          "ignoreTargetFree": true,
+          "ignoreAllyTargetFree": true,
+          "ignoreHealFree": true,
+          "ignoreTargetSide": false,
+          "excludeSomeAbnormalFlags": false,
+          "excludeAbnormalFlag": "STUNNED",
+          "purposeMask": "NONE",
+          "professionMask": "NONE",
+          "checkUnitType": false,
+          "unitTypeMask": "NONE",
+          "onlyIgnoreSomeOfTargetFreeCase": false,
+          "abnormalFlag": "INVISIBLE",
+          "abnormalCombo": "SLEEPING"
+        },
+        "_excludeTarget": false,
+        "_excludeCurAtkTarget": false,
+        "_alwaysIncudeCurAtkTarget": false,
+        "_alwaysIncludeSourceBlocker": false,
+        "_randomTarget": false,
+        "_limitMaxTarget": false,
+        "_useAttackRange": false,
+        "_useCurrentModeRange": false,
+        "_useRangeToShow": false,
+        "_rangeTargetSideType": "ALLY",
+        "_rangeModeIndex": -1,
+        "_useTargetRangeInsteadOfSource": false,
+        "_rangeId": "",
+        "_useRadius": false,
+        "_useGlobalRange": true,
+        "_radius": 0,
+        "_filterByBuildableType": false,
+        "_allowedBuildableType": "NONE",
+        "_checkGiantTrapAllLocateTiles": false,
+        "_buffs": [
+          {
+            "attributes": {
+              "abnormalAntis": [],
+              "abnormalComboImmunes": [],
+              "abnormalCombos": [],
+              "abnormalFlags": [],
+              "abnormalImmunes": [],
+              "attributeModifiers": []
+            },
+            "audioSignal": null,
+            "blackboard": [
+              {
+                "key": "hp_ratio",
+                "value": 0.2,
+                "valueStr": null
+              }
+            ],
+            "buffKey": "act1autochess_bond_eff_kazdel[burst]",
+            "clearAllStackCntWhenTimeUp": false,
+            "disableOverride": false,
+            "durationKey": null,
+            "enableInitDirectionFromSource": false,
+            "firstTriggerInterval": -1,
+            "independentCharacterSource": true,
+            "isDamageMissable": false,
+            "isDurableBuff": false,
+            "isFreezable": false,
+            "isLevitatable": false,
+            "isSilenceable": false,
+            "isStunnable": false,
+            "lifeTime": 0,
+            "lifeTimeType": "INFINITY",
+            "loadFromDB": false,
+            "maxStackCnt": 1,
+            "maxValidStackCnt": -1,
+            "onEventPriority": "DEFAULT",
+            "overrideEffectKey": "",
+            "overrideKey": null,
+            "overrideOnEventPriority": false,
+            "overrideType": "UNIQUE",
+            "priority": -1,
+            "priorityBBKeys": [],
+            "refreshRemainingTimeWhenStackMax": false,
+            "statusResistable": "AUTOMATIC",
+            "stripBlackboardParamsWithBuffKey": false,
+            "takeSnapshotWhenExtend": false,
+            "templateKey": "act1autochess_bond_eff_kazdel[burst]",
+            "triggerCnt": 0,
+            "triggerInterval": -1,
+            "triggerLifeType": "IMMEDIATELY",
+            "waitFirstTriggerInterval": true
+          }
+        ],
+        "_isDerivedBuff": true,
+        "_finishDerivedBuffIfParentFinish": true,
+        "_removeExcludeTargetBeforeShrink": false,
+        "_filterTargets": false,
+        "_filterType": "ALL",
+        "_maxTargetKey": "max_target"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_kazdel[watch]"
+}
