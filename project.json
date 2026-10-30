@@ -18,7 +18,8 @@
     "shopLevelDisplayDataDict",
     "specialEnemyInfoDict",
     "effectChoiceInfoDict",
-    "buffTemplates"
+    "buffTemplates",
+    "bossLevelPlanDict"
   ],
   "constFields": {
     "banConfig": {
