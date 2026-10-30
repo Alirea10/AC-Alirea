@@ -2971,7 +2971,29 @@
           "enemy_9010_acpupp",
           "enemy_9011_acrefr"
         ],
+        "bossResources": {
+          "boss_11": {
+            "enemyId": "enemy_8007_eltrsm_3",
+            "handbookEnemyId": "enemy_8007_eltrsm_3"
+          }
+        },
         "enemyResources": {
+          "enemy_8007_eltrsm_3": {
+            "extraEnemyKeyList": [
+              "enemy_8008_eltswd",
+              "enemy_8009_eltufo"
+            ],
+            "isFlyEnemy": false,
+            "level": 0
+          },
+          "enemy_8008_eltswd": {
+            "isFlyEnemy": false,
+            "level": 0
+          },
+          "enemy_8009_eltufo": {
+            "isFlyEnemy": true,
+            "level": 0
+          },
           "enemy_10232_aglina": {
             "level": 0,
             "isFlyEnemy": true
