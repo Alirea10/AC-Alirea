@@ -277,7 +277,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05"
           },
           {
             "bossId": "boss_7",
@@ -429,7 +429,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05"
           },
           {
             "bossId": "boss_7",
@@ -581,7 +581,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05"
           },
           {
             "bossId": "boss_7",
@@ -716,7 +716,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05"
           },
           {
             "bossId": "boss_7",
@@ -868,7 +868,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05"
           },
           {
             "bossId": "boss_7",
@@ -1020,7 +1020,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06_S"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05_S"
           },
           {
             "bossId": "boss_7",
@@ -1267,7 +1267,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06_S"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05_S"
           },
           {
             "bossId": "boss_7",
@@ -1419,7 +1419,7 @@
           {
             "bossId": "boss_11",
             "isSpPrepare": false,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_06_S"
+            "levelId": "Activities/ACT2AUTOCHESS/level_act2autochess_h07_05_S"
           },
           {
             "bossId": "boss_7",
