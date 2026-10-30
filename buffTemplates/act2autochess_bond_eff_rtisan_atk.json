@@ -1,0 +1,95 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutochessAssignEquipCntToBlackboard, Assembly-CSharp",
+        "_onlyGoldenEquip": false,
+        "_blackboardKey": "equip_cnt",
+        "_targetType": "BUFF_OWNER"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutochessAssignEquipCntToBlackboard, Assembly-CSharp",
+        "_onlyGoldenEquip": true,
+        "_blackboardKey": "golden_equip_cnt",
+        "_targetType": "BUFF_OWNER"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_bondBlackboardKey": "none",
+        "_bondId": "rtisanShip",
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_checkDiffWithOldStoreCnt": false,
+        "_byPosition": false,
+        "_assignCurrentMaxBond": false,
+        "_assignAllPlayerIndex": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "bond_stack_cnt",
+        "_outputKey": "atk_per_equip",
+        "_multiplyParamKey": "atk_per_stack",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "atk_normal_equip",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "equip_cnt",
+        "_outputKey": "weighted_equip_cnt",
+        "_multiplyParamKey": null,
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "golden_equip_cnt",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "weighted_equip_cnt",
+        "_outputKey": "power_atk",
+        "_multiplyParamKey": "atk_per_equip",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "ATK",
+        "_valueKey": "power_atk",
+        "_formulaType": "MULTIPLIER"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act2autochess_bond_eff_rtisan_atk"
+}

@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "<在场及整备区合计有<@autochess.dgreen>2</>名不同【巧匠】干员>所有干员每携带<@autochess.dgreen>1</>件普通装备，攻击力<@ba.vup>+{0:0%}</>，精锐装备提供<@ba.vup>双倍</>加成，多件装备的加成可叠加\n<@ba.acrem>每层【巧匠】使每件普通装备的攻击力加成+1%，精锐装备的加成+2%</>",
+  "effectId": "bondeffect_rtisan",
+  "effectName": "巧匠",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}
