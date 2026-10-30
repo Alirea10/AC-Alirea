@@ -4,17 +4,27 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_sami_trait"
+      "valueStr": "act1autochess_rule_register"
     },
     {
-      "key": "sami_event",
+      "key": "rule_event",
       "value": 0,
-      "valueStr": "trait"
+      "valueStr": "register"
     },
     {
-      "key": "sami_trait",
+      "key": "rule_group",
       "value": 0,
-      "valueStr": "bibeak"
+      "valueStr": "sami_opening"
+    },
+    {
+      "key": "rule_id",
+      "value": 0,
+      "valueStr": "skill_layers"
+    },
+    {
+      "key": "rule_kind",
+      "value": 0,
+      "valueStr": "skill_roll"
     },
     {
       "key": "skill_interval",
@@ -22,19 +32,24 @@
       "valueStr": null
     },
     {
-      "key": "max_draws",
+      "key": "max_triggers",
       "value": 6,
       "valueStr": null
     },
     {
-      "key": "draw_min",
+      "key": "roll_min",
       "value": -8,
       "valueStr": null
     },
     {
-      "key": "draw_max",
+      "key": "roll_max",
       "value": 16,
       "valueStr": null
+    },
+    {
+      "key": "target_bonds",
+      "value": 0,
+      "valueStr": "samiShip,skillfulShip"
     }
   ],
   "charLevel": 0,

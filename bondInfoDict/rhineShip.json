@@ -1,9 +1,9 @@
 {
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
-  "activeCount": 1,
+  "activeCount": 3,
   "activeParamList": [
-    "2"
+    "3"
   ],
   "activeType": "BATTLE",
   "bondId": "rhineShip",
@@ -27,11 +27,19 @@
     "chess_char_6_16_a",
     "chess_char_6_16_b",
     "chess_char_6_11_a",
-    "chess_char_6_11_b"
+    "chess_char_6_11_b",
+    "chess_char_5_16_a",
+    "chess_char_5_16_b"
   ],
-  "desc": "",
-  "descParamBaseList": [],
-  "descParamPerStackList": [],
+  "desc": "【莱茵生命】干员造成伤害后，为自身攻击范围内随机<@autochess.dgreen>1</>名可治疗的友方恢复生命，治疗量相当于该次伤害的<@ba.vup>{0:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n【莱茵生命】干员造成治疗后，以受治疗者为中心，对周围<@autochess.dgreen>8</>格及其所在格内随机<@autochess.dgreen>1</>名敌方造成法术伤害，伤害量相当于该次治疗量的<@ba.vup>{1:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n<在场<@autochess.dgreen>6</>名不同【莱茵生命】干员>",
+  "descParamBaseList": [
+    "base_heal_ratio",
+    "base_damage_ratio"
+  ],
+  "descParamPerStackList": [
+    "heal_ratio_per_layer",
+    "damage_ratio_per_layer"
+  ],
   "effectId": "bondeffect_rhine",
   "iconId": "",
   "isActiveInDeck": false,

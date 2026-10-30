@@ -1,0 +1,27 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_FINISH": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+RemoveGlobalBuffByAlias, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_LATE_ENABLE": [
+      {
+        "_addImmediately": true,
+        "_excludeEquips": [],
+        "_filterItemLevelBb": "filter_item_level",
+        "_globalBuffAliasPrefix": "bond_eff_rtisan",
+        "_keyFilter": [
+          "env_gbuff_new_with_verify"
+        ],
+        "_originPosKey": "origin_pos",
+        "_sourceType": "BUFF_OWNER",
+        "_targetInSqrMagnitude": 2,
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessShareEquipEffect, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act2autochess_bond_eff_rtisan[buff]"
+}

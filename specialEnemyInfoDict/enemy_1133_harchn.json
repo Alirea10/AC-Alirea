@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1133_harchn"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1132_sarchn"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1133_harchn",
+  "type": "TIMES"
+}

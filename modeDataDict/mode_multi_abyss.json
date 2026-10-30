@@ -30,7 +30,11 @@
     "rhodesShip",
     "leithanienShip",
     "kazdelShip",
-    "samiShip"
+    "samiShip",
+    "rhineShip",
+    "scoutShip",
+    "rimBShip",
+    "rtisanShip"
   ],
   "backgroundId": "background_abyss",
   "code": "AC-4",
@@ -49,7 +53,7 @@
   "modeId": "mode_multi_abyss",
   "modeType": "MULTI",
   "name": "Alirea版-终极模拟",
-  "preposedMode": "mode_single_hard;mode_multi_hard",
+  "preposedMode": null,
   "sortId": 7,
   "specialPhaseTime": 16,
   "startTime": 1774598400,

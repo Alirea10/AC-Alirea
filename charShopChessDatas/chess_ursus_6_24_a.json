@@ -8,7 +8,7 @@
   "chessId": "chess_ursus_6_24_a",
   "chessLevel": 6,
   "chessType": "PRESET",
-  "defaultSkillIndex": 2,
+  "defaultSkillIndex": 0,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_ursus_6_24_b",
   "isHidden": false,

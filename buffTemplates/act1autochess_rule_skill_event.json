@@ -1,0 +1,13 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_SKILL_CAST_SUCCEED": [
+      {
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessTriggerGarrisonAbility, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_rule_skill_event"
+}

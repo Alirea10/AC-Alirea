@@ -1,0 +1,119 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "bond_id",
+        "_bondId": null,
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": false,
+        "_keyToStoreCnt": "stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": null,
+        "_dividedParamKey": "divide_num",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": true,
+        "_finalRound": false,
+        "_inputKey": "stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": "zero",
+        "_multiplyParamKey": null,
+        "_outputKey": "buff_stack",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": null,
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "atk_per_stack",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "buff_stack",
+        "_outputKey": "atk_bonus",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "atk_bonus",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "bond_id",
+        "_bondId": null,
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": false,
+        "_keyToStoreCnt": "stack_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": null,
+        "_dividedParamKey": "divide_num",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": true,
+        "_finalRound": false,
+        "_inputKey": "stack_cnt",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": "zero",
+        "_multiplyParamKey": null,
+        "_outputKey": "buff_stack",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_abilityName": "",
+        "_addParamKey": null,
+        "_dividedParamKey": null,
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "atk_per_stack",
+        "_maxValueKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "buff_stack",
+        "_outputKey": "atk_bonus",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_attributeType": "ATK",
+        "_formulaType": "MULTIPLIER",
+        "_targetType": "BUFF_OWNER",
+        "_valueKey": "atk_bonus",
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_rule_bond_growth"
+}

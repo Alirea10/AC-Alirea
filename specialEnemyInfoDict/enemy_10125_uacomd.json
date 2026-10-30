@@ -1,0 +1,14 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_10123_uareap",
+    "enemy_10124_uashld"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10121_uasnip",
+    "enemy_10120_uaghst"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10125_uacomd",
+  "type": "FLY"
+}

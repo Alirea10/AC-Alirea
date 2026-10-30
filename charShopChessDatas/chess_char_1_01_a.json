@@ -9,7 +9,7 @@
   "chessLevel": 1,
   "chessType": "PRESET",
   "defaultSkillIndex": 1,
-  "defaultUniEquipId": "uniequip_002_inside",
+  "defaultUniEquipId": "uniequip_001_inside",
   "goldenChessId": "chess_char_1_01_b",
   "isHidden": false,
   "shopLevelSortId": 1,

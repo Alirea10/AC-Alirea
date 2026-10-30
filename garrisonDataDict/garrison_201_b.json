@@ -4,26 +4,51 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_sami_trait"
+      "valueStr": "act1autochess_rule_register"
     },
     {
-      "key": "sami_event",
+      "key": "rule_event",
       "value": 0,
-      "valueStr": "trait"
+      "valueStr": "register"
     },
     {
-      "key": "sami_trait",
+      "key": "rule_group",
       "value": 0,
-      "valueStr": "typhon"
+      "valueStr": "sami_opening"
     },
     {
-      "key": "jackpot_threshold",
+      "key": "rule_id",
+      "value": 0,
+      "valueStr": "opening_reward"
+    },
+    {
+      "key": "rule_kind",
+      "value": 0,
+      "valueStr": "threshold_buff"
+    },
+    {
+      "key": "comparison",
+      "value": 0,
+      "valueStr": "ge"
+    },
+    {
+      "key": "threshold",
       "value": 40,
       "valueStr": null
     },
     {
-      "key": "damage_scale",
-      "value": 1.8,
+      "key": "buff_template",
+      "value": 0,
+      "valueStr": "act1autochess_rule_damage_scale"
+    },
+    {
+      "key": "buff_values",
+      "value": 0,
+      "valueStr": "{\"damage_scale\":1.8}"
+    },
+    {
+      "key": "restore_on_recreate",
+      "value": 1,
       "valueStr": null
     }
   ],

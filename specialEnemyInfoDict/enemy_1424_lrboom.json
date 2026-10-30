@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1222_dpvt",
+    "enemy_1220_dzoms"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1424_lrboom"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1424_lrboom",
+  "type": "SPECIAL"
+}

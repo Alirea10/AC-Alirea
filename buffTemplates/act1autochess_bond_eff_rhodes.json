@@ -208,13 +208,6 @@
         "_targetType": "BUFF_OWNER",
         "_valueKey": "real_atk2",
         "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
-      },
-      {
-        "_attributeType": "BLOCK_CNT",
-        "_formulaType": "ADDITION",
-        "_targetType": "BUFF_OWNER",
-        "_valueKey": "real_bond_cnt",
-        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp"
       }
     ]
   },

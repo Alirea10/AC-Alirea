@@ -1,10 +1,5 @@
 [
   {
-    "blackboard": [],
-    "countType": "NONE",
-    "key": "global_special_choice_all_activated"
-  },
-  {
     "blackboard": [
       {
         "key": "key",

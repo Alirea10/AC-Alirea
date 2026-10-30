@@ -4,7 +4,7 @@
   "bloodPointHard": 800000,
   "bloodPointNormal": 400000,
   "bossId": "boss_2",
-  "isHidingBoss": false,
+  "isHidingBoss": true,
   "sortId": 2,
   "weight": 6
 }

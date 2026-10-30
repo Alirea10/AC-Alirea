@@ -1,0 +1,122 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_LATE_ENABLE": [
+      {
+        "_conditionsNode": [
+          {
+            "_bondId": "rtisanShip",
+            "_condType": "GE",
+            "_filterAllSides": false,
+            "_filterCount": true,
+            "_keyToCompare": "power_bond_char_cnt",
+            "_keyToStoreCnt": "bond_char_cnt",
+            "_target": "BUFF_OWNER",
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+          },
+          {
+            "_anotherBuff": false,
+            "_anotherKeyToCompare": "power_bond_stack_cnt",
+            "_blackboardKey": "bond_stack_cnt",
+            "_buffKey": null,
+            "_condType": "GE",
+            "_targetType": "BUFF_OWNER",
+            "_valueToCompare": 0,
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+          },
+          {
+            "_anotherBuff": false,
+            "_anotherKeyToCompare": "power_bond_stack_cnt",
+            "_blackboardKey": "bond_stack_cnt2",
+            "_buffKey": null,
+            "_condType": "LT",
+            "_targetType": "BUFF_OWNER",
+            "_valueToCompare": 0,
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp"
+          }
+        ],
+        "_failNodes": null,
+        "_isAnd": true,
+        "_succeedNodes": [
+          {
+            "_buff": {
+              "attributes": {
+                "abnormalAntis": [],
+                "abnormalComboImmunes": [],
+                "abnormalCombos": [],
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "attributeModifiers": []
+              },
+              "audioSignal": null,
+              "blackboard": [],
+              "buffKey": "act2autochess_bond_eff_rtisan[buff]",
+              "clearAllStackCntWhenTimeUp": false,
+              "disableOverride": false,
+              "durationKey": "",
+              "enableInitDirectionFromSource": false,
+              "firstTriggerInterval": -1,
+              "independentCharacterSource": false,
+              "isDamageMissable": false,
+              "isDurableBuff": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "lifeTime": 0,
+              "lifeTimeType": "INFINITY",
+              "loadFromDB": false,
+              "maxStackCnt": 1,
+              "maxValidStackCnt": -1,
+              "onEventPriority": "DEFAULT",
+              "overrideEffectKey": null,
+              "overrideKey": null,
+              "overrideOnEventPriority": false,
+              "overrideType": "EXTEND",
+              "priority": -1,
+              "priorityBBKeys": [],
+              "refreshRemainingTimeWhenStackMax": false,
+              "statusResistable": "AUTOMATIC",
+              "stripBlackboardParamsWithBuffKey": false,
+              "takeSnapshotWhenExtend": false,
+              "templateKey": "act2autochess_bond_eff_rtisan[buff]",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "triggerLifeType": "IMMEDIATELY",
+              "waitFirstTriggerInterval": true
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_finishDerivedBuffIfParentFinish": true,
+            "_hookEffectKeyFromSourceProjectile": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_isDerivedBuff": true,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_useSpecialBuffSource": false,
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
+      }
+    ],
+    "ON_BUFF_START": [
+      {
+        "_blackboardKey": "equip_cnt",
+        "_onlyGoldenEquip": false,
+        "_targetType": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutochessAssignEquipCntToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_noVarShowWarning": true,
+        "_var": "equip_cnt",
+        "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp"
+      },
+      {
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true,
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act2autochess_bond_eff_rtisan"
+}

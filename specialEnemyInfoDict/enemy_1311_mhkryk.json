@@ -1,0 +1,16 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1307_mhrhcr",
+    "enemy_1309_mhboar",
+    "enemy_1310_mhprpn"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1303_mhshep",
+    "enemy_1304_mhwolf",
+    "enemy_1306_mhtrtl"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1311_mhkryk",
+  "type": "SPECIAL"
+}

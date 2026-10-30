@@ -4,32 +4,82 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_sami_trait"
+      "valueStr": "act1autochess_rule_register"
     },
     {
-      "key": "sami_event",
+      "key": "rule_event",
       "value": 0,
-      "valueStr": "trait"
+      "valueStr": "register"
     },
     {
-      "key": "sami_trait",
+      "key": "rule_group",
       "value": 0,
-      "valueStr": "qanik"
+      "valueStr": "sami_opening"
     },
     {
-      "key": "shield_per_bad",
+      "key": "rule_id",
+      "value": 0,
+      "valueStr": "negative_shield"
+    },
+    {
+      "key": "rule_kind",
+      "value": 0,
+      "valueStr": "count_buff"
+    },
+    {
+      "key": "priority",
       "value": 0.12,
       "valueStr": null
     },
     {
-      "key": "shield_duration",
+      "key": "comparison",
+      "value": 0,
+      "valueStr": "lt"
+    },
+    {
+      "key": "threshold",
+      "value": 0,
+      "valueStr": null
+    },
+    {
+      "key": "count_mode",
+      "value": 0,
+      "valueStr": "character"
+    },
+    {
+      "key": "count_cap",
+      "value": 3,
+      "valueStr": null
+    },
+    {
+      "key": "hp_ratio",
+      "value": 0.12,
+      "valueStr": null
+    },
+    {
+      "key": "duration",
       "value": 30,
       "valueStr": null
     },
     {
-      "key": "bad_cap",
-      "value": 3,
-      "valueStr": null
+      "key": "target",
+      "value": 0,
+      "valueStr": "group"
+    },
+    {
+      "key": "buff_template",
+      "value": 0,
+      "valueStr": "act1autochess_rule_shield"
+    },
+    {
+      "key": "buff_values",
+      "value": 0,
+      "valueStr": "{}"
+    },
+    {
+      "key": "buff_value_key",
+      "value": 0,
+      "valueStr": "dynamic"
     }
   ],
   "charLevel": 0,

@@ -1,5 +1,5 @@
 {
-  "backupCharId": "chess_hero_6_34_a",
+  "backupCharId": "char_4138_narant",
   "backupCharPotRank": 0,
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
@@ -8,7 +8,7 @@
   "chessId": "chess_hero_6_34_a",
   "chessLevel": 6,
   "chessType": "PRESET",
-  "defaultSkillIndex": 0,
+  "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_narant",
   "goldenChessId": "chess_hero_6_34_b",
   "isHidden": false,

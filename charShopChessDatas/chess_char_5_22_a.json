@@ -8,7 +8,7 @@
   "chessId": "chess_char_5_22_a",
   "chessLevel": 5,
   "chessType": "NORMAL",
-  "defaultSkillIndex": 1,
+  "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_nymph",
   "goldenChessId": "chess_char_5_22_b",
   "isHidden": false,

@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_7004_xbdeer"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_2133_shdopl"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_2133_shdopl",
+  "type": "ELEMENT"
+}

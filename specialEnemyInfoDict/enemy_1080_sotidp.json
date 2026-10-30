@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1083_sotiab",
+    "enemy_1080_sotidp"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1078_sotisc"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1080_sotidp",
+  "type": "REFLECTION"
+}

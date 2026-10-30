@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1132_sarchn"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1130_infstr"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1131_sbeast",
+  "type": "TIMES"
+}

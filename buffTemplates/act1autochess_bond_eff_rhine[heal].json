@@ -1,0 +1,31 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_healValueKey": "real_heal",
+        "_ignoreHealFree": false,
+        "_sourceType": "SOURCE",
+        "_targetType": "TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+FixedValueHeal, Assembly-CSharp"
+      },
+      {
+        "_blackboardKey": "",
+        "_constDirection": "UP",
+        "_createEffectHoldBySource": false,
+        "_effectKey": "common_heal_hit_01",
+        "_manualSetPlaybackSpeed": false,
+        "_playbackSpeed": 1,
+        "_sourceType": "SOURCE",
+        "_targetType": "TARGET",
+        "_useAttackPlaybackSpeed": false,
+        "_useConstDirection": false,
+        "_useSourceFaceVactor": false,
+        "_useSourceToTargetDirection": false,
+        "$type": "Torappu.Battle.Action.Nodes+CreateEffect, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_rhine[heal]"
+}

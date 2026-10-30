@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1111_ucommd"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10120_uaghst"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10121_uasnip",
+  "type": "SPECIAL"
+}

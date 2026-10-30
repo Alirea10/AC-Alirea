@@ -1,0 +1,47 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "_blackboardKey": "",
+        "_constDirection": "UP",
+        "_createEffectHoldBySource": false,
+        "_effectKey": "common_magic_hit_01",
+        "_manualSetPlaybackSpeed": false,
+        "_playbackSpeed": 1,
+        "_sourceType": "BUFF_OWNER",
+        "_targetType": "BUFF_OWNER",
+        "_useAttackPlaybackSpeed": false,
+        "_useConstDirection": false,
+        "_useSourceFaceVactor": false,
+        "_useSourceToTargetDirection": false,
+        "$type": "Torappu.Battle.Action.Nodes+CreateEffect, Assembly-CSharp"
+      },
+      {
+        "_assignFinalDamageToBB": false,
+        "_assignRealDamageToBB": false,
+        "_attackType": "ADDITION",
+        "_considerUnhurtable": false,
+        "_damageKey": "real_damage",
+        "_damageSourceType": "SOURCE",
+        "_damageTargetType": "TARGET",
+        "_damageType": "MAGICAL",
+        "_devideDamageFromAbilityCnt": false,
+        "_forceDisplayDamageNum": true,
+        "_ignoreCancelReasonMask": "NONE",
+        "_ignoreForSp": false,
+        "_isEnvDamage": false,
+        "_modifierKey": "rhine_generated_damage",
+        "_multiplierByKey": false,
+        "_multiplierKey": "cnt",
+        "_noSourceDamage": false,
+        "_skipModifierEvent": false,
+        "_targetType": "BUFF_OWNER",
+        "_triggerOnCalculateDamage": false,
+        "$type": "Torappu.Battle.Action.Nodes+FixedValueDamage, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_bond_eff_rhine[dmg]"
+}

@@ -13,7 +13,7 @@
     },
     {
       "key": "multi",
-      "value": 3,
+      "value": 6,
       "valueStr": null
     },
     {
@@ -23,11 +23,11 @@
     }
   ],
   "charLevel": 0,
-  "description": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】/【助力】层数<@ba.vup>+3</>",
+  "description": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】层数<@ba.vup>+6</>/【助力】层数<@ba.vup>+3</>",
   "effectType": "SERVER_ADD_BOND_METHOD",
   "eventType": "SERVER_PREP_FIN",
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】/【助力】层数<@ba.vup>+3</>"
+  "garrisonDesc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】层数<@ba.vup>+6</>/【助力】层数<@ba.vup>+3</>"
 }

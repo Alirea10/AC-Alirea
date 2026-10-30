@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_449_glider",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_449_glider",
+  "chessId": "chess_rimB_2_27_a",
+  "chessLevel": 2,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_glider",
+  "goldenChessId": "chess_rimB_2_27_b",
+  "isHidden": false,
+  "shopLevelSortId": 27,
+  "tmplId": null
+}

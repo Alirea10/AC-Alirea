@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_2136_shcolo",
+    "enemy_2135_shkrbt"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_2134_shrshep"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_2137_shsdgo",
+  "type": "FLY"
+}

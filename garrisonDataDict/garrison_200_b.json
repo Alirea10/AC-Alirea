@@ -4,25 +4,55 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_sami_trait"
+      "valueStr": "act1autochess_rule_register"
     },
     {
-      "key": "sami_event",
+      "key": "rule_event",
       "value": 0,
-      "valueStr": "trait"
+      "valueStr": "register"
     },
     {
-      "key": "sami_trait",
+      "key": "rule_group",
       "value": 0,
-      "valueStr": "threye"
+      "valueStr": "sami_opening"
     },
     {
-      "key": "bet_gain",
+      "key": "rule_id",
+      "value": 0,
+      "valueStr": "front_wager"
+    },
+    {
+      "key": "rule_kind",
+      "value": 0,
+      "valueStr": "result_offset"
+    },
+    {
+      "key": "priority",
       "value": 50,
       "valueStr": null
     },
     {
-      "key": "bet_loss",
+      "key": "target",
+      "value": 0,
+      "valueStr": "front"
+    },
+    {
+      "key": "chance_wins",
+      "value": 1,
+      "valueStr": null
+    },
+    {
+      "key": "chance_sides",
+      "value": 2,
+      "valueStr": null
+    },
+    {
+      "key": "gain",
+      "value": 50,
+      "valueStr": null
+    },
+    {
+      "key": "loss",
       "value": 30,
       "valueStr": null
     }

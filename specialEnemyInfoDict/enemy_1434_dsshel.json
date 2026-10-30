@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1436_dsdivi"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1433_dsbasi"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1434_dsshel",
+  "type": "TIMES"
+}

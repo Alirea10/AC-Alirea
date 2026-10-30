@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1349_rckshp",
+    "enemy_1346_ynshp"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1344_ddlamb"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1345_tplamb",
+  "type": "DOT"
+}

@@ -1,11 +1,13 @@
 {
   "chessId": "chess_rhine_2_26_a",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_208_a"
+  ],
   "isGolden": false,
   "status": {
-    "charLevel": 60,
+    "charLevel": 1,
     "equipLevel": 0,
-    "evolvePhase": "PHASE_1",
+    "evolvePhase": "PHASE_2",
     "favorPoint": 0,
     "skillLevel": 4
   },

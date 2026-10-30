@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1277_sgman_2",
+    "enemy_1279_sgbdg_2"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1278_sgbow"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1277_sgman_2",
+  "type": "TIMES"
+}

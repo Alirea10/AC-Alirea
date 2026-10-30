@@ -1,0 +1,28 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_scout"
+      },
+      {
+        "key": "atk_per_layer",
+        "value": 0.003,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 3,
+        "valueStr": null
+      },
+      {
+        "key": "zero",
+        "value": 0,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "effectKey": "",
+  "eventToActions": {
+    "ON_TAKE_DAMAGE": [
+      {
+        "_allowNegativeDynamicVar": false,
+        "_applyWayFilter": "NONE",
+        "_damageMask": "PHYSICAL",
+        "_filterApplyWay": false,
+        "_filterDamageType": false,
+        "_showDamageNumber": false,
+        "_showShieldUI": true,
+        "_sourceType": "SOURCE",
+        "_specifyBlockEffect": null,
+        "_useDynamicVar": true,
+        "_useFixedValue": false,
+        "_useSource": false,
+        "$type": "Torappu.Battle.Action.Nodes+BlockDamage, Assembly-CSharp"
+      },
+      {
+        "_noVarShowWarning": true,
+        "_var": "dynamic",
+        "$type": "Torappu.Battle.Action.Nodes+IsBlackboardZero, Assembly-CSharp"
+      },
+      {
+        "_decCntIfStack": false,
+        "_updateOverrideMap": true,
+        "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp"
+      }
+    ]
+  },
+  "onEventPriority": "DEFAULT",
+  "templateKey": "act1autochess_rule_shield"
+}

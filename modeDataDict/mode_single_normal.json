@@ -26,7 +26,15 @@
     "rainbowShip",
     "ursusShip",
     "rhodesShip",
-    "samiShip"
+    "samiShip",
+    "rhineShip",
+    "mujicaShip",
+    "scoutShip",
+    "starCrownShip",
+    "leithanienShip",
+    "kazdelShip",
+    "rimBShip",
+    "rtisanShip"
   ],
   "backgroundId": "background_funny",
   "code": "Level-14 天堂",

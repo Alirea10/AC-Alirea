@@ -1,6 +1,533 @@
 {
   "effectKey": "",
   "eventToActions": {
+    "ON_AFTER_OUTPUT_DAMAGE": [
+      {
+        "_bondId": "rimBShip",
+        "_condType": "GE",
+        "_filterAllSides": false,
+        "_filterCount": true,
+        "_keyToCompare": "power_bond_char_cnt",
+        "_keyToStoreCnt": "bond_char_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+      },
+      {
+        "_applyWay": "NONE",
+        "_attackTypeFilter": "SPLASH",
+        "_checkHasScource": false,
+        "_damageMask": "PHYSICAL",
+        "_filterApplyWay": false,
+        "_filterAttackType": true,
+        "_filterBySourceId": false,
+        "_filterDamageType": true,
+        "_filterModifierCancelled": true,
+        "_filterModifierSource": false,
+        "_filterSharedMask": false,
+        "_isNoSource": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_source": "BUFF_OWNER",
+        "_sourceId": null,
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp"
+      },
+      {
+        "_assignString": false,
+        "_blackboardKey": "def",
+        "_copyFromKey": null,
+        "_value": -0.2,
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+      },
+      {
+        "_assignString": false,
+        "_blackboardKey": "magic_resistance",
+        "_copyFromKey": null,
+        "_value": -0.2,
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+      },
+      {
+        "_buff": {
+          "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "attributeModifiers": [
+              {
+                "attributeType": "DEF",
+                "fetchBaseValueFromSourceEntity": false,
+                "formulaItem": "MULTIPLIER",
+                "loadFromBlackboard": true,
+                "value": 0
+              },
+              {
+                "attributeType": "MAGIC_RESISTANCE",
+                "fetchBaseValueFromSourceEntity": false,
+                "formulaItem": "MULTIPLIER",
+                "loadFromBlackboard": true,
+                "value": 0
+              }
+            ]
+          },
+          "audioSignal": null,
+          "blackboard": [
+            {
+              "key": "rimB_debuff_duration",
+              "value": 5,
+              "valueStr": null
+            }
+          ],
+          "buffKey": "rimB_area_debuff",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": "rimB_debuff_duration",
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "LIMITED",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": "",
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "EXTEND",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": true,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "act1autochess_bond_eff_rimB[debuff]",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "triggerLifeType": "IMMEDIATELY",
+          "waitFirstTriggerInterval": true
+        },
+        "_buffOwner": "MODIFIER_TARGET",
+        "_finishDerivedBuffIfParentFinish": false,
+        "_hookEffectKeyFromSourceProjectile": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_isDerivedBuff": false,
+        "_specialBuffSource": "BUFF_OWNER",
+        "_useSpecialBuffSource": true,
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+      }
+    ],
+    "ON_AUTO_CHESS_MODE_CHANGED": [
+      {
+        "_bondId": "rimBShip",
+        "_condType": "GE",
+        "_filterAllSides": false,
+        "_filterCount": true,
+        "_keyToCompare": "power_bond_char_cnt",
+        "_keyToStoreCnt": "bond_char_cnt",
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+      },
+      {
+        "_actionTargetType": "BUFF_OWNER",
+        "_blackboardKey": "player_side",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignTargetPlayerSideToBlackboard, Assembly-CSharp"
+      },
+      {
+        "_conditionNode": {
+          "_buffKey": "",
+          "_compareBBKey": null,
+          "_compareValue": "SIDE_A",
+          "_useBuffBlackboard": false,
+          "_var": "player_side",
+          "$type": "Torappu.Battle.Action.Nodes+IsBlackboardEqualWithString, Assembly-CSharp"
+        },
+        "_failNodes": [
+          {
+            "_blackboardKey": "side_b_rimB_messenger",
+            "_channel": "AUTOCHESS",
+            "_condType": "EQUALS",
+            "_valueToCompare": 1,
+            "$type": "Torappu.Battle.Action.Nodes+FilterByGlobalBlackboard, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+          },
+          {
+            "_addBuffsSource": "BUFF_OWNER",
+            "_alwaysCountAsKilled": false,
+            "_avoidHighland": false,
+            "_buffs": [
+              {
+                "attributes": {
+                  "abnormalAntis": [],
+                  "abnormalComboImmunes": [],
+                  "abnormalCombos": [],
+                  "abnormalFlags": [],
+                  "abnormalImmunes": [],
+                  "attributeModifiers": []
+                },
+                "audioSignal": null,
+                "blackboard": [
+                  {
+                    "key": "base_float_damage",
+                    "value": 750,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "float_damage_per_layer",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "rimB_messenger_watch_window",
+                    "value": 16,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_level_step",
+                    "value": 100,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_zero",
+                    "value": 0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_per_level",
+                    "value": 1,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_target_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_attack_speed_base",
+                    "value": 20,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_attack_speed_per_level",
+                    "value": 20,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_sp_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_sp_per_level",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_float_duration_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_slow_duration_base",
+                    "value": 4,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_bonus_duration_base",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_target_base",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_float_duration_base",
+                    "value": 8,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_slow_duration_base",
+                    "value": 12,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_slow_duration_per_level",
+                    "value": 4,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  },
+                  {
+                    "key": "messenger_attack_speed_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  },
+                  {
+                    "key": "messenger_sp_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  }
+                ],
+                "buffKey": "rimB_messenger_mark",
+                "clearAllStackCntWhenTimeUp": false,
+                "disableOverride": false,
+                "durationKey": null,
+                "enableInitDirectionFromSource": false,
+                "firstTriggerInterval": -1,
+                "independentCharacterSource": false,
+                "isDamageMissable": false,
+                "isDurableBuff": false,
+                "isFreezable": false,
+                "isLevitatable": false,
+                "isSilenceable": false,
+                "isStunnable": false,
+                "lifeTime": 0,
+                "lifeTimeType": "INFINITY",
+                "loadFromDB": false,
+                "maxStackCnt": 1,
+                "maxValidStackCnt": -1,
+                "onEventPriority": "DEFAULT",
+                "overrideEffectKey": "",
+                "overrideKey": null,
+                "overrideOnEventPriority": false,
+                "overrideType": "UNIQUE",
+                "priority": -1,
+                "priorityBBKeys": [],
+                "refreshRemainingTimeWhenStackMax": false,
+                "statusResistable": "AUTOMATIC",
+                "stripBlackboardParamsWithBuffKey": false,
+                "takeSnapshotWhenExtend": false,
+                "templateKey": "act1autochess_bond_eff_rimB[messenger]",
+                "triggerCnt": 0,
+                "triggerInterval": 0.5,
+                "triggerLifeType": "INFINITY",
+                "waitFirstTriggerInterval": true
+              }
+            ],
+            "_changeSpawnCertainPos": false,
+            "_enemyKey": "enemy_10232_aglina",
+            "_force": true,
+            "_host": "BUFF_OWNER",
+            "_motionMode": "FLY",
+            "_noEndPosition": true,
+            "_selectTileInSnapshot": false,
+            "_source": "BUFF_OWNER",
+            "_spawnCertainOffsetX": 0,
+            "_spawnCertainOffsetY": 0,
+            "_spawnOffset": 0.2,
+            "_target": "BUFF_OWNER",
+            "_unharmful": true,
+            "_useRandomEnemy": false,
+            "_useSourceEndPosition": false,
+            "_useSpecialHost": false,
+            "_waitTime": 9999,
+            "$type": "Torappu.Battle.Action.Nodes+SummonEnemyWithRuntimeRoute, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "_blackboardKey": "side_a_rimB_messenger",
+            "_channel": "AUTOCHESS",
+            "_condType": "EQUALS",
+            "_valueToCompare": 1,
+            "$type": "Torappu.Battle.Action.Nodes+FilterByGlobalBlackboard, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+          },
+          {
+            "_addBuffsSource": "BUFF_OWNER",
+            "_alwaysCountAsKilled": false,
+            "_avoidHighland": false,
+            "_buffs": [
+              {
+                "attributes": {
+                  "abnormalAntis": [],
+                  "abnormalComboImmunes": [],
+                  "abnormalCombos": [],
+                  "abnormalFlags": [],
+                  "abnormalImmunes": [],
+                  "attributeModifiers": []
+                },
+                "audioSignal": null,
+                "blackboard": [
+                  {
+                    "key": "base_float_damage",
+                    "value": 750,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "float_damage_per_layer",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "rimB_messenger_watch_window",
+                    "value": 16,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_level_step",
+                    "value": 100,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_zero",
+                    "value": 0,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_per_level",
+                    "value": 1,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_target_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_attack_speed_base",
+                    "value": 20,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_attack_speed_per_level",
+                    "value": 20,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_sp_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_sp_per_level",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_float_duration_base",
+                    "value": 2,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_slow_duration_base",
+                    "value": 4,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_bonus_duration_base",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_target_base",
+                    "value": 10,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_float_duration_base",
+                    "value": 8,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_slow_duration_base",
+                    "value": 12,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_special_slow_duration_per_level",
+                    "value": 4,
+                    "valueStr": null
+                  },
+                  {
+                    "key": "messenger_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  },
+                  {
+                    "key": "messenger_attack_speed_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  },
+                  {
+                    "key": "messenger_sp_per_level.stack_step",
+                    "value": 0,
+                    "valueStr": "messenger_level_step"
+                  }
+                ],
+                "buffKey": "rimB_messenger_mark",
+                "clearAllStackCntWhenTimeUp": false,
+                "disableOverride": false,
+                "durationKey": null,
+                "enableInitDirectionFromSource": false,
+                "firstTriggerInterval": -1,
+                "independentCharacterSource": false,
+                "isDamageMissable": false,
+                "isDurableBuff": false,
+                "isFreezable": false,
+                "isLevitatable": false,
+                "isSilenceable": false,
+                "isStunnable": false,
+                "lifeTime": 0,
+                "lifeTimeType": "INFINITY",
+                "loadFromDB": false,
+                "maxStackCnt": 1,
+                "maxValidStackCnt": -1,
+                "onEventPriority": "DEFAULT",
+                "overrideEffectKey": "",
+                "overrideKey": null,
+                "overrideOnEventPriority": false,
+                "overrideType": "UNIQUE",
+                "priority": -1,
+                "priorityBBKeys": [],
+                "refreshRemainingTimeWhenStackMax": false,
+                "statusResistable": "AUTOMATIC",
+                "stripBlackboardParamsWithBuffKey": false,
+                "takeSnapshotWhenExtend": false,
+                "templateKey": "act1autochess_bond_eff_rimB[messenger]",
+                "triggerCnt": 0,
+                "triggerInterval": 0.5,
+                "triggerLifeType": "INFINITY",
+                "waitFirstTriggerInterval": true
+              }
+            ],
+            "_changeSpawnCertainPos": false,
+            "_enemyKey": "enemy_10232_aglina",
+            "_force": true,
+            "_host": "BUFF_OWNER",
+            "_motionMode": "FLY",
+            "_noEndPosition": true,
+            "_selectTileInSnapshot": false,
+            "_source": "BUFF_OWNER",
+            "_spawnCertainOffsetX": 0,
+            "_spawnCertainOffsetY": 0,
+            "_spawnOffset": 0.2,
+            "_target": "BUFF_OWNER",
+            "_unharmful": true,
+            "_useRandomEnemy": false,
+            "_useSourceEndPosition": false,
+            "_useSpecialHost": false,
+            "_waitTime": 9999,
+            "$type": "Torappu.Battle.Action.Nodes+SummonEnemyWithRuntimeRoute, Assembly-CSharp"
+          }
+        ],
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
+      }
+    ],
     "ON_BUFF_START": [
       {
         "_conditionsNode": [
@@ -101,71 +628,6 @@
         "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
       }
     ],
-    "ON_TAKE_DAMAGE": [
-      {
-        "_assignAllPlayerIndex": false,
-        "_assignCurrentMaxBond": false,
-        "_bondBlackboardKey": "none",
-        "_bondId": "rimBShip",
-        "_byPosition": false,
-        "_checkDiffWithOldStoreCnt": false,
-        "_keyToStoreCnt": "bond_stack_cnt",
-        "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
-      },
-      {
-        "_abilityName": "",
-        "_addParamKey": "base_dodge",
-        "_dividedParamKey": null,
-        "_finalAbs": true,
-        "_finalCeil": false,
-        "_finalFloor": false,
-        "_finalRound": false,
-        "_inputKey": "bond_stack_cnt",
-        "_maxValueKey": "base_hitrate",
-        "_minusParamKey": null,
-        "_minValueKey": null,
-        "_multiplyParamKey": "dodge_per_layer",
-        "_outputKey": "real_dodge",
-        "_useAbilityBlackboard": false,
-        "_useRemainder": false,
-        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
-      },
-      {
-        "_assignString": false,
-        "_blackboardKey": "prob",
-        "_copyFromKey": "real_dodge",
-        "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
-      },
-      {
-        "_conditionNode": {
-          "_bondId": "rimBShip",
-          "_condType": "GE",
-          "_filterAllSides": false,
-          "_filterCount": true,
-          "_keyToCompare": "power_bond_char_cnt",
-          "_keyToStoreCnt": "bond_char_cnt",
-          "_target": "BUFF_OWNER",
-          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
-        },
-        "_succeedNodes": [
-          {
-            "$type": "Torappu.Battle.Action.Nodes+Evade, Assembly-CSharp",
-            "_damageMask": "PHYSICAL_AND_MAGICAL",
-            "_applyWayFilter": "ALL"
-          }
-        ],
-        "_failNodes": [
-          {
-            "$type": "Torappu.Battle.Action.Nodes+Evade, Assembly-CSharp",
-            "_damageMask": "PHYSICAL",
-            "_applyWayFilter": "ALL"
-          }
-        ],
-        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
-      }
-    ],
     "ON_EVADE_DAMAGE": [
       {
         "_buff": {
@@ -215,537 +677,75 @@
           "waitFirstTriggerInterval": true
         },
         "_buffOwner": "BUFF_OWNER",
-        "_useSpecialBuffSource": true,
-        "_specialBuffSource": "BUFF_OWNER",
-        "_isDerivedBuff": true,
         "_finishDerivedBuffIfParentFinish": true,
-        "_inherateSourceProjectileFromParentBuff": false,
         "_hookEffectKeyFromSourceProjectile": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
-      }
-    ],
-    "ON_AFTER_OUTPUT_DAMAGE": [
-      {
-        "_bondId": "rimBShip",
-        "_condType": "GE",
-        "_filterAllSides": false,
-        "_filterCount": true,
-        "_keyToCompare": "power_bond_char_cnt",
-        "_keyToStoreCnt": "bond_char_cnt",
-        "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
-      },
-      {
-        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
-        "_filterAttackType": true,
-        "_attackTypeFilter": "SPLASH",
-        "_filterDamageType": true,
-        "_damageMask": "PHYSICAL",
-        "_filterSharedMask": false,
-        "_sharedFlag": "IS_CONTINUOUS",
-        "_filterModifierSource": false,
-        "_source": "BUFF_OWNER",
-        "_filterBySourceId": false,
-        "_sourceId": null,
-        "_checkHasScource": false,
-        "_isNoSource": false,
-        "_filterModifierCancelled": true,
-        "_filterApplyWay": false,
-        "_applyWay": "NONE"
-      },
-      {
-        "_assignString": false,
-        "_blackboardKey": "def",
-        "_copyFromKey": null,
-        "_value": -0.2,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
-      },
-      {
-        "_assignString": false,
-        "_blackboardKey": "magic_resistance",
-        "_copyFromKey": null,
-        "_value": -0.2,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
-      },
-      {
-        "_buff": {
-          "attributes": {
-            "abnormalAntis": [],
-            "abnormalComboImmunes": [],
-            "abnormalCombos": [],
-            "abnormalFlags": [],
-            "abnormalImmunes": [],
-            "attributeModifiers": [
-              {
-                "attributeType": "DEF",
-                "formulaItem": "MULTIPLIER",
-                "value": 0,
-                "loadFromBlackboard": true,
-                "fetchBaseValueFromSourceEntity": false
-              },
-              {
-                "attributeType": "MAGIC_RESISTANCE",
-                "formulaItem": "MULTIPLIER",
-                "value": 0,
-                "loadFromBlackboard": true,
-                "fetchBaseValueFromSourceEntity": false
-              }
-            ]
-          },
-          "audioSignal": null,
-          "blackboard": [
-            {
-              "key": "rimB_debuff_duration",
-              "value": 5,
-              "valueStr": null
-            }
-          ],
-          "buffKey": "rimB_area_debuff",
-          "clearAllStackCntWhenTimeUp": false,
-          "disableOverride": false,
-          "durationKey": "rimB_debuff_duration",
-          "enableInitDirectionFromSource": false,
-          "firstTriggerInterval": -1,
-          "independentCharacterSource": false,
-          "isDamageMissable": false,
-          "isDurableBuff": false,
-          "isFreezable": false,
-          "isLevitatable": false,
-          "isSilenceable": false,
-          "isStunnable": false,
-          "lifeTime": 0,
-          "lifeTimeType": "LIMITED",
-          "loadFromDB": false,
-          "maxStackCnt": 1,
-          "maxValidStackCnt": -1,
-          "onEventPriority": "DEFAULT",
-          "overrideEffectKey": "",
-          "overrideKey": null,
-          "overrideOnEventPriority": false,
-          "overrideType": "EXTEND",
-          "priority": -1,
-          "priorityBBKeys": [],
-          "refreshRemainingTimeWhenStackMax": true,
-          "statusResistable": "AUTOMATIC",
-          "stripBlackboardParamsWithBuffKey": false,
-          "takeSnapshotWhenExtend": false,
-          "templateKey": "act1autochess_bond_eff_rimB[debuff]",
-          "triggerCnt": 0,
-          "triggerInterval": -1,
-          "triggerLifeType": "IMMEDIATELY",
-          "waitFirstTriggerInterval": true
-        },
-        "_buffOwner": "MODIFIER_TARGET",
-        "_useSpecialBuffSource": true,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_isDerivedBuff": true,
         "_specialBuffSource": "BUFF_OWNER",
-        "_isDerivedBuff": false,
-        "_finishDerivedBuffIfParentFinish": false,
-        "_inherateSourceProjectileFromParentBuff": false,
-        "_hookEffectKeyFromSourceProjectile": false,
+        "_useSpecialBuffSource": true,
         "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
       }
     ],
-    "ON_AUTO_CHESS_MODE_CHANGED": [
+    "ON_TAKE_DAMAGE": [
       {
+        "_assignAllPlayerIndex": false,
+        "_assignCurrentMaxBond": false,
+        "_bondBlackboardKey": "none",
         "_bondId": "rimBShip",
-        "_condType": "GE",
-        "_filterAllSides": false,
-        "_filterCount": true,
-        "_keyToCompare": "power_bond_char_cnt",
-        "_keyToStoreCnt": "bond_char_cnt",
+        "_byPosition": false,
+        "_checkDiffWithOldStoreCnt": false,
+        "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
       },
       {
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignTargetPlayerSideToBlackboard, Assembly-CSharp",
-        "_actionTargetType": "BUFF_OWNER",
-        "_blackboardKey": "player_side"
+        "_abilityName": "",
+        "_addParamKey": "base_dodge",
+        "_dividedParamKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_inputKey": "bond_stack_cnt",
+        "_maxValueKey": "base_hitrate",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_multiplyParamKey": "dodge_per_layer",
+        "_outputKey": "real_dodge",
+        "_useAbilityBlackboard": false,
+        "_useRemainder": false,
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
+      },
+      {
+        "_assignString": false,
+        "_blackboardKey": "prob",
+        "_copyFromKey": "real_dodge",
+        "_value": 0,
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
       },
       {
         "_conditionNode": {
-          "$type": "Torappu.Battle.Action.Nodes+IsBlackboardEqualWithString, Assembly-CSharp",
-          "_var": "player_side",
-          "_compareValue": "SIDE_A",
-          "_compareBBKey": null,
-          "_useBuffBlackboard": false,
-          "_buffKey": ""
+          "_bondId": "rimBShip",
+          "_condType": "GE",
+          "_filterAllSides": false,
+          "_filterCount": true,
+          "_keyToCompare": "power_bond_char_cnt",
+          "_keyToStoreCnt": "bond_char_cnt",
+          "_target": "BUFF_OWNER",
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
         },
-        "_succeedNodes": [
-          {
-            "$type": "Torappu.Battle.Action.Nodes+FilterByGlobalBlackboard, Assembly-CSharp",
-            "_blackboardKey": "side_a_rimB_messenger",
-            "_channel": "AUTOCHESS",
-            "_valueToCompare": 1,
-            "_condType": "EQUALS"
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+SummonEnemyWithRuntimeRoute, Assembly-CSharp",
-            "_source": "BUFF_OWNER",
-            "_target": "BUFF_OWNER",
-            "_useSpecialHost": false,
-            "_host": "BUFF_OWNER",
-            "_useRandomEnemy": false,
-            "_enemyKey": "enemy_10232_aglina",
-            "_motionMode": "FLY",
-            "_unharmful": true,
-            "_alwaysCountAsKilled": false,
-            "_waitTime": 9999,
-            "_spawnOffset": 0.2,
-            "_selectTileInSnapshot": false,
-            "_useSourceEndPosition": false,
-            "_avoidHighland": false,
-            "_noEndPosition": true,
-            "_force": true,
-            "_addBuffsSource": "BUFF_OWNER",
-            "_changeSpawnCertainPos": false,
-            "_spawnCertainOffsetX": 0,
-            "_spawnCertainOffsetY": 0,
-            "_buffs": [
-              {
-                "attributes": {
-                  "abnormalAntis": [],
-                  "abnormalComboImmunes": [],
-                  "abnormalCombos": [],
-                  "abnormalFlags": [],
-                  "abnormalImmunes": [],
-                  "attributeModifiers": []
-                },
-                "audioSignal": null,
-                "blackboard": [
-                  {
-                    "key": "base_float_damage",
-                    "value": 750,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "float_damage_per_layer",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "rimB_messenger_watch_window",
-                    "value": 16,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_level_step",
-                    "value": 100,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_zero",
-                    "value": 0,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_per_level",
-                    "value": 1,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_target_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_attack_speed_base",
-                    "value": 20,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_attack_speed_per_level",
-                    "value": 20,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_sp_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_sp_per_level",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_float_duration_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_slow_duration_base",
-                    "value": 4,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_bonus_duration_base",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_target_base",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_float_duration_base",
-                    "value": 8,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_slow_duration_base",
-                    "value": 12,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_slow_duration_per_level",
-                    "value": 4,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  },
-                  {
-                    "key": "messenger_attack_speed_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  },
-                  {
-                    "key": "messenger_sp_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  }
-                ],
-                "buffKey": "rimB_messenger_mark",
-                "clearAllStackCntWhenTimeUp": false,
-                "disableOverride": false,
-                "durationKey": null,
-                "enableInitDirectionFromSource": false,
-                "firstTriggerInterval": -1,
-                "independentCharacterSource": false,
-                "isDamageMissable": false,
-                "isDurableBuff": false,
-                "isFreezable": false,
-                "isLevitatable": false,
-                "isSilenceable": false,
-                "isStunnable": false,
-                "lifeTime": 0,
-                "lifeTimeType": "INFINITY",
-                "loadFromDB": false,
-                "maxStackCnt": 1,
-                "maxValidStackCnt": -1,
-                "onEventPriority": "DEFAULT",
-                "overrideEffectKey": "",
-                "overrideKey": null,
-                "overrideOnEventPriority": false,
-                "overrideType": "UNIQUE",
-                "priority": -1,
-                "priorityBBKeys": [],
-                "refreshRemainingTimeWhenStackMax": false,
-                "statusResistable": "AUTOMATIC",
-                "stripBlackboardParamsWithBuffKey": false,
-                "takeSnapshotWhenExtend": false,
-                "templateKey": "act1autochess_bond_eff_rimB[messenger]",
-                "triggerCnt": 0,
-                "triggerInterval": 0.5,
-                "triggerLifeType": "INFINITY",
-                "waitFirstTriggerInterval": true
-              }
-            ]
-          }
-        ],
         "_failNodes": [
           {
-            "$type": "Torappu.Battle.Action.Nodes+FilterByGlobalBlackboard, Assembly-CSharp",
-            "_blackboardKey": "side_b_rimB_messenger",
-            "_channel": "AUTOCHESS",
-            "_valueToCompare": 1,
-            "_condType": "EQUALS"
-          },
+            "_applyWayFilter": "ALL",
+            "_damageMask": "PHYSICAL",
+            "$type": "Torappu.Battle.Action.Nodes+Evade, Assembly-CSharp"
+          }
+        ],
+        "_succeedNodes": [
           {
-            "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+SummonEnemyWithRuntimeRoute, Assembly-CSharp",
-            "_source": "BUFF_OWNER",
-            "_target": "BUFF_OWNER",
-            "_useSpecialHost": false,
-            "_host": "BUFF_OWNER",
-            "_useRandomEnemy": false,
-            "_enemyKey": "enemy_10232_aglina",
-            "_motionMode": "FLY",
-            "_unharmful": true,
-            "_alwaysCountAsKilled": false,
-            "_waitTime": 9999,
-            "_spawnOffset": 0.2,
-            "_selectTileInSnapshot": false,
-            "_useSourceEndPosition": false,
-            "_avoidHighland": false,
-            "_noEndPosition": true,
-            "_force": true,
-            "_addBuffsSource": "BUFF_OWNER",
-            "_changeSpawnCertainPos": false,
-            "_spawnCertainOffsetX": 0,
-            "_spawnCertainOffsetY": 0,
-            "_buffs": [
-              {
-                "attributes": {
-                  "abnormalAntis": [],
-                  "abnormalComboImmunes": [],
-                  "abnormalCombos": [],
-                  "abnormalFlags": [],
-                  "abnormalImmunes": [],
-                  "attributeModifiers": []
-                },
-                "audioSignal": null,
-                "blackboard": [
-                  {
-                    "key": "base_float_damage",
-                    "value": 750,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "float_damage_per_layer",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "rimB_messenger_watch_window",
-                    "value": 16,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_level_step",
-                    "value": 100,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_zero",
-                    "value": 0,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_per_level",
-                    "value": 1,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_target_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_attack_speed_base",
-                    "value": 20,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_attack_speed_per_level",
-                    "value": 20,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_sp_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_sp_per_level",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_float_duration_base",
-                    "value": 2,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_slow_duration_base",
-                    "value": 4,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_bonus_duration_base",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_target_base",
-                    "value": 10,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_float_duration_base",
-                    "value": 8,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_slow_duration_base",
-                    "value": 12,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_special_slow_duration_per_level",
-                    "value": 4,
-                    "valueStr": null
-                  },
-                  {
-                    "key": "messenger_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  },
-                  {
-                    "key": "messenger_attack_speed_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  },
-                  {
-                    "key": "messenger_sp_per_level.stack_step",
-                    "value": 0,
-                    "valueStr": "messenger_level_step"
-                  }
-                ],
-                "buffKey": "rimB_messenger_mark",
-                "clearAllStackCntWhenTimeUp": false,
-                "disableOverride": false,
-                "durationKey": null,
-                "enableInitDirectionFromSource": false,
-                "firstTriggerInterval": -1,
-                "independentCharacterSource": false,
-                "isDamageMissable": false,
-                "isDurableBuff": false,
-                "isFreezable": false,
-                "isLevitatable": false,
-                "isSilenceable": false,
-                "isStunnable": false,
-                "lifeTime": 0,
-                "lifeTimeType": "INFINITY",
-                "loadFromDB": false,
-                "maxStackCnt": 1,
-                "maxValidStackCnt": -1,
-                "onEventPriority": "DEFAULT",
-                "overrideEffectKey": "",
-                "overrideKey": null,
-                "overrideOnEventPriority": false,
-                "overrideType": "UNIQUE",
-                "priority": -1,
-                "priorityBBKeys": [],
-                "refreshRemainingTimeWhenStackMax": false,
-                "statusResistable": "AUTOMATIC",
-                "stripBlackboardParamsWithBuffKey": false,
-                "takeSnapshotWhenExtend": false,
-                "templateKey": "act1autochess_bond_eff_rimB[messenger]",
-                "triggerCnt": 0,
-                "triggerInterval": 0.5,
-                "triggerLifeType": "INFINITY",
-                "waitFirstTriggerInterval": true
-              }
-            ]
+            "_applyWayFilter": "ALL",
+            "_damageMask": "PHYSICAL_AND_MAGICAL",
+            "$type": "Torappu.Battle.Action.Nodes+Evade, Assembly-CSharp"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

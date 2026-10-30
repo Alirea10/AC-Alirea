@@ -1,0 +1,13 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1429_lrwzrd",
+    "enemy_1430_lrrook"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1428_lrsoul"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1431_lrmzrd",
+  "type": "FLY"
+}

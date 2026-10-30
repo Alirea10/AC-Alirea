@@ -1,7 +1,8 @@
 {
   "chessId": "chess_rainbow_6_21_a",
   "garrisonIds": [
-    "garrison_09_a"
+    "garrison_09_a",
+    "garrison_03_a"
   ],
   "isGolden": false,
   "status": {

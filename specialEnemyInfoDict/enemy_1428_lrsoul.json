@@ -1,0 +1,12 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1222_dpvt"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1428_lrsoul"
+  ],
+  "isInFirstHalf": true,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1428_lrsoul",
+  "type": "SPECIAL"
+}

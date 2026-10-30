@@ -4,12 +4,22 @@
     {
       "key": "key",
       "value": 0,
-      "valueStr": "act1autochess_bond_eff_sami_skill"
+      "valueStr": "act1autochess_rule_skill_event"
     },
     {
-      "key": "sami_event",
+      "key": "rule_event",
       "value": 0,
       "valueStr": "skill"
+    },
+    {
+      "key": "rule_group",
+      "value": 0,
+      "valueStr": "sami_opening"
+    },
+    {
+      "key": "rule_id",
+      "value": 0,
+      "valueStr": "skill_layers"
     }
   ],
   "charLevel": 0,

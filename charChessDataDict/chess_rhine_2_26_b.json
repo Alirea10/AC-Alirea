@@ -1,6 +1,8 @@
 {
   "chessId": "chess_rhine_2_26_b",
-  "garrisonIds": null,
+  "garrisonIds": [
+    "garrison_208_b"
+  ],
   "isGolden": true,
   "status": {
     "charLevel": 55,

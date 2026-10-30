@@ -1,0 +1,17 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_10017_sgass",
+    "enemy_10020_sgcat"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_10012_sgbtle",
+    "enemy_10012_sgbtle_2",
+    "enemy_10015_sgbird",
+    "enemy_10014_sgrich",
+    "enemy_10013_sgrob"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_10013_sgrob",
+  "type": "REFLECTION"
+}

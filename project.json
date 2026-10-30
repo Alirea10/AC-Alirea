@@ -1,9 +1,121 @@
 {
-  "label": "AC-Alirea",
+  "label": "Alirea",
   "version": 1,
+  "dictFields": [
+    "modeDataDict",
+    "bondInfoDict",
+    "charChessDataDict",
+    "charShopChessDatas",
+    "trapChessDataDict",
+    "trapShopChessDatas",
+    "effectInfoDataDict",
+    "effectBuffInfoDataDict",
+    "bossInfoDict",
+    "shopCharChessInfoData",
+    "garrisonDataDict",
+    "bandDataListDict",
+    "stageDatasDict",
+    "shopLevelDisplayDataDict",
+    "specialEnemyInfoDict",
+    "effectChoiceInfoDict",
+    "buffTemplates"
+  ],
   "constFields": {
     "banConfig": {
-      "coreBondBanCount": 5,
+      "classification": {
+        "bondRules": {
+          "arcaneShip": "release",
+          "deputShip": "release",
+          "egirShip": "all",
+          "emptyShip": "ignore",
+          "indomShip": "release",
+          "investShip": "ignore",
+          "kazdelShip": "all",
+          "kazimierzShip": "all",
+          "kjeragShip": "all",
+          "lateranoShip": "all",
+          "leithanienShip": "all",
+          "maniShip": "ignore",
+          "miraShip": "release",
+          "mujicaShip": "all",
+          "preciShip": "release",
+          "raidShip": "release",
+          "rainbowShip": "all",
+          "rhineShip": "all",
+          "rhodesShip": "all",
+          "rimBShip": "all",
+          "rtisanShip": "release",
+          "samiShip": "all",
+          "sargonShip": "all",
+          "scoutShip": "release",
+          "siracusaShip": "all",
+          "skillfulShip": "release",
+          "soloShip": "release",
+          "starCrownShip": "immune",
+          "steadShip": "release",
+          "suntShip": "ignore",
+          "swiftShip": "release",
+          "testBond": "immune",
+          "ursusShip": "all",
+          "victoriaShip": "all",
+          "visiShip": "release",
+          "yanShip": "all"
+        },
+        "classes": {
+          "core": {
+            "bondIds": [
+              "yanShip",
+              "sargonShip",
+              "victoriaShip",
+              "kjeragShip",
+              "lateranoShip",
+              "egirShip",
+              "kazimierzShip",
+              "siracusaShip",
+              "rainbowShip",
+              "mujicaShip",
+              "kazdelShip",
+              "ursusShip",
+              "samiShip",
+              "rhineShip",
+              "leithanienShip",
+              "rhodesShip",
+              "rimBShip"
+            ],
+            "drawCount": 8,
+            "name": "核心盟约"
+          },
+          "custom1": {
+            "bondIds": [
+              "starCrownShip",
+              "testBond"
+            ],
+            "drawCount": 0,
+            "name": "other"
+          },
+          "minor": {
+            "bondIds": [
+              "arcaneShip",
+              "deputShip",
+              "indomShip",
+              "miraShip",
+              "preciShip",
+              "raidShip",
+              "scoutShip",
+              "skillfulShip",
+              "soloShip",
+              "steadShip",
+              "swiftShip",
+              "visiShip",
+              "rtisanShip"
+            ],
+            "drawCount": 2,
+            "name": "小盟约"
+          }
+        },
+        "version": 1
+      },
+      "coreBondBanCount": 8,
       "coreBondIds": [
         "yanShip",
         "sargonShip",
@@ -17,9 +129,28 @@
         "mujicaShip",
         "kazdelShip",
         "ursusShip",
-        "samiShip"
+        "samiShip",
+        "rhineShip",
+        "leithanienShip",
+        "rhodesShip",
+        "rimBShip"
       ],
-      "minorBondBanCount": 0,
+      "minorBondBanCount": 2,
+      "minorBondIds": [
+        "arcaneShip",
+        "deputShip",
+        "indomShip",
+        "miraShip",
+        "preciShip",
+        "raidShip",
+        "scoutShip",
+        "skillfulShip",
+        "soloShip",
+        "steadShip",
+        "swiftShip",
+        "visiShip",
+        "rtisanShip"
+      ],
       "mode": "banCore"
     },
     "baseRewardDataList": [
@@ -1563,6 +1694,7 @@
       "chess_char_4_24_a": "chess_char_4_24_a",
       "chess_char_4_25_a": "chess_char_4_25_a",
       "chess_char_4_26_a": "chess_char_4_26_a",
+      "chess_char_4_39_a": "chess_char_4_39_a",
       "chess_char_5_01_a": "chess_char_5_01_a",
       "chess_char_5_02_a": "chess_char_5_02_a",
       "chess_char_5_03_a": "chess_char_5_03_a",
@@ -1589,6 +1721,7 @@
       "chess_char_5_24_a": "chess_char_5_24_a",
       "chess_char_5_27_a": "chess_char_5_27_a",
       "chess_char_5_29_a": "chess_char_5_29_a",
+      "chess_char_5_32_a": "chess_char_5_32_a",
       "chess_char_5_diy1_a": "chess_char_5_diy1_a",
       "chess_char_5_diy2_a": "chess_char_5_diy2_a",
       "chess_char_6_01_a": "chess_char_6_01_a",
@@ -1715,6 +1848,13 @@
       "chess_rhodes_4_32_a": "chess_rhodes_4_32_a",
       "chess_rhodes_5_28_a": "chess_rhodes_5_28_a",
       "chess_rhodes_5_30_a": "chess_rhodes_5_30_a",
+      "chess_rimB_1_27_a": "chess_rimB_1_27_a",
+      "chess_rimB_2_26_a": "chess_rimB_2_26_a",
+      "chess_rimB_2_27_a": "chess_rimB_2_27_a",
+      "chess_rimB_4_37_a": "chess_rimB_4_37_a",
+      "chess_rimB_4_38_a": "chess_rimB_4_38_a",
+      "chess_rimB_5_31_a": "chess_rimB_5_31_a",
+      "chess_rimB_6_37_a": "chess_rimB_6_37_a",
       "chess_sami_1_25_a": "chess_sami_1_25_a",
       "chess_sami_2_25_a": "chess_sami_2_25_a",
       "chess_sami_3_34_a": "chess_sami_3_34_a",
@@ -1814,6 +1954,7 @@
       "chess_char_4_24_b": "chess_char_4_24_a",
       "chess_char_4_25_b": "chess_char_4_25_a",
       "chess_char_4_26_b": "chess_char_4_26_a",
+      "chess_char_4_39_b": "chess_char_4_39_a",
       "chess_char_5_01_b": "chess_char_5_01_a",
       "chess_char_5_02_b": "chess_char_5_02_a",
       "chess_char_5_03_b": "chess_char_5_03_a",
@@ -1840,6 +1981,7 @@
       "chess_char_5_24_b": "chess_char_5_24_a",
       "chess_char_5_27_b": "chess_char_5_27_a",
       "chess_char_5_29_b": "chess_char_5_29_a",
+      "chess_char_5_32_b": "chess_char_5_32_a",
       "chess_char_5_diy1_b": "chess_char_5_diy1_a",
       "chess_char_5_diy2_b": "chess_char_5_diy2_a",
       "chess_char_6_01_b": "chess_char_6_01_a",
@@ -1966,6 +2108,13 @@
       "chess_rhodes_4_32_b": "chess_rhodes_4_32_a",
       "chess_rhodes_5_28_b": "chess_rhodes_5_28_a",
       "chess_rhodes_5_30_b": "chess_rhodes_5_30_a",
+      "chess_rimB_1_27_b": "chess_rimB_1_27_a",
+      "chess_rimB_2_26_b": "chess_rimB_2_26_a",
+      "chess_rimB_2_27_b": "chess_rimB_2_27_a",
+      "chess_rimB_4_37_b": "chess_rimB_4_37_a",
+      "chess_rimB_4_38_b": "chess_rimB_4_38_a",
+      "chess_rimB_5_31_b": "chess_rimB_5_31_a",
+      "chess_rimB_6_37_b": "chess_rimB_6_37_a",
       "chess_sami_1_25_b": "chess_sami_1_25_a",
       "chess_sami_2_25_b": "chess_sami_2_25_a",
       "chess_sami_3_34_b": "chess_sami_3_34_a",
@@ -2058,7 +2207,21 @@
         "enemy_10122_uacann_2",
         "enemy_1272_nhtank_2",
         "enemy_1270_nhstlk_2",
-        "enemy_9006_actoxi"
+        "enemy_9006_actoxi",
+        "enemy_1428_lrsoul",
+        "enemy_1424_lrboom",
+        "enemy_1222_dpvt",
+        "enemy_1361_dthrow",
+        "enemy_1362_dfat",
+        "enemy_1363_spnshd",
+        "enemy_1344_ddlamb",
+        "enemy_1345_tplamb",
+        "enemy_1346_ynshp",
+        "enemy_1348_rllamb",
+        "enemy_1349_rckshp",
+        "enemy_1350_mgcshp",
+        "enemy_1220_dzoms",
+        "enemy_1221_dzomg"
       ],
       "ELEMENT": [
         "enemy_1161_tidmag",
@@ -2078,7 +2241,12 @@
         "enemy_1229_darmy_2",
         "enemy_9007_acelem",
         "enemy_10067_ftsjc",
-        "enemy_10065_ftzlc"
+        "enemy_10065_ftzlc",
+        "enemy_2133_shdopl",
+        "enemy_2137_shsdgo",
+        "enemy_2136_shcolo",
+        "enemy_2135_shkrbt",
+        "enemy_1164_bmbmot"
       ],
       "FLY": [
         "enemy_1041_lazerd",
@@ -2094,7 +2262,10 @@
         "enemy_1041_lazerd_2",
         "enemy_1042_frostd",
         "enemy_9009_acfort",
-        "enemy_1355_mrfly_2"
+        "enemy_1355_mrfly_2",
+        "enemy_1429_lrwzrd",
+        "enemy_1430_lrrook",
+        "enemy_1431_lrmzrd"
       ],
       "INVISIBLE": [
         "enemy_1299_ymkilr",
@@ -2113,7 +2284,8 @@
         "enemy_1009_lurker",
         "enemy_9008_acbunn",
         "enemy_10031_cnvsld",
-        "enemy_1283_sgkill"
+        "enemy_1283_sgkill",
+        "enemy_7004_xbdeer"
       ],
       "REFLECTION": [
         "enemy_1174_duholy",
@@ -2129,7 +2301,21 @@
         "enemy_1172_dugago",
         "enemy_9011_acrefr",
         "enemy_1175_dushdo_2",
-        "enemy_1084_sotidm"
+        "enemy_1084_sotidm",
+        "enemy_1078_sotisc",
+        "enemy_1080_sotidp",
+        "enemy_1083_sotiab",
+        "enemy_1081_sotisd",
+        "enemy_1085_sotiwz",
+        "enemy_10010_sgnja",
+        "enemy_10012_sgbtle",
+        "enemy_10012_sgbtle_2",
+        "enemy_10013_sgrob",
+        "enemy_10014_sgrich",
+        "enemy_10015_sgbird",
+        "enemy_10017_sgass",
+        "enemy_10020_sgcat",
+        "enemy_1171_durokt"
       ],
       "SPECIAL": [
         "enemy_1010_demon_2",
@@ -2166,7 +2352,21 @@
         "enemy_1329_cbshld_2",
         "enemy_1251_lysyta_2",
         "enemy_1252_lysytb_2",
-        "enemy_1072_dlancer"
+        "enemy_1072_dlancer",
+        "enemy_10120_uaghst",
+        "enemy_10121_uasnip",
+        "enemy_10124_uashld",
+        "enemy_10125_uacomd",
+        "enemy_10123_uareap",
+        "enemy_1303_mhshep",
+        "enemy_1304_mhwolf",
+        "enemy_1306_mhtrtl",
+        "enemy_1307_mhrhcr",
+        "enemy_1309_mhboar",
+        "enemy_1310_mhprpn",
+        "enemy_1311_mhkryk",
+        "enemy_1111_ucommd",
+        "enemy_1000_gopro_3"
       ],
       "TIMES": [
         "enemy_1195_sfyin_2",
@@ -2178,7 +2378,24 @@
         "enemy_1207_sfji",
         "enemy_1199_sfjin",
         "enemy_9010_acpupp",
-        "enemy_1197_sfshu_2"
+        "enemy_1197_sfshu_2",
+        "enemy_1130_infstr",
+        "enemy_1131_sbeast",
+        "enemy_1132_sarchn",
+        "enemy_1133_harchn",
+        "enemy_1433_dsbasi",
+        "enemy_1434_dsshel",
+        "enemy_1436_dsdivi",
+        "enemy_1436_dsdivi_2",
+        "enemy_1437_dsfull",
+        "enemy_1437_dsfull_2",
+        "enemy_1438_dspred",
+        "enemy_1277_sgman",
+        "enemy_1277_sgman_2",
+        "enemy_1278_sgbow",
+        "enemy_1279_sgbdg_2",
+        "enemy_1281_sgcar",
+        "enemy_1281_sgcar_2"
       ]
     },
     "milestoneList": [
@@ -2881,6 +3098,35 @@
     },
     "runtimeConfig": {
       "clientResources": {
+        "bossResources": {
+          "boss_11": {
+            "enemyId": "enemy_8007_eltrsm_3",
+            "handbookEnemyId": "enemy_8007_eltrsm_3",
+            "bgmEvent": "rosmontisteam"
+          }
+        },
+        "enemyResources": {
+          "enemy_8007_eltrsm_3": {
+            "extraEnemyKeyList": [
+              "enemy_8008_eltswd",
+              "enemy_8009_eltufo"
+            ],
+            "isFlyEnemy": false,
+            "level": 0
+          },
+          "enemy_8008_eltswd": {
+            "isFlyEnemy": false,
+            "level": 0
+          },
+          "enemy_8009_eltufo": {
+            "isFlyEnemy": true,
+            "level": 0
+          },
+          "enemy_10232_aglina": {
+            "isFlyEnemy": true,
+            "level": 0
+          }
+        },
         "preloadEnemies": [
           "enemy_10001_trslim",
           "enemy_10018_sgrobh",
@@ -3010,36 +3256,7 @@
           "enemy_9009_acfort",
           "enemy_9010_acpupp",
           "enemy_9011_acrefr"
-        ],
-        "bossResources": {
-          "boss_11": {
-            "enemyId": "enemy_8007_eltrsm_3",
-            "handbookEnemyId": "enemy_8007_eltrsm_3",
-            "bgmEvent": "rosmontisteam"
-          }
-        },
-        "enemyResources": {
-          "enemy_8007_eltrsm_3": {
-            "extraEnemyKeyList": [
-              "enemy_8008_eltswd",
-              "enemy_8009_eltufo"
-            ],
-            "isFlyEnemy": false,
-            "level": 0
-          },
-          "enemy_8008_eltswd": {
-            "isFlyEnemy": false,
-            "level": 0
-          },
-          "enemy_8009_eltufo": {
-            "isFlyEnemy": true,
-            "level": 0
-          },
-          "enemy_10232_aglina": {
-            "level": 0,
-            "isFlyEnemy": true
-          }
-        }
+        ]
       },
       "shop": {
         "charRates": [

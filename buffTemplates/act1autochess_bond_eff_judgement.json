@@ -1,26 +1,6 @@
 {
   "effectKey": "",
   "eventToActions": {
-    "ON_OUTPUT_DAMAGE": [
-      {
-        "_bondIds": [
-          "judgementShip"
-        ],
-        "_checkTargetInRangeId": null,
-        "_considerManiShip": false,
-        "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
-      },
-      {
-        "_sideMask": "ENEMY",
-        "_targetType": "MODIFIER_TARGET",
-        "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp"
-      },
-      {
-        "_sharedFlagIndex": "DAMAGE_IS_UNDEADABLE_THIS_TIME",
-        "$type": "Torappu.Battle.Action.Nodes+SetSharedFlag, Assembly-CSharp"
-      }
-    ],
     "ON_AFTER_OUTPUT_DAMAGE": [
       {
         "_bondIds": [
@@ -37,8 +17,8 @@
         "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp"
       },
       {
-        "_modifierTargetType": "HP",
         "_condType": "LT",
+        "_modifierTargetType": "HP",
         "$type": "Torappu.Battle.Action.Nodes+FilterModifierByRealDelta, Assembly-CSharp"
       },
       {
@@ -46,16 +26,16 @@
         "$type": "Torappu.Battle.Action.Nodes+CheckUnitAlive, Assembly-CSharp"
       },
       {
-        "_targetType": "MODIFIER_TARGET",
         "_buffKeys": [
           "cripple"
         ],
-        "isAND": true,
-        "_loadFromBlackboard": false,
-        "_checkBuffSource": false,
         "_buffSourceType": "BUFF_SOURCE",
+        "_checkBuffSource": false,
         "_checkSourceHost": false,
-        "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp"
+        "_loadFromBlackboard": false,
+        "_targetType": "MODIFIER_TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+CheckContainsBuff, Assembly-CSharp",
+        "isAND": true
       },
       {
         "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
@@ -126,10 +106,10 @@
         "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
       },
       {
-        "_targetType": "BUFF_OWNER",
         "_attributeType": "ATK",
-        "_scaleVar": "",
         "_blackboardKey": "judgement_current_atk",
+        "_scaleVar": "",
+        "_targetType": "BUFF_OWNER",
         "$type": "Torappu.Battle.Action.Nodes+AssignAttributeToBB, Assembly-CSharp"
       },
       {
@@ -151,15 +131,15 @@
         "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp"
       },
       {
-        "_targetType": "MODIFIER_TARGET",
         "_attributeType": "MAX_HP",
-        "_scaleVar": "",
         "_blackboardKey": "judgement_target_max_hp",
+        "_scaleVar": "",
+        "_targetType": "MODIFIER_TARGET",
         "$type": "Torappu.Battle.Action.Nodes+AssignAttributeToBB, Assembly-CSharp"
       },
       {
-        "_targetType": "MODIFIER_TARGET",
         "_blackboardKey": "judgement_target_hp_ratio",
+        "_targetType": "MODIFIER_TARGET",
         "$type": "Torappu.Battle.Action.Nodes+AssignHpRatioToBB, Assembly-CSharp"
       },
       {
@@ -193,81 +173,46 @@
       {
         "_buff": {
           "attributes": {
+            "abnormalAntis": [],
+            "abnormalComboImmunes": [],
+            "abnormalCombos": [],
             "abnormalFlags": [
               "HEAL_FREE",
               "DISABLE_COMBAT"
             ],
             "abnormalImmunes": [],
-            "abnormalAntis": [],
-            "abnormalCombos": [],
-            "abnormalComboImmunes": [],
             "attributeModifiers": [
               {
                 "attributeType": "MOVE_SPEED",
+                "fetchBaseValueFromSourceEntity": false,
                 "formulaItem": "FINAL_SCALER",
-                "value": 0,
                 "loadFromBlackboard": true,
-                "fetchBaseValueFromSourceEntity": false
+                "value": 0
               },
               {
                 "attributeType": "BLOCK_CNT",
+                "fetchBaseValueFromSourceEntity": false,
                 "formulaItem": "FINAL_SCALER",
-                "value": 0,
                 "loadFromBlackboard": false,
-                "fetchBaseValueFromSourceEntity": false
+                "value": 0
               },
               {
                 "attributeType": "HP_RECOVERY_PER_SEC",
+                "fetchBaseValueFromSourceEntity": false,
                 "formulaItem": "FINAL_SCALER",
-                "value": 0,
                 "loadFromBlackboard": false,
-                "fetchBaseValueFromSourceEntity": false
+                "value": 0
               },
               {
                 "attributeType": "HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO",
+                "fetchBaseValueFromSourceEntity": false,
                 "formulaItem": "FINAL_SCALER",
-                "value": 0,
                 "loadFromBlackboard": false,
-                "fetchBaseValueFromSourceEntity": false
+                "value": 0
               }
             ]
           },
-          "buffKey": "cripple",
-          "loadFromDB": false,
-          "isDurableBuff": false,
-          "isDamageMissable": false,
-          "isSilenceable": false,
-          "isStunnable": false,
-          "isFreezable": false,
-          "isLevitatable": false,
-          "isGroundBoundable": false,
-          "statusResistable": "AUTOMATIC",
-          "templateKey": "cripple",
-          "disableOverride": false,
-          "overrideKey": null,
-          "overrideType": "UNIQUE",
-          "maxStackCnt": 1,
-          "refreshRemainingTimeWhenStackMax": false,
-          "clearAllStackCntWhenTimeUp": false,
-          "maxValidStackCnt": -1,
-          "independentCharacterSource": false,
-          "overrideEffectKey": "saga_buff_01_start",
-          "overrideOnEventPriority": false,
-          "onEventPriority": "DEFAULT",
           "audioSignal": null,
-          "lifeTimeType": "INFINITY",
-          "takeSnapshotWhenExtend": false,
-          "durationKey": null,
-          "remainingTimeKey": null,
-          "lifeTime": 0,
-          "triggerLifeType": "LIMITED",
-          "triggerCnt": 1,
-          "triggerInterval": -1,
-          "waitFirstTriggerInterval": true,
-          "firstTriggerInterval": -1,
-          "priority": -1,
-          "priorityBBKeys": [],
-          "stripBlackboardParamsWithBuffKey": false,
           "blackboard": [
             {
               "key": "move_speed",
@@ -285,16 +230,71 @@
               "valueStr": null
             }
           ],
-          "enableInitDirectionFromSource": false
+          "buffKey": "cripple",
+          "clearAllStackCntWhenTimeUp": false,
+          "disableOverride": false,
+          "durationKey": null,
+          "enableInitDirectionFromSource": false,
+          "firstTriggerInterval": -1,
+          "independentCharacterSource": false,
+          "isDamageMissable": false,
+          "isDurableBuff": false,
+          "isFreezable": false,
+          "isGroundBoundable": false,
+          "isLevitatable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "lifeTime": 0,
+          "lifeTimeType": "INFINITY",
+          "loadFromDB": false,
+          "maxStackCnt": 1,
+          "maxValidStackCnt": -1,
+          "onEventPriority": "DEFAULT",
+          "overrideEffectKey": "saga_buff_01_start",
+          "overrideKey": null,
+          "overrideOnEventPriority": false,
+          "overrideType": "UNIQUE",
+          "priority": -1,
+          "priorityBBKeys": [],
+          "refreshRemainingTimeWhenStackMax": false,
+          "remainingTimeKey": null,
+          "statusResistable": "AUTOMATIC",
+          "stripBlackboardParamsWithBuffKey": false,
+          "takeSnapshotWhenExtend": false,
+          "templateKey": "cripple",
+          "triggerCnt": 1,
+          "triggerInterval": -1,
+          "triggerLifeType": "LIMITED",
+          "waitFirstTriggerInterval": true
         },
         "_buffOwner": "MODIFIER_TARGET",
-        "_useSpecialBuffSource": true,
-        "_specialBuffSource": "BUFF_OWNER",
-        "_isDerivedBuff": false,
         "_finishDerivedBuffIfParentFinish": false,
-        "_inherateSourceProjectileFromParentBuff": false,
         "_hookEffectKeyFromSourceProjectile": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_isDerivedBuff": false,
+        "_specialBuffSource": "BUFF_OWNER",
+        "_useSpecialBuffSource": true,
         "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp"
+      }
+    ],
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "_bondIds": [
+          "judgementShip"
+        ],
+        "_checkTargetInRangeId": null,
+        "_considerManiShip": false,
+        "_target": "BUFF_OWNER",
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp"
+      },
+      {
+        "_sideMask": "ENEMY",
+        "_targetType": "MODIFIER_TARGET",
+        "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp"
+      },
+      {
+        "_sharedFlagIndex": "DAMAGE_IS_UNDEADABLE_THIS_TIME",
+        "$type": "Torappu.Battle.Action.Nodes+SetSharedFlag, Assembly-CSharp"
       }
     ],
     "ON_TARGET_KILLED": [

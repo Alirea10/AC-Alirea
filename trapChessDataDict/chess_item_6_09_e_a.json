@@ -3,7 +3,7 @@
   "charId": "trap_1073_acarm073",
   "chessId": "chess_item_6_09_e_a",
   "effectId": "eff_acarm073",
-  "giveBondId": null,
+  "giveBondId": "rhineShip",
   "givePowerId": null,
   "isGolden": false,
   "itemType": "EQUIP",

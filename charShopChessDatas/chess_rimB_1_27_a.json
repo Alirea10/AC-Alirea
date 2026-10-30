@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_230_savage",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_230_savage",
+  "chessId": "chess_rimB_1_27_a",
+  "chessLevel": 1,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_savage",
+  "goldenChessId": "chess_rimB_1_27_b",
+  "isHidden": false,
+  "shopLevelSortId": 27,
+  "tmplId": null
+}

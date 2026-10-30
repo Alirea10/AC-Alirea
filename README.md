@@ -12,30 +12,27 @@ AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子
 | 核心盟约禁用数 | 5 | `project.json` |
 | 次要盟约禁用数 | 0 | `project.json` |
 | 盟约禁用模式 | `banCore` | `project.json` |
-| 运行模式 | 8 个 | `modeDataDict/` |
 | 默认回退盟约 | `emptyShip` | `project.json` |
 | 商店棋子默认模组 | 186 / 194 条非空 | `charShopChessDatas/` |
 
 ## 仓库内容
-
-下表为当前目录中的 JSON 文件数量，普通/精英棋子通常分别保存为 `_a` / `_b` 两条记录。
 
 | 目录 | JSON 数量 | 内容 |
 |---|---:|---|
 | `bandDataListDict/` | 41 | 编队与乐队数据 |
 | `bondInfoDict/` | 33 | 盟约元数据、成员列表与激活条件 |
 | `bossInfoDict/` | 10 | Boss 数据 |
-| `buffTemplates/` | 40 | Buff 模板 |
+| `buffTemplates/` | 44 | Buff 模板 |
 | `charChessDataDict/` | 388 | 战斗棋子、升级关系与驻军绑定 |
 | `charShopChessDatas/` | 194 | 商店棋子、阶位、默认技能与模组 |
-| `effectBuffInfoDataDict/` | 382 | 盟约和特质使用的 Buff 效果 |
+| `effectBuffInfoDataDict/` | 383 | 盟约和特质使用的 Buff 效果 |
 | `effectChoiceInfoDict/` | 109 | 效果选项与选择数据 |
 | `effectInfoDataDict/` | 383 | 效果名称、描述与类型 |
 | `garrisonDataDict/` | 423 | 特质、驻军效果与 Blackboard 参数 |
 | `modeDataDict/` | 8 | 多人、单人和训练模式 |
 | `shopCharChessInfoData/` | 6 | 商店等级中的棋子规则 |
 | `shopLevelDisplayDataDict/` | 6 | 商店等级显示配置 |
-| `specialEnemyInfoDict/` | 67 | 特殊敌人 |
+| `specialEnemyInfoDict/` | 92 | 特殊敌人 |
 | `stageDatasDict/` | 11 | 关卡与战斗场景 |
 | `trapChessDataDict/` | 117 | 陷阱棋子 |
 | `trapShopChessDatas/` | 60 | 商店陷阱棋子 |
@@ -49,15 +46,13 @@ AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子
 | 乌萨斯 | `ursusShip` | 10 | 20 | 3 | 有概率造成 200% 伤害；6 名不同成员在场时，暴击额外施加麻痹 |
 | 卡兹戴尔 | `kazdelShip` | 10 | 20 | 3 | 物理伤害附带凋亡损伤；全场每次凋亡爆发时，自身回复 20% 最大生命值；对处于凋亡损伤的敌人提高伤害 |
 | Mujica | `mujicaShip` | 5 | 10 | 3 | 提供物理/法术穿透；全员上场后提高 Fever，Fever 状态下提高伤害 |
-| 萨米 | `samiShip` | 6 | 12 | 2 | 作战开始时随机改变盟约层数，当前区间为 `-30` 到 `20 + 5N` |
-| 莱茵生命 | `rhineShip` | 10 | 20 | 1 | 已登记 10 名成员和 `bondeffect_rhine` 效果对象，具体效果继续以数据文件为准 |
-| 雷姆必拓 | `rimBShip` | 10 | 20 | 3 / 6 | 物理闪避与浮空范围伤害；6 人时获得法术闪避并召唤信使安洁莉娜
-
-盟约数量包含普通与精英棋子记录；“干员数”按普通棋子记录折算。
+| 萨米 | `samiShip` | 6 | 12 | 2 | 作战开始时随机改变盟约层数，当前区间为 `-30` 到 `15 + 5N`（N 为在场不同萨米干员数） |
+| 莱茵生命 | `rhineShip` | 10 | 20 | 3 / 6 | 受疗积累记录，下次攻击按累计受疗量造成真实伤害；6 人时改为范围伤害，造成伤害或治疗后随机治疗周围八格一名友方 |
+| 雷姆必拓 | `rimBShip` | 10 | 20 | 3 / 6 | 物理闪避与浮空范围伤害；6 人时获得法术闪避并召唤信使安洁莉娜 |
 
 ## Hero
 
-Hero 体系当前包含 8 张 6 阶单卡，每张卡绑定独立的 Hero 驻军效果。
+Hero 体系当前包含 8 张 6 阶单卡，每张卡绑定独立的 Hero 特质效果。
 
 | 干员 | 盟约/特质 | 当前效果 |
 |---|---|---|
@@ -68,11 +63,8 @@ Hero 体系当前包含 8 张 6 阶单卡，每张卡绑定独立的 Hero 驻军
 | 艾丽妮 | 明灯 | 所有干员最大生命值 `+5000`，每秒回复 `1%` 最大生命值 |
 | 极光 | 极光 | 所有干员攻击时有 `40%` 概率施加 `1` 秒寒冷 |
 | 娜仁图亚 | 天途 | 击倒敌人时，使已激活的萨尔贡、精准、迅捷层数 `+2` |
-| 黑键 | — | 激昂状态下，每层莱塔尼亚盟约提供 `+1%` 攻击力 |
 
 ## 重点干员数据
-
-保留原有重点干员名单，去掉长篇定位描述，仅展示阶位和副盟约关系。
 
 | 主盟约 | 干员（阶位） | 副盟约 |
 |---|---|---|
@@ -83,20 +75,3 @@ Hero 体系当前包含 8 张 6 阶单卡，每张卡绑定独立的 Hero 驻军
 | 萨米 | 远山（1）、雪绒（2）、柏喙（3）、凛视（4）、寒檀（5）、提丰（6） | 萨米体系新增棋子与既有棋子共同组成 |
 | 莱茵生命 | 梅尔（1）、麦哲伦（2）、赫默（2）、娜斯提（3）、多萝西（3）、伊芙利特（4）、白面鸮（5）、塞雷娅（5）、溯光星源（6）、缪尔赛思（6） | 工程科、独行、远见、迅捷、奥术、精准、助力、灵巧、坚守、调和 |
 | 其他补充 | 刻俄柏（5） | 奥术、独行 |
-
-## 配置说明
-
-- [Blackboard 手册](blackboard手册.md)：说明 Buff、Ability、角色共享和全局 Blackboard 的使用范围。
-- [Garrison Blackboard 手册](garrison手册.md)：说明特质/驻军效果使用的 Blackboard 参数。
-- [萨米特质实现说明](docx/萨米特质实现.md)：记录萨米赛季特质的实现与数据对应关系。
-- [莱茵生命设计稿](docx/哥伦比亚（莱茵生命）设计.md)：记录莱茵生命成员、部门和盟约设计。
-- [萨米设计稿](docx/萨米设计.md)：记录相关棋子与盟约设计。
-
-## 数据维护
-
-配置修改后建议至少检查以下内容：
-
-1. JSON 是否可以正常解析。
-2. `project.json` 中的棋子注册、普通/精英映射和模式参数是否同步。
-3. `bondInfoDict/`、`charChessDataDict/`、`charShopChessDatas/`、`effectInfoDataDict/` 与 `garrisonDataDict/` 的 ID 是否互相对应。
-4. 新增或修改特质时，检查 `battleRuneKey`、Blackboard 参数和描述文本是否一致。

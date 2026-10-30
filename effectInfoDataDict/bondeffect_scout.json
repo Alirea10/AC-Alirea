@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "所有干员攻击力<@ba.vup>+{0:0.0%}</><@ba.acrem>（每层+0.3%）</>\n<在场<@ba.vup>3</>名不同【先锋】干员>所有干员生命值获得等比例提升",
+  "effectId": "bondeffect_scout",
+  "effectName": "先锋",
+  "effectType": "BOND",
+  "enemyPrice": 0
+}

@@ -15,7 +15,6 @@
     "chess_char_4_25_a",
     "chess_char_5_09_a",
     "chess_char_5_10_a",
-    "chess_char_6_12_a",
     "chess_char_1_15_b",
     "chess_char_2_14_b",
     "chess_char_3_10_b",
@@ -23,14 +22,8 @@
     "chess_char_4_25_b",
     "chess_char_5_09_b",
     "chess_char_5_10_b",
-    "chess_char_6_12_b",
-    "chess_hero_6_24_b",
-    "chess_rhodes_4_32_a",
-    "chess_rhodes_4_32_b",
     "chess_char_6_33_a",
-    "chess_char_6_33_b",
-    "chess_rhodes_3_29_a",
-    "chess_rhodes_3_29_b"
+    "chess_char_6_33_b"
   ],
   "desc": "所有干员受到的物理和法术伤害<@ba.vup>-20%</>，【协防干员】伤害提升至<@ba.vup>120%</>，精锐【协防】干员造成伤害提升至<@ba.vup>140%</>",
   "descParamBaseList": [],

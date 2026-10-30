@@ -1,0 +1,17 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1362_dfat",
+    "enemy_1363_spnshd",
+    "enemy_1425_lrcmra",
+    "enemy_1221_dzomg"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1424_lrboom",
+    "enemy_1222_dpvt",
+    "enemy_1220_dzoms"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1361_dthrow",
+  "type": "DOT"
+}

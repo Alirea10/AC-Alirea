@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "",
+  "effectDesc": "【莱茵生命】干员造成伤害后，为自身攻击范围内随机<@autochess.dgreen>1</>名可治疗的友方恢复生命，治疗量相当于该次伤害的<@ba.vup>{0:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n【莱茵生命】干员造成治疗后，以受治疗者为中心，对周围<@autochess.dgreen>8</>格及其所在格内随机<@autochess.dgreen>1</>名敌方造成法术伤害，伤害量相当于该次治疗量的<@ba.vup>{1:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n<@ba.acrem>莱茵生命可以使用 变形同构体 进行转职</>",
   "effectId": "bondeffect_rhine",
   "effectName": "莱茵生命",
   "effectType": "BOND",

@@ -8,12 +8,12 @@
       },
       {
         "key": "base_atk",
-        "value": 0.075,
+        "value": 0.055,
         "valueStr": null
       },
       {
         "key": "base_hp",
-        "value": 0.075,
+        "value": 0.055,
         "valueStr": null
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "key": "atk_per_stack",
-        "value": 0.002,
+        "value": 0.0015,
         "valueStr": null
       },
       {

@@ -1,0 +1,17 @@
+{
+  "backupCharId": "chess_char_4_39_a",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4229_aphris",
+  "chessId": "chess_char_4_39_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_aphris",
+  "goldenChessId": "chess_char_4_39_b",
+  "isHidden": false,
+  "shopLevelSortId": 39,
+  "tmplId": null
+}

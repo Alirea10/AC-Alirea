@@ -8,16 +8,16 @@
     },
     {
       "key": "damage_scale",
-      "value": 0.15,
+      "value": 0.35,
       "valueStr": null
     }
   ],
   "charLevel": 0,
-  "description": "<战斗中>自身普通攻击与技能射击造成法术伤害时，附带实际伤害<@ba.vup>15%</>的<$ba.dt.burning2>灼燃损伤</>",
+  "description": "<战斗中>自身普通攻击与技能射击造成法术伤害时，附带实际伤害<@ba.vup>35%</>的<$ba.dt.burning2>灼燃损伤</>",
   "effectType": "GAIN_BUFF",
   "eventType": "IN_BATTLE",
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "<战斗中>自身普通攻击与技能射击造成法术伤害时，附带实际伤害<@ba.vup>15%</>的<$ba.dt.burning2>灼燃损伤</>"
+  "garrisonDesc": "<战斗中>自身普通攻击与技能射击造成法术伤害时，附带实际伤害<@ba.vup>35%</>的<$ba.dt.burning2>灼燃损伤</>"
 }

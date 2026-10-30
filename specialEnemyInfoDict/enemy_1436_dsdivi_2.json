@@ -1,0 +1,15 @@
+{
+  "attachedEliteEnemyKeys": [
+    "enemy_1437_dsfull",
+    "enemy_1437_dsfull_2",
+    "enemy_1438_dspred"
+  ],
+  "attachedNormalEnemyKeys": [
+    "enemy_1434_dsshel",
+    "enemy_1436_dsdivi"
+  ],
+  "isInFirstHalf": false,
+  "randomWeight": 10,
+  "specialEnemyKey": "enemy_1436_dsdivi_2",
+  "type": "TIMES"
+}

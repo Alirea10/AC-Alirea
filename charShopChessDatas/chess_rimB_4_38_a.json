@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4178_alanna",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4178_alanna",
+  "chessId": "chess_rimB_4_38_a",
+  "chessLevel": 4,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_alanna",
+  "goldenChessId": "chess_rimB_4_38_b",
+  "isHidden": false,
+  "shopLevelSortId": 38,
+  "tmplId": null
+}

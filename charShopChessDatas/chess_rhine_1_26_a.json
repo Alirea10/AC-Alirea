@@ -1,5 +1,5 @@
 {
-  "backupCharId": "chess_rhine_1_26_a",
+  "backupCharId": "char_242_otter",
   "backupCharPotRank": 0,
   "backupCharSkillIndex": 0,
   "backupCharUniEquipId": null,
@@ -9,7 +9,7 @@
   "chessLevel": 1,
   "chessType": "PRESET",
   "defaultSkillIndex": 0,
-  "defaultUniEquipId": "uniequip_001_otter",
+  "defaultUniEquipId": "uniequip_002_otter",
   "goldenChessId": "chess_rhine_1_26_b",
   "isHidden": false,
   "shopLevelSortId": 26,

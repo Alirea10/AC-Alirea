@@ -1,0 +1,17 @@
+{
+  "backupCharId": "char_4117_ray",
+  "backupCharPotRank": 0,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupTmplId": null,
+  "charId": "char_4117_ray",
+  "chessId": "chess_rimB_6_37_a",
+  "chessLevel": 6,
+  "chessType": "PRESET",
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_ray",
+  "goldenChessId": "chess_rimB_6_37_b",
+  "isHidden": false,
+  "shopLevelSortId": 37,
+  "tmplId": null
+}
