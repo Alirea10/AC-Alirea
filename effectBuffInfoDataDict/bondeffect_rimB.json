@@ -1,0 +1,138 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_rimB_v2"
+      },
+      {
+        "key": "base_dodge",
+        "value": 0.25,
+        "valueStr": null
+      },
+      {
+        "key": "base_hitrate",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "dodge_per_layer",
+        "value": 0.0015,
+        "valueStr": null
+      },
+      {
+        "key": "base_float_damage",
+        "value": 3500,
+        "valueStr": null
+      },
+      {
+        "key": "float_damage_per_layer",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6,
+        "valueStr": null
+      },
+      {
+        "key": "float_radius",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_level_step",
+        "value": 50,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_zero",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_per_level",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_target_base",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_attack_speed_base",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_attack_speed_per_level",
+        "value": 20,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_sp_base",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_sp_per_level",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_float_duration_base",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_slow_duration_base",
+        "value": 4,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_bonus_duration_base",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_special_target_base",
+        "value": 10,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_special_float_duration_base",
+        "value": 8,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_special_slow_duration_base",
+        "value": 12,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_special_slow_duration_per_level",
+        "value": 4,
+        "valueStr": null
+      },
+      {
+        "key": "messenger_per_level.stack_step",
+        "value": 0,
+        "valueStr": "messenger_level_step"
+      },
+      {
+        "key": "messenger_attack_speed_per_level.stack_step",
+        "value": 0,
+        "valueStr": "messenger_level_step"
+      },
+      {
+        "key": "messenger_sp_per_level.stack_step",
+        "value": 0,
+        "valueStr": "messenger_level_step"
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new"
+  }
+]
