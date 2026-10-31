@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_band_angel2_levitate"
+      },
+      {
+        "key": "prob",
+        "value": 0.03,
+        "valueStr": null
+      },
+      {
+        "key": "levitate_duration",
+        "value": 1,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

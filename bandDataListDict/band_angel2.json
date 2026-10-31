@@ -1,0 +1,15 @@
+{
+  "bandDesc": "【轻飘飘~】所有干员攻击时有<@ba.vup>3%</>概率使敌人浮空<@ba.vup>1</>秒",
+  "bandId": "band_angel2",
+  "bandIconId": "native-avatar:char_1041_angel2",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_63",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 42,
+  "totalHp": 20,
+  "updateTime": 1793462400,
+  "victorCount": 3
+}

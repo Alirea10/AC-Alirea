@@ -4,7 +4,7 @@
       {
         "key": "key",
         "value": 0,
-        "valueStr": "act1autochess_bond_eff_rimB_v2"
+        "valueStr": "act1autochess_bond_eff_rimB_v3"
       },
       {
         "key": "base_dodge",
@@ -130,6 +130,16 @@
         "key": "messenger_sp_per_level.stack_step",
         "value": 0,
         "valueStr": "messenger_level_step"
+      },
+      {
+        "key": "rimB_attack_float_prob",
+        "value": 0.2,
+        "valueStr": null
+      },
+      {
+        "key": "rimB_attack_float_duration",
+        "value": 1,
+        "valueStr": null
       }
     ],
     "countType": "NONE",

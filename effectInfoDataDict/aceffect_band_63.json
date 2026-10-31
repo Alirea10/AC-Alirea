@@ -1,0 +1,10 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【轻飘飘~】所有干员攻击时有<@ba.vup>3%</>概率使敌人浮空<@ba.vup>1</>秒",
+  "effectId": "aceffect_band_63",
+  "effectName": "轻飘飘~",
+  "effectType": "BAND_INITIAL",
+  "enemyPrice": 0
+}

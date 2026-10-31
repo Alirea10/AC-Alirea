@@ -1,5 +1,5 @@
 {
-  "chessId": "chess_rimB_5_31_a",
+  "chessId": "chess_rimB_3_37_a",
   "garrisonIds": [
     "garrison_216_a"
   ],
@@ -11,6 +11,6 @@
     "favorPoint": 0,
     "skillLevel": 4
   },
-  "upgradeChessId": "chess_rimB_5_31_b",
+  "upgradeChessId": "chess_rimB_3_37_b",
   "upgradeNum": 3
 }
