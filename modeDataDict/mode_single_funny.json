@@ -24,10 +24,6 @@
   "backgroundId": "background_funny",
   "code": "AC-1",
   "desc": "时长较短的模拟训练",
-  "effectDescList": [
-    "·可以快速完成作战",
-    "·常规奖励"
-  ],
   "inactiveBondIdList": [
     "lateranoShip",
     "egirShip",
@@ -60,14 +56,13 @@
     "enemy_1329_cbshld_2",
     "enemy_1072_dlancer"
   ],
-  "loadingPicId": "loading_AC_prototype",
+  "loadingPicId": "loading_AC_funny",
   "modeColor": "f6a329",
   "modeDifficulty": "FUNNY",
   "modeIconId": "mode_funny_icon",
   "modeId": "mode_single_funny",
   "modeType": "SINGLE",
   "name": "标准模拟",
-  "preposedMode": "mode_training_1",
   "sortId": 2,
   "specialPhaseTime": 150,
   "startTime": 1773475200,
@@ -98,5 +93,14 @@
       [],
       []
     ]
-  }
+  },
+  "difficulty": 1,
+  "factor": 1.0,
+  "difficultyDesc": "·可以快速完成作战\n·常规奖励",
+  "trophyDesc": null,
+  "eventIds": [],
+  "unlockDiffierentModeId": "mode_training_1",
+  "groupList": [
+    "GROUP_SINGLE"
+  ]
 }

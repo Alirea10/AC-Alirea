@@ -5,6 +5,8 @@
   "effectDesc": "【众志合一】场上存在<@ba.vup>3</>、<@ba.vup>4</>或<@ba.vup>5</>种以上激活盟约时，所有干员攻击力、生命值分别<@ba.vup>+20</>/<@ba.vup>30</>/<@ba.vup>40%</>",
   "effectId": "aceffect_band_22",
   "effectName": "众志合一",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

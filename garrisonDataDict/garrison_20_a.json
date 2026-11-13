@@ -49,5 +49,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>身前一格的干员每消耗<@ba.vup>7</>发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>"
+  "garrisonDesc": "<战斗中>身前一格的干员每消耗<@ba.vup>7</>发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>",
+  "eventEffect": null
 }

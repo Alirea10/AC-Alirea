@@ -2181,7 +2181,37 @@
       "trstageBandId": "band_sarkazb",
       "trstageBossId": "boss_7",
       "trStageId": "act1autochess_m01",
-      "webBusType": "ak_act2autochess"
+      "webBusType": "ak_act2autochess",
+      "maxDeckEquipmentChessCnt": 15,
+      "webUpdateLogBusType": "ak_act3autochess_updatelog",
+      "itemMaxCount": 6250,
+      "diyCharLimitForLevels": {
+        "5": 2,
+        "6": 2
+      },
+      "permShopLogoId": "logo_season_shop",
+      "contentUpdateTime": 1794124800,
+      "systemCustomChar": [
+        "char_609_acguad",
+        "char_612_accast",
+        "char_613_acmedc",
+        "char_611_acnipe",
+        "char_608_acpion",
+        "char_614_acsupo",
+        "char_615_acspec",
+        "char_610_acfend",
+        "char_617_sharp2"
+      ],
+      "bossIconId": "autochess_icon_boss",
+      "modeWarningDiff": 3,
+      "perfectBattleVoiceRound": 3,
+      "loseHpVoiceRound": 3,
+      "bondVoiceLayers": [
+        100,
+        300,
+        500
+      ],
+      "shopTagWarmUpId": "warmup_4"
     },
     "difficultyFactorInfo": {
       "ABYSS": 1.7,
@@ -3069,32 +3099,50 @@
       "comment_1": {
         "id": "comment_1",
         "picId": "comment_icon_1",
-        "txt": "！？区区？！"
+        "txt": "！？区区？！",
+        "type": "BOND",
+        "point": 0,
+        "rank": 0
       },
       "comment_2": {
         "id": "comment_2",
         "picId": "comment_icon_2",
-        "txt": "不朽盟约"
+        "txt": "不朽盟约",
+        "type": "BOND",
+        "point": 1,
+        "rank": 1
       },
       "comment_3": {
         "id": "comment_3",
         "picId": "comment_icon_3",
-        "txt": "坚若磐石"
+        "txt": "坚若磐石",
+        "type": "BOND",
+        "point": 1,
+        "rank": 2
       },
       "comment_4": {
         "id": "comment_4",
         "picId": "comment_icon_4",
-        "txt": "精英云集"
+        "txt": "精英云集",
+        "type": "KILL",
+        "point": 0,
+        "rank": 0
       },
       "comment_5": {
         "id": "comment_5",
         "picId": "comment_icon_5",
-        "txt": "万事俱备"
+        "txt": "万事俱备",
+        "type": "KILL",
+        "point": 1,
+        "rank": 1
       },
       "comment_6": {
         "id": "comment_6",
         "picId": "comment_icon_6",
-        "txt": "挥金如土"
+        "txt": "挥金如土",
+        "type": "KILL",
+        "point": 1,
+        "rank": 2
       }
     },
     "runtimeConfig": {
@@ -3257,7 +3305,12 @@
           "enemy_9009_acfort",
           "enemy_9010_acpupp",
           "enemy_9011_acrefr"
-        ]
+        ],
+        "modeAliases": {
+          "mode_single_abyss": "mode_single_20",
+          "mode_single_hard": "mode_single_14",
+          "mode_single_normal": "mode_single_1"
+        }
       },
       "shop": {
         "charRates": [
@@ -3758,31 +3811,45 @@
     "specialEnemyRandomTypeDict": {
       "DOT": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_10122_uacann_2"
       },
       "ELEMENT": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_10067_ftsjc"
       },
       "FLY": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_1005_yokai_3"
       },
       "INVISIBLE": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_10034_cnvsax"
       },
       "REFLECTION": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_10012_sgbtle"
       },
       "SPECIAL": {
         "count": -1,
-        "weight": -1
+        "weight": -1,
+        "countSingle": -1,
+        "showEnemyId": "enemy_1006_shield_3"
       },
       "TIMES": {
         "count": 3,
-        "weight": 3
+        "weight": 3,
+        "countSingle": 3,
+        "showEnemyId": "enemy_1131_sbeast"
       }
     },
     "trainingNpcList": [
@@ -3807,6 +3874,1376 @@
         "nameCardSkinId": "nc_as2024_novafive",
         "npcId": "npc_3"
       }
-    ]
+    ],
+    "modeGroupDataDict": {
+      "GROUP_MULTI": {
+        "groupType": "GROUP_MULTI",
+        "modeType": "SOLO",
+        "willExpand": true,
+        "modeIds": [
+          "mode_multi_abyss",
+          "mode_multi_funny",
+          "mode_multi_hard",
+          "mode_multi_normal",
+          "mode_training_1"
+        ]
+      },
+      "GROUP_ROOM": {
+        "groupType": "GROUP_ROOM",
+        "modeType": "TEAM",
+        "willExpand": true,
+        "modeIds": [
+          "mode_multi_abyss",
+          "mode_multi_funny",
+          "mode_multi_hard",
+          "mode_multi_normal"
+        ]
+      },
+      "GROUP_SINGLE": {
+        "groupType": "GROUP_SINGLE",
+        "modeType": "SOLO",
+        "willExpand": true,
+        "modeIds": [
+          "mode_single_abyss",
+          "mode_single_funny",
+          "mode_single_hard",
+          "mode_single_normal"
+        ]
+      },
+      "GROUP_FAST": {
+        "groupType": "GROUP_FAST",
+        "modeType": "SOLO",
+        "willExpand": false,
+        "modeIds": []
+      },
+      "GROUP_OFFSEASON": {
+        "groupType": "GROUP_OFFSEASON",
+        "modeType": "SOLO",
+        "willExpand": false,
+        "modeIds": []
+      }
+    },
+    "effectDescParamDataDict": {
+      "bondeffect_arcane": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_damage_scale_show",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_scale_show_ex",
+            "descParamPerStack": "damage_scale_per_stack_show_ex",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_deput": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_def",
+            "descParamPerStack": "def_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_egir": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_max_hp",
+            "descParamPerStack": "max_hp_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_empty": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_indom": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_prob",
+            "descParamPerStack": "prob_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_invest": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_judgement": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_hp_threshold",
+            "descParamPerStack": "hp_threshold_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_kazdel": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_ex_damage_scale",
+            "descParamPerStack": "ex_damage_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_kazimierz": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_max_atk_when_born",
+            "descParamPerStack": "max_atk_when_born_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_kjerag": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_ex_damage_scale",
+            "descParamPerStack": "ex_damage_scale_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "bond_eff_kjerag[storm].base_time",
+            "descParamPerStack": "bond_eff_kjerag[storm].time_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_laterano": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_ammo_percent",
+            "descParamPerStack": "ammo_percent_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_leithanien": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_attack_speed",
+            "descParamPerStack": "attack_speed_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "hp_regen_ratio",
+            "descParamPerStack": "",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_mani": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_mira": {
+        "descParamInfos": [
+          {
+            "descParamBase": "baseprob",
+            "descParamPerStack": "prob",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_mujica": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_def_penetrate_fixed",
+            "descParamPerStack": "def_penetrate_fixed_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_magic_resist_penetrate",
+            "descParamPerStack": "magic_resist_penetrate_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_cnt",
+            "descParamPerStack": "cnt_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_prob",
+            "descParamPerStack": "prob_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_preci": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_raid": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_rainbow": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_def",
+            "descParamPerStack": "def_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_rhine": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_heal_ratio",
+            "descParamPerStack": "heal_ratio_per_layer",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_ratio",
+            "descParamPerStack": "damage_ratio_per_layer",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_rhodes": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_rimB": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_dodge",
+            "descParamPerStack": "dodge_per_layer",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_float_damage",
+            "descParamPerStack": "float_damage_per_layer",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_zero",
+            "descParamPerStack": "messenger_per_level",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_target_base",
+            "descParamPerStack": "messenger_per_level",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_attack_speed_base",
+            "descParamPerStack": "messenger_attack_speed_per_level",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_sp_base",
+            "descParamPerStack": "messenger_sp_per_level",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_float_duration_base",
+            "descParamPerStack": "messenger_zero",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_slow_duration_base",
+            "descParamPerStack": "messenger_per_level",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "messenger_bonus_duration_base",
+            "descParamPerStack": "messenger_zero",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_rtisan": {
+        "descParamInfos": [
+          {
+            "descParamBase": "atk_normal_equip",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_sami": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_sargon": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_time",
+            "descParamPerStack": "time_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_scout": {
+        "descParamInfos": [
+          {
+            "descParamBase": "zero",
+            "descParamPerStack": "atk_per_layer",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_siracusa": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_attack_speed",
+            "descParamPerStack": "attack_speed_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_duration",
+            "descParamPerStack": "duration_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage",
+            "descParamPerStack": "damage_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_skillful": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_attack_speed",
+            "descParamPerStack": "attack_speed_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_solo": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_stead": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_max_hp",
+            "descParamPerStack": "max_hp_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_value",
+            "descParamPerStack": "damage_value_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_sunt": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_swift": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_prob",
+            "descParamPerStack": "prob_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "testBond": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_ursus": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_prob",
+            "descParamPerStack": "prob_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_victoria": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_damage_scale",
+            "descParamPerStack": "damage_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_visi": {
+        "descParamInfos": [],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      },
+      "bondeffect_yan": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_atk",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "STACK_COUNT",
+        "bondPhaseCountList": []
+      }
+    },
+    "skillInfoDataDict": {
+      "aceffect_band_61": {
+        "effectId": "aceffect_band_61",
+        "skillDesc": "【外勤医疗】所有玩家场地上出现一名<预备干员-医疗>；战斗开始时，若场上至少有两名精锐干员，则替换为<Touch>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_amedic"
+      },
+      "aceffect_band_22": {
+        "effectId": "aceffect_band_22",
+        "skillDesc": "【众志合一】场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命值分别+20/30/40%",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_amiya"
+      },
+      "aceffect_band_63": {
+        "effectId": "aceffect_band_63",
+        "skillDesc": "【轻飘飘~】所有干员攻击时有<@ba.vup>3%</>概率使敌人浮空<@ba.vup>1</>秒",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_angel2"
+      },
+      "aceffect_band_21": {
+        "effectId": "aceffect_band_21",
+        "skillDesc": "【重点监护】开始作战时，使场上每个不同等阶的1个随机我方干员的所属盟约层数+2",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_bldsk"
+      },
+      "aceffect_band_34": {
+        "effectId": "aceffect_band_34",
+        "skillDesc": "【利滚利】每回合剩余的资金可以继承，剩余至少5资金时，每回合额外获得1资金",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_cannot"
+      },
+      "aceffect_band_26": {
+        "effectId": "aceffect_band_26",
+        "skillDesc": "【定向投放】每次升级调度中心时，在调度中心刷新随机3件装备，可以选择并获得其中1件",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_cathy"
+      },
+      "aceffect_band_39": {
+        "effectId": "aceffect_band_39",
+        "skillDesc": "【以己之长】所有干员造成的物理和法术伤害变为弱点伤害（根据敌人的防御力和法术抗性变更伤害类型）",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_chen"
+      },
+      "aceffect_band_59": {
+        "effectId": "aceffect_band_59",
+        "skillDesc": "【团伙行动】主动刷新6次调度中心后获得一名不高于当前调度中心等级的<叙拉古>干员（每回合至多获得2名）\\n<@ba.vdown>在<叙拉古>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_chiave"
+      },
+      "aceffect_band_33": {
+        "effectId": "aceffect_band_33",
+        "skillDesc": "【崇高牺牲】<阿戈尔>干员被击倒时，提供等同于该干员等阶的<阿戈尔>盟约层数\\n<@ba.vdown>在<阿戈尔>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_clementia"
+      },
+      "aceffect_band_40": {
+        "effectId": "aceffect_band_40",
+        "skillDesc": "【变形同构】每5回合获得1件特殊装备<变形同构体>\\n<@ba.acrem><变形同构体>：与特定装备一同装备时装备者将视为特定盟约成员</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_damaztic"
+      },
+      "aceffect_band_25": {
+        "effectId": "aceffect_band_25",
+        "skillDesc": "【加练！】每2个回合获得1个特殊法术<教鞭>\\n<@ba.acrem><教鞭>：使用后为下场战斗添加额外敌人，若自身战斗完美作战可获得资金</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_doberm"
+      },
+      "aceffect_band_49": {
+        "effectId": "aceffect_band_49",
+        "skillDesc": "【“神秘顾客”】从第5回合起，你和队友遭遇的部分敌人可能会替换为<鸭爵><高普尼克><流泪小子><圆仔>，击倒这些敌人者获得1资金奖励（包括联防阶段）",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_ducklord"
+      },
+      "aceffect_band_45": {
+        "effectId": "aceffect_band_45",
+        "skillDesc": "【墨色真颜】若你的场上存在同名干员，这些干员攻击力+30%\\n【幻画为真】第1回合获得1个特殊法术<画卷>\\n<@ba.acrem><画卷>：使用后可以复制该法术范围内的1名干员（包括精锐状态和携带的装备）</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_dusk"
+      },
+      "aceffect_band_28": {
+        "effectId": "aceffect_band_28",
+        "skillDesc": "【广交豪杰】每回合前2次主动刷新为特殊刷新：优先刷新出1名<炎>干员\\n<@ba.vdown>在<炎>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_duyaoy"
+      },
+      "aceffect_band_36": {
+        "effectId": "aceffect_band_36",
+        "skillDesc": "【加急调派】我方干员每次部署后再部署时间减少50%",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_emperor"
+      },
+      "aceffect_band_48": {
+        "effectId": "aceffect_band_48",
+        "skillDesc": "【命结之秘】战斗中前3个被击倒的干员立刻复活！",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_ermengard"
+      },
+      "aceffect_band_57": {
+        "effectId": "aceffect_band_57",
+        "skillDesc": "【协力共进】第8、10、12、14回合时，获得1个<信标>\\n<@ba.acrem><信标>：装备后销毁携带干员，并在调度中心刷新两名同等阶干员免费获取其中一名；原干员在下回合传递给对应盟约人数最多的队友</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_fang"
+      },
+      "aceffect_band_30": {
+        "effectId": "aceffect_band_30",
+        "skillDesc": "【人才盲盒】从第4回合开始每2回合获得1名<维多利亚>干员\\n<@ba.vdown>在<维多利亚>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_harold"
+      },
+      "aceffect_band_38": {
+        "effectId": "aceffect_band_38",
+        "skillDesc": "【回收利用】地面干员技能结束时使周围四格随机1名干员获得3点技力",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_humus"
+      },
+      "aceffect_band_53": {
+        "effectId": "aceffect_band_53",
+        "skillDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值+10%",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_ioleta"
+      },
+      "aceffect_band_54": {
+        "effectId": "aceffect_band_54",
+        "skillDesc": "【集结指示】在第4、7、10、13回合进入休整期时获得1个<寻呼模块>\\n<@ba.acrem><寻呼模块>：装备时销毁，立即在调度中心中刷新三名与该干员盟约相同的干员，免费获得其中一名!（不超过当前调度中心等级）</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_jesica"
+      },
+      "aceffect_band_47": {
+        "effectId": "aceffect_band_47",
+        "skillDesc": "【私募基金】在第1、4、7、10回合进入休整期时获得1个<骑士储蓄罐>\\n<@ba.acrem><骑士储蓄罐>：装备时随机获得1~6资金并销毁</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_justin"
+      },
+      "aceffect_band_24": {
+        "effectId": "aceffect_band_24",
+        "skillDesc": "【通关奖励】每使用20资金，获得一名不高于当前调度中心等级的随机干员",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_kirara"
+      },
+      "aceffect_band_51": {
+        "effectId": "aceffect_band_51",
+        "skillDesc": "【御守之力】每个回合开始时，触发战场上一名干员的获得时效果一次（优先选择最靠右和最靠下）",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_lisa"
+      },
+      "aceffect_band_46": {
+        "effectId": "aceffect_band_46",
+        "skillDesc": "【得闲饮茶】第1、2回合的资金暂存至第3回合发放；第3回合进入休整期时，获得2、4阶随机干员各1名",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_lmlee"
+      },
+      "aceffect_band_56": {
+        "effectId": "aceffect_band_56",
+        "skillDesc": "【九流之缘】偶数回合的休整期开始时，随机获得调度中心的一名干员",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_makiri"
+      },
+      "aceffect_band_27": {
+        "effectId": "aceffect_band_27",
+        "skillDesc": "【商业包装】初始获得1个<商业包装方案>\\n<@ba.acrem><商业包装方案>：每出售8名任意干员后，获得1名装备者的同盟约普通干员</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_malkie"
+      },
+      "aceffect_band_37": {
+        "effectId": "aceffect_band_37",
+        "skillDesc": "【药枚实验】战斗开始时，使最右边的所有我方单位获得效果：每次攻击时有25%的概率获得1层护盾（最多1层）",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_mberry"
+      },
+      "aceffect_band_58": {
+        "effectId": "aceffect_band_58",
+        "skillDesc": "【业务指标】每购买一名<卡西米尔>干员，下回合开始时资金+1（每回合至多3资金）\\n<@ba.vdown>在<卡西米尔>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_mlynar"
+      },
+      "aceffect_band_55": {
+        "effectId": "aceffect_band_55",
+        "skillDesc": "【至纯凝结】在第1回合开始时获得一个进阶<博士投影>\\n<@ba.acrem>进阶<博士投影>：任意干员可装备，立即使该干员晋升为精锐干员</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_mlyss"
+      },
+      "aceffect_band_60": {
+        "effectId": "aceffect_band_60",
+        "skillDesc": "【见者有份】偶数回合进入休整期时，调度中心特殊刷新两件装备，免费获取其中一件；萨尔贡盟约<在场6名不同【萨尔贡】干员>效果替换为【萨尔贡】干员技能开启后，周围八格干员同时享受该干员携带的不高于V阶的装备效果，持续60秒\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_narant"
+      },
+      "aceffect_band_23": {
+        "effectId": "aceffect_band_23",
+        "skillDesc": "【猎头顾问】每次主动刷新均变为特殊刷新：必定刷新2名同名干员，并冻结其中一名；第10回合获得1个<寻呼模块>\\n<@ba.acrem><寻呼模块>：装备时销毁，立即在调度中心中刷新三名与该干员盟约相同的干员，免费获得其中一名!（不超过当前调度中心等级）</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_orchid"
+      },
+      "aceffect_band_32": {
+        "effectId": "aceffect_band_32",
+        "skillDesc": "【定制铳械】累计花费55资金后，获得1名4阶及以上随机的精锐<拉特兰>干员\\n<@ba.vdown>在<拉特兰>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_paganini"
+      },
+      "aceffect_band_29": {
+        "effectId": "aceffect_band_29",
+        "skillDesc": "【博学多通】升级调度中心至2、4和6级后，获得1次特殊刷新：此次刷新出现的干员优先为<萨尔贡>干员\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_pepe"
+      },
+      "aceffect_band_62": {
+        "effectId": "aceffect_band_62",
+        "skillDesc": "<芬芳>所有我方单位每次受到伤害时回复50点生命值",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_perfumer"
+      },
+      "aceffect_band_42": {
+        "effectId": "aceffect_band_42",
+        "skillDesc": "【优等生】第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于调和盟约：可以使部分盟约人数计数+1",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_pith"
+      },
+      "aceffect_band_35": {
+        "effectId": "aceffect_band_35",
+        "skillDesc": "【食腐之蝶】我方干员被击倒时，场上剩余我方单位攻击力+20%（最大200%，持续至该干员被击倒或战斗结束）",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_qalaisa"
+      },
+      "aceffect_band_41": {
+        "effectId": "aceffect_band_41",
+        "skillDesc": "【不稳定要素】第3回合获得1件特殊装备<突变细胞>\\n<@ba.acrem><突变细胞>：战斗结束后使装备者变为高一阶的随机干员（最高6阶）</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_quintus"
+      },
+      "aceffect_band_44": {
+        "effectId": "aceffect_band_44",
+        "skillDesc": "【坚不可摧】初始目标生命值为45点",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_sarkazb"
+      },
+      "aceffect_band_31": {
+        "effectId": "aceffect_band_31",
+        "skillDesc": "【雪域礼赠】每回合购买的首名<谢拉格>干员消耗资金为1\\n<@ba.vdown>在<谢拉格>部分干员缺席时体验可能不完整</>",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_sciurus"
+      },
+      "aceffect_band_52": {
+        "effectId": "aceffect_band_52",
+        "skillDesc": "【替身娃娃】每回合首次出售初始干员时，改为与调度中心中随机一名干员交换",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_vodfox"
+      },
+      "aceffect_band_50": {
+        "effectId": "aceffect_band_50",
+        "skillDesc": "【文火慢炖】第8回合开始时，若仅激活了1个盟约，使其增加36层；否则使所有已激活盟约增加12层",
+        "skillType": "PASSIVE",
+        "skillCost": 0,
+        "skillAvailType": "DEFAULT",
+        "skillAvailCount": 0,
+        "unlockType": "band_skill_load",
+        "unlockParam": [],
+        "minorUnlock": false,
+        "unlockEffectId": null,
+        "targetType": null,
+        "targetFilterType": null,
+        "targetTip": null,
+        "isUnusableAtSpecialRecruit": false,
+        "bandId": "band_yu"
+      }
+    },
+    "diyChessInfoDict": {},
+    "periodicalRewards": {},
+    "enemyRewardTypeDict": {
+      "enemy_1355_mrfly_2": "enemy_kill",
+      "enemy_1041_lazerd_2": "enemy_kill",
+      "enemy_1439_dslntf": "enemy_kill",
+      "enemy_1299_ymkilr": "enemy_kill",
+      "enemy_10084_hlegle": "enemy_kill",
+      "enemy_1026_aghost": "enemy_kill",
+      "enemy_1006_shield": "enemy_kill",
+      "enemy_1404_msnip": "enemy_kill",
+      "enemy_2001_duckmi": "enemy_kill",
+      "enemy_2002_bearmi": "enemy_kill",
+      "enemy_2034_sythef": "enemy_kill",
+      "enemy_2085_skzjxd": "enemy_kill",
+      "enemy_1005_yokai": "enemy_kill",
+      "enemy_1040_bombd": "enemy_kill",
+      "enemy_1112_emppnt_2": "enemy_kill",
+      "enemy_1195_sfyin": "enemy_kill",
+      "enemy_1203_sfhu": "enemy_kill",
+      "enemy_1207_sfji_2": "enemy_kill",
+      "enemy_1148_dssbr": "enemy_kill",
+      "enemy_1305_mhslim_2": "enemy_kill",
+      "enemy_10067_ftsjc": "enemy_kill",
+      "enemy_1270_nhstlk": "enemy_kill",
+      "enemy_1267_nhpbr_2": "enemy_kill",
+      "enemy_1272_nhtank_2": "enemy_kill",
+      "enemy_1019_jshoot": "enemy_kill",
+      "enemy_10034_cnvsax": "enemy_kill",
+      "enemy_1283_sgkill": "enemy_kill",
+      "enemy_1169_duphlx": "enemy_kill",
+      "enemy_1168_dumage_2": "enemy_kill",
+      "enemy_1174_duholy_2": "enemy_kill",
+      "enemy_10146_nscola": "enemy_kill",
+      "enemy_1209_sfden": "enemy_kill",
+      "enemy_1161_tidmag": "enemy_kill",
+      "enemy_1162_magmot": "enemy_kill",
+      "enemy_2009_csaudc": "enemy_kill",
+      "enemy_1272_nhtank": "enemy_kill",
+      "enemy_10147_nsbomb": "enemy_kill",
+      "enemy_1023_jmage": "enemy_kill",
+      "enemy_1168_dumage": "enemy_kill",
+      "enemy_1174_duholy": "enemy_kill",
+      "enemy_10138_xdsnow": "enemy_kill",
+      "enemy_10156_mncrer": "enemy_kill",
+      "enemy_10112_ymgds": "enemy_kill",
+      "enemy_1413_mmstck": "enemy_kill",
+      "enemy_10116_ymgtop": "enemy_kill",
+      "enemy_10162_mnctpt": "enemy_kill",
+      "enemy_10229_agactr_2": "enemy_kill",
+      "enemy_10094_crstf": "enemy_kill",
+      "enemy_10073_mpcar": "enemy_kill",
+      "enemy_1021_bslime": "enemy_kill",
+      "enemy_10087_hlchgr": "enemy_kill",
+      "enemy_1025_reveng": "enemy_kill",
+      "enemy_10098_crhro": "enemy_kill",
+      "enemy_10196_ubba": "enemy_kill",
+      "enemy_10040_cnvbln": "enemy_kill",
+      "enemy_10001_trslim": "enemy_kill",
+      "enemy_1165_duhond_2": "enemy_kill",
+      "enemy_10045_parrot": "enemy_kill",
+      "enemy_10044_wintun": "enemy_kill",
+      "enemy_10099_crvln": "enemy_kill",
+      "enemy_1267_nhpbr": "enemy_kill",
+      "enemy_1197_sfshu": "enemy_kill",
+      "enemy_1009_lurker": "enemy_kill",
+      "enemy_10018_sgrobh": "enemy_kill",
+      "enemy_1183_mlasrt": "enemy_kill",
+      "enemy_10054_cjhot": "enemy_kill",
+      "enemy_10077_mpbarr": "enemy_kill",
+      "enemy_1500_skulsr": "enemy_kill",
+      "enemy_1501_demonk": "enemy_kill",
+      "enemy_1502_crowns": "enemy_kill",
+      "enemy_1511_mdrock": "enemy_kill",
+      "enemy_1513_dekght": "enemy_kill",
+      "enemy_1513_dekght_2": "enemy_kill",
+      "enemy_2005_axetro": "enemy_kill",
+      "enemy_2004_balloon": "enemy_kill",
+      "enemy_1516_jakill": "enemy_kill",
+      "enemy_1504_cqbw": "enemy_kill",
+      "enemy_1509_mousek": "enemy_kill",
+      "enemy_1050_lslime": "enemy_kill",
+      "enemy_1001_bigbo": "enemy_kill",
+      "enemy_1517_xi": "enemy_kill",
+      "enemy_1525_blkswb": "enemy_kill",
+      "enemy_1535_wlfmster": "enemy_kill",
+      "enemy_2008_flking": "enemy_kill",
+      "enemy_2003_rockman": "enemy_kill",
+      "enemy_10118_ymgprc": "enemy_kill",
+      "enemy_1512_mcmstr": "enemy_kill",
+      "enemy_1539_reid": "enemy_kill",
+      "enemy_2048_smgrd": "enemy_kill",
+      "enemy_2050_smsha": "enemy_kill",
+      "enemy_2052_smgia": "enemy_kill",
+      "enemy_1007_slime": "enemy_kill",
+      "enemy_1092_mdgint": "enemy_kill",
+      "enemy_1302_ymtro_2": "enemy_kill",
+      "enemy_1062_rager_2": "enemy_kill",
+      "enemy_1415_mmkabi_2": "enemy_kill",
+      "enemy_10003_trwlpl_2": "enemy_kill",
+      "enemy_1273_stmgun_2": "enemy_kill",
+      "enemy_10123_uareap": "enemy_kill",
+      "enemy_10159_mntrjn": "enemy_kill",
+      "enemy_10141_xdpeng_2": "enemy_kill",
+      "enemy_10127_rkmbst_2": "enemy_kill",
+      "enemy_10097_crshd": "enemy_kill",
+      "enemy_10081_mpplai": "enemy_kill",
+      "enemy_2135_shkrbt": "enemy_kill",
+      "enemy_1321_wdarft": "enemy_kill",
+      "enemy_1203_sfhu_2": "enemy_kill",
+      "enemy_1439_dslntf_2": "enemy_kill",
+      "enemy_9006_actoxi": "enemy_kill",
+      "enemy_1283_sgkill_2": "enemy_kill",
+      "enemy_1170_dushld_2": "enemy_kill",
+      "enemy_1172_dugago_2": "enemy_kill",
+      "enemy_9038_achest": "enemy_alive",
+      "enemy_2001_duckmi_2": "enemy_kill",
+      "enemy_2002_bearmi_2": "enemy_kill",
+      "enemy_2034_sythef_2": "enemy_kill",
+      "enemy_2085_skzjxd_2": "enemy_kill"
+    },
+    "enemyRewardTextFormatDict": {
+      "enemy_kill": "击败后获得{0}资金",
+      "enemy_alive": "保护后获得{0}资金"
+    },
+    "seasonShop": null
   }
 }

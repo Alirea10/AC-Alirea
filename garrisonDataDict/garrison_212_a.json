@@ -44,5 +44,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>前<@autochess.dgreen>3</>次开启技能时，使已激活的【雷姆必拓】【巧匠】层数各<@ba.vup>+5</>（每场战斗各至多<@ba.vup>15</>层）"
+  "garrisonDesc": "<战斗中>前<@autochess.dgreen>3</>次开启技能时，使已激活的【雷姆必拓】【巧匠】层数各<@ba.vup>+5</>（每场战斗各至多<@ba.vup>15</>层）",
+  "eventEffect": null
 }

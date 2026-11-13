@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_3_3_e",
   "effectName": "幽灵组长·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

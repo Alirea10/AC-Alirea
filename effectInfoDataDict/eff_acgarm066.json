@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm066",
   "effectName": "盟约之币",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

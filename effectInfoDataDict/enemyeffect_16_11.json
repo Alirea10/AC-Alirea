@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_16_11",
   "effectName": "悬赏·损伤I",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

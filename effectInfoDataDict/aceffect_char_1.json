@@ -6,5 +6,7 @@
   "effectId": "aceffect_char_1",
   "effectName": "未精英化",
   "effectType": "CHAR_MAP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

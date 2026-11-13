@@ -5,6 +5,8 @@
   "effectDesc": "【重点监护】开始作战时，使场上每个不同等阶的<@ba.vup>1</>个随机我方干员的所属盟约层数<@ba.vup>+2</>",
   "effectId": "aceffect_band_21",
   "effectName": "重点监护",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

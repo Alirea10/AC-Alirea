@@ -30,5 +30,6 @@
   "maxInactiveBondCount": -1,
   "name": "投资人",
   "noStack": false,
-  "weight": 0
+  "weight": 0,
+  "noSelect": false
 }

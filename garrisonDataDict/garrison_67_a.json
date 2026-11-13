@@ -14,5 +14,6 @@
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<售出时>进入下个休整期额外获得<@ba.vup>1</>资金"
+  "garrisonDesc": "<售出时>进入下个休整期额外获得<@ba.vup>1</>资金",
+  "eventEffect": null
 }

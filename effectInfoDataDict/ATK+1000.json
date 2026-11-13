@@ -6,5 +6,7 @@
   "effectId": "ATK+1000",
   "effectName": "攻击力+1000",
   "effectType": "BOND",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

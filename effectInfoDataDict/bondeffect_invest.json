@@ -6,5 +6,7 @@
   "effectId": "bondeffect_invest",
   "effectName": "投资人",
   "effectType": "BOND",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

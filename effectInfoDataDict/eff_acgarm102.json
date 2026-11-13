@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm102",
   "effectName": "耶拉冈德之泪",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

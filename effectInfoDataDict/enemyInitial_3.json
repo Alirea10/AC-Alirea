@@ -6,5 +6,7 @@
   "effectId": "enemyInitial_3",
   "effectName": "多轮悬赏 · 假想敌：骨刺",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

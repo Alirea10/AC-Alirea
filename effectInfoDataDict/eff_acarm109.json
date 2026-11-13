@@ -6,5 +6,7 @@
   "effectId": "eff_acarm109",
   "effectName": "信标",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -5,6 +5,8 @@
   "effectDesc": "【定制铳械】累计花费<@ba.vup>55</>资金后，获得<@ba.vup>1</>名<@ba.vup>4</>阶及以上随机的精锐<拉特兰>干员\\n<@ba.vdown>在<拉特兰>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_32",
   "effectName": "定制铳械",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

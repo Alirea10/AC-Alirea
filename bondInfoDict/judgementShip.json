@@ -21,5 +21,6 @@
   "maxInactiveBondCount": -1,
   "name": "审判",
   "noStack": false,
-  "weight": 0
+  "weight": 0,
+  "noSelect": false
 }

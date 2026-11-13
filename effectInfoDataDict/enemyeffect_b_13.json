@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_13",
   "effectName": "奎隆，摩诃萨埵权化·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 2
+  "enemyPrice": 2,
+  "showTag": null,
+  "displayInHUD": false
 }

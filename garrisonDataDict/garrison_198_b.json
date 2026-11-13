@@ -89,5 +89,6 @@
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "<战斗开始时>【萨米】盟约结算后，每有<@autochess.dgreen>1</>名不同【萨米】干员的最终抽取结果小于<@autochess.dgreen>0</>，使所有在场【萨米】干员获得相当于各自最大生命值<@ba.vup>12%</>的护盾，持续<@ba.vup>30</>秒\n<@autochess.gray>（最多计入<@autochess.dgreen>3</>名；同名特质不叠加，优先取精锐效果）</>"
+  "garrisonDesc": "<战斗开始时>【萨米】盟约结算后，每有<@autochess.dgreen>1</>名不同【萨米】干员的最终抽取结果小于<@autochess.dgreen>0</>，使所有在场【萨米】干员获得相当于各自最大生命值<@ba.vup>12%</>的护盾，持续<@ba.vup>30</>秒\n<@autochess.gray>（最多计入<@autochess.dgreen>3</>名；同名特质不叠加，优先取精锐效果）</>",
+  "eventEffect": null
 }

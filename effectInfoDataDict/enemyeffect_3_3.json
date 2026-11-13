@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_3_3",
   "effectName": "元核孽生者·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

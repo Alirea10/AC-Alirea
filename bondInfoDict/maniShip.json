@@ -24,5 +24,6 @@
   "maxInactiveBondCount": -1,
   "name": "调和",
   "noStack": true,
-  "weight": 0
+  "weight": 0,
+  "noSelect": false
 }

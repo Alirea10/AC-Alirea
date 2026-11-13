@@ -40,5 +40,6 @@
   "maxInactiveBondCount": 0,
   "name": "Mujica",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

@@ -5,6 +5,8 @@
   "effectDesc": "【九流之缘】偶数回合的休整期开始时，随机获得调度中心的一名干员",
   "effectId": "aceffect_band_56",
   "effectName": "九流之缘",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -24,5 +24,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>每当范围内<@ba.vup>1</>名敌人进入冻结时，回复数次<@ba.vup>1.5%</>最大生命值"
+  "garrisonDesc": "<战斗中>每当范围内<@ba.vup>1</>名敌人进入冻结时，回复数次<@ba.vup>1.5%</>最大生命值",
+  "eventEffect": null
 }

@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_21",
   "effectName": "“复仇者”·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 6
+  "enemyPrice": 6,
+  "showTag": null,
+  "displayInHUD": false
 }

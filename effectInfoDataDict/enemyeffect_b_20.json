@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_20",
   "effectName": "“巨大的丑东西”·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 5
+  "enemyPrice": 5,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -49,5 +49,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>首次击倒敌人或我方干员时，使已激活的【阿戈尔】【奥术】层数<@ba.vup>+3</>"
+  "garrisonDesc": "<战斗中>首次击倒敌人或我方干员时，使已激活的【阿戈尔】【奥术】层数<@ba.vup>+3</>",
+  "eventEffect": null
 }

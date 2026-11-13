@@ -16,7 +16,9 @@
             "_blackboardKey": "is_sleeping",
             "_copyFromKey": null,
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "_succeedNodes": [
@@ -30,7 +32,9 @@
             "_blackboardKey": "is_sleeping",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           },
           {
             "_derviedBuffKey": "act2autochess_gar_event_allyenemy_palsy_inrange[invalid]",
@@ -119,7 +123,9 @@
             "_blackboardKey": "is_sleeping",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

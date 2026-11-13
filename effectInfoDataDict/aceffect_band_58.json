@@ -5,6 +5,8 @@
   "effectDesc": "【业务指标】每购买一名<卡西米尔>干员，下回合开始时资金<@ba.vup>+1</>（每回合至多<@ba.vup>3</>资金）\\n<@ba.vdown>在<卡西米尔>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_58",
   "effectName": "业务指标",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

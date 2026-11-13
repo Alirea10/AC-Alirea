@@ -10,5 +10,12 @@
   "sortId": 41,
   "totalHp": 26,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

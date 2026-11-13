@@ -19,5 +19,6 @@
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<进入休整期时>获得<@ba.vup>1</>次免费刷新"
+  "garrisonDesc": "<进入休整期时>获得<@ba.vup>1</>次免费刷新",
+  "eventEffect": null
 }

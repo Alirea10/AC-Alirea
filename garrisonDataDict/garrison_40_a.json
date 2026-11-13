@@ -34,5 +34,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>自身被击倒或替身与本体进行切换时，使已激活的【阿戈尔】层数<@ba.vup>+5</>、【不屈】层数<@ba.vup>+5</>"
+  "garrisonDesc": "<战斗中>自身被击倒或替身与本体进行切换时，使已激活的【阿戈尔】层数<@ba.vup>+5</>、【不屈】层数<@ba.vup>+5</>",
+  "eventEffect": null
 }

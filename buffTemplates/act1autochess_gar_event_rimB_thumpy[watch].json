@@ -16,7 +16,9 @@
             "_blackboardKey": "was_levitating",
             "_copyFromKey": null,
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "_succeedNodes": [
@@ -30,7 +32,9 @@
             "_blackboardKey": "was_levitating",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           },
           {
             "_autoRange": false,
@@ -39,7 +43,8 @@
             "_rangeRadius": 0,
             "_soureceType": "BUFF_SOURCE",
             "_targetType": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+CheckTargetInRange, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+CheckTargetInRange, Assembly-CSharp",
+            "_direction": 0
           },
           {
             "_target": "BUFF_SOURCE",
@@ -64,7 +69,9 @@
             "_blackboardKey": "was_levitating",
             "_copyFromKey": null,
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "_succeedNodes": [
@@ -73,7 +80,9 @@
             "_blackboardKey": "was_levitating",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

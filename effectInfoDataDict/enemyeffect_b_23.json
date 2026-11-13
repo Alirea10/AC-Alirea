@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_23",
   "effectName": "陷落雪祀·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

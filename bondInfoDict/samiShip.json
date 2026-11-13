@@ -30,5 +30,6 @@
   "maxInactiveBondCount": 0,
   "name": "萨米",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

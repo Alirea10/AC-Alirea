@@ -15,5 +15,8 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0
+  "upgradeNum": 0,
+  "equipSlotNum": 3,
+  "showTag": null,
+  "desc": null
 }

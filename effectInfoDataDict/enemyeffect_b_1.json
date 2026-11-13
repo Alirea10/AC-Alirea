@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_1",
   "effectName": "“交通亭”费尔迪南珍藏款·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

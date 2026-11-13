@@ -29,5 +29,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>本回合每获得过<@ba.vup>1</>名干员，使已激活的【炎】层数<@ba.vup>+2</>"
+  "garrisonDesc": "<休整期结束时>本回合每获得过<@ba.vup>1</>名干员，使已激活的【炎】层数<@ba.vup>+2</>",
+  "eventEffect": null
 }

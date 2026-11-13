@@ -1,5 +1,7 @@
 {
   "bandDesc": "【加练！】每2个回合获得1个特殊法术<教鞭>\\n<@ba.acrem><教鞭>：使用后为下场战斗添加额外敌人，若自身战斗完美作战可获得资金</>",
+  "bandIconId": "icon_doberm",
+  "bandName": "杜宾",
   "bandId": "band_doberm",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_25",
@@ -10,5 +12,12 @@
   "sortId": 20,
   "totalHp": 30,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

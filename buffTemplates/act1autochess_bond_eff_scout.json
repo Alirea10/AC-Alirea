@@ -11,7 +11,8 @@
         "_checkDiffWithOldStoreCnt": true,
         "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",
@@ -43,12 +44,14 @@
           {
             "_bondId": "scoutShip",
             "_condType": "GE",
-            "_filterAllSides": false,
             "_filterCount": true,
             "_keyToCompare": "power_bond_char_cnt",
             "_keyToStoreCnt": "scout_bond_char_cnt",
             "_target": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+            "_getPlayerIndexFormBB": false,
+            "_playerIndexBBKey": "autochess_player_index",
+            "_useMaxBondCharCntInCurArea": false
           }
         ],
         "_failNodes": [],

@@ -5,6 +5,8 @@
   "effectDesc": "【芬芳】所有我方单位每次受到伤害时回复<@ba.vup>50</>点生命值",
   "effectId": "aceffect_band_62",
   "effectName": "调香师",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm064",
   "effectName": "突袭手雷",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

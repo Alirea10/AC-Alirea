@@ -49,14 +49,18 @@
                     "_blackboardKey": "atk",
                     "_copyFromKey": "atk_1",
                     "_value": 0,
-                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                    "_keySource": "CONSTANT",
+                    "_blackboardSource": "CURRENT"
                   },
                   {
                     "_assignString": false,
                     "_blackboardKey": "max_hp",
                     "_copyFromKey": "max_hp_1",
                     "_value": 0,
-                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                    "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                    "_keySource": "CONSTANT",
+                    "_blackboardSource": "CURRENT"
                   }
                 ],
                 "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -68,14 +72,18 @@
                 "_blackboardKey": "atk",
                 "_copyFromKey": "atk_2",
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               },
               {
                 "_assignString": false,
                 "_blackboardKey": "max_hp",
                 "_copyFromKey": "max_hp_2",
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -87,14 +95,18 @@
             "_blackboardKey": "atk",
             "_copyFromKey": "atk_3",
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           },
           {
             "_assignString": false,
             "_blackboardKey": "max_hp",
             "_copyFromKey": "max_hp_3",
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

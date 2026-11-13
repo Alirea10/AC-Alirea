@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_4",
   "effectName": "山海众头目·多轮悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

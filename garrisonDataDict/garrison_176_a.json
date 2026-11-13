@@ -44,5 +44,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>8</>（最多叠加<@ba.vup>24</>层），\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>1%</>"
+  "garrisonDesc": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>8</>（最多叠加<@ba.vup>24</>层），\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>1%</>",
+  "eventEffect": null
 }

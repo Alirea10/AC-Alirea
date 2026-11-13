@@ -17,5 +17,6 @@
   "maxInactiveBondCount": -1,
   "name": "绝技",
   "noStack": true,
-  "weight": 0
+  "weight": 0,
+  "noSelect": false
 }

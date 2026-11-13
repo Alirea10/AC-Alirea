@@ -5,6 +5,8 @@
   "effectDesc": "【不稳定要素】第<@autochess.dgreen>3</>回合获得<@ba.vup>1</>件特殊装备<突变细胞>\\n<@ba.acrem><突变细胞>：战斗结束后使装备者变为高一阶的随机干员（最高6阶）</>",
   "effectId": "aceffect_band_41",
   "effectName": "不稳定要素",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

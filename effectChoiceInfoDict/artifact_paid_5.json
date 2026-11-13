@@ -4,5 +4,5 @@
   "desc": "无需消耗资金，获得装备补给。",
   "effectType": "EQUIP",
   "name": "机密商店",
-  "typeTxtColor": "#35d8b4"
+  "selectionType": "ROBIN"
 }

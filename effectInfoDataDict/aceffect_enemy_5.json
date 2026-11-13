@@ -6,5 +6,7 @@
   "effectId": "aceffect_enemy_5",
   "effectName": "攻坚装备III",
   "effectType": "ENEMY",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

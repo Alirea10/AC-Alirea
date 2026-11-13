@@ -5,6 +5,8 @@
   "effectDesc": "【加练！】每<@ba.vup>2</>个回合获得<@ba.vup>1</>个特殊法术<教鞭>\\n<@ba.acrem><教鞭>：使用后为下场战斗添加额外敌人，若自身战斗完美作战可获得资金</>",
   "effectId": "aceffect_band_25",
   "effectName": "加练！",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -103,7 +103,8 @@
         "_removeExcludeTargetBeforeShrink": false,
         "_filterTargets": false,
         "_filterType": "ALL",
-        "_maxTargetKey": "max_target"
+        "_maxTargetKey": "max_target",
+        "_useHostAsSource": false
       }
     ]
   },

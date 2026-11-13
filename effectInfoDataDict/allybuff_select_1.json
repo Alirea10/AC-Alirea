@@ -6,5 +6,7 @@
   "effectId": "allybuff_select_1",
   "effectName": "列装",
   "effectType": "BUFF_GAIN",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

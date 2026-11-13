@@ -14,5 +14,6 @@
   "eventTypeDesc": "单次叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<获得时>当前激活且层数最多的盟约层数<@ba.vup>+3</>"
+  "garrisonDesc": "<获得时>当前激活且层数最多的盟约层数<@ba.vup>+3</>",
+  "eventEffect": null
 }

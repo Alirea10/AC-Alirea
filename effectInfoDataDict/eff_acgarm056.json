@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm056",
   "effectName": "不屈弹射器",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

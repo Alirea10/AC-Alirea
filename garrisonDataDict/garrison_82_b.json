@@ -19,5 +19,6 @@
   "eventTypeDesc": "特异化",
   "eventTypeIcon": "icon_support",
   "eventTypeSmallIcon": "s_icon_support",
-  "garrisonDesc": "<售出时>触发场上一名拥有“休整期结束时”的干员的特质（优先触发部署位置更靠上的和更靠右的）"
+  "garrisonDesc": "<售出时>触发场上一名拥有“休整期结束时”的干员的特质（优先触发部署位置更靠上的和更靠右的）",
+  "eventEffect": null
 }

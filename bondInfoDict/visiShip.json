@@ -37,5 +37,6 @@
   "maxInactiveBondCount": -1,
   "name": "远见",
   "noStack": false,
-  "weight": 10
+  "weight": 10,
+  "noSelect": false
 }

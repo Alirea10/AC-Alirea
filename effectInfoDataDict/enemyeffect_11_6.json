@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_11_6",
   "effectName": "悬赏·骑士I",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

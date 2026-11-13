@@ -1,5 +1,7 @@
 {
   "bandDesc": "【定向投放】每次升级调度中心时，在调度中心刷新随机3件装备，可以选择并获得其中1件",
+  "bandIconId": "icon_cathy",
+  "bandName": "凯瑟琳",
   "bandId": "band_cathy",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_26",
@@ -10,5 +12,12 @@
   "sortId": 21,
   "totalHp": 26,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

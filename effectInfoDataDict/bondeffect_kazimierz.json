@@ -6,5 +6,7 @@
   "effectId": "bondeffect_kazimierz",
   "effectName": "卡西米尔",
   "effectType": "BOND",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

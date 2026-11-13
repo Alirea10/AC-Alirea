@@ -6,5 +6,7 @@
   "effectId": "eff_acarm065",
   "effectName": "休眠子裔",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

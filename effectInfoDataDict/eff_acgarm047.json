@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm047",
   "effectName": "坚守盾牌",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

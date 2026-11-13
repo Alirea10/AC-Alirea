@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_19_3",
   "effectName": "悬赏·折射I",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

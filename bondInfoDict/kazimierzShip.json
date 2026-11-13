@@ -44,5 +44,6 @@
   "maxInactiveBondCount": -1,
   "name": "卡西米尔",
   "noStack": false,
-  "weight": 10
+  "weight": 10,
+  "noSelect": false
 }

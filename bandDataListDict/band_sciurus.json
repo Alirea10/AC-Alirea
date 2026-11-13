@@ -1,5 +1,7 @@
 {
   "bandDesc": "【雪域礼赠】每回合购买的首名<谢拉格>干员消耗资金为1\\n<@ba.vdown>在<谢拉格>部分干员缺席时体验可能不完整</>",
+  "bandIconId": "icon_sciurus",
+  "bandName": "休露丝",
   "bandId": "band_sciurus",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_31",
@@ -10,5 +12,12 @@
   "sortId": 12,
   "totalHp": 24,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

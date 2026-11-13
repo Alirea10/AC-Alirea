@@ -4,7 +4,6 @@
   "chessId": "chess_item_3_05_e_b",
   "effectId": "eff_acgarm051",
   "giveBondId": "swiftShip",
-  "givePowerId": null,
   "isGolden": true,
   "itemType": "EQUIP",
   "purchasePrice": 5,
@@ -16,5 +15,8 @@
   },
   "trapDuration": 0,
   "upgradeChessId": null,
-  "upgradeNum": 0
+  "upgradeNum": 0,
+  "canFuse": false,
+  "fuseWith": null,
+  "fuseResult": null
 }

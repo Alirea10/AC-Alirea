@@ -6,5 +6,16 @@
   "bossId": "boss_6",
   "isHidingBoss": true,
   "sortId": 6,
-  "weight": 5
+  "weight": 5,
+  "bloodDataDict": {
+    "mode_multi_abyss": 3980000,
+    "mode_multi_funny": 285000,
+    "mode_multi_hard": 1990000,
+    "mode_multi_normal": 285000,
+    "mode_single_abyss": 3980000,
+    "mode_single_funny": 285000,
+    "mode_single_hard": 1990000,
+    "mode_single_normal": 285000,
+    "mode_training_1": 285000
+  }
 }

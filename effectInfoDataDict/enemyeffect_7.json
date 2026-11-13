@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_7",
   "effectName": "流泪小子·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

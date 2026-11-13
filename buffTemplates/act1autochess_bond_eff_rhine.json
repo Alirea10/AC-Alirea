@@ -145,7 +145,8 @@
         "_useRadius": false,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       }
     ],
     "ON_AFTER_OUTPUT_HEAL": [
@@ -277,7 +278,8 @@
         "_useRadius": false,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       }
     ],
     "ON_BUFF_START": [
@@ -309,7 +311,8 @@
         "_checkDiffWithOldStoreCnt": true,
         "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",

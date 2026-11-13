@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_13_1",
   "effectName": "战术特训·持续I",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

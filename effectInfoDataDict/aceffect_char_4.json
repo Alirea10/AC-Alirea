@@ -6,5 +6,7 @@
   "effectId": "aceffect_char_4",
   "effectName": "精英阶段2-60级",
   "effectType": "CHAR_MAP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

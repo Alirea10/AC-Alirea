@@ -34,5 +34,6 @@
   "maxInactiveBondCount": 0,
   "name": "星冕",
   "noStack": true,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

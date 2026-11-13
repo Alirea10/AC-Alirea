@@ -25,7 +25,8 @@
         "_checkDiffWithOldStoreCnt": false,
         "_byPosition": false,
         "_assignCurrentMaxBond": false,
-        "_assignAllPlayerIndex": false
+        "_assignAllPlayerIndex": false,
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",

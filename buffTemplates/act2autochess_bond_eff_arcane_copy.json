@@ -5,53 +5,65 @@
       {
         "_bondId": "arcaneShip",
         "_condType": "GE",
-        "_filterAllSides": false,
         "_filterCount": true,
         "_keyToCompare": "power_bond_char_cnt",
         "_keyToStoreCnt": "bond_char_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_useMaxBondCharCntInCurArea": false
       },
       {
         "_assignString": false,
         "_blackboardKey": "is_power",
         "_copyFromKey": null,
         "_value": 1,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_bondId": "arcaneShip",
         "_condType": "GE",
-        "_filterAllSides": false,
         "_filterCount": true,
         "_keyToCompare": "power_bond_char_cnt_4",
         "_keyToStoreCnt": "bond_char_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_useMaxBondCharCntInCurArea": false
       },
       {
         "_assignString": false,
         "_blackboardKey": "is_power_4",
         "_copyFromKey": null,
         "_value": 1,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_bondId": "arcaneShip",
         "_condType": "GE",
-        "_filterAllSides": false,
         "_filterCount": true,
         "_keyToCompare": "power_bond_char_cnt_6",
         "_keyToStoreCnt": "bond_char_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_useMaxBondCharCntInCurArea": false
       },
       {
         "_assignString": false,
         "_blackboardKey": "is_power_6",
         "_copyFromKey": null,
         "_value": 1,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       }
     ],
     "ON_BUFF_START": [
@@ -83,7 +95,8 @@
         "_checkDiffWithOldStoreCnt": true,
         "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",
@@ -182,7 +195,9 @@
                 "_blackboardKey": "damage_scale",
                 "_copyFromKey": "real_damage_scale",
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "_succeedNodes": [
@@ -191,7 +206,9 @@
                 "_blackboardKey": "damage_scale",
                 "_copyFromKey": "ex_damage_scale",
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -203,7 +220,9 @@
             "_blackboardKey": "damage_scale",
             "_copyFromKey": "real_damage_scale",
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

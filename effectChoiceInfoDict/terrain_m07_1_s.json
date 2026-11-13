@@ -4,5 +4,5 @@
   "desc": "进行协同调整，做好迎战准备。",
   "effectType": "BUFF_GAIN",
   "name": "战术决策",
-  "typeTxtColor": "#f2bd3e"
+  "selectionType": "ROBIN"
 }

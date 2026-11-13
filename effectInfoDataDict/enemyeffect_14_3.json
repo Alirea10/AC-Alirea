@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_14_3",
   "effectName": "战术特训·火力III",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

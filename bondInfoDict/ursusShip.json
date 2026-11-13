@@ -44,5 +44,6 @@
   "maxInactiveBondCount": -1,
   "name": "乌萨斯",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

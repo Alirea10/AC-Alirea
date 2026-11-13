@@ -5,6 +5,8 @@
   "effectDesc": "【优等生】第<@autochess.dgreen>1</>回合获得<@ba.vup>1</>名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于调和盟约：可以使部分盟约人数计数<@ba.vup>+1</>",
   "effectId": "aceffect_band_42",
   "effectName": "优等生",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -6,5 +6,7 @@
   "effectId": "bondeffect_rimB",
   "effectName": "雷姆必拓",
   "effectType": "BOND",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

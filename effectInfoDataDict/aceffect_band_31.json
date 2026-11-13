@@ -5,6 +5,8 @@
   "effectDesc": "【雪域礼赠】每回合购买的首名<谢拉格>干员消耗资金为<@ba.vup>1</>\\n<@ba.vdown>在<谢拉格>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_31",
   "effectName": "雪域礼赠",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

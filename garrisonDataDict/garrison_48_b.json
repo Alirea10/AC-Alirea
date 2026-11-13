@@ -29,5 +29,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>场上每有<@ba.vup>1</>名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<@ba.vup>+4</>"
+  "garrisonDesc": "<休整期结束时>场上每有<@ba.vup>1</>名不同阶的【维多利亚】干员，使已激活的【维多利亚】层数<@ba.vup>+4</>",
+  "eventEffect": null
 }

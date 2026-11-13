@@ -49,7 +49,8 @@
         "_checkDiffWithOldStoreCnt": false,
         "_keyToStoreCnt": "judgement_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",

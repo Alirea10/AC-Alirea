@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_3_4_e",
   "effectName": "重装防御者·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

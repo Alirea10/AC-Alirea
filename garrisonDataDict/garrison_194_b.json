@@ -19,5 +19,6 @@
   "eventTypeDesc": "单次叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>【莱塔尼亚】层数<@ba.vup>+12</>、【坚守】层数<@ba.vup>+6</>（无需激活盟约）"
+  "garrisonDesc": "<休整期结束时>【莱塔尼亚】层数<@ba.vup>+12</>、【坚守】层数<@ba.vup>+6</>（无需激活盟约）",
+  "eventEffect": null
 }

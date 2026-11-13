@@ -6,5 +6,7 @@
   "effectId": "eff_acarm057",
   "effectName": "拉特兰桥夹",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

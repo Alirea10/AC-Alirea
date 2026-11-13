@@ -5,6 +5,8 @@
   "effectDesc": "【广交豪杰】每回合前<@autochess.dgreen>2</>次主动刷新为特殊刷新：优先刷新出<@ba.vup>1</>名<炎>干员\\n<@ba.vdown>在<炎>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_28",
   "effectName": "广交豪杰",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

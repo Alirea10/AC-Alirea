@@ -14,5 +14,6 @@
   "eventTypeDesc": "整备能力",
   "eventTypeIcon": "icon_gold",
   "eventTypeSmallIcon": "s_icon_gold",
-  "garrisonDesc": "<售出时>获得<@ba.vup>4</>次免费刷新"
+  "garrisonDesc": "<售出时>获得<@ba.vup>4</>次免费刷新",
+  "eventEffect": null
 }

@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm054",
   "effectName": "蜂鸣器",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

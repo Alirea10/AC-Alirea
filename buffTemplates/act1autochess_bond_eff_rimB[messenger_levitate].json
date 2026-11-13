@@ -97,7 +97,8 @@
         "_useRadius": true,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       },
       {
         "_decCntIfStack": false,
@@ -228,7 +229,8 @@
         "_useRadius": true,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       }
     ]
   },

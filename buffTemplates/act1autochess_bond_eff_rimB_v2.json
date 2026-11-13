@@ -113,12 +113,14 @@
       {
         "_bondId": "rimBShip",
         "_condType": "GE",
-        "_filterAllSides": false,
         "_filterCount": true,
         "_keyToCompare": "power_bond_char_cnt",
         "_keyToStoreCnt": "bond_char_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_useMaxBondCharCntInCurArea": false
       },
       {
         "_applyWay": "NONE",
@@ -143,14 +145,18 @@
         "_blackboardKey": "def",
         "_copyFromKey": null,
         "_value": -0.2,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignString": false,
         "_blackboardKey": "magic_resistance",
         "_copyFromKey": null,
         "_value": -0.2,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_buff": {
@@ -234,12 +240,14 @@
       {
         "_bondId": "rimBShip",
         "_condType": "GE",
-        "_filterAllSides": false,
         "_filterCount": true,
         "_keyToCompare": "power_bond_char_cnt",
         "_keyToStoreCnt": "bond_char_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_useMaxBondCharCntInCurArea": false
       },
       {
         "_actionTargetType": "BUFF_OWNER",
@@ -667,7 +675,8 @@
             "_checkDiffWithOldStoreCnt": false,
             "_keyToStoreCnt": "bond_stack_cnt",
             "_target": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+            "_playerIndexBBKey": "autochess_player_index"
           },
           {
             "_abilityName": "",
@@ -692,7 +701,9 @@
             "_blackboardKey": "prob",
             "_copyFromKey": "real_dodge",
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp"
@@ -708,7 +719,8 @@
         "_checkDiffWithOldStoreCnt": false,
         "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",
@@ -733,7 +745,9 @@
         "_blackboardKey": "prob",
         "_copyFromKey": "real_dodge",
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       }
     ],
     "ON_EVADE_DAMAGE": [
@@ -804,7 +818,8 @@
         "_checkDiffWithOldStoreCnt": false,
         "_keyToStoreCnt": "bond_stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",
@@ -829,18 +844,22 @@
         "_blackboardKey": "prob",
         "_copyFromKey": "real_dodge",
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_conditionNode": {
           "_bondId": "rimBShip",
           "_condType": "GE",
-          "_filterAllSides": false,
           "_filterCount": true,
           "_keyToCompare": "power_bond_char_cnt",
           "_keyToStoreCnt": "bond_char_cnt",
           "_target": "BUFF_OWNER",
-          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+          "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+          "_getPlayerIndexFormBB": false,
+          "_playerIndexBBKey": "autochess_player_index",
+          "_useMaxBondCharCntInCurArea": false
         },
         "_failNodes": [
           {

@@ -12,5 +12,8 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhodes_4_32_b",
-  "upgradeNum": 2
+  "upgradeNum": 2,
+  "equipSlotNum": 3,
+  "showTag": null,
+  "desc": null
 }

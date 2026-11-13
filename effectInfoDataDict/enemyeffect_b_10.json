@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_10",
   "effectName": "桃园结义·悬赏I",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

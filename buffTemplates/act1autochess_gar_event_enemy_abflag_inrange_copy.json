@@ -22,7 +22,9 @@
                 "_blackboardKey": "success",
                 "_copyFromKey": null,
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "_succeedNodes": [
@@ -31,7 +33,9 @@
                 "_blackboardKey": "success",
                 "_copyFromKey": null,
                 "_value": 1,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -52,7 +56,9 @@
                 "_blackboardKey": "success",
                 "_copyFromKey": null,
                 "_value": 0,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "_succeedNodes": [
@@ -61,7 +67,9 @@
                 "_blackboardKey": "success",
                 "_copyFromKey": null,
                 "_value": 1,
-                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+                "_keySource": "CONSTANT",
+                "_blackboardSource": "CURRENT"
               }
             ],
             "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -86,7 +94,9 @@
             "_blackboardKey": "flag",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           },
           {
             "_derviedBuffKey": "act1autochess_gar_event_enemy_abflag_inrange[invalid]",
@@ -166,7 +176,9 @@
             "_blackboardKey": "flag",
             "_copyFromKey": null,
             "_value": 0,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"
@@ -191,7 +203,9 @@
             "_blackboardKey": "flag",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "_succeedNodes": [
@@ -207,7 +221,9 @@
             "_blackboardKey": "flag",
             "_copyFromKey": null,
             "_value": 1,
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_keySource": "CONSTANT",
+            "_blackboardSource": "CURRENT"
           }
         ],
         "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp"

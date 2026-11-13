@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_19_4",
   "effectName": "悬赏·飞行II",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 2
+  "enemyPrice": 2,
+  "showTag": null,
+  "displayInHUD": false
 }

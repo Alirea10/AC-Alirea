@@ -34,12 +34,14 @@
           {
             "_bondId": "leithanienShip",
             "_condType": "GE",
-            "_filterAllSides": true,
             "_filterCount": true,
             "_keyToCompare": "power_bond_char_cnt",
             "_keyToStoreCnt": "bond_char_cnt",
             "_target": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+            "_getPlayerIndexFormBB": false,
+            "_playerIndexBBKey": "autochess_player_index",
+            "_useMaxBondCharCntInCurArea": true
           }
         ],
         "_failNodes": null,
@@ -54,7 +56,8 @@
             "_checkDiffWithOldStoreCnt": true,
             "_keyToStoreCnt": "bond_stack_cnt",
             "_target": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+            "_playerIndexBBKey": "autochess_player_index"
           },
           {
             "_buff": {
@@ -150,7 +153,8 @@
             "_checkDiffWithOldStoreCnt": true,
             "_keyToStoreCnt": "bond_stack_cnt",
             "_target": "BUFF_OWNER",
-            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+            "_playerIndexBBKey": "autochess_player_index"
           },
           {
             "_abilityName": "",

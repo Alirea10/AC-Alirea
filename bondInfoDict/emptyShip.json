@@ -34,5 +34,6 @@
   "maxInactiveBondCount": -1,
   "name": "协防干员",
   "noStack": true,
-  "weight": 0
+  "weight": 0,
+  "noSelect": false
 }

@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_16_3",
   "effectName": "凯尔希·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

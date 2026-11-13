@@ -5,6 +5,8 @@
   "effectDesc": "【命结之秘】战斗中前<@autochess.dgreen>3</>个被击倒的干员立刻复活！",
   "effectId": "aceffect_band_48",
   "effectName": "命结之秘",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

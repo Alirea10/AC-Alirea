@@ -24,5 +24,6 @@
   "eventTypeDesc": "特异化",
   "eventTypeIcon": "icon_support",
   "eventTypeSmallIcon": "s_icon_support",
-  "garrisonDesc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果"
+  "garrisonDesc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果",
+  "eventEffect": null
 }

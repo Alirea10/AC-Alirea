@@ -6,5 +6,7 @@
   "effectId": "eff_acarm041",
   "effectName": "维式重锤",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

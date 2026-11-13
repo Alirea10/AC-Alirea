@@ -49,5 +49,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "【天途】<战斗中>击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>"
+  "garrisonDesc": "【天途】<战斗中>击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>",
+  "eventEffect": null
 }

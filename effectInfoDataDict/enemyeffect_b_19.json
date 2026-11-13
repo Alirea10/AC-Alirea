@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_19",
   "effectName": "澪·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

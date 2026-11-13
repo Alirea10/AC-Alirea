@@ -35,5 +35,6 @@
   "maxInactiveBondCount": -1,
   "name": "独行",
   "noStack": true,
-  "weight": 10
+  "weight": 10,
+  "noSelect": false
 }

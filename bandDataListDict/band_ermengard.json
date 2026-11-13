@@ -1,5 +1,7 @@
 {
   "bandDesc": "【命结之秘】战斗中前3个被击倒的干员立刻复活！",
+  "bandIconId": "icon_ermengard",
+  "bandName": "埃芒加德",
   "bandId": "band_ermengard",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_48",
@@ -10,5 +12,12 @@
   "sortId": 7,
   "totalHp": 27,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

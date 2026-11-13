@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_3",
   "effectName": "熊大·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 1
+  "enemyPrice": 1,
+  "showTag": null,
+  "displayInHUD": false
 }

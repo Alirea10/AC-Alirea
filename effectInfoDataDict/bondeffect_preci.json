@@ -6,5 +6,7 @@
   "effectId": "bondeffect_preci",
   "effectName": "精准",
   "effectType": "BOND",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

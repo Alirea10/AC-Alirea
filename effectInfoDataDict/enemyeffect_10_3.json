@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_10_3",
   "effectName": "首言者·战术特训",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

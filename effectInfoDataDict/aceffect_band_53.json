@@ -5,6 +5,8 @@
   "effectDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值<@ba.vup>+10%</>",
   "effectId": "aceffect_band_53",
   "effectName": "统御号令",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

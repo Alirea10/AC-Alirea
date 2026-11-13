@@ -6,5 +6,7 @@
   "effectId": "allybuff_select_7_6",
   "effectName": "拉特兰驰援",
   "effectType": "BUFF_GAIN",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

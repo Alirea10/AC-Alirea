@@ -1,5 +1,7 @@
 {
   "bandDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值+10%",
+  "bandIconId": "icon_ioleta",
+  "bandName": "伊奥莱塔·罗素",
   "bandId": "band_ioleta",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_53",
@@ -10,5 +12,12 @@
   "sortId": 32,
   "totalHp": 29,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

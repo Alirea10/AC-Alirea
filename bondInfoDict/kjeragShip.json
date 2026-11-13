@@ -50,5 +50,6 @@
   "maxInactiveBondCount": -1,
   "name": "谢拉格",
   "noStack": false,
-  "weight": 10
+  "weight": 10,
+  "noSelect": false
 }

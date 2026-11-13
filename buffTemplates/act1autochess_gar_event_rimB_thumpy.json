@@ -97,7 +97,8 @@
         "_useRadius": false,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       }
     ],
     "ON_BUFF_TRIGGER": [
@@ -196,7 +197,8 @@
         "_useRadius": false,
         "_useRangeToShow": false,
         "_useTargetRangeInsteadOfSource": false,
-        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffInRange, Assembly-CSharp",
+        "_useHostAsSource": false
       }
     ]
   },

@@ -12,5 +12,8 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_01_b",
-  "upgradeNum": 3
+  "upgradeNum": 3,
+  "equipSlotNum": 3,
+  "showTag": null,
+  "desc": null
 }

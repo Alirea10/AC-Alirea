@@ -1,5 +1,7 @@
 {
   "bandDesc": "【团伙行动】主动刷新6次调度中心后获得一名不高于当前调度中心等级的<叙拉古>干员（每回合至多获得2名）\\n<@ba.vdown>在<叙拉古>部分干员缺席时体验可能不完整</>",
+  "bandIconId": "icon_chiave",
+  "bandName": "贾维",
   "bandId": "band_chiave",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_59",
@@ -10,5 +12,12 @@
   "sortId": 38,
   "totalHp": 23,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

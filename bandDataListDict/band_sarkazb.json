@@ -1,5 +1,7 @@
 {
   "bandDesc": "【坚不可摧】初始目标生命值为45点",
+  "bandIconId": "icon_sarkazb",
+  "bandName": "歌利亚",
   "bandId": "band_sarkazb",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_44",
@@ -11,5 +13,10 @@
   "sortId": 4,
   "totalHp": 45,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

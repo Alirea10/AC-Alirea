@@ -42,5 +42,6 @@
   "maxInactiveBondCount": 0,
   "name": "罗德岛",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

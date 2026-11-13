@@ -34,5 +34,6 @@
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值<@ba.vup>+2%</>"
+  "garrisonDesc": "【投资人】【Mujica】每叠加三层，本干员攻击力和生命值<@ba.vup>+2%</>",
+  "eventEffect": null
 }

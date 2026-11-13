@@ -34,5 +34,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>击倒敌人时使自身已激活的【巧匠】盟约层数<@ba.vup>+1</>"
+  "garrisonDesc": "<战斗中>击倒敌人时使自身已激活的【巧匠】盟约层数<@ba.vup>+1</>",
+  "eventEffect": null
 }

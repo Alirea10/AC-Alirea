@@ -6,5 +6,7 @@
   "effectId": "allybuff_select_7_5",
   "effectName": "卡西米尔驰援",
   "effectType": "BUFF_GAIN",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -6,5 +6,7 @@
   "effectId": "eff_acarm122",
   "effectName": "家族徽章",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

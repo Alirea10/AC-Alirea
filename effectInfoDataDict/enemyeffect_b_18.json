@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_b_18",
   "effectName": "迷路的巨像·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 5
+  "enemyPrice": 5,
+  "showTag": null,
+  "displayInHUD": false
 }

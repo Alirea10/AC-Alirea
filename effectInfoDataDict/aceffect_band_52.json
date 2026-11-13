@@ -5,6 +5,8 @@
   "effectDesc": "【替身娃娃】每回合首次出售初始干员时，改为与调度中心中随机一名干员交换",
   "effectId": "aceffect_band_52",
   "effectName": "替身娃娃",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

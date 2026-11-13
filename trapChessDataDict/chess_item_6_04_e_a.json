@@ -4,7 +4,6 @@
   "chessId": "chess_item_6_04_e_a",
   "effectId": "eff_acarm078",
   "giveBondId": null,
-  "givePowerId": null,
   "isGolden": false,
   "itemType": "EQUIP",
   "purchasePrice": 4,
@@ -16,5 +15,8 @@
   },
   "trapDuration": -1,
   "upgradeChessId": "chess_item_6_04_e_b",
-  "upgradeNum": 2
+  "upgradeNum": 2,
+  "canFuse": false,
+  "fuseWith": null,
+  "fuseResult": null
 }

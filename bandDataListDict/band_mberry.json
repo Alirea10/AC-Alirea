@@ -1,5 +1,7 @@
 {
   "bandDesc": "【药枚实验】战斗开始时，使最右边的所有我方单位获得效果：每次攻击时有25%的概率获得1层护盾（最多1层）",
+  "bandIconId": "icon_mberry",
+  "bandName": "桑葚",
   "bandId": "band_mberry",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_37",
@@ -10,5 +12,12 @@
   "sortId": 16,
   "totalHp": 28,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

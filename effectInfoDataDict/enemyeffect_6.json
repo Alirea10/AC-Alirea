@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_6",
   "effectName": "高普尼克·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

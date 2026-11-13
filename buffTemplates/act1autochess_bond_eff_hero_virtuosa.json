@@ -35,7 +35,9 @@
         "_blackboardKey": "consumed_cache",
         "_copyFromKey": "consumed_cnt",
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_conditionNode": {
@@ -131,7 +133,9 @@
         "_blackboardKey": "triggered",
         "_copyFromKey": null,
         "_value": 1,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_addition": 1,
@@ -183,21 +187,27 @@
         "_blackboardKey": "consumed_cache",
         "_copyFromKey": null,
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignString": false,
         "_blackboardKey": "triggered",
         "_copyFromKey": null,
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignString": false,
         "_blackboardKey": "triggered_cnt",
         "_copyFromKey": null,
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       }
     ],
     "ON_BUFF_TRIGGER": [
@@ -265,7 +275,9 @@
         "_blackboardKey": "consumed_cache",
         "_copyFromKey": null,
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       }
     ]
   },

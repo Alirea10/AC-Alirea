@@ -52,5 +52,6 @@
   "maxInactiveBondCount": -1,
   "name": "坚守",
   "noStack": false,
-  "weight": 10
+  "weight": 10,
+  "noSelect": false
 }

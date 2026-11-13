@@ -39,10 +39,6 @@
   "backgroundId": "background_hard",
   "code": "AC-3",
   "desc": "敌方攻击强度极高的模拟训练",
-  "effectDescList": [
-    "·作战环境困难",
-    "·出现更加危险的敌人"
-  ],
   "inactiveBondIdList": [],
   "inactiveEnemyKey": [],
   "loadingPicId": "loading_AC_hard",
@@ -52,7 +48,6 @@
   "modeId": "mode_single_hard",
   "modeType": "SINGLE",
   "name": "Alirea版-绝境模拟",
-  "preposedMode": null,
   "sortId": 6,
   "specialPhaseTime": 150,
   "startTime": 1773475200,
@@ -102,5 +97,14 @@
         "acdifficulty_enemy_2"
       ]
     ]
-  }
+  },
+  "difficulty": 3,
+  "factor": 1.350000023841858,
+  "difficultyDesc": "·作战环境困难\n·出现更加危险的敌人",
+  "trophyDesc": null,
+  "eventIds": [],
+  "unlockDiffierentModeId": null,
+  "groupList": [
+    "GROUP_SINGLE"
+  ]
 }

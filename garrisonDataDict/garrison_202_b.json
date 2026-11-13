@@ -29,5 +29,6 @@
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": ""
+  "garrisonDesc": "",
+  "eventEffect": null
 }

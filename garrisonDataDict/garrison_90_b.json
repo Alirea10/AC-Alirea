@@ -39,5 +39,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>开启技能时，同一行每有<@ba.vup>1</>名干员，当前已激活且层数最多的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>20</>层）"
+  "garrisonDesc": "<战斗中>开启技能时，同一行每有<@ba.vup>1</>名干员，当前已激活且层数最多的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>20</>层）",
+  "eventEffect": null
 }

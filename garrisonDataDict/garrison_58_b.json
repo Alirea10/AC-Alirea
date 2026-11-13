@@ -19,5 +19,6 @@
   "eventTypeDesc": "单次叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<获得时>使随机一个已激活的盟约层数<@ba.vup>+4</>，重复<@ba.vup>2</>次"
+  "garrisonDesc": "<获得时>使随机一个已激活的盟约层数<@ba.vup>+4</>，重复<@ba.vup>2</>次",
+  "eventEffect": null
 }

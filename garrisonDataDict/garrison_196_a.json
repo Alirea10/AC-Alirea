@@ -24,5 +24,6 @@
   "eventTypeDesc": "作战能力",
   "eventTypeIcon": "icon_battle",
   "eventTypeSmallIcon": "s_icon_battle",
-  "garrisonDesc": "处于<@ba.vup>低沉</>状态时，每层【莱塔尼亚】获得<@ba.vup>1%</>攻击力"
+  "garrisonDesc": "处于<@ba.vup>低沉</>状态时，每层【莱塔尼亚】获得<@ba.vup>1%</>攻击力",
+  "eventEffect": null
 }

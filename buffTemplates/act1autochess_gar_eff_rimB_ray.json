@@ -7,21 +7,27 @@
         "_blackboardKey": "one",
         "_copyFromKey": null,
         "_value": 1,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignString": false,
         "_blackboardKey": "zero",
         "_copyFromKey": null,
         "_value": 0,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignString": false,
         "_blackboardKey": "check_binding",
         "_copyFromKey": null,
         "_value": 13,
-        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_keySource": "CONSTANT",
+        "_blackboardSource": "CURRENT"
       },
       {
         "_assignAllPlayerIndex": false,
@@ -32,7 +38,8 @@
         "_checkDiffWithOldStoreCnt": false,
         "_keyToStoreCnt": "stack_cnt",
         "_target": "BUFF_OWNER",
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_playerIndexBBKey": "autochess_player_index"
       },
       {
         "_abilityName": "",
@@ -181,7 +188,8 @@
                 "_checkDiffWithOldStoreCnt": false,
                 "_keyToStoreCnt": "stack_cnt",
                 "_target": "BUFF_OWNER",
-                "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp"
+                "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+                "_playerIndexBBKey": "autochess_player_index"
               },
               {
                 "_abilityName": "",

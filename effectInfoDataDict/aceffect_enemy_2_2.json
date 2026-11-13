@@ -6,5 +6,7 @@
   "effectId": "aceffect_enemy_2_2",
   "effectName": "补给线II",
   "effectType": "ENEMY",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

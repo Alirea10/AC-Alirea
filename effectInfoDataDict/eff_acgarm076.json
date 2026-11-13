@@ -6,5 +6,7 @@
   "effectId": "eff_acgarm076",
   "effectName": "铳骑之威",
   "effectType": "EQUIP",
-  "enemyPrice": 0
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

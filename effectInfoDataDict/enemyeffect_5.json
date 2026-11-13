@@ -6,5 +6,7 @@
   "effectId": "enemyeffect_5",
   "effectName": "鸭爵·悬赏",
   "effectType": "ENEMY_GAIN",
-  "enemyPrice": 3
+  "enemyPrice": 3,
+  "showTag": null,
+  "displayInHUD": false
 }

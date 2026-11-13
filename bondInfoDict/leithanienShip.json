@@ -46,5 +46,6 @@
   "maxInactiveBondCount": 0,
   "name": "莱塔尼亚",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }

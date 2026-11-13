@@ -14,5 +14,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+1</>，此干员在整备区时也有效"
+  "garrisonDesc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+1</>，此干员在整备区时也有效",
+  "eventEffect": null
 }

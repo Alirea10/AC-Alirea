@@ -1,5 +1,7 @@
 {
   "bandDesc": "【回收利用】地面干员技能结束时使周围四格随机1名干员获得3点技力",
+  "bandIconId": "icon_humus",
+  "bandName": "休谟斯",
   "bandId": "band_humus",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_38",
@@ -11,5 +13,10 @@
   "sortId": 17,
   "totalHp": 24,
   "updateTime": 1773475200,
-  "victorCount": 3
+  "victorCount": 3,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
 }

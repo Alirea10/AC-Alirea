@@ -49,5 +49,6 @@
   "eventTypeDesc": "持续叠加",
   "eventTypeIcon": "icon_bond",
   "eventTypeSmallIcon": "s_icon_bond",
-  "garrisonDesc": "<战斗中>前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【维多利亚】【远见】【不屈】层数<@ba.vup>+4</>"
+  "garrisonDesc": "<战斗中>前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【维多利亚】【远见】【不屈】层数<@ba.vup>+4</>",
+  "eventEffect": null
 }

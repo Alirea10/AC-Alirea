@@ -5,6 +5,8 @@
   "effectDesc": "【坚不可摧】初始目标生命值为<@ba.vup>45</>点",
   "effectId": "aceffect_band_44",
   "effectName": "坚不可摧",
-  "effectType": "BAND_INITIAL",
-  "enemyPrice": 0
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
 }

@@ -46,5 +46,6 @@
   "maxInactiveBondCount": 0,
   "name": "莱茵生命",
   "noStack": false,
-  "weight": 100
+  "weight": 100,
+  "noSelect": false
 }
