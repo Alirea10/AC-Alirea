@@ -57,5 +57,32 @@
   "sortId": 3,
   "specialPhaseTime": 150,
   "startTime": 1773475200,
-  "unlockText": "通关【入门协议】后解锁"
+  "unlockText": "通关【入门协议】后解锁",
+  "difficultyScaling": {
+    "overrideDifficulty": false,
+    "enemyEffectsByRound": [
+      [
+        "acdifficulty_enemy_4"
+      ],
+      [
+        "acdifficulty_enemy_2"
+      ],
+      [],
+      [],
+      [],
+      [
+        "acdifficulty_enemy_2"
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        "acdifficulty_enemy_3"
+      ],
+      [],
+      []
+    ]
+  }
 }

@@ -57,5 +57,55 @@
   "sortId": 7,
   "specialPhaseTime": 16,
   "startTime": 1774598400,
-  "unlockText": "通关2次【绝境模拟】后解锁"
+  "unlockText": "通关2次【绝境模拟】后解锁",
+  "difficultyScaling": {
+    "overrideDifficulty": false,
+    "enemyEffectsByRound": [
+      [
+        "acdifficulty_enemy_8"
+      ],
+      [
+        "acdifficulty_enemy_6"
+      ],
+      [
+        "acdifficulty_enemy_1"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_2_2"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_9"
+      ],
+      [
+        "acdifficulty_enemy_16"
+      ],
+      [
+        "acdifficulty_enemy_2_2"
+      ],
+      [
+        "acdifficulty_enemy_8"
+      ],
+      [
+        "acdifficulty_enemy_10"
+      ],
+      [
+        "acdifficulty_enemy_15"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_2_2"
+      ]
+    ]
+  }
 }

@@ -2,6 +2,10 @@
 
 AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子、技能效果、特质、模式、商店与关卡等配置。仓库内容以 JSON 数据为主，设计稿和机制说明放在 `docx/` 目录。
 
+模式现已支持逐回合“额外效果”：8 个模式文件中的 `difficultyScaling` 均保存了对应难度的默认效果表，`overrideDifficulty` 默认关闭，使用服务端默认配置。开启编辑器中的“覆盖难度”后，可以直接基于已有表修改；开启且表为 `[]` 时不追加难度效果。
+
+每行是本回合新增的效果，之前下发且仍在持续的效果继续生效。默认表采用“规程·序列I”的四难度曲线作为本项目的新平衡配置；18 组默认效果使用 `acdifficulty_enemy_` 独立 ID，保留原有自定义效果定义。此机制需要支持赛季解析版本 13 的服务端；PC、PE 实战分别验收。
+
 ## 当前配置概览
 
 | 项目 | 当前值 | 配置位置 |
@@ -25,9 +29,9 @@ AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子
 | `buffTemplates/` | 44 | Buff 模板 |
 | `charChessDataDict/` | 388 | 战斗棋子、升级关系与驻军绑定 |
 | `charShopChessDatas/` | 194 | 商店棋子、阶位、默认技能与模组 |
-| `effectBuffInfoDataDict/` | 383 | 盟约和特质使用的 Buff 效果 |
+| `effectBuffInfoDataDict/` | 406 | 盟约、特质和默认难度效果 |
 | `effectChoiceInfoDict/` | 109 | 效果选项与选择数据 |
-| `effectInfoDataDict/` | 383 | 效果名称、描述与类型 |
+| `effectInfoDataDict/` | 406 | 效果名称、描述与类型 |
 | `garrisonDataDict/` | 423 | 特质、驻军效果与 Blackboard 参数 |
 | `modeDataDict/` | 8 | 多人、单人和训练模式 |
 | `shopCharChessInfoData/` | 6 | 商店等级中的棋子规则 |

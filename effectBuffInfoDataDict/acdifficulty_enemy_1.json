@@ -1,0 +1,22 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "enemy_move_speed_mul"
+      },
+      {
+        "key": "move_speed",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon|enemy_9024_acsgnt|enemy_9025_aclts|enemy_9026_acltm|enemy_9038_achest"
+      }
+    ]
+  }
+]

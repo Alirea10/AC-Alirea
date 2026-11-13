@@ -1,0 +1,12 @@
+{
+  "effectId": "acdifficulty_enemy_3",
+  "effectType": "ENEMY",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "攻坚装备",
+  "effectDesc": "所有敌人攻击力<@ba.vup>+11%</>，最大生命值<@ba.vup>+20%</>",
+  "effectDecoIconId": "icon_team_buff",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

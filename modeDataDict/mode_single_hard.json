@@ -56,5 +56,51 @@
   "sortId": 6,
   "specialPhaseTime": 150,
   "startTime": 1773475200,
-  "unlockText": "通关【险境模拟】后解锁"
+  "unlockText": "通关【险境模拟】后解锁",
+  "difficultyScaling": {
+    "overrideDifficulty": false,
+    "enemyEffectsByRound": [
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_2_2"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [],
+      [
+        "acdifficulty_enemy_2_2"
+      ],
+      [
+        "acdifficulty_enemy_2_2"
+      ],
+      [
+        "acdifficulty_enemy_7"
+      ],
+      [
+        "acdifficulty_enemy_2_3"
+      ],
+      [
+        "acdifficulty_enemy_21"
+      ],
+      [
+        "acdifficulty_enemy_21"
+      ],
+      [
+        "acdifficulty_enemy_2"
+      ]
+    ]
+  }
 }
