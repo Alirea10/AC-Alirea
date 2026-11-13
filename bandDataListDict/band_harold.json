@@ -13,11 +13,11 @@
   "totalHp": 23,
   "updateTime": 1773475200,
   "victorCount": 3,
-  "bandType": "GENERAL",
+  "bandType": "BONDRELEVANT",
   "inactiveModeIdList": [
     "mode_training_1"
   ],
   "masterVictorCount": 3,
   "offseasonPriority": 0,
-  "relateBondList": null
+  "relateBondList": ["victoriaShip"]
 }

@@ -14,9 +14,9 @@
   "totalHp": 29,
   "updateTime": 1773475200,
   "victorCount": 3,
-  "bandType": "GENERAL",
+  "bandType": "BONDRELEVANT",
   "inactiveModeIdList": [],
   "masterVictorCount": 3,
   "offseasonPriority": 0,
-  "relateBondList": null
+  "relateBondList": ["yanShip"]
 }
