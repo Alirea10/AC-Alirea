@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_14",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "优等生",
+  "effectDesc": "【优等生】\\n<@autochess.dgreen>被动效果</>：第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于【调和】盟约",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

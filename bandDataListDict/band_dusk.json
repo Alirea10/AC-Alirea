@@ -1,10 +1,10 @@
 {
-  "bandDesc": "【墨色真颜】若你的场上存在同名干员，这些干员攻击力+30%\\n【幻画为真】第1回合获得1个特殊法术<画卷>\\n<@ba.acrem><画卷>：使用后可以复制该法术范围内的1名干员（包括精锐状态和携带的装备）</>",
+  "bandDesc": "【幻画为真】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，获得他的复制体，包括精锐状态和携带的装备<@ba.vdown>（每场模拟限1次）</>",
   "bandIconId": "icon_dusk",
   "bandName": "夕",
   "bandId": "band_dusk",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_45",
+  "effectId": "arkchessv3_aceffect_band_96",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -17,7 +17,7 @@
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
+  "masterVictorCount": 6,
+  "offseasonPriority": 45,
   "relateBondList": null
 }

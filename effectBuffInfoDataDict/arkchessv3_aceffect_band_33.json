@@ -1,0 +1,27 @@
+[
+  {
+    "key": "prep_finish_char_bond_add_layer",
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "delta",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

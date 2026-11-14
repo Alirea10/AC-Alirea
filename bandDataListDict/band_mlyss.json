@@ -1,10 +1,10 @@
 {
-  "bandDesc": "【至纯凝结】在第1回合开始时获得一个进阶<博士投影>\\n<@ba.acrem>进阶<博士投影>：任意干员可装备，立即使该干员晋升为精锐干员</>",
+  "bandDesc": "【至纯凝结】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，立即使该干员晋升为精锐干员<@ba.vdown>（每场模拟限1次）</>",
   "bandIconId": "icon_mlyss",
   "bandName": "缪尔赛思",
   "bandId": "band_mlyss",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_55",
+  "effectId": "arkchessv3_aceffect_band_99",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -17,7 +17,7 @@
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
+  "masterVictorCount": 6,
+  "offseasonPriority": 48,
   "relateBondList": null
 }

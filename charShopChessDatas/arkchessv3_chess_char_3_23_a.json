@@ -1,0 +1,17 @@
+{
+  "chessId": "arkchessv3_chess_char_3_23_a",
+  "goldenChessId": "arkchessv3_chess_char_3_23_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 23,
+  "chessType": "PRESET",
+  "charId": "char_616_pithst",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_pithst",
+  "backupCharId": "char_616_pithst",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_pithst",
+  "backupCharPotRank": 0,
+  "isHidden": true
+}

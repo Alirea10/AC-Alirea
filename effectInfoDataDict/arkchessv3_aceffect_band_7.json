@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_7",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "坚不可摧",
+  "effectDesc": "【坚不可摧】\\n<@autochess.dgreen>被动效果</>：初始目标生命值为<@ba.vup>40</>点",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

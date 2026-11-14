@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_33",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "重点监护",
+  "effectDesc": "【重点监护-3级】\\n<@autochess.dgreen>被动效果</>：战斗开始时，使场上每个不同等阶的1个随机我方干员所属的已激活盟约层数<@ba.vup>+3</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

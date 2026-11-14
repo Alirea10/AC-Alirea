@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_98",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "替身娃娃",
+  "effectDesc": "【替身娃娃】\\n<@autochess.dgreen>被动效果</>：每回合首次出售初始干员时，改为与调度中心中随机1名干员交换",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

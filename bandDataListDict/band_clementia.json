@@ -1,10 +1,10 @@
 {
-  "bandDesc": "【崇高牺牲】<阿戈尔>干员被击倒时，提供等同于该干员等阶的<阿戈尔>盟约层数\\n<@ba.vdown>在<阿戈尔>部分干员缺席时体验可能不完整</>",
+  "bandDesc": "【崇高牺牲】\\n<@autochess.dgreen>被动效果</>：【阿戈尔】干员被击倒时，使已激活的【阿戈尔】盟约叠加等同于该干员等阶的层数",
   "bandIconId": "icon_clementia",
   "bandName": "克莱门莎",
   "bandId": "band_clementia",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_33",
+  "effectId": "arkchessv3_aceffect_band_9",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -17,7 +17,9 @@
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
-  "relateBondList": ["egirShip"]
+  "masterVictorCount": 6,
+  "offseasonPriority": -1,
+  "relateBondList": [
+    "egirShip"
+  ]
 }

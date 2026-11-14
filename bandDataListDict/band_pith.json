@@ -1,10 +1,10 @@
 {
-  "bandDesc": "【优等生】第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于调和盟约：可以使部分盟约人数计数+1",
+  "bandDesc": "【优等生】\\n<@autochess.dgreen>被动效果</>：第1回合获得1名可以造成神经、灼燃、凋亡损伤的特殊干员，其属于【调和】盟约\\n<@ba.acrem>【调和】：激活时使场上核心盟约的激活人数+1，【调和】干员享受已激活的核心盟约的效果</>",
   "bandIconId": "icon_pith",
   "bandName": "Pith",
   "bandId": "band_pith",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_42",
+  "effectId": "arkchessv3_aceffect_band_14",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -17,7 +17,7 @@
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
+  "masterVictorCount": 6,
+  "offseasonPriority": 2,
   "relateBondList": null
 }

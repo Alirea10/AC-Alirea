@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_11",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "食腐之蝶",
+  "effectDesc": "【食腐之蝶】\\n<@autochess.dgreen>被动效果</>：我方干员被击倒时，场上剩余我方单位攻击力<@ba.vup>+20%</>（最大<@ba.vup>+200%</>，持续至被击倒或战斗结束）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "key": "round_start_all_player_change_enemy_2",
+    "blackboard": [
+      {
+        "key": "min",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "enemylist",
+        "value": 0,
+        "valueStr": "enemy_2002_bearmi_2,enemy_2034_sythef_2,enemy_2085_skzjxd_2,enemy_2001_duckmi_2"
+      },
+      {
+        "key": "round",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "minweight",
+        "value": 0.6000000238418579,
+        "valueStr": null
+      },
+      {
+        "key": "maxweight",
+        "value": 0.9900000095367432,
+        "valueStr": null
+      }
+    ]
+  }
+]

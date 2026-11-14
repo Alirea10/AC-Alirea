@@ -1,0 +1,27 @@
+[
+  {
+    "key": "gain_bond_char_per_round",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "victoriaShip"
+      },
+      {
+        "key": "round",
+        "value": 4.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "preround",
+        "value": 2.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

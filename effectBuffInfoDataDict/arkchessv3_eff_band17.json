@@ -1,0 +1,27 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_band17_buff"
+      },
+      {
+        "key": "prob",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_chess",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_effect",
+        "value": 0,
+        "valueStr": "map_v079_squad_05"
+      }
+    ]
+  }
+]

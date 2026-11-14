@@ -1,10 +1,10 @@
 {
-  "bandDesc": "【人才盲盒】从第4回合开始每2回合获得1名<维多利亚>干员\\n<@ba.vdown>在<维多利亚>部分干员缺席时体验可能不完整</>",
+  "bandDesc": "【人才盲盒】\\n<@autochess.dgreen>被动效果</>：从第4回合开始每2回合获得1名【维多利亚】干员（等阶不高于当前调度中心）",
   "bandIconId": "icon_harold",
   "bandName": "哈洛德",
   "bandId": "band_harold",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_30",
+  "effectId": "arkchessv3_aceffect_band_30",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -17,7 +17,9 @@
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
-  "relateBondList": ["victoriaShip"]
+  "masterVictorCount": 6,
+  "offseasonPriority": 12,
+  "relateBondList": [
+    "victoriaShip"
+  ]
 }

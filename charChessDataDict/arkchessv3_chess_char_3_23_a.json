@@ -1,0 +1,19 @@
+{
+  "chessId": "arkchessv3_chess_char_3_23_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "arkchessv3_chess_char_3_23_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "arkchessv3_garrison_149_a"
+  ],
+  "desc": "<战斗中>攻击力和生命上限+<@ba.vup>20%</>"
+}

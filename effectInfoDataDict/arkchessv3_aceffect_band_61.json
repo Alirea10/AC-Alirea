@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_61",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "外勤医疗",
+  "effectDesc": "【外勤医疗】\\n<@autochess.dgreen>被动效果</>：所有玩家场上出现一名<@ba.vup><预备干员-医疗></>；战斗开始时，若场上至少有2名精锐干员，则替换为<@ba.vup><Touch></>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

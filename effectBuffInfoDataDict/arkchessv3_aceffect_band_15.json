@@ -1,0 +1,22 @@
+[
+  {
+    "key": "coin_carry_over",
+    "blackboard": [
+      {
+        "key": "capital",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "interest",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

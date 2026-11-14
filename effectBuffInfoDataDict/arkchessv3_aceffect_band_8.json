@@ -1,0 +1,97 @@
+[
+  {
+    "key": "give_coin_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "coin",
+        "value": 0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "give_coin_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "coin",
+        "value": 0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "give_coin_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "coin",
+        "value": 15.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_gain_chess_from_pool_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "char"
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_chess_shop_2_reward"
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_gain_chess_from_pool_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "char"
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_chess_shop_4_reward"
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

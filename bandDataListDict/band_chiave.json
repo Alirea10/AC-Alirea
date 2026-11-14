@@ -1,23 +1,25 @@
 {
-  "bandDesc": "【团伙行动】主动刷新6次调度中心后获得一名不高于当前调度中心等级的<叙拉古>干员（每回合至多获得2名）\\n<@ba.vdown>在<叙拉古>部分干员缺席时体验可能不完整</>",
+  "bandDesc": "【团伙行动】\\n<@autochess.dgreen>被动效果</>：每回合内主动刷新4次调度中心后，获得1名【叙拉古】干员（等阶不高于当前调度中心），每回合至多触发1次",
   "bandIconId": "icon_chiave",
   "bandName": "贾维",
   "bandId": "band_chiave",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_59",
+  "effectId": "arkchessv3_aceffect_band_82",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
   ],
   "sortId": 38,
-  "totalHp": 23,
+  "totalHp": 24,
   "updateTime": 1773475200,
   "victorCount": 3,
   "bandType": "BONDRELEVANT",
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
-  "relateBondList": ["siracusaShip"]
+  "masterVictorCount": 6,
+  "offseasonPriority": 33,
+  "relateBondList": [
+    "siracusaShip"
+  ]
 }

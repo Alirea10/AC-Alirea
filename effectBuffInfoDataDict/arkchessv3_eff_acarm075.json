@@ -1,0 +1,17 @@
+[
+  {
+    "key": "use_equip_spe_goods_first_bond",
+    "blackboard": [
+      {
+        "key": "option_count",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "select_count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

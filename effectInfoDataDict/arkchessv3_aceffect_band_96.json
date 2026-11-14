@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_96",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "幻画为真",
+  "effectDesc": "【幻画为真】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，获得他的复制体，包括精锐状态和携带的装备<@ba.vdown>（每场模拟限1次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

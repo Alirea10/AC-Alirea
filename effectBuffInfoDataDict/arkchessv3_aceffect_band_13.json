@@ -1,0 +1,77 @@
+[
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "arkchessv3_chess_item_6_03_e_a"
+      }
+    ]
+  },
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "arkchessv3_chess_item_6_03_e_a"
+      }
+    ]
+  },
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 15.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "arkchessv3_chess_item_6_03_e_a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act2autochess_band3_buff"
+      },
+      {
+        "key": "atk_per_cnt",
+        "value": 0.10000000149011612,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp_per_cnt",
+        "value": 0.10000000149011612,
+        "valueStr": null
+      }
+    ]
+  }
+]

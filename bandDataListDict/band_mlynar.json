@@ -1,23 +1,25 @@
 {
-  "bandDesc": "【业务指标】每购买一名<卡西米尔>干员，下回合开始时资金+1（每回合至多3资金）\\n<@ba.vdown>在<卡西米尔>部分干员缺席时体验可能不完整</>",
+  "bandDesc": "【业务指标】\\n<@autochess.dgreen>被动效果</>：每购买1名【卡西米尔】干员，下回合开始时资金<@ba.vup>+1</>，每回合至多<@ba.vup>3</>资金",
   "bandIconId": "icon_mlynar",
   "bandName": "玛恩纳",
   "bandId": "band_mlynar",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_58",
+  "effectId": "arkchessv3_aceffect_band_20",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
   ],
   "sortId": 37,
-  "totalHp": 24,
+  "totalHp": 28,
   "updateTime": 1773475200,
   "victorCount": 3,
   "bandType": "BONDRELEVANT",
   "inactiveModeIdList": [
     "mode_training_1"
   ],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
-  "relateBondList": ["kazimierzShip"]
+  "masterVictorCount": 6,
+  "offseasonPriority": 8,
+  "relateBondList": [
+    "kazimierzShip"
+  ]
 }

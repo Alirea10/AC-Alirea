@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_gain_gold_cd_by_gold",
+    "blackboard": [
+      {
+        "key": "mingold",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "maxgold",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

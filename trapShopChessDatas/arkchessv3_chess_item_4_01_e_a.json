@@ -1,0 +1,10 @@
+{
+  "itemId": "arkchessv3_chess_item_4_01_e_a",
+  "goldenItemId": null,
+  "hideInShop": true,
+  "itemLevel": 4,
+  "iconLevel": 0,
+  "shopLevelSortId": 1,
+  "itemType": "EQUIP",
+  "trapId": "trap_1075_acarm075"
+}

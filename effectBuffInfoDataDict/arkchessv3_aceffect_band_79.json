@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_refresh_shop_bond_char",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "yanShip"
+      }
+    ]
+  }
+]

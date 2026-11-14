@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_82",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "团伙行动",
+  "effectDesc": "【团伙行动】\\n<@autochess.dgreen>被动效果</>：每回合内主动刷新4次调度中心后{@tag}，获得1名【叙拉古】干员（等阶不高于当前调度中心），每回合至多触发1次",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

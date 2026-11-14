@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_eff_acarm075",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "寻呼模块",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，在调度中心出现至多3名拥有该干员第一盟约的干员，免费获取其中1名（不高于当前调度中心等级）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

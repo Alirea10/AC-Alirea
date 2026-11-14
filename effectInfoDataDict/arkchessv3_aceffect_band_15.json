@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_15",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "利滚利",
+  "effectDesc": "【利滚利】\\n<@autochess.dgreen>被动效果</>：每回合剩余的资金可以继承，剩余至少<@ba.vup>5</>资金时，每回合额外获得<@ba.vup>1</>资金",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_99",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "至纯凝结",
+  "effectDesc": "【至纯凝结】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，立即使该干员晋升为精锐干员<@ba.vdown>（每场模拟限1次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

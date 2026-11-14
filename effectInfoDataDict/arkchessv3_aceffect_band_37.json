@@ -1,0 +1,12 @@
+{
+  "effectId": "arkchessv3_aceffect_band_37",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "药枚实验",
+  "effectDesc": "【药枚实验-1级】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，在下次战斗开始时获得效果：每次攻击时有<@ba.vup>20%</>的概率获得1层护盾（最多1层）\\n<@autochess.dgreen>第7回合时效果升级</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

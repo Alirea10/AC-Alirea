@@ -1,22 +1,24 @@
 {
-  "bandDesc": "【广交豪杰】每回合前2次主动刷新为特殊刷新：优先刷新出1名<炎>干员\\n<@ba.vdown>在<炎>部分干员缺席时体验可能不完整</>",
+  "bandDesc": "【广交豪杰】\\n<@autochess.dgreen>点击使用（消耗1）</>：刷新调度中心，优先刷新出1名【炎】干员<@ba.acrem>（每回合限2次）</>",
   "bandIconId": "icon_duyaoy",
   "bandName": "杜遥夜",
   "bandId": "band_duyaoy",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_28",
+  "effectId": "arkchessv3_aceffect_band_79",
   "modeTypeList": [
     "LOCAL",
     "SINGLE",
     "MULTI"
   ],
   "sortId": 3,
-  "totalHp": 29,
+  "totalHp": 26,
   "updateTime": 1773475200,
   "victorCount": 3,
   "bandType": "BONDRELEVANT",
   "inactiveModeIdList": [],
-  "masterVictorCount": 3,
-  "offseasonPriority": 0,
-  "relateBondList": ["yanShip"]
+  "masterVictorCount": 6,
+  "offseasonPriority": 30,
+  "relateBondList": [
+    "yanShip"
+  ]
 }
