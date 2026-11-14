@@ -1,0 +1,12 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【无垠回荡】\n<@autochess.dgreen>第8回合解锁</>\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，离开休整期时，使其所属的已激活盟约层数分别随机变为原来的<@ba.vdown>50%</>~<@ba.vup>150%</><@ba.acrem>（四舍五入，永久保留，每回合限1次）</>",
+  "effectId": "aceffect_band_boundless_echo_locked",
+  "effectName": "无垠回荡",
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

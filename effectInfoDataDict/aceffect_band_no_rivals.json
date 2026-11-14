@@ -1,0 +1,12 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【再无对手】\n<@autochess.dgreen>被动效果</>：我方干员对“左手”泰特斯·白杨造成伤害时，将其立即击倒，且不会重生；我方所有干员对处于<$ba.dt.burning2>灼燃损伤</>爆发期间的敌人造成<@ba.vup>150%</>的伤害",
+  "effectId": "aceffect_band_no_rivals",
+  "effectName": "再无对手",
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

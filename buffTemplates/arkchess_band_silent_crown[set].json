@@ -1,0 +1,22 @@
+{
+  "templateKey": "arkchess_band_silent_crown[set]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterChess, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_filterGolden": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+EqualizeTargetHpRatio, Assembly-CSharp",
+        "_source": "SOURCE",
+        "_target": "BUFF_OWNER",
+        "_useSourceHpRatio": false,
+        "_hpRatio": 0.5,
+        "_skipModifierEvent": true
+      }
+    ]
+  }
+}

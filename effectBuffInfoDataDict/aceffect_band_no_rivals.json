@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "arkchess_band_no_rivals"
+      },
+      {
+        "key": "damage_scale",
+        "value": 1.5,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

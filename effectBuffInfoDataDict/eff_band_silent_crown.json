@@ -1,0 +1,23 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "arkchess_band_silent_crown"
+      },
+      {
+        "key": "skill_target_chess",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_effect",
+        "value": 0,
+        "valueStr": "map_v079_squad_04"
+      }
+    ],
+    "countType": "NONE",
+    "key": "env_gbuff_new_with_verify"
+  }
+]

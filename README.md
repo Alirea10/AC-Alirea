@@ -10,6 +10,16 @@ AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子
 
 2026-11-13 已将此前 AC-Alirea 迁移副本的结构修订应用到当前目录，并为 40 个旧策略补齐原名称和图标 ID；两个自定义策略保留已有头像配置。旧地图、回合、Boss、撤离及训练关卡地址已迁移到新版可用资源，11 个 Boss 均保留。此目录由用户通过内置编辑器重新读取、导出并自行上传，不作为服务端内置赛季发布。迁移范围、保留内容和布局调整见 [本次迁移说明](docx/赛季迁移说明-20261113.md)。
 
+## 新增策略
+
+| 策略 | 生命值 | 头像资源 | 当前效果 |
+|---|---:|---|---|
+| 无垠回荡 | 19 | `enemy_2056_smedzi` | 本局第8回合解锁；每回合免费选择一名干员，休整结束时将其所属已激活盟约的共享永久层数分别随机变为50%～150% |
+| 再无对手 | 28 | `npc_011_talula` | 本人干员造成正伤害后彻底击倒指定“左手”；对灼燃爆发期间的敌人造成150%伤害 |
+| 沉寂黑冠 | 23 | `npc_1296_tersia` | 每回合免费选择一次；本场每2秒均衡目标攻击范围内本人干员及目标自身的生命比例，无次数升级 |
+
+技能保存于 `project.json.constFields.skillInfoDataDict`，描述按原有赛季富文本风格同步到策略、技能和效果记录。实现、兼容要求与验收范围见 [三项策略说明](docx/三项策略说明-20261115.md)。
+
 ## 当前配置概览
 
 | 项目 | 当前值 | 配置位置 |
@@ -27,15 +37,15 @@ AutoChessAlirea 是 ArkChess 自走棋赛季数据仓库，保存盟约、棋子
 
 | 目录 | JSON 数量 | 内容 |
 |---|---:|---|
-| `bandDataListDict/` | 41 | 编队与乐队数据 |
+| `bandDataListDict/` | 45 | 编队与乐队数据 |
 | `bondInfoDict/` | 33 | 盟约元数据、成员列表与激活条件 |
 | `bossInfoDict/` | 10 | Boss 数据 |
-| `buffTemplates/` | 44 | Buff 模板 |
+| `buffTemplates/` | 72 | Buff 模板 |
 | `charChessDataDict/` | 388 | 战斗棋子、升级关系与驻军绑定 |
 | `charShopChessDatas/` | 194 | 商店棋子、阶位、默认技能与模组 |
-| `effectBuffInfoDataDict/` | 406 | 盟约、特质和默认难度效果 |
+| `effectBuffInfoDataDict/` | 411 | 盟约、特质和默认难度效果 |
 | `effectChoiceInfoDict/` | 109 | 效果选项与选择数据 |
-| `effectInfoDataDict/` | 406 | 效果名称、描述与类型 |
+| `effectInfoDataDict/` | 411 | 效果名称、描述与类型 |
 | `garrisonDataDict/` | 423 | 特质、驻军效果与 Blackboard 参数 |
 | `modeDataDict/` | 8 | 多人、单人和训练模式 |
 | `shopCharChessInfoData/` | 6 | 商店等级中的棋子规则 |

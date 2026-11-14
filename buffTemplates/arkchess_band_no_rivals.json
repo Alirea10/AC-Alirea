@@ -1,0 +1,138 @@
+{
+  "templateKey": "arkchess_band_no_rivals",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_OUTPUT_DAMAGE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterChess, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_filterGolden": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
+        "_applyWay": "NONE",
+        "_attackTypeFilter": "NONE",
+        "_checkHasScource": false,
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_filterAttackType": false,
+        "_filterBySourceId": false,
+        "_filterDamageType": false,
+        "_filterModifierCancelled": true,
+        "_filterModifierSource": true,
+        "_filterSharedMask": false,
+        "_isNoSource": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_source": "BUFF_OWNER",
+        "_sourceId": null
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp",
+        "_sideMask": "ENEMY",
+        "_targetType": "MODIFIER_TARGET"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterEPBreakRecoveryType, Assembly-CSharp",
+        "_target": "MODIFIER_TARGET",
+        "_recoveryType": "FIRE",
+        "_skipInEPBreakRecoveryCheck": false,
+        "_readTypeFromBb": false,
+        "_bbKey": null
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp",
+        "_filterDamageType": false,
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_applyWayFilter": "NONE",
+        "_filterModifierKey": false,
+        "_modifierKey": "",
+        "_isOneMinus": false,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_cachedDeltaValueToBBKey": "",
+        "_customKey": "damage_scale"
+      }
+    ],
+    "ON_AFTER_OUTPUT_DAMAGE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterChess, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_filterGolden": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
+        "_applyWay": "NONE",
+        "_attackTypeFilter": "NONE",
+        "_checkHasScource": false,
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_filterAttackType": false,
+        "_filterBySourceId": false,
+        "_filterDamageType": false,
+        "_filterModifierCancelled": true,
+        "_filterModifierSource": true,
+        "_filterSharedMask": false,
+        "_isNoSource": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_source": "BUFF_OWNER",
+        "_sourceId": null
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfTargetSide, Assembly-CSharp",
+        "_sideMask": "ENEMY",
+        "_targetType": "MODIFIER_TARGET"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfTarget, Assembly-CSharp",
+        "_targetType": "MODIFIER_TARGET",
+        "_motionMask": "ALL",
+        "_checkTargetAlive": true,
+        "_checkApplyWay": false,
+        "_checkTargetUnitType": true,
+        "_unitType": "ENEMY",
+        "_applyWay": "NONE",
+        "_checkTargetFree": false,
+        "_checkMotionTargetFree": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignModifierValueIntoBlackboard, Assembly-CSharp",
+        "_blackboardKey": "dealt_damage",
+        "_filterModifierCancelled": true
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_anotherBuff": false,
+        "_buffKey": null,
+        "_blackboardKey": "dealt_damage",
+        "_valueToCompare": 0,
+        "_anotherKeyToCompare": null,
+        "_condType": "GT",
+        "_blackboardKeyFromBb": null
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckEnemyId, Assembly-CSharp",
+        "_targetType": "MODIFIER_TARGET",
+        "_filterIds": [
+          "enemy_1104_lfkght_3"
+        ],
+        "_isUnset": false,
+        "_loadIdFromBb": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+InstantKill, Assembly-CSharp",
+        "_targetType": "MODIFIER_TARGET",
+        "_killSource": false,
+        "_noSource": false,
+        "_withdrawIfRallyPoint": false,
+        "_resultIfInRallyPointMode": false,
+        "_skipReborn": true,
+        "_noReason": false,
+        "_markReachExit": false,
+        "_switchState": false
+      }
+    ]
+  }
+}

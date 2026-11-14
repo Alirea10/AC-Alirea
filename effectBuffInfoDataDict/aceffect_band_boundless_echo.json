@@ -1,0 +1,18 @@
+[
+  {
+    "blackboard": [
+      {
+        "key": "min_percent",
+        "value": 50,
+        "valueStr": null
+      },
+      {
+        "key": "max_percent",
+        "value": 150,
+        "valueStr": null
+      }
+    ],
+    "countType": "NONE",
+    "key": "skill_prep_end_char_bond_scale"
+  }
+]

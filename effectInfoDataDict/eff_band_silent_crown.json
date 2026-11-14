@@ -1,0 +1,12 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【沉寂黑冠】\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，本场作战中每隔<@ba.vup>2</>秒重新分配其攻击范围内所有我方干员的生命，使其生命比例相同<@ba.acrem>（包含所选干员，每回合限1次）</>",
+  "effectId": "eff_band_silent_crown",
+  "effectName": "沉寂黑冠",
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

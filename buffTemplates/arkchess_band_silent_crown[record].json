@@ -1,0 +1,102 @@
+{
+  "templateKey": "arkchess_band_silent_crown[record]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterChess, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_filterGolden": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfTarget, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_motionMask": "ALL",
+        "_checkTargetAlive": true,
+        "_checkApplyWay": false,
+        "_checkTargetUnitType": false,
+        "_unitType": "ENEMY",
+        "_applyWay": "NONE",
+        "_checkTargetFree": false,
+        "_checkMotionTargetFree": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+RecordCurrentHpRatio, Assembly-CSharp",
+        "_ownerType": "BUFF_OWNER",
+        "_recordKey": "record_cur_hp",
+        "_needOffset": false,
+        "_recordType": "hp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignBuffBlackboard, Assembly-CSharp",
+        "_targetType": "BUFF_SOURCE",
+        "_blackboardKey": "temp_hp_value",
+        "_valueKey": "record_cur_hp",
+        "_buffKey": "arkchess_band_silent_crown[tick]",
+        "_buffKeyAssignFrom": null,
+        "_assignString": false,
+        "_defaultValue": 0,
+        "_assignFirstBuff": true,
+        "_useBlackboardBuffKey": false,
+        "_useCurBuffBB": false,
+        "_checkAssignToBuffSource": false,
+        "_assignToBuffSourceType": "TARGET",
+        "_assignMode": "OVERRIDE",
+        "_assignToMainBuff": false,
+        "_includeDisableBuffs": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AddBuffBlackboard, Assembly-CSharp",
+        "_targetType": "BUFF_SOURCE",
+        "_blackboardKey": "record_cur_hp",
+        "_buffKey": "arkchess_band_silent_crown[tick]",
+        "_addition": 0,
+        "_additionKey": "temp_hp_value",
+        "_useCurBuffBBWhenDoAddition": false,
+        "_maxValueKey": null,
+        "_isMinus": false,
+        "_checkBuffSource": false,
+        "_useCurBuffBBWhenCheckMaxValue": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+RecordCurrentHpRatio, Assembly-CSharp",
+        "_ownerType": "BUFF_OWNER",
+        "_recordKey": "record_cur_maxhp",
+        "_needOffset": false,
+        "_recordType": "maxHp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignBuffBlackboard, Assembly-CSharp",
+        "_targetType": "BUFF_SOURCE",
+        "_blackboardKey": "temp_maxhp_value",
+        "_valueKey": "record_cur_maxhp",
+        "_buffKey": "arkchess_band_silent_crown[tick]",
+        "_buffKeyAssignFrom": null,
+        "_assignString": false,
+        "_defaultValue": 0,
+        "_assignFirstBuff": true,
+        "_useBlackboardBuffKey": false,
+        "_useCurBuffBB": false,
+        "_checkAssignToBuffSource": false,
+        "_assignToBuffSourceType": "TARGET",
+        "_assignMode": "OVERRIDE",
+        "_assignToMainBuff": false,
+        "_includeDisableBuffs": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AddBuffBlackboard, Assembly-CSharp",
+        "_targetType": "BUFF_SOURCE",
+        "_blackboardKey": "record_cur_maxhp",
+        "_buffKey": "arkchess_band_silent_crown[tick]",
+        "_addition": 0,
+        "_additionKey": "temp_maxhp_value",
+        "_useCurBuffBBWhenDoAddition": false,
+        "_maxValueKey": null,
+        "_isMinus": false,
+        "_checkBuffSource": false,
+        "_useCurBuffBBWhenCheckMaxValue": false
+      }
+    ]
+  }
+}

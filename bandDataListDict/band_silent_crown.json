@@ -1,0 +1,22 @@
+{
+  "bandDesc": "【沉寂黑冠】\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，本场作战中每隔<@ba.vup>2</>秒重新分配其攻击范围内所有我方干员的生命，使其生命比例相同<@ba.acrem>（包含所选干员，每回合限1次）</>",
+  "bandIconId": "native-avatar:npc_1296_tersia",
+  "bandId": "band_silent_crown",
+  "bandRewardModulus": 1,
+  "effectId": "aceffect_band_silent_crown",
+  "modeTypeList": [
+    "SINGLE",
+    "MULTI"
+  ],
+  "sortId": 45,
+  "totalHp": 23,
+  "updateTime": 1794672000,
+  "victorCount": 3,
+  "bandType": "NEW",
+  "inactiveModeIdList": [
+    "mode_training_1"
+  ],
+  "masterVictorCount": 3,
+  "offseasonPriority": 0,
+  "relateBondList": null
+}
