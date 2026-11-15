@@ -1,0 +1,14 @@
+{
+  "bandId": "band_transfer",
+  "sortId": 8,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【纸片替身】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名调度中心内的干员，使其变为相同等阶的随机干员<@ba.acrem>（每回合限2次）</>",
+  "totalHp": 25,
+  "effectId": "aceffect_band_92",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 42,
+  "relateBondList": null
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "at_root",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm143_ability"
+      },
+      {
+        "key": "one_minus_status_resistance",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm144_global_buff"
+      },
+      {
+        "key": "damage_scale",
+        "value": 1.2999999523162842,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm145_ability"
+      },
+      {
+        "key": "ab_buff_duration",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "at_root",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm145_global_buff"
+      }
+    ]
+  }
+]

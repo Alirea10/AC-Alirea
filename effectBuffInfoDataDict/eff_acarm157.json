@@ -1,0 +1,17 @@
+[
+  {
+    "key": "equip_destory_gain_random_coin",
+    "blackboard": [
+      {
+        "key": "min",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

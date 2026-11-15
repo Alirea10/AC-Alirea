@@ -1,0 +1,16 @@
+{
+  "bandId": "band_rich",
+  "sortId": 34,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【最佳品味】\\n<@autochess.dgreen>消耗资金达到60时解锁</>\\n<@autochess.dgreen>点击使用（消耗0）</>：随机获取当前调度中心内的1名干员\\n<@autochess.dgreen>消耗资金达到120时升级为获取2名</>",
+  "totalHp": 24,
+  "effectId": "aceffect_band_53",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 16,
+  "relateBondList": null
+}

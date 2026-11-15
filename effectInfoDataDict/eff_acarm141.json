@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm141",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "佣兵名牌",
+  "effectDesc": "每有一种激活的盟约，使携带者攻击力<@ba.vup>+6%</>、生命上限<@ba.vup>+6%</>（最多叠加<@ba.vup>8</>次）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

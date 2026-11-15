@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_106",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "专享情报",
+  "effectDesc": "【专享情报】\\n<@autochess.dgreen>点击使用</>：进行一次<@ba.vup>特殊刷新</>：此次刷新出现的干员优先为已部署在场上的干员<@ba.vdown>（每场模拟限1次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

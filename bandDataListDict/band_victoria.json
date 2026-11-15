@@ -1,0 +1,18 @@
+{
+  "bandId": "band_victoria",
+  "sortId": 49,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【自发制造】\\n<@autochess.dgreen>被动效果</>：每购买3名【维多利亚】干员，获得1件随机装备（等阶不高于当前调度中心）\\n<@ba.vdown><在场6名不同【维多利亚】干员> 效果替换为【维多利亚】干员技能开启后，周围八格干员同时享受该干员携带的装备效果，持续一定时间</>",
+  "totalHp": 25,
+  "effectId": "aceffect_band_66",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 18,
+  "relateBondList": [
+    "victoriaShip"
+  ]
+}

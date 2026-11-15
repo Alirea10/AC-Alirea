@@ -1,0 +1,62 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm152_global_buff"
+      },
+      {
+        "key": "heal_scale",
+        "value": 0.05000000074505806,
+        "valueStr": null
+      },
+      {
+        "key": "can_double",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm153_global_buff"
+      },
+      {
+        "key": "atk",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed",
+        "value": 30.0,
+        "valueStr": null
+      },
+      {
+        "key": "hp_ratio_base",
+        "value": 0.009999999776482582,
+        "valueStr": null
+      },
+      {
+        "key": "can_double",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm154_global_buff"
+      }
+    ]
+  }
+]

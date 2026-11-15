@@ -1,34 +1,32 @@
 [
   {
+    "key": "char_attribute_mul",
     "blackboard": [
       {
         "key": "atk",
-        "value": 1.05,
+        "value": 1.0499999523162842,
         "valueStr": null
       },
       {
         "key": "def",
-        "value": 1.05,
+        "value": 1.0499999523162842,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "char_attribute_mul"
+    ]
   },
   {
+    "key": "acbattle_shop_char_cultivate_effect",
     "blackboard": [
       {
         "key": "atk",
-        "value": 1.05,
+        "value": 1.0499999523162842,
         "valueStr": null
       },
       {
         "key": "def",
-        "value": 1.05,
+        "value": 1.0499999523162842,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "acbattle_shop_char_cultivate_effect"
+    ]
   }
 ]

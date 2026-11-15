@@ -1,13 +1,12 @@
 [
   {
+    "key": "global_special_choice_refresh_free",
     "blackboard": [
       {
         "key": "count",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "global_special_choice_refresh_free"
+    ]
   }
 ]

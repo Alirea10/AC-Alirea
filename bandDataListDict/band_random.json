@@ -1,0 +1,16 @@
+{
+  "bandId": "band_random",
+  "sortId": 31,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【好多委托！】\\n<@autochess.dgreen>被动效果</>：每次进入休整期时，从2个随机指令中选择1个并替换当前指令",
+  "totalHp": 21,
+  "effectId": "aceffect_band_72",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 23,
+  "relateBondList": null
+}

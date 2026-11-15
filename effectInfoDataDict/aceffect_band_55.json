@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【至纯凝结】在第<@autochess.dgreen>1</>回合开始时获得一个进阶<博士投影>\\n<@ba.acrem>进阶<博士投影>：任意干员可装备，立即使该干员晋升为精锐干员</>",
   "effectId": "aceffect_band_55",
-  "effectName": "至纯凝结",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "最佳品味",
+  "effectDesc": "【最佳品味-2级】\\n<@autochess.dgreen>点击使用</>：随机获取当前调度中心内的2名干员",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

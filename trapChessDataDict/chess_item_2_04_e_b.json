@@ -1,22 +1,22 @@
 {
-  "canGiveBond": false,
-  "charId": "trap_1050_acarm050",
   "chessId": "chess_item_2_04_e_b",
-  "effectId": "eff_acgarm050",
-  "giveBondId": "sargonShip",
+  "charId": "trap_1050_acarm050",
   "isGolden": true,
-  "itemType": "EQUIP",
   "purchasePrice": 5,
   "status": {
     "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
     "skillIndex": 1,
-    "skillLevel": 1,
-    "trapLevel": 1
+    "skillLevel": 1
   },
-  "trapDuration": 0,
   "upgradeChessId": null,
   "upgradeNum": 0,
+  "trapDuration": -1,
+  "effectId": "eff_acgarm050",
+  "giveBondId": "sargonShip",
+  "canGiveBond": false,
   "canFuse": false,
   "fuseWith": null,
-  "fuseResult": null
+  "fuseResult": null,
+  "itemType": "EQUIP"
 }

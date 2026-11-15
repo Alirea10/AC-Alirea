@@ -1,0 +1,16 @@
+{
+  "bandId": "band_yan",
+  "sortId": 46,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [],
+  "bandDesc": "【广交豪杰】\\n<@autochess.dgreen>点击使用（消耗1）</>：刷新调度中心，优先刷新出1名【炎】干员<@ba.acrem>（每回合限2次）</>",
+  "totalHp": 26,
+  "effectId": "aceffect_band_79",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 30,
+  "relateBondList": [
+    "yanShip"
+  ]
+}

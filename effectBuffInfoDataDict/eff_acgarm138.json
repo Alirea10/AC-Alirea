@@ -1,0 +1,27 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm138_global_buff"
+      },
+      {
+        "key": "block_cnt_cell",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "atk_cell",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "layer_max",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

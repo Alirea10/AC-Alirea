@@ -1,0 +1,37 @@
+[
+  {
+    "key": "enemy_attribute_mul",
+    "blackboard": [
+      {
+        "key": "atk",
+        "value": 1.100000023841858,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp",
+        "value": 1.2000000476837158,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon|enemy_9024_acsgnt|enemy_9025_aclts|enemy_9026_acltm|enemy_9038_achest"
+      }
+    ]
+  },
+  {
+    "key": "enemy_attribute_add",
+    "blackboard": [
+      {
+        "key": "attack_speed",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon|enemy_9024_acsgnt|enemy_9025_aclts|enemy_9026_acltm|enemy_9038_achest"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "bandId": "band_bond",
+  "sortId": 58,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [],
+  "bandDesc": "【团伙行动】\\n<@autochess.dgreen>被动效果</>：每回合内主动刷新4次调度中心后，获得1名【叙拉古】干员（等阶不高于当前调度中心），每回合至多触发1次",
+  "totalHp": 24,
+  "effectId": "aceffect_band_82",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 33,
+  "relateBondList": [
+    "siracusaShip"
+  ]
+}

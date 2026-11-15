@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm158",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "瓶装烈性反应",
+  "effectDesc": "携带者对处于元素爆发状态的敌人造成的伤害额外增加<@ba.vup>30%</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

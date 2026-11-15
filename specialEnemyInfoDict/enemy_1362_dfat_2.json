@@ -1,0 +1,12 @@
+{
+  "type": "REBORN",
+  "specialEnemyKey": "enemy_1362_dfat_2",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1222_dpvt_2"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1361_dthrow_2"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "REFLECTION",
+  "specialEnemyKey": "enemy_9039_acrefm",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_9031_acrefd"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1169_duphlx_2"
+  ]
+}

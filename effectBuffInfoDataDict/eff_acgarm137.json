@@ -1,0 +1,27 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm137_global_buff"
+      },
+      {
+        "key": "sp_cost_scale",
+        "value": 0.6000000238418579,
+        "valueStr": null
+      },
+      {
+        "key": "sp_cost_min",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed",
+        "value": -0.25,
+        "valueStr": null
+      }
+    ]
+  }
+]

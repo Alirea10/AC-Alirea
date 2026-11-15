@@ -1,18 +1,12 @@
 [
   {
+    "key": "skill_mark_char_inst_tag",
     "blackboard": [
       {
-        "key": "key",
+        "key": "tag",
         "value": 0,
-        "valueStr": "act1autochess_band18_buff"
-      },
-      {
-        "key": "sp",
-        "value": 3,
-        "valueStr": null
+        "valueStr": "eff_band18"
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

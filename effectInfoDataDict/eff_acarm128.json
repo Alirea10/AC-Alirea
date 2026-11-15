@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm128",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "卫戍推荐信",
+  "effectDesc": "休整期结束时，使携带者所属的已激活盟约层数<@ba.vup>+1</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

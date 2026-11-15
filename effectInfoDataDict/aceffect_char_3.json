@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "攻击力<@ba.vup>+10%</>，防御力和最大生命值<@ba.vup>+5%</>",
   "effectId": "aceffect_char_3",
-  "effectName": "精英阶段2",
   "effectType": "CHAR_MAP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "精英阶段2",
+  "effectDesc": "攻击力+10%，防御力和生命上限+5%",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

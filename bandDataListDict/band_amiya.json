@@ -1,22 +1,14 @@
 {
-  "bandDesc": "【众志合一】\\n<@autochess.dgreen>被动效果</>：场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命上限分别<@ba.vup>+20%</>/<@ba.vup>30%</>/<@ba.vup>40%</>",
-  "bandIconId": "icon_amiya",
-  "bandName": "阿米娅",
   "bandId": "band_amiya",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_22",
-  "modeTypeList": [
-    "LOCAL",
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 2,
-  "totalHp": 25,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 1,
   "bandType": "GENERAL",
   "inactiveModeIdList": [],
+  "bandDesc": "【众志合一】\\n<@autochess.dgreen>被动效果</>：场上存在3、4或5种以上激活盟约时，所有干员攻击力、生命上限分别<@ba.vup>+20%</>/<@ba.vup>30%</>/<@ba.vup>40%</>",
+  "totalHp": 25,
+  "effectId": "aceffect_band_22",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 10,
   "relateBondList": null
 }

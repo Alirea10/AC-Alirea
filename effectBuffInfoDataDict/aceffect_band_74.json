@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_refresh_shop_high_tier",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "lv_up",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

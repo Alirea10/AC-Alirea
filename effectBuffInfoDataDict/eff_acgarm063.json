@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,7 +9,7 @@
       },
       {
         "key": "radius",
-        "value": 3,
+        "value": 3.0,
         "valueStr": null
       },
       {
@@ -16,8 +17,6 @@
         "value": 1.5,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

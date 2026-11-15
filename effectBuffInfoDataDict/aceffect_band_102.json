@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_mark_char_inst_tag",
+    "blackboard": [
+      {
+        "key": "tag",
+        "value": 0,
+        "valueStr": "eff_band14"
+      },
+      {
+        "key": "cond",
+        "value": 0,
+        "valueStr": "gold"
+      }
+    ]
+  }
+]

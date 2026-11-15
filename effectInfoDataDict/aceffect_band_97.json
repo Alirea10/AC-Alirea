@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_97",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "御守之力",
+  "effectDesc": "【御守之力】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，触发该干员的<@ba.vup><获得时></>类特质",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

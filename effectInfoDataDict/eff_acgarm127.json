@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm127",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "雪祀之衣",
+  "effectDesc": "生命上限<@ba.vup>+25%</>，使携带者更不容易受到攻击且阻挡数<@ba.vdown>-1</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

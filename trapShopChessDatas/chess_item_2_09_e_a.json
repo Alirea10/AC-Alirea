@@ -1,0 +1,10 @@
+{
+  "itemId": "chess_item_2_09_e_a",
+  "goldenItemId": "chess_item_2_09_e_b",
+  "hideInShop": false,
+  "itemLevel": 2,
+  "iconLevel": 0,
+  "shopLevelSortId": 9,
+  "itemType": "EQUIP",
+  "trapId": "trap_1136_acarm136"
+}

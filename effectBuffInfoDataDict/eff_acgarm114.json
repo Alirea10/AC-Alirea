@@ -1,13 +1,12 @@
 [
   {
+    "key": "equip_destory_first_bond_char",
     "blackboard": [
       {
         "key": "count",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "use_equip_reward_char_chess_with_same_bond"
+    ]
   }
 ]

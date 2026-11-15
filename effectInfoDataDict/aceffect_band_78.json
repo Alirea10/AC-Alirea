@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_78",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "精巧设计",
+  "effectDesc": "【精巧设计】\\n<@autochess.dgreen>被动效果</>：每回合首次装备合并进阶时，在调度中心出现3件装备（可能出现更高一阶的装备）免费获取其中1件\\n<@autochess.dgreen>点击使用</>：使调度中心出现1件新的装备并替换<@ba.acrem>（每回合限2次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

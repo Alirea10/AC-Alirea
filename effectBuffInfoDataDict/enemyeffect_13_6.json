@@ -1,28 +1,27 @@
 [
   {
+    "key": "add_enemy_kill_gain_coin",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "enemy_id",
         "value": 0,
-        "valueStr": "enemy_1103_wdkght_3"
+        "valueStr": "enemy_1272_nhtank"
       },
       {
         "key": "coin",
-        "value": 3,
+        "value": 3.0,
         "valueStr": null
       },
       {
         "key": "round",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "add_enemy_kill_gain_coin"
+    ]
   }
 ]

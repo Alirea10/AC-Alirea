@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_egir_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "阿戈尔-第二方向",
+  "effectDesc": "【阿戈尔】干员生命值<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n战斗开始时【阿戈尔】干员依次吞噬身前一格干员造成<@ba.vdown>5000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，并叠加等于被吞噬者等阶的盟约层数<@ba.acrem>（【阿戈尔】之间优先对更靠左和靠上的干员发起吞噬）</>\n<在场<@ba.vup>6</>名不同的【阿戈尔】干员>前3名【阿戈尔】干员首次被击倒时召唤整备区最右侧的一名可部署至当前位置的【阿戈尔】干员（至多3名）（不改变场上的盟约激活状态）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

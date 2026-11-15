@@ -1,0 +1,14 @@
+{
+  "bandId": "band_fund",
+  "sortId": 26,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【私募基金】\\n<@autochess.dgreen>点击使用（消耗0）</>：随机获得<@ba.vup>1-6</>资金<@ba.acrem>（冷却回合数等同于获得资金）</>",
+  "totalHp": 23,
+  "effectId": "aceffect_band_80",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 31,
+  "relateBondList": null
+}

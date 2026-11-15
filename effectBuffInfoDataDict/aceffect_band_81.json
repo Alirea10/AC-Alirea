@@ -1,0 +1,22 @@
+[
+  {
+    "key": "round_buy_bond_char_price",
+    "blackboard": [
+      {
+        "key": "n",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "kjeragShip"
+      },
+      {
+        "key": "price",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

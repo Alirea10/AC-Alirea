@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": "icon_player_buff",
-  "effectDesc": "<@ba.vup>你</>接下来购买的<@ba.vup>1</>件装备变为进阶品质",
   "effectId": "allybuff_select_5",
-  "effectName": "整备",
   "effectType": "BUFF_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "整备",
+  "effectDesc": "<@ba.vup>你</>接下来购买的1件装备变为进阶品质",
+  "effectDecoIconId": "icon_player_buff",
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

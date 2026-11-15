@@ -1,0 +1,32 @@
+[
+  {
+    "key": "n_round_refresh_cnt_gain_coin",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "refresh_count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "coin",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_siracusa_2",
+        "value": 0,
+        "valueStr": "bondeffect_siracusa"
+      }
+    ]
+  }
+]

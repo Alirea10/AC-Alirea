@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm156",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "天马之耀",
+  "effectDesc": "生命上限<@ba.vup>+60%</>，<@ba.rem>每秒恢复<@ba.vup>8%</>最大生命值</>；攻击力<@ba.vup>+50%</>，<@ba.rem>造成伤害时额外造成攻击力<@ba.vup>30%</>真实伤害</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

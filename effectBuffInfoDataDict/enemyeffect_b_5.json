@@ -1,28 +1,27 @@
 [
   {
+    "key": "add_enemy_kill_gain_coin",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "enemy_id",
         "value": 0,
-        "valueStr": "enemy_2112_dyhlgy"
+        "valueStr": "enemy_1513_dekght"
       },
       {
         "key": "coin",
-        "value": 4,
+        "value": 3.0,
         "valueStr": null
       },
       {
         "key": "round",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "add_enemy_kill_gain_coin"
+    ]
   }
 ]

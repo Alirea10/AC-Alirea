@@ -1,0 +1,17 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm152_global_buff"
+      },
+      {
+        "key": "heal_scale",
+        "value": 0.05000000074505806,
+        "valueStr": null
+      }
+    ]
+  }
+]

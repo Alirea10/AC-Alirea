@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_enemy_16",
+  "effectType": "ENEMY",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "攻坚装备XXXVII",
+  "effectDesc": "所有敌人最大生命值<@ba.vup>+25%</>",
+  "effectDecoIconId": "icon_team_buff",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

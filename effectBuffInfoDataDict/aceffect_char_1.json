@@ -1,24 +1,22 @@
 [
   {
+    "key": "char_attribute_mul",
     "blackboard": [
       {
         "key": "atk",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "char_attribute_mul"
+    ]
   },
   {
+    "key": "acbattle_shop_char_cultivate_effect",
     "blackboard": [
       {
         "key": "atk",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "acbattle_shop_char_cultivate_effect"
+    ]
   }
 ]

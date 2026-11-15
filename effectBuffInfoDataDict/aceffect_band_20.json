@@ -1,0 +1,22 @@
+[
+  {
+    "key": "buy_bond_char_gain_coin",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "kazimierzShip"
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "max_count",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

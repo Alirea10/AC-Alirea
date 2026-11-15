@@ -1,0 +1,22 @@
+[
+  {
+    "key": "refresh_shop_count_gain_coin_bond_char_chess",
+    "blackboard": [
+      {
+        "key": "refresh_count",
+        "value": 4.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "siracusaShip"
+      },
+      {
+        "key": "max_count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

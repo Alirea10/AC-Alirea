@@ -1,0 +1,26 @@
+[
+  {
+    "key": "skill_change_shop_equip",
+    "blackboard": []
+  },
+  {
+    "key": "promote_equip_extra_award",
+    "blackboard": [
+      {
+        "key": "n",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "select_count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

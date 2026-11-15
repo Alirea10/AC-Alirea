@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm140",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "电流维式重锤",
+  "effectDesc": "攻击力<@ba.vup>+50%</>；造成伤害时有<@ba.vup>5%</>概率使目标获得1层<$ba.palsy>麻痹</>，且对<$ba.palsy>麻痹</>的敌人造成伤害时无视其<@ba.vup>30%</>防御和法术抗性",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

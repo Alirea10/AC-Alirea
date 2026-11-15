@@ -4,7 +4,7 @@
   "bandName": "休谟斯",
   "bandId": "band_humus",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_38",
+  "effectId": "arkchess_aceffect_band_38",
   "modeTypeList": [
     "LOCAL",
     "SINGLE",

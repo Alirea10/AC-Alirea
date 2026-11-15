@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_9",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "崇高牺牲",
+  "effectDesc": "【崇高牺牲】\\n<@autochess.dgreen>被动效果</>：【阿戈尔】干员被击倒时，使已激活的【阿戈尔】盟约叠加等同于该干员等阶的层数",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

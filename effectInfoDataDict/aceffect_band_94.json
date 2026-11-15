@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_94",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "献身护卫",
+  "effectDesc": "【献身护卫】\\n<@autochess.dgreen>点击使用</>：自身目标生命值降至与场上最低的玩家相同并获得等同损失生命值的资金（至多<@ba.vup>10</>资金），在<@ba.vup><休整期结束时></>为该玩家回复等额目标生命值",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

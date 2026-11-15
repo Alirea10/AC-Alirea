@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【加急调派】\\n<@autochess.dgreen>被动效果</>：我方干员每次部署后都会使自身在本场战斗内的再部署时间<@ba.vup>-50%</>",
-  "bandIconId": "icon_emperor",
-  "bandName": "大帝",
   "bandId": "band_emperor",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_10",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 15,
-  "totalHp": 26,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 3,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【加急调派】\\n<@autochess.dgreen>被动效果</>：我方干员每次部署后都会使自身在本场战斗内的再部署时间<@ba.vup>-50%</>",
+  "totalHp": 26,
+  "effectId": "aceffect_band_10",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": -1,
   "relateBondList": null
 }

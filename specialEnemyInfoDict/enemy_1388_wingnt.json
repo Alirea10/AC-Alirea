@@ -1,0 +1,12 @@
+{
+  "type": "CRITIC",
+  "specialEnemyKey": "enemy_1388_wingnt",
+  "randomWeight": 10,
+  "isInFirstHalf": true,
+  "attachedNormalEnemyKeys": [
+    "enemy_1381_winman"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1385_winbom"
+  ]
+}

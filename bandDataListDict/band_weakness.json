@@ -1,0 +1,14 @@
+{
+  "bandId": "band_weakness",
+  "sortId": 17,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【以己之长】\\n<@autochess.dgreen>被动效果</>：所有干员造成的物理和法术伤害变为<@ba.vup>弱点伤害</><@ba.acrem>（根据敌人的防御力和法术抗性变更伤害类型）</>，精锐干员额外获得攻击力<@ba.vup>+16%</>，攻击速度<@ba.vup>+16</>",
+  "totalHp": 26,
+  "effectId": "aceffect_band_12",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 0,
+  "relateBondList": null
+}

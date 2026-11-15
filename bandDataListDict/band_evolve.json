@@ -1,0 +1,14 @@
+{
+  "bandId": "band_evolve",
+  "sortId": 12,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【全场聚焦】\\n<@autochess.dgreen>拖拽使用（消耗1）</>：选择一名我方干员，下次战斗开始时变为精锐干员，持续至战斗结束",
+  "totalHp": 26,
+  "effectId": "aceffect_band_102",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 51,
+  "relateBondList": null
+}

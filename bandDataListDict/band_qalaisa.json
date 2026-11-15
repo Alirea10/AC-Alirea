@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【食腐之蝶】\\n<@autochess.dgreen>被动效果</>：我方干员被击倒时，场上剩余我方单位攻击力<@ba.vup>+20%</>（最大<@ba.vup>+200%</>，持续至被击倒或战斗结束）",
-  "bandIconId": "icon_qalaisa",
-  "bandName": "卡莱莎",
   "bandId": "band_qalaisa",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_11",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 23,
-  "totalHp": 26,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 4,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【食腐之蝶】\\n<@autochess.dgreen>被动效果</>：我方干员被击倒时，场上剩余我方单位攻击力<@ba.vup>+20%</>（最大<@ba.vup>+200%</>，持续至被击倒或战斗结束）",
+  "totalHp": 26,
+  "effectId": "aceffect_band_11",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 1,
   "relateBondList": null
 }

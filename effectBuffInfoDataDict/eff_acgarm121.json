@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,18 +9,17 @@
       },
       {
         "key": "attack_speed",
-        "value": 25,
+        "value": 25.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   },
   {
+    "key": "char_dynamic_ability_new",
     "blackboard": [
       {
         "key": "at_root",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
@@ -29,11 +29,9 @@
       },
       {
         "key": "attack_speed",
-        "value": 15,
+        "value": 15.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "char_dynamic_ability_new"
+    ]
   }
 ]

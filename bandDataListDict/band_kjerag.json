@@ -1,0 +1,16 @@
+{
+  "bandId": "band_kjerag",
+  "sortId": 56,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [],
+  "bandDesc": "【雪域礼赠】\\n<@autochess.dgreen>被动效果</>：每回合首次购买的【谢拉格】干员消耗资金为<@ba.vup>1</>",
+  "totalHp": 23,
+  "effectId": "aceffect_band_81",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 32,
+  "relateBondList": [
+    "kjeragShip"
+  ]
+}

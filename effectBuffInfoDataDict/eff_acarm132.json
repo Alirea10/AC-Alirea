@@ -1,0 +1,22 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm132_global_buff"
+      },
+      {
+        "key": "attack_speed",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "atk_speed_layer_max",
+        "value": 20.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

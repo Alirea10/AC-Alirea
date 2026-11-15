@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "任意干员可装备，下个回合开始时销毁，并使该干员晋升为精锐干员",
   "effectId": "eff_acarm071",
-  "effectName": "博士投影",
   "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "博士投影",
+  "effectDesc": "<@ba.vdown>装备后下个回合开始时销毁</>，并使该干员晋升为精锐干员",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

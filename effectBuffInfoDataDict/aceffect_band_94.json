@@ -1,0 +1,12 @@
+[
+  {
+    "key": "skill_drop_hp_to_low_gain_coin",
+    "blackboard": [
+      {
+        "key": "max_count",
+        "value": 10.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

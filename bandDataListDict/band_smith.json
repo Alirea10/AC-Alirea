@@ -1,0 +1,16 @@
+{
+  "bandId": "band_smith",
+  "sortId": 16,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【全力熔铸】\\n<@autochess.dgreen>被动效果</>：在第3、6、9、12、14回合进入休整期时获得1件当前调度中心等级的随机装备",
+  "totalHp": 26,
+  "effectId": "aceffect_band_77",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 28,
+  "relateBondList": null
+}

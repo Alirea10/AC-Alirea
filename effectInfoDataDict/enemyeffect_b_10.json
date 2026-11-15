@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "为自身<@ba.vup>下场作战</>添加1个“玉双剑”，将其击倒者获得<@ba.vup>2</>资金",
   "effectId": "enemyeffect_b_10",
-  "effectName": "桃园结义·悬赏I",
   "effectType": "ENEMY_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "W·悬赏",
+  "effectDesc": "为自身<@ba.vup>下场作战</>添加1个W，将其击倒者获得<@ba.vup>1</>资金",
+  "effectDecoIconId": null,
   "enemyPrice": 1,
   "showTag": null,
   "displayInHUD": false

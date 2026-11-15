@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,12 +9,12 @@
       },
       {
         "key": "damage_scale",
-        "value": 1.35,
+        "value": 1.350000023841858,
         "valueStr": null
       },
       {
         "key": "interval",
-        "value": 15,
+        "value": 15.0,
         "valueStr": null
       },
       {
@@ -23,11 +24,9 @@
       },
       {
         "key": "damage_scale_minus",
-        "value": -0.04,
+        "value": -0.03999999910593033,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

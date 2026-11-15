@@ -1,0 +1,17 @@
+[
+  {
+    "key": "promote_char_extra_award",
+    "blackboard": [
+      {
+        "key": "n",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

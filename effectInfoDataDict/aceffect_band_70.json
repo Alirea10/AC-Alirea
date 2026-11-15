@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_70",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "流动乐章",
+  "effectDesc": "【流动乐章】\\n<@autochess.dgreen>点击使用</>：获得1名【莱塔尼亚】干员（等阶不高于当前调度中心），每次使用后指令消耗资金永久<@ba.vdown>+1</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

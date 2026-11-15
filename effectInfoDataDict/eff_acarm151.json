@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm151",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "动能轰击弩",
+  "effectDesc": "造成伤害时有<@ba.vup>30%</>概率使攻击力提升至<@ba.vup>130%</>；每次攻击后攻击速度<@ba.vup>+2</>（最高<@ba.vup>60</>层），<@ba.rem>攻击速度叠加达到上限后每次攻击时有<@ba.vup>30%</>概率对攻击范围内随机敌人造成自身攻击力<@ba.vup>100%</>的范围物理伤害</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,7 +9,7 @@
       },
       {
         "key": "prob",
-        "value": 0.12,
+        "value": 0.11999999731779099,
         "valueStr": null
       },
       {
@@ -16,8 +17,6 @@
         "value": 1.5,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_76",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "二重奏",
+  "effectDesc": "【二重奏】\\n<@autochess.dgreen>被动效果</>：每回合首次晋升精锐干员时，获得1次额外的晋升奖励",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

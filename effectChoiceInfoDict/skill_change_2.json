@@ -1,0 +1,8 @@
+{
+  "choiceEventId": "skill_change_2",
+  "choiceType": "SKILL_CHANGE",
+  "effectType": "BAND_SKILL",
+  "selectionType": "ROBIN",
+  "name": "更换指令",
+  "desc": "更换指令。"
+}

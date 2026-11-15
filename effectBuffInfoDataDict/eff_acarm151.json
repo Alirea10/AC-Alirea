@@ -1,0 +1,82 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm149_global_buff"
+      },
+      {
+        "key": "attack_speed",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "layer_max",
+        "value": 60.0,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "splash_cd",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "range_radius",
+        "value": 1.5,
+        "valueStr": null
+      },
+      {
+        "key": "have_splash_damage",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm150_global_buff"
+      },
+      {
+        "key": "prob",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale",
+        "value": 1.2999999523162842,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "at_root",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm151_ability"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "chessId": "chess_item_3_15_e_a",
+  "charId": "trap_1129_acarm129",
+  "isGolden": false,
+  "purchasePrice": 2,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
+    "skillIndex": 0,
+    "skillLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "trapDuration": 0,
+  "effectId": "eff_acarm129",
+  "giveBondId": null,
+  "canGiveBond": false,
+  "canFuse": false,
+  "fuseWith": null,
+  "fuseResult": null,
+  "itemType": "EQUIP"
+}

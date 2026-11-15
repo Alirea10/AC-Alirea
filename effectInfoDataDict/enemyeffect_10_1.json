@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只R-31重型动力装甲，若各自行动阶段就达成完美作战，获得<@ba.vup>4</>资金",
   "effectId": "enemyeffect_10_1",
-  "effectName": "战术特训·特异I",
   "effectType": "ENEMY_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "战术特训·飞行I",
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只妖怪，若各自行动阶段就达成完美作战，获得<@ba.vup>1</>资金",
+  "effectDecoIconId": null,
   "enemyPrice": 1,
   "showTag": null,
   "displayInHUD": false

@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm137",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "可靠怀表",
+  "effectDesc": "携带者技能开启所需技力<@ba.vup>-20%</>，但技能期间攻击速度<@ba.vdown>-25%</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

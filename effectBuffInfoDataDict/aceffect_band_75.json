@@ -1,0 +1,16 @@
+[
+  {
+    "key": "skill_cost_round_grow_reset_on_use",
+    "blackboard": [
+      {
+        "key": "delta",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "skill_gain_all_shop_char",
+    "blackboard": []
+  }
+]

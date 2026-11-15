@@ -1,0 +1,22 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm133_global_buff"
+      },
+      {
+        "key": "atk_scale",
+        "value": 0.25,
+        "valueStr": null
+      },
+      {
+        "key": "double_damage",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

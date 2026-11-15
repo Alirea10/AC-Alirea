@@ -1,0 +1,16 @@
+{
+  "bandId": "band_dance",
+  "sortId": 9,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【溃心领域】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一个可用地块，战斗开始后首次经过该地块的敌人获得恐惧，持续3秒<@ba.acrem>（每回合限1次）</>\\n<@autochess.dgreen>第4、8、12回合时升级，增加使用次数</>",
+  "totalHp": 28,
+  "effectId": "aceffect_band_107",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 39,
+  "relateBondList": null
+}

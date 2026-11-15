@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm152",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "汲取者之喙",
+  "effectDesc": "每次造成伤害时回复相当于造成伤害<@ba.vup>5%</>的生命值；<@ba.rem>若与“汲取者之心”同时持有则组合为“汲取者之镰”</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

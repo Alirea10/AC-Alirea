@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_86",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "电气化！",
+  "effectDesc": "【电气化！】\\n<@autochess.dgreen>拖拽使用</>：选择调度中心的一件装备使其<@ba.vdown>立刻销毁</>，并在下次战斗开始时使场上所有还有空栏位的干员暂时获得该装备直到战斗结束（无法对<@ba.vdown><装备时销毁></>的装备使用）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,13 +1,12 @@
 [
   {
+    "key": "single_special_choice_gloden_equip_chess",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "single_special_choice_gloden_equip_chess"
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_egir",
+        "value": 0,
+        "valueStr": "bondeffect_egir_2"
+      }
+    ]
+  }
+]

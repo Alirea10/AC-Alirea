@@ -1,13 +1,12 @@
 [
   {
+    "key": "equip_use_deploy",
     "blackboard": [
       {
         "key": "count",
-        "value": 9,
+        "value": 9.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "equip_destory_deployment_cnt_change"
+    ]
   }
 ]

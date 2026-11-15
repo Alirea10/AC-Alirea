@@ -1,0 +1,32 @@
+[
+  {
+    "key": "skill_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "ursusShip"
+      }
+    ]
+  },
+  {
+    "key": "skill_cost_reduce_on_buy_bond",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "ursusShip"
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

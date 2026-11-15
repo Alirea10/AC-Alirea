@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new",
     "blackboard": [
       {
         "key": "key",
@@ -8,27 +9,37 @@
       },
       {
         "key": "base_atk",
-        "value": 0.23,
+        "value": 0.23000000417232513,
         "valueStr": null
       },
       {
         "key": "atk_per_stack",
-        "value": 0.005,
+        "value": 0.008999999612569809,
         "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_bond_eff_yan[spawn]"
       },
       {
         "key": "power_bond_char_cnt",
-        "value": 6,
+        "value": 6.0,
         "valueStr": null
       },
       {
         "key": "ex_bond_char_cnt",
-        "value": 9,
+        "value": 9.0,
         "valueStr": null
       },
       {
         "key": "damage_resistance",
-        "value": 0.9,
+        "value": 0.8999999761581421,
         "valueStr": null
       },
       {
@@ -36,8 +47,6 @@
         "value": 1.5,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new"
+    ]
   }
 ]

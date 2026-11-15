@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【统御号令】\\n<@autochess.dgreen>被动效果</>：战斗开始时，场上每有1名精锐干员，精锐干员的攻击力、生命上限<@ba.vup>+10%</>",
-  "bandIconId": "icon_ioleta",
-  "bandName": "伊奥莱塔·罗素",
   "bandId": "band_ioleta",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_17",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 32,
-  "totalHp": 29,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 5,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【统御号令】\\n<@autochess.dgreen>被动效果</>：战斗开始时，场上每有1名精锐干员，精锐干员的攻击力、生命上限<@ba.vup>+10%</>",
+  "totalHp": 29,
+  "effectId": "aceffect_band_17",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 5,
   "relateBondList": null
 }

@@ -1,0 +1,14 @@
+{
+  "bandId": "band_takecare",
+  "sortId": 14,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【重点监护】\\n<@autochess.dgreen>被动效果</>：战斗开始时，使场上每个不同等阶的1个随机我方干员所属的已激活盟约层数<@ba.vup>+1</>\\n<@autochess.dgreen>调度中心等级达到3级、5级时升级使盟约层数额外+1</>",
+  "totalHp": 24,
+  "effectId": "aceffect_band_31",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 9,
+  "relateBondList": null
+}

@@ -1,5 +1,6 @@
 [
   {
+    "key": "global_special_choice_bond_addlayer",
     "blackboard": [
       {
         "key": "bond_list",
@@ -8,11 +9,9 @@
       },
       {
         "key": "count",
-        "value": 10,
+        "value": 15.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "global_special_choice_bond_addlayer"
+    ]
   }
 ]

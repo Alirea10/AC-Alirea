@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,51 +9,49 @@
       },
       {
         "key": "atk_1",
-        "value": 0.2,
+        "value": 0.20000000298023224,
         "valueStr": null
       },
       {
         "key": "atk_2",
-        "value": 0.3,
+        "value": 0.30000001192092896,
         "valueStr": null
       },
       {
         "key": "atk_3",
-        "value": 0.4,
+        "value": 0.4000000059604645,
         "valueStr": null
       },
       {
         "key": "max_hp_1",
-        "value": 0.2,
+        "value": 0.20000000298023224,
         "valueStr": null
       },
       {
         "key": "max_hp_2",
-        "value": 0.3,
+        "value": 0.30000001192092896,
         "valueStr": null
       },
       {
         "key": "max_hp_3",
-        "value": 0.4,
+        "value": 0.4000000059604645,
         "valueStr": null
       },
       {
         "key": "value_1",
-        "value": 3,
+        "value": 3.0,
         "valueStr": null
       },
       {
         "key": "value_2",
-        "value": 4,
+        "value": 4.0,
         "valueStr": null
       },
       {
         "key": "value_3",
-        "value": 5,
+        "value": 5.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

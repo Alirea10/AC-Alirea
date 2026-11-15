@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_16",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "“神秘顾客”",
+  "effectDesc": "【“神秘顾客”】\\n<@autochess.dgreen>被动效果</>：从第5回合起，你和队友遭遇的部分敌人可能会替换为<@ba.vdown><鸭爵>、<高普尼克>、<流泪小子>、<圆仔></>，击倒这些敌人可以获得<@ba.vup>1</>资金奖励（包括联防阶段）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

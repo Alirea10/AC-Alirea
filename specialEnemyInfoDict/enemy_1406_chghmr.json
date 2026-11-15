@@ -1,0 +1,12 @@
+{
+  "type": "CRITIC",
+  "specialEnemyKey": "enemy_1406_chghmr",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1403_gunsho"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1404_msnip"
+  ]
+}

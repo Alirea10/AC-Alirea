@@ -1,0 +1,12 @@
+{
+  "type": "INVISIBLE",
+  "specialEnemyKey": "enemy_9034_acblk",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1009_lurker"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1019_jshoot_2"
+  ]
+}

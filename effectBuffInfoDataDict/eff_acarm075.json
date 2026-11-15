@@ -1,18 +1,17 @@
 [
   {
+    "key": "use_equip_spe_goods_first_bond",
     "blackboard": [
       {
-        "key": "refresh_cnt",
-        "value": 3,
+        "key": "option_count",
+        "value": 3.0,
         "valueStr": null
       },
       {
-        "key": "choice_cnt",
-        "value": 1,
+        "key": "select_count",
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "use_equip_reward_special_goods_char_chess"
+    ]
   }
 ]

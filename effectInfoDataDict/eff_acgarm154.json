@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm154",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "汲取者之镰",
+  "effectDesc": "攻击力<@ba.vup>+30%</>，攻击速度<@ba.vup>+30</>，每秒流失<@ba.vdown>1%</>最大生命值（不会降至<@ba.vup>0</>），每次造成伤害时回复相当于造成伤害<@ba.vup>5%</>的生命值；<@ba.rem>携带者处于技能期间时上述效果翻倍且自身无法被治疗</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

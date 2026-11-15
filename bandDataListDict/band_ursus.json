@@ -1,0 +1,16 @@
+{
+  "bandId": "band_ursus",
+  "sortId": 60,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [],
+  "bandDesc": "【无惧风雪】\\n<@autochess.dgreen>点击使用（消耗5）</>：获得1名【乌萨斯】干员（等阶不高于当前调度中心），每次购买【乌萨斯】干员时指令消耗资金<@ba.vup>-1</>，使用后指令重置并可再次使用",
+  "totalHp": 26,
+  "effectId": "aceffect_band_71",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 22,
+  "relateBondList": [
+    "ursusShip"
+  ]
+}

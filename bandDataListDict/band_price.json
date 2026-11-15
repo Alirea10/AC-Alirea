@@ -1,0 +1,14 @@
+{
+  "bandId": "band_price",
+  "sortId": 7,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【内部货源】\\n<@autochess.dgreen>点击使用（消耗0）</>：下一件购买的装备价格<@ba.vup>-1</>（最多减至0）",
+  "totalHp": 28,
+  "effectId": "aceffect_band_73",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 24,
+  "relateBondList": null
+}

@@ -1,0 +1,16 @@
+{
+  "bandId": "band_sell",
+  "sortId": 36,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【东之极道】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，将其出售并为所有已激活盟约叠加等同于该干员等阶的层数",
+  "totalHp": 22,
+  "effectId": "aceffect_band_105",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 54,
+  "relateBondList": null
+}

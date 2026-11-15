@@ -1,22 +1,22 @@
 {
-  "canGiveBond": false,
-  "charId": "trap_1119_acarm119",
   "chessId": "chess_item_4_07_e_a",
-  "effectId": "eff_acarm119",
-  "giveBondId": "kazimierzShip",
+  "charId": "trap_1061_acarm061",
   "isGolden": false,
-  "itemType": "EQUIP",
   "purchasePrice": 2,
   "status": {
     "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
     "skillIndex": 0,
-    "skillLevel": 1,
-    "trapLevel": 1
+    "skillLevel": 1
   },
-  "trapDuration": -1,
   "upgradeChessId": "chess_item_4_07_e_b",
   "upgradeNum": 2,
+  "trapDuration": -1,
+  "effectId": "eff_acarm061",
+  "giveBondId": null,
+  "canGiveBond": false,
   "canFuse": false,
   "fuseWith": null,
-  "fuseResult": null
+  "fuseResult": null,
+  "itemType": "EQUIP"
 }

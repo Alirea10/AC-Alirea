@@ -1,0 +1,22 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm131_global_buff"
+      },
+      {
+        "key": "temp_stack_count_add",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "temp_stack_count_max",
+        "value": 24.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

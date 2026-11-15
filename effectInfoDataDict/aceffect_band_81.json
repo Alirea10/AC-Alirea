@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_81",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "雪域礼赠",
+  "effectDesc": "【雪域礼赠】\\n<@autochess.dgreen>被动效果</>：每回合首次购买的【谢拉格】干员消耗资金为<@ba.vup>1</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_band19_buff"
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "attr_common_global_buff"
+      },
+      {
+        "key": "atk",
+        "value": 0.1599999964237213,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed",
+        "value": 16.0,
+        "valueStr": null
+      },
+      {
+        "key": "filter_autochess_golden",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

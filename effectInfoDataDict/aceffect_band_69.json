@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_69",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "沙洲梦魇",
+  "effectDesc": "【沙洲梦魇】\\n<@autochess.dgreen>被动效果</>：获得3名【萨尔贡】干员后使当前调度中心升级消耗资金<@ba.vup>-3</>{@tag}，调度中心每个等级至多生效1次",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

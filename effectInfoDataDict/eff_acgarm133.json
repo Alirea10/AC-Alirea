@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm133",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "伊比利亚骨刺刀",
+  "effectDesc": "携带者每次造成伤害时，额外造成<@ba.vup>2</>次相当于自身攻击力<@ba.vup>25%</>的法术伤害",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

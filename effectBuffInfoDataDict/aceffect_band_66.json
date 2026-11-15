@@ -1,0 +1,32 @@
+[
+  {
+    "key": "buy_bond_char_cnt_gain_equip",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "victoriaShip"
+      },
+      {
+        "key": "count",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "count2",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_victoria",
+        "value": 0,
+        "valueStr": "bondeffect_victoria_2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm147",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "不退者力场",
+  "effectDesc": "阻挡数<@ba.vup>+2</>，每阻挡一个单位自身生命上限和防御力提升<@ba.vup>20%</>，<@ba.rem>若与“不退者之盾”同时持有则组合为“不退者卫护系统”</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

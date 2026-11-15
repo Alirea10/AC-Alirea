@@ -1,0 +1,12 @@
+{
+  "type": "CRITIC",
+  "specialEnemyKey": "enemy_9040_accrit",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1309_mhboar_2"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_10163_mnctur_2"
+  ]
+}

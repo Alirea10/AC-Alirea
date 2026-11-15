@@ -1,0 +1,16 @@
+{
+  "bandId": "band_lethania",
+  "sortId": 59,
+  "bandType": "BONDRELEVANT",
+  "inactiveModeIdList": [],
+  "bandDesc": "【流动乐章】\\n<@autochess.dgreen>点击使用（消耗1）</>：获得1名【莱塔尼亚】干员（等阶不高于当前调度中心），每次使用后指令消耗资金永久<@ba.vdown>+1</>",
+  "totalHp": 24,
+  "effectId": "aceffect_band_70",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 21,
+  "relateBondList": [
+    "leithanienShip"
+  ]
+}

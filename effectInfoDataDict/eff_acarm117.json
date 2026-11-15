@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "攻击力<@ba.vup>+40%</>，若与“天马之盔”一起装备，造成伤害时额外造成<@ba.vup>30%</>的真实伤害",
   "effectId": "eff_acarm117",
-  "effectName": "天马之枪",
   "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "天马之枪",
+  "effectDesc": "攻击力<@ba.vup>+50%</>，<@ba.rem>若与“天马之盔”同时持有则组合为“天马之耀”</>",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

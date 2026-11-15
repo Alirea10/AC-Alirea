@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_73",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "内部货源",
+  "effectDesc": "【内部货源】\\n<@autochess.dgreen>点击使用</>：下一件购买的装备价格<@ba.vup>-1</>（最多减至0）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

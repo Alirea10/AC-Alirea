@@ -1,22 +1,22 @@
 {
-  "canGiveBond": false,
-  "charId": "trap_1051_acarm051",
   "chessId": "chess_item_3_05_e_a",
-  "effectId": "eff_acarm051",
-  "giveBondId": "swiftShip",
+  "charId": "trap_1049_acarm049",
   "isGolden": false,
-  "itemType": "EQUIP",
   "purchasePrice": 2,
   "status": {
     "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
     "skillIndex": 0,
-    "skillLevel": 1,
-    "trapLevel": 1
+    "skillLevel": 1
   },
-  "trapDuration": -1,
   "upgradeChessId": "chess_item_3_05_e_b",
   "upgradeNum": 2,
+  "trapDuration": -1,
+  "effectId": "eff_acarm049",
+  "giveBondId": null,
+  "canGiveBond": false,
   "canFuse": false,
   "fuseWith": null,
-  "fuseResult": null
+  "fuseResult": null,
+  "itemType": "EQUIP"
 }

@@ -1,18 +1,17 @@
 [
   {
+    "key": "equip_tier_recr_gift",
     "blackboard": [
       {
         "key": "refresh_cnt",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       },
       {
         "key": "choice_cnt",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "use_equip_recruit_new_char_and_give_char_to_player_most_bond"
+    ]
   }
 ]

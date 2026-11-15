@@ -1,0 +1,12 @@
+{
+  "type": "CRITIC",
+  "specialEnemyKey": "enemy_1409_bdguad_2",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1405_boomer_2"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1403_gunsho_2"
+  ]
+}

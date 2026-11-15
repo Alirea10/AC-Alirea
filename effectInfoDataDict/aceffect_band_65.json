@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_65",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "量体裁衣",
+  "effectDesc": "【量体裁衣】\\n<@autochess.dgreen>被动效果</>：每回合首次主动刷新后获得<@ba.vup>1</>资金{@tag}",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

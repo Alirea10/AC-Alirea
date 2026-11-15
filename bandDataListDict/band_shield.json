@@ -1,0 +1,14 @@
+{
+  "bandId": "band_shield",
+  "sortId": 15,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【药枚实验】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，在下次战斗开始时获得效果：每次攻击时有<@ba.vup>20%</>的概率获得1层护盾（最多1层）\\n<@autochess.dgreen>第7回合时效果升级</>",
+  "totalHp": 24,
+  "effectId": "aceffect_band_37",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 54,
+  "relateBondList": null
+}

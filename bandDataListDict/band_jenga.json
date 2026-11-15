@@ -1,0 +1,16 @@
+{
+  "bandId": "band_jenga",
+  "sortId": 11,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【条文修正】\\n<@autochess.dgreen>第4回合解锁</>\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，使该干员已激活的所有盟约层数<@ba.vup>+9</><@ba.acrem>（冷却3回合）</>",
+  "totalHp": 26,
+  "effectId": "aceffect_band_88",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 38,
+  "relateBondList": null
+}

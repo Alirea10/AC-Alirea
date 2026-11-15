@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_74",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "人才锁定",
+  "effectDesc": "【人才锁定】\\n<@autochess.dgreen>点击使用</>：刷新调度中心，必定包含1名比当前调度中心等级更高一阶（最高不超过6阶）的干员<@ba.acrem>（每回合限3次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

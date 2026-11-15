@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm138",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "乌萨斯呼吸器",
+  "effectDesc": "阻挡数<@ba.vup>+1</>，攻击力<@ba.vup>+20%</>，每次再部署时上述加成效果叠加（最多叠加<@ba.vup>2</>次）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

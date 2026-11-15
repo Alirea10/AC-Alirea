@@ -1,13 +1,12 @@
 [
   {
+    "key": "use_equip_next_gold",
     "blackboard": [
       {
         "key": "count",
-        "value": 4,
+        "value": 4.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "use_equip_gain_coin_when_next_round_start"
+    ]
   }
 ]

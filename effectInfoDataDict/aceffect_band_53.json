@@ -1,12 +1,12 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【统御号令】战斗开始时，场上每有一个精锐干员，精锐干员的攻击力，生命值<@ba.vup>+10%</>",
   "effectId": "aceffect_band_53",
-  "effectName": "统御号令",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "最佳品味",
+  "effectDesc": "【最佳品味-未解锁】\\n<@autochess.dgreen>消耗资金达到60时解锁{@unlock}</>\\n<@autochess.dgreen>点击使用</>：随机获取当前调度中心内的1名干员",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
-  "showTag": null,
+  "showTag": "value_target",
   "displayInHUD": false
 }

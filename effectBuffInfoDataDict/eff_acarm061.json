@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,16 +9,14 @@
       },
       {
         "key": "prob",
-        "value": 0.1,
+        "value": 0.10000000149011612,
         "valueStr": null
       },
       {
         "key": "max_stack_cnt",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

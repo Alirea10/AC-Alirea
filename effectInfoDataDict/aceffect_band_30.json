@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【人才盲盒】从第<@autochess.dgreen>4</>回合开始每<@ba.vup>2</>回合获得<@ba.vup>1</>名<维多利亚>干员\\n<@ba.vdown>在<维多利亚>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_30",
-  "effectName": "人才盲盒",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "人才盲盒",
+  "effectDesc": "【人才盲盒】\\n<@autochess.dgreen>被动效果</>：从第4回合开始每2回合获得1名【维多利亚】干员（等阶不高于当前调度中心）",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

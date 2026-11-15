@@ -1,0 +1,17 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm126_global_buff"
+      },
+      {
+        "key": "value",
+        "value": 75.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

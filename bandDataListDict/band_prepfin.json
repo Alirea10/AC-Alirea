@@ -1,0 +1,14 @@
+{
+  "bandId": "band_prepfin",
+  "sortId": 28,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【强制休整】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，使该干员的<@ba.vup><休整期结束时></>类特质本回合可以额外触发一次",
+  "totalHp": 21,
+  "effectId": "aceffect_band_90",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 40,
+  "relateBondList": null
+}

@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "装备时，目标干员和本装备销毁并进行一次特殊刷新，出现两名与携带者同等阶的干员，免费获取其中一名\\n<@ba.rem>若在同盟模拟中且存在其他队友，下个休整期向相应盟约人数最多的队友发送1个原干员</>\\n<@ba.acrem>相应盟约人数相同则随机发送</>\\n<@ba.acrem>无法装备给自编干员</>",
   "effectId": "eff_acarm109",
-  "effectName": "信标",
   "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "信标",
+  "effectDesc": "<@ba.vdown>装备时目标干员和本装备销毁</>，在调度中心出现<@ba.vup>2</>名与目标干员同等阶的干员，免费获取其中<@ba.vup>1</>名\\n<@ba.rem>若在同盟模拟中且存在其他队友，下个休整期向相应盟约人数最多的队友发送1个原干员</>\\n<@ba.acrem>相应盟约人数相同则随机发送</>\\n<@ba.acrem>无法装备给自编干员</>",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

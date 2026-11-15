@@ -1,0 +1,27 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_band19_buff"
+      },
+      {
+        "key": "fear",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_tile",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "effect",
+        "value": 0,
+        "valueStr": "map_v079_dikuai02"
+      }
+    ]
+  }
+]

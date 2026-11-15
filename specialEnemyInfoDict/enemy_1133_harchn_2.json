@@ -1,0 +1,12 @@
+{
+  "type": "REBORN",
+  "specialEnemyKey": "enemy_1133_harchn_2",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1131_sbeast_2"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1132_sarchn_2"
+  ]
+}

@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【利滚利】\\n<@autochess.dgreen>被动效果</>：每回合剩余的资金可以继承，剩余至少<@ba.vup>5</>资金时，每回合额外获得<@ba.vup>1</>资金",
-  "bandIconId": "icon_cannot",
-  "bandName": "坎诺特",
   "bandId": "band_cannot",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_15",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 28,
-  "totalHp": 27,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 32,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【利滚利】\\n<@autochess.dgreen>被动效果</>：每回合剩余的资金可以继承，剩余至少<@ba.vup>5</>资金时，每回合额外获得<@ba.vup>1</>资金",
+  "totalHp": 27,
+  "effectId": "aceffect_band_15",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 3,
   "relateBondList": null
 }

@@ -1,0 +1,47 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "attr_common_global_buff"
+      },
+      {
+        "key": "atk",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm140_global_buff"
+      },
+      {
+        "key": "palsy_prob",
+        "value": 0.05000000074505806,
+        "valueStr": null
+      },
+      {
+        "key": "def_penetrate",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "magic_resist_penetrate",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "big_hammer",
+        "value": 0,
+        "valueStr": "none"
+      }
+    ]
+  }
+]

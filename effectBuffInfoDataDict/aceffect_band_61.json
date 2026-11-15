@@ -1,5 +1,6 @@
 [
   {
+    "key": "auto_chess_change_map",
     "blackboard": [
       {
         "key": "common_condition",
@@ -8,27 +9,27 @@
       },
       {
         "key": "cnt",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_605_cmedic#1",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_605_cmedic#2_multi_only",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_605_cmedic#3",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_605_cmedic#4_multi_only",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
@@ -51,11 +52,10 @@
         "value": 0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "auto_chess_change_map"
+    ]
   },
   {
+    "key": "auto_chess_change_map",
     "blackboard": [
       {
         "key": "common_condition",
@@ -64,27 +64,27 @@
       },
       {
         "key": "cnt",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       },
       {
         "key": "char_613_acmedc#1",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_613_acmedc#2_multi_only",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_613_acmedc#3",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "char_613_acmedc#4_multi_only",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
@@ -107,8 +107,6 @@
         "value": 0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "auto_chess_change_map"
+    ]
   }
 ]

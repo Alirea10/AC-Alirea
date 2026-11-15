@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_90",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "强制休整",
+  "effectDesc": "【强制休整】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，使该干员的<@ba.vup><休整期结束时></>类特质本回合可以额外触发一次",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

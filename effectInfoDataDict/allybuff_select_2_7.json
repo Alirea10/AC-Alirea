@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": "icon_team_buff",
-  "effectDesc": "你的卡西米尔盟约层数<@ba.vup>+12</>，若存在<@ba.vup>其他队友</>则他们也获得",
   "effectId": "allybuff_select_2_7",
-  "effectName": "玛恩纳的盟誓",
   "effectType": "BUFF_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "斥罪的盟誓",
+  "effectDesc": "【叙拉古】【突袭】层数<@ba.vup>+15</>，若存在<@ba.vup>其他队友</>则他们也获得",
+  "effectDecoIconId": "icon_team_buff",
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

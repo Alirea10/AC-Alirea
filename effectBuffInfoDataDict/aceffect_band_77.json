@@ -1,0 +1,52 @@
+[
+  {
+    "key": "prep_start_random_equip_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_random_equip_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_random_equip_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 9.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_random_equip_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 12.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "prep_start_random_equip_in_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 14.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

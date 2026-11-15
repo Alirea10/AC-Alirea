@@ -1,0 +1,14 @@
+{
+  "bandId": "band_upgrade",
+  "sortId": 23,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【至纯凝结】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，立即使该干员晋升为精锐干员<@ba.vdown>（每场模拟限1次）</>",
+  "totalHp": 28,
+  "effectId": "aceffect_band_99",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 48,
+  "relateBondList": null
+}

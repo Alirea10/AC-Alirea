@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_105",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "东之极道",
+  "effectDesc": "【东之极道】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，将其出售并为所有已激活盟约叠加等同于该干员等阶的层数",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

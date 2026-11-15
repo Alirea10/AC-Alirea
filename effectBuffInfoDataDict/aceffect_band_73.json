@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_next_equip_buy_discount",
+    "blackboard": [
+      {
+        "key": "times",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

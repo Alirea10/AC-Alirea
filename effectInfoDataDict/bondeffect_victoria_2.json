@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_victoria_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "维多利亚-第二方向",
+  "effectDesc": "<@ba.vup>携带装备</>的【维多利亚】干员伤害提升至<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>\n<每叠加<@ba.vup>25</>层>获得一件带有随机特殊效果的维式重锤\n<在场<@ba.vup>6</>名不同的【维多利亚】干员>【维多利亚】干员技能开启后，周围八格干员同时享受该干员携带的装备效果，持续<@ba.vup>{1:0}</>秒<@ba.acrem>（受层数影响）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

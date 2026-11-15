@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm132",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "灵巧涡轮手套",
+  "effectDesc": "部署后每秒攻击速度<@ba.vup>+3</>（最多叠加<@ba.vup>20</>次），受到伤害时失去该效果",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

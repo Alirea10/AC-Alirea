@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_87",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "正直教官",
+  "effectDesc": "【正直教官】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，使其在下场战斗中卫戍能力的叠层上限提升，数量等同于当前回合数",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

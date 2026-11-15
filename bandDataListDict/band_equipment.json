@@ -1,0 +1,16 @@
+{
+  "bandId": "band_equipment",
+  "sortId": 39,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【精巧设计】\\n<@autochess.dgreen>被动效果</>：每回合首次装备合并进阶时，在调度中心出现3件装备（可能出现更高一阶的装备）免费获取其中1件\\n<@autochess.dgreen>点击使用（消耗0）</>：使调度中心出现1件新的装备并替换<@ba.acrem>（每回合限2次）</>",
+  "totalHp": 29,
+  "effectId": "aceffect_band_78",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 29,
+  "relateBondList": null
+}

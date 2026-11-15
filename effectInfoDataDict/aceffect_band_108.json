@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_108",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "溃心领域",
+  "effectDesc": "【溃心领域-2级】\\n<@autochess.dgreen>拖拽使用</>：选择一个可用地块，战斗开始后首次经过该地块的敌人获得恐惧，持续3秒<@ba.acrem>（每回合限2次）</>\\n<@autochess.dgreen>第8回合时升级为可使用3次</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

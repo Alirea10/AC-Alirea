@@ -1,0 +1,112 @@
+[
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 4.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_4_10_e_a"
+      }
+    ]
+  },
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 7.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_4_10_e_a"
+      }
+    ]
+  },
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_4_10_e_a"
+      }
+    ]
+  },
+  {
+    "key": "preparation_start_gain_chess_from_round",
+    "blackboard": [
+      {
+        "key": "round",
+        "value": 13.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "type",
+        "value": 0,
+        "valueStr": "equip"
+      },
+      {
+        "key": "chess",
+        "value": 0,
+        "valueStr": "chess_item_4_10_e_a"
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_kjerag_2",
+        "value": 0,
+        "valueStr": "bondeffect_kjerag"
+      }
+    ]
+  }
+]

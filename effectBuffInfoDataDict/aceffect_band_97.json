@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_trigger_garr_event",
+    "blackboard": [
+      {
+        "key": "event",
+        "value": 0,
+        "valueStr": "SERVER_GAIN"
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

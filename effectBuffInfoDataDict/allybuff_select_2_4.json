@@ -1,18 +1,17 @@
 [
   {
+    "key": "global_special_choice_bond_addlayer",
     "blackboard": [
       {
         "key": "bond_list",
         "value": 0,
-        "valueStr": "investShip,kjeragShip,swiftShip"
+        "valueStr": "kjeragShip,kazimierzShip,leithanienShip"
       },
       {
         "key": "count",
-        "value": 8,
+        "value": 12.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "global_special_choice_bond_addlayer"
+    ]
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "equip_destory_gain_coin",
+    "blackboard": [
+      {
+        "key": "value",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "n",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "delta",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

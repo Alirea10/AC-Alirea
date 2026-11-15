@@ -1,0 +1,27 @@
+[
+  {
+    "key": "skill_act_bond_grow_garr_cnt",
+    "blackboard": [
+      {
+        "key": "initial_count",
+        "value": 9.0,
+        "valueStr": null
+      },
+      {
+        "key": "delta_count",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "n",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "max_count",
+        "value": 9.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

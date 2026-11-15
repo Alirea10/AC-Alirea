@@ -1,0 +1,27 @@
+[
+  {
+    "key": "skill_remove_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "yanShip"
+      },
+      {
+        "key": "in_shop",
+        "value": 0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_yan_2",
+        "value": 0,
+        "valueStr": "bondeffect_yan"
+      }
+    ]
+  }
+]

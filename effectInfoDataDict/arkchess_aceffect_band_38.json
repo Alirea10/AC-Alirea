@@ -1,0 +1,12 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": null,
+  "effectDesc": "【回收利用】地面干员技能结束时使周围四格随机<@ba.vup>1</>名干员获得<@ba.vup>3</>点技力",
+  "effectId": "arkchess_aceffect_band_38",
+  "effectName": "回收利用",
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

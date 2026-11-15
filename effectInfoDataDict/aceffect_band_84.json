@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_84",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "出航时刻",
+  "effectDesc": "【出航时刻-未解锁】\\n<@autochess.dgreen>【伊比利亚】盟约激活人数达到4时解锁</>\\n<@autochess.dgreen>拖拽使用</>：选择一名调度中心内的干员，使其替换为不高于该干员等阶的【伊比利亚】干员<@ba.acrem>（每回合限2次）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

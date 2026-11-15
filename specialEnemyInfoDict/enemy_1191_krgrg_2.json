@@ -1,0 +1,12 @@
+{
+  "type": "CRITIC",
+  "specialEnemyKey": "enemy_1191_krgrg_2",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1064_snsbr"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1067_snslime_2"
+  ]
+}

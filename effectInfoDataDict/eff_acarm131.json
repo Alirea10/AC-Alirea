@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm131",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "多功能补剂",
+  "effectDesc": "携带者每次造成伤害时，自身所属已激活盟约临时层数<@ba.vup>+1</>（每场战斗最多叠加<@ba.vup>12</>层）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

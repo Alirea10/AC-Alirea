@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_remove_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "iberiaShip"
+      },
+      {
+        "key": "in_shop",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

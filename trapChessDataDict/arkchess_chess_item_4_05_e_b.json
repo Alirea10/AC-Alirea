@@ -1,0 +1,22 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1060_acarm060",
+  "chessId": "arkchess_chess_item_4_05_e_b",
+  "effectId": "eff_acgarm060",
+  "giveBondId": "rainbowShip",
+  "isGolden": true,
+  "itemType": "EQUIP",
+  "purchasePrice": 5,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 1,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": 0,
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "canFuse": false,
+  "fuseWith": null,
+  "fuseResult": null
+}

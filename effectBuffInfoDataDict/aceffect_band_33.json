@@ -1,28 +1,27 @@
 [
   {
+    "key": "prep_finish_char_bond_add_layer",
     "blackboard": [
       {
-        "key": "key",
-        "value": 0,
-        "valueStr": "act1autochess_band13_buff"
+        "key": "layer",
+        "value": 3.0,
+        "valueStr": null
       },
       {
-        "key": "bond_type",
+        "key": "count",
         "value": 0,
-        "valueStr": "bond_by_id"
+        "valueStr": null
       },
       {
-        "key": "bond_id",
+        "key": "delta",
         "value": 0,
-        "valueStr": "egirShip"
+        "valueStr": null
       },
       {
-        "key": "bond_add_type",
-        "value": 0,
-        "valueStr": "by_charlevel"
+        "key": "max",
+        "value": 3.0,
+        "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

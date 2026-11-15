@@ -1,9 +1,10 @@
 [
   {
+    "key": "single_special_choice_gain_bond_chess",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
@@ -11,8 +12,6 @@
         "value": 0,
         "valueStr": "yanShip"
       }
-    ],
-    "countType": "NONE",
-    "key": "single_special_choice_gain_bond_chess"
+    ]
   }
 ]

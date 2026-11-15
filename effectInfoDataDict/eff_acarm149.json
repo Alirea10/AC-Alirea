@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm149",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "动能加速器",
+  "effectDesc": "每次攻击或治疗时攻击速度<@ba.vup>+2</>（最高<@ba.vup>60</>层）；<@ba.rem>若与“动能单手弩”同时持有则组合为“动能轰击弩”</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

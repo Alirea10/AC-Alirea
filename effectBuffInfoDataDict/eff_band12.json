@@ -1,0 +1,32 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_band12_buff"
+      },
+      {
+        "key": "max_respawn_cnt",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "start_dead",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_chess",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_effect",
+        "value": 0,
+        "valueStr": "map_v079_squad_02"
+      }
+    ]
+  }
+]

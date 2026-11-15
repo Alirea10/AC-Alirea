@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【定制铳械】累计花费<@ba.vup>55</>资金后，获得<@ba.vup>1</>名<@ba.vup>4</>阶及以上随机的精锐<拉特兰>干员\\n<@ba.vdown>在<拉特兰>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_32",
-  "effectName": "定制铳械",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "重点监护",
+  "effectDesc": "【重点监护-2级】\\n<@autochess.dgreen>被动效果</>：战斗开始时，使场上每个不同等阶的1个随机我方干员所属的已激活盟约层数<@ba.vup>+2</>\\n<@autochess.dgreen>调度中心等级达到5级时升级，层数额外+1</>",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

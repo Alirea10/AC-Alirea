@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new",
     "blackboard": [
       {
         "key": "key",
@@ -8,61 +9,59 @@
       },
       {
         "key": "base_duration",
-        "value": 32,
+        "value": 32.0,
         "valueStr": null
       },
       {
         "key": "duration_per_stack",
-        "value": 0.4,
+        "value": 0.4000000059604645,
         "valueStr": null
       },
       {
         "key": "base_attack_speed",
-        "value": 25,
+        "value": 25.0,
         "valueStr": null
       },
       {
         "key": "attack_speed_per_stack",
-        "value": 0.8,
+        "value": 0.800000011920929,
         "valueStr": null
       },
       {
         "key": "power_bond_char_cnt",
-        "value": 6,
+        "value": 6.0,
         "valueStr": null
       },
       {
         "key": "ex_bond_char_cnt",
-        "value": 6,
+        "value": 6.0,
         "valueStr": null
       },
       {
         "key": "end_duration",
-        "value": 10,
+        "value": 10.0,
         "valueStr": null
       },
       {
         "key": "prob",
-        "value": 0.03,
+        "value": 0.029999999329447746,
         "valueStr": null
       },
       {
         "key": "base_damage",
-        "value": 5000,
+        "value": 5000.0,
         "valueStr": null
       },
       {
         "key": "damage_per_stack",
-        "value": 50,
+        "value": 50.0,
         "valueStr": null
       },
       {
         "key": "fear",
-        "value": 3,
+        "value": 3.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new"
+    ]
   }
 ]

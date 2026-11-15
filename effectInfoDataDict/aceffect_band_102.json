@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_102",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "全场聚焦",
+  "effectDesc": "【全场聚焦】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，下次战斗开始时变为精锐干员，持续至战斗结束",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

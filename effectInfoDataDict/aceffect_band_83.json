@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_83",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "黑白相易",
+  "effectDesc": "【黑白相易】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员移除，获得1名不高于该干员等阶的【炎】干员",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

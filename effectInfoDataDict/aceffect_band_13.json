@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_13",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "变形同构",
+  "effectDesc": "【变形同构】\\n<@autochess.dgreen>被动效果</>：每5回合获得1件特殊装备<@ba.vup><变形同构体></>\\n<@ba.acrem><变形同构体>：与特定装备一同装备时装备者将视为特定盟约成员</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

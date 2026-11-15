@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_77",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "全力熔铸",
+  "effectDesc": "【全力熔铸】\\n<@autochess.dgreen>被动效果</>：在第3、6、9、12、14回合进入休整期时获得1件当前调度中心等级的随机装备",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

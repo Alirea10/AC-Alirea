@@ -1,0 +1,27 @@
+[
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "at_root",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm136_ability"
+      },
+      {
+        "key": "hp_ratio",
+        "value": 0.3499999940395355,
+        "valueStr": null
+      },
+      {
+        "key": "check_hp_ratio",
+        "value": 0.5,
+        "valueStr": null
+      }
+    ]
+  }
+]

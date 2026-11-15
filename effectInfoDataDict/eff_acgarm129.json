@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm129",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "定期存折",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，获得{showtag_value_1}资金（持有时每回合<@ba.vup>+1</>）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "single",
+  "displayInHUD": false
+}

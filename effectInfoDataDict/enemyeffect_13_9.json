@@ -1,0 +1,12 @@
+{
+  "effectId": "enemyeffect_13_9",
+  "effectType": "ENEMY_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "悬赏·飞行II",
+  "effectDesc": "为自身接下来<@ba.vup>两场作战</>添加1只遮天面包机，将其击倒者获得<@ba.vup>2</>资金",
+  "effectDecoIconId": null,
+  "enemyPrice": 2,
+  "showTag": null,
+  "displayInHUD": false
+}

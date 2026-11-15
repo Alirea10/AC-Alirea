@@ -1,0 +1,82 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm079_global_buff"
+      },
+      {
+        "key": "hammer_1",
+        "value": 0,
+        "valueStr": "chess_item_4_05_e"
+      },
+      {
+        "key": "hammer_2",
+        "value": 0,
+        "valueStr": "chess_item_3_08_e"
+      },
+      {
+        "key": "hammer_3",
+        "value": 0,
+        "valueStr": "chess_item_3_09_e"
+      },
+      {
+        "key": "hammer_4",
+        "value": 0,
+        "valueStr": "chess_item_2_03_e"
+      },
+      {
+        "key": "hammer_5",
+        "value": 0,
+        "valueStr": "chess_item_5_07_e"
+      },
+      {
+        "key": "damage_scale",
+        "value": 0.10000000149011612,
+        "valueStr": null
+      },
+      {
+        "key": "undeadable_duration",
+        "value": 8.0,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed",
+        "value": 30.0,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.10000000149011612,
+        "valueStr": null
+      },
+      {
+        "key": "disarmed_duration",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "palsy_prob",
+        "value": 0.05000000074505806,
+        "valueStr": null
+      },
+      {
+        "key": "def_penetrate",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "magic_resist_penetrate",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "atk_per_hammer",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      }
+    ]
+  }
+]

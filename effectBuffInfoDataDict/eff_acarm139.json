@@ -1,0 +1,12 @@
+[
+  {
+    "key": "equip_destory_skill_pool",
+    "blackboard": [
+      {
+        "key": "choice_event",
+        "value": 0,
+        "valueStr": "skill_change_1"
+      }
+    ]
+  }
+]

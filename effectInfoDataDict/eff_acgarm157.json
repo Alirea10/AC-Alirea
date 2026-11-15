@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm157",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "驮兽储蓄罐",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，并随机获得<@ba.vup>2~12</>资金",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

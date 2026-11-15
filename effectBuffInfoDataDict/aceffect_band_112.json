@@ -1,0 +1,12 @@
+[
+  {
+    "key": "skill_transform_char_up_tier",
+    "blackboard": [
+      {
+        "key": "skill_target_chess",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

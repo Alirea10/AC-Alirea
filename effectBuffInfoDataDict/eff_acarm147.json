@@ -1,0 +1,27 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm147_global_buff"
+      },
+      {
+        "key": "block_cnt",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "hp_cell",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "def_cell",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      }
+    ]
+  }
+]

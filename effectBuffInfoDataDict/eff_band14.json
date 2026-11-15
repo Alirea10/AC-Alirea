@@ -1,0 +1,17 @@
+[
+  {
+    "key": "auto_chess_battle_chess_upgrade",
+    "blackboard": [
+      {
+        "key": "skill_target_chess",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "skill_target_effect",
+        "value": 0,
+        "valueStr": "map_v079_squad_03"
+      }
+    ]
+  }
+]

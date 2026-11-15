@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【博学多通】\\n<@autochess.dgreen>被动效果</>：升级调度中心至2、4和6级后，获得1次<@ba.vup>特殊刷新</>：此次刷新出现的干员优先为【萨尔贡】干员",
-  "bandIconId": "icon_pepe",
-  "bandName": "佩佩",
   "bandId": "band_pepe",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_29",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 10,
-  "totalHp": 23,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 48,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【博学多通】\\n<@autochess.dgreen>被动效果</>：升级调度中心至2、4和6级后，获得1次<@ba.vup>特殊刷新</>：此次刷新出现的干员优先为【萨尔贡】干员",
+  "totalHp": 23,
+  "effectId": "aceffect_band_29",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 11,
   "relateBondList": [
     "sargonShip"

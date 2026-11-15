@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_17",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "统御号令",
+  "effectDesc": "【统御号令】\\n<@autochess.dgreen>被动效果</>：战斗开始时，场上每有1名精锐干员，精锐干员的攻击力、生命上限<@ba.vup>+10%</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

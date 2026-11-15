@@ -1,0 +1,16 @@
+{
+  "bandId": "band_support",
+  "sortId": 37,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【人才锁定】\\n<@autochess.dgreen>点击使用（消耗1）</>：刷新调度中心，必定包含1名比当前调度中心等级更高一阶（最高不超过6阶）的干员<@ba.acrem>（每回合限3次）</>",
+  "totalHp": 24,
+  "effectId": "aceffect_band_74",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 25,
+  "relateBondList": null
+}

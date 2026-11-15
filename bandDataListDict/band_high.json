@@ -1,0 +1,16 @@
+{
+  "bandId": "band_high",
+  "sortId": 38,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【专享情报】\\n<@autochess.dgreen>点击使用（消耗3）</>：进行一次<@ba.vup>特殊刷新</>：此次刷新出现的干员优先为已部署在场上的干员<@ba.vdown>（每场模拟限1次）</>",
+  "totalHp": 30,
+  "effectId": "aceffect_band_106",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 55,
+  "relateBondList": null
+}

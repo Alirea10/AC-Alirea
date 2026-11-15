@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm142",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "人事部记录",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，立刻特殊刷新1次调度中心，优先出现拥有该干员第一盟约的干员（不高于当前调度中心等级）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

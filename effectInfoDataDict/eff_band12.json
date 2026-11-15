@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_band12",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "意志鼓舞",
+  "effectDesc": "【意志鼓舞】\\n<@autochess.dgreen>拖拽使用</>：选择一名我方干员，下次战斗开始时立即击倒并复活，并获得额外2次复活次数",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

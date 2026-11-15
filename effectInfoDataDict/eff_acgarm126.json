@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acgarm126",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "虹彩活血饮料",
+  "effectDesc": "携带者无法被治疗，每秒回复<@ba.vup>150</>点生命值",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

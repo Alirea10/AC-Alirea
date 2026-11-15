@@ -1,5 +1,6 @@
 [
   {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,7 +9,7 @@
       },
       {
         "key": "init_max_hp",
-        "value": 0.45,
+        "value": 0.44999998807907104,
         "valueStr": null
       },
       {
@@ -16,8 +17,6 @@
         "value": 0.25,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

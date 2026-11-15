@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只万国信使，奥伦，将其击倒者获得<@ba.vup>2</>资金",
   "effectId": "enemyeffect_15_8",
-  "effectName": "悬赏·特异II",
   "effectType": "ENEMY_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "悬赏·折射II",
+  "effectDesc": "为自身<@ba.vup>下场战斗</>添加1只愤怒的守墓石像，将其击倒者获得<@ba.vup>2</>资金",
+  "effectDecoIconId": null,
   "enemyPrice": 2,
   "showTag": null,
   "displayInHUD": false

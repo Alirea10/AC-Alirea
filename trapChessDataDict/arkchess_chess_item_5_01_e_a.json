@@ -1,0 +1,22 @@
+{
+  "canGiveBond": false,
+  "charId": "trap_1058_acarm058",
+  "chessId": "arkchess_chess_item_5_01_e_a",
+  "effectId": "eff_acarm058",
+  "giveBondId": "ursusShip",
+  "isGolden": false,
+  "itemType": "EQUIP",
+  "purchasePrice": 2,
+  "status": {
+    "evolvePhase": "PHASE_0",
+    "skillIndex": 0,
+    "skillLevel": 1,
+    "trapLevel": 1
+  },
+  "trapDuration": -1,
+  "upgradeChessId": "arkchess_chess_item_5_01_e_b",
+  "upgradeNum": 2,
+  "canFuse": false,
+  "fuseWith": null,
+  "fuseResult": null
+}

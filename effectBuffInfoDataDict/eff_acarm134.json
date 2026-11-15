@@ -1,0 +1,22 @@
+[
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "at_root",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm134_ability"
+      },
+      {
+        "key": "sp",
+        "value": 2.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

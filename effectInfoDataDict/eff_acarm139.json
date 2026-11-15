@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm139",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "投机骰子",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，从3个指令中选择1个替换当前指令",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,28 +1,27 @@
 [
   {
+    "key": "prep_finish_char_bond_add_layer",
     "blackboard": [
       {
-        "key": "coin_cnt",
-        "value": 55,
+        "key": "layer",
+        "value": 2.0,
         "valueStr": null
       },
       {
         "key": "count",
-        "value": 1,
+        "value": 0,
         "valueStr": null
       },
       {
-        "key": "type",
+        "key": "delta",
         "value": 0,
-        "valueStr": "char"
+        "valueStr": null
       },
       {
-        "key": "pool",
-        "value": 0,
-        "valueStr": "pool_char_later"
+        "key": "max",
+        "value": 2.0,
+        "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "band_cost_coin_reach_cnt_gain_chess_from_pool"
+    ]
   }
 ]

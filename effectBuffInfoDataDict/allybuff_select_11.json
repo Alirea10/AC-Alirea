@@ -1,5 +1,10 @@
 [
   {
+    "key": "global_special_choice_all_activated",
+    "blackboard": []
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
     "blackboard": [
       {
         "key": "key",
@@ -8,11 +13,9 @@
       },
       {
         "key": "value",
-        "value": 50,
+        "value": 50.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm145",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "驱逐者防暴装备",
+  "effectDesc": "携带者攻击范围内的敌人受到的<$ba.stun>晕眩</>、<$ba.frozen>冻结</>、<$ba.fear>恐惧</>等异常状态影响时间提高<@ba.vup>100%</>，且对受这类异常状态影响的敌人造成伤害提升<@ba.vup>30%</>；<@ba.rem>携带者处于技能期间时，每次施加这类异常状态时有<@ba.vup>50%</>概率将其传递给附近另一名敌人</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

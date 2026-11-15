@@ -1,0 +1,17 @@
+[
+  {
+    "key": "skill_add_pos_effect_enemy",
+    "blackboard": [
+      {
+        "key": "enemy_id",
+        "value": 0,
+        "valueStr": "enemy_9038_achest"
+      },
+      {
+        "key": "coin",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

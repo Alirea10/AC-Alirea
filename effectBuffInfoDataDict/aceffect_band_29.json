@@ -1,5 +1,6 @@
 [
   {
+    "key": "shop_up_bond_refresh_once",
     "blackboard": [
       {
         "key": "bond",
@@ -21,8 +22,6 @@
         "value": 0,
         "valueStr": "2,4,6"
       }
-    ],
-    "countType": "NONE",
-    "key": "up_shop_next_refresh_must_present_bond_char"
+    ]
   }
 ]

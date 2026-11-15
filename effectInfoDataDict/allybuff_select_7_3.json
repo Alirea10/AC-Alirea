@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": "icon_player_buff",
-  "effectDesc": "<@ba.vup>你</>获得<@ba.vup>1</>名萨尔贡盟约的随机干员棋子",
   "effectId": "allybuff_select_7_3",
-  "effectName": "萨尔贡驰援",
   "effectType": "BUFF_GAIN",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "萨尔贡驰援",
+  "effectDesc": "<@ba.vup>你</>获得1名随机【萨尔贡】干员棋子（不超过当前调度中心等级）",
+  "effectDecoIconId": "icon_player_buff",
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

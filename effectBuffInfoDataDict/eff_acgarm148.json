@@ -1,0 +1,77 @@
+[
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act1autochess_equip_acarm059_global_buff"
+      },
+      {
+        "key": "hp_ratio",
+        "value": 0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm147_global_buff"
+      },
+      {
+        "key": "block_cnt",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "hp_cell",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "def_cell",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new_with_verify",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm148_global_buff"
+      },
+      {
+        "key": "attract_duration",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "range_radius",
+        "value": 1.5,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "char_dynamic_ability_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_equip_acarm148_ability"
+      },
+      {
+        "key": "at_root",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

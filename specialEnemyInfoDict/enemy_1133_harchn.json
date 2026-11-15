@@ -1,12 +1,12 @@
 {
-  "attachedEliteEnemyKeys": [
-    "enemy_1133_harchn"
-  ],
-  "attachedNormalEnemyKeys": [
-    "enemy_1132_sarchn"
-  ],
-  "isInFirstHalf": false,
-  "randomWeight": 10,
+  "type": "REBORN",
   "specialEnemyKey": "enemy_1133_harchn",
-  "type": "TIMES"
+  "randomWeight": 10,
+  "isInFirstHalf": true,
+  "attachedNormalEnemyKeys": [
+    "enemy_1131_sbeast"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1132_sarchn"
+  ]
 }

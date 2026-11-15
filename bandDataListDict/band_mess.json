@@ -1,0 +1,16 @@
+{
+  "bandId": "band_mess",
+  "sortId": 29,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [
+    "mode_single_funny"
+  ],
+  "bandDesc": "【不稳定要素】\\n<@autochess.dgreen>第4回合解锁</>\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，立即使其变为更高一阶的随机干员（最高不超过6阶）",
+  "totalHp": 24,
+  "effectId": "aceffect_band_111",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 44,
+  "relateBondList": null
+}

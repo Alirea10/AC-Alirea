@@ -1,0 +1,27 @@
+[
+  {
+    "key": "skill_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "egirShip"
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_egir",
+        "value": 0,
+        "valueStr": "bondeffect_egir_2"
+      }
+    ]
+  }
+]

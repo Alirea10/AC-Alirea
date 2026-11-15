@@ -1,0 +1,27 @@
+[
+  {
+    "key": "skill_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "leithanienShip"
+      }
+    ]
+  },
+  {
+    "key": "skill_cost_grow_per_use",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

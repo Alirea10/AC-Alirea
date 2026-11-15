@@ -1,18 +1,27 @@
 [
   {
+    "key": "prep_finish_char_bond_add_layer",
     "blackboard": [
       {
-        "key": "bond",
-        "value": 0,
-        "valueStr": "kjeragShip"
+        "key": "layer",
+        "value": 1.0,
+        "valueStr": null
       },
       {
-        "key": "price",
-        "value": 1,
+        "key": "count",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "delta",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "max",
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "first_buy_in_round_char_price_change"
+    ]
   }
 ]

@@ -1,22 +1,22 @@
 {
-  "canGiveBond": false,
-  "charId": "trap_1062_acarm062",
   "chessId": "chess_item_5_02_e_a",
-  "effectId": "eff_acarm062",
-  "giveBondId": "kjeragShip",
+  "charId": "trap_1109_acarm109",
   "isGolden": false,
-  "itemType": "EQUIP",
-  "purchasePrice": 2,
+  "purchasePrice": 3,
   "status": {
     "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
     "skillIndex": 0,
-    "skillLevel": 1,
-    "trapLevel": 1
+    "skillLevel": 1
   },
-  "trapDuration": -1,
-  "upgradeChessId": "chess_item_5_02_e_b",
-  "upgradeNum": 2,
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "trapDuration": 0,
+  "effectId": "eff_acarm109",
+  "giveBondId": null,
+  "canGiveBond": false,
   "canFuse": false,
   "fuseWith": null,
-  "fuseResult": null
+  "fuseResult": null,
+  "itemType": "EQUIP"
 }

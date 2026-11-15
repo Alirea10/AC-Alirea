@@ -1,22 +1,22 @@
 {
-  "canGiveBond": false,
-  "charId": "trap_1060_acarm060",
   "chessId": "chess_item_4_05_e_b",
-  "effectId": "eff_acgarm060",
-  "giveBondId": "rainbowShip",
+  "charId": "trap_1042_acarm042",
   "isGolden": true,
-  "itemType": "EQUIP",
   "purchasePrice": 5,
   "status": {
     "evolvePhase": "PHASE_0",
+    "trapLevel": 1,
     "skillIndex": 1,
-    "skillLevel": 1,
-    "trapLevel": 1
+    "skillLevel": 1
   },
-  "trapDuration": 0,
   "upgradeChessId": null,
   "upgradeNum": 0,
+  "trapDuration": -1,
+  "effectId": "eff_acgarm042",
+  "giveBondId": "victoriaShip",
+  "canGiveBond": false,
   "canFuse": false,
   "fuseWith": null,
-  "fuseResult": null
+  "fuseResult": null,
+  "itemType": "EQUIP"
 }

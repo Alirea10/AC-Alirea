@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm136",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "聚合急救箱",
+  "effectDesc": "攻击范围内每个友方干员首次生命值低于<@ba.vup>50%</>时，立刻治疗其<@ba.vup>35%</>最大生命值",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

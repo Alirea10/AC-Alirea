@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm150",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "动能单手弩",
+  "effectDesc": "造成伤害时有<@ba.vup>30%</>概率使该次攻击力提升至<@ba.vup>130%</>；<@ba.rem>若与“动能加速器”同时持有则组合为“动能轰击弩”</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

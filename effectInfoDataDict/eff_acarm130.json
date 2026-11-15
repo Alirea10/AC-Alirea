@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm130",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "一次性促销券",
+  "effectDesc": "<@ba.vdown>装备时销毁</>，在调度中心出现3件装备，免费获取其中<@ba.vup>1</>件（不高于当前调度中心等级）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

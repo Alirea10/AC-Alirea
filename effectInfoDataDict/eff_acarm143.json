@@ -1,0 +1,12 @@
+{
+  "effectId": "eff_acarm143",
+  "effectType": "EQUIP",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "驱逐者瓦斯",
+  "effectDesc": "携带者攻击范围内的敌人受到的<$ba.stun>晕眩</>、<$ba.frozen>冻结</>、<$ba.fear>恐惧</>等异常状态影响时间提高<@ba.vup>100%</>，<@ba.rem>若与“驱逐者警棍”同时持有则组合为“驱逐者防暴装备”</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【博学多通】升级调度中心至<@ba.vup>2</>、<@ba.vup>4</>和<@ba.vup>6</>级后，获得<@ba.vup>1</>次特殊刷新：此次刷新出现的干员优先为<萨尔贡>干员\\n<@ba.vdown>在<萨尔贡>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_29",
-  "effectName": "博学多通",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "博学多通",
+  "effectDesc": "【博学多通】\\n<@autochess.dgreen>被动效果</>：升级调度中心至2、4和6级后，获得1次<@ba.vup>特殊刷新</>：此次刷新出现的干员优先为【萨尔贡】干员",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

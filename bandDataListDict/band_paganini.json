@@ -4,7 +4,7 @@
   "bandName": "潘格尼尼",
   "bandId": "band_paganini",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_32",
+  "effectId": "arkchess_aceffect_band_32",
   "modeTypeList": [
     "SINGLE",
     "MULTI"

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "skill_mark_pos_grow_use_cnt",
+    "blackboard": [
+      {
+        "key": "use_count",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "add_count",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "tag",
+        "value": 0,
+        "valueStr": "eff_band19"
+      }
+    ]
+  }
+]

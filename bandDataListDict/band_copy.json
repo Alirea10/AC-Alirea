@@ -1,0 +1,14 @@
+{
+  "bandId": "band_copy",
+  "sortId": 10,
+  "bandType": "GENERAL",
+  "inactiveModeIdList": [],
+  "bandDesc": "【幻画为真】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，获得他的复制体，包括精锐状态和携带的装备<@ba.vdown>（每场模拟限1次）</>",
+  "totalHp": 28,
+  "effectId": "aceffect_band_96",
+  "victorCount": 3,
+  "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
+  "offseasonPriority": 45,
+  "relateBondList": null
+}

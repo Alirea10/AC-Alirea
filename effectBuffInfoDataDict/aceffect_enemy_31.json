@@ -1,0 +1,22 @@
+[
+  {
+    "key": "enemy_attribute_mul",
+    "blackboard": [
+      {
+        "key": "atk",
+        "value": 0.949999988079071,
+        "valueStr": null
+      },
+      {
+        "key": "max_hp",
+        "value": 0.800000011920929,
+        "valueStr": null
+      },
+      {
+        "key": "enemy_exclude",
+        "value": 0,
+        "valueStr": "enemy_9012_acloon|enemy_9024_acsgnt|enemy_9025_aclts|enemy_9026_acltm|enemy_9038_achest"
+      }
+    ]
+  }
+]

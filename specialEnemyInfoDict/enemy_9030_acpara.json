@@ -1,0 +1,12 @@
+{
+  "type": "REBORN",
+  "specialEnemyKey": "enemy_9030_acpara",
+  "randomWeight": 10,
+  "isInFirstHalf": false,
+  "attachedNormalEnemyKeys": [
+    "enemy_1360_dfello"
+  ],
+  "attachedEliteEnemyKeys": [
+    "enemy_1363_spnshd_2"
+  ]
+}

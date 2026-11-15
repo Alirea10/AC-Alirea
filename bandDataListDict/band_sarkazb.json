@@ -1,22 +1,14 @@
 {
-  "bandDesc": "【坚不可摧】\\n<@autochess.dgreen>被动效果</>：初始目标生命值为<@ba.vup>40</>点",
-  "bandIconId": "icon_sarkazb",
-  "bandName": "歌利亚",
   "bandId": "band_sarkazb",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_7",
-  "modeTypeList": [
-    "LOCAL",
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 4,
-  "totalHp": 40,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 2,
   "bandType": "GENERAL",
   "inactiveModeIdList": [],
+  "bandDesc": "【坚不可摧】\\n<@autochess.dgreen>被动效果</>：初始目标生命值为<@ba.vup>40</>点",
+  "totalHp": 40,
+  "effectId": "aceffect_band_7",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": -1,
   "relateBondList": null
 }

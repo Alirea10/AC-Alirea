@@ -1,0 +1,12 @@
+[
+  {
+    "key": "gain_band_skill_from_pool_in_prep",
+    "blackboard": [
+      {
+        "key": "choice_event",
+        "value": 0,
+        "valueStr": "skill_change_2"
+      }
+    ]
+  }
+]

@@ -1,23 +1,14 @@
 {
-  "bandDesc": "【外勤医疗】\\n<@autochess.dgreen>被动效果</>：所有玩家场上出现一名<@ba.vup><预备干员-医疗></>；战斗开始时，若场上至少有2名精锐干员，则替换为<@ba.vup><Touch></>",
-  "bandIconId": "icon_amedic",
-  "bandName": "Touch",
   "bandId": "band_amedic",
-  "bandRewardModulus": 1,
-  "effectId": "arkchessv3_aceffect_band_61",
-  "modeTypeList": [
-    "SINGLE",
-    "MULTI"
-  ],
-  "sortId": 40,
-  "totalHp": 28,
-  "updateTime": 1773475200,
-  "victorCount": 3,
+  "sortId": 20,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_training_2"
-  ],
+  "inactiveModeIdList": [],
+  "bandDesc": "【外勤医疗】\\n<@autochess.dgreen>被动效果</>：所有玩家场上出现一名<@ba.vup><预备干员-医疗></>；战斗开始时，若场上至少有2名精锐干员，则替换为<@ba.vup><Touch></>",
+  "totalHp": 28,
+  "effectId": "aceffect_band_61",
+  "victorCount": 3,
   "masterVictorCount": 6,
+  "bandRewardModulus": 1.0,
   "offseasonPriority": 14,
   "relateBondList": null
 }

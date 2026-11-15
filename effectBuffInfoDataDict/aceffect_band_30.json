@@ -1,5 +1,6 @@
 [
   {
+    "key": "gain_bond_char_per_round",
     "blackboard": [
       {
         "key": "bond",
@@ -8,21 +9,19 @@
       },
       {
         "key": "round",
-        "value": 4,
+        "value": 4.0,
         "valueStr": null
       },
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
         "key": "preround",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "gain_bond_char_per_round"
+    ]
   }
 ]

@@ -1,9 +1,10 @@
 [
   {
+    "key": "global_special_choice_gain_equip",
     "blackboard": [
       {
         "key": "count",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       },
       {
@@ -11,8 +12,6 @@
         "value": 0,
         "valueStr": "pool_equip_shop_1"
       }
-    ],
-    "countType": "NONE",
-    "key": "global_special_choice_gain_equip"
+    ]
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "key": "gain_bond_cnt_shop_up_discount",
+    "blackboard": [
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "sargonShip"
+      },
+      {
+        "key": "count",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "value",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_sargon_2",
+        "value": 0,
+        "valueStr": "bondeffect_sargon"
+      }
+    ]
+  }
+]

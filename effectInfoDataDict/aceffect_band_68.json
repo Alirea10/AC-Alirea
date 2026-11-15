@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_68",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "猎人战法",
+  "effectDesc": "【猎人战法】\\n<@autochess.dgreen>点击使用</>：获得1名【阿戈尔】干员（等阶不高于当前调度中心）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "key": "use_equip_spe_goods_equip",
+    "blackboard": [
+      {
+        "key": "option_count",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "select_count",
+        "value": 2.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

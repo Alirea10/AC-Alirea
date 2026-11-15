@@ -1,9 +1,10 @@
 [
   {
+    "key": "add_enemy_selfbattle_win_gain_coin",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       },
       {
@@ -13,16 +14,14 @@
       },
       {
         "key": "coin",
-        "value": 3,
+        "value": 3.0,
         "valueStr": null
       },
       {
         "key": "round",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "add_enemy_selfbattle_win_gain_coin"
+    ]
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "【崇高牺牲】<阿戈尔>干员被击倒时，提供等同于该干员等阶的<阿戈尔>盟约层数\\n<@ba.vdown>在<阿戈尔>部分干员缺席时体验可能不完整</>",
   "effectId": "aceffect_band_33",
-  "effectName": "崇高牺牲",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "重点监护",
+  "effectDesc": "【重点监护-3级】\\n<@autochess.dgreen>被动效果</>：战斗开始时，使场上每个不同等阶的1个随机我方干员所属的已激活盟约层数<@ba.vup>+3</>",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

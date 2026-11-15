@@ -1,13 +1,12 @@
 [
   {
+    "key": "gain_coin_when_round_start",
     "blackboard": [
       {
         "key": "count",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "gain_coin_when_round_start"
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+{
+  "effectId": "aceffect_band_66",
+  "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "自发制造",
+  "effectDesc": "【自发制造】\\n<@autochess.dgreen>被动效果</>：每购买3名【维多利亚】干员{@tag}，获得1件随机装备（等阶不高于当前调度中心）",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": "value_target",
+  "displayInHUD": false
+}

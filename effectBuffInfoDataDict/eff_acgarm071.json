@@ -1,7 +1,6 @@
 [
   {
-    "blackboard": [],
-    "countType": "NONE",
-    "key": "use_equip_upgrade_char"
+    "key": "use_equip_upgrade_char",
+    "blackboard": []
   }
 ]
