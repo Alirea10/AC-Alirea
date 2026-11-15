@@ -4,7 +4,7 @@
   "bloodPointHard": 780000,
   "bloodPointNormal": 390000,
   "bossId": "boss_alirea_phantom",
-  "isHidingBoss": true,
+  "isHidingBoss": false,
   "sortId": 5,
   "weight": 10,
   "bloodDataDict": {

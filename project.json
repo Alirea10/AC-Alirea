@@ -11,6 +11,7 @@
     "effectInfoDataDict",
     "effectBuffInfoDataDict",
     "bossInfoDict",
+    "bossLevelPlanDict",
     "shopCharChessInfoData",
     "garrisonDataDict",
     "bandDataListDict",
@@ -18,8 +19,7 @@
     "shopLevelDisplayDataDict",
     "specialEnemyInfoDict",
     "effectChoiceInfoDict",
-    "buffTemplates",
-    "bossLevelPlanDict"
+    "buffTemplates"
   ],
   "constFields": {
     "banConfig": {
@@ -1270,6 +1270,11 @@
             "bossId": "boss_7",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S"
+          },
+          {
+            "bossId": "boss_11",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ]
       },
@@ -1604,6 +1609,11 @@
             "bossId": "boss_7",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_tr04"
+          },
+          {
+            "bossId": "boss_11",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
           }
         ]
       }
@@ -1852,9 +1862,9 @@
       "chess_rimB_1_27_a": "chess_rimB_1_27_a",
       "chess_rimB_2_26_a": "chess_rimB_2_26_a",
       "chess_rimB_2_27_a": "chess_rimB_2_27_a",
+      "chess_rimB_3_37_a": "chess_rimB_3_37_a",
       "chess_rimB_4_37_a": "chess_rimB_4_37_a",
       "chess_rimB_4_38_a": "chess_rimB_4_38_a",
-      "chess_rimB_3_37_a": "chess_rimB_3_37_a",
       "chess_rimB_6_37_a": "chess_rimB_6_37_a",
       "chess_sami_1_25_a": "chess_sami_1_25_a",
       "chess_sami_2_25_a": "chess_sami_2_25_a",
@@ -2112,9 +2122,9 @@
       "chess_rimB_1_27_b": "chess_rimB_1_27_a",
       "chess_rimB_2_26_b": "chess_rimB_2_26_a",
       "chess_rimB_2_27_b": "chess_rimB_2_27_a",
+      "chess_rimB_3_37_b": "chess_rimB_3_37_a",
       "chess_rimB_4_37_b": "chess_rimB_4_37_a",
       "chess_rimB_4_38_b": "chess_rimB_4_38_a",
-      "chess_rimB_3_37_b": "chess_rimB_3_37_a",
       "chess_rimB_6_37_b": "chess_rimB_6_37_a",
       "chess_sami_1_25_b": "chess_sami_1_25_a",
       "chess_sami_2_25_b": "chess_sami_2_25_a",
@@ -3154,9 +3164,9 @@
       "clientResources": {
         "bossResources": {
           "boss_11": {
+            "bgmEvent": "rosmontisteam",
             "enemyId": "enemy_8007_eltrsm_3",
-            "handbookEnemyId": "enemy_8007_eltrsm_3",
-            "bgmEvent": "rosmontisteam"
+            "handbookEnemyId": "enemy_8007_eltrsm_3"
           },
           "boss_alirea_phantom": {
             "enemyId": "enemy_2016_csphtm",

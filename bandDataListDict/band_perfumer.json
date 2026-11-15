@@ -1,5 +1,6 @@
 {
   "bandDesc": "<芬芳>所有我方单位每次受到伤害时回复50点生命值",
+  "bandIconId": "native-avatar:char_181_flower",
   "bandId": "band_perfumer",
   "bandRewardModulus": 1,
   "effectId": "aceffect_band_62",
