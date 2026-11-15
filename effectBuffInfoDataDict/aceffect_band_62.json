@@ -1,18 +1,37 @@
 [
   {
+    "key": "skill_cost_round_grow_reset_on_use",
     "blackboard": [
       {
-        "key": "key",
-        "value": 0,
-        "valueStr": "act1autochess_debuff_3"
-      },
-      {
-        "key": "value",
-        "value": 50,
+        "key": "delta",
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new_with_verify"
+    ]
+  },
+  {
+    "key": "skill_gain_bond_char",
+    "blackboard": [
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bond",
+        "value": 0,
+        "valueStr": "kazimierzShip"
+      }
+    ]
+  },
+  {
+    "key": "auto_chess_effect_replace",
+    "blackboard": [
+      {
+        "key": "bondeffect_kazimierz_2",
+        "value": 0,
+        "valueStr": "bondeffect_kazimierz"
+      }
+    ]
   }
 ]

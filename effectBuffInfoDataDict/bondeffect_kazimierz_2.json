@@ -1,0 +1,52 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_kazimierz"
+      },
+      {
+        "key": "atk_when_born",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "base_max_atk_when_born",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "max_atk_when_born_per_stack",
+        "value": 0.009999999776482582,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "ex_damage_duration",
+        "value": 30.0,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_base",
+        "value": 0.6499999761581421,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_per_stack",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_max",
+        "value": 20.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

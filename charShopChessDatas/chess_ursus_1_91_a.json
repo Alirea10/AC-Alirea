@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_ursus_1_91_a",
+  "goldenChessId": "chess_ursus_1_91_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 1,
+  "chessType": "PRESET",
+  "charId": "char_4207_branch",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_branch",
+  "backupCharId": "char_4207_branch",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_branch",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

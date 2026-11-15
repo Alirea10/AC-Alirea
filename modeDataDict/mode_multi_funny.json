@@ -99,7 +99,7 @@
   "difficultyDesc": "·作战环境较为温和\n·常规奖励",
   "trophyDesc": "低",
   "eventIds": [],
-  "unlockDiffierentModeId": "mode_training_1",
+  "unlockDiffierentModeId": "mode_training_2",
   "groupList": [
     "GROUP_MULTI",
     "GROUP_ROOM"

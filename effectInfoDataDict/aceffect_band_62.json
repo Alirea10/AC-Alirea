@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": "icon_team_buff",
-  "effectDesc": "【芬芳】所有我方单位每次受到伤害时回复<@ba.vup>50</>点生命值",
   "effectId": "aceffect_band_62",
-  "effectName": "调香师",
   "effectType": "BAND_SKILL",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "骑士团长",
+  "effectDesc": "【骑士团长】\\n<@autochess.dgreen>点击使用</>：获得1名【卡西米尔】干员（等阶不高于当前调度中心），每回合休整期结束时指令消耗资金<@ba.vup>-2</>，使用后指令重置并可再次使用",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

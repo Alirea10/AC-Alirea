@@ -1,0 +1,12 @@
+{
+  "continuedRound": -1,
+  "effectCounterType": "NONE",
+  "effectDecoIconId": "icon_team_buff",
+  "effectDesc": "【芬芳】所有我方单位每次受到伤害时回复<@ba.vup>50</>点生命值",
+  "effectId": "arkchess_aceffect_band_perfumer",
+  "effectName": "调香师",
+  "effectType": "BAND_SKILL",
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -15,7 +15,6 @@
     "mode_single_abyss": 7200000,
     "mode_single_funny": 750000,
     "mode_single_hard": 3600000,
-    "mode_single_normal": 750000,
-    "mode_training_1": 750000
+    "mode_single_normal": 750000
   }
 }

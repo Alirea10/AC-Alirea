@@ -3,7 +3,7 @@
   "bandIconId": "native-avatar:char_181_flower",
   "bandId": "band_perfumer",
   "bandRewardModulus": 1,
-  "effectId": "aceffect_band_62",
+  "effectId": "arkchess_aceffect_band_perfumer",
   "modeTypeList": [
     "SINGLE",
     "MULTI"
@@ -14,7 +14,7 @@
   "victorCount": 3,
   "bandType": "NEW",
   "inactiveModeIdList": [
-    "mode_training_1"
+    "mode_training_2"
   ],
   "masterVictorCount": 3,
   "offseasonPriority": 0,

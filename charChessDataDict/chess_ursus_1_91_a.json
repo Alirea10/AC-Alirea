@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_ursus_1_91_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 55,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_ursus_1_91_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_9184_a"
+  ],
+  "desc": "<进入休整期时>转化<@ba.vup>2</>层【乌萨斯】临时层数为固定层数"
+}
