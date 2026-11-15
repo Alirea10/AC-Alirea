@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_hero_6_28_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10167_b",
+    "garrison_10169_b"
+  ],
+  "desc": "<战斗中>周围12格每有一名敌人被击倒自身回复<@ba.vup>6</>点技力"
+}

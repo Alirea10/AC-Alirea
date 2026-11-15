@@ -1,0 +1,21 @@
+{
+  "chessId": "chess_char_6_33_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_6_33_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10092_a",
+    "garrison_10213_a",
+    "garrison_10217_a"
+  ],
+  "desc": "<获得时>【奥术】层数<@ba.vup>+10</>，【远见】层数<@ba.vup>+5</>\n<战斗中>【奥术】【远见】每叠加3层，本干员攻击速度<@ba.vup>+1</>"
+}

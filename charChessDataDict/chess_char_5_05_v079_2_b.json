@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_5_05_v079_2_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10063_b",
+    "garrison_10144_b"
+  ],
+  "desc": "<战斗中>部署时【阿戈尔】盟约每叠加10层，使自身及周围四格的干员攻击力<@ba.vup>+1%</>，持续30秒"
+}

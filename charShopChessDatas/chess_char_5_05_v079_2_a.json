@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_05_v079_2_a",
+  "goldenChessId": "chess_char_5_05_v079_2_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 10,
+  "chessType": "NORMAL",
+  "charId": "char_4145_ulpia",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_ulpia",
+  "backupCharId": "char_601_cguard",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

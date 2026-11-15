@@ -1,0 +1,72 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_yan"
+      },
+      {
+        "key": "atk_base",
+        "value": 0.23000000417232513,
+        "valueStr": null
+      },
+      {
+        "key": "atk_per_stack",
+        "value": 0.008999999612569809,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_base",
+        "value": 0.05999999865889549,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_per_stack",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "ex_atk_scale_max",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_yan[enemy]"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "ep_break_recover_speed_base",
+        "value": 0.4000000059604645,
+        "valueStr": null
+      },
+      {
+        "key": "ep_break_recover_speed_per_stack",
+        "value": 0.003000000026077032,
+        "valueStr": null
+      },
+      {
+        "key": "ep_break_recover_speed_max",
+        "value": 10.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

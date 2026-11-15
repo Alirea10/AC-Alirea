@@ -1,0 +1,39 @@
+{
+  "garrisonDesc": "<战斗中>【萨尔贡】每叠加5层，本干员攻击力<@ba.vup>+2%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_attrByBond"
+    },
+    {
+      "key": "divide_num",
+      "value": 5.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "sargonShip"
+    },
+    {
+      "key": "atk",
+      "value": 0.019999999552965164,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10048_b"
+    }
+  ],
+  "description": "<战斗中>【萨尔贡】每叠加5层，本干员攻击力<@ba.vup>+2%</>"
+}

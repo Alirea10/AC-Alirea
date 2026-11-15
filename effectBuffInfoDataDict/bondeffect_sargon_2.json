@@ -1,0 +1,122 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_sargon"
+      },
+      {
+        "key": "base_time",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "time_per_stack",
+        "value": 0.2199999988079071,
+        "valueStr": null
+      },
+      {
+        "key": "max_buff_stack_cnt",
+        "value": 25.0,
+        "valueStr": null
+      },
+      {
+        "key": "base_attack_speed",
+        "value": 12.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_sargon_power"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_sargon_power[tile_listener]"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][slow].slow_base",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][slow].slow_per_stack",
+        "value": 0.0002500000118743628,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][slow].slow_max",
+        "value": 0.6000000238418579,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].unmovable_duration",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].magic_damage_base",
+        "value": 5000.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].magic_damage_per_stack",
+        "value": 25.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].magic_damage_max",
+        "value": 100000.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].interval",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].first_trigger_interval",
+        "value": 5.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage_2].magic_damage_base",
+        "value": 800.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage_2].magic_damage_per_stack",
+        "value": 4.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage_2].magic_damage_max",
+        "value": 100000.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

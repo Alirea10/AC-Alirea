@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<进入休整期时>获得1个幽灵鲨、安哲拉、深巡或斯卡蒂\n",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "eventEffect": "map_v079_buff04",
+  "effectType": "SERVER_POOL_CHAR",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "pool",
+      "value": 0,
+      "valueStr": "pool_chess_glady"
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<进入休整期时>获得1个幽灵鲨、安哲拉、深巡或斯卡蒂\n"
+}

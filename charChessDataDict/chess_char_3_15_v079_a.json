@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_15_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_3_15_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10176_a"
+  ],
+  "desc": "<战斗中>造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型） "
+}

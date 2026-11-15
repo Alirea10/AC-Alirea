@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_6_04_v079_2_a",
+  "goldenChessId": "chess_char_6_04_v079_2_b",
+  "chessLevel": 6,
+  "shopLevelSortId": 4,
+  "chessType": "NORMAL",
+  "charId": "char_4231_clemnt",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "backupCharId": "char_617_sharp2",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sharp2",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

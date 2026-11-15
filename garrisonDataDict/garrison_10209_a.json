@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<休整期结束时>使已激活的【突袭】层数<@ba.vup>+3</>",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "raidShip"
+    },
+    {
+      "key": "count",
+      "value": 3.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>使已激活的【突袭】层数<@ba.vup>+3</>"
+}

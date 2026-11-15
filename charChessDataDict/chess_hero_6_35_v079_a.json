@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_hero_6_35_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_hero_6_35_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10008_a"
+  ],
+  "desc": "<战斗中>攻击范围内每有一名敌人被击倒使已激活的【莱塔尼亚】【精准】层数<@ba.vup>+1</>（每回合至多叠加8层）"
+}

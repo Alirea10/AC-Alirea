@@ -1,0 +1,59 @@
+{
+  "garrisonDesc": "<战斗开始时>【阿戈尔】盟约每叠加20层，使场上所有敌人侵蚀损伤冷却恢复速度<@ba.vup>+1%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_block_eprecoverspeed_inrange"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "egirShip"
+    },
+    {
+      "key": "denominator",
+      "value": 20.0,
+      "valueStr": null
+    },
+    {
+      "key": "ep_break_recover_speed_base",
+      "value": 0.009999999776482582,
+      "valueStr": null
+    },
+    {
+      "key": "use_global_range",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "at_root",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "ep_type",
+      "value": 0,
+      "valueStr": "WATER"
+    },
+    {
+      "key": "garrison_executed_on_start",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10065_a"
+    }
+  ],
+  "description": "<战斗开始时>【阿戈尔】盟约每叠加20层，使场上所有敌人侵蚀损伤冷却恢复速度<@ba.vup>+1%</>"
+}

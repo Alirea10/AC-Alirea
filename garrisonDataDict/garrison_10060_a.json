@@ -1,0 +1,44 @@
+{
+  "garrisonDesc": "<战斗中>部署时【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击速度<@ba.vup>+1</>，持续30秒",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act2autochess_gar_event_onstart"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10060_a"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_onstart"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_attrbybond_inrange"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10142_a"
+    }
+  ],
+  "description": "<战斗中>部署时【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击速度<@ba.vup>+1</>，持续30秒"
+}

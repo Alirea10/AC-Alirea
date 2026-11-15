@@ -1,0 +1,39 @@
+{
+  "garrisonDesc": "<休整期结束时>本回合每消耗3资金<@ba.vup>(已消耗{showtag_value_1}资金)</>，使已激活的【奥术】层数<@ba.vup>+4</>（每回合至多叠加36层）",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_ROUND_COIN_COST",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "layer",
+      "value": 4.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "arcaneShip"
+    },
+    {
+      "key": "count",
+      "value": 3.0,
+      "valueStr": null
+    },
+    {
+      "key": "max",
+      "value": 36.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>本回合每消耗3资金<@ba.vup>(已消耗{showtag_value_1}资金)</>，使已激活的【奥术】层数<@ba.vup>+4</>（每回合至多叠加36层）"
+}

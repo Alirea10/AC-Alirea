@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<休整期结束时>本回合每进行过1次刷新<@ba.vup>(已刷新{showtag_value_1}次)</>，使已激活的【奇迹】层数<@ba.vup>+1</>（每回合至多叠加4层）",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_REFRESH_CNT_MULTIPLIER_BOND_LAYER",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "miraShip"
+    },
+    {
+      "key": "multiplier",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "max_layer",
+      "value": 4.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>本回合每进行过1次刷新<@ba.vup>(已刷新{showtag_value_1}次)</>，使已激活的【奇迹】层数<@ba.vup>+1</>（每回合至多叠加4层）"
+}

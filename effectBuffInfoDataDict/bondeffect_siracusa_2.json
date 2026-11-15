@@ -1,0 +1,72 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_siracusa"
+      },
+      {
+        "key": "base_duration",
+        "value": 32.0,
+        "valueStr": null
+      },
+      {
+        "key": "duration_per_stack",
+        "value": 0.4000000059604645,
+        "valueStr": null
+      },
+      {
+        "key": "base_attack_speed",
+        "value": 25.0,
+        "valueStr": null
+      },
+      {
+        "key": "attack_speed_per_stack",
+        "value": 0.800000011920929,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "prob",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "ab_buff_duration_per_stack",
+        "value": 0.0017999999690800905,
+        "valueStr": null
+      },
+      {
+        "key": "ab_buff_duration_base",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "ab_buff_duration_max",
+        "value": 100.0,
+        "valueStr": null
+      },
+      {
+        "key": "abnormal_buff_count_limit",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "damage_value_per_stack",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "damage_value_base",
+        "value": 800.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

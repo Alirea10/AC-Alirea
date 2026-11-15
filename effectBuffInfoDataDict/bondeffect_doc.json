@@ -1,0 +1,47 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_doc"
+      },
+      {
+        "key": "heal_per_stack",
+        "value": 0.0012000000569969416,
+        "valueStr": null
+      },
+      {
+        "key": "heal_base",
+        "value": 0.1599999964237213,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "damage_res_per_stack",
+        "value": 0.0007999999797903001,
+        "valueStr": null
+      },
+      {
+        "key": "damage_res_base",
+        "value": 0.15000000596046448,
+        "valueStr": null
+      },
+      {
+        "key": "ep_heal_per_stack",
+        "value": 0.0006000000284984708,
+        "valueStr": null
+      },
+      {
+        "key": "ep_heal_base",
+        "value": 0.07999999821186066,
+        "valueStr": null
+      }
+    ]
+  }
+]

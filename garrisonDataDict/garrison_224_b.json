@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_switchcharinhand[trigger]"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_224_b"
+    },
+    {
+      "key": "switch_bond_id",
+      "value": 0,
+      "valueStr": "kazimierzShip"
+    }
+  ],
+  "description": "召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场"
+}

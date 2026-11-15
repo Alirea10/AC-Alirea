@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_09_v079_a",
+  "goldenChessId": "chess_char_2_09_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 9,
+  "chessType": "PRESET",
+  "charId": "char_4198_christ",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_christ",
+  "backupCharId": "char_4198_christ",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_christ",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

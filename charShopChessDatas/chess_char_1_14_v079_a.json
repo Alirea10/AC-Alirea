@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_14_v079_a",
+  "goldenChessId": "chess_char_1_14_v079_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 14,
+  "chessType": "PRESET",
+  "charId": "char_325_bison",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_bison",
+  "backupCharId": "char_325_bison",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_bison",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

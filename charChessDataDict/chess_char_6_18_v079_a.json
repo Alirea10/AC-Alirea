@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_18_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_6_18_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10079_a"
+  ],
+  "desc": "<战斗中>每击倒一名敌人使已激活的【叙拉古】层数<@ba.vup>+2</>（每场战斗至多叠加20层）\n<@ba.acrem>（晋升为精锐状态时，使所有【叙拉古】干员获得此效果）</>"
+}

@@ -1,43 +1,77 @@
 [
   {
+    "key": "env_gbuff_new",
     "blackboard": [
       {
         "key": "key",
         "value": 0,
-        "valueStr": "act1autochess_bond_eff_kazdel"
+        "valueStr": "arkchess_bond_eff_kazdel_v079"
       },
       {
-        "key": "base_damage_scale",
-        "value": 0.25,
+        "key": "atk_base",
+        "value": 0.3499999940395355,
         "valueStr": null
       },
       {
-        "key": "damage_scale_per_stack",
-        "value": 0.005,
+        "key": "atk_per_stack",
+        "value": 0.007499999832361937,
         "valueStr": null
       },
       {
-        "key": "base_ex_damage_scale",
-        "value": 1.25,
+        "key": "hp_base",
+        "value": 0.10000000149011612,
         "valueStr": null
       },
       {
-        "key": "ex_damage_scale_per_stack",
-        "value": 0.01,
-        "valueStr": null
-      },
-      {
-        "key": "one",
-        "value": 1,
+        "key": "hp_per_stack",
+        "value": 0.003000000026077032,
         "valueStr": null
       },
       {
         "key": "power_bond_char_cnt",
-        "value": 6,
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "temp_bond_stack_cnt",
+        "value": 2.0,
+        "valueStr": null
+      },
+      {
+        "key": "temp_bond_stack_cnt[power]",
+        "value": 4.0,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale_per_stack",
+        "value": 0.0024999999441206455,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale_base",
+        "value": 0.5,
+        "valueStr": null
+      },
+      {
+        "key": "damage_one_minus_base",
+        "value": 0.15000000596046448,
+        "valueStr": null
+      },
+      {
+        "key": "damage_one_minus_per_stack",
+        "value": 0.0005000000237487257,
+        "valueStr": null
+      },
+      {
+        "key": "damage_one_minus_max",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "bleed_duration",
+        "value": 10.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new"
+    ]
   }
 ]

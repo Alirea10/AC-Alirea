@@ -1,0 +1,19 @@
+{
+  "garrisonDesc": "<休整期结束时>使当前已激活且层数最多的盟约层数<@ba.vup>+4</>（此干员在整备区也生效）",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_ACTIVATED_MOST_LAYER",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 4.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<休整期结束时>使当前已激活且层数最多的盟约层数<@ba.vup>+4</>（此干员在整备区也生效）"
+}

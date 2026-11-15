@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_6_33_v079_a",
+  "goldenChessId": "chess_char_6_33_v079_b",
+  "chessLevel": 6,
+  "shopLevelSortId": 8,
+  "chessType": "NORMAL",
+  "charId": "char_4133_logos",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_003_logos",
+  "backupCharId": "char_612_accast",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_accast",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

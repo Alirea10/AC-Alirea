@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_16_v079_a",
+  "goldenChessId": "chess_char_2_16_v079_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 18,
+  "chessType": "PRESET",
+  "charId": "char_140_whitew",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_whitew",
+  "backupCharId": "char_140_whitew",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_whitew",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

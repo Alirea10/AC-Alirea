@@ -1,0 +1,54 @@
+{
+  "garrisonDesc": "<战斗中>被击倒时召唤整备区最右侧的【卡西米尔】【突袭】干员上场，并使自身及被召唤干员已激活的盟约层数<@ba.vup>+12</>（每名干员每回合至多叠加24层）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_switchhand_triggergar"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10058_b"
+    },
+    {
+      "key": "switch_bond_id",
+      "value": 0,
+      "valueStr": "kazimierzShip,raidShip"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_add_bond"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_self"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 12.0,
+      "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 24.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<战斗中>被击倒时召唤整备区最右侧的【卡西米尔】【突袭】干员上场，并使自身及被召唤干员已激活的盟约层数<@ba.vup>+12</>（每名干员每回合至多叠加24层）"
+}

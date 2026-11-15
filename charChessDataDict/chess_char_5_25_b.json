@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_5_25_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10190_b"
+  ],
+  "desc": "<战斗中>攻击范围内每有一名敌人被击倒使已激活的【乌萨斯】【迅捷】层数<@ba.vup>+2</>（每场战斗至多叠加32层）"
+}

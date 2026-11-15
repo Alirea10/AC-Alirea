@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_aurora",
   "goldenChessId": "chess_hero_6_29_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 29,
   "tmplId": null
 }

@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_07_v079_2_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_6_07_v079_2_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10158_a"
+  ],
+  "desc": "<进入休整期时>获得一件随机装备（不高于当前调度中心等级）"
+}

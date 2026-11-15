@@ -1,0 +1,22 @@
+{
+  "chessId": "chess_rhodes_3_31_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10170_b",
+    "garrison_10171_b",
+    "garrison_223_b",
+    "garrison_224_b"
+  ],
+  "desc": "<战斗中>被击倒时召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场，并使整备区干员的当前再部署时间<@ba.vup>-60%</>"
+}

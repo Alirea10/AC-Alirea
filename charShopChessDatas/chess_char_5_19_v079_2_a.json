@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_19_v079_2_a",
+  "goldenChessId": "chess_char_5_19_v079_2_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 19,
+  "chessType": "NORMAL",
+  "charId": "char_322_lmlee",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_lmlee",
+  "backupCharId": "char_615_acspec",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acspec",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

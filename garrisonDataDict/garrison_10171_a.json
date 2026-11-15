@@ -1,0 +1,44 @@
+{
+  "garrisonDesc": "整备区干员的当前再部署时间<@ba.vup>-30%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_minus_respawn"
+    },
+    {
+      "key": "use_to_hand",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "use_to_attackrange",
+      "value": 0,
+      "valueStr": null
+    },
+    {
+      "key": "is_ratio",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "remaining_respawn_time",
+      "value": 0.699999988079071,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10171_a"
+    }
+  ],
+  "description": "整备区干员的当前再部署时间<@ba.vup>-30%</>"
+}

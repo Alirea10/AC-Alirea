@@ -1,0 +1,24 @@
+{
+  "garrisonDesc": "<获得时>获得两件乌萨斯呼吸器",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "eventEffect": "map_v079_buff04",
+  "effectType": "SERVER_GAIN_EQUIP",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "chess",
+      "value": 0,
+      "valueStr": "chess_item_3_12_e_a"
+    },
+    {
+      "key": "count",
+      "value": 2.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<获得时>获得两件乌萨斯呼吸器"
+}

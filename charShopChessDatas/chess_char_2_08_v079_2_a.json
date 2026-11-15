@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_08_v079_2_a",
+  "goldenChessId": "chess_char_2_08_v079_2_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 8,
+  "chessType": "PRESET",
+  "charId": "char_346_aosta",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_aosta",
+  "backupCharId": "char_346_aosta",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_aosta",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

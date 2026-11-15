@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_ursus_6_24_v079_a",
+  "goldenChessId": "chess_ursus_6_24_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 3,
+  "chessType": "NORMAL",
+  "charId": "char_188_helage",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_helage",
+  "backupCharId": "char_601_cguard",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

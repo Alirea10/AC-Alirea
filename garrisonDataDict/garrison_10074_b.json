@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<获得时>获得<@ba.vup>{showtag_value_1}</>次免费刷新（触发2次后升级，至多获得3次免费刷新）",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "eventEffect": "map_v079_buff04",
+  "effectType": "SERVER_GAIN_FREE_REFRESH_UPGRADE_COUNT",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "n",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "delta_count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "max_count",
+      "value": 2.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<获得时>获得<@ba.vup>{showtag_value_1}</>次免费刷新（触发2次后升级，至多获得3次免费刷新）"
+}

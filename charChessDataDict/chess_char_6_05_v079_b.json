@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_05_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10161_b"
+  ],
+  "desc": "<进入休整期时>获得2件“盟约之币”或“萨尔贡浓茶”，有小概率发现“拟态物质”"
+}

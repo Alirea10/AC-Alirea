@@ -11,7 +11,7 @@
   "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_skadi",
   "goldenChessId": "chess_char_3_05_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 5,
   "tmplId": null
 }

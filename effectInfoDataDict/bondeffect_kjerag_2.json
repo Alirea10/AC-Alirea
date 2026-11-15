@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_kjerag_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "谢拉格-第二方向",
+  "effectDesc": "【谢拉格】干员伤害提升至<@ba.vup>125%</>，对寒冷和冻结敌人额外提升至<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>\n<每叠加<@ba.vup>100</>层>获得一件谢拉格不融冰\n<在场<@ba.vup>6</>名不同的【谢拉格】干员>战斗开始时召唤可自主行动的雪山巨人，其攻击力和生命值随谢拉格层数提升而提升。雪山巨人将在巨人和雪山形态转换，雪山形态可以阻挡敌人并造成溅射伤害，雪山形态攻击被冻结的敌人时造成高额法术伤害并解除目标的冻结状态；巨人形态可以移动并对敌人造成远程溅射伤害",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

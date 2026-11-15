@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_04_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 3
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10064_b"
+  ],
+  "desc": "<战斗中>攻击范围内每有一名我方干员部署使已激活的【阿戈尔】层数<@ba.vup>+4</>（每场战斗至多叠加40层）"
+}

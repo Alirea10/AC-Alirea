@@ -11,7 +11,7 @@
   "defaultSkillIndex": 0,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_char_6_diy2_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 229,
   "tmplId": null
 }

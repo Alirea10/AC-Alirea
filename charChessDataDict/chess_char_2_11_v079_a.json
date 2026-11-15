@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_2_11_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 60,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_2_11_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10104_a"
+  ],
+  "desc": "<战斗中>每次开启技能时使自身已激活的盟约层数<@ba.vup>+3</>（每回合至多叠加6层）"
+}

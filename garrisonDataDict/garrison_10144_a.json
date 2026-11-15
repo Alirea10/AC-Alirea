@@ -1,0 +1,54 @@
+{
+  "garrisonDesc": "【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击力+1%，持续30秒",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_attrbybond_inrange"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "egirShip"
+    },
+    {
+      "key": "denominator",
+      "value": 20.0,
+      "valueStr": null
+    },
+    {
+      "key": "use_global_range",
+      "value": 0,
+      "valueStr": null
+    },
+    {
+      "key": "attr_duration",
+      "value": 30.0,
+      "valueStr": null
+    },
+    {
+      "key": "range_id",
+      "value": 0,
+      "valueStr": "x-5"
+    },
+    {
+      "key": "atk_base",
+      "value": 0.009999999776482582,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10144_a"
+    }
+  ],
+  "description": "【阿戈尔】盟约每叠加20层，使自身及周围四格的干员攻击力+1%，持续30秒"
+}

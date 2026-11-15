@@ -1,11 +1,11 @@
 {
-  "continuedRound": -1,
-  "effectCounterType": "NONE",
-  "effectDecoIconId": null,
-  "effectDesc": "刷新调度中心时，有<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>概率使下次刷新不消耗资金\n<每叠加<@ba.vup>100</>层>获得<@ba.vup>20</>资金\\n整备区的【奇迹】干员也可用于激活盟约",
   "effectId": "bondeffect_mira",
-  "effectName": "奇迹",
   "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "奇迹",
+  "effectDesc": "刷新调度中心时，有<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>概率使下次刷新不消耗资金\n<首次到达<@ba.vup>100</>层>调度中心刷新时至少出现一名等同于当前调度中心等级的干员\n整备区的【奇迹】干员也可用于激活盟约",
+  "effectDecoIconId": null,
   "enemyPrice": 0,
   "showTag": null,
   "displayInHUD": false

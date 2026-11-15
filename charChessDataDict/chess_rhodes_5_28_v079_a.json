@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_rhodes_5_28_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_rhodes_5_28_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10048_a"
+  ],
+  "desc": "<战斗中>【萨尔贡】每叠加5层，本干员攻击力<@ba.vup>+1%</>"
+}

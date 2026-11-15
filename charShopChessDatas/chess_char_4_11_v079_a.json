@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_11_v079_a",
+  "goldenChessId": "chess_char_4_11_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 22,
+  "chessType": "PRESET",
+  "charId": "char_4162_cathy",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_cathy",
+  "backupCharId": "char_4162_cathy",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_cathy",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

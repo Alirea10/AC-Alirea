@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_05_v079_a",
+  "goldenChessId": "chess_char_4_05_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 5,
+  "chessType": "NORMAL",
+  "charId": "char_400_weedy",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_weedy",
+  "backupCharId": "char_615_acspec",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acspec",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

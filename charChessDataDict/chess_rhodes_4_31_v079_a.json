@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_rhodes_4_31_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_rhodes_4_31_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10153_a",
+    "garrison_10157_a"
+  ],
+  "desc": "<战斗中>周围八格干员每场战斗的叠层上限<@ba.vup>+30%</>"
+}

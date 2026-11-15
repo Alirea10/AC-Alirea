@@ -27,7 +27,19 @@
     "chess_char_5_14_a",
     "chess_char_5_14_b",
     "chess_char_6_11_a",
-    "chess_char_6_11_b"
+    "chess_char_6_11_b",
+    "chess_char_1_19_v079_a",
+    "chess_char_1_19_v079_b",
+    "chess_char_3_18_v079_a",
+    "chess_char_3_18_v079_b",
+    "chess_char_3_19_v079_a",
+    "chess_char_3_19_v079_b",
+    "chess_char_4_19_v079_a",
+    "chess_char_4_19_v079_b",
+    "chess_char_5_14_v079_a",
+    "chess_char_5_14_v079_b",
+    "chess_char_6_11_v079_a",
+    "chess_char_6_11_v079_b"
   ],
   "desc": "所有【先锋】干员<@ba.vup>攻击力</>提升<@ba.vup>{0:0.0%}</><@ba.acrem>（每层+0.3%）</>\n<在场<@autochess.dgreen>3</>名不同【先锋】干员>所有【先锋】干员<@ba.vup>生命值</>获得等比例提升",
   "descParamBaseList": [

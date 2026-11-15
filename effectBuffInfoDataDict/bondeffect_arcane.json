@@ -1,73 +1,62 @@
 [
   {
+    "key": "env_gbuff_new",
     "blackboard": [
       {
         "key": "key",
         "value": 0,
-        "valueStr": "act2autochess_bond_eff_arcane"
+        "valueStr": "act3autochess_bond_eff_arcane"
       },
       {
-        "key": "weak_duration",
-        "value": 3,
+        "key": "atk_per_stack",
+        "value": 0.004000000189989805,
         "valueStr": null
       },
       {
-        "key": "base_damage_scale",
-        "value": 1.2,
-        "valueStr": null
-      },
-      {
-        "key": "damage_scale_per_stack",
-        "value": 0.01,
+        "key": "atk_base",
+        "value": 0.20000000298023224,
         "valueStr": null
       },
       {
         "key": "power_bond_char_cnt",
-        "value": 3,
-        "valueStr": null
-      },
-      {
-        "key": "power_weak_scale",
-        "value": 1.4,
-        "valueStr": null
-      },
-      {
-        "key": "hp_ratio",
-        "value": 0.5,
-        "valueStr": null
-      },
-      {
-        "key": "base_damage_scale_show",
-        "value": 0.2,
-        "valueStr": null
-      },
-      {
-        "key": "base_damage_scale_show_ex",
-        "value": 0.68,
-        "valueStr": null
-      },
-      {
-        "key": "damage_scale_per_stack_show_ex",
-        "value": 0.014,
-        "valueStr": null
-      },
-      {
-        "key": "base_atk",
-        "value": 0.1,
-        "valueStr": null
-      },
-      {
-        "key": "atk_per_stack",
-        "value": 0.01,
-        "valueStr": null
-      },
-      {
-        "key": "base_damage_scale_pure",
-        "value": 0.4,
+        "value": 3.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "env_gbuff_new"
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_arcane_power[enemy]"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 3.0,
+        "valueStr": null
+      },
+      {
+        "key": "magic_res_max_per_stack",
+        "value": -0.05000000074505806,
+        "valueStr": null
+      },
+      {
+        "key": "magic_res_max_base",
+        "value": -30.0,
+        "valueStr": null
+      },
+      {
+        "key": "magic_res_add",
+        "value": -1.0,
+        "valueStr": null
+      },
+      {
+        "key": "magic_res_max_min",
+        "value": -100.0,
+        "valueStr": null
+      }
+    ]
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_22_v079_a",
+  "goldenChessId": "chess_char_5_22_v079_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 22,
+  "chessType": "PRESET",
+  "charId": "char_618_acrbot",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_acrbot",
+  "backupCharId": "char_618_acrbot",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_acrbot",
+  "backupCharPotRank": 0,
+  "isHidden": true
+}

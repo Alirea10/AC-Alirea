@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_14_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_6_14_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10031_a"
+  ],
+  "desc": "<战斗结束时>每有一名存活的我方干员，使已激活的【伊比利亚】【聚合】层数<@ba.vup>+1</>"
+}

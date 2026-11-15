@@ -1,0 +1,24 @@
+{
+  "garrisonDesc": "<获得时>【不屈】层数<@ba.vup>+4</>",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "indomShip"
+    },
+    {
+      "key": "count",
+      "value": 4.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<获得时>【不屈】层数<@ba.vup>+4</>"
+}

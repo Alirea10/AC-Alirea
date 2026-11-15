@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<战斗中>攻击力和生命上限+<@ba.vup>120%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "char_attribute_mul",
+  "blackboard": [
+    {
+      "key": "atk",
+      "value": 2.200000047683716,
+      "valueStr": null
+    },
+    {
+      "key": "max_hp",
+      "value": 2.200000047683716,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10195_b"
+    }
+  ],
+  "description": "<战斗中>攻击力和生命上限+<@ba.vup>120%</>"
+}

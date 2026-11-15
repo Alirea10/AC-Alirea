@@ -1,0 +1,321 @@
+{
+  "templateKey": "arkchess_bond_eff_kazdel_v079",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_bondIds": [
+              "kazdelShip"
+            ],
+            "_bondIdsKey": null,
+            "_checkTargetInRangeId": null,
+            "_considerManiShip": true
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+            "_conditionsNode": [
+              {
+                "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+                "_target": "BUFF_OWNER",
+                "_getPlayerIndexFormBB": false,
+                "_playerIndexBBKey": "autochess_player_index",
+                "_bondId": "kazdelShip",
+                "_keyToStoreCnt": "bond_char_cnt",
+                "_filterCount": true,
+                "_keyToCompare": "power_bond_char_cnt",
+                "_condType": "GE",
+                "_useMaxBondCharCntInCurArea": false
+              }
+            ],
+            "_succeedNodes": [
+              {
+                "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+                "_buff": {
+                  "attributes": {
+                    "abnormalFlags": [],
+                    "abnormalImmunes": [],
+                    "abnormalAntis": [],
+                    "abnormalCombos": [],
+                    "abnormalComboImmunes": [],
+                    "attributeModifiers": []
+                  },
+                  "buffKey": "arkchess_bond_eff_kazdel_v079_power",
+                  "loadFromDB": false,
+                  "isDurableBuff": true,
+                  "isDamageMissable": false,
+                  "isSilenceable": false,
+                  "isStunnable": false,
+                  "isFreezable": false,
+                  "isLevitatable": false,
+                  "isGroundBoundable": false,
+                  "statusResistable": "AUTOMATIC",
+                  "templateKey": "arkchess_bond_eff_kazdel_v079_power",
+                  "disableOverride": false,
+                  "overrideKey": null,
+                  "overrideType": "UNIQUE",
+                  "maxStackCnt": 1,
+                  "refreshRemainingTimeWhenStackMax": false,
+                  "clearAllStackCntWhenTimeUp": false,
+                  "maxValidStackCnt": -1,
+                  "independentCharacterSource": false,
+                  "overrideEffectKey": null,
+                  "overrideOnEventPriority": false,
+                  "onEventPriority": "DEFAULT",
+                  "audioSignal": null,
+                  "lifeTimeType": "INFINITY",
+                  "takeSnapshotWhenExtend": false,
+                  "durationKey": null,
+                  "remainingTimeKey": null,
+                  "lifeTime": 0,
+                  "triggerLifeType": "INFINITY",
+                  "triggerCnt": 0,
+                  "triggerInterval": 1,
+                  "waitFirstTriggerInterval": true,
+                  "firstTriggerInterval": 1,
+                  "priority": -1,
+                  "priorityBBKeys": [],
+                  "stripBlackboardParamsWithBuffKey": false,
+                  "blackboard": [],
+                  "enableInitDirectionFromSource": false
+                },
+                "_buffOwner": "BUFF_OWNER",
+                "_useSpecialBuffSource": false,
+                "_specialBuffSource": "BUFF_SOURCE",
+                "_isDerivedBuff": false,
+                "_finishDerivedBuffIfParentFinish": false,
+                "_inherateSourceProjectileFromParentBuff": false,
+                "_hookEffectKeyFromSourceProjectile": false
+              }
+            ],
+            "_failNodes": null,
+            "_isAnd": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignStringConcat, Assembly-CSharp",
+            "_input1IsInt": true,
+            "_input1Str": "",
+            "_input1Int": 0,
+            "_input1Key": "autochess_player_index",
+            "_input2IsInt": false,
+            "_input2Str": ".kazdel_extra_bond_stack_cnt",
+            "_input2Int": 0,
+            "_input2Key": "",
+            "_outputKey": "kazdel_extra_bond_stack_cnt[key]"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignStringConcat, Assembly-CSharp",
+            "_input1IsInt": false,
+            "_input1Str": "",
+            "_input1Int": 0,
+            "_input1Key": "kazdel_extra_bond_stack_cnt[key]",
+            "_input2IsInt": false,
+            "_input2Str": "[power]",
+            "_input2Int": 0,
+            "_input2Key": "",
+            "_outputKey": "kazdel_extra_bond_stack_cnt[key][power]"
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true
+          }
+        ],
+        "_isAnd": false
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_bondBlackboardKey": "",
+        "_bondId": "kazdelShip",
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_checkDiffWithOldStoreCnt": false,
+        "_byPosition": false,
+        "_assignCurrentMaxBond": false,
+        "_assignAllPlayerIndex": false,
+        "_useMaxBondStackCntInCurArea": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "atk_per_stack",
+        "_outputKey": "atk_final",
+        "_multiplyParamKey": "bond_stack_cnt",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "atk_base",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": "",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "ATK",
+        "_valueKey": "atk_final",
+        "_formulaType": "MULTIPLIER"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "hp_per_stack",
+        "_outputKey": "hp_final",
+        "_multiplyParamKey": "bond_stack_cnt",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "hp_base",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": "",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "MAX_HP",
+        "_valueKey": "hp_final",
+        "_formulaType": "MULTIPLIER"
+      }
+    ],
+    "ON_TARGET_KILLED": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_anotherBuff": false,
+            "_buffKey": null,
+            "_blackboardKey": "bond_char_cnt",
+            "_blackboardKeyFromBb": null,
+            "_valueToCompare": 0,
+            "_anotherKeyToCompare": "power_bond_char_cnt",
+            "_condType": "GE"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
+            "_blackboardSource": "CURRENT",
+            "_keySource": "CONSTANT",
+            "_keyTargetType": "TARGET",
+            "_value": 0,
+            "_copyFromKey": "temp_bond_stack_cnt[power]",
+            "_assignString": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
+            "_globalblackboardKey": null,
+            "_globalBbKeyFormBb": "kazdel_extra_bond_stack_cnt[key][power]",
+            "_blackboardKey": "extra_bond_stack_cnt",
+            "_channel": "AUTOCHESS",
+            "_assignString": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_anotherBuff": false,
+            "_buffKey": null,
+            "_blackboardKey": "extra_bond_stack_cnt",
+            "_blackboardKeyFromBb": null,
+            "_valueToCompare": 0,
+            "_anotherKeyToCompare": null,
+            "_condType": "GT"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp",
+            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
+            "_blackboardKeyFromBb": null,
+            "_addition": 0,
+            "_additionKey": "extra_bond_stack_cnt",
+            "_isFloat": false,
+            "_outputKey": "temp_bond_stack_cnt[add_value]",
+            "_maxKey": null
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
+            "_blackboardSource": "CURRENT",
+            "_keySource": "CONSTANT",
+            "_keyTargetType": "TARGET",
+            "_value": 0,
+            "_copyFromKey": "temp_bond_stack_cnt",
+            "_assignString": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
+            "_globalblackboardKey": null,
+            "_globalBbKeyFormBb": "kazdel_extra_bond_stack_cnt[key]",
+            "_blackboardKey": "extra_bond_stack_cnt",
+            "_channel": "AUTOCHESS",
+            "_assignString": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_anotherBuff": false,
+            "_buffKey": null,
+            "_blackboardKey": "extra_bond_stack_cnt",
+            "_blackboardKeyFromBb": null,
+            "_valueToCompare": 0,
+            "_anotherKeyToCompare": null,
+            "_condType": "GT"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp",
+            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
+            "_blackboardKeyFromBb": null,
+            "_addition": 0,
+            "_additionKey": "extra_bond_stack_cnt",
+            "_isFloat": false,
+            "_outputKey": "temp_bond_stack_cnt[add_value]",
+            "_maxKey": null
+          }
+        ],
+        "_isAnd": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAddBondStackCount, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_useTargetBond": false,
+        "_bondIds": [
+          "kazdelShip"
+        ],
+        "_countDefault": 1,
+        "_countKey": "temp_bond_stack_cnt[add_value]",
+        "_isTemp": true
+      }
+    ]
+  }
+}

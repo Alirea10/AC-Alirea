@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_rhodes_3_29_v079_a",
+  "goldenChessId": "chess_rhodes_3_29_v079_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 21,
+  "chessType": "NORMAL",
+  "charId": "char_4228_closur",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_closur",
+  "backupCharId": "char_608_acpion",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acpion",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

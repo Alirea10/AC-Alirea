@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_4_15_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_4_15_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10084_a"
+  ],
+  "desc": "<进入休整期时>使自身携带的装备变为精锐版本"
+}

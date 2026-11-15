@@ -1,0 +1,59 @@
+{
+  "garrisonDesc": "<战斗中>周围12格每有一名敌人被击倒自身回复<@ba.vup>6</>点技力",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_enemykilled_inrange"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10167_b"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_enemykilled_inrange"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "use_attack_range",
+      "value": 0,
+      "valueStr": null
+    },
+    {
+      "key": "range_id",
+      "value": 0,
+      "valueStr": "x-1"
+    },
+    {
+      "key": "kill_count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10169_b"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_addsp_inrange"
+    }
+  ],
+  "description": "<战斗中>周围12格每有一名敌人被击倒自身回复<@ba.vup>6</>点技力"
+}

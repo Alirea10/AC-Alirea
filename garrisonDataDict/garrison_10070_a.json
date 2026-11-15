@@ -1,0 +1,49 @@
+{
+  "garrisonDesc": "<战斗中>攻击范围内每有一名敌人被击倒使攻击范围内及整备区中的干员再部署时间<@ba.vup>-3秒</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_enemykilled_inrange"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10070_a"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_enemykilled_inrange"
+    },
+    {
+      "key": "kill_count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_minus_respawn"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10150_a"
+    }
+  ],
+  "description": "<战斗中>攻击范围内每有一名敌人被击倒使攻击范围内及整备区中的干员再部署时间<@ba.vup>-3秒</>"
+}

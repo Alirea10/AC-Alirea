@@ -1,0 +1,44 @@
+{
+  "garrisonDesc": "<战斗中>自身被击倒或与替身发生替换时使周围八格的【阿戈尔】干员回复<@ba.vup>5</>点技力",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfdead"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10062_a"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_selfdead"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10146_a"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_addsp_inrange"
+    }
+  ],
+  "description": "<战斗中>自身被击倒或与替身发生替换时使周围八格的【阿戈尔】干员回复<@ba.vup>5</>点技力"
+}

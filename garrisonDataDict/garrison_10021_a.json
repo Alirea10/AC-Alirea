@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<进入休整期时>场上每有一名【乌萨斯】干员，转化<@ba.vup>1</>层【乌萨斯】临时层数为固定层数",
+  "eventType": "SERVER_BATTLE_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_CONVERT_TEMP_BOND_BY_BOND_CHAR",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "ursusShip"
+    },
+    {
+      "key": "bond2",
+      "value": 0,
+      "valueStr": "ursusShip"
+    },
+    {
+      "key": "count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<进入休整期时>场上每有一名【乌萨斯】干员，转化<@ba.vup>1</>层【乌萨斯】临时层数为固定层数"
+}

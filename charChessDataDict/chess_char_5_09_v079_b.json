@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_5_09_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 3
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_230_b"
+  ],
+  "desc": "<休整期结束时>使已激活的核心盟约层数<@ba.vup>+20</>"
+}

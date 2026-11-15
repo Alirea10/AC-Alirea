@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<战斗结束时>每有一名存活的我方干员，使已激活的【伊比利亚】【聚合】层数<@ba.vup>+2</>",
+  "eventType": "SERVER_BATTLE_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_ACTIVATED_BOND_BY_ALIVE_CHAR",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "iberiaShip,docShip"
+    },
+    {
+      "key": "count",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<战斗结束时>每有一名存活的我方干员，使已激活的【伊比利亚】【聚合】层数<@ba.vup>+2</>"
+}

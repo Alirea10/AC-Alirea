@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_23_a",
+  "goldenChessId": "chess_char_2_23_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 23,
+  "chessType": "PRESET",
+  "charId": "char_135_halo",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_halo",
+  "backupCharId": "char_135_halo",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_halo",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

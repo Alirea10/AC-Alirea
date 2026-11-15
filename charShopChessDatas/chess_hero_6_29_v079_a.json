@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_hero_6_29_v079_a",
+  "goldenChessId": "chess_hero_6_29_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 7,
+  "chessType": "PRESET",
+  "charId": "char_422_aurora",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_aurora",
+  "backupCharId": "char_422_aurora",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_aurora",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

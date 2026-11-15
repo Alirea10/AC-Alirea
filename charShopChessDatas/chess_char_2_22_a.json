@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_22_a",
+  "goldenChessId": "chess_char_2_22_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 22,
+  "chessType": "PRESET",
+  "charId": "char_333_sidero",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_sidero",
+  "backupCharId": "char_333_sidero",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sidero",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

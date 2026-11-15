@@ -1,0 +1,36 @@
+{
+  "templateKey": "arkchess_bond_eff_kazdel_v079_power[block_enemy]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AdvancedApplyDamage, Assembly-CSharp",
+        "_sourceType": "BUFF_SOURCE",
+        "_targetType": "BUFF_OWNER",
+        "_damageType": "MAGICAL",
+        "_atkScaleVar": "atk_scale_final",
+        "_defaultAtkScale": 1,
+        "_applyWay": "ALL",
+        "_baseOnHostAtk": false,
+        "_emitSourceOnCalculateDamage": false,
+        "_attackType": "BUFF",
+        "_forceUseProjectileCachedAtk": false,
+        "_ignoreForSp": false,
+        "_ignoreMissFlag": "NONE",
+        "_ignoreCancelReasonMask": "NONE",
+        "_modifierKey": "",
+        "_assignRealDamageToBB": false,
+        "_assignFinalDamageToBB": false,
+        "_skipModifierEvent": false,
+        "_noSource": false,
+        "_onlyUseSourceOnCalculateDamage": false,
+        "_getCachedAtkFromBlackboard": false,
+        "_cachedAtkKey": "atk",
+        "_useSourceWhenUseCachedAtk": false,
+        "_setSharedFlag": false,
+        "_sharedFlagIndex": "IS_CONTINUOUS"
+      }
+    ]
+  }
+}

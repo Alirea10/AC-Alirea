@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_14_v079_a",
+  "goldenChessId": "chess_char_4_14_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 14,
+  "chessType": "NORMAL",
+  "charId": "char_1034_jesca2",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_jesca2",
+  "backupCharId": "char_610_acfend",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acfend",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

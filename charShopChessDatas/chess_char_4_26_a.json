@@ -11,7 +11,7 @@
   "defaultSkillIndex": 0,
   "defaultUniEquipId": "uniequip_002_bldsk",
   "goldenChessId": "chess_char_4_26_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 26,
   "tmplId": null
 }

@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<休整期结束时>场上每有一名不同阶的【维多利亚】干员，使已激活的【维多利亚】【奇迹】层数<@ba.vup>+4</>",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "same_bond_diff_lv"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "victoriaShip,miraShip"
+    },
+    {
+      "key": "multi",
+      "value": 4.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>场上每有一名不同阶的【维多利亚】干员，使已激活的【维多利亚】【奇迹】层数<@ba.vup>+4</>"
+}

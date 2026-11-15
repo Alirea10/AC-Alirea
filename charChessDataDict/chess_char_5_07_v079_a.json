@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_5_07_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_5_07_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10117_a"
+  ],
+  "desc": "<战斗中>每击倒一名敌人使已激活的【突袭】【不屈】层数<@ba.vup>+4</>（每回合至多叠加16层）"
+}

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_leithanien_3_33_v079_a",
+  "goldenChessId": "chess_leithanien_3_33_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 1,
+  "chessType": "PRESET",
+  "charId": "char_499_kaitou",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_kaitou",
+  "backupCharId": "char_499_kaitou",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_kaitou",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

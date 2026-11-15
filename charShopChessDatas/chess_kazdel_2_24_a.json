@@ -11,7 +11,7 @@
   "defaultSkillIndex": 0,
   "defaultUniEquipId": "uniequip_002_mitm",
   "goldenChessId": "chess_kazdel_2_24_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 24,
   "tmplId": null
 }

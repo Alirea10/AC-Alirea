@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_doc",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "聚合",
+  "effectDesc": "【聚合】干员攻击范围内的我方单位每秒回复攻击力<@ba.vup>{0:0.0%}</><@ba.acrem>（受层数影响）</>的生命值和攻击力<@ba.vup>{1:0.0%}</><@ba.acrem>（受层数影响）</>的元素损伤\n<在场<@ba.vup>3</>名【聚合】干员>【聚合】干员攻击范围内的所有干员获得<@ba.vup>{2:0.0%}</><@ba.acrem>（受层数影响）</>的庇护",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

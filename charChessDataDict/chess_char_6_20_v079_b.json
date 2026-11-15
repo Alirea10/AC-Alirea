@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_6_20_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10009_b"
+  ],
+  "desc": "<战斗中>【莱塔尼亚】【奥术】每叠加1层，本干员技力自然回复速度<@ba.vup>+0.02</>/秒，攻击力<@ba.vup>+1%</>"
+}

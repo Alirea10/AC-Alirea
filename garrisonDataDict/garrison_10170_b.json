@@ -1,0 +1,44 @@
+{
+  "garrisonDesc": "<战斗中>被击倒时召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场，并使整备区干员的当前再部署时间<@ba.vup>-60%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_selfdead"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10170_b"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_selfdead"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10171_b"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_minus_respawn"
+    }
+  ],
+  "description": "<战斗中>被击倒时召唤整备区的一名【卡西米尔】干员（优先选择最右侧）上场，并使整备区干员的当前再部署时间<@ba.vup>-60%</>"
+}

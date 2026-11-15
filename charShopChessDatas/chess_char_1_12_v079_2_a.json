@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_12_v079_2_a",
+  "goldenChessId": "chess_char_1_12_v079_2_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 12,
+  "chessType": "PRESET",
+  "charId": "char_347_jaksel",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_jaksel",
+  "backupCharId": "char_347_jaksel",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_jaksel",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_27_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10207_b"
+  ],
+  "desc": "<进入休整期时>使自身及身后一格干员已激活的盟约层数<@ba.vup>+6</>"
+}

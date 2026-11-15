@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<战斗中>所有【叙拉古】干员每击倒一名敌人使已激活的【叙拉古】层数<@ba.vup>+4</>（每场战斗至多叠加40层）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "give_garrison_to_all",
+  "blackboard": [
+    {
+      "key": "check_bond_id",
+      "value": 0,
+      "valueStr": "siracusaShip"
+    },
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_10145_a"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10079_b"
+    }
+  ],
+  "description": "<战斗中>所有【叙拉古】干员每击倒一名敌人使已激活的【叙拉古】层数<@ba.vup>+4</>（每场战斗至多叠加40层）"
+}

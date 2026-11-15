@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "自身获得1点sp",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_addsp_inrange"
+    },
+    {
+      "key": "range_id",
+      "value": 0,
+      "valueStr": "0-1"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10154_a"
+    },
+    {
+      "key": "sp",
+      "value": 1.0,
+      "valueStr": null
+    }
+  ],
+  "description": "自身获得1点sp"
+}

@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_5_13_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10062_b",
+    "garrison_10146_b"
+  ],
+  "desc": "<战斗中>自身被击倒或与替身发生替换时使周围八格的【阿戈尔】干员回复<@ba.vup>10</>点技力"
+}

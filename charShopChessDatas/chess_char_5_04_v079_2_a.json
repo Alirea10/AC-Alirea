@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_04_v079_2_a",
+  "goldenChessId": "chess_char_5_04_v079_2_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 4,
+  "chessType": "NORMAL",
+  "charId": "char_293_thorns",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_thorns",
+  "backupCharId": "char_617_sharp2",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_sharp2",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

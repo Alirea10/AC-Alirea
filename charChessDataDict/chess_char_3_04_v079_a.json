@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_04_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_3_04_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10027_a"
+  ],
+  "desc": "<休整期结束时>自身售出价格<@ba.vup>+1</>（自身售出价格至多为4）"
+}

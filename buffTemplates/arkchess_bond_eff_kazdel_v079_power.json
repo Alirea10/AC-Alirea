@@ -1,0 +1,312 @@
+{
+  "templateKey": "arkchess_bond_eff_kazdel_v079_power",
+  "effectKey": "",
+  "onEventPriority": "LOW_PRIORITY",
+  "eventToActions": {
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CheckBlocked, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_checkBlockedBySource": false,
+            "_checkBlockedBySourceToken": false,
+            "_sourceType": "BUFF_SOURCE",
+            "_checkBlockedCount": true
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_getPlayerIndexFormBB": false,
+            "_playerIndexBBKey": "autochess_player_index",
+            "_bondBlackboardKey": "",
+            "_bondId": "kazdelShip",
+            "_keyToStoreCnt": "bond_stack_cnt",
+            "_checkDiffWithOldStoreCnt": false,
+            "_byPosition": false,
+            "_assignCurrentMaxBond": false,
+            "_assignAllPlayerIndex": false,
+            "_useMaxBondStackCntInCurArea": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+            "_inputKey": "atk_scale_per_stack",
+            "_outputKey": "atk_scale_final",
+            "_multiplyParamKey": "bond_stack_cnt",
+            "_dividedParamKey": null,
+            "_useRemainder": false,
+            "_addParamKey": "atk_scale_base",
+            "_minusParamKey": null,
+            "_minValueKey": null,
+            "_maxValueKey": null,
+            "_finalAbs": false,
+            "_finalCeil": false,
+            "_finalFloor": false,
+            "_finalRound": false,
+            "_useAbilityBlackboard": false,
+            "_abilityName": ""
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+            "_targetType": "BUFF_OWNER",
+            "_anotherBuff": false,
+            "_buffKey": null,
+            "_blackboardKey": "atk_scale_final",
+            "_blackboardKeyFromBb": null,
+            "_valueToCompare": 0,
+            "_anotherKeyToCompare": null,
+            "_condType": "GT"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuffToBlockee, Assembly-CSharp",
+            "_buff": {
+              "attributes": {
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "abnormalAntis": [],
+                "abnormalCombos": [],
+                "abnormalComboImmunes": [],
+                "attributeModifiers": []
+              },
+              "buffKey": "arkchess_bond_eff_kazdel_v079_power[block_enemy]",
+              "loadFromDB": false,
+              "isDurableBuff": false,
+              "isDamageMissable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isGroundBoundable": false,
+              "statusResistable": "AUTOMATIC",
+              "templateKey": "arkchess_bond_eff_kazdel_v079_power[block_enemy]",
+              "disableOverride": true,
+              "overrideKey": null,
+              "overrideType": "UNIQUE",
+              "maxStackCnt": 1,
+              "refreshRemainingTimeWhenStackMax": false,
+              "clearAllStackCntWhenTimeUp": false,
+              "maxValidStackCnt": -1,
+              "independentCharacterSource": false,
+              "overrideEffectKey": null,
+              "overrideOnEventPriority": false,
+              "onEventPriority": "DEFAULT",
+              "audioSignal": null,
+              "lifeTimeType": "IMMEDIATELY",
+              "takeSnapshotWhenExtend": false,
+              "durationKey": null,
+              "remainingTimeKey": null,
+              "lifeTime": 0,
+              "triggerLifeType": "IMMEDIATELY",
+              "triggerCnt": 0,
+              "triggerInterval": 1,
+              "waitFirstTriggerInterval": true,
+              "firstTriggerInterval": 1,
+              "priority": -1,
+              "priorityBBKeys": [],
+              "stripBlackboardParamsWithBuffKey": false,
+              "blackboard": [],
+              "enableInitDirectionFromSource": false
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_isDerivedBuff": false,
+            "_finishDerivedBuffIfParentFinish": false,
+            "_considerEnemyAsBlocker": false
+          }
+        ],
+        "_failNodes": null,
+        "_isAnd": false
+      }
+    ],
+    "ON_TAKE_DAMAGE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
+        "_filterAttackType": false,
+        "_attackTypeFilter": "NONE",
+        "_filterDamageType": false,
+        "_damageMask": "NONE",
+        "_filterSharedMask": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_filterModifierSource": false,
+        "_source": "BUFF_OWNER",
+        "_filterBySourceId": false,
+        "_sourceId": null,
+        "_checkHasScource": false,
+        "_isNoSource": false,
+        "_filterModifierCancelled": true,
+        "_filterApplyWay": false,
+        "_applyWay": "NONE"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CheckUnitAlive, Assembly-CSharp",
+        "_ownerType": "MODIFIER_SOURCE"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
+        "_filterAttackType": false,
+        "_attackTypeFilter": "NONE",
+        "_filterDamageType": true,
+        "_damageMask": "PURE",
+        "_filterSharedMask": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_filterModifierSource": false,
+        "_source": "BUFF_OWNER",
+        "_filterBySourceId": false,
+        "_sourceId": null,
+        "_checkHasScource": false,
+        "_isNoSource": false,
+        "_filterModifierCancelled": false,
+        "_filterApplyWay": false,
+        "_applyWay": "NONE"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfNot, Assembly-CSharp"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_bondBlackboardKey": "",
+        "_bondId": "kazdelShip",
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_checkDiffWithOldStoreCnt": false,
+        "_byPosition": false,
+        "_assignCurrentMaxBond": false,
+        "_assignAllPlayerIndex": false,
+        "_useMaxBondStackCntInCurArea": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "damage_one_minus_per_stack",
+        "_outputKey": "damage_one_minus_final",
+        "_multiplyParamKey": "bond_stack_cnt",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "damage_one_minus_base",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": "damage_one_minus_max",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+DamageScale, Assembly-CSharp",
+        "_filterDamageType": false,
+        "_damageMask": "NONE",
+        "_filterApplyWay": false,
+        "_applyWayFilter": "NONE",
+        "_filterModifierKey": false,
+        "_modifierKey": "",
+        "_isOneMinus": true,
+        "_isStackable": false,
+        "_isValidStackCnt": false,
+        "_cachedDeltaValueToBBKey": "damage_delta",
+        "_customKey": "damage_one_minus_final"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_anotherBuff": false,
+        "_buffKey": null,
+        "_blackboardKey": "damage_delta",
+        "_blackboardKeyFromBb": null,
+        "_valueToCompare": 0,
+        "_anotherKeyToCompare": "",
+        "_condType": "LT"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "damage_delta",
+        "_outputKey": "bleed_value",
+        "_multiplyParamKey": null,
+        "_dividedParamKey": "ten",
+        "_useRemainder": false,
+        "_addParamKey": null,
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": null,
+        "_finalAbs": true,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuffUseTargetAsSource, Assembly-CSharp",
+        "_buff": {
+          "attributes": {
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "abnormalAntis": [],
+            "abnormalCombos": [],
+            "abnormalComboImmunes": [],
+            "attributeModifiers": []
+          },
+          "buffKey": "arkchess_bond_eff_kazdel_v079_power[bleed]",
+          "loadFromDB": false,
+          "isDurableBuff": false,
+          "isDamageMissable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isGroundBoundable": false,
+          "statusResistable": "AUTOMATIC",
+          "templateKey": "arkchess_bond_eff_kazdel_v079_power[bleed]",
+          "disableOverride": true,
+          "overrideKey": null,
+          "overrideType": "UNIQUE",
+          "maxStackCnt": 1,
+          "refreshRemainingTimeWhenStackMax": false,
+          "clearAllStackCntWhenTimeUp": false,
+          "maxValidStackCnt": -1,
+          "independentCharacterSource": false,
+          "overrideEffectKey": null,
+          "overrideOnEventPriority": false,
+          "onEventPriority": "DEFAULT",
+          "audioSignal": null,
+          "lifeTimeType": "LIMITED",
+          "takeSnapshotWhenExtend": false,
+          "durationKey": "bleed_duration",
+          "remainingTimeKey": null,
+          "lifeTime": 10,
+          "triggerLifeType": "LIMITED",
+          "triggerCnt": 10,
+          "triggerInterval": 1,
+          "waitFirstTriggerInterval": false,
+          "firstTriggerInterval": 1,
+          "priority": -1,
+          "priorityBBKeys": [],
+          "stripBlackboardParamsWithBuffKey": false,
+          "blackboard": [],
+          "enableInitDirectionFromSource": false
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_target": "MODIFIER_SOURCE",
+        "_isDerivedBuff": false,
+        "_finishDerivedBuffIfParentFinish": false
+      }
+    ],
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+EnsureBlackboardDefaultValue, Assembly-CSharp",
+        "_defaultSettings": [
+          {
+            "key": "ten",
+            "val": 10,
+            "valStr": null,
+            "overrideIfExists": true
+          }
+        ]
+      }
+    ]
+  }
+}

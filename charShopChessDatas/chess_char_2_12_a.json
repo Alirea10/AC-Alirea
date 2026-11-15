@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_gravel",
   "goldenChessId": "chess_char_2_12_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 12,
   "tmplId": null
 }

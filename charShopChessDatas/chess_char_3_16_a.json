@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_snakek",
   "goldenChessId": "chess_char_3_16_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 16,
   "tmplId": null
 }

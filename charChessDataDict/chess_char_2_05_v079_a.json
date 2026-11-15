@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_2_05_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 60,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_2_05_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10089_a"
+  ],
+  "desc": "<战斗中>【维多利亚】【谢拉格】每叠加5层，本干员攻击力<@ba.vup>+1%</>"
+}

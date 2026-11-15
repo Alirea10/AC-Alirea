@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<休整期结束时>同一行每有1名干员，使已激活的【坚守】【助力】层数<@ba.vup>+2</>",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "same_row"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "steadShip,deputShip"
+    },
+    {
+      "key": "multi",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>同一行每有1名干员，使已激活的【坚守】【助力】层数<@ba.vup>+2</>"
+}

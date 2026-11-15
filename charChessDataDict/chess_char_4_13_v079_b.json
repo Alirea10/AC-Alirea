@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_4_13_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10055_b"
+  ],
+  "desc": "<获得时>获得一次特殊刷新，下次刷新至少出现两名谢拉格干员"
+}

@@ -1,12 +1,21 @@
 {
-  "activeCondition": "BOARD_AND_DECK",
-  "activeConditionTemplate": "count_threshold_upward",
+  "bondId": "deputShip",
+  "name": "助力",
+  "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>名不同【助力】干员>改为层数<@ba.vup>+4</>",
+  "iconId": "icon_deputShip",
   "activeCount": 2,
+  "activeCondition": "BOARD",
+  "activeConditionTemplate": "count_threshold_upward",
   "activeParamList": [
     "2"
   ],
+  "effectId": "bondeffect_deput",
   "activeType": "BATTLE",
-  "bondId": "deputShip",
+  "weight": 10,
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "noStack": false,
+  "noSelect": false,
   "chessIdList": [
     "chess_char_1_06_a",
     "chess_char_1_13_a",
@@ -43,21 +52,24 @@
     "chess_rhodes_3_30_a",
     "chess_rhodes_3_30_b",
     "chess_char_5_27_a",
-    "chess_char_5_27_b"
-  ],
-  "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>名不同【助力】干员>改为层数<@ba.vup>+4</>",
-  "descParamBaseList": [
-    "base_def"
-  ],
-  "descParamPerStackList": [
-    "def_per_stack"
-  ],
-  "effectId": "bondeffect_deput",
-  "iconId": "icon_deputShip",
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "name": "助力",
-  "noStack": false,
-  "weight": 10,
-  "noSelect": false
+    "chess_char_5_27_b",
+    "chess_char_1_19_v079_a",
+    "chess_char_1_19_v079_b",
+    "chess_char_4_15_v079_a",
+    "chess_char_4_15_v079_b",
+    "chess_char_6_12_v079_a",
+    "chess_char_6_12_v079_b",
+    "chess_char_3_19_v079_2_a",
+    "chess_char_3_19_v079_2_b",
+    "chess_char_4_20_v079_a",
+    "chess_char_4_20_v079_b",
+    "chess_char_1_11_v079_a",
+    "chess_char_1_11_v079_b",
+    "chess_char_2_23_a",
+    "chess_char_2_23_b",
+    "chess_char_2_24_a",
+    "chess_char_2_24_b",
+    "chess_char_6_20_v079_2_a",
+    "chess_char_6_20_v079_2_b"
+  ]
 }

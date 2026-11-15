@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_05_v079_a",
+  "goldenChessId": "chess_char_2_05_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 10,
+  "chessType": "PRESET",
+  "charId": "char_4114_harold",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_harold",
+  "backupCharId": "char_4114_harold",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_harold",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

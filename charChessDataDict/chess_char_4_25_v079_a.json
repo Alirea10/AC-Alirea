@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_4_25_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_4_25_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": "single",
+  "garrisonIds": [
+    "garrison_10091_a",
+    "garrison_236_a"
+  ],
+  "desc": "<休整期结束时>本回合每进行过1次刷新，使已激活的【叙拉古】层数<@ba.vup>+2</>（每回合至多叠加8层），【奇迹】层数<@ba.vup>+1</>（每回合至多叠加4层）"
+}

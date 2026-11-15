@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_2_18_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 60,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_2_18_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10035_a"
+  ],
+  "desc": "<获得时>获得等同于当前调度中心等级的【炎】层数"
+}

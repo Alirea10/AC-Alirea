@@ -1,0 +1,49 @@
+{
+  "garrisonDesc": "<战斗中>身前一格【谢拉格】【灵巧】干员每场战斗的叠层上限<@ba.vup>+150%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_event_battlestart"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_226_b"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_battlestart"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_228_b"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_bondstackmax"
+    },
+    {
+      "key": "garrison_executed_on_start",
+      "value": 1.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<战斗中>身前一格【谢拉格】【灵巧】干员每场战斗的叠层上限<@ba.vup>+150%</>"
+}

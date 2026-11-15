@@ -1,0 +1,21 @@
+{
+  "chessId": "chess_char_6_02_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10155_b",
+    "garrison_10154_b",
+    "garrison_229_b"
+  ],
+  "desc": "<战斗中>攻击范围内每有一名敌人冻结自身回复<@ba.vup>2</>点技力，并使已激活的【谢拉格】层数<@ba.vup>+2</>（每回合至多叠加48层）"
+}

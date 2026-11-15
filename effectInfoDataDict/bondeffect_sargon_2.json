@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_sargon_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "萨尔贡-第二方向",
+  "effectDesc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员攻击速度+12（至多<@ba.vup>+300</>），持续<@ba.vup>{0:0}</>秒<@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同的【萨尔贡】干员>【萨尔贡】干员每次开启技能时，在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到<@ba.vup>{1:0%}</><@ba.acrem>（受层数影响）</>的<$ba.slowdown>迟钝</>效果，每5秒造成一次<@ba.vup>{2:0}</>点<@ba.acrem>（受层数影响）</>法术伤害并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的<$ba.slowdown>迟钝</>效果变为2倍，每秒受到<@ba.vup>{3:0}</>点<@ba.acrem>（受层数影响）</>法术伤害",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

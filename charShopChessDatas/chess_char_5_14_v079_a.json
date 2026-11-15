@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_14_v079_a",
+  "goldenChessId": "chess_char_5_14_v079_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 8,
+  "chessType": "NORMAL",
+  "charId": "char_1045_svash2",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_svash2",
+  "backupCharId": "char_608_acpion",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acpion",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

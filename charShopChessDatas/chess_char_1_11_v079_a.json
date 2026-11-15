@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_11_v079_a",
+  "goldenChessId": "chess_char_1_11_v079_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 11,
+  "chessType": "PRESET",
+  "charId": "char_492_quercu",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_quercu",
+  "backupCharId": "char_492_quercu",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_quercu",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

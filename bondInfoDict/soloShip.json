@@ -1,13 +1,22 @@
 {
+  "bondId": "soloShip",
+  "name": "独行",
+  "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</><@autochess.gray>（在场2名及以上【独行】干员时失效）</>",
+  "iconId": "icon_soloShip",
+  "activeCount": 1,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_downward",
-  "activeCount": 1,
   "activeParamList": [
     "1",
     "2"
   ],
+  "effectId": "bondeffect_solo",
   "activeType": "BATTLE",
-  "bondId": "soloShip",
+  "weight": 0,
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "noStack": true,
+  "noSelect": false,
   "chessIdList": [
     "chess_char_1_08_a",
     "chess_char_3_17_a",
@@ -24,17 +33,12 @@
     "chess_mujica_3_25_a",
     "chess_mujica_3_25_b",
     "chess_kazdel_6_32_a",
-    "chess_kazdel_6_32_b"
-  ],
-  "desc": "<在场1名【独行】干员>【独行】干员攻击力和生命值<@ba.vup>+60%</>，初始技力<@ba.vup>+15</>（在场<@autochess.dgreen>2</>名及以上【独行】干员时失效）",
-  "descParamBaseList": [],
-  "descParamPerStackList": [],
-  "effectId": "bondeffect_solo",
-  "iconId": "icon_soloShip",
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "name": "独行",
-  "noStack": true,
-  "weight": 10,
-  "noSelect": false
+    "chess_kazdel_6_32_b",
+    "chess_char_1_12_v079_a",
+    "chess_char_1_12_v079_b",
+    "chess_char_3_15_v079_a",
+    "chess_char_3_15_v079_b",
+    "chess_char_1_11_v079_2_a",
+    "chess_char_1_11_v079_2_b"
+  ]
 }

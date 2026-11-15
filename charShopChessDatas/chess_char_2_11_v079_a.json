@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_11_v079_a",
+  "goldenChessId": "chess_char_2_11_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 11,
+  "chessType": "PRESET",
+  "charId": "char_4165_ctrail",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": null,
+  "backupCharId": "char_4165_ctrail",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

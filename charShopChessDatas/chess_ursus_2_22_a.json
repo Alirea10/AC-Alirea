@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_turdus",
   "goldenChessId": "chess_ursus_2_22_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 22,
   "tmplId": null
 }

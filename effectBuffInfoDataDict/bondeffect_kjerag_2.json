@@ -1,0 +1,67 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_kjerag"
+      },
+      {
+        "key": "base_damage_scale",
+        "value": 1.25,
+        "valueStr": null
+      },
+      {
+        "key": "base_ex_damage_scale",
+        "value": 1.350000023841858,
+        "valueStr": null
+      },
+      {
+        "key": "ex_damage_scale_per_stack",
+        "value": 0.009999999776482582,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_kjerag_power"
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "bond_layer_added_reward_equip",
+    "blackboard": [
+      {
+        "key": "layer",
+        "value": 100.0,
+        "valueStr": null
+      },
+      {
+        "key": "count",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "pool",
+        "value": 0,
+        "valueStr": "pool_equip_kjeragbond2"
+      }
+    ]
+  }
+]

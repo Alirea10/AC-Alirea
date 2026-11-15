@@ -1,12 +1,21 @@
 {
+  "bondId": "steadShip",
+  "name": "坚守",
+  "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>。【坚守】干员受到伤害时，伤害来源将受到一定法术伤害<@autochess.gray>（受层数影响，每0.2秒至多触发1次）</>和持续<@ba.vup>5</>秒的<@ba.vup>40%</>脆弱效果",
+  "iconId": "icon_steadShip",
+  "activeCount": 2,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
-  "activeCount": 2,
   "activeParamList": [
     "2"
   ],
+  "effectId": "bondeffect_stead",
   "activeType": "BATTLE",
-  "bondId": "steadShip",
+  "weight": 10,
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "noStack": false,
+  "noSelect": false,
   "chessIdList": [
     "chess_char_1_02_a",
     "chess_char_1_10_a",
@@ -35,23 +44,32 @@
     "chess_hero_6_29_a",
     "chess_hero_6_29_b",
     "chess_leithanien_4_33_a",
-    "chess_leithanien_4_33_b"
-  ],
-  "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>。【坚守】干员受到伤害时，伤害来源将受到一定法术伤害<@autochess.gray>（受层数影响，每0.2秒至多触发1次）</>和持续<@ba.vup>5</>秒的<@ba.vup>40%</>脆弱效果",
-  "descParamBaseList": [
-    "base_max_hp",
-    "base_damage_value"
-  ],
-  "descParamPerStackList": [
-    "max_hp_per_stack",
-    "damage_value_per_stack"
-  ],
-  "effectId": "bondeffect_stead",
-  "iconId": "icon_steadShip",
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "name": "坚守",
-  "noStack": false,
-  "weight": 10,
-  "noSelect": false
+    "chess_leithanien_4_33_b",
+    "chess_leithanien_4_33_v079_a",
+    "chess_leithanien_4_33_v079_b",
+    "chess_char_4_05_v079_a",
+    "chess_char_4_05_v079_b",
+    "chess_char_6_03_v079_a",
+    "chess_char_6_03_v079_b",
+    "chess_char_2_08_v079_a",
+    "chess_char_2_08_v079_b",
+    "chess_char_1_04_v079_a",
+    "chess_char_1_04_v079_b",
+    "chess_char_4_14_v079_a",
+    "chess_char_4_14_v079_b",
+    "chess_char_1_02_v079_a",
+    "chess_char_1_02_v079_b",
+    "chess_char_3_16_v079_a",
+    "chess_char_3_16_v079_b",
+    "chess_char_3_19_v079_2_a",
+    "chess_char_3_19_v079_2_b",
+    "chess_char_1_10_v079_a",
+    "chess_char_1_10_v079_b",
+    "chess_char_5_11_v079_a",
+    "chess_char_5_11_v079_b",
+    "chess_char_5_32_v079_a",
+    "chess_char_5_32_v079_b",
+    "chess_char_3_27_a",
+    "chess_char_3_27_b"
+  ]
 }

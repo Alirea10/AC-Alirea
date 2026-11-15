@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_siracusa_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "叙拉古-第二方向",
+  "effectDesc": "【叙拉古】干员部署后攻击速度<@ba.vup>+{0:0}</>，持续<@ba.vup>{1:0}</>秒<@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同的【叙拉古】干员>每次攻击时有30%概率为敌人随机附加一个异常状态，持续<@ba.vup>{2:0.0}</>秒<@ba.acrem>（受层数影响）</>；敌人存在2种或以上异常状态时，每秒对自身及周围一定范围内的敌人造成<@ba.vup>{3:0}</><@ba.acrem>（受层数影响）</>点真实伤害",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

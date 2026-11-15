@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_rosmon",
   "goldenChessId": "chess_char_6_12_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 12,
   "tmplId": null
 }

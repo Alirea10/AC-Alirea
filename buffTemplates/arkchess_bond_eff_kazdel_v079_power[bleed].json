@@ -1,0 +1,50 @@
+{
+  "templateKey": "arkchess_bond_eff_kazdel_v079_power[bleed]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfElse, Assembly-CSharp",
+        "_conditionNode": {
+          "$type": "Torappu.Battle.Action.Nodes+CheckUnitAlive, Assembly-CSharp",
+          "_ownerType": "BUFF_SOURCE"
+        },
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FixedValueDamage, Assembly-CSharp",
+            "_damageType": "PURE",
+            "_damageKey": "bleed_value",
+            "_atkScaleKey": "",
+            "_ignoreForSp": true,
+            "_attackType": "BUFF",
+            "_skipModifierEvent": true,
+            "_considerUnhurtable": false,
+            "_noSourceDamage": false,
+            "_targetType": "TARGET",
+            "_assignRealDamageToBB": false,
+            "_assignFinalDamageToBB": false,
+            "_multiplierByKey": false,
+            "_multiplierKey": "",
+            "_damageSourceType": "BUFF_SOURCE",
+            "_damageTargetType": "BUFF_OWNER",
+            "_triggerOnCalculateDamage": false,
+            "_isEnvDamage": false,
+            "_ignoreCancelReasonMask": "NONE",
+            "_forceDisplayDamageNum": false,
+            "_undeadable": false,
+            "_modifierKey": "",
+            "_devideDamageFromAbilityCnt": false
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true
+          }
+        ]
+      }
+    ]
+  }
+}

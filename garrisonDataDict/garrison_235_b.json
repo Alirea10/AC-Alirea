@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "通过卫戍能力或装备提升盟约层数时，每次提升的层数额外<@ba.vup>+2</>（不受叠层上限影响）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_ex_bond_cnt"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_235_b"
+    },
+    {
+      "key": "extra_cnt",
+      "value": 2.0,
+      "valueStr": null
+    }
+  ],
+  "description": "通过卫戍能力或装备提升盟约层数时，每次提升的层数额外<@ba.vup>+2</>（不受叠层上限影响）"
+}

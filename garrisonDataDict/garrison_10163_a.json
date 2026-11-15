@@ -1,0 +1,34 @@
+{
+  "garrisonDesc": "<战斗结束时>每有一名存活的我方干员，使自身已激活的盟约层数<@ba.vup>+1</>",
+  "eventType": "SERVER_BATTLE_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_ACTIVATED_BOND_BY_ALIVE_CHAR",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "SELF"
+    },
+    {
+      "key": "count",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "max_count",
+      "value": 9.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<战斗结束时>每有一名存活的我方干员，使自身已激活的盟约层数<@ba.vup>+1</>"
+}

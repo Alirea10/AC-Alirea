@@ -1,0 +1,44 @@
+{
+  "garrisonDesc": "<战斗中>【卡西米尔】【谢拉格】【莱塔尼亚】每叠加3层，本干员技力自然回复速度<@ba.vup>+0.01</>/秒，生命上限<@ba.vup>+1%</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_attrByBond"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_232_b"
+    },
+    {
+      "key": "divide_num",
+      "value": 3.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "leithanienShip,kjeragShip,kazimierzShip"
+    },
+    {
+      "key": "sp_recovery_per_sec",
+      "value": 0.009999999776482582,
+      "valueStr": null
+    },
+    {
+      "key": "max_hp",
+      "value": 0.009999999776482582,
+      "valueStr": null
+    }
+  ],
+  "description": "<战斗中>【卡西米尔】【谢拉格】【莱塔尼亚】每叠加3层，本干员技力自然回复速度<@ba.vup>+0.01</>/秒，生命上限<@ba.vup>+1%</>"
+}

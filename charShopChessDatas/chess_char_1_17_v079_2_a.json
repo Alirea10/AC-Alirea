@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_17_v079_2_a",
+  "goldenChessId": "chess_char_1_17_v079_2_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 17,
+  "chessType": "PRESET",
+  "charId": "char_219_meteo",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_meteo",
+  "backupCharId": "char_219_meteo",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_meteo",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

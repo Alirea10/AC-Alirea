@@ -1,0 +1,39 @@
+{
+  "garrisonDesc": "<获得时>【奥术】层数<@ba.vup>+20</>，【远见】层数<@ba.vup>+10</>\n<战斗中>【奥术】【远见】每叠加3层，本干员攻击速度<@ba.vup>+2</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_attrByBond"
+    },
+    {
+      "key": "divide_num",
+      "value": 3.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "arcaneShip,visiShip"
+    },
+    {
+      "key": "attack_speed",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10092_b"
+    }
+  ],
+  "description": "<获得时>【奥术】层数<@ba.vup>+20</>，【远见】层数<@ba.vup>+10</>\n<战斗中>【奥术】【远见】每叠加3层，本干员攻击速度<@ba.vup>+2</>"
+}

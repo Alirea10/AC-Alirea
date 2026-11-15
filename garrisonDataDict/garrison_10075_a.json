@@ -1,0 +1,24 @@
+{
+  "garrisonDesc": "<战斗中>造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）；\n每击倒一名敌人使已激活的【叙拉古】【精准】层数<@ba.vup>+2</>（每回合至多叠加8层）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_eff_chaos"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10075_a"
+    }
+  ],
+  "description": "<战斗中>造成的伤害变为弱点伤害（根据敌人的防御力与法术抗性变换伤害类型）；\n每击倒一名敌人使已激活的【叙拉古】【精准】层数<@ba.vup>+2</>（每回合至多叠加8层）"
+}

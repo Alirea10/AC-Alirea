@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_podego",
   "goldenChessId": "chess_char_1_13_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 13,
   "tmplId": null
 }

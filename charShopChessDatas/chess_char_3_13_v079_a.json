@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_3_13_v079_a",
+  "goldenChessId": "chess_char_3_13_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 25,
+  "chessType": "PRESET",
+  "charId": "char_4054_malist",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_malist",
+  "backupCharId": "char_4054_malist",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_malist",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

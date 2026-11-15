@@ -1,0 +1,54 @@
+{
+  "garrisonDesc": "<战斗中>攻击范围内每有一名敌人冻结自身回复<@ba.vup>2</>点技力，并使已激活的【谢拉格】层数<@ba.vup>+2</>（每回合至多叠加48层）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act1autochess_gar_event_enemy_abflag_inrange"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_enemy_abflag_inrange"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10155_b"
+    },
+    {
+      "key": "check_ab_flag",
+      "value": 16.0,
+      "valueStr": null
+    },
+    {
+      "key": "prob",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_trigger_buff"
+    },
+    {
+      "key": "garrison_trigger_buff_key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_addsp_inrange"
+    },
+    {
+      "key": "garrison_trigger_buff_garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10154_b"
+    }
+  ],
+  "description": "<战斗中>攻击范围内每有一名敌人冻结自身回复<@ba.vup>2</>点技力，并使已激活的【谢拉格】层数<@ba.vup>+2</>（每回合至多叠加48层）"
+}

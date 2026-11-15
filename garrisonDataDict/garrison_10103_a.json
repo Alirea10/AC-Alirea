@@ -1,0 +1,19 @@
+{
+  "garrisonDesc": "只需两名本干员即可合成精锐",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "NONE",
+  "charLevel": 0,
+  "battleRuneKey": "无",
+  "blackboard": [
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10103_a"
+    }
+  ],
+  "description": "只需两名本干员即可合成精锐"
+}

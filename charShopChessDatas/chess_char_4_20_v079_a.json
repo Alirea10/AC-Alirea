@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_20_v079_a",
+  "goldenChessId": "chess_char_4_20_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 20,
+  "chessType": "PRESET",
+  "charId": "char_1031_slent2",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_slent2",
+  "backupCharId": "char_1031_slent2",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_slent2",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

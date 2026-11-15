@@ -1,0 +1,19 @@
+{
+  "garrisonDesc": "<进入休整期时>获得两件随机装备（不高于当前调度中心等级）",
+  "eventType": "SERVER_PREP_START",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "eventEffect": "map_v079_buff04",
+  "effectType": "SERVER_GAIN_RANDOM_EQUIP",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<进入休整期时>获得两件随机装备（不高于当前调度中心等级）"
+}

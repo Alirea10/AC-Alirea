@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_1_14_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 50,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10034_b"
+  ],
+  "desc": "<获得时>【炎】层数<@ba.vup>+4</>"
+}

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_3_15_v079_a",
+  "goldenChessId": "chess_char_3_15_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 15,
+  "chessType": "PRESET",
+  "charId": "char_4177_brigid",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_brigid",
+  "backupCharId": "char_4177_brigid",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_brigid",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<战斗中>对每名敌人首次造成伤害时使目标陷入<@ba.vup>2秒</>寒冷",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "作战能力",
+  "eventTypeIcon": "icon_battle",
+  "eventTypeSmallIcon": "s_icon_battle",
+  "eventEffect": "map_v079_buff03",
+  "effectType": "GAIN_BUFF",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_firstdamgecold"
+    },
+    {
+      "key": "cold",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10088_a"
+    }
+  ],
+  "description": "<战斗中>对每名敌人首次造成伤害时使目标陷入<@ba.vup>2秒</>寒冷"
+}

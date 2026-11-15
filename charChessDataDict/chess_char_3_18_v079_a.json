@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_18_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_3_18_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": "single",
+  "garrisonIds": [
+    "garrison_10074_a"
+  ],
+  "desc": "<获得时> 获得<@ba.vup>1</>次免费刷新（触发2次后升级，至多获得3次免费刷新）"
+}

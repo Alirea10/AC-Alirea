@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_6_20_v079_a",
+  "goldenChessId": "chess_char_6_20_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 2,
+  "chessType": "NORMAL",
+  "charId": "char_180_amgoat",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_amgoat",
+  "backupCharId": "char_604_ccast",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

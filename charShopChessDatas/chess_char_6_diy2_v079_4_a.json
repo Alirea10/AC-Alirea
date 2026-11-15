@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_6_diy2_v079_4_a",
+  "goldenChessId": "chess_char_6_diy2_v079_4_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 30,
+  "chessType": "DIY",
+  "charId": null,
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": null,
+  "backupCharId": null,
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

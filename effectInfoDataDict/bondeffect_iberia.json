@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_iberia",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "伊比利亚",
+  "effectDesc": "【伊比利亚】干员或炼金单元每次造成伤害时，使目标每秒受到<@ba.vup>{0:0%}</><@ba.acrem>（受层数影响）</>攻击力（至多叠加10次）的持续法术伤害，持续10秒\n<在场<@ba.vup>6</>名不同的【伊比利亚】干员>【伊比利亚】干员或炼金单元造成伤害时附带的持续法术伤害提升至2倍，并使目标移动速度-4%（至多-80%），持续10秒；【伊比利亚】干员或炼金单元每次造成伤害时有20%概率弹射到周围一定范围内的敌人造成300%攻击力的法术伤害",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

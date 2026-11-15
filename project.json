@@ -2014,7 +2014,315 @@
       "arkchessv3_chess_char_3_23_a": "arkchessv3_chess_char_3_23_a",
       "arkchessv3_chess_char_3_23_b": "arkchessv3_chess_char_3_23_a",
       "chess_ursus_1_91_a": "chess_ursus_1_91_a",
-      "chess_ursus_1_91_b": "chess_ursus_1_91_a"
+      "chess_ursus_1_91_b": "chess_ursus_1_91_a",
+      "chess_char_1_12_v079_a": "chess_char_1_12_v079_a",
+      "chess_char_1_12_v079_b": "chess_char_1_12_v079_a",
+      "chess_char_2_07_v079_a": "chess_char_2_07_v079_a",
+      "chess_char_2_07_v079_b": "chess_char_2_07_v079_a",
+      "chess_char_1_19_v079_a": "chess_char_1_19_v079_a",
+      "chess_char_1_19_v079_b": "chess_char_1_19_v079_a",
+      "chess_char_1_05_v079_a": "chess_char_1_05_v079_a",
+      "chess_char_1_05_v079_b": "chess_char_1_05_v079_a",
+      "chess_char_1_02_v079_a": "chess_char_1_02_v079_a",
+      "chess_char_1_02_v079_b": "chess_char_1_02_v079_a",
+      "chess_char_1_07_v079_a": "chess_char_1_07_v079_a",
+      "chess_char_1_07_v079_b": "chess_char_1_07_v079_a",
+      "chess_char_1_17_v079_a": "chess_char_1_17_v079_a",
+      "chess_char_1_17_v079_b": "chess_char_1_17_v079_a",
+      "chess_char_1_09_v079_a": "chess_char_1_09_v079_a",
+      "chess_char_1_09_v079_b": "chess_char_1_09_v079_a",
+      "chess_char_1_10_v079_a": "chess_char_1_10_v079_a",
+      "chess_char_1_10_v079_b": "chess_char_1_10_v079_a",
+      "chess_char_1_11_v079_a": "chess_char_1_11_v079_a",
+      "chess_char_1_11_v079_b": "chess_char_1_11_v079_a",
+      "chess_char_1_12_v079_2_a": "chess_char_1_12_v079_2_a",
+      "chess_char_1_12_v079_2_b": "chess_char_1_12_v079_2_a",
+      "chess_char_1_13_v079_a": "chess_char_1_13_v079_a",
+      "chess_char_1_13_v079_b": "chess_char_1_13_v079_a",
+      "chess_char_1_14_v079_a": "chess_char_1_14_v079_a",
+      "chess_char_1_14_v079_b": "chess_char_1_14_v079_a",
+      "chess_char_1_15_v079_2_a": "chess_char_1_15_v079_2_a",
+      "chess_char_1_15_v079_2_b": "chess_char_1_15_v079_2_a",
+      "chess_char_1_16_v079_a": "chess_char_1_16_v079_a",
+      "chess_char_1_16_v079_b": "chess_char_1_16_v079_a",
+      "chess_char_1_17_v079_2_a": "chess_char_1_17_v079_2_a",
+      "chess_char_1_17_v079_2_b": "chess_char_1_17_v079_2_a",
+      "chess_char_2_16_v079_a": "chess_char_2_16_v079_a",
+      "chess_char_2_16_v079_b": "chess_char_2_16_v079_a",
+      "chess_char_1_11_v079_2_a": "chess_char_1_11_v079_2_a",
+      "chess_char_1_11_v079_2_b": "chess_char_1_11_v079_2_a",
+      "chess_leithanien_3_33_v079_a": "chess_leithanien_3_33_v079_a",
+      "chess_leithanien_3_33_v079_b": "chess_leithanien_3_33_v079_a",
+      "chess_char_2_02_v079_a": "chess_char_2_02_v079_a",
+      "chess_char_2_02_v079_b": "chess_char_2_02_v079_a",
+      "chess_char_2_08_v079_a": "chess_char_2_08_v079_a",
+      "chess_char_2_08_v079_b": "chess_char_2_08_v079_a",
+      "chess_char_2_06_v079_a": "chess_char_2_06_v079_a",
+      "chess_char_2_06_v079_b": "chess_char_2_06_v079_a",
+      "chess_char_3_11_v079_a": "chess_char_3_11_v079_a",
+      "chess_char_3_11_v079_b": "chess_char_3_11_v079_a",
+      "chess_char_2_12_v079_a": "chess_char_2_12_v079_a",
+      "chess_char_2_12_v079_b": "chess_char_2_12_v079_a",
+      "chess_char_2_07_v079_2_a": "chess_char_2_07_v079_2_a",
+      "chess_char_2_07_v079_2_b": "chess_char_2_07_v079_2_a",
+      "chess_char_2_08_v079_2_a": "chess_char_2_08_v079_2_a",
+      "chess_char_2_08_v079_2_b": "chess_char_2_08_v079_2_a",
+      "chess_char_2_09_v079_a": "chess_char_2_09_v079_a",
+      "chess_char_2_09_v079_b": "chess_char_2_09_v079_a",
+      "chess_char_2_05_v079_a": "chess_char_2_05_v079_a",
+      "chess_char_2_05_v079_b": "chess_char_2_05_v079_a",
+      "chess_char_2_11_v079_a": "chess_char_2_11_v079_a",
+      "chess_char_2_11_v079_b": "chess_char_2_11_v079_a",
+      "chess_char_3_16_v079_a": "chess_char_3_16_v079_a",
+      "chess_char_3_16_v079_b": "chess_char_3_16_v079_a",
+      "chess_char_1_13_v079_2_a": "chess_char_1_13_v079_2_a",
+      "chess_char_1_13_v079_2_b": "chess_char_1_13_v079_2_a",
+      "chess_char_2_14_v079_a": "chess_char_2_14_v079_a",
+      "chess_char_2_14_v079_b": "chess_char_2_14_v079_a",
+      "chess_char_2_19_v079_a": "chess_char_2_19_v079_a",
+      "chess_char_2_19_v079_b": "chess_char_2_19_v079_a",
+      "chess_char_1_18_v079_a": "chess_char_1_18_v079_a",
+      "chess_char_1_18_v079_b": "chess_char_1_18_v079_a",
+      "chess_kazdel_2_24_v079_a": "chess_kazdel_2_24_v079_a",
+      "chess_kazdel_2_24_v079_b": "chess_kazdel_2_24_v079_a",
+      "chess_char_2_18_v079_a": "chess_char_2_18_v079_a",
+      "chess_char_2_18_v079_b": "chess_char_2_18_v079_a",
+      "chess_char_2_19_v079_2_a": "chess_char_2_19_v079_2_a",
+      "chess_char_2_19_v079_2_b": "chess_char_2_19_v079_2_a",
+      "chess_char_4_08_v079_a": "chess_char_4_08_v079_a",
+      "chess_char_4_08_v079_b": "chess_char_4_08_v079_a",
+      "chess_ursus_3_24_v079_a": "chess_ursus_3_24_v079_a",
+      "chess_ursus_3_24_v079_b": "chess_ursus_3_24_v079_a",
+      "chess_char_2_22_a": "chess_char_2_22_a",
+      "chess_char_2_22_b": "chess_char_2_22_a",
+      "chess_char_2_23_a": "chess_char_2_23_a",
+      "chess_char_2_23_b": "chess_char_2_23_a",
+      "chess_char_2_24_a": "chess_char_2_24_a",
+      "chess_char_2_24_b": "chess_char_2_24_a",
+      "chess_leithanien_4_33_v079_a": "chess_leithanien_4_33_v079_a",
+      "chess_leithanien_4_33_v079_b": "chess_leithanien_4_33_v079_a",
+      "chess_char_4_24_v079_a": "chess_char_4_24_v079_a",
+      "chess_char_4_24_v079_b": "chess_char_4_24_v079_a",
+      "chess_ursus_2_22_v079_a": "chess_ursus_2_22_v079_a",
+      "chess_ursus_2_22_v079_b": "chess_ursus_2_22_v079_a",
+      "chess_char_3_04_v079_a": "chess_char_3_04_v079_a",
+      "chess_char_3_04_v079_b": "chess_char_3_04_v079_a",
+      "chess_char_3_05_v079_a": "chess_char_3_05_v079_a",
+      "chess_char_3_05_v079_b": "chess_char_3_05_v079_a",
+      "chess_char_3_06_v079_a": "chess_char_3_06_v079_a",
+      "chess_char_3_06_v079_b": "chess_char_3_06_v079_a",
+      "chess_hero_6_29_v079_a": "chess_hero_6_29_v079_a",
+      "chess_hero_6_29_v079_b": "chess_hero_6_29_v079_a",
+      "chess_char_4_03_v079_a": "chess_char_4_03_v079_a",
+      "chess_char_4_03_v079_b": "chess_char_4_03_v079_a",
+      "chess_char_3_14_v079_a": "chess_char_3_14_v079_a",
+      "chess_char_3_14_v079_b": "chess_char_3_14_v079_a",
+      "chess_char_1_04_v079_a": "chess_char_1_04_v079_a",
+      "chess_char_1_04_v079_b": "chess_char_1_04_v079_a",
+      "chess_char_3_05_v079_2_a": "chess_char_3_05_v079_2_a",
+      "chess_char_3_05_v079_2_b": "chess_char_3_05_v079_2_a",
+      "chess_char_3_12_v079_a": "chess_char_3_12_v079_a",
+      "chess_char_3_12_v079_b": "chess_char_3_12_v079_a",
+      "chess_char_3_18_v079_a": "chess_char_3_18_v079_a",
+      "chess_char_3_18_v079_b": "chess_char_3_18_v079_a",
+      "chess_char_3_19_v079_a": "chess_char_3_19_v079_a",
+      "chess_char_3_19_v079_b": "chess_char_3_19_v079_a",
+      "chess_char_3_15_v079_a": "chess_char_3_15_v079_a",
+      "chess_char_3_15_v079_b": "chess_char_3_15_v079_a",
+      "chess_char_3_21_v079_a": "chess_char_3_21_v079_a",
+      "chess_char_3_21_v079_b": "chess_char_3_21_v079_a",
+      "chess_char_3_17_v079_a": "chess_char_3_17_v079_a",
+      "chess_char_3_17_v079_b": "chess_char_3_17_v079_a",
+      "chess_char_3_18_v079_2_a": "chess_char_3_18_v079_2_a",
+      "chess_char_3_18_v079_2_b": "chess_char_3_18_v079_2_a",
+      "chess_char_3_19_v079_2_a": "chess_char_3_19_v079_2_a",
+      "chess_char_3_19_v079_2_b": "chess_char_3_19_v079_2_a",
+      "chess_char_3_20_v079_a": "chess_char_3_20_v079_a",
+      "chess_char_3_20_v079_b": "chess_char_3_20_v079_a",
+      "chess_rhodes_3_31_v079_a": "chess_rhodes_3_31_v079_a",
+      "chess_rhodes_3_31_v079_b": "chess_rhodes_3_31_v079_a",
+      "chess_char_4_11_v079_a": "chess_char_4_11_v079_a",
+      "chess_char_4_11_v079_b": "chess_char_4_11_v079_a",
+      "chess_char_1_15_v079_a": "chess_char_1_15_v079_a",
+      "chess_char_1_15_v079_b": "chess_char_1_15_v079_a",
+      "chess_char_2_11_v079_2_a": "chess_char_2_11_v079_2_a",
+      "chess_char_2_11_v079_2_b": "chess_char_2_11_v079_2_a",
+      "chess_char_3_13_v079_a": "chess_char_3_13_v079_a",
+      "chess_char_3_13_v079_b": "chess_char_3_13_v079_a",
+      "chess_char_3_26_a": "chess_char_3_26_a",
+      "chess_char_3_26_b": "chess_char_3_26_a",
+      "chess_char_3_27_a": "chess_char_3_27_a",
+      "chess_char_3_27_b": "chess_char_3_27_a",
+      "chess_hero_6_35_v079_a": "chess_hero_6_35_v079_a",
+      "chess_hero_6_35_v079_b": "chess_hero_6_35_v079_a",
+      "chess_char_6_20_v079_a": "chess_char_6_20_v079_a",
+      "chess_char_6_20_v079_b": "chess_char_6_20_v079_a",
+      "chess_ursus_6_24_v079_a": "chess_ursus_6_24_v079_a",
+      "chess_ursus_6_24_v079_b": "chess_ursus_6_24_v079_a",
+      "chess_ursus_5_25_v079_a": "chess_ursus_5_25_v079_a",
+      "chess_ursus_5_25_v079_b": "chess_ursus_5_25_v079_a",
+      "chess_char_4_05_v079_a": "chess_char_4_05_v079_a",
+      "chess_char_4_05_v079_b": "chess_char_4_05_v079_a",
+      "chess_char_6_14_v079_a": "chess_char_6_14_v079_a",
+      "chess_char_6_14_v079_b": "chess_char_6_14_v079_a",
+      "chess_char_6_03_v079_a": "chess_char_6_03_v079_a",
+      "chess_char_6_03_v079_b": "chess_char_6_03_v079_a",
+      "chess_char_4_08_v079_2_a": "chess_char_4_08_v079_2_a",
+      "chess_char_4_08_v079_2_b": "chess_char_4_08_v079_2_a",
+      "chess_char_4_13_v079_a": "chess_char_4_13_v079_a",
+      "chess_char_4_13_v079_b": "chess_char_4_13_v079_a",
+      "chess_char_5_13_v079_a": "chess_char_5_13_v079_a",
+      "chess_char_5_13_v079_b": "chess_char_5_13_v079_a",
+      "chess_char_4_09_v079_a": "chess_char_4_09_v079_a",
+      "chess_char_4_09_v079_b": "chess_char_4_09_v079_a",
+      "chess_hero_6_26_v079_a": "chess_hero_6_26_v079_a",
+      "chess_hero_6_26_v079_b": "chess_hero_6_26_v079_a",
+      "chess_char_5_19_v079_a": "chess_char_5_19_v079_a",
+      "chess_char_5_19_v079_b": "chess_char_5_19_v079_a",
+      "chess_char_4_14_v079_a": "chess_char_4_14_v079_a",
+      "chess_char_4_14_v079_b": "chess_char_4_14_v079_a",
+      "chess_char_4_15_v079_a": "chess_char_4_15_v079_a",
+      "chess_char_4_15_v079_b": "chess_char_4_15_v079_a",
+      "chess_char_4_16_v079_a": "chess_char_4_16_v079_a",
+      "chess_char_4_16_v079_b": "chess_char_4_16_v079_a",
+      "chess_char_4_17_v079_a": "chess_char_4_17_v079_a",
+      "chess_char_4_17_v079_b": "chess_char_4_17_v079_a",
+      "chess_rhine_3_36_v079_a": "chess_rhine_3_36_v079_a",
+      "chess_rhine_3_36_v079_b": "chess_rhine_3_36_v079_a",
+      "chess_char_5_17_v079_a": "chess_char_5_17_v079_a",
+      "chess_char_5_17_v079_b": "chess_char_5_17_v079_a",
+      "chess_char_4_20_v079_a": "chess_char_4_20_v079_a",
+      "chess_char_4_20_v079_b": "chess_char_4_20_v079_a",
+      "chess_kazdel_3_27_v079_a": "chess_kazdel_3_27_v079_a",
+      "chess_kazdel_3_27_v079_b": "chess_kazdel_3_27_v079_a",
+      "chess_kazdel_3_26_v079_a": "chess_kazdel_3_26_v079_a",
+      "chess_kazdel_3_26_v079_b": "chess_kazdel_3_26_v079_a",
+      "chess_char_6_15_v079_a": "chess_char_6_15_v079_a",
+      "chess_char_6_15_v079_b": "chess_char_6_15_v079_a",
+      "chess_char_6_05_v079_a": "chess_char_6_05_v079_a",
+      "chess_char_6_05_v079_b": "chess_char_6_05_v079_a",
+      "chess_char_4_25_v079_a": "chess_char_4_25_v079_a",
+      "chess_char_4_25_v079_b": "chess_char_4_25_v079_a",
+      "chess_char_5_04_v079_a": "chess_char_5_04_v079_a",
+      "chess_char_5_04_v079_b": "chess_char_5_04_v079_a",
+      "chess_char_5_21_v079_a": "chess_char_5_21_v079_a",
+      "chess_char_5_21_v079_b": "chess_char_5_21_v079_a",
+      "chess_char_5_27_v079_a": "chess_char_5_27_v079_a",
+      "chess_char_5_27_v079_b": "chess_char_5_27_v079_a",
+      "chess_ursus_6_22_v079_a": "chess_ursus_6_22_v079_a",
+      "chess_ursus_6_22_v079_b": "chess_ursus_6_22_v079_a",
+      "chess_hero_6_28_v079_a": "chess_hero_6_28_v079_a",
+      "chess_hero_6_28_v079_b": "chess_hero_6_28_v079_a",
+      "chess_char_5_04_v079_2_a": "chess_char_5_04_v079_2_a",
+      "chess_char_5_04_v079_2_b": "chess_char_5_04_v079_2_a",
+      "chess_char_5_05_v079_a": "chess_char_5_05_v079_a",
+      "chess_char_5_05_v079_b": "chess_char_5_05_v079_a",
+      "chess_char_6_06_v079_a": "chess_char_6_06_v079_a",
+      "chess_char_6_06_v079_b": "chess_char_6_06_v079_a",
+      "chess_char_6_02_v079_a": "chess_char_6_02_v079_a",
+      "chess_char_6_02_v079_b": "chess_char_6_02_v079_a",
+      "chess_char_5_14_v079_a": "chess_char_5_14_v079_a",
+      "chess_char_5_14_v079_b": "chess_char_5_14_v079_a",
+      "chess_char_4_12_v079_a": "chess_char_4_12_v079_a",
+      "chess_char_4_12_v079_b": "chess_char_4_12_v079_a",
+      "chess_char_5_05_v079_2_a": "chess_char_5_05_v079_2_a",
+      "chess_char_5_05_v079_2_b": "chess_char_5_05_v079_2_a",
+      "chess_leithanien_3_31_v079_a": "chess_leithanien_3_31_v079_a",
+      "chess_leithanien_3_31_v079_b": "chess_leithanien_3_31_v079_a",
+      "chess_hero_6_24_v079_a": "chess_hero_6_24_v079_a",
+      "chess_hero_6_24_v079_b": "chess_hero_6_24_v079_a",
+      "chess_char_5_13_v079_2_a": "chess_char_5_13_v079_2_a",
+      "chess_char_5_13_v079_2_b": "chess_char_5_13_v079_2_a",
+      "chess_char_6_07_v079_a": "chess_char_6_07_v079_a",
+      "chess_char_6_07_v079_b": "chess_char_6_07_v079_a",
+      "chess_char_6_12_v079_a": "chess_char_6_12_v079_a",
+      "chess_char_6_12_v079_b": "chess_char_6_12_v079_a",
+      "chess_char_5_06_v079_a": "chess_char_5_06_v079_a",
+      "chess_char_5_06_v079_b": "chess_char_5_06_v079_a",
+      "chess_char_5_11_v079_a": "chess_char_5_11_v079_a",
+      "chess_char_5_11_v079_b": "chess_char_5_11_v079_a",
+      "chess_char_6_16_v079_a": "chess_char_6_16_v079_a",
+      "chess_char_6_16_v079_b": "chess_char_6_16_v079_a",
+      "chess_char_5_19_v079_2_a": "chess_char_5_19_v079_2_a",
+      "chess_char_5_19_v079_2_b": "chess_char_5_19_v079_2_a",
+      "chess_rhodes_4_31_v079_a": "chess_rhodes_4_31_v079_a",
+      "chess_rhodes_4_31_v079_b": "chess_rhodes_4_31_v079_a",
+      "chess_rhodes_3_29_v079_a": "chess_rhodes_3_29_v079_a",
+      "chess_rhodes_3_29_v079_b": "chess_rhodes_3_29_v079_a",
+      "chess_char_5_22_v079_a": "chess_char_5_22_v079_a",
+      "chess_char_5_22_v079_b": "chess_char_5_22_v079_a",
+      "chess_char_5_23_v079_a": "chess_char_5_23_v079_a",
+      "chess_char_5_23_v079_b": "chess_char_5_23_v079_a",
+      "chess_char_4_19_v079_a": "chess_char_4_19_v079_a",
+      "chess_char_4_19_v079_b": "chess_char_4_19_v079_a",
+      "chess_char_5_25_a": "chess_char_5_25_a",
+      "chess_char_5_25_b": "chess_char_5_25_a",
+      "chess_rhodes_4_32_v079_a": "chess_rhodes_4_32_v079_a",
+      "chess_rhodes_4_32_v079_b": "chess_rhodes_4_32_v079_a",
+      "chess_char_6_diy2_v079_a": "chess_char_6_diy2_v079_a",
+      "chess_char_6_diy2_v079_b": "chess_char_6_diy2_v079_a",
+      "chess_char_6_diy2_v079_2_a": "chess_char_6_diy2_v079_2_a",
+      "chess_char_6_diy2_v079_2_b": "chess_char_6_diy2_v079_2_a",
+      "chess_char_6_diy2_v079_3_a": "chess_char_6_diy2_v079_3_a",
+      "chess_char_6_diy2_v079_3_b": "chess_char_6_diy2_v079_3_a",
+      "chess_char_6_diy2_v079_4_a": "chess_char_6_diy2_v079_4_a",
+      "chess_char_6_diy2_v079_4_b": "chess_char_6_diy2_v079_4_a",
+      "chess_char_6_diy2_v079_5_a": "chess_char_6_diy2_v079_5_a",
+      "chess_char_6_diy2_v079_5_b": "chess_char_6_diy2_v079_5_a",
+      "chess_char_6_diy2_v079_6_a": "chess_char_6_diy2_v079_6_a",
+      "chess_char_6_diy2_v079_6_b": "chess_char_6_diy2_v079_6_a",
+      "chess_char_5_15_v079_a": "chess_char_5_15_v079_a",
+      "chess_char_5_15_v079_b": "chess_char_5_15_v079_a",
+      "chess_char_5_03_v079_a": "chess_char_5_03_v079_a",
+      "chess_char_5_03_v079_b": "chess_char_5_03_v079_a",
+      "chess_char_6_04_v079_a": "chess_char_6_04_v079_a",
+      "chess_char_6_04_v079_b": "chess_char_6_04_v079_a",
+      "chess_char_6_04_v079_2_a": "chess_char_6_04_v079_2_a",
+      "chess_char_6_04_v079_2_b": "chess_char_6_04_v079_2_a",
+      "chess_char_6_17_v079_a": "chess_char_6_17_v079_a",
+      "chess_char_6_17_v079_b": "chess_char_6_17_v079_a",
+      "chess_char_6_18_v079_a": "chess_char_6_18_v079_a",
+      "chess_char_6_18_v079_b": "chess_char_6_18_v079_a",
+      "chess_char_6_07_v079_2_a": "chess_char_6_07_v079_2_a",
+      "chess_char_6_07_v079_2_b": "chess_char_6_07_v079_2_a",
+      "chess_char_6_33_v079_a": "chess_char_6_33_v079_a",
+      "chess_char_6_33_v079_b": "chess_char_6_33_v079_a",
+      "chess_rhodes_5_28_v079_a": "chess_rhodes_5_28_v079_a",
+      "chess_rhodes_5_28_v079_b": "chess_rhodes_5_28_v079_a",
+      "chess_char_6_10_v079_a": "chess_char_6_10_v079_a",
+      "chess_char_6_10_v079_b": "chess_char_6_10_v079_a",
+      "chess_char_5_29_v079_a": "chess_char_5_29_v079_a",
+      "chess_char_5_29_v079_b": "chess_char_5_29_v079_a",
+      "chess_char_5_09_v079_a": "chess_char_5_09_v079_a",
+      "chess_char_5_09_v079_b": "chess_char_5_09_v079_a",
+      "chess_char_5_07_v079_a": "chess_char_5_07_v079_a",
+      "chess_char_5_07_v079_b": "chess_char_5_07_v079_a",
+      "chess_char_6_19_v079_a": "chess_char_6_19_v079_a",
+      "chess_char_6_19_v079_b": "chess_char_6_19_v079_a",
+      "chess_char_5_32_v079_a": "chess_char_5_32_v079_a",
+      "chess_char_5_32_v079_b": "chess_char_5_32_v079_a",
+      "chess_char_6_16_v079_2_a": "chess_char_6_16_v079_2_a",
+      "chess_char_6_16_v079_2_b": "chess_char_6_16_v079_2_a",
+      "chess_char_5_12_v079_a": "chess_char_5_12_v079_a",
+      "chess_char_5_12_v079_b": "chess_char_5_12_v079_a",
+      "chess_char_6_01_v079_a": "chess_char_6_01_v079_a",
+      "chess_char_6_01_v079_b": "chess_char_6_01_v079_a",
+      "chess_char_6_11_v079_a": "chess_char_6_11_v079_a",
+      "chess_char_6_11_v079_b": "chess_char_6_11_v079_a",
+      "chess_char_6_20_v079_2_a": "chess_char_6_20_v079_2_a",
+      "chess_char_6_20_v079_2_b": "chess_char_6_20_v079_2_a",
+      "chess_char_6_diy2_v079_7_a": "chess_char_6_diy2_v079_7_a",
+      "chess_char_6_diy2_v079_7_b": "chess_char_6_diy2_v079_7_a",
+      "chess_char_6_diy2_v079_8_a": "chess_char_6_diy2_v079_8_a",
+      "chess_char_6_diy2_v079_8_b": "chess_char_6_diy2_v079_8_a",
+      "chess_char_6_diy2_v079_9_a": "chess_char_6_diy2_v079_9_a",
+      "chess_char_6_diy2_v079_9_b": "chess_char_6_diy2_v079_9_a",
+      "chess_char_6_diy2_v079_10_a": "chess_char_6_diy2_v079_10_a",
+      "chess_char_6_diy2_v079_10_b": "chess_char_6_diy2_v079_10_a",
+      "chess_char_6_diy2_v079_11_a": "chess_char_6_diy2_v079_11_a",
+      "chess_char_6_diy2_v079_11_b": "chess_char_6_diy2_v079_11_a",
+      "chess_char_6_diy2_v079_12_a": "chess_char_6_diy2_v079_12_a",
+      "chess_char_6_diy2_v079_12_b": "chess_char_6_diy2_v079_12_a"
     },
     "constData": {
       "borrowCount": 20,
@@ -3098,23 +3406,21 @@
       "bondeffect_arcane": {
         "descParamInfos": [
           {
-            "descParamBase": "base_damage_scale_show",
-            "descParamPerStack": "damage_scale_per_stack",
-            "descParamMax": 0
-          },
-          {
-            "descParamBase": "base_damage_scale_show_ex",
-            "descParamPerStack": "damage_scale_per_stack_show_ex",
-            "descParamMax": 0
-          },
-          {
-            "descParamBase": "base_atk",
+            "descParamBase": "atk_base",
             "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "magic_res_max_base",
+            "descParamPerStack": "magic_res_max_per_stack",
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
       },
       "bondeffect_deput": {
         "descParamInfos": [
@@ -3124,8 +3430,11 @@
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
       },
       "bondeffect_egir": {
         "descParamInfos": [
@@ -3135,12 +3444,15 @@
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
       },
       "bondeffect_empty": {
         "descParamInfos": [],
-        "phaseType": "STACK_COUNT",
+        "phaseType": "NONE",
         "bondPhaseCountList": []
       },
       "bondeffect_indom": {
@@ -3148,16 +3460,22 @@
           {
             "descParamBase": "base_prob",
             "descParamPerStack": "prob_per_stack",
-            "descParamMax": 0
+            "descParamMax": 1.0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
       },
       "bondeffect_invest": {
         "descParamInfos": [],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          0,
+          100
+        ]
       },
       "bondeffect_judgement": {
         "descParamInfos": [
@@ -3173,18 +3491,31 @@
       "bondeffect_kazdel": {
         "descParamInfos": [
           {
-            "descParamBase": "base_damage_scale",
-            "descParamPerStack": "damage_scale_per_stack",
+            "descParamBase": "atk_base",
+            "descParamPerStack": "atk_per_stack",
             "descParamMax": 0
           },
           {
-            "descParamBase": "base_ex_damage_scale",
-            "descParamPerStack": "ex_damage_scale_per_stack",
+            "descParamBase": "hp_base",
+            "descParamPerStack": "hp_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "damage_one_minus_base",
+            "descParamPerStack": "damage_one_minus_per_stack",
+            "descParamMax": 1.0
+          },
+          {
+            "descParamBase": "atk_scale_base",
+            "descParamPerStack": "atk_scale_per_stack",
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
       },
       "bondeffect_kazimierz": {
         "descParamInfos": [
@@ -3247,7 +3578,7 @@
       },
       "bondeffect_mani": {
         "descParamInfos": [],
-        "phaseType": "STACK_COUNT",
+        "phaseType": "NONE",
         "bondPhaseCountList": []
       },
       "bondeffect_mira": {
@@ -3255,11 +3586,14 @@
           {
             "descParamBase": "baseprob",
             "descParamPerStack": "prob",
-            "descParamMax": 0
+            "descParamMax": 1.0
           }
         ],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          0,
+          100
+        ]
       },
       "bondeffect_mujica": {
         "descParamInfos": [
@@ -3300,8 +3634,11 @@
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
       },
       "bondeffect_raid": {
         "descParamInfos": [
@@ -3312,7 +3649,10 @@
           }
         ],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          0,
+          50
+        ]
       },
       "bondeffect_rainbow": {
         "descParamInfos": [
@@ -3481,11 +3821,14 @@
           }
         ],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          0,
+          40
+        ]
       },
       "bondeffect_solo": {
         "descParamInfos": [],
-        "phaseType": "STACK_COUNT",
+        "phaseType": "NONE",
         "bondPhaseCountList": []
       },
       "": {
@@ -3506,24 +3849,33 @@
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
       },
       "bondeffect_sunt": {
         "descParamInfos": [],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          5
+        ]
       },
       "bondeffect_swift": {
         "descParamInfos": [
           {
             "descParamBase": "base_prob",
             "descParamPerStack": "prob_per_stack",
-            "descParamMax": 0
+            "descParamMax": 1.0
           }
         ],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          0,
+          40
+        ]
       },
       "testBond": {
         "descParamInfos": [],
@@ -3554,13 +3906,19 @@
             "descParamMax": 0
           }
         ],
-        "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
       },
       "bondeffect_visi": {
         "descParamInfos": [],
         "phaseType": "STACK_COUNT",
-        "bondPhaseCountList": []
+        "bondPhaseCountList": [
+          80,
+          150
+        ]
       },
       "bondeffect_yan": {
         "descParamInfos": [
@@ -3578,6 +3936,135 @@
           {
             "descParamBase": "base_max_atk_when_born",
             "descParamPerStack": "max_atk_when_born_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
+      "bondeffect_doc": {
+        "descParamInfos": [
+          {
+            "descParamBase": "heal_base",
+            "descParamPerStack": "heal_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "ep_heal_base",
+            "descParamPerStack": "ep_heal_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "damage_res_base",
+            "descParamPerStack": "damage_res_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          2,
+          3
+        ]
+      },
+      "bondeffect_iberia": {
+        "descParamInfos": [
+          {
+            "descParamBase": "dot_atk_scale_base",
+            "descParamPerStack": "dot_atk_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
+      "bondeffect_kjerag_2": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_ex_damage_scale",
+            "descParamPerStack": "ex_damage_scale_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
+      "bondeffect_sargon_2": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_time",
+            "descParamPerStack": "time_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "act3autochess_bond_eff_sargon_power[tile_buff][slow].slow_base",
+            "descParamPerStack": "act3autochess_bond_eff_sargon_power[tile_buff][slow].slow_per_stack",
+            "descParamMax": 0.6000000238418579
+          },
+          {
+            "descParamBase": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].magic_damage_base",
+            "descParamPerStack": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage].magic_damage_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage_2].magic_damage_base",
+            "descParamPerStack": "act3autochess_bond_eff_sargon_power[tile_buff][mag_damage_2].magic_damage_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
+      "bondeffect_siracusa_2": {
+        "descParamInfos": [
+          {
+            "descParamBase": "base_attack_speed",
+            "descParamPerStack": "attack_speed_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "base_duration",
+            "descParamPerStack": "duration_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "ab_buff_duration_base",
+            "descParamPerStack": "ab_buff_duration_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "damage_value_base",
+            "descParamPerStack": "damage_value_per_stack",
+            "descParamMax": 0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
+      "bondeffect_yan_2": {
+        "descParamInfos": [
+          {
+            "descParamBase": "atk_base",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "ep_break_recover_speed_base",
+            "descParamPerStack": "ep_break_recover_speed_per_stack",
             "descParamMax": 0
           }
         ],

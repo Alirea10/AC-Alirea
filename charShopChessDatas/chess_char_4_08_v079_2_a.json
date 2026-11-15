@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_08_v079_2_a",
+  "goldenChessId": "chess_char_4_08_v079_2_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 8,
+  "chessType": "NORMAL",
+  "charId": "char_416_zumama",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_zumama",
+  "backupCharId": "char_609_acguad",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acguad",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

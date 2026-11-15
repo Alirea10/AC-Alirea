@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_24_v079_a",
+  "goldenChessId": "chess_char_4_24_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 2,
+  "chessType": "NORMAL",
+  "charId": "char_426_billro",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_billro",
+  "backupCharId": "char_612_accast",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_accast",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

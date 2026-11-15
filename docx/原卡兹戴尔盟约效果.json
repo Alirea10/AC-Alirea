@@ -1,0 +1,128 @@
+{
+  "sourceCommit": "e23e43d0028577ac2a1a211483685b72974782f9",
+  "bond": {
+    "activeCondition": "BOARD",
+    "activeConditionTemplate": "count_threshold_upward",
+    "activeCount": 3,
+    "activeParamList": [
+      "3"
+    ],
+    "activeType": "BATTLE",
+    "bondId": "kazdelShip",
+    "chessIdList": [
+      "chess_kazdel_1_24_b",
+      "chess_kazdel_1_24_a",
+      "chess_kazdel_2_24_b",
+      "chess_kazdel_2_24_a",
+      "chess_kazdel_3_26_b",
+      "chess_kazdel_3_26_a",
+      "chess_char_4_04_b",
+      "chess_char_4_04_a",
+      "chess_char_4_25_a",
+      "chess_char_4_25_b",
+      "chess_char_5_22_b",
+      "chess_char_5_22_a",
+      "chess_char_5_06_a",
+      "chess_char_5_06_b",
+      "chess_kazdel_3_27_a",
+      "chess_kazdel_3_27_b",
+      "chess_kazdel_6_32_a",
+      "chess_kazdel_6_32_b",
+      "chess_char_4_18_a",
+      "chess_char_4_18_b"
+    ],
+    "desc": "【卡兹戴尔】干员造成物理伤害时会施加一定比例的凋亡损伤（基于层数）\n全场每次有凋亡损伤爆发时，【卡兹戴尔】干员各回复自身最大生命值的<@ba.vup>20%</>（固定比例）\n<在场6名不同【卡兹戴尔】干员> 【卡兹戴尔】干员对处于凋亡损伤的敌方造成的伤害提高（基于层数）",
+    "descParamBaseList": [
+      "base_damage_scale",
+      "base_ex_damage_scale"
+    ],
+    "descParamPerStackList": [
+      "damage_scale_per_stack",
+      "ex_damage_scale_per_stack"
+    ],
+    "effectId": "bondeffect_kazdel",
+    "iconId": "",
+    "isActiveInDeck": false,
+    "maxInactiveBondCount": 0,
+    "name": "卡兹戴尔",
+    "noStack": false,
+    "weight": 100,
+    "noSelect": false
+  },
+  "effect": {
+    "continuedRound": -1,
+    "effectCounterType": "NONE",
+    "effectDecoIconId": "icon_team_buff",
+    "effectDesc": "【卡兹戴尔】干员造成的物理伤害附带<@ba.vup>{0:0%}</>伤害的凋亡损伤\n全场每次有凋亡损伤爆发时，【卡兹戴尔】干员各回复自身最大生命值的<@ba.vup>20%</>（固定比例）\n<在场6名不同【卡兹戴尔】干员> 【卡兹戴尔】干员造成的伤害比例提高<@ba.vup>{1:0%}</>\n<@ba.acrem>卡兹戴尔可以使用 歌利亚头盔 进行转职</>",
+    "effectId": "bondeffect_kazdel",
+    "effectName": "卡兹戴尔",
+    "effectType": "BOND",
+    "enemyPrice": 0,
+    "showTag": null,
+    "displayInHUD": false
+  },
+  "effectBuffs": [
+    {
+      "blackboard": [
+        {
+          "key": "key",
+          "value": 0,
+          "valueStr": "act1autochess_bond_eff_kazdel"
+        },
+        {
+          "key": "base_damage_scale",
+          "value": 0.25,
+          "valueStr": null
+        },
+        {
+          "key": "damage_scale_per_stack",
+          "value": 0.005,
+          "valueStr": null
+        },
+        {
+          "key": "base_ex_damage_scale",
+          "value": 1.25,
+          "valueStr": null
+        },
+        {
+          "key": "ex_damage_scale_per_stack",
+          "value": 0.01,
+          "valueStr": null
+        },
+        {
+          "key": "one",
+          "value": 1,
+          "valueStr": null
+        },
+        {
+          "key": "power_bond_char_cnt",
+          "value": 6,
+          "valueStr": null
+        }
+      ],
+      "countType": "NONE",
+      "key": "env_gbuff_new"
+    }
+  ],
+  "descriptionParameters": {
+    "descParamInfos": [
+      {
+        "descParamBase": "base_damage_scale",
+        "descParamPerStack": "damage_scale_per_stack",
+        "descParamMax": 0
+      },
+      {
+        "descParamBase": "base_ex_damage_scale",
+        "descParamPerStack": "ex_damage_scale_per_stack",
+        "descParamMax": 0
+      }
+    ],
+    "phaseType": "STACK_COUNT",
+    "bondPhaseCountList": []
+  },
+  "templates": [
+    "act1autochess_bond_eff_kazdel",
+    "act1autochess_bond_eff_kazdel[burst]",
+    "act1autochess_bond_eff_kazdel[watch]"
+  ]
+}

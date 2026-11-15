@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_07_v079_2_a",
+  "goldenChessId": "chess_char_2_07_v079_2_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 7,
+  "chessType": "PRESET",
+  "charId": "char_4031_liesel",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_liesel",
+  "backupCharId": "char_4031_liesel",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_liesel",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

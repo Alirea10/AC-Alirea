@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_6_10_v079_a",
+  "goldenChessId": "chess_char_6_10_v079_b",
+  "chessLevel": 6,
+  "shopLevelSortId": 10,
+  "chessType": "NORMAL",
+  "charId": "char_4146_nymph",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_nymph",
+  "backupCharId": "char_604_ccast",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": null,
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

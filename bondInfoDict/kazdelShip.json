@@ -27,16 +27,19 @@
     "chess_kazdel_6_32_a",
     "chess_kazdel_6_32_b",
     "chess_char_4_18_a",
-    "chess_char_4_18_b"
-  ],
-  "desc": "【卡兹戴尔】干员造成物理伤害时会施加一定比例的凋亡损伤（基于层数）\n全场每次有凋亡损伤爆发时，【卡兹戴尔】干员各回复自身最大生命值的<@ba.vup>20%</>（固定比例）\n<在场6名不同【卡兹戴尔】干员> 【卡兹戴尔】干员对处于凋亡损伤的敌方造成的伤害提高（基于层数）",
-  "descParamBaseList": [
-    "base_damage_scale",
-    "base_ex_damage_scale"
-  ],
-  "descParamPerStackList": [
-    "damage_scale_per_stack",
-    "ex_damage_scale_per_stack"
+    "chess_char_4_18_b",
+    "chess_kazdel_2_24_v079_b",
+    "chess_kazdel_2_24_v079_a",
+    "chess_kazdel_3_26_v079_b",
+    "chess_kazdel_3_26_v079_a",
+    "chess_char_5_09_v079_a",
+    "chess_char_5_09_v079_b",
+    "chess_char_6_10_v079_b",
+    "chess_char_6_10_v079_a",
+    "chess_char_5_06_v079_a",
+    "chess_char_5_06_v079_b",
+    "chess_kazdel_3_27_v079_a",
+    "chess_kazdel_3_27_v079_b"
   ],
   "effectId": "bondeffect_kazdel",
   "iconId": "",
@@ -45,5 +48,6 @@
   "name": "卡兹戴尔",
   "noStack": false,
   "weight": 100,
-  "noSelect": false
+  "noSelect": false,
+  "desc": "【卡兹戴尔】干员<@ba.vup>攻击力</>和<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>，【卡兹戴尔】干员击倒其他单位时为【卡兹戴尔】叠加<@ba.vup>2</>层临时层数\n<在场<@autochess.dgreen>6</>名不同【卡兹戴尔】干员>【卡兹戴尔】干员所受伤害的一定比例<@autochess.gray>（受层数影响）</>转化为持续10秒的生命流失，当伤害来源被击倒时不再流失生命；阻挡敌人期间，敌人每秒受到该干员攻击力一定比例的法术伤害<@autochess.gray>（受层数影响）</>；【卡兹戴尔】干员击倒其他单位时叠加的临时层数提升至<@ba.vup>4</>层"
 }

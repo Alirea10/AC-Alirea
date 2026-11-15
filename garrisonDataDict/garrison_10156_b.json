@@ -1,0 +1,39 @@
+{
+  "garrisonDesc": "<战斗中>场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限<@ba.vup>+14</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_effect_bondstackmax"
+    },
+    {
+      "key": "max_add",
+      "value": 14.0,
+      "valueStr": null
+    },
+    {
+      "key": "use_global_range",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10156_b"
+    },
+    {
+      "key": "filter_bond_by_self",
+      "value": 1.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<战斗中>场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限<@ba.vup>+14</>"
+}

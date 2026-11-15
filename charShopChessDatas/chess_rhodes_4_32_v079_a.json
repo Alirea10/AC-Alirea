@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_rhodes_4_32_v079_a",
+  "goldenChessId": "chess_rhodes_4_32_v079_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 26,
+  "chessType": "PRESET",
+  "charId": "char_002_amiya",
+  "tmplId": "char_1037_amiya3",
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_amiya3",
+  "backupCharId": "char_002_amiya",
+  "backupTmplId": "char_1037_amiya3",
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_amiya3",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

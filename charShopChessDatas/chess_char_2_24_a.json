@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_2_24_a",
+  "goldenChessId": "chess_char_2_24_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 24,
+  "chessType": "PRESET",
+  "charId": "char_218_cuttle",
+  "tmplId": null,
+  "defaultSkillIndex": 0,
+  "defaultUniEquipId": "uniequip_002_cuttle",
+  "backupCharId": "char_218_cuttle",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 0,
+  "backupCharUniEquipId": "uniequip_002_cuttle",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_18_v079_a",
+  "goldenChessId": "chess_char_1_18_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 16,
+  "chessType": "PRESET",
+  "charId": "char_337_utage",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_utage",
+  "backupCharId": "char_337_utage",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_utage",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

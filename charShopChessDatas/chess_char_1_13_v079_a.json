@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_13_v079_a",
+  "goldenChessId": "chess_char_1_13_v079_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 13,
+  "chessType": "PRESET",
+  "charId": "char_193_frostl",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_frostl",
+  "backupCharId": "char_193_frostl",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_frostl",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

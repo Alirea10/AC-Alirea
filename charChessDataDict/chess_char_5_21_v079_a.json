@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_5_21_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_5_21_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_166_a",
+    "garrison_10212_a"
+  ],
+  "desc": "<休整期结束时><休整期开始时>使已激活的【远见】层数<@ba.vup>+3</>"
+}

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_5_25_a",
+  "goldenChessId": "chess_char_5_25_b",
+  "chessLevel": 5,
+  "shopLevelSortId": 25,
+  "chessType": "NORMAL",
+  "charId": "char_4244_tocka",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": null,
+  "backupCharId": "char_611_acnipe",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acnipe",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

@@ -1,0 +1,13 @@
+{
+  "garrisonDesc": "<售出时>随机获得一名当前人数最多盟约的干员（不高于当前调度中心等级；无法获得自身）",
+  "eventType": "SERVER_CHESS_SOLD",
+  "eventTypeDesc": "整备能力",
+  "eventTypeIcon": "icon_gold",
+  "eventTypeSmallIcon": "s_icon_gold",
+  "eventEffect": "map_v079_buff04",
+  "effectType": "SERVER_MOST_BOND",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [],
+  "description": "<售出时>随机获得一名当前人数最多盟约的干员（不高于当前调度中心等级；无法获得自身）"
+}

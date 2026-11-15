@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】【莱塔尼亚】层数<@ba.vup>+4</>（此干员在整备区也生效）",
+  "eventType": "SERVER_REFRESH_SHOP",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_GAIN_BOND_LAYER_BY_REFRESH_CNT",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "refresh_cnt",
+      "value": 1.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "siracusaShip,leithanienShip"
+    },
+    {
+      "key": "layer",
+      "value": 4.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】【莱塔尼亚】层数<@ba.vup>+4</>（此干员在整备区也生效）"
+}

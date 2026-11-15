@@ -19,7 +19,9 @@
     "chess_sami_6_36_a",
     "chess_sami_6_36_b",
     "chess_char_5_21_a",
-    "chess_char_5_21_b"
+    "chess_char_5_21_b",
+    "chess_char_5_21_v079_a",
+    "chess_char_5_21_v079_b"
   ],
   "desc": "作战开始时，每名【萨米】干员分别使自身所属的所有盟约层数随机变化<@ba.vdown>-30</>~<@ba.vup>15</>层；场上每有1名【萨米】干员，随机变化的上限<@ba.vup>+5</><@autochess.gray>（2名时为-30~25层，3名时为-30~30层）</>",
   "descParamBaseList": [],

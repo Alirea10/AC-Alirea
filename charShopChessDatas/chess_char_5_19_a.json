@@ -11,7 +11,7 @@
   "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_mlynar",
   "goldenChessId": "chess_char_5_19_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 19,
   "tmplId": null
 }

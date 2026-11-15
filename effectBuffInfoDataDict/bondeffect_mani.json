@@ -1,13 +1,12 @@
 [
   {
+    "key": "other_bond_add_trigger_cnt",
     "blackboard": [
       {
         "key": "count",
-        "value": 1,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "other_bond_add_trigger_cnt"
+    ]
   }
 ]

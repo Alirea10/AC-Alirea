@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_1_19_v079_a",
+  "goldenChessId": "chess_char_1_19_v079_b",
+  "chessLevel": 1,
+  "shopLevelSortId": 4,
+  "chessType": "PRESET",
+  "charId": "char_496_wildmn",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_wildmn",
+  "backupCharId": "char_496_wildmn",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_wildmn",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

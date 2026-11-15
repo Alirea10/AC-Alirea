@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_12_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10069_b"
+  ],
+  "desc": "<战斗中>部署时使自身已激活的盟约层数<@ba.vup>+6</>（每场战斗至多叠加18层）"
+}

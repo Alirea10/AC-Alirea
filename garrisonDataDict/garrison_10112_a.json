@@ -1,0 +1,19 @@
+{
+  "garrisonDesc": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "特异化",
+  "eventTypeIcon": "icon_support",
+  "eventTypeSmallIcon": "s_icon_support",
+  "eventEffect": "map_v079_buff02",
+  "effectType": "SERVER_FRONT_SAME_EFFECT_PREP_FIN",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同"
+}

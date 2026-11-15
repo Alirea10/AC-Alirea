@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_3_19_v079_2_a",
+  "goldenChessId": "chess_char_3_19_v079_2_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 19,
+  "chessType": "PRESET",
+  "charId": "char_484_robrta",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_robrta",
+  "backupCharId": "char_484_robrta",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_robrta",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

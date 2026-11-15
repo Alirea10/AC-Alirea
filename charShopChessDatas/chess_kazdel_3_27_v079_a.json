@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_kazdel_3_27_v079_a",
+  "goldenChessId": "chess_kazdel_3_27_v079_b",
+  "chessLevel": 4,
+  "shopLevelSortId": 21,
+  "chessType": "NORMAL",
+  "charId": "char_4088_hodrer",
+  "tmplId": null,
+  "defaultSkillIndex": 2,
+  "defaultUniEquipId": "uniequip_002_hodrer",
+  "backupCharId": "char_609_acguad",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 2,
+  "backupCharUniEquipId": "uniequip_002_acguad",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

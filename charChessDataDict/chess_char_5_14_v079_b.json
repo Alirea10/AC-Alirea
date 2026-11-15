@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_5_14_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_226_b",
+    "garrison_228_b"
+  ],
+  "desc": "<战斗中>身前一格【谢拉格】【灵巧】干员每场战斗的叠层上限<@ba.vup>+150%</>"
+}

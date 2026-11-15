@@ -1,12 +1,21 @@
 {
+  "bondId": "sargonShip",
+  "name": "萨尔贡",
+  "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>【萨尔贡】干员每次开启技能时，将在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到一定的<@ba.vdown>迟钝效果</><@autochess.gray>（受层数影响）</>，每5秒造成一次法术伤害<@autochess.gray>（受层数影响）</>并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的<@ba.vdown>迟钝效果</>变为<@ba.vup>2</>倍，每秒受到一定法术伤害<@autochess.gray>（受层数影响）</>",
+  "iconId": "icon_sargonShip",
+  "activeCount": 3,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
-  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
+  "effectId": "bondeffect_sargon_2",
   "activeType": "BATTLE",
-  "bondId": "sargonShip",
+  "weight": 10,
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "noStack": false,
+  "noSelect": false,
   "chessIdList": [
     "chess_char_1_12_a",
     "chess_char_2_06_a",
@@ -33,21 +42,26 @@
     "chess_char_6_05_b",
     "chess_char_6_06_b",
     "chess_hero_6_34_a",
-    "chess_hero_6_34_b"
-  ],
-  "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响，每层持续时间独立计算）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>开启技能还会为所有【萨尔贡】干员提供等持续时间的<@ba.vup>攻击力</>（有上限）\n<@ba.acrem>选择策略【娜仁图亚】时，<在场6名不同【萨尔贡】干员>的效果会有所改变</>",
-  "descParamBaseList": [
-    "base_time"
-  ],
-  "descParamPerStackList": [
-    "time_per_stack"
-  ],
-  "effectId": "bondeffect_sargon",
-  "iconId": "icon_sargonShip",
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "name": "萨尔贡",
-  "noStack": false,
-  "weight": 10,
-  "noSelect": false
+    "chess_hero_6_34_b",
+    "chess_char_4_24_v079_a",
+    "chess_char_4_24_v079_b",
+    "chess_char_1_12_v079_a",
+    "chess_char_1_12_v079_b",
+    "chess_char_2_08_v079_a",
+    "chess_char_2_08_v079_b",
+    "chess_char_2_06_v079_a",
+    "chess_char_2_06_v079_b",
+    "chess_char_4_08_v079_2_a",
+    "chess_char_4_08_v079_2_b",
+    "chess_char_6_06_v079_a",
+    "chess_char_6_06_v079_b",
+    "chess_rhodes_5_28_v079_a",
+    "chess_rhodes_5_28_v079_b",
+    "chess_char_5_23_v079_a",
+    "chess_char_5_23_v079_b",
+    "chess_char_3_13_v079_a",
+    "chess_char_3_13_v079_b",
+    "chess_char_6_05_v079_a",
+    "chess_char_6_05_v079_b"
+  ]
 }

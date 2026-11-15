@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_5_05_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_5_05_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10202_a",
+    "garrison_10216_a"
+  ],
+  "desc": "<获得时>【炎】层数<@ba.vup>+8</>，【远见】层数<@ba.vup>+4</>"
+}

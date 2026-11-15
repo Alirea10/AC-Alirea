@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_5_12_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_5_12_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": "single",
+  "garrisonIds": [
+    "garrison_10128_a"
+  ],
+  "desc": "<休整期结束时> 本回合每获得过一名干员，使已激活的【炎】【奥术】层数<@ba.vup>+2</>（每回合至多叠加24层）"
+}

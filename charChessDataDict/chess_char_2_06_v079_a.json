@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_char_2_06_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 60,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_2_06_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10044_a",
+    "garrison_233_a"
+  ],
+  "desc": "<战斗中>每次开启技能时使身前一格干员回复<@ba.vup>2</>点技力"
+}

@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_4_14_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10083_b"
+  ],
+  "desc": "<休整期结束时>场上每有一名携带装备的干员，使已激活的【维多利亚】【坚守】层数<@ba.vup>+4</>"
+}

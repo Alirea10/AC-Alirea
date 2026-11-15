@@ -1,0 +1,20 @@
+{
+  "chessId": "chess_leithanien_3_31_v079_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 60,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10152_b",
+    "garrison_10156_b"
+  ],
+  "desc": "<战斗中>场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限<@ba.vup>+14</>"
+}

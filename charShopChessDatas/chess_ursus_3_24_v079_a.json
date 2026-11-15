@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_ursus_3_24_v079_a",
+  "goldenChessId": "chess_ursus_3_24_v079_b",
+  "chessLevel": 2,
+  "shopLevelSortId": 21,
+  "chessType": "PRESET",
+  "charId": "char_195_glassb",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_glassb",
+  "backupCharId": "char_195_glassb",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_glassb",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

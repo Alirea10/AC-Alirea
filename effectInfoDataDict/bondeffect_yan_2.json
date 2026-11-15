@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_yan_2",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "炎-第二方向",
+  "effectDesc": "【炎】干员攻击力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>\n<在场<@ba.vup>6</>名不同的【炎】干员>战斗开始时，【炎】干员每次攻击时造成攻击力6%的随机元素损伤；全场敌人元素损伤恢复速度增加<@ba.vup>{1:0%}</><@ba.acrem>（受层数影响）</>",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

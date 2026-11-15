@@ -1,12 +1,21 @@
 {
+  "bondId": "victoriaShip",
+  "name": "维多利亚",
+  "desc": "携带装备的【维多利亚】干员造成的<@ba.vup>伤害提升</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>25</>层>获得1件带有随机效果的<@ba.vup>维式重锤</>\n<在场<@autochess.dgreen>6</>名不同【维多利亚】干员>【维多利亚】干员每携带1件装备<@ba.vup>攻击力</>提升，携带进阶装备时<@ba.vup>额外提升</>",
+  "iconId": "icon_victoriaShip",
+  "activeCount": 3,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
-  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
+  "effectId": "bondeffect_victoria",
   "activeType": "BATTLE",
-  "bondId": "victoriaShip",
+  "weight": 10,
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "noStack": false,
+  "noSelect": false,
   "chessIdList": [
     "chess_char_1_06_a",
     "chess_char_2_05_a",
@@ -29,21 +38,26 @@
     "chess_char_6_07_b",
     "chess_char_6_08_b",
     "chess_hero_6_27_b",
-    "chess_hero_6_27_a"
-  ],
-  "desc": "携带装备的【维多利亚】干员造成的<@ba.vup>伤害提升</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>25</>层>获得<@ba.vup>1</>件带有随机效果的<@ba.vup>维式重锤</>\n<在场<@autochess.dgreen>6</>名不同【维多利亚】干员>携带装备的【维多利亚】干员<@ba.vup>攻击力</>提升，携带进阶装备时额外提升",
-  "descParamBaseList": [
-    "base_damage_scale"
-  ],
-  "descParamPerStackList": [
-    "damage_scale_per_stack"
-  ],
-  "effectId": "bondeffect_victoria",
-  "iconId": "icon_victoriaShip",
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "name": "维多利亚",
-  "noStack": false,
-  "weight": 10,
-  "noSelect": false
+    "chess_hero_6_27_a",
+    "chess_char_5_03_v079_a",
+    "chess_char_5_03_v079_b",
+    "chess_char_1_05_v079_a",
+    "chess_char_1_05_v079_b",
+    "chess_char_3_15_v079_a",
+    "chess_char_3_15_v079_b",
+    "chess_char_2_09_v079_a",
+    "chess_char_2_09_v079_b",
+    "chess_char_4_14_v079_a",
+    "chess_char_4_14_v079_b",
+    "chess_char_4_15_v079_a",
+    "chess_char_4_15_v079_b",
+    "chess_char_6_07_v079_2_a",
+    "chess_char_6_07_v079_2_b",
+    "chess_char_6_07_v079_a",
+    "chess_char_6_07_v079_b",
+    "chess_char_2_05_v079_a",
+    "chess_char_2_05_v079_b",
+    "chess_char_4_11_v079_a",
+    "chess_char_4_11_v079_b"
+  ]
 }

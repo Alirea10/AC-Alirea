@@ -1,0 +1,39 @@
+{
+  "garrisonDesc": "<休整期结束时>本回合每获得过一名干员<@ba.vup>(已获得{showtag_value_1}名)</>，使已激活的【炎】【奥术】层数<@ba.vup>+4</>（每回合至多叠加48层）",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "round_gain_char"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "yanShip,arcaneShip"
+    },
+    {
+      "key": "multi",
+      "value": 4.0,
+      "valueStr": null
+    },
+    {
+      "key": "max",
+      "value": 48.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>本回合每获得过一名干员<@ba.vup>(已获得{showtag_value_1}名)</>，使已激活的【炎】【奥术】层数<@ba.vup>+4</>（每回合至多叠加48层）"
+}

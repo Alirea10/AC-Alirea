@@ -1,0 +1,59 @@
+{
+  "garrisonDesc": "<战斗开始时>使已激活的【乌萨斯】临时层数<@ba.vup>+4</>",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "env_gbuff_new_with_verify",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act3autochess_gar_event_battlestart"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10013_a"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_battlestart"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_add_bond"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_by_id"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_id",
+      "value": 0,
+      "valueStr": "ursusShip"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 4.0,
+      "valueStr": null
+    },
+    {
+      "key": "bond_add_as_tmp",
+      "value": 1.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<战斗开始时>使已激活的【乌萨斯】临时层数<@ba.vup>+4</>"
+}

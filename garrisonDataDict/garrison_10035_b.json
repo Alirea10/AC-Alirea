@@ -1,0 +1,29 @@
+{
+  "garrisonDesc": "<获得时>获得等同于当前调度中心等级两倍的【炎】层数",
+  "eventType": "SERVER_GAIN",
+  "eventTypeDesc": "单次叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_METHOD",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "add_method",
+      "value": 0,
+      "valueStr": "shoplv"
+    },
+    {
+      "key": "bond",
+      "value": 0,
+      "valueStr": "yanShip"
+    },
+    {
+      "key": "multi",
+      "value": 2.0,
+      "valueStr": null
+    }
+  ],
+  "description": "<获得时>获得等同于当前调度中心等级两倍的【炎】层数"
+}

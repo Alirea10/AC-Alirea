@@ -1,26 +1,26 @@
 [
   {
+    "key": "bond_layer_gain_coin",
     "blackboard": [
       {
         "key": "layer",
-        "value": 10,
+        "value": 10.0,
         "valueStr": null
       },
       {
         "key": "count",
-        "value": 2,
+        "value": 2.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "bond_layer_gain_coin"
+    ]
   },
   {
+    "key": "bond_goods_disc_tier2",
     "blackboard": [
       {
-        "key": "layer1",
-        "value": 80,
-        "valueStr": null
+        "key": "layer_list",
+        "value": 0,
+        "valueStr": "80,150"
       },
       {
         "key": "bond",
@@ -29,16 +29,9 @@
       },
       {
         "key": "discount",
-        "value": 1,
-        "valueStr": null
-      },
-      {
-        "key": "layer2",
-        "value": 150,
+        "value": 1.0,
         "valueStr": null
       }
-    ],
-    "countType": "NONE",
-    "key": "bond_multi_layer_char_goods_price_bond_discount"
+    ]
   }
 ]

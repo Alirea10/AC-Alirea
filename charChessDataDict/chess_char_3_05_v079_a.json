@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_3_05_v079_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 1,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_3_05_v079_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10028_a"
+  ],
+  "desc": "<休整期结束时>使自身及身前一格干员已激活的盟约叠加等同于其售出价格的层数"
+}

@@ -1,0 +1,24 @@
+{
+  "garrisonDesc": "<休整期结束时>使整备区每名干员已激活的盟约层数<@ba.vup>+2</>",
+  "eventType": "SERVER_PREP_FIN",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "SERVER_ADD_BOND_IN_HAND",
+  "charLevel": 0,
+  "battleRuneKey": null,
+  "blackboard": [
+    {
+      "key": "count",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "conditionkey",
+      "value": 0,
+      "valueStr": "character_target_inboard"
+    }
+  ],
+  "description": "<休整期结束时>使整备区每名干员已激活的盟约层数<@ba.vup>+2</>"
+}

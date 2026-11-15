@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_2_07_v079_2_b",
+  "isGolden": true,
+  "status": {
+    "evolvePhase": "PHASE_2",
+    "charLevel": 55,
+    "skillLevel": 7,
+    "favorPoint": 0,
+    "equipLevel": 1
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10005_b"
+  ],
+  "desc": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】【莱塔尼亚】层数<@ba.vup>+4</>（此干员在整备区也生效）"
+}

@@ -1,0 +1,17 @@
+{
+  "chessId": "chess_char_4_03_v079_a",
+  "goldenChessId": "chess_char_4_03_v079_b",
+  "chessLevel": 3,
+  "shopLevelSortId": 8,
+  "chessType": "PRESET",
+  "charId": "char_4013_kjera",
+  "tmplId": null,
+  "defaultSkillIndex": 1,
+  "defaultUniEquipId": "uniequip_002_kjera",
+  "backupCharId": "char_4013_kjera",
+  "backupTmplId": null,
+  "backupCharSkillIndex": 1,
+  "backupCharUniEquipId": "uniequip_002_kjera",
+  "backupCharPotRank": 0,
+  "isHidden": false
+}

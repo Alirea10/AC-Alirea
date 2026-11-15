@@ -1,0 +1,19 @@
+{
+  "chessId": "chess_char_2_23_a",
+  "isGolden": false,
+  "status": {
+    "evolvePhase": "PHASE_1",
+    "charLevel": 60,
+    "skillLevel": 4,
+    "favorPoint": 0,
+    "equipLevel": 0
+  },
+  "upgradeChessId": "chess_char_2_23_b",
+  "upgradeNum": 3,
+  "equipSlotNum": 2,
+  "showTag": null,
+  "garrisonIds": [
+    "garrison_10215_a"
+  ],
+  "desc": "<休整期结束时>使当前已激活且层数最多的盟约层数<@ba.vup>+2</>（此干员在整备区也生效）"
+}

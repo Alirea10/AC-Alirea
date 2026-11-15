@@ -11,7 +11,7 @@
   "defaultSkillIndex": 0,
   "defaultUniEquipId": null,
   "goldenChessId": "chess_ursus_6_24_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 24,
   "tmplId": null
 }

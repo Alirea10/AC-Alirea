@@ -1,0 +1,24 @@
+{
+  "garrisonDesc": "<战斗中>身前一格干员提升盟约层数时，每次提升的层数额外<@ba.vup>+1</>（不受叠层上限影响）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "give_garrison_to_front",
+  "blackboard": [
+    {
+      "key": "give_garrison_id",
+      "value": 0,
+      "valueStr": "garrison_235_a"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_10114_a"
+    }
+  ],
+  "description": "<战斗中>身前一格干员提升盟约层数时，每次提升的层数额外<@ba.vup>+1</>（不受叠层上限影响）"
+}

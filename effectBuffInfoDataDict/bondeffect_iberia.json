@@ -1,0 +1,67 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_iberia[enemy]"
+      },
+      {
+        "key": "dot_duration",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "dot_atk_scale_base",
+        "value": 0.10999999940395355,
+        "valueStr": null
+      },
+      {
+        "key": "dot_atk_scale_per_stack",
+        "value": 0.0006000000284984708,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "prob_base",
+        "value": 0.20000000298023224,
+        "valueStr": null
+      },
+      {
+        "key": "prob_per_stack",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_iberia[enemy][speed].speed_duration",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_iberia[enemy][speed].move_speed",
+        "value": -0.03999999910593033,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_iberia[enemy][speed].max_stack_cnt",
+        "value": 20.0,
+        "valueStr": null
+      },
+      {
+        "key": "range_radius",
+        "value": 1.7000000476837158,
+        "valueStr": null
+      },
+      {
+        "key": "atk_scale",
+        "value": 3.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "garrisonDesc": "<战斗中>周围八格每有一名敌人或干员进入沉睡或眩晕时使自身及身后一格干员已激活的盟约层数<@ba.vup>+2</>（每回合至多叠加18层）",
+  "eventType": "IN_BATTLE",
+  "eventTypeDesc": "持续叠加",
+  "eventTypeIcon": "icon_bond",
+  "eventTypeSmallIcon": "s_icon_bond",
+  "eventEffect": null,
+  "effectType": "ADD_BOND",
+  "charLevel": 0,
+  "battleRuneKey": "char_dynamic_ability_new",
+  "blackboard": [
+    {
+      "key": "key",
+      "value": 0,
+      "valueStr": "act2autochess_gar_event_allyenemy_sleepstun_inrange"
+    },
+    {
+      "key": "garrison_key",
+      "value": 0,
+      "valueStr": "garrison_237_b"
+    },
+    {
+      "key": "garrison_event_key",
+      "value": 0,
+      "valueStr": "gar_event_allyenemy_sleepstun_inrange"
+    },
+    {
+      "key": "garrison_type",
+      "value": 0,
+      "valueStr": "garrison_add_bond"
+    },
+    {
+      "key": "bond_type",
+      "value": 0,
+      "valueStr": "bond_allinrange"
+    },
+    {
+      "key": "bond_add_type",
+      "value": 0,
+      "valueStr": "by_count"
+    },
+    {
+      "key": "bond_add_count",
+      "value": 2.0,
+      "valueStr": null
+    },
+    {
+      "key": "max_add_count_per_battle",
+      "value": 18.0,
+      "valueStr": null
+    },
+    {
+      "key": "range_id",
+      "value": 0,
+      "valueStr": "x-4"
+    },
+    {
+      "key": "bond_range_id",
+      "value": 0,
+      "valueStr": "b-4"
+    }
+  ],
+  "description": "<战斗中>周围八格每有一名敌人或干员进入沉睡或眩晕时使自身及身后一格干员已激活的盟约层数<@ba.vup>+2</>（每回合至多叠加18层）"
+}
