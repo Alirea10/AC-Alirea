@@ -5740,8 +5740,8 @@
       "webUpdateLogBusType": "ak_act3autochess_updatelog",
       "itemMaxCount": 6250,
       "diyCharLimitForLevels": {
-        "5": 2,
-        "6": 2
+        "5": 6,
+        "6": 6
       },
       "permShopLogoId": "logo_season_shop",
       "contentUpdateTime": 1794124800,
