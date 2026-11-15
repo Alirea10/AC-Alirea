@@ -1,0 +1,33 @@
+{
+  "bossId": "boss_12",
+  "sortId": 11,
+  "weight": 10,
+  "bloodDataDict": {
+    "mode_multi_funny": 298800,
+    "mode_multi_normal": 996000,
+    "mode_multi_hard": 2490000,
+    "mode_multi_abyss": 4150000,
+    "mode_single_funny": 239040,
+    "mode_single_1": 298800,
+    "mode_single_2": 398400,
+    "mode_single_3": 498000,
+    "mode_single_4": 597600,
+    "mode_single_5": 697200,
+    "mode_single_6": 796800,
+    "mode_single_7": 896400,
+    "mode_single_8": 996000,
+    "mode_single_9": 1245000,
+    "mode_single_10": 1494000,
+    "mode_single_11": 1743000,
+    "mode_single_12": 1992000,
+    "mode_single_13": 2241000,
+    "mode_single_14": 2490000,
+    "mode_single_15": 2766667,
+    "mode_single_16": 3043333,
+    "mode_single_17": 3320000,
+    "mode_single_18": 3596667,
+    "mode_single_19": 3873333,
+    "mode_single_20": 4150000
+  },
+  "isHidingBoss": false
+}

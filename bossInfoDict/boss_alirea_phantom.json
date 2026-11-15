@@ -8,12 +8,7 @@
   "sortId": 5,
   "weight": 10,
   "bloodDataDict": {
-    "mode_multi_abyss": 3000000,
-    "mode_multi_funny": 200000,
-    "mode_multi_hard": 780000,
-    "mode_multi_normal": 200000,
     "mode_single_abyss": 3000000,
-    "mode_single_funny": 200000,
     "mode_single_hard": 780000,
     "mode_single_normal": 200000
   }

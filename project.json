@@ -59,7 +59,9 @@
           "ursusShip": "all",
           "victoriaShip": "all",
           "visiShip": "release",
-          "yanShip": "all"
+          "yanShip": "all",
+          "iberiaShip": "all",
+          "docShip": "release"
         },
         "classes": {
           "core": {
@@ -80,7 +82,8 @@
               "rhineShip",
               "leithanienShip",
               "rhodesShip",
-              "rimBShip"
+              "rimBShip",
+              "iberiaShip"
             ],
             "drawCount": 8,
             "name": "核心盟约"
@@ -106,7 +109,8 @@
               "steadShip",
               "swiftShip",
               "visiShip",
-              "rtisanShip"
+              "rtisanShip",
+              "docShip"
             ],
             "drawCount": 2,
             "name": "小盟约"
@@ -132,7 +136,8 @@
         "rhineShip",
         "leithanienShip",
         "rhodesShip",
-        "rimBShip"
+        "rimBShip",
+        "iberiaShip"
       ],
       "minorBondBanCount": 2,
       "minorBondIds": [
@@ -148,313 +153,150 @@
         "steadShip",
         "swiftShip",
         "visiShip",
-        "rtisanShip"
+        "rtisanShip",
+        "docShip"
       ],
       "mode": "banCore"
     },
     "baseRewardDataList": [],
     "battleDataDict": {
-      "mode_multi_abyss": {
+      "mode_training_2": {
         "1": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
+            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr01",
+            "isSpPrepare": false
           }
         ],
         "2": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
+            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr02",
+            "isSpPrepare": false
           }
         ],
         "3": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
+            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr02",
+            "isSpPrepare": true
           }
         ],
         "4": [
           {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
-          }
-        ],
-        "5": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
-          }
-        ],
-        "6": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
-          }
-        ],
-        "7": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
-          }
-        ],
-        "8": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
-          }
-        ],
-        "9": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02"
-          }
-        ],
-        "10": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03"
-          }
-        ],
-        "11": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04"
-          }
-        ],
-        "12": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05"
-          }
-        ],
-        "13": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06"
-          }
-        ],
-        "14": [
-          {
-            "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01"
-          },
-          {
-            "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
-          },
-          {
-            "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03"
-          },
-          {
-            "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
-          },
-          {
-            "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06"
-          },
-          {
-            "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
-          },
-          {
             "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07"
-          }
-        ],
-        "15": [
-          {
-            "bossId": "boss_8",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01"
-          },
-          {
-            "bossId": "boss_9",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02"
-          },
-          {
-            "bossId": "boss_10",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03"
+            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr04",
+            "isSpPrepare": false
           }
         ]
       },
-      "mode_multi_clone": {
+      "mode_single_funny": {
         "1": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
           }
         ],
         "2": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
           }
         ],
         "3": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
           }
         ],
         "4": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
           }
         ],
         "5": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
           }
         ],
         "6": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
           }
         ],
         "7": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
           }
         ],
         "8": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
           }
         ],
         "9": [
           {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02"
-          }
-        ],
-        "10": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03"
-          }
-        ],
-        "11": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04"
-          }
-        ],
-        "12": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05"
-          }
-        ],
-        "13": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06"
-          }
-        ],
-        "14": [
-          {
             "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06"
-          },
-          {
-            "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07"
-          }
-        ],
-        "15": [
-          {
-            "bossId": "boss_8",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
           },
           {
-            "bossId": "boss_9",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02"
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
           },
           {
-            "bossId": "boss_10",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03"
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
           }
         ]
       },
@@ -462,286 +304,144 @@
         "1": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
           }
         ],
         "2": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
           }
         ],
         "3": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
           }
         ],
         "4": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
           }
         ],
         "5": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
           }
         ],
         "6": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
           }
         ],
         "7": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
           }
         ],
         "8": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
           }
         ],
         "9": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
           }
         ],
         "10": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
           }
         ],
         "11": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
           }
         ],
         "12": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
           }
         ],
         "13": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
           }
         ],
         "14": [
           {
             "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06"
-          },
-          {
-            "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07"
-          }
-        ]
-      },
-      "mode_multi_hard": {
-        "1": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
-          }
-        ],
-        "2": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
-          }
-        ],
-        "3": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
-          }
-        ],
-        "4": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
-          }
-        ],
-        "5": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
-          }
-        ],
-        "6": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
-          }
-        ],
-        "7": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
-          }
-        ],
-        "8": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
-          }
-        ],
-        "9": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02"
-          }
-        ],
-        "10": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03"
-          }
-        ],
-        "11": [
-          {
-            "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04"
-          }
-        ],
-        "12": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05"
-          }
-        ],
-        "13": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06"
-          }
-        ],
-        "14": [
-          {
-            "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01"
-          },
-          {
-            "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
-          },
-          {
-            "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03"
-          },
-          {
-            "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
-          },
-          {
-            "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08",
+            "isSpPrepare": false
           },
           {
-            "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07"
-          }
-        ],
-        "15": [
-          {
-            "bossId": "boss_8",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01"
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09",
+            "isSpPrepare": false
           },
           {
-            "bossId": "boss_9",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02"
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10",
+            "isSpPrepare": false
           },
           {
-            "bossId": "boss_10",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03"
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11",
+            "isSpPrepare": false
           }
         ]
       },
@@ -749,151 +449,3942 @@
         "1": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
           }
         ],
         "2": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
           }
         ],
         "3": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
           }
         ],
         "4": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
           }
         ],
         "5": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
           }
         ],
         "6": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
           }
         ],
         "7": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
           }
         ],
         "8": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
           }
         ],
         "9": [
           {
             "bossId": null,
-            "isSpPrepare": true,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
           }
         ],
         "10": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
           }
         ],
         "11": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
           }
         ],
         "12": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
           }
         ],
         "13": [
           {
             "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
           }
         ],
         "14": [
           {
             "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06"
-          },
-          {
-            "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11",
+            "isSpPrepare": false
           }
         ],
         "15": [
           {
             "bossId": "boss_8",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_9",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02",
+            "isSpPrepare": false
           },
           {
             "bossId": "boss_10",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03"
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_multi_hard": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_multi_abyss": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_1": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_2": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_3": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_4": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_5": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_6": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_7": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_8": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": false
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": true
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": false
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_9": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_10": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_11": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_12": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_13": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_14": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_15": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_16": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_17": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_18": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_19": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
+          }
+        ]
+      },
+      "mode_single_20": {
+        "1": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01",
+            "isSpPrepare": false
+          }
+        ],
+        "2": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02",
+            "isSpPrepare": false
+          }
+        ],
+        "3": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03",
+            "isSpPrepare": true
+          }
+        ],
+        "4": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04",
+            "isSpPrepare": false
+          }
+        ],
+        "5": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05",
+            "isSpPrepare": false
+          }
+        ],
+        "6": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06",
+            "isSpPrepare": false
+          }
+        ],
+        "7": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07",
+            "isSpPrepare": false
+          }
+        ],
+        "8": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01",
+            "isSpPrepare": false
+          }
+        ],
+        "9": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h02",
+            "isSpPrepare": true
+          }
+        ],
+        "10": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h03",
+            "isSpPrepare": false
+          }
+        ],
+        "11": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h04",
+            "isSpPrepare": true
+          }
+        ],
+        "12": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h05",
+            "isSpPrepare": false
+          }
+        ],
+        "13": [
+          {
+            "bossId": null,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h06",
+            "isSpPrepare": false
+          }
+        ],
+        "14": [
+          {
+            "bossId": "boss_1",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_2",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_3",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_4",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_6",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_7",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_11",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_12",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_09_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_13",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_10_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_17",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
+            "isSpPrepare": false
+          }
+        ],
+        "15": [
+          {
+            "bossId": "boss_8",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_01_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_9",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_02_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_10",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_14",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_04_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_15",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_05_S",
+            "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_16",
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_06_S",
+            "isSpPrepare": false
           }
         ]
       },
@@ -1021,7 +4512,7 @@
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S"
           },
           {
-            "bossId": "boss_11",
+            "bossId": "boss_alirea_rosmontis",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           },
@@ -1046,106 +4537,6 @@
             "bossId": "boss_10",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S"
-          }
-        ]
-      },
-      "mode_single_funny": {
-        "1": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_01"
-          }
-        ],
-        "2": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_02"
-          }
-        ],
-        "3": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_03"
-          }
-        ],
-        "4": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_04"
-          }
-        ],
-        "5": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_05"
-          }
-        ],
-        "6": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_06"
-          }
-        ],
-        "7": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_07"
-          }
-        ],
-        "8": [
-          {
-            "bossId": null,
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h01"
-          }
-        ],
-        "9": [
-          {
-            "bossId": "boss_1",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_01_S"
-          },
-          {
-            "bossId": "boss_2",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
-          },
-          {
-            "bossId": "boss_3",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_03_S"
-          },
-          {
-            "bossId": "boss_4",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_04_S"
-          },
-          {
-            "bossId": "boss_alirea_phantom",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
-          },
-          {
-            "bossId": "boss_6",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S"
-          },
-          {
-            "bossId": "boss_7",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_07_S"
-          },
-          {
-            "bossId": "boss_11",
-            "isSpPrepare": false,
-            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ]
       },
@@ -1273,7 +4664,7 @@
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S"
           },
           {
-            "bossId": "boss_11",
+            "bossId": "boss_alirea_rosmontis",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           },
@@ -1425,7 +4816,7 @@
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_06_S"
           },
           {
-            "bossId": "boss_11",
+            "bossId": "boss_alirea_rosmontis",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           },
@@ -1450,36 +4841,6 @@
             "bossId": "boss_10",
             "isSpPrepare": false,
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h08_03_S"
-          }
-        ]
-      },
-      "mode_training_2": {
-        "1": [
-          {
-            "bossId": null,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr01",
-            "isSpPrepare": false
-          }
-        ],
-        "2": [
-          {
-            "bossId": null,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr02",
-            "isSpPrepare": false
-          }
-        ],
-        "3": [
-          {
-            "bossId": null,
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr02",
-            "isSpPrepare": true
-          }
-        ],
-        "4": [
-          {
-            "bossId": "boss_7",
-            "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_tr04",
-            "isSpPrepare": false
           }
         ]
       }
@@ -2360,7 +5721,7 @@
       "chess_item_6_12_e_a": "chess_item_6_12_e_a"
     },
     "constData": {
-      "borrowCount": 20,
+      "borrowCount": 30,
       "costPlayerHpLimit": 10,
       "dailyMissionName": null,
       "dailyMissionParam": 0,
@@ -2369,46 +5730,13 @@
       "escapedBattleTemplateMapSinglePlayer": "Activities/ACT3AUTOCHESS/level_act3autochess_escaped_single",
       "fallbackBondId": "emptyShip",
       "maxBattleChessCnt": 8,
-      "maxDeckChessCnt": 15,
+      "maxDeckChessCnt": 10,
       "milestoneId": "act3autochess_token_chess",
       "milestoneTrackId": null,
       "shopRefreshPrice": 1,
       "storeCntMax": 6,
-      "trainingModeId": "mode_training_1",
-      "trBannedBondIds": [
-        "kjeragShip",
-        "steadShip",
-        "indomShip",
-        "swiftShip",
-        "visiShip"
-      ],
-      "trBondIds": [
-        "yanShip",
-        "sargonShip",
-        "victoriaShip",
-        "lateranoShip",
-        "egirShip",
-        "raidShip",
-        "emptyShip",
-        "preciShip",
-        "deputShip",
-        "kjeragShip",
-        "steadShip",
-        "indomShip",
-        "swiftShip",
-        "visiShip",
-        "rainbowShip"
-      ],
-      "trSpecialEnemyTypes": [
-        "FLY",
-        "TIMES",
-        "ELEMENT"
-      ],
-      "trstageBandId": "band_sarkazb",
-      "trstageBossId": "boss_7",
-      "trStageId": "act3autochess_m01",
       "webBusType": "ak_act3autochess",
-      "maxDeckEquipmentChessCnt": 15,
+      "maxDeckEquipmentChessCnt": 5,
       "webUpdateLogBusType": "ak_act3autochess_updatelog",
       "itemMaxCount": 6250,
       "diyCharLimitForLevels": {
@@ -2678,64 +6006,160 @@
     "playerTitleDataDict": {
       "comment_1": {
         "id": "comment_1",
-        "picId": "comment_icon_1",
-        "txt": "！？区区？！",
         "type": "BOND",
         "point": 0,
-        "rank": 0
+        "rank": 0,
+        "picId": "comment_icon_1_0",
+        "txt": "百花齐放"
       },
       "comment_2": {
         "id": "comment_2",
-        "picId": "comment_icon_2",
-        "txt": "不朽盟约",
         "type": "BOND",
         "point": 1,
-        "rank": 1
+        "rank": 1,
+        "picId": "comment_icon_1_1",
+        "txt": "坚实盟约"
       },
       "comment_3": {
         "id": "comment_3",
-        "picId": "comment_icon_3",
-        "txt": "坚若磐石",
         "type": "BOND",
         "point": 1,
-        "rank": 2
+        "rank": 2,
+        "picId": "comment_icon_1_2",
+        "txt": "不朽盟约"
       },
       "comment_4": {
         "id": "comment_4",
-        "picId": "comment_icon_4",
-        "txt": "精英云集",
         "type": "KILL",
         "point": 0,
-        "rank": 0
+        "rank": 0,
+        "picId": "comment_icon_2_0",
+        "txt": "救火队长"
       },
       "comment_5": {
         "id": "comment_5",
-        "picId": "comment_icon_5",
-        "txt": "万事俱备",
         "type": "KILL",
         "point": 1,
-        "rank": 1
+        "rank": 1,
+        "picId": "comment_icon_2_1",
+        "txt": "可靠后盾"
       },
       "comment_6": {
         "id": "comment_6",
-        "picId": "comment_icon_6",
-        "txt": "挥金如土",
         "type": "KILL",
         "point": 1,
-        "rank": 2
+        "rank": 2,
+        "picId": "comment_icon_2_2",
+        "txt": "力挽狂澜"
+      },
+      "comment_7": {
+        "id": "comment_7",
+        "type": "EQUIP",
+        "point": 0,
+        "rank": 0,
+        "picId": "comment_icon_3_0",
+        "txt": "精挑细选"
+      },
+      "comment_8": {
+        "id": "comment_8",
+        "type": "EQUIP",
+        "point": 1,
+        "rank": 1,
+        "picId": "comment_icon_3_1",
+        "txt": "有备无患"
+      },
+      "comment_9": {
+        "id": "comment_9",
+        "type": "EQUIP",
+        "point": 1,
+        "rank": 2,
+        "picId": "comment_icon_3_2",
+        "txt": "万事俱备"
+      },
+      "comment_10": {
+        "id": "comment_10",
+        "type": "COIN",
+        "point": 0,
+        "rank": 0,
+        "picId": "comment_icon_4_0",
+        "txt": "富贵浮云"
+      },
+      "comment_11": {
+        "id": "comment_11",
+        "type": "COIN",
+        "point": 1,
+        "rank": 1,
+        "picId": "comment_icon_4_1",
+        "txt": "一掷百金"
+      },
+      "comment_12": {
+        "id": "comment_12",
+        "type": "COIN",
+        "point": 1,
+        "rank": 2,
+        "picId": "comment_icon_4_2",
+        "txt": "挥金如土"
+      },
+      "comment_13": {
+        "id": "comment_13",
+        "type": "CHAR",
+        "point": 0,
+        "rank": 0,
+        "picId": "comment_icon_5_0",
+        "txt": "孤胆先锋"
+      },
+      "comment_14": {
+        "id": "comment_14",
+        "type": "CHAR",
+        "point": 1,
+        "rank": 1,
+        "picId": "comment_icon_5_1",
+        "txt": "汇聚人才"
+      },
+      "comment_15": {
+        "id": "comment_15",
+        "type": "CHAR",
+        "point": 1,
+        "rank": 2,
+        "picId": "comment_icon_5_2",
+        "txt": "精英云集"
+      },
+      "comment_16": {
+        "id": "comment_16",
+        "type": "DAMAGE",
+        "point": 0,
+        "rank": 0,
+        "picId": "comment_icon_6_0",
+        "txt": "幕后领袖"
+      },
+      "comment_17": {
+        "id": "comment_17",
+        "type": "DAMAGE",
+        "point": 1,
+        "rank": 1,
+        "picId": "comment_icon_6_1",
+        "txt": "中流砥柱"
+      },
+      "comment_18": {
+        "id": "comment_18",
+        "type": "DAMAGE",
+        "point": 1,
+        "rank": 2,
+        "picId": "comment_icon_6_2",
+        "txt": "绝对核心"
       }
     },
     "runtimeConfig": {
       "clientResources": {
         "bossResources": {
-          "boss_11": {
-            "bgmEvent": "rosmontisteam",
-            "enemyId": "enemy_8007_eltrsm_3",
-            "handbookEnemyId": "enemy_8007_eltrsm_3"
-          },
           "boss_alirea_phantom": {
             "enemyId": "enemy_2016_csphtm",
             "handbookEnemyId": "enemy_2016_csphtm"
+          },
+          "boss_alirea_rosmontis": {
+            "bgmEvent": "rosmontisteam",
+            "enemyId": "enemy_8007_eltrsm_3",
+            "handbookEnemyId": "enemy_8007_eltrsm_3"
           }
         },
         "enemyResources": {
@@ -2962,224 +6386,1104 @@
       "version": 1
     },
     "shopLevelDataDict": {
-      "mode_multi_abyss": {
+      "mode_single_funny": {
         "1": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 2,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 16,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_clone": {
-        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 1,
           "charChessCount": 3,
-          "initialUpgradePrice": 5,
           "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
+          "levelTagBgColor": "#434343"
         },
         "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 1,
           "charChessCount": 4,
-          "initialUpgradePrice": 8,
           "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
+          "levelTagBgColor": "#626654"
         },
         "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 5,
           "charChessCount": 4,
-          "initialUpgradePrice": 11,
           "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
+          "levelTagBgColor": "#445760"
         },
         "4": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 12,
+          "shopLevel": 4,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
+          "levelTagBgColor": "#615B74"
         },
         "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
+          "shopLevel": 5,
+          "initialUpgradePrice": 10,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
+          "levelTagBgColor": "#6C5E41"
         },
         "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 11,
           "charChessCount": 5,
-          "initialUpgradePrice": 99,
           "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
+          "levelTagBgColor": "#5d341e"
         }
       },
       "mode_multi_funny": {
         "1": {
-          "charChessCount": 3,
+          "shopLevel": 1,
           "initialUpgradePrice": 5,
+          "charChessCount": 3,
           "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
+          "levelTagBgColor": "#434343"
         },
         "2": {
-          "charChessCount": 4,
+          "shopLevel": 2,
           "initialUpgradePrice": 8,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
+          "levelTagBgColor": "#626654"
         },
         "3": {
-          "charChessCount": 4,
+          "shopLevel": 3,
           "initialUpgradePrice": 10,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
+          "levelTagBgColor": "#445760"
         },
         "4": {
-          "charChessCount": 4,
+          "shopLevel": 4,
           "initialUpgradePrice": 11,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
+          "levelTagBgColor": "#615B74"
         },
         "5": {
-          "charChessCount": 4,
+          "shopLevel": 5,
           "initialUpgradePrice": 11,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
+          "levelTagBgColor": "#6C5E41"
         },
         "6": {
-          "charChessCount": 5,
+          "shopLevel": 6,
           "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_multi_hard": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 11,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
           "charChessCount": 5,
-          "initialUpgradePrice": 12,
           "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 13,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
+          "levelTagBgColor": "#5d341e"
         }
       },
       "mode_multi_normal": {
         "1": {
-          "charChessCount": 3,
+          "shopLevel": 1,
           "initialUpgradePrice": 5,
+          "charChessCount": 3,
           "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
+          "levelTagBgColor": "#434343"
         },
         "2": {
-          "charChessCount": 4,
+          "shopLevel": 2,
           "initialUpgradePrice": 8,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
+          "levelTagBgColor": "#626654"
         },
         "3": {
-          "charChessCount": 4,
+          "shopLevel": 3,
           "initialUpgradePrice": 11,
+          "charChessCount": 4,
           "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
+          "levelTagBgColor": "#445760"
         },
         "4": {
-          "charChessCount": 5,
+          "shopLevel": 4,
           "initialUpgradePrice": 12,
+          "charChessCount": 5,
           "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
+          "levelTagBgColor": "#615B74"
         },
         "5": {
-          "charChessCount": 5,
+          "shopLevel": 5,
           "initialUpgradePrice": 13,
+          "charChessCount": 5,
           "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
+          "levelTagBgColor": "#6C5E41"
         },
         "6": {
-          "charChessCount": 5,
+          "shopLevel": 6,
           "initialUpgradePrice": 99,
+          "charChessCount": 5,
           "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_multi_hard": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_multi_abyss": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_1": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_2": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_3": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_4": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_5": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_6": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_7": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_8": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_9": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_10": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_11": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_12": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_13": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_14": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_15": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_16": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_17": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_18": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_19": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
+        }
+      },
+      "mode_single_20": {
+        "1": {
+          "shopLevel": 1,
+          "initialUpgradePrice": 5,
+          "charChessCount": 3,
+          "itemCount": 1,
+          "levelTagBgColor": "#434343"
+        },
+        "2": {
+          "shopLevel": 2,
+          "initialUpgradePrice": 8,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#626654"
+        },
+        "3": {
+          "shopLevel": 3,
+          "initialUpgradePrice": 11,
+          "charChessCount": 4,
+          "itemCount": 1,
+          "levelTagBgColor": "#445760"
+        },
+        "4": {
+          "shopLevel": 4,
+          "initialUpgradePrice": 12,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#615B74"
+        },
+        "5": {
+          "shopLevel": 5,
+          "initialUpgradePrice": 13,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#6C5E41"
+        },
+        "6": {
+          "shopLevel": 6,
+          "initialUpgradePrice": 99,
+          "charChessCount": 5,
+          "itemCount": 1,
+          "levelTagBgColor": "#5d341e"
         }
       },
       "mode_single_abyss": {
@@ -3221,50 +7525,6 @@
         "6": {
           "charChessCount": 5,
           "initialUpgradePrice": 99,
-          "itemCount": 1,
-          "levelTagBgColor": "#5d341e",
-          "shopLevel": 6
-        }
-      },
-      "mode_single_funny": {
-        "1": {
-          "charChessCount": 3,
-          "initialUpgradePrice": 1,
-          "itemCount": 1,
-          "levelTagBgColor": "#434343",
-          "shopLevel": 1
-        },
-        "2": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 1,
-          "itemCount": 1,
-          "levelTagBgColor": "#626654",
-          "shopLevel": 2
-        },
-        "3": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 5,
-          "itemCount": 1,
-          "levelTagBgColor": "#445760",
-          "shopLevel": 3
-        },
-        "4": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 8,
-          "itemCount": 1,
-          "levelTagBgColor": "#615B74",
-          "shopLevel": 4
-        },
-        "5": {
-          "charChessCount": 4,
-          "initialUpgradePrice": 10,
-          "itemCount": 1,
-          "levelTagBgColor": "#6C5E41",
-          "shopLevel": 5
-        },
-        "6": {
-          "charChessCount": 5,
-          "initialUpgradePrice": 11,
           "itemCount": 1,
           "levelTagBgColor": "#5d341e",
           "shopLevel": 6
@@ -3422,11 +7682,11 @@
         "modeType": "SOLO",
         "willExpand": true,
         "modeIds": [
-          "mode_multi_abyss",
+          "mode_training_2",
           "mode_multi_funny",
-          "mode_multi_hard",
           "mode_multi_normal",
-          "mode_training_2"
+          "mode_multi_hard",
+          "mode_multi_abyss"
         ]
       },
       "GROUP_ROOM": {
@@ -3434,10 +7694,10 @@
         "modeType": "TEAM",
         "willExpand": true,
         "modeIds": [
-          "mode_multi_abyss",
           "mode_multi_funny",
+          "mode_multi_normal",
           "mode_multi_hard",
-          "mode_multi_normal"
+          "mode_multi_abyss"
         ]
       },
       "GROUP_SINGLE": {
@@ -3445,8 +7705,27 @@
         "modeType": "SOLO",
         "willExpand": true,
         "modeIds": [
+          "mode_single_1",
+          "mode_single_2",
+          "mode_single_3",
+          "mode_single_4",
+          "mode_single_5",
+          "mode_single_6",
+          "mode_single_7",
+          "mode_single_8",
+          "mode_single_9",
+          "mode_single_10",
+          "mode_single_11",
+          "mode_single_12",
+          "mode_single_13",
+          "mode_single_14",
+          "mode_single_15",
+          "mode_single_16",
+          "mode_single_17",
+          "mode_single_18",
+          "mode_single_19",
+          "mode_single_20",
           "mode_single_abyss",
-          "mode_single_funny",
           "mode_single_hard",
           "mode_single_normal"
         ]
@@ -3455,7 +7734,9 @@
         "groupType": "GROUP_FAST",
         "modeType": "SOLO",
         "willExpand": false,
-        "modeIds": []
+        "modeIds": [
+          "mode_single_funny"
+        ]
       },
       "GROUP_OFFSEASON": {
         "groupType": "GROUP_OFFSEASON",

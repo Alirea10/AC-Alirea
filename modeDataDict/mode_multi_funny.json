@@ -1,10 +1,34 @@
 {
+  "modeId": "mode_multi_funny",
+  "name": "标准模拟",
+  "code": "AC-MP-1",
+  "sortId": 100,
+  "backgroundId": "background_funny",
+  "desc": null,
+  "difficulty": 1,
+  "factor": 1.0,
+  "difficultyDesc": "+8",
+  "trophyDesc": "低",
+  "eventIds": [
+    "mode_event_1",
+    "level_event_1"
+  ],
+  "unlockText": "通关【入门协议】后开放",
+  "loadingPicId": "loading_AC_funny",
+  "modeType": "MULTI",
+  "modeDifficulty": "FUNNY",
+  "modeIconId": "mode_funny_icon",
+  "modeColor": "f6a329",
+  "specialPhaseTime": 16,
   "activeBondIdList": [
     "yanShip",
     "sargonShip",
     "victoriaShip",
     "kjeragShip",
     "siracusaShip",
+    "ursusShip",
+    "iberiaShip",
+    "leithanienShip",
     "preciShip",
     "swiftShip",
     "steadShip",
@@ -13,23 +37,19 @@
     "indomShip",
     "maniShip",
     "emptyShip",
+    "docShip",
+    "arcaneShip",
     "rainbowShip",
-    "ursusShip",
     "rhodesShip",
     "samiShip",
     "rhineShip",
     "rimBShip",
     "rtisanShip"
   ],
-  "backgroundId": "background_funny",
-  "code": "AC-1",
-  "desc": "敌方攻击强度较低的模拟训练",
   "inactiveBondIdList": [
-    "lateranoShip",
     "egirShip",
     "kazimierzShip",
     "skillfulShip",
-    "arcaneShip",
     "miraShip",
     "investShip",
     "raidShip",
@@ -56,50 +76,8 @@
     "enemy_1329_cbshld_2",
     "enemy_1072_dlancer"
   ],
-  "loadingPicId": "loading_AC_funny",
-  "modeColor": "f6a329",
-  "modeDifficulty": "FUNNY",
-  "modeIconId": "mode_funny_icon",
-  "modeId": "mode_multi_funny",
-  "modeType": "MULTI",
-  "name": "标准模拟",
-  "sortId": 1,
-  "specialPhaseTime": 16,
-  "startTime": 1773475200,
-  "unlockText": "通关【入门协议】后解锁",
-  "difficultyScaling": {
-    "overrideDifficulty": false,
-    "enemyEffectsByRound": [
-      [
-        "acdifficulty_enemy_4"
-      ],
-      [
-        "acdifficulty_enemy_2"
-      ],
-      [],
-      [],
-      [],
-      [
-        "acdifficulty_enemy_2"
-      ],
-      [],
-      [],
-      [],
-      [],
-      [],
-      [
-        "acdifficulty_enemy_3"
-      ],
-      [],
-      []
-    ]
-  },
-  "difficulty": 1,
-  "factor": 1.0,
-  "difficultyDesc": "·作战环境较为温和\n·常规奖励",
-  "trophyDesc": "低",
-  "eventIds": [],
-  "unlockDiffierentModeId": "mode_training_2",
+  "startTime": 1794124800,
+  "unlockDiffierentModeId": null,
   "groupList": [
     "GROUP_MULTI",
     "GROUP_ROOM"
