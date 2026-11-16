@@ -14,7 +14,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员造成的伤害提升<@ba.vup>25%</>，造成法术伤害附带相当于<@ba.vup>30%</>伤害的<$ba.dt.burning2>灼燃损伤</>”\n购买价格+<@ba.vup>2</>"
 }

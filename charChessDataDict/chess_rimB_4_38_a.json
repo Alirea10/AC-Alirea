@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_rimB_4_38_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<进入休整期时>若当前为偶数回合，获得<@ba.vup>1</>件随机装备"
 }

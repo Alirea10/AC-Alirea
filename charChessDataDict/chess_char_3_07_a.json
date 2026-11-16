@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_3_07_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<休整期结束时>使自身及身后一格干员的已激活盟约分别各层数<@ba.vup>+3</>"
 }

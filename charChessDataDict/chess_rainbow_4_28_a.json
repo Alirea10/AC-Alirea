@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_rainbow_4_28_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "自身被击倒或替身与本体进行切换时，使已激活的【彩虹小队】层数<@ba.vup>+1</>、【灵巧】层数<@ba.vup>+1</>"
 }

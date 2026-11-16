@@ -15,7 +15,7 @@
   },
   "upgradeChessId": "chess_char_6_09_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员每消耗一颗子弹，攻击力<@ba.vup>+5</>（无上限）\n仅一次，当任意干员子弹数剩余低于<@ba.vup>20%</>时，回复所有子弹”\n<战斗中>开启技能时，同一行每有<@ba.vup>1</>名干员，当前已激活且层数最多的盟约层数<@ba.vup>+1</>（每场作战至多<@ba.vup>10</>层）\n购买价格+<@ba.vup>2</>"
 }

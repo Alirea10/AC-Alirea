@@ -15,7 +15,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员造成的伤害提升<@ba.vup>50%</>”\n购买价格+<@ba.vup>2</>\n<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
 }

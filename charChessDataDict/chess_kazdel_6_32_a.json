@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_kazdel_6_32_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "【卡兹戴尔】每叠加<@autochess.dgreen>2</>层，本干员攻击力<@ba.vup>+1%</>"
 }

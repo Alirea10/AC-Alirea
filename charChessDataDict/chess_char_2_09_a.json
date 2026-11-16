@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_2_09_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>每击倒<@autochess.dgreen>2</>名敌人时，使已激活的【突袭】层数<@ba.vup>+1</>"
 }

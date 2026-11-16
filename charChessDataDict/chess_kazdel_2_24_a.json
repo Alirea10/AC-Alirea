@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_kazdel_2_24_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "【105】<获得时>自身所属盟约层数<@ba.vup>+2</>（无需激活盟约）"
 }

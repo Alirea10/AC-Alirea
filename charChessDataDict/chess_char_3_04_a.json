@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_3_04_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<休整期结束时>使下个休整期额外获得<@ba.vup>1</>资金（若已激活【炎】/【投资人】此特质在整备区也有效）"
 }

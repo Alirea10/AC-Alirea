@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_3_10_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<售出时>进行一次<@ba.vup>I阶</>干员的免费特殊招募\n本干员合成为精锐状态后，上述特殊招募变为<@ba.vup>V阶</>干员"
 }

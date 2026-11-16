@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_2_16_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<刷新时>若为本回合首次主动刷新，使已激活的【叙拉古】层数<@ba.vup>+4</>，此干员在整备区时也有效"
 }

@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_3_17_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>攻击力和生命值+<@ba.vup>25%</>，造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
 }

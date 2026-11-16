@@ -13,7 +13,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>本干员参与【萨米】盟约结算时，随机抽取<@ba.vup>3</>次层数变化，取绝对值最大的一次\n<@autochess.gray>（绝对值相同时取正值）</>"
 }

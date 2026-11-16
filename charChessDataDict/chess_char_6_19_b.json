@@ -14,7 +14,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<获得时>自身所属的盟约层数<@ba.vup>+16</>\n<部署时>使自身已激活的盟约层数<@ba.vup>+16</>（至多<@ba.vup>48</>层）"
 }

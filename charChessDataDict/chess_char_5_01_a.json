@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_5_01_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>自身每消耗<@ba.vup>7</>发子弹，使已激活的【拉特兰】层数<@ba.vup>+7</>、【远见】层数<@ba.vup>+3</>（每场战斗分别至多触发<@ba.vup>7</>次）"
 }

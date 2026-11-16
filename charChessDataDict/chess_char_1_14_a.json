@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_1_14_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<售出时>进入下个休整期额外获得<@ba.vup>1</>资金"
 }

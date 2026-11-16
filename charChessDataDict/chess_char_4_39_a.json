@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_4_39_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>首次开启技能时，使已激活的【奇迹】【奥术】层数<@ba.vup>+5</>"
 }

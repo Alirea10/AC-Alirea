@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_2_17_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<休整期结束时>使已激活的【坚守】【乌萨斯】层数<@ba.vup>+4</>"
 }

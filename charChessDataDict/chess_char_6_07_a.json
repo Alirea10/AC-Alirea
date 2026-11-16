@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_6_07_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<休整期结束时>场上每有<@ba.vup>1</>名不同阶的【维多利亚】/【奇迹】干员使已激活的【维多利亚】层数<@ba.vup>+3</>/【奇迹】层数<@ba.vup>+2</>"
 }

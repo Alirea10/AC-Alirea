@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_1_09_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "攻击无人机敌人时攻击力提升至<@ba.vup>150%</>"
 }

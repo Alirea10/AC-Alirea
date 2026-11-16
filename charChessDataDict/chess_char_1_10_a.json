@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_1_10_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "技力自然恢复速度<@ba.vup>+0.15/秒</>"
 }

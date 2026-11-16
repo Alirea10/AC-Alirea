@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_rhodes_4_31_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<获得时>获得<@ba.vup>1</>个“M<@ba.vup>3</>茧甲”\n精锐后变为【灵巧】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+2%</>"
 }

@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_2_19_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "攻击力和生命值+<@ba.vup>20%</>；【投资人】【迅捷】每叠加<@autochess.dgreen>3</>层，本干员攻击力和生命值<@ba.vup>+1%</>"
 }

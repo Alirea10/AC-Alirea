@@ -15,7 +15,7 @@
   },
   "upgradeChessId": "chess_hero_6_34_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”\n购买价格+<@ba.vup>2</>"
 }

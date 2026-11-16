@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_ursus_4_28_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>开启技能时，使已激活的【乌萨斯】【精准】层数<@ba.vup>+5</>"
 }

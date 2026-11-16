@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_5_10_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果"
 }

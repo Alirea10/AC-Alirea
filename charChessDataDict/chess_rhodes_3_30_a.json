@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_rhodes_3_30_b",
   "upgradeNum": 1,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<获得时>获得<@ba.vup>1</>个“信标”\n购买价格+<@ba.vup>3</>"
 }

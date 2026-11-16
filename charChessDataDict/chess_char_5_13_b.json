@@ -13,7 +13,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>自身被击倒或替身与本体进行切换时，使已激活的【阿戈尔】层数<@ba.vup>+10</>、【不屈】层数<@ba.vup>+10</>"
 }

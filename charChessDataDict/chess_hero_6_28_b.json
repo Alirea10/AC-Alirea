@@ -14,7 +14,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。”\n购买价格+<@ba.vup>2</>"
 }

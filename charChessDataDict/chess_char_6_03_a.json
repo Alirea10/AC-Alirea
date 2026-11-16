@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_6_03_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<进入休整期时>若同一行有<@ba.vup>3</>名干员，随机获得<@ba.vup>1</>名当前人数最多盟约的干员"
 }

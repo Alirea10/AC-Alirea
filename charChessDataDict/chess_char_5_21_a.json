@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_5_21_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<进入休整期时><休整期结束时>使已激活的【远见】层数<@ba.vup>+4</>"
 }

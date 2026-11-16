@@ -14,7 +14,7 @@
   },
   "upgradeChessId": null,
   "upgradeNum": 0,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗中>攻击力和生命值+<@ba.vup>60%</>,前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【罗德岛】层数<@ba.vup>+8</>"
 }

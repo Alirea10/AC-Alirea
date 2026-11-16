@@ -14,7 +14,7 @@
   },
   "upgradeChessId": "chess_char_2_12_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<部署时>使已激活的【卡西米尔】层数<@ba.vup>+1</>\n<被击倒时>使已激活的【不屈】层数<@ba.vup>+2</>"
 }

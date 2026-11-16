@@ -13,7 +13,7 @@
   },
   "upgradeChessId": "chess_char_5_14_b",
   "upgradeNum": 3,
-  "equipSlotNum": 3,
+  "equipSlotNum": 2,
   "showTag": null,
   "desc": "<战斗开始时>使身前一格【谢拉格】干员获得特质“范围内<@ba.vup>1</>名敌人进入冻结时，有<@ba.vup>60%</>概率使已激活的【谢拉格】层数<@ba.vup>+1</>”"
 }
