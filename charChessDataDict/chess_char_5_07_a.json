@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<部署时>使已激活的【突袭】层数<@ba.vup>+8</>（每场作战至多<@ba.vup>50</>层）"
 }

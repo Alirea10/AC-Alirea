@@ -16,5 +16,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "开启技能时，使已激活的【Mujica】层数+<@ba.vup>8</>（最多叠加<@ba.vup>24</>层），\n【投资人】【Mujica】每叠加三层，本干员攻击力和生命值+<@ba.vup>1%</>"
 }

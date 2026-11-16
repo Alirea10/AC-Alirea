@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>战斗中当本干员身前一格的干员因特质使层数提升时，使其额外层数<@ba.vup>+1</>"
 }

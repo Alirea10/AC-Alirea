@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>自身被击倒时，使已激活的【阿戈尔】层数<@ba.vup>+3</>"
 }

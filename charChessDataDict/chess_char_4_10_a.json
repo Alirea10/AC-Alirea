@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<休整期结束时>本回合每刷新过<@ba.vup>1</>次，使已激活的【叙拉古】【奥术】层数<@ba.vup>+2</>（至多<@ba.vup>6</>层）"
 }

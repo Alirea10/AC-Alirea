@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+2</>，此干员在整备区时也有效"
 }

@@ -16,5 +16,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>本干员每开启<@autochess.dgreen>3</>次技能，使已激活的【萨米】【灵巧】层数各随机变化<@ba.vdown>-4</>～<@ba.vup>8</>层\n<@autochess.gray>（两盟约共用同一次抽取结果，每场战斗最多触发<@ba.vup>6</>次，复活不重置次数）</>"
 }

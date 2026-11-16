@@ -15,5 +15,5 @@
   "upgradeNum": 0,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>首次开启技能时，使已激活的【萨尔贡】层数<@ba.vup>+10</>"
 }

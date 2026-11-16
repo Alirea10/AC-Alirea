@@ -15,5 +15,5 @@
   "upgradeNum": 0,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<进入休整期时>若当前为奇数回合，获得<@ba.vup>2</>件随机装备"
 }

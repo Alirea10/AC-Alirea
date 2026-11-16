@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>自身<@ba.vup>周围4格</>的干员每消耗<@ba.vup>6</>发弹药，使已激活的【拉特兰】层数<@ba.vup>+1</>"
 }

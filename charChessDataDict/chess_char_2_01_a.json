@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>首次击倒敌人时，使已激活的【精准】【拉特兰】层数<@ba.vup>+3</>"
 }

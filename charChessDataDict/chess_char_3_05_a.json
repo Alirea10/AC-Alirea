@@ -15,5 +15,5 @@
   "upgradeNum": 3,
   "equipSlotNum": 3,
   "showTag": null,
-  "desc": null
+  "desc": "<战斗中>每击倒<@autochess.dgreen>2</>名单位时，使已激活的【阿戈尔】【坚守】【突袭】层数<@ba.vup>+1</>"
 }
