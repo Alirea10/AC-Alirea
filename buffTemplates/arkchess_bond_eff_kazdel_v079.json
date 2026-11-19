@@ -102,28 +102,14 @@
             "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
           },
           {
-            "$type": "Torappu.Battle.Action.Nodes+AssignStringConcat, Assembly-CSharp",
-            "_input1IsInt": true,
-            "_input1Str": "",
-            "_input1Int": 0,
-            "_input1Key": "autochess_player_index",
-            "_input2IsInt": false,
-            "_input2Str": ".kazdel_extra_bond_stack_cnt",
-            "_input2Int": 0,
-            "_input2Key": "",
-            "_outputKey": "kazdel_extra_bond_stack_cnt[key]"
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+AssignStringConcat, Assembly-CSharp",
-            "_input1IsInt": false,
-            "_input1Str": "",
-            "_input1Int": 0,
-            "_input1Key": "kazdel_extra_bond_stack_cnt[key]",
-            "_input2IsInt": false,
-            "_input2Str": "[power]",
-            "_input2Int": 0,
-            "_input2Key": "",
-            "_outputKey": "kazdel_extra_bond_stack_cnt[key][power]"
+            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+            "_blackboardKey": "damage_bond_stack_contribution",
+            "_blackboardSource": "CURRENT",
+            "_keySource": "CONSTANT",
+            "_keyTargetType": "TARGET",
+            "_value": 0,
+            "_copyFromKey": null,
+            "_assignString": false
           }
         ],
         "_failNodes": [
@@ -202,119 +188,77 @@
         "_formulaType": "MULTIPLIER"
       }
     ],
-    "ON_TARGET_KILLED": [
+    "ON_TAKE_DAMAGE": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
+        "_filterAttackType": false,
+        "_attackTypeFilter": "NONE",
+        "_filterDamageType": false,
+        "_damageMask": "NONE",
+        "_filterSharedMask": false,
+        "_sharedFlag": "IS_CONTINUOUS",
+        "_filterModifierSource": false,
+        "_source": "BUFF_OWNER",
+        "_filterBySourceId": false,
+        "_sourceId": null,
+        "_checkHasScource": false,
+        "_isNoSource": false,
+        "_filterModifierCancelled": true,
+        "_filterApplyWay": false,
+        "_applyWay": "NONE"
+      },
       {
         "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
         "_conditionsNode": [
           {
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_getPlayerIndexFormBB": false,
+            "_playerIndexBBKey": "autochess_player_index",
+            "_bondId": "kazdelShip",
+            "_keyToStoreCnt": "bond_char_cnt",
+            "_filterCount": true,
+            "_keyToCompare": "power_bond_char_cnt",
+            "_condType": "GE",
+            "_useMaxBondCharCntInCurArea": false
+          },
+          {
             "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
             "_targetType": "BUFF_OWNER",
             "_anotherBuff": false,
             "_buffKey": null,
-            "_blackboardKey": "bond_char_cnt",
+            "_blackboardKey": "damage_bond_stack_contribution",
             "_blackboardKeyFromBb": null,
             "_valueToCompare": 0,
-            "_anotherKeyToCompare": "power_bond_char_cnt",
-            "_condType": "GE"
+            "_anotherKeyToCompare": "damage_bond_stack_cap",
+            "_condType": "LT"
           }
         ],
         "_succeedNodes": [
           {
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
-            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
-            "_blackboardSource": "CURRENT",
-            "_keySource": "CONSTANT",
-            "_keyTargetType": "TARGET",
-            "_value": 0,
-            "_copyFromKey": "temp_bond_stack_cnt[power]",
-            "_assignString": false
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
-            "_globalblackboardKey": null,
-            "_globalBbKeyFormBb": "kazdel_extra_bond_stack_cnt[key][power]",
-            "_blackboardKey": "extra_bond_stack_cnt",
-            "_channel": "AUTOCHESS",
-            "_assignString": false
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
-            "_targetType": "BUFF_OWNER",
-            "_anotherBuff": false,
-            "_buffKey": null,
-            "_blackboardKey": "extra_bond_stack_cnt",
-            "_blackboardKeyFromBb": null,
-            "_valueToCompare": 0,
-            "_anotherKeyToCompare": null,
-            "_condType": "GT"
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAddBondStackCount, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_useTargetBond": false,
+            "_bondIds": [
+              "kazdelShip"
+            ],
+            "_countDefault": 1,
+            "_countKey": "damage_bond_stack_per_hit",
+            "_isTemp": true
           },
           {
             "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp",
-            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
+            "_blackboardKey": "damage_bond_stack_contribution",
             "_blackboardKeyFromBb": null,
-            "_addition": 0,
-            "_additionKey": "extra_bond_stack_cnt",
+            "_addition": 1,
+            "_additionKey": null,
             "_isFloat": false,
-            "_outputKey": "temp_bond_stack_cnt[add_value]",
-            "_maxKey": null
+            "_outputKey": "damage_bond_stack_contribution",
+            "_maxKey": "damage_bond_stack_cap"
           }
         ],
-        "_failNodes": [
-          {
-            "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
-            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
-            "_blackboardSource": "CURRENT",
-            "_keySource": "CONSTANT",
-            "_keyTargetType": "TARGET",
-            "_value": 0,
-            "_copyFromKey": "temp_bond_stack_cnt",
-            "_assignString": false
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+AssignGlobalBlackboardToBlackboard, Assembly-CSharp",
-            "_globalblackboardKey": null,
-            "_globalBbKeyFormBb": "kazdel_extra_bond_stack_cnt[key]",
-            "_blackboardKey": "extra_bond_stack_cnt",
-            "_channel": "AUTOCHESS",
-            "_assignString": false
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+FilterByBlackboardValue, Assembly-CSharp",
-            "_targetType": "BUFF_OWNER",
-            "_anotherBuff": false,
-            "_buffKey": null,
-            "_blackboardKey": "extra_bond_stack_cnt",
-            "_blackboardKeyFromBb": null,
-            "_valueToCompare": 0,
-            "_anotherKeyToCompare": null,
-            "_condType": "GT"
-          },
-          {
-            "$type": "Torappu.Battle.Action.Nodes+BlackboardAdd, Assembly-CSharp",
-            "_blackboardKey": "temp_bond_stack_cnt[add_value]",
-            "_blackboardKeyFromBb": null,
-            "_addition": 0,
-            "_additionKey": "extra_bond_stack_cnt",
-            "_isFloat": false,
-            "_outputKey": "temp_bond_stack_cnt[add_value]",
-            "_maxKey": null
-          }
-        ],
+        "_failNodes": null,
         "_isAnd": false
-      },
-      {
-        "$type": "Torappu.Battle.Action.Nodes+AlwaysNext, Assembly-CSharp"
-      },
-      {
-        "$type": "Torappu.Battle.Action.Nodes+AutoChessAddBondStackCount, Assembly-CSharp",
-        "_target": "BUFF_OWNER",
-        "_useTargetBond": false,
-        "_bondIds": [
-          "kazdelShip"
-        ],
-        "_countDefault": 1,
-        "_countKey": "temp_bond_stack_cnt[add_value]",
-        "_isTemp": true
       }
     ]
   }

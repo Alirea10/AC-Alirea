@@ -33,16 +33,6 @@
         "valueStr": null
       },
       {
-        "key": "temp_bond_stack_cnt",
-        "value": 2.0,
-        "valueStr": null
-      },
-      {
-        "key": "temp_bond_stack_cnt[power]",
-        "value": 4.0,
-        "valueStr": null
-      },
-      {
         "key": "atk_scale_per_stack",
         "value": 0.0024999999441206455,
         "valueStr": null
@@ -70,6 +60,16 @@
       {
         "key": "bleed_duration",
         "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "damage_bond_stack_per_hit",
+        "value": 1,
+        "valueStr": null
+      },
+      {
+        "key": "damage_bond_stack_cap",
+        "value": 50,
         "valueStr": null
       }
     ]
