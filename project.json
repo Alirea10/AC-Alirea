@@ -6323,7 +6323,9 @@
           "enemy_9008_acbunn",
           "enemy_9009_acfort",
           "enemy_9010_acpupp",
-          "enemy_9011_acrefr"
+          "enemy_9011_acrefr",
+          "enemy_9025_aclts",
+          "enemy_9026_acltm"
         ],
         "modeAliases": {
           "mode_single_abyss": "mode_single_20",
