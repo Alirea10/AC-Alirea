@@ -6197,6 +6197,7 @@
         },
         "preloadEnemies": [
           "enemy_10001_trslim",
+          "enemy_1000_gopro_3",
           "enemy_10018_sgrobh",
           "enemy_10027_vtsk",
           "enemy_10044_wintun",
@@ -6323,9 +6324,7 @@
           "enemy_9008_acbunn",
           "enemy_9009_acfort",
           "enemy_9010_acpupp",
-          "enemy_9011_acrefr",
-          "enemy_9025_aclts",
-          "enemy_9026_acltm"
+          "enemy_9011_acrefr"
         ],
         "modeAliases": {
           "mode_single_abyss": "mode_single_20",
