@@ -188,6 +188,18 @@
         "_formulaType": "MULTIPLIER"
       }
     ],
+    "ON_AUTO_CHESS_MODE_CHANGED": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "damage_bond_stack_contribution",
+        "_blackboardSource": "CURRENT",
+        "_keySource": "CONSTANT",
+        "_keyTargetType": "TARGET",
+        "_value": 0,
+        "_copyFromKey": null,
+        "_assignString": false
+      }
+    ],
     "ON_TAKE_DAMAGE": [
       {
         "$type": "Torappu.Battle.Action.Nodes+FilterDamageModifer, Assembly-CSharp",
