@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【乌萨斯】干员有<@ba.vup>{0:0%}</>概率<@autochess.gray>（受层数影响）</>造成<@ba.vup>{1:0%}</>伤害 <@autochess.gray>（受层数影响）</>\n<在场6名不同【乌萨斯】干员>【乌萨斯】干员触发暴击时额外使目标获得一层<$ba.palsy>麻痹</>\n<@ba.acrem>乌萨斯可以使用 催泪瓦斯 进行转职</>",
+  "effectDesc": "【乌萨斯】干员有<@ba.vup>{0:0%}</>概率<@ba.acrem>（受层数影响）</>造成<@ba.vup>{1:0%}</>伤害<@ba.acrem>（受层数影响）</>；【乌萨斯】干员击倒其他单位时为【乌萨斯】叠加<@ba.vup>2</>层临时层数，击倒敌人时自身获得<@ba.vup>5</>秒<@ba.vup>{2:0.00%}</>的庇护<@ba.acrem>（受层数影响）</><@ba.acrem>（不可叠加）</>\n<在场<@ba.vup>6</>名不同的【乌萨斯】干员>【乌萨斯】干员触发暴击时额外使目标获得一层<$ba.palsy>麻痹</>；【乌萨斯】干员击倒其他单位时叠加的临时层数提升至<@ba.vup>4</>层\n<@ba.acrem>乌萨斯可以使用 催泪瓦斯 进行转职</>",
   "effectId": "bondeffect_ursus",
   "effectName": "乌萨斯",
   "effectType": "BOND",

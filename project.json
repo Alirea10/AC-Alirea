@@ -8267,6 +8267,11 @@
             "descParamBase": "base_damage_scale",
             "descParamPerStack": "damage_scale_per_stack",
             "descParamMax": 0
+          },
+          {
+            "descParamBase": "shelter_base",
+            "descParamMax": 1,
+            "descParamPerStack": "shelter_per_stack"
           }
         ],
         "phaseType": "STACK_COUNT",

@@ -35,6 +35,31 @@
         "key": "disarmed_duration",
         "value": 3,
         "valueStr": null
+      },
+      {
+        "key": "temp_bond_stack_cnt",
+        "value": 2,
+        "valueStr": null
+      },
+      {
+        "key": "temp_bond_stack_cnt[power]",
+        "value": 4,
+        "valueStr": null
+      },
+      {
+        "key": "shelter_base",
+        "value": 0.1,
+        "valueStr": null
+      },
+      {
+        "key": "shelter_per_stack",
+        "value": 0.0005,
+        "valueStr": null
+      },
+      {
+        "key": "shelter_max",
+        "value": 1,
+        "valueStr": null
       }
     ],
     "countType": "NONE",
