@@ -49,18 +49,16 @@
     "chess_char_1_11_v079_2_a",
     "chess_char_1_11_v079_2_b"
   ],
-  "desc": "<@ba.vup>女皇之声</>：\n处于<@ba.vup>激昂</>时，所有【莱塔尼亚】干员的攻击速度提升<@ba.vup>40%</><@autochess.gray>（受层数影响）</>\n处于<@ba.vup>低沉</>时，所有【莱塔尼亚】干员造成的法术伤害提升<@ba.vup>20%</><@autochess.gray>（受层数影响）</>\n激昂与低沉切换后，上一种效果额外持续<@ba.vup>5秒</>\n处于<@ba.vup>沉寂</>时，所有【莱塔尼亚】干员每秒回复自身<@ba.vup>1</>技力\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员> 每对敌人造成法术伤害，其受到的法术伤害提高<@autochess.gray>（受层数影响）</>，叠加至<@ba.vup>15</>层时，使其移动速度减少<@ba.vup>40%</>至多提升至可叠加<@ba.vup>30</>层",
+  "desc": "【莱塔尼亚】干员和召唤物攻击力<@ba.vup>提升</><@autochess.gray>（受层数影响）</>，场上敌方单位被击倒时在附近召唤<@ba.vup>“一个小节”</><@autochess.gray>（场上最多存在10个）</>\n<在场<@autochess.dgreen>6</>名不同【莱塔尼亚】干员>召唤<@ba.vup>“一个小节”</>时有一定概率<@autochess.gray>（受层数影响）</>改为召唤<@ba.vup>“一个乐部”</>，在场时使【莱塔尼亚】干员<@ba.vup>攻击速度</>提升，场上【莱塔尼亚】召唤物上限提升至<@ba.vup>20</>个；场上我方干员被击倒时会额外召唤<@ba.vup>“一个小节”</>",
   "descParamBaseList": [
-    "base_attack_speed",
-    "base_damage_scale",
-    "hp_regen_ratio"
+    "atk_base",
+    "big_prob_base"
   ],
   "descParamPerStackList": [
-    "attack_speed_per_stack",
-    "damage_scale_per_stack",
-    ""
+    "atk_per_stack",
+    "big_prob_per_stack"
   ],
-  "effectId": "bondeffect_leithanien",
+  "effectId": "bondeffect_lethania",
   "iconId": "",
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,

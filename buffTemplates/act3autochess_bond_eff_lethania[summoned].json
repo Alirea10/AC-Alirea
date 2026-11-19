@@ -1,0 +1,86 @@
+{
+  "templateKey": "act3autochess_bond_eff_lethania[summoned]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignStringConcat, Assembly-CSharp",
+        "_input1IsInt": true,
+        "_input1Str": "",
+        "_input1Int": 0,
+        "_input1Key": "autochess_player_index",
+        "_input2IsInt": false,
+        "_input2Str": ".bond_eff_lethania[summon_cnt]",
+        "_input2Int": 0,
+        "_input2Key": "",
+        "_outputKey": "summon_cnt_key"
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+        "_blackboardKey": "",
+        "_bbKeyFormBb": "summon_cnt_key",
+        "_channel": "AUTOCHESS",
+        "_value": 1,
+        "_valueBlackboardKey": "",
+        "_addString": false,
+        "_valueStr": null,
+        "_overwrite": false
+      }
+    ],
+    "ON_BUFF_FINISH": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AddGlobalBlackboard, Assembly-CSharp",
+        "_blackboardKey": "",
+        "_bbKeyFormBb": "summon_cnt_key",
+        "_channel": "AUTOCHESS",
+        "_value": -1,
+        "_valueBlackboardKey": "",
+        "_addString": false,
+        "_valueStr": null,
+        "_overwrite": false
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_getPlayerIndexFormBB": true,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_bondBlackboardKey": "",
+        "_bondId": "leithanienShip",
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_checkDiffWithOldStoreCnt": false,
+        "_byPosition": false,
+        "_assignCurrentMaxBond": false,
+        "_assignAllPlayerIndex": false,
+        "_useMaxBondStackCntInCurArea": true
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "atk_per_stack",
+        "_outputKey": "atk_final",
+        "_multiplyParamKey": "bond_stack_cnt",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "atk_base",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": "",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "ATK",
+        "_valueKey": "atk_final",
+        "_formulaType": "MULTIPLIER"
+      }
+    ]
+  }
+}

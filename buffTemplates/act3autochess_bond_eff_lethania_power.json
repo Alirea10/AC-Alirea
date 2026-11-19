@@ -1,0 +1,91 @@
+{
+  "templateKey": "act3autochess_bond_eff_lethania_power",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_OWNER_KILLED": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterDeathReason, Assembly-CSharp",
+            "_source": "BUFF_OWNER",
+            "_finishReason": "HP_ZERO"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterDeathReason, Assembly-CSharp",
+            "_source": "BUFF_OWNER",
+            "_finishReason": "HP_ZERO_WITH_NO_SOURCE"
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FilterDeathReason, Assembly-CSharp",
+            "_source": "BUFF_OWNER",
+            "_finishReason": "FALLDOWN"
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+            "_buff": {
+              "attributes": {
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "abnormalAntis": [],
+                "abnormalCombos": [],
+                "abnormalComboImmunes": [],
+                "attributeModifiers": []
+              },
+              "buffKey": "act3autochess_bond_eff_lethania[summoner]",
+              "loadFromDB": false,
+              "isDurableBuff": false,
+              "isDamageMissable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isGroundBoundable": false,
+              "statusResistable": "AUTOMATIC",
+              "templateKey": "act3autochess_bond_eff_lethania[summoner]",
+              "disableOverride": true,
+              "overrideKey": null,
+              "overrideType": "DEFAULT",
+              "maxStackCnt": 1,
+              "refreshRemainingTimeWhenStackMax": false,
+              "clearAllStackCntWhenTimeUp": false,
+              "maxValidStackCnt": -1,
+              "independentCharacterSource": false,
+              "overrideEffectKey": null,
+              "overrideOnEventPriority": false,
+              "onEventPriority": "DEFAULT",
+              "audioSignal": null,
+              "lifeTimeType": "IMMEDIATELY",
+              "takeSnapshotWhenExtend": false,
+              "durationKey": null,
+              "remainingTimeKey": null,
+              "lifeTime": 0,
+              "triggerLifeType": "IMMEDIATELY",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "waitFirstTriggerInterval": true,
+              "firstTriggerInterval": -1,
+              "priority": -1,
+              "priorityBBKeys": [],
+              "stripBlackboardParamsWithBuffKey": false,
+              "blackboard": [],
+              "enableInitDirectionFromSource": false
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_useSpecialBuffSource": false,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_isDerivedBuff": false,
+            "_finishDerivedBuffIfParentFinish": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_hookEffectKeyFromSourceProjectile": false
+          }
+        ],
+        "_failNodes": null,
+        "_isAnd": false
+      }
+    ]
+  }
+}

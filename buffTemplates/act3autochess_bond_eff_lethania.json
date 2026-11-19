@@ -1,0 +1,145 @@
+{
+  "templateKey": "act3autochess_bond_eff_lethania",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+IfConditions, Assembly-CSharp",
+        "_conditionsNode": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessFilterCharacterBondIds, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_bondIds": [
+              "leithanienShip"
+            ],
+            "_bondIdsKey": null,
+            "_checkTargetInRangeId": null,
+            "_considerManiShip": true
+          }
+        ],
+        "_succeedNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondCharCntToBB, Assembly-CSharp",
+            "_target": "BUFF_OWNER",
+            "_getPlayerIndexFormBB": false,
+            "_playerIndexBBKey": "autochess_player_index",
+            "_bondId": "leithanienShip",
+            "_keyToStoreCnt": "bond_char_cnt",
+            "_filterCount": true,
+            "_keyToCompare": "power_bond_char_cnt",
+            "_condType": "GE",
+            "_useMaxBondCharCntInCurArea": false
+          },
+          {
+            "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+            "_buff": {
+              "attributes": {
+                "abnormalFlags": [],
+                "abnormalImmunes": [],
+                "abnormalAntis": [],
+                "abnormalCombos": [],
+                "abnormalComboImmunes": [],
+                "attributeModifiers": []
+              },
+              "buffKey": "act3autochess_bond_eff_lethania_power",
+              "loadFromDB": false,
+              "isDurableBuff": true,
+              "isDamageMissable": false,
+              "isSilenceable": false,
+              "isStunnable": false,
+              "isFreezable": false,
+              "isLevitatable": false,
+              "isGroundBoundable": false,
+              "statusResistable": "AUTOMATIC",
+              "templateKey": "act3autochess_bond_eff_lethania_power",
+              "disableOverride": false,
+              "overrideKey": null,
+              "overrideType": "UNIQUE",
+              "maxStackCnt": 1,
+              "refreshRemainingTimeWhenStackMax": false,
+              "clearAllStackCntWhenTimeUp": false,
+              "maxValidStackCnt": -1,
+              "independentCharacterSource": false,
+              "overrideEffectKey": null,
+              "overrideOnEventPriority": false,
+              "onEventPriority": "DEFAULT",
+              "audioSignal": null,
+              "lifeTimeType": "INFINITY",
+              "takeSnapshotWhenExtend": false,
+              "durationKey": null,
+              "remainingTimeKey": null,
+              "lifeTime": 0,
+              "triggerLifeType": "IMMEDIATELY",
+              "triggerCnt": 0,
+              "triggerInterval": -1,
+              "waitFirstTriggerInterval": true,
+              "firstTriggerInterval": -1,
+              "priority": -1,
+              "priorityBBKeys": [],
+              "stripBlackboardParamsWithBuffKey": false,
+              "blackboard": [],
+              "enableInitDirectionFromSource": false
+            },
+            "_buffOwner": "BUFF_OWNER",
+            "_useSpecialBuffSource": false,
+            "_specialBuffSource": "BUFF_SOURCE",
+            "_isDerivedBuff": false,
+            "_finishDerivedBuffIfParentFinish": false,
+            "_inherateSourceProjectileFromParentBuff": false,
+            "_hookEffectKeyFromSourceProjectile": false
+          }
+        ],
+        "_failNodes": [
+          {
+            "$type": "Torappu.Battle.Action.Nodes+FinishBuff, Assembly-CSharp",
+            "_decCntIfStack": false,
+            "_updateOverrideMap": true
+          }
+        ],
+        "_isAnd": false
+      }
+    ],
+    "ON_BUFF_TRIGGER": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AutoChessAssignBondStackCntToBB, Assembly-CSharp",
+        "_target": "BUFF_OWNER",
+        "_getPlayerIndexFormBB": false,
+        "_playerIndexBBKey": "autochess_player_index",
+        "_bondBlackboardKey": "",
+        "_bondId": "leithanienShip",
+        "_keyToStoreCnt": "bond_stack_cnt",
+        "_checkDiffWithOldStoreCnt": false,
+        "_byPosition": false,
+        "_assignCurrentMaxBond": false,
+        "_assignAllPlayerIndex": false,
+        "_useMaxBondStackCntInCurArea": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CalculateBlackboardValueViaParams, Assembly-CSharp",
+        "_inputKey": "atk_per_stack",
+        "_outputKey": "atk_final",
+        "_multiplyParamKey": "bond_stack_cnt",
+        "_dividedParamKey": null,
+        "_useRemainder": false,
+        "_addParamKey": "atk_base",
+        "_minusParamKey": null,
+        "_minValueKey": null,
+        "_maxValueKey": "",
+        "_finalAbs": false,
+        "_finalCeil": false,
+        "_finalFloor": false,
+        "_finalRound": false,
+        "_useAbilityBlackboard": false,
+        "_abilityName": ""
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AttributeModifierWithBB, Assembly-CSharp",
+        "_targetType": "BUFF_OWNER",
+        "_attributeType": "ATK",
+        "_valueKey": "atk_final",
+        "_formulaType": "MULTIPLIER"
+      }
+    ]
+  }
+}

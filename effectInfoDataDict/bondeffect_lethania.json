@@ -1,0 +1,12 @@
+{
+  "effectId": "bondeffect_lethania",
+  "effectType": "BOND",
+  "effectCounterType": "NONE",
+  "continuedRound": -1,
+  "effectName": "莱塔尼亚",
+  "effectDesc": "【莱塔尼亚】干员和召唤物攻击力<@ba.vup>+{0:0%}</><@ba.acrem>（受层数影响）</>，场上敌人被击倒时在附近召唤“一个小节”（场上最多存在10个）\n<在场<@ba.vup>6</>名不同的【莱塔尼亚】干员>召唤“一个小节”时<@ba.vup>{1:0%}概率</><@ba.acrem>（受层数影响）</>改为召唤“一个乐部”，在场时使【莱塔尼亚】干员攻速+20；场上【莱塔尼亚】召唤物上限提升至20；场上我方干员被击倒时会额外召唤“一个小节”",
+  "effectDecoIconId": null,
+  "enemyPrice": 0,
+  "showTag": null,
+  "displayInHUD": false
+}

@@ -1,0 +1,77 @@
+{
+  "templateKey": "act3autochess_bond_eff_lethania[enemy][stripbb]",
+  "effectKey": "",
+  "onEventPriority": "DEFAULT",
+  "eventToActions": {
+    "ON_BUFF_START": [
+      {
+        "$type": "Torappu.Battle.Action.Nodes+AssignValueToBB, Assembly-CSharp",
+        "_blackboardKey": "act3autochess_bond_eff_lethania[enemy].autochess_player_index",
+        "_blackboardSource": "CURRENT",
+        "_keySource": "CONSTANT",
+        "_keyTargetType": "TARGET",
+        "_value": 0,
+        "_copyFromKey": "autochess_player_index",
+        "_assignString": false
+      },
+      {
+        "$type": "Torappu.Battle.Action.Nodes+CreateBuff, Assembly-CSharp",
+        "_buff": {
+          "attributes": {
+            "abnormalFlags": [],
+            "abnormalImmunes": [],
+            "abnormalAntis": [],
+            "abnormalCombos": [],
+            "abnormalComboImmunes": [],
+            "attributeModifiers": []
+          },
+          "buffKey": "act3autochess_bond_eff_lethania[enemy]",
+          "loadFromDB": false,
+          "isDurableBuff": true,
+          "isDamageMissable": false,
+          "isSilenceable": false,
+          "isStunnable": false,
+          "isFreezable": false,
+          "isLevitatable": false,
+          "isGroundBoundable": false,
+          "statusResistable": "AUTOMATIC",
+          "templateKey": "act3autochess_bond_eff_lethania[enemy]",
+          "disableOverride": false,
+          "overrideKey": null,
+          "overrideType": "UNIQUE",
+          "maxStackCnt": 1,
+          "refreshRemainingTimeWhenStackMax": false,
+          "clearAllStackCntWhenTimeUp": false,
+          "maxValidStackCnt": -1,
+          "independentCharacterSource": false,
+          "overrideEffectKey": null,
+          "overrideOnEventPriority": false,
+          "onEventPriority": "DEFAULT",
+          "audioSignal": null,
+          "lifeTimeType": "INFINITY",
+          "takeSnapshotWhenExtend": false,
+          "durationKey": null,
+          "remainingTimeKey": null,
+          "lifeTime": 0,
+          "triggerLifeType": "IMMEDIATELY",
+          "triggerCnt": 0,
+          "triggerInterval": -1,
+          "waitFirstTriggerInterval": true,
+          "firstTriggerInterval": -1,
+          "priority": -1,
+          "priorityBBKeys": [],
+          "stripBlackboardParamsWithBuffKey": true,
+          "blackboard": [],
+          "enableInitDirectionFromSource": false
+        },
+        "_buffOwner": "BUFF_OWNER",
+        "_useSpecialBuffSource": false,
+        "_specialBuffSource": "BUFF_SOURCE",
+        "_isDerivedBuff": false,
+        "_finishDerivedBuffIfParentFinish": false,
+        "_inherateSourceProjectileFromParentBuff": false,
+        "_hookEffectKeyFromSourceProjectile": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_lethania"
+      },
+      {
+        "key": "atk_per_stack",
+        "value": 0.009999999776482582,
+        "valueStr": null
+      },
+      {
+        "key": "atk_base",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "summon_cnt_max_1",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "summon_cnt_max_2",
+        "value": 20.0,
+        "valueStr": null
+      },
+      {
+        "key": "summon_prob_base",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "summon_prob_per_stack",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "summon_prob_max",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "big_prob_base",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "big_prob_per_stack",
+        "value": 0.0010000000474974513,
+        "valueStr": null
+      },
+      {
+        "key": "big_prob_max",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  },
+  {
+    "key": "env_gbuff_new",
+    "blackboard": [
+      {
+        "key": "key",
+        "value": 0,
+        "valueStr": "act3autochess_bond_eff_lethania[enemy]"
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].atk_per_stack",
+        "value": 0.009999999776482582,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].atk_base",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].power_bond_char_cnt",
+        "value": 6.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].summon_cnt_max_1",
+        "value": 10.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].summon_cnt_max_2",
+        "value": 20.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].summon_prob_base",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].summon_prob_per_stack",
+        "value": 0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].summon_prob_max",
+        "value": 1.0,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].big_prob_base",
+        "value": 0.30000001192092896,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].big_prob_per_stack",
+        "value": 0.0010000000474974513,
+        "valueStr": null
+      },
+      {
+        "key": "act3autochess_bond_eff_lethania[enemy].big_prob_max",
+        "value": 1.0,
+        "valueStr": null
+      }
+    ]
+  }
+]

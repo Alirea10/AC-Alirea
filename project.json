@@ -7904,6 +7904,25 @@
         "phaseType": "STACK_COUNT",
         "bondPhaseCountList": []
       },
+      "bondeffect_lethania": {
+        "descParamInfos": [
+          {
+            "descParamBase": "atk_base",
+            "descParamPerStack": "atk_per_stack",
+            "descParamMax": 0
+          },
+          {
+            "descParamBase": "big_prob_base",
+            "descParamPerStack": "big_prob_per_stack",
+            "descParamMax": 1.0
+          }
+        ],
+        "phaseType": "PEOPLE_COUNT",
+        "bondPhaseCountList": [
+          3,
+          6
+        ]
+      },
       "bondeffect_leithanien": {
         "descParamInfos": [
           {
