@@ -11,7 +11,7 @@
   "defaultSkillIndex": 1,
   "defaultUniEquipId": "uniequip_002_swire2",
   "goldenChessId": "chess_char_3_04_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 4,
   "tmplId": null
 }

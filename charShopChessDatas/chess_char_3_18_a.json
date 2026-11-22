@@ -11,7 +11,7 @@
   "defaultSkillIndex": 2,
   "defaultUniEquipId": "uniequip_002_vulpis",
   "goldenChessId": "chess_char_3_18_b",
-  "isHidden": true,
+  "isHidden": false,
   "shopLevelSortId": 18,
   "tmplId": null
 }

@@ -11,7 +11,7 @@
   "defaultSkillIndex": 0,
   "defaultUniEquipId": "uniequip_003_lessng",
   "goldenChessId": "chess_leithanien_4_34_b",
-  "isHidden": false,
+  "isHidden": true,
   "shopLevelSortId": 34,
   "tmplId": null
 }

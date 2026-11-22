@@ -1,25 +1,15 @@
 {
-  "bondId": "arcaneShip",
-  "name": "奥术",
-  "desc": "【奥术】干员造成伤害时，额外附加一次一定攻击力的<@ba.vup>法术伤害</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【奥术】干员>场上所有敌人每次受到伤害时<@ba.vup>法术抗性降低</><@autochess.gray>（上限受层数影响）</>；【奥术】干员攻击范围内敌人的隐匿效果<@ba.vup>失效</>",
-  "iconId": "icon_arcaneShip",
-  "activeCount": 2,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 2,
   "activeParamList": [
     "2"
   ],
-  "effectId": "bondeffect_arcane",
   "activeType": "BATTLE",
-  "weight": 10,
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "noStack": false,
-  "noSelect": false,
+  "bondId": "arcaneShip",
   "chessIdList": [
     "chess_char_1_17_a",
     "chess_char_2_10_a",
-    "chess_char_2_15_a",
     "chess_char_3_09_a",
     "chess_char_4_02_a",
     "chess_char_4_10_a",
@@ -29,7 +19,6 @@
     "chess_char_6_16_a",
     "chess_char_1_17_b",
     "chess_char_2_10_b",
-    "chess_char_2_15_b",
     "chess_char_3_09_b",
     "chess_char_4_02_b",
     "chess_char_4_10_b",
@@ -37,8 +26,6 @@
     "chess_char_5_12_b",
     "chess_char_6_02_b",
     "chess_char_6_16_b",
-    "chess_ursus_2_21_a",
-    "chess_ursus_2_21_b",
     "chess_ursus_5_25_a",
     "chess_ursus_5_25_b",
     "chess_char_5_24_b",
@@ -88,6 +75,17 @@
     "chess_char_6_16_v079_2_a",
     "chess_char_6_16_v079_2_b",
     "chess_char_5_12_v079_a",
-    "chess_char_5_12_v079_b"
-  ]
+    "chess_char_5_12_v079_b",
+    "chess_char_6_07_v079_2_a",
+    "chess_char_6_07_v079_2_b"
+  ],
+  "desc": "【奥术】干员造成伤害时，额外附加一次一定攻击力的<@ba.vup>法术伤害</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【奥术】干员>场上所有敌人每次受到伤害时<@ba.vup>法术抗性降低</><@autochess.gray>（上限受层数影响）</>；【奥术】干员攻击范围内敌人的隐匿效果<@ba.vup>失效</>",
+  "effectId": "bondeffect_arcane",
+  "iconId": "icon_arcaneShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "奥术",
+  "noSelect": false,
+  "noStack": false,
+  "weight": 10
 }
