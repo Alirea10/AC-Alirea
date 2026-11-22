@@ -39,7 +39,7 @@
     "chess_char_6_11_v079_a",
     "chess_char_6_11_v079_b"
   ],
-  "desc": "【莱茵生命】干员造成伤害后，为自身攻击范围内随机<@autochess.dgreen>1</>名可治疗的友方恢复生命，治疗量相当于该次伤害的<@ba.vup>{0:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n【莱茵生命】干员造成治疗后，以受治疗者为中心，对周围<@autochess.dgreen>8</>格及其所在格内随机<@autochess.dgreen>1</>名敌方造成法术伤害，伤害量相当于该次治疗量的<@ba.vup>{1:0.0%}</><@ba.acrem>（随莱茵生命层数提升）</>。\n<在场<@autochess.dgreen>6</>名不同【莱茵生命】干员>",
+  "desc": "【莱茵生命】干员造成伤害后，为自身攻击范围内随机<@autochess.dgreen>1</>名可治疗的友方恢复生命，治疗量为该次伤害的一定比例<@autochess.gray>（受层数影响）</>。\n【莱茵生命】干员造成治疗后，以受治疗者为中心，从其所在格及周围<@autochess.dgreen>8</>格随机选<@autochess.dgreen>1</>名敌人造成法术伤害，伤害量为该次治疗量的一定比例<@autochess.gray>（受层数影响）</>。",
   "descParamBaseList": [
     "base_heal_ratio",
     "base_damage_ratio"

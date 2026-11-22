@@ -2,7 +2,7 @@
   "continuedRound": -1,
   "effectCounterType": "NONE",
   "effectDecoIconId": null,
-  "effectDesc": "【审判】干员造成的伤害不会使目标生命值低于<@ba.vup>1</>；成功造成伤害后，若目标生命值不高于自身当前攻击力的<@ba.vup>{0:0%}</><@ba.acrem>（基础100%，每层+1%）</>，对其施加<$ba.dying>重伤</>（击杀者技力<@ba.vup>+1</>）\n所有己方干员击杀敌人时，【审判】层数<@ba.vup>+1</>",
+  "effectDesc": "【审判】干员造成的伤害不会使目标生命值低于<@ba.vup>1</>。成功造成伤害后，若目标生命值不高于自身当前攻击力的<@ba.vup>{0:0%}</><@autochess.gray>（受层数影响）</>，则施加<$ba.dying>重伤</>，击杀者回复<@ba.vup>1</>点技力。\n己方干员击杀敌人时，【审判】层数<@ba.vup>+1</>。",
   "effectId": "bondeffect_judgement",
   "effectName": "审判",
   "effectType": "BOND",

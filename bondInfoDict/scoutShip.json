@@ -41,7 +41,7 @@
     "chess_char_6_11_v079_a",
     "chess_char_6_11_v079_b"
   ],
-  "desc": "所有【先锋】干员<@ba.vup>攻击力</>提升<@ba.vup>{0:0.0%}</><@ba.acrem>（每层+0.3%）</>\n<在场<@autochess.dgreen>3</>名不同【先锋】干员>所有【先锋】干员<@ba.vup>生命值</>获得等比例提升",
+  "desc": "受该盟约影响的干员攻击力提升<@autochess.gray>（受层数影响）</>。\n<在场<@autochess.dgreen>3</>名不同【先锋】干员>受该盟约影响的干员生命上限获得同等比例加成。",
   "descParamBaseList": [
     "zero"
   ],

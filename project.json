@@ -5394,6 +5394,17 @@
     },
     "diyChessInfoDict": {},
     "effectDescParamDataDict": {
+      "bondeffect_laterano": {
+        "bondPhaseCountList": [],
+        "descParamInfos": [
+          {
+            "descParamBase": "base_ammo_percent",
+            "descParamMax": 0,
+            "descParamPerStack": "ammo_percent_per_stack"
+          }
+        ],
+        "phaseType": "STACK_COUNT"
+      },
       "": {
         "bondPhaseCountList": [],
         "descParamInfos": [],

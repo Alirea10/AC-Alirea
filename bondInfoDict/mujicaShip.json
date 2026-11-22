@@ -19,7 +19,7 @@
     "chess_mujica_1_23_b",
     "chess_mujica_1_23_a"
   ],
-  "desc": "获得<@ba.vup>一定</><@autochess.gray>（受层数影响）</>物理穿透和<@ba.vup>一定</><@autochess.gray>（受层数影响）</>法术穿透 \n<当<@ba.vup>全部Mujica成员</>上场时>攻击会使Fever值<@ba.vup>提高</><@autochess.gray>（受层数影响）</>，且Fever状态下造成的伤害<@ba.vup>提高</><@autochess.gray>（受层数影响）</>",
+  "desc": "【Mujica】干员获得物理穿透<@autochess.gray>（受层数影响）</>与法术穿透<@autochess.gray>（受层数影响）</>。\n<在场<@autochess.dgreen>5</>名不同【Mujica】干员>攻击有一定概率<@autochess.gray>（受层数影响）</>提高Fever值，提高的Fever值<@autochess.gray>（受层数影响）</>；Fever状态下造成的伤害变为原伤害的一定比例<@autochess.gray>（受层数影响）</>。",
   "descParamBaseList": [
     "base_def_penetrate_fixed",
     "base_magic_resist_penetrate",
