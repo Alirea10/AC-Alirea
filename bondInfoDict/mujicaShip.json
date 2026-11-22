@@ -39,7 +39,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "Mujica",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

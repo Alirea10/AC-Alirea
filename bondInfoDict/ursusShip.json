@@ -65,7 +65,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "乌萨斯",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

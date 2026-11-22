@@ -1,19 +1,19 @@
 {
   "chessId": "chess_rhodes_4_32_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_rhodes_4_32_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>身前一格干员提升盟约层数时，每次提升的层数额外<@ba.vup>+1</>（不受叠层上限影响）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10114_a"
   ],
-  "desc": "<战斗中>身前一格干员提升盟约层数时，每次提升的层数额外<@ba.vup>+1</>（不受叠层上限影响）"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_rhodes_4_32_v079_b",
+  "upgradeNum": 3
 }

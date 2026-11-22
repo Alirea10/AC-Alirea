@@ -63,7 +63,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "莱塔尼亚",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

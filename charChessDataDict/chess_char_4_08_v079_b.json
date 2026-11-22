@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_4_08_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 55,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>【伊比利亚】每叠加3层，本干员攻击力<@ba.vup>+2%</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10219_b"
   ],
-  "desc": "<战斗中>【伊比利亚】每叠加3层，本干员攻击力<@ba.vup>+2%</>"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 55,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

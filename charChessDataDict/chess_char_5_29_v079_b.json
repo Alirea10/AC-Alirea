@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_29_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 3
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>攻击范围内每有一名敌人被击倒使已激活的【聚合】【奇迹】层数<@ba.vup>+2</>（每回合至多叠加24层）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10113_b"
   ],
-  "desc": "<战斗中>攻击范围内每有一名敌人被击倒使已激活的【聚合】【奇迹】层数<@ba.vup>+2</>（每回合至多叠加24层）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

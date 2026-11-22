@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_01_a",
+  "desc": "<战斗中>首次击倒敌人时，使已激活的【精准】【拉特兰】层数<@ba.vup>+3</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_138_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_01_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>首次击倒敌人时，使已激活的【精准】【拉特兰】层数<@ba.vup>+3</>"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_ursus_6_24_a",
+  "desc": "【乌萨斯】【不屈】每叠加<@autochess.dgreen>1</>层，本干员攻击力<@ba.vup>+2%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_165_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_ursus_6_24_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【乌萨斯】【不屈】每叠加<@autochess.dgreen>1</>层，本干员攻击力<@ba.vup>+2%</>"
+  "upgradeNum": 3
 }

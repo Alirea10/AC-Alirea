@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_19_b",
+  "desc": "<获得时>获得<@ba.vup>2</>个野鬃或灰毫，小概率获得远牙",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_149_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得<@ba.vup>2</>个野鬃或灰毫，小概率获得远牙"
+  "upgradeNum": 0
 }

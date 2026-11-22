@@ -41,7 +41,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "彩虹小队",
+  "noSelect": false,
   "noStack": false,
-  "weight": 10,
-  "noSelect": false
+  "weight": 10
 }

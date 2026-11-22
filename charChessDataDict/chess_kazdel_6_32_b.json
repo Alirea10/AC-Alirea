@@ -1,9 +1,12 @@
 {
   "chessId": "chess_kazdel_6_32_b",
+  "desc": "【卡兹戴尔】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+2%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_179_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 3,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【卡兹戴尔】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+2%</>"
+  "upgradeNum": 0
 }

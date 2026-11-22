@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhodes_5_28_a",
+  "desc": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_01_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhodes_5_28_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
+  "upgradeNum": 3
 }

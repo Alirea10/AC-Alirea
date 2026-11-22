@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rainbow_3_24_b",
+  "desc": "<战斗中>开启技能时，若同一行有<@ba.vup>3</>名干员，使已激活的【彩虹小队】【不屈】层数<@ba.vup>+6</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_163_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，若同一行有<@ba.vup>3</>名干员，使已激活的【彩虹小队】【不屈】层数<@ba.vup>+6</>"
+  "upgradeNum": 0
 }

@@ -1,19 +1,19 @@
 {
   "chessId": "chess_hero_6_24_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_hero_6_24_v079_b",
-  "upgradeNum": 3,
+  "desc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10077_a"
   ],
-  "desc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_hero_6_24_v079_b",
+  "upgradeNum": 3
 }

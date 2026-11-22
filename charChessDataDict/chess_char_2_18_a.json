@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_18_a",
+  "desc": "<获得时>当前激活且层数最多的盟约层数<@ba.vup>+3</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_105_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_18_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>当前激活且层数最多的盟约层数<@ba.vup>+3</>"
+  "upgradeNum": 3
 }

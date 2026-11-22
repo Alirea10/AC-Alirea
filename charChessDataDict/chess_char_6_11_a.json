@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_6_11_a",
+  "desc": "<获得时>获得<@ba.vup>1</>个“变形同构体”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_76_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_11_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得<@ba.vup>1</>个“变形同构体”"
+  "upgradeNum": 3
 }

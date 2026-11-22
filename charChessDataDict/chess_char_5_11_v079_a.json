@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_11_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_5_11_v079_b",
-  "upgradeNum": 3,
+  "desc": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10112_a"
   ],
-  "desc": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_5_11_v079_b",
+  "upgradeNum": 3
 }

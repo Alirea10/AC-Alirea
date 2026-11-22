@@ -1,17 +1,17 @@
 {
   "chessId": "chess_char_6_diy2_v079_b",
+  "desc": null,
+  "equipSlotNum": 2,
+  "garrisonIds": null,
   "isGolden": true,
+  "showTag": null,
   "status": {
-    "evolvePhase": "PHASE_2",
     "charLevel": 60,
-    "skillLevel": 7,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
     "favorPoint": 0,
-    "equipLevel": 1
+    "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "garrisonIds": null,
-  "desc": null
+  "upgradeNum": 0
 }

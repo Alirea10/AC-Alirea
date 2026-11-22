@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_06_a",
+  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>10</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_73_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_06_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】【罗德岛】层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>10</>层）"
+  "upgradeNum": 3
 }

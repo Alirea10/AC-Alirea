@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_05_a",
+  "desc": "测试特质",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_test_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_05_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "测试特质"
+  "upgradeNum": 3
 }

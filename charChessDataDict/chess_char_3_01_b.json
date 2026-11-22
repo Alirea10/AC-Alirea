@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_3_01_b",
+  "desc": "<获得时>使下个休整期额外获得<@ba.vup>2</>资金",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_26_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>使下个休整期额外获得<@ba.vup>2</>资金"
+  "upgradeNum": 0
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_08_a",
+  "desc": "<休整期结束时>当前已激活且层数最多的盟约每有<@ba.vup>1</>名不同阶干员在场，层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_61_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_08_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>当前已激活且层数最多的盟约每有<@ba.vup>1</>名不同阶干员在场，层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

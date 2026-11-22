@@ -1,21 +1,12 @@
 {
-  "bondId": "iberiaShip",
-  "name": "伊比利亚",
-  "desc": "【伊比利亚】干员或炼金单元每次造成伤害时，使目标每秒受到该单位攻击力一定比例的持续法术伤害<@autochess.gray>（受层数影响）</>，至多叠加<@ba.vup>10</>次，持续<@ba.vup>10</>秒\n<在场<@autochess.dgreen>6</>名不同【伊比利亚】干员>【伊比利亚】干员或炼金单元造成伤害时附带的持续法术伤害提升至<@ba.vup>2</>倍，并使目标移动速度<@ba.vup>-4%</>（至多-80%），持续<@ba.vup>10</>秒；【伊比利亚】干员或炼金单元每次造成伤害时，有一定概率使该次伤害弹射至周围一定范围内的敌人，造成<@ba.vup>300%</>攻击力的法术伤害",
-  "iconId": "icon_iberiaShip",
-  "activeCount": 3,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
-  "effectId": "bondeffect_iberia",
   "activeType": "BATTLE",
-  "weight": 10,
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "noStack": false,
-  "noSelect": false,
+  "bondId": "iberiaShip",
   "chessIdList": [
     "chess_char_2_02_v079_a",
     "chess_char_2_02_v079_b",
@@ -37,5 +28,14 @@
     "chess_char_1_17_v079_b",
     "chess_char_4_08_v079_a",
     "chess_char_4_08_v079_b"
-  ]
+  ],
+  "desc": "【伊比利亚】干员或炼金单元每次造成伤害时，使目标每秒受到该单位攻击力一定比例的持续法术伤害<@autochess.gray>（受层数影响）</>，至多叠加<@ba.vup>10</>次，持续<@ba.vup>10</>秒\n<在场<@autochess.dgreen>6</>名不同【伊比利亚】干员>【伊比利亚】干员或炼金单元造成伤害时附带的持续法术伤害提升至<@ba.vup>2</>倍，并使目标移动速度<@ba.vup>-4%</>（至多-80%），持续<@ba.vup>10</>秒；【伊比利亚】干员或炼金单元每次造成伤害时，有一定概率使该次伤害弹射至周围一定范围内的敌人，造成<@ba.vup>300%</>攻击力的法术伤害",
+  "effectId": "bondeffect_iberia",
+  "iconId": "icon_iberiaShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "伊比利亚",
+  "noSelect": false,
+  "noStack": false,
+  "weight": 10
 }

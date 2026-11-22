@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_4_12_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<进入休整期时>获得1个幽灵鲨、安哲拉、深巡或斯卡蒂\n",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10061_b"
   ],
-  "desc": "<进入休整期时>获得1个幽灵鲨、安哲拉、深巡或斯卡蒂\n"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

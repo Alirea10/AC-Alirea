@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_07_a",
+  "desc": "<战斗中>前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【维多利亚】【远见】【不屈】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_50_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_07_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【维多利亚】【远见】【不屈】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_04_b",
+  "desc": "<休整期结束时>本回合每获得过<@ba.vup>1</>名干员，使已激活的【炎】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_31_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>本回合每获得过<@ba.vup>1</>名干员，使已激活的【炎】层数<@ba.vup>+2</>"
+  "upgradeNum": 0
 }

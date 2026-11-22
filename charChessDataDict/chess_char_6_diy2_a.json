@@ -1,7 +1,10 @@
 {
   "chessId": "chess_char_6_diy2_a",
+  "desc": null,
+  "equipSlotNum": 2,
   "garrisonIds": null,
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -10,8 +13,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_diy2_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": null
+  "upgradeNum": 3
 }

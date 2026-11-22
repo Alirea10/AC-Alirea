@@ -41,7 +41,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "巧匠",
+  "noSelect": false,
   "noStack": false,
-  "weight": 10,
-  "noSelect": false
+  "weight": 10
 }

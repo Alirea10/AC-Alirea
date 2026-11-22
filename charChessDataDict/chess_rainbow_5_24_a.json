@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rainbow_5_24_a",
+  "desc": "【彩虹小队】【迅捷】每叠加<@autochess.dgreen>2</>层，本干员攻击力<@ba.vup>+1%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_164_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rainbow_5_24_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【彩虹小队】【迅捷】每叠加<@autochess.dgreen>2</>层，本干员攻击力<@ba.vup>+1%</>"
+  "upgradeNum": 3
 }

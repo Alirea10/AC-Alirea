@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_17_a",
+  "desc": "<休整期结束时>使已激活的【坚守】【乌萨斯】层数<@ba.vup>+4</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_69_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_17_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>使已激活的【坚守】【乌萨斯】层数<@ba.vup>+4</>"
+  "upgradeNum": 3
 }

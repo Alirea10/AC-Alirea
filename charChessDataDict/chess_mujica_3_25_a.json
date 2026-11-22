@@ -1,9 +1,12 @@
 {
   "chessId": "chess_mujica_3_25_a",
+  "desc": "前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【Mujica】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_175_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_mujica_3_25_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "前<@autochess.dgreen>3</>次击倒敌人时，使已激活的【Mujica】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

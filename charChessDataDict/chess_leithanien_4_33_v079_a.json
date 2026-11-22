@@ -1,19 +1,19 @@
 {
   "chessId": "chess_leithanien_4_33_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_leithanien_4_33_v079_b",
-  "upgradeNum": 3,
+  "desc": "<获得时>获得一件“莱塔尼亚小鼓”",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10210_a"
   ],
-  "desc": "<获得时>获得一件“莱塔尼亚小鼓”"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_leithanien_4_33_v079_b",
+  "upgradeNum": 3
 }

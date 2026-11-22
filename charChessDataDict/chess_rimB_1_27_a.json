@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rimB_1_27_a",
+  "desc": "<战斗中>开启技能时，使已激活的【雷姆必拓】层数<@ba.vup>+1</>（每场战斗至多<@ba.vup>6</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_211_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rimB_1_27_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，使已激活的【雷姆必拓】层数<@ba.vup>+1</>（每场战斗至多<@ba.vup>6</>层）"
+  "upgradeNum": 3
 }

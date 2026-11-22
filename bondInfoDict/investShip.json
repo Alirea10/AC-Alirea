@@ -1,21 +1,12 @@
 {
-  "bondId": "investShip",
-  "name": "投资人",
-  "desc": "干员的“获得时”类特质每次<@ba.vup>触发2次</>\n<达到<@autochess.dgreen>100</>层>“获得时”类特质每次<@ba.vup>触发3次</>\n<@autochess.gray>（整备区的【投资人】干员也可用于激活盟约）</>",
-  "iconId": "icon_investShip",
-  "activeCount": 3,
   "activeCondition": "BOARD_AND_DECK",
   "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
-  "effectId": "bondeffect_invest",
   "activeType": "ALL",
-  "weight": 0,
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "noStack": false,
-  "noSelect": false,
+  "bondId": "investShip",
   "chessIdList": [
     "chess_char_1_16_a",
     "chess_char_2_19_a",
@@ -39,5 +30,14 @@
     "chess_char_5_19_v079_2_b",
     "chess_rhodes_3_29_v079_a",
     "chess_rhodes_3_29_v079_b"
-  ]
+  ],
+  "desc": "干员的“获得时”类特质每次<@ba.vup>触发2次</>\n<达到<@autochess.dgreen>100</>层>“获得时”类特质每次<@ba.vup>触发3次</>\n<@autochess.gray>（整备区的【投资人】干员也可用于激活盟约）</>",
+  "effectId": "bondeffect_invest",
+  "iconId": "icon_investShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "投资人",
+  "noSelect": false,
+  "noStack": false,
+  "weight": 0
 }

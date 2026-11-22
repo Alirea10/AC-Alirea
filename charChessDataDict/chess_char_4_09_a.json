@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_09_a",
+  "desc": "【阿戈尔】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+1%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_07_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_09_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【阿戈尔】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+1%</>"
+  "upgradeNum": 3
 }

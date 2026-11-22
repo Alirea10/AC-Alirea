@@ -1,20 +1,20 @@
 {
   "chessId": "chess_char_5_05_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<获得时>【炎】层数<@ba.vup>+16</>，【远见】层数<@ba.vup>+8</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10202_b",
     "garrison_10216_b"
   ],
-  "desc": "<获得时>【炎】层数<@ba.vup>+16</>，【远见】层数<@ba.vup>+8</>"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

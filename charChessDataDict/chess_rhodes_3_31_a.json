@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhodes_3_31_a",
+  "desc": "<获得时>获得<@ba.vup>1</>个“简易通讯机”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_191_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhodes_3_31_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得<@ba.vup>1</>个“简易通讯机”"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_hero_6_35_b",
+  "desc": "处于<@ba.vup>低沉</>状态时，每层【莱塔尼亚】获得<@ba.vup>2%</>攻击力",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_196_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 3,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "处于<@ba.vup>低沉</>状态时，每层【莱塔尼亚】获得<@ba.vup>2%</>攻击力"
+  "upgradeNum": 0
 }

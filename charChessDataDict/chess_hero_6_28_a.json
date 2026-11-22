@@ -1,10 +1,13 @@
 {
   "chessId": "chess_hero_6_28_a",
+  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。”\n购买价格+<@ba.vup>2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_h55_b",
     "garrison_172_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": "chess_hero_6_28_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员最大生命值+<@ba.vup>5000</>，每秒回复<@ba.vup>1%</>最大生命值。”\n购买价格+<@ba.vup>2</>"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rimB_2_26_a",
+  "desc": "<战斗中>前<@autochess.dgreen>3</>次开启技能时，使已激活的【雷姆必拓】【巧匠】层数各<@ba.vup>+5</>（每场战斗各至多<@ba.vup>15</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_212_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rimB_2_26_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>前<@autochess.dgreen>3</>次开启技能时，使已激活的【雷姆必拓】【巧匠】层数各<@ba.vup>+5</>（每场战斗各至多<@ba.vup>15</>层）"
+  "upgradeNum": 3
 }

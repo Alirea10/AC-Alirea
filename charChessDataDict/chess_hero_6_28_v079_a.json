@@ -1,20 +1,20 @@
 {
   "chessId": "chess_hero_6_28_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_hero_6_28_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>周围12格每有一名敌人被击倒自身回复<@ba.vup>3</>点技力",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_167_a",
     "garrison_10169_a"
   ],
-  "desc": "<战斗中>周围12格每有一名敌人被击倒自身回复<@ba.vup>3</>点技力"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_hero_6_28_v079_b",
+  "upgradeNum": 3
 }

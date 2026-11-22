@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_3_19_v079_2_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<休整期结束时>同一行每有1名干员，使已激活的【坚守】【助力】层数<@ba.vup>+4</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10110_b"
   ],
-  "desc": "<休整期结束时>同一行每有1名干员，使已激活的【坚守】【助力】层数<@ba.vup>+4</>"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

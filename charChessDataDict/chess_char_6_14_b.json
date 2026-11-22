@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_6_14_b",
+  "desc": "<休整期结束时>整备区中每名干员所在的已激活盟约分别层数<@ba.vup>+4</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_57_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 3,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>整备区中每名干员所在的已激活盟约分别层数<@ba.vup>+4</>"
+  "upgradeNum": 0
 }

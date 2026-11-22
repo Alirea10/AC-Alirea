@@ -1,5 +1,7 @@
 {
   "chessId": "chess_char_6_17_a",
+  "desc": "<战斗开始时>使<@ba.vup>自身</>和<@ba.vup>身前一格</>干员获得特质“【卡西米尔】每叠加<@autochess.dgreen>3</>层，本干员再部署时间<@ba.vup>-1.5%</>，攻击速度<@ba.vup>+0.5</>”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_145_a",
     "garrison_144_a",
@@ -7,6 +9,7 @@
     "garrison_160_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -15,8 +18,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_17_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使<@ba.vup>自身</>和<@ba.vup>身前一格</>干员获得特质“【卡西米尔】每叠加<@autochess.dgreen>3</>层，本干员再部署时间<@ba.vup>-1.5%</>，攻击速度<@ba.vup>+0.5</>”"
+  "upgradeNum": 3
 }

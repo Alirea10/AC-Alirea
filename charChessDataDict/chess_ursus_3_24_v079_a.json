@@ -1,19 +1,19 @@
 {
   "chessId": "chess_ursus_3_24_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_1",
-    "charLevel": 60,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_ursus_3_24_v079_b",
-  "upgradeNum": 3,
+  "desc": "购买价格为<@ba.vup>1</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10018_a"
   ],
-  "desc": "购买价格为<@ba.vup>1</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_ursus_3_24_v079_b",
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_07_a",
+  "desc": "<部署时>使已激活的【突袭】层数<@ba.vup>+8</>（每场作战至多<@ba.vup>50</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_107_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_07_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<部署时>使已激活的【突袭】层数<@ba.vup>+8</>（每场作战至多<@ba.vup>50</>层）"
+  "upgradeNum": 3
 }

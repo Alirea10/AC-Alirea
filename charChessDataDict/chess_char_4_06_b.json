@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_06_b",
+  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多<@ba.vup>20</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_73_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使已激活【精准】层数<@ba.vup>+2</>”（每场战斗至多<@ba.vup>20</>层）"
+  "upgradeNum": 0
 }

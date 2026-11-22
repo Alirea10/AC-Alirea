@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_01_a",
+  "desc": "【拉特兰】每叠加<@autochess.dgreen>5</>层，本干员攻击速度<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_16_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_01_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【拉特兰】每叠加<@autochess.dgreen>5</>层，本干员攻击速度<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

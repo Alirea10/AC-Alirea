@@ -1,9 +1,12 @@
 {
   "chessId": "chess_sami_4_35_a",
+  "desc": "<战斗开始时>使身前一格【萨米】干员本次盟约结算的抽取结果有<@ba.vup>50%</>概率额外<@ba.vup>+30</>层，否则额外<@ba.vdown>-30</>层\n<@autochess.gray>（同一目标仅生效一次，优先取精锐效果）</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_200_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_sami_4_35_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使身前一格【萨米】干员本次盟约结算的抽取结果有<@ba.vup>50%</>概率额外<@ba.vup>+30</>层，否则额外<@ba.vdown>-30</>层\n<@autochess.gray>（同一目标仅生效一次，优先取精锐效果）</>"
+  "upgradeNum": 3
 }

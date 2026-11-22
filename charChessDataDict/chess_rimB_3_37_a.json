@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rimB_3_37_a",
+  "desc": "<战斗中>自身周围<@autochess.dgreen>3×3</>区域内，每有<@autochess.dgreen>1</>名敌人进入<@ba.vup>浮空</>时，使已激活的【雷姆必拓】【奇迹】层数各<@ba.vup>+1</>（每场战斗各至多<@ba.vup>12</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_216_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rimB_3_37_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>自身周围<@autochess.dgreen>3×3</>区域内，每有<@autochess.dgreen>1</>名敌人进入<@ba.vup>浮空</>时，使已激活的【雷姆必拓】【奇迹】层数各<@ba.vup>+1</>（每场战斗各至多<@ba.vup>12</>层）"
+  "upgradeNum": 3
 }

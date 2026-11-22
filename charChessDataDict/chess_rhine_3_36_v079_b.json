@@ -1,19 +1,19 @@
 {
   "chessId": "chess_rhine_3_36_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>每次开启技能时使自身已激活的盟约层数<@ba.vup>+8</>（每场战斗至多叠加24层）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10101_b"
   ],
-  "desc": "<战斗中>每次开启技能时使自身已激活的盟约层数<@ba.vup>+8</>（每场战斗至多叠加24层）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_11_a",
+  "desc": "只需<@ba.vup>2</>个相同的本干员即可合成精锐",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_93_b"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_11_b",
-  "upgradeNum": 2,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "只需<@ba.vup>2</>个相同的本干员即可合成精锐"
+  "upgradeNum": 2
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_6_18_a",
+  "desc": "<战斗中>击倒敌人时，使已激活的【叙拉古】层数<@ba.vup>+2</>\n<@ba.rem>将荒芜拉普兰德合成为精锐即可在战斗中使所有【叙拉古】干员获得该效果</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_118_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_18_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>击倒敌人时，使已激活的【叙拉古】层数<@ba.vup>+2</>\n<@ba.rem>将荒芜拉普兰德合成为精锐即可在战斗中使所有【叙拉古】干员获得该效果</>"
+  "upgradeNum": 3
 }

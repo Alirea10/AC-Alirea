@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_6_20_a",
+  "desc": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得<@ba.vup>1%</>法术穿透",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_195_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_20_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>处于<@ba.vup>激昂</>状态时，每层【莱塔尼亚】获得<@ba.vup>1%</>法术穿透"
+  "upgradeNum": 3
 }

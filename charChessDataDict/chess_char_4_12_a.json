@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_12_a",
+  "desc": "<进入休整期时>若同一行有<@ba.vup>3</>名干员，获得<@ba.vup>1</>个斯卡蒂、幽灵鲨或深巡",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_39_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_12_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>若同一行有<@ba.vup>3</>名干员，获得<@ba.vup>1</>个斯卡蒂、幽灵鲨或深巡"
+  "upgradeNum": 3
 }

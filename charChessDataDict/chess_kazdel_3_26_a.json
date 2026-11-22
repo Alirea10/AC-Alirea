@@ -1,9 +1,12 @@
 {
   "chessId": "chess_kazdel_3_26_a",
+  "desc": "<休整期结束时>使已激活的【卡兹戴尔】层数<@ba.vup>+4</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_178_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_kazdel_3_26_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>使已激活的【卡兹戴尔】层数<@ba.vup>+4</>"
+  "upgradeNum": 3
 }

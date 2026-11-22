@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_11_b",
+  "desc": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_99_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "身前一格干员若为“休整期结束时”特质，本干员的特质与其相同"
+  "upgradeNum": 0
 }

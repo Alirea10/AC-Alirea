@@ -1,20 +1,20 @@
 {
   "chessId": "chess_char_2_06_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 55,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>每次开启技能时使身前一格干员回复<@ba.vup>4</>点技力",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10044_b",
     "garrison_233_b"
   ],
-  "desc": "<战斗中>每次开启技能时使身前一格干员回复<@ba.vup>4</>点技力"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 55,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

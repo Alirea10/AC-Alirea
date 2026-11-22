@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_4_15_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<进入休整期时>使自身携带的装备变为精锐版本",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10084_b"
   ],
-  "desc": "<进入休整期时>使自身携带的装备变为精锐版本"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

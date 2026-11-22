@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_11_a",
+  "desc": "<进入休整期时>若当前为奇数回合，获得<@ba.vup>1</>件随机装备",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_127_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_11_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>若当前为奇数回合，获得<@ba.vup>1</>件随机装备"
+  "upgradeNum": 3
 }

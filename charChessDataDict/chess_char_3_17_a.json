@@ -1,10 +1,13 @@
 {
   "chessId": "chess_char_3_17_a",
+  "desc": "<战斗中>攻击力和生命值+<@ba.vup>25%</>，造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_137_a",
     "garrison_01_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_17_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>攻击力和生命值+<@ba.vup>25%</>，造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
+  "upgradeNum": 3
 }

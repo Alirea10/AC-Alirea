@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_03_a",
+  "desc": "<获得时>获得等于当前调度中心等级的【炎】层数（无需激活盟约）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_30_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_03_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得等于当前调度中心等级的【炎】层数（无需激活盟约）"
+  "upgradeNum": 3
 }

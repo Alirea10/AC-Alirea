@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_17_a",
+  "desc": "<获得时>自身所属盟约层数<@ba.vup>+2</>（无需激活盟约）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_25_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_17_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>自身所属盟约层数<@ba.vup>+2</>（无需激活盟约）"
+  "upgradeNum": 3
 }

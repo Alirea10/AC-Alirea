@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_10_a",
+  "desc": "技力自然恢复速度<@ba.vup>+0.15/秒</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_08_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_10_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "技力自然恢复速度<@ba.vup>+0.15/秒</>"
+  "upgradeNum": 3
 }

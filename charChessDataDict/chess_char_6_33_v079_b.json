@@ -1,21 +1,21 @@
 {
   "chessId": "chess_char_6_33_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 3
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<获得时>【奥术】层数<@ba.vup>+20</>，【远见】层数<@ba.vup>+10</>\n<战斗中>【奥术】【远见】每叠加3层，本干员攻击速度<@ba.vup>+2</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10092_b",
     "garrison_10213_b",
     "garrison_10217_b"
   ],
-  "desc": "<获得时>【奥术】层数<@ba.vup>+20</>，【远见】层数<@ba.vup>+10</>\n<战斗中>【奥术】【远见】每叠加3层，本干员攻击速度<@ba.vup>+2</>"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_3_13_a",
+  "desc": "购买价格为<@ba.vup>1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_13_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_13_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "购买价格为<@ba.vup>1</>"
+  "upgradeNum": 3
 }

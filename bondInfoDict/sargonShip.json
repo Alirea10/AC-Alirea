@@ -1,21 +1,12 @@
 {
-  "bondId": "sargonShip",
-  "name": "萨尔贡",
-  "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>【萨尔贡】干员每次开启技能时，将在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到一定的<@ba.vdown>迟钝效果</><@autochess.gray>（受层数影响）</>，每5秒造成一次法术伤害<@autochess.gray>（受层数影响）</>并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的<@ba.vdown>迟钝效果</>变为<@ba.vup>2</>倍，每秒受到一定法术伤害<@autochess.gray>（受层数影响）</>",
-  "iconId": "icon_sargonShip",
-  "activeCount": 3,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
-  "effectId": "bondeffect_sargon_2",
   "activeType": "BATTLE",
-  "weight": 10,
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "noStack": false,
-  "noSelect": false,
+  "bondId": "sargonShip",
   "chessIdList": [
     "chess_char_1_12_a",
     "chess_char_2_06_a",
@@ -63,5 +54,14 @@
     "chess_char_3_13_v079_b",
     "chess_char_6_05_v079_a",
     "chess_char_6_05_v079_b"
-  ]
+  ],
+  "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>【萨尔贡】干员每次开启技能时，将在攻击范围内制造一个流沙地面。位于流沙地面上的敌人受到一定的<@ba.vdown>迟钝效果</><@autochess.gray>（受层数影响）</>，每5秒造成一次法术伤害<@autochess.gray>（受层数影响）</>并束缚1秒；【萨尔贡】干员技能持续期间，攻击范围内的流沙地面使敌人的<@ba.vdown>迟钝效果</>变为<@ba.vup>2</>倍，每秒受到一定法术伤害<@autochess.gray>（受层数影响）</>",
+  "effectId": "bondeffect_sargon_2",
+  "iconId": "icon_sargonShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "萨尔贡",
+  "noSelect": false,
+  "noStack": false,
+  "weight": 10
 }

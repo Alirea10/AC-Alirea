@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_19_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_5_19_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>【卡西米尔】每叠加5层，本干员部署后100秒内基础攻击力<@ba.vup>+10</>、基础生命上限<@ba.vup>+50</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10071_a"
   ],
-  "desc": "<战斗中>【卡西米尔】每叠加5层，本干员部署后100秒内基础攻击力<@ba.vup>+10</>、基础生命上限<@ba.vup>+50</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_5_19_v079_b",
+  "upgradeNum": 3
 }

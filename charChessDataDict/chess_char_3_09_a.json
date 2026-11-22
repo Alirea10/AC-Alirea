@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_3_09_a",
+  "desc": "<战斗中>首次击倒敌人或我方干员时，使已激活的【阿戈尔】【奥术】层数<@ba.vup>+3</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_131_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_09_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>首次击倒敌人或我方干员时，使已激活的【阿戈尔】【奥术】层数<@ba.vup>+3</>"
+  "upgradeNum": 3
 }

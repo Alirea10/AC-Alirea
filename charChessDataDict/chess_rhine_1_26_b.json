@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhine_1_26_b",
+  "desc": "<休整期结束时>使自身已激活的盟约层数<@ba.vup>+8</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_205_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 50,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>使自身已激活的盟约层数<@ba.vup>+8</>"
+  "upgradeNum": 0
 }

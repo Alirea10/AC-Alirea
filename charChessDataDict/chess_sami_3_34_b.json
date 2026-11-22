@@ -1,10 +1,13 @@
 {
   "chessId": "chess_sami_3_34_b",
+  "desc": "<战斗中>本干员每开启<@autochess.dgreen>3</>次技能，使已激活的【萨米】【灵巧】层数各随机变化<@ba.vdown>-8</>～<@ba.vup>16</>层\n<@autochess.gray>（两盟约共用同一次抽取结果，每场战斗最多触发<@ba.vup>6</>次，复活不重置次数）</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_199_b",
     "garrison_202_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -13,8 +16,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>本干员每开启<@autochess.dgreen>3</>次技能，使已激活的【萨米】【灵巧】层数各随机变化<@ba.vdown>-8</>～<@ba.vup>16</>层\n<@autochess.gray>（两盟约共用同一次抽取结果，每场战斗最多触发<@ba.vup>6</>次，复活不重置次数）</>"
+  "upgradeNum": 0
 }

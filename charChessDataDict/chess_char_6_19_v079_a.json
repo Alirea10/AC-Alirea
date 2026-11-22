@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_6_19_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_6_19_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>【卡西米尔】【谢拉格】【莱塔尼亚】每叠加6层，本干员技力自然回复速度<@ba.vup>+0.01</>/秒，生命上限<@ba.vup>+1%</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_232_a"
   ],
-  "desc": "<战斗中>【卡西米尔】【谢拉格】【莱塔尼亚】每叠加6层，本干员技力自然回复速度<@ba.vup>+0.01</>/秒，生命上限<@ba.vup>+1%</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_6_19_v079_b",
+  "upgradeNum": 3
 }

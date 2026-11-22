@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhine_3_35_a",
+  "desc": "<休整期结束时>获得<@ba.vup>1</>个“拟态物质”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_207_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhine_3_35_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>获得<@ba.vup>1</>个“拟态物质”"
+  "upgradeNum": 3
 }

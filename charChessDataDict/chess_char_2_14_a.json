@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_14_a",
+  "desc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+2</>，此干员在整备区时也有效",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_81_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_14_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>当前激活且层数最多的盟约层数<@ba.vup>+2</>，此干员在整备区时也有效"
+  "upgradeNum": 3
 }

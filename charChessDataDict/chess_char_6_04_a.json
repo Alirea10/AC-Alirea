@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_6_04_a",
+  "desc": "【阿戈尔】每叠加<@autochess.dgreen>10</>层，本干员每秒回复<@ba.vup>50</>生命，自然技力回复速度<@ba.vup>+0.15</>/秒",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_84_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_04_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【阿戈尔】每叠加<@autochess.dgreen>10</>层，本干员每秒回复<@ba.vup>50</>生命，自然技力回复速度<@ba.vup>+0.15</>/秒"
+  "upgradeNum": 3
 }

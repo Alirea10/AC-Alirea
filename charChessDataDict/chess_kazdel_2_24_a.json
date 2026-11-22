@@ -1,9 +1,12 @@
 {
   "chessId": "chess_kazdel_2_24_a",
+  "desc": "【105】<获得时>自身所属盟约层数<@ba.vup>+2</>（无需激活盟约）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_109_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_kazdel_2_24_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【105】<获得时>自身所属盟约层数<@ba.vup>+2</>（无需激活盟约）"
+  "upgradeNum": 3
 }

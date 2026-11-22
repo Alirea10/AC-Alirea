@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_12_a",
+  "desc": "<休整期结束时>当前休整期每获得过一名干员，使已激活的【炎】【奥术】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_119_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_12_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>当前休整期每获得过一名干员，使已激活的【炎】【奥术】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

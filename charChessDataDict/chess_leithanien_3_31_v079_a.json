@@ -1,20 +1,20 @@
 {
   "chessId": "chess_leithanien_3_31_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_leithanien_3_31_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限<@ba.vup>+7</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10152_a",
     "garrison_10156_a"
   ],
-  "desc": "<战斗中>场上其他与自身拥有相同盟约的干员在本回合战斗期的叠层上限<@ba.vup>+7</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_leithanien_3_31_v079_b",
+  "upgradeNum": 3
 }

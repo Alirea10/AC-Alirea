@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhine_3_36_a",
+  "desc": "<进入休整时>使已激活的【莱茵生命】层数<@ba.vup>+5</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_206_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhine_3_36_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整时>使已激活的【莱茵生命】层数<@ba.vup>+5</>"
+  "upgradeNum": 3
 }

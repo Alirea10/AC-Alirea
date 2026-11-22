@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_22_a",
+  "desc": "<休整期结束时>整备区每有<@ba.vup>1</>个干员，使已激活的【卡兹戴尔】【迅捷】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_56_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_22_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>整备区每有<@ba.vup>1</>个干员，使已激活的【卡兹戴尔】【迅捷】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

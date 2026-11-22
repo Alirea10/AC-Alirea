@@ -1,10 +1,13 @@
 {
   "chessId": "chess_hero_6_29_a",
+  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷”\n购买价格+<@ba.vup>2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_h11_b",
     "garrison_172_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": "chess_hero_6_29_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“所有干员攻击时有<@ba.vup>40%</>的概率对敌人施加<@ba.vup>1</>秒的寒冷”\n购买价格+<@ba.vup>2</>"
+  "upgradeNum": 3
 }

@@ -31,7 +31,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "萨米",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

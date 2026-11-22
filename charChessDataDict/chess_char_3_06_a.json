@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_3_06_a",
+  "desc": "<战斗中>开启技能时，使已激活的【萨尔贡】层数<@ba.vup>+6</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_43_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_06_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，使已激活的【萨尔贡】层数<@ba.vup>+6</>"
+  "upgradeNum": 3
 }

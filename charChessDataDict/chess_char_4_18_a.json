@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_18_a",
+  "desc": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>10</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_97_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_18_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，使自身已激活的盟约层数<@ba.vup>+2</>（每场作战至多<@ba.vup>10</>层）"
+  "upgradeNum": 3
 }

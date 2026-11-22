@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_20_a",
+  "desc": "<休整期结束时>使已激活的【不屈】层数<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_158_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_20_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>使已激活的【不屈】层数<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

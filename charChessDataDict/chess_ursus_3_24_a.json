@@ -1,10 +1,13 @@
 {
   "chessId": "chess_ursus_3_24_a",
+  "desc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】层数<@ba.vup>+4</>/【助力】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_220_a",
     "garrison_221_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_ursus_3_24_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【乌萨斯】/【助力】干员，使对应已激活的【乌萨斯】层数<@ba.vup>+4</>/【助力】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

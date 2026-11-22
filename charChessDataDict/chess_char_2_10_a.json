@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_10_a",
+  "desc": "<获得时>随机制造<@ba.vup>1</>件洛洛的定制品",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_91_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_10_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>随机制造<@ba.vup>1</>件洛洛的定制品"
+  "upgradeNum": 3
 }

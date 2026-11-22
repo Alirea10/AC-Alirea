@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rimB_2_27_b",
+  "desc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【雷姆必拓】干员，使已激活的【雷姆必拓】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_213_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 50,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>场上每有<@autochess.dgreen>1</>名不同阶的【雷姆必拓】干员，使已激活的【雷姆必拓】层数<@ba.vup>+2</>"
+  "upgradeNum": 0
 }

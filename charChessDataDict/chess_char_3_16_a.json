@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_3_16_a",
+  "desc": "<休整期结束时>同一行每有<@ba.vup>1</>名干员，使已激活的【坚守】层数<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_70_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_3_16_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>同一行每有<@ba.vup>1</>名干员，使已激活的【坚守】层数<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

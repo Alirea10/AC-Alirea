@@ -41,7 +41,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "星冕",
+  "noSelect": false,
   "noStack": true,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_16_a",
+  "desc": "<进入休整期时>获得<@ba.vup>1</>次免费刷新",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_114_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_16_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>获得<@ba.vup>1</>次免费刷新"
+  "upgradeNum": 3
 }

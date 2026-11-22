@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_26_a",
+  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>7</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_72_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_26_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使身前一格干员获得特质“开启技能时使自身所属已激活盟约层数<@ba.vup>+1</>”（每场战斗至多<@ba.vup>7</>层）"
+  "upgradeNum": 3
 }

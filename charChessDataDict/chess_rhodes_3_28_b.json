@@ -1,10 +1,13 @@
 {
   "chessId": "chess_rhodes_3_28_b",
+  "desc": "<进入休整期时><休整期结束时>使【罗德岛】层数<@ba.vup>+12</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_183_b",
     "garrison_184_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -13,8 +16,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时><休整期结束时>使【罗德岛】层数<@ba.vup>+12</>"
+  "upgradeNum": 0
 }

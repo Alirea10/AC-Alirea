@@ -1,10 +1,13 @@
 {
   "chessId": "chess_rainbow_6_21_a",
+  "desc": "攻击力和生命值+<@ba.vup>20%</>；核心盟约每叠加<@autochess.dgreen>3</>层，本干员攻击力和生命值<@ba.vup>+1%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_09_a",
     "garrison_03_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rainbow_6_21_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "攻击力和生命值+<@ba.vup>20%</>；核心盟约每叠加<@autochess.dgreen>3</>层，本干员攻击力和生命值<@ba.vup>+1%</>"
+  "upgradeNum": 3
 }

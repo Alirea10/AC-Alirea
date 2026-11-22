@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_24_a",
+  "desc": "【奥术】每叠加<@autochess.dgreen>1</>层，本干员攻击力<@ba.vup>+4%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_204_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_24_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【奥术】每叠加<@autochess.dgreen>1</>层，本干员攻击力<@ba.vup>+4%</>"
+  "upgradeNum": 3
 }

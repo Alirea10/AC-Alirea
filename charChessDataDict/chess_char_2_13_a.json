@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_13_a",
+  "desc": "<进入休整期时>使自身已激活的盟约层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_80_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_13_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>使自身已激活的盟约层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

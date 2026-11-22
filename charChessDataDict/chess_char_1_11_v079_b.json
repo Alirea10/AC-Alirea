@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_1_11_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 50,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<休整期结束时>使当前已激活且层数最多的盟约层数<@ba.vup>+2</>（此干员在整备区也生效）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10130_b"
   ],
-  "desc": "<休整期结束时>使当前已激活且层数最多的盟约层数<@ba.vup>+2</>（此干员在整备区也生效）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 50,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

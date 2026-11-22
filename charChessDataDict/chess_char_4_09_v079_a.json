@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_4_09_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_4_09_v079_b",
-  "upgradeNum": 3,
+  "desc": "<战斗中>【阿戈尔】盟约每叠加20层，自身及周围四格干员每次造成伤害时使目标移动速度<@ba.vdown>-1%</>，持续3秒",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10059_a"
   ],
-  "desc": "<战斗中>【阿戈尔】盟约每叠加20层，自身及周围四格干员每次造成伤害时使目标移动速度<@ba.vdown>-1%</>，持续3秒"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_4_09_v079_b",
+  "upgradeNum": 3
 }

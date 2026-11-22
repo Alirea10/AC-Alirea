@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_3_26_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<获得时>获得两件乌萨斯呼吸器",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10022_b"
   ],
-  "desc": "<获得时>获得两件乌萨斯呼吸器"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

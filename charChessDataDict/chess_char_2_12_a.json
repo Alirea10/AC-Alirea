@@ -1,10 +1,13 @@
 {
   "chessId": "chess_char_2_12_a",
+  "desc": "<部署时>使已激活的【卡西米尔】层数<@ba.vup>+1</>\n<被击倒时>使已激活的【不屈】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_75_a",
     "garrison_143_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_2_12_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<部署时>使已激活的【卡西米尔】层数<@ba.vup>+1</>\n<被击倒时>使已激活的【不屈】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

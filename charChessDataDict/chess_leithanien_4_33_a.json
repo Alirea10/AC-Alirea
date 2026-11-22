@@ -1,9 +1,12 @@
 {
   "chessId": "chess_leithanien_4_33_a",
+  "desc": "<休整期结束时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_194_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_leithanien_4_33_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>【莱塔尼亚】层数<@ba.vup>+6</>、【坚守】层数<@ba.vup>+3</>（无需激活盟约）"
+  "upgradeNum": 3
 }

@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_32_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 3
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<进入休整期时>获得一名当前人数最多盟约的干员",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10174_b"
   ],
-  "desc": "<进入休整期时>获得一名当前人数最多盟约的干员"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

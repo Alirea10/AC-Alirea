@@ -1,20 +1,20 @@
 {
   "chessId": "chess_char_6_07_v079_2_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 3
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<进入休整期时>获得两件随机装备（不高于当前调度中心等级）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10158_b",
     "garrison_10159_b"
   ],
-  "desc": "<进入休整期时>获得两件随机装备（不高于当前调度中心等级）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

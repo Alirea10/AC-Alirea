@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rainbow_3_23_a",
+  "desc": "<战斗中>击倒敌人时，使已激活的【彩虹小队】层数<@ba.vup>+1</>\n<@ba.rem>将灰烬合成为精锐即可在战斗中使所有【彩虹小队】干员获得该效果</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_162_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rainbow_3_23_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>击倒敌人时，使已激活的【彩虹小队】层数<@ba.vup>+1</>\n<@ba.rem>将灰烬合成为精锐即可在战斗中使所有【彩虹小队】干员获得该效果</>"
+  "upgradeNum": 3
 }

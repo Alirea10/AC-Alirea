@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_2_19_v079_2_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_1",
-    "charLevel": 60,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_2_19_v079_2_b",
-  "upgradeNum": 2,
+  "desc": "只需两名本干员即可合成精锐",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10103_a"
   ],
-  "desc": "只需两名本干员即可合成精锐"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_2_19_v079_2_b",
+  "upgradeNum": 2
 }

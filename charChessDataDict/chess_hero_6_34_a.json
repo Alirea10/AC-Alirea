@@ -1,11 +1,14 @@
 {
   "chessId": "chess_hero_6_34_a",
+  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”\n购买价格+<@ba.vup>2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_h77_b",
     "garrison_172_a",
     "garrison_190_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -14,8 +17,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": "chess_hero_6_34_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使<@ba.vup>所有</>干员获得特质“击倒敌人时，使已激活的【萨尔贡】【精准】【迅捷】层数<@ba.vup>+2</>”\n购买价格+<@ba.vup>2</>"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_01_b",
+  "desc": "【拉特兰】【坚守】每叠加<@autochess.dgreen>3</>层，本干员防御力<@ba.vup>+2%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_14_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【拉特兰】【坚守】每叠加<@autochess.dgreen>3</>层，本干员防御力<@ba.vup>+2%</>"
+  "upgradeNum": 0
 }

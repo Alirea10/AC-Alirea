@@ -1,10 +1,13 @@
 {
   "chessId": "chess_char_6_19_a",
+  "desc": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多<@ba.vup>24</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_155_a",
     "garrison_65_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -13,8 +16,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_6_19_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>自身所属的盟约层数<@ba.vup>+8</>\n<部署时>使自身已激活的盟约层数<@ba.vup>+8</>（至多<@ba.vup>24</>层）"
+  "upgradeNum": 3
 }

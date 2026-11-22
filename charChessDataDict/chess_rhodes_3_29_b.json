@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhodes_3_29_b",
+  "desc": "<战斗开始时>使身前一格【罗德岛】干员获得特质“击倒敌人时使自身已激活的所有盟约层数<@ba.vup>+3</>”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_185_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗开始时>使身前一格【罗德岛】干员获得特质“击倒敌人时使自身已激活的所有盟约层数<@ba.vup>+3</>”"
+  "upgradeNum": 0
 }

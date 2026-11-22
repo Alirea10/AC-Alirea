@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_19_a",
+  "desc": "【卡西米尔】每叠加<@autochess.dgreen>5</>层，本干员部署后<@ba.vup>100</>秒内<@ba.vup>基础攻击力</><@ba.vup>+10</>、<@ba.vup>基础生命值</><@ba.vup>+50</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_115_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_19_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【卡西米尔】每叠加<@autochess.dgreen>5</>层，本干员部署后<@ba.vup>100</>秒内<@ba.vup>基础攻击力</><@ba.vup>+10</>、<@ba.vup>基础生命值</><@ba.vup>+50</>"
+  "upgradeNum": 3
 }

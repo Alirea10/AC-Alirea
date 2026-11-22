@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_2_08_b",
+  "desc": "【萨尔贡】【坚守】每叠加<@autochess.dgreen>3</>层，本干员防御力<@ba.vup>+2%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_15_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【萨尔贡】【坚守】每叠加<@autochess.dgreen>3</>层，本干员防御力<@ba.vup>+2%</>"
+  "upgradeNum": 0
 }

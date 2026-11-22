@@ -1,19 +1,19 @@
 {
   "chessId": "chess_rhodes_3_29_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<休整期结束时> 本回合每获得过一名干员，使已激活的【投资人】层数<@ba.vup>+4</>（每回合至多叠加32层）",
   "equipSlotNum": 2,
-  "showTag": "single",
   "garrisonIds": [
     "garrison_10125_b"
   ],
-  "desc": "<休整期结束时> 本回合每获得过一名干员，使已激活的【投资人】层数<@ba.vup>+4</>（每回合至多叠加32层）"
+  "isGolden": true,
+  "showTag": "single",
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

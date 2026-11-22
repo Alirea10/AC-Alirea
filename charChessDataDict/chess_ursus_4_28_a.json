@@ -1,9 +1,12 @@
 {
   "chessId": "chess_ursus_4_28_a",
+  "desc": "<战斗中>开启技能时，使已激活的【乌萨斯】【精准】层数<@ba.vup>+5</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_171_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_ursus_4_28_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，使已激活的【乌萨斯】【精准】层数<@ba.vup>+5</>"
+  "upgradeNum": 3
 }

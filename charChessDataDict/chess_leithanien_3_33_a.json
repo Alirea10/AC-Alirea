@@ -1,9 +1,12 @@
 {
   "chessId": "chess_leithanien_3_33_a",
+  "desc": "<进入休整期时>使自身及身前一格干员的已激活盟约分别各层数<@ba.vup>+3</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_150_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_leithanien_3_33_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>使自身及身前一格干员的已激活盟约分别各层数<@ba.vup>+3</>"
+  "upgradeNum": 3
 }

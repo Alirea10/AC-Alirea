@@ -1,19 +1,19 @@
 {
   "chessId": "chess_kazdel_2_24_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_1",
-    "charLevel": 60,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_kazdel_2_24_v079_b",
-  "upgradeNum": 3,
+  "desc": "<休整期结束时>使自身及身前一格干员已激活的盟约层数<@ba.vup>+2</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10138_a"
   ],
-  "desc": "<休整期结束时>使自身及身前一格干员已激活的盟约层数<@ba.vup>+2</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_kazdel_2_24_v079_b",
+  "upgradeNum": 3
 }

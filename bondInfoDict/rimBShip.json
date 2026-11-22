@@ -57,7 +57,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "雷姆必拓",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

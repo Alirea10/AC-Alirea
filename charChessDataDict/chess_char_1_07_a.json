@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_07_a",
+  "desc": "<获得时>获得<@ba.vup>1</>次免费刷新",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_113_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_07_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得<@ba.vup>1</>次免费刷新"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_02_a",
+  "desc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多<@ba.vup>24</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_125_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_02_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>每当范围内有敌人或干员进入<@ba.vup>沉睡</>或<@ba.vup>晕眩</>时，使已激活的【萨尔贡】【精准】层数<@ba.vup>+1</>（每场战斗至多<@ba.vup>24</>层）"
+  "upgradeNum": 3
 }

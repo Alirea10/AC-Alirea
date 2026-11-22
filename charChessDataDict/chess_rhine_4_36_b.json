@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhine_4_36_b",
+  "desc": "【莱茵生命】【奥术】【精准】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+4%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_209_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "【莱茵生命】【奥术】【精准】每叠加<@autochess.dgreen>3</>层，本干员攻击力<@ba.vup>+4%</>"
+  "upgradeNum": 0
 }

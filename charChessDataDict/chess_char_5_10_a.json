@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_10_a",
+  "desc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_60_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_10_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<进入休整期时>触发身前一格的其他干员的“获得时”类效果"
+  "upgradeNum": 3
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_1_15_a",
+  "desc": "攻击力和生命值+<@ba.vup>20%</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_03_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 55,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_1_15_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "攻击力和生命值+<@ba.vup>20%</>"
+  "upgradeNum": 3
 }

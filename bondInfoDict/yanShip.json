@@ -1,21 +1,12 @@
 {
-  "bondId": "yanShip",
-  "name": "炎",
-  "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【炎】干员>战斗开始时，【炎】干员每次攻击时造成攻击力一定比例的<@ba.vup>随机元素损伤</>；全场敌人元素损伤恢复速度提升<@autochess.gray>（受层数影响）</>",
-  "iconId": "icon_yanShip",
-  "activeCount": 3,
   "activeCondition": "BOARD",
   "activeConditionTemplate": "count_threshold_upward",
+  "activeCount": 3,
   "activeParamList": [
     "3"
   ],
-  "effectId": "bondeffect_yan_2",
   "activeType": "BATTLE",
-  "weight": 10,
-  "isActiveInDeck": false,
-  "maxInactiveBondCount": -1,
-  "noStack": false,
-  "noSelect": false,
+  "bondId": "yanShip",
   "chessIdList": [
     "chess_char_1_03_a",
     "chess_char_2_04_a",
@@ -61,5 +52,14 @@
     "chess_char_6_15_v079_b",
     "chess_char_5_12_v079_a",
     "chess_char_5_12_v079_b"
-  ]
+  ],
+  "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【炎】干员>战斗开始时，【炎】干员每次攻击时造成攻击力一定比例的<@ba.vup>随机元素损伤</>；全场敌人元素损伤恢复速度提升<@autochess.gray>（受层数影响）</>",
+  "effectId": "bondeffect_yan_2",
+  "iconId": "icon_yanShip",
+  "isActiveInDeck": false,
+  "maxInactiveBondCount": -1,
+  "name": "炎",
+  "noSelect": false,
+  "noStack": false,
+  "weight": 10
 }

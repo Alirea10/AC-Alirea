@@ -1,9 +1,12 @@
 {
   "chessId": "chess_ursus_5_25_a",
+  "desc": "<战斗中>击倒敌人时，使已激活的【乌萨斯】【奥术】层数<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_168_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_ursus_5_25_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>击倒敌人时，使已激活的【乌萨斯】【奥术】层数<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

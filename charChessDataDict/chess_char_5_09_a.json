@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_09_a",
+  "desc": "<战斗中>战斗中当本干员身前一格的干员因特质使层数提升时，使其额外层数<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_59_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_09_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>战斗中当本干员身前一格的干员因特质使层数提升时，使其额外层数<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

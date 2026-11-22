@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rhodes_4_32_a",
+  "desc": "只需<@ba.vup>2</>个相同的本干员即可合成精锐\n<@autochess.gray>阿米娅精锐后可获得两个“变形同构体” </>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_93_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_rhodes_4_32_b",
-  "upgradeNum": 2,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "只需<@ba.vup>2</>个相同的本干员即可合成精锐\n<@autochess.gray>阿米娅精锐后可获得两个“变形同构体” </>"
+  "upgradeNum": 2
 }

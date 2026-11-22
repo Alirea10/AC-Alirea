@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_3_17_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_3_17_v079_b",
-  "upgradeNum": 3,
+  "desc": "<售出时>进行一次<@ba.vup>I阶</>干员的免费特殊招募\n本干员合成为精锐状态后，上述特殊招募变为<@ba.vup>V阶</>干员",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10098_a"
   ],
-  "desc": "<售出时>进行一次<@ba.vup>I阶</>干员的免费特殊招募\n本干员合成为精锐状态后，上述特殊招募变为<@ba.vup>V阶</>干员"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_3_17_v079_b",
+  "upgradeNum": 3
 }

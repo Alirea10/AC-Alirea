@@ -53,7 +53,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "先锋",
+  "noSelect": false,
   "noStack": false,
-  "weight": 10,
-  "noSelect": false
+  "weight": 10
 }

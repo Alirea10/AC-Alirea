@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_4_03_a",
+  "desc": "<获得时>获得<@ba.vup>1</>件“谢拉格不融冰”",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_92_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_4_03_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<获得时>获得<@ba.vup>1</>件“谢拉格不融冰”"
+  "upgradeNum": 3
 }

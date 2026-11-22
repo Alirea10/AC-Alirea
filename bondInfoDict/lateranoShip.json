@@ -47,7 +47,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "拉特兰",
+  "noSelect": false,
   "noStack": false,
-  "weight": 10,
-  "noSelect": false
+  "weight": 10
 }

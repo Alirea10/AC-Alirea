@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_6_16_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<休整期结束时> 本回合每消耗3资金，使已激活的【奥术】层数<@ba.vup>+4</>（每回合至多叠加36层）",
   "equipSlotNum": 2,
-  "showTag": "single",
   "garrisonIds": [
     "garrison_10121_b"
   ],
-  "desc": "<休整期结束时> 本回合每消耗3资金，使已激活的【奥术】层数<@ba.vup>+4</>（每回合至多叠加36层）"
+  "isGolden": true,
+  "showTag": "single",
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

@@ -1,9 +1,12 @@
 {
   "chessId": "chess_rainbow_1_22_b",
+  "desc": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_01_a"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 50,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>造成的伤害变为弱点伤害（基于敌人的防御力和法术抗性变换物理和法术伤害）"
+  "upgradeNum": 0
 }

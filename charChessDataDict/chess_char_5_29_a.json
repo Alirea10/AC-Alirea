@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_29_a",
+  "desc": "<休整期结束时>本回合每花费<@ba.vup>3</>资金，使已激活的【灵巧】【助力】层数<@ba.vup>+2</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_180_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_29_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>本回合每花费<@ba.vup>3</>资金，使已激活的【灵巧】【助力】层数<@ba.vup>+2</>"
+  "upgradeNum": 3
 }

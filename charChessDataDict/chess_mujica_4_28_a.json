@@ -1,9 +1,12 @@
 {
   "chessId": "chess_mujica_4_28_a",
+  "desc": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>3</>（每回合最高叠加<@ba.vup>9</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_174_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_mujica_4_28_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "进入Fever状态时，使已激活的【Mujica】层数+<@ba.vup>3</>（每回合最高叠加<@ba.vup>9</>层）"
+  "upgradeNum": 3
 }

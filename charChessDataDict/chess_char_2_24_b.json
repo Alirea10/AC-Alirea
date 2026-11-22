@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_2_24_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 55,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>每击倒一名敌人或我方干员使已激活的【阿戈尔】【助力】层数<@ba.vup>+6</>（每回合至多叠加18层）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10066_b"
   ],
-  "desc": "<战斗中>每击倒一名敌人或我方干员使已激活的【阿戈尔】【助力】层数<@ba.vup>+6</>（每回合至多叠加18层）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 55,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

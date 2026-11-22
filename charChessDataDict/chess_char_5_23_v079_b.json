@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_23_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>每次开启技能时使已激活的【萨尔贡】【精准】层数<@ba.vup>+8</>（每回合至多叠加32层）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10047_b"
   ],
-  "desc": "<战斗中>每次开启技能时使已激活的【萨尔贡】【精准】层数<@ba.vup>+8</>（每回合至多叠加32层）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

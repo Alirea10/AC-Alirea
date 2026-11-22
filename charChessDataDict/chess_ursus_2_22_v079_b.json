@@ -1,19 +1,19 @@
 {
   "chessId": "chess_ursus_2_22_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<进入休整期时>场上每有一名【乌萨斯】干员，转化<@ba.vup>2</>层【乌萨斯】临时层数为固定层数",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10021_b"
   ],
-  "desc": "<进入休整期时>场上每有一名【乌萨斯】干员，转化<@ba.vup>2</>层【乌萨斯】临时层数为固定层数"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

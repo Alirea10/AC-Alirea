@@ -1,19 +1,19 @@
 {
   "chessId": "chess_hero_6_29_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 1
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<获得时> 【谢拉格】层数<@ba.vup>+1</>（每次触发后升级，至多叠加12层）",
   "equipSlotNum": 2,
-  "showTag": "single",
   "garrisonIds": [
     "garrison_10050_b"
   ],
-  "desc": "<获得时> 【谢拉格】层数<@ba.vup>+1</>（每次触发后升级，至多叠加12层）"
+  "isGolden": true,
+  "showTag": "single",
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 1,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

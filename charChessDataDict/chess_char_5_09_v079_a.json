@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_5_09_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 1,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_5_09_v079_b",
-  "upgradeNum": 3,
+  "desc": "<休整期结束时>使已激活的核心盟约层数<@ba.vup>+10</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_230_a"
   ],
-  "desc": "<休整期结束时>使已激活的核心盟约层数<@ba.vup>+10</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 1,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_5_09_v079_b",
+  "upgradeNum": 3
 }

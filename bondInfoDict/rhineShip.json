@@ -53,7 +53,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": 0,
   "name": "莱茵生命",
+  "noSelect": false,
   "noStack": false,
-  "weight": 100,
-  "noSelect": false
+  "weight": 100
 }

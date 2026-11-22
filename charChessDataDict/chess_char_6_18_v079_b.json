@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_6_18_v079_b",
-  "isGolden": true,
-  "status": {
-    "evolvePhase": "PHASE_2",
-    "charLevel": 60,
-    "skillLevel": 7,
-    "favorPoint": 0,
-    "equipLevel": 3
-  },
-  "upgradeChessId": null,
-  "upgradeNum": 0,
+  "desc": "<战斗中>所有【叙拉古】干员每击倒一名敌人使已激活的【叙拉古】层数<@ba.vup>+4</>（每场战斗至多叠加40层）",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10079_b"
   ],
-  "desc": "<战斗中>所有【叙拉古】干员每击倒一名敌人使已激活的【叙拉古】层数<@ba.vup>+4</>（每场战斗至多叠加40层）"
+  "isGolden": true,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 3,
+    "evolvePhase": "PHASE_2",
+    "favorPoint": 0,
+    "skillLevel": 7
+  },
+  "upgradeChessId": null,
+  "upgradeNum": 0
 }

@@ -20,7 +20,7 @@
   "isActiveInDeck": false,
   "maxInactiveBondCount": -1,
   "name": "审判",
+  "noSelect": false,
   "noStack": false,
-  "weight": 0,
-  "noSelect": false
+  "weight": 0
 }

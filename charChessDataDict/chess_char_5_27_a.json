@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_27_a",
+  "desc": "<战斗中>开启技能时，当前已激活且层数最多的盟约层数<@ba.vup>+3</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_140_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_27_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>开启技能时，当前已激活且层数最多的盟约层数<@ba.vup>+3</>"
+  "upgradeNum": 3
 }

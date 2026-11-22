@@ -1,9 +1,12 @@
 {
   "chessId": "chess_ursus_4_27_a",
+  "desc": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多<@ba.vup>12</>层）",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_106_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_ursus_4_27_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<部署时>使自身已激活的盟约层数<@ba.vup>+4</>（每场作战至多<@ba.vup>12</>层）"
+  "upgradeNum": 3
 }

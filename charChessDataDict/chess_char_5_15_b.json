@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_15_b",
+  "desc": "<休整期结束时>使自身及身前一格干员的已激活盟约分别各层数<@ba.vup>+8</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_79_b"
   ],
   "isGolden": true,
+  "showTag": null,
   "status": {
     "charLevel": 60,
     "equipLevel": 1,
@@ -12,8 +15,5 @@
     "skillLevel": 7
   },
   "upgradeChessId": null,
-  "upgradeNum": 0,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<休整期结束时>使自身及身前一格干员的已激活盟约分别各层数<@ba.vup>+8</>"
+  "upgradeNum": 0
 }

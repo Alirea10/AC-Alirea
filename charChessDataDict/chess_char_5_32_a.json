@@ -1,9 +1,12 @@
 {
   "chessId": "chess_char_5_32_a",
+  "desc": "<战斗中>击倒敌人时使自身已激活的【巧匠】盟约层数<@ba.vup>+1</>",
+  "equipSlotNum": 2,
   "garrisonIds": [
     "garrison_218_a"
   ],
   "isGolden": false,
+  "showTag": null,
   "status": {
     "charLevel": 1,
     "equipLevel": 0,
@@ -12,8 +15,5 @@
     "skillLevel": 4
   },
   "upgradeChessId": "chess_char_5_32_b",
-  "upgradeNum": 3,
-  "equipSlotNum": 2,
-  "showTag": null,
-  "desc": "<战斗中>击倒敌人时使自身已激活的【巧匠】盟约层数<@ba.vup>+1</>"
+  "upgradeNum": 3
 }

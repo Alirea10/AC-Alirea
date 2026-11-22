@@ -1,19 +1,19 @@
 {
   "chessId": "chess_char_3_11_v079_a",
-  "isGolden": false,
-  "status": {
-    "evolvePhase": "PHASE_1",
-    "charLevel": 60,
-    "skillLevel": 4,
-    "favorPoint": 0,
-    "equipLevel": 0
-  },
-  "upgradeChessId": "chess_char_3_11_v079_b",
-  "upgradeNum": 3,
+  "desc": "<获得时>【谢拉格】【精准】层数<@ba.vup>+4</>",
   "equipSlotNum": 2,
-  "showTag": null,
   "garrisonIds": [
     "garrison_10051_a"
   ],
-  "desc": "<获得时>【谢拉格】【精准】层数<@ba.vup>+4</>"
+  "isGolden": false,
+  "showTag": null,
+  "status": {
+    "charLevel": 60,
+    "equipLevel": 0,
+    "evolvePhase": "PHASE_1",
+    "favorPoint": 0,
+    "skillLevel": 4
+  },
+  "upgradeChessId": "chess_char_3_11_v079_b",
+  "upgradeNum": 3
 }
