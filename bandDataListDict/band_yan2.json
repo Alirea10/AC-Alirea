@@ -2,9 +2,7 @@
   "bandId": "band_yan2",
   "sortId": 45,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【黑白相易】\\n<@autochess.dgreen>拖拽使用（消耗1）</>：选择一名我方干员移除，获得1名不高于该干员等阶的【炎】干员\\n<@ba.vdown><在场6名不同【炎】干员> 效果替换为战斗开始时收集【炎】干员部分属性召唤“炎佑”</>\\n<@ba.vdown><在场9名不同【炎】干员> 效果改为召唤两只“炎佑”</>",
   "totalHp": 23,
   "effectId": "aceffect_band_83",

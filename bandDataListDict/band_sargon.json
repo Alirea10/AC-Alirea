@@ -2,9 +2,7 @@
   "bandId": "band_sargon",
   "sortId": 47,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【沙洲梦魇】\\n<@autochess.dgreen>被动效果</>：获得3名【萨尔贡】干员后使当前调度中心升级消耗资金<@ba.vup>-3</>，调度中心每个等级至多生效1次\\n<@ba.vdown><在场6名不同【萨尔贡】干员> 效果替换为【萨尔贡】干员开启技能会使所有【萨尔贡】干员攻击力增加</>",
   "totalHp": 24,
   "effectId": "aceffect_band_69",

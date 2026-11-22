@@ -2,9 +2,7 @@
   "bandId": "band_bonus",
   "sortId": 44,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【二重奏】\\n<@autochess.dgreen>被动效果</>：每回合首次晋升精锐干员时，获得1次额外的晋升奖励",
   "totalHp": 24,
   "effectId": "aceffect_band_76",

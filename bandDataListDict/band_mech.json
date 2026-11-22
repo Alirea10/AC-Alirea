@@ -2,9 +2,7 @@
   "bandId": "band_mech",
   "sortId": 21,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【暴躁铁皮】\\n<@autochess.dgreen>被动效果</>：第1回合获得1名可以装备4件装备的特殊干员<@ba.vup><“暴躁铁皮”></>",
   "totalHp": 29,
   "effectId": "aceffect_band_103",

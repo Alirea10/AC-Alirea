@@ -2,9 +2,7 @@
   "bandId": "band_egir",
   "sortId": 51,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【猎人战法】\\n<@autochess.dgreen>调度中心等级达到4级解锁</>\\n<@autochess.dgreen>点击使用（消耗1）</>：获得1名【阿戈尔】干员（等阶不高于当前调度中心）\\n<@ba.vdown><在场6名不同【阿戈尔】干员> 效果替换为前3名【阿戈尔】干员首次被击倒时召唤整备区最右侧一名可部署至当前位置的【阿戈尔】干员</>",
   "totalHp": 23,
   "effectId": "aceffect_band_67",

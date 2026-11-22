@@ -2,7 +2,6 @@
   "stageId": "act3autochess_m01",
   "mode": [
     "mode_training_2",
-    "mode_single_funny",
     "mode_multi_normal",
     "mode_multi_funny",
     "mode_single_1",
@@ -12,8 +11,7 @@
     "mode_single_5",
     "mode_single_6",
     "mode_single_7",
-    "mode_single_8",
-    "mode_single_normal"
+    "mode_single_8"
   ],
   "weight": 50
 }

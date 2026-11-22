@@ -7,7 +7,6 @@
     "mode_multi_normal": 1641600,
     "mode_multi_hard": 4104000,
     "mode_multi_abyss": 6840000,
-    "mode_single_funny": 393984,
     "mode_single_1": 492480,
     "mode_single_2": 656640,
     "mode_single_3": 820800,
@@ -27,10 +26,7 @@
     "mode_single_17": 5472000,
     "mode_single_18": 5928000,
     "mode_single_19": 6384000,
-    "mode_single_20": 6840000,
-    "mode_single_abyss": 7200000,
-    "mode_single_hard": 3600000,
-    "mode_single_normal": 750000
+    "mode_single_20": 6840000
   },
   "isHidingBoss": true
 }

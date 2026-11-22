@@ -2,9 +2,7 @@
   "bandId": "band_kazimier",
   "sortId": 53,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【骑士团长】\\n<@autochess.dgreen>点击使用（消耗6）</>：获得1名【卡西米尔】干员（等阶不高于当前调度中心），每回合休整期结束时指令消耗资金<@ba.vup>-2</>，使用后指令重置并可再次使用\\n<@ba.vdown><在场6名不同【卡西米尔】干员> 效果替换为【卡西米尔】干员阻挡时每2秒对周围敌人造成真实伤害并晕眩，未阻挡时攻击附带真实伤害</>",
   "totalHp": 25,
   "effectId": "aceffect_band_62",

@@ -2,9 +2,7 @@
   "bandId": "band_siracusa",
   "sortId": 57,
   "bandType": "BONDRELEVANT",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【量体裁衣】\\n<@autochess.dgreen>被动效果</>：每回合首次主动刷新后获得<@ba.vup>1</>资金\\n<@ba.vdown><在场6名不同【叙拉古】干员> 效果替换为【叙拉古】干员部署后进入隐匿状态，在隐匿状态和脱离隐匿10秒内对敌人攻击时有概率造成真实伤害并恐惧目标</>",
   "totalHp": 26,
   "effectId": "aceffect_band_65",

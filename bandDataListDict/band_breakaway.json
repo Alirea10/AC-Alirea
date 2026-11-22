@@ -2,9 +2,7 @@
   "bandId": "band_breakaway",
   "sortId": 24,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【消解空间】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，下场战斗开始后首次受到伤害时使其击倒，并召唤整备区最右侧干员",
   "totalHp": 27,
   "effectId": "aceffect_band_91",

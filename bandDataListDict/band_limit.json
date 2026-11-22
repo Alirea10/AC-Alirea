@@ -2,9 +2,7 @@
   "bandId": "band_limit",
   "sortId": 43,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【正直教官】\\n<@autochess.dgreen>拖拽使用（消耗0）</>：选择一名我方干员，使其在下场战斗中卫戍能力的叠层上限提升，数量等同于当前回合数",
   "totalHp": 25,
   "effectId": "aceffect_band_87",

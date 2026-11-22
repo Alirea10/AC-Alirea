@@ -2,9 +2,7 @@
   "bandId": "band_treasure",
   "sortId": 22,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【宝藏探机】\\n<@autochess.dgreen>拖拽使用（消耗1）</>：选择一个可用地块，部署1个<@ba.vdown><“模拟宝藏”></><@ba.acrem>（冷却3回合）</>\\n<@ba.acrem><“模拟宝藏”>：被敌人触碰就会永久消失，战斗结束时若仍存在则获得额外1资金</>",
   "totalHp": 22,
   "effectId": "aceffect_band_100",

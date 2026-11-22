@@ -2,9 +2,7 @@
   "bandId": "band_closeout",
   "sortId": 41,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【打包速递】\\n<@autochess.dgreen>点击使用（消耗9）</>：获得当前调度中心中的所有干员，每回合休整期结束时指令消耗资金<@ba.vup>-1</>，使用后指令重置并可再次使用",
   "totalHp": 23,
   "effectId": "aceffect_band_75",

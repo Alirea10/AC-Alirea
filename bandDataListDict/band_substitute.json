@@ -2,9 +2,7 @@
   "bandId": "band_substitute",
   "sortId": 35,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【替身娃娃】\\n<@autochess.dgreen>被动效果</>：每回合首次出售初始干员时，改为与调度中心中随机1名干员交换",
   "totalHp": 25,
   "effectId": "aceffect_band_98",

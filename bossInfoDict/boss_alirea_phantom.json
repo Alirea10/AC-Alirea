@@ -7,9 +7,5 @@
   "isHidingBoss": false,
   "sortId": 5,
   "weight": 10,
-  "bloodDataDict": {
-    "mode_single_abyss": 3000000,
-    "mode_single_hard": 780000,
-    "mode_single_normal": 200000
-  }
+  "bloodDataDict": {}
 }

@@ -2,9 +2,7 @@
   "bandId": "band_jesica",
   "sortId": 13,
   "bandType": "GENERAL",
-  "inactiveModeIdList": [
-    "mode_single_funny"
-  ],
+  "inactiveModeIdList": [],
   "bandDesc": "【集结指示】\\n<@autochess.dgreen>被动效果</>：在第4、7、10、13回合进入休整期时获得1个<@ba.vup><寻呼模块></>\\n<@ba.acrem><寻呼模块>：装备时销毁，在调度中心出现至多3名拥有该干员第一盟约的其他干员，免费获取其中1名（等阶不高于当前调度中心）</>",
   "totalHp": 22,
   "effectId": "aceffect_band_18",
