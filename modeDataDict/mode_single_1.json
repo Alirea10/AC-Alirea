@@ -40,7 +40,18 @@
     "maniShip",
     "emptyShip",
     "docShip",
-    "arcaneShip"
+    "arcaneShip",
+    "lateranoShip",
+    "rainbowShip",
+    "starCrownShip",
+    "mujicaShip",
+    "rhodesShip",
+    "kazdelShip",
+    "samiShip",
+    "rhineShip",
+    "scoutShip",
+    "rimBShip",
+    "rtisanShip"
   ],
   "inactiveBondIdList": [
     "egirShip",
