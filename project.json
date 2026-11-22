@@ -51,7 +51,7 @@
           "scoutShip": "release",
           "siracusaShip": "all",
           "skillfulShip": "release",
-          "soloShip": "release",
+          "soloShip": "ignore",
           "starCrownShip": "immune",
           "steadShip": "release",
           "suntShip": "ignore",
@@ -105,7 +105,6 @@
               "raidShip",
               "scoutShip",
               "skillfulShip",
-              "soloShip",
               "steadShip",
               "swiftShip",
               "visiShip",
@@ -149,14 +148,20 @@
         "raidShip",
         "scoutShip",
         "skillfulShip",
-        "soloShip",
         "steadShip",
         "swiftShip",
         "visiShip",
         "rtisanShip",
         "docShip"
       ],
-      "mode": "banCore"
+      "mode": "banCore",
+      "immuneBonds": [
+        "suntShip",
+        "emptyShip",
+        "maniShip",
+        "investShip",
+        "soloShip"
+      ]
     },
     "baseRewardDataList": [],
     "battleDataDict": {
