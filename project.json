@@ -1588,6 +1588,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -1765,6 +1775,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -1942,6 +1962,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -2119,6 +2149,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -2296,6 +2336,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -2473,6 +2523,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -2650,6 +2710,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -2827,6 +2897,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3004,6 +3084,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3181,6 +3271,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3358,6 +3458,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3535,6 +3645,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3712,6 +3832,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -3889,6 +4019,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -4066,6 +4206,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
@@ -4243,6 +4393,16 @@
             "bossId": "boss_17",
             "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_11_S",
             "isSpPrepare": false
+          },
+          {
+            "bossId": "boss_alirea_phantom",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_02_S"
+          },
+          {
+            "bossId": "boss_alirea_rosmontis",
+            "isSpPrepare": false,
+            "levelId": "Activities/ACT3AUTOCHESS/level_act3autochess_h07_08_S"
           }
         ],
         "15": [
