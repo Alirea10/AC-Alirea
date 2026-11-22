@@ -40,7 +40,8 @@
     "investShip",
     "raidShip",
     "indomShip",
-    "maniShip"
+    "maniShip",
+    "testBond"
   ],
   "inactiveBondIdList": [],
   "inactiveEnemyKey": [],

@@ -56,7 +56,8 @@
     "scoutShip",
     "starCrownShip",
     "rimBShip",
-    "rtisanShip"
+    "rtisanShip",
+    "testBond"
   ],
   "inactiveBondIdList": [],
   "inactiveEnemyKey": [

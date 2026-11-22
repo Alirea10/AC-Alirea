@@ -56,7 +56,8 @@
     "rhineShip",
     "scoutShip",
     "rimBShip",
-    "rtisanShip"
+    "rtisanShip",
+    "testBond"
   ],
   "inactiveBondIdList": [],
   "inactiveEnemyKey": [],
